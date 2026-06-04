@@ -5,22 +5,22 @@
    Tailwind v4 @theme: ogni token genera utility (bg-gold, font-display, …)
    ═══════════════════════════════════════════════════════════════ */
 @theme {
-  /* Colours */
-  --color-bg: #000000;
-  --color-surface: #0a0a0f;
-  --color-card: #111111;
-  --color-ink: #ffffff;
-  --color-ink-2: #9898a8;
-  --color-muted: #6a6a7a;
+  /* Colours — carbone caldo + avorio + oro (Premium Restraint / luxury) */
+  --color-bg: #0e0c0d;
+  --color-surface: #15131a;
+  --color-card: #17151b;
+  --color-ink: #f4f1ea;
+  --color-ink-2: #a39c91;
+  --color-muted: #726c64;
   --color-gold: #d6a21a;
   --color-gold-light: #eab429;
   --color-gold-contrast: #181308;
   --color-red: #e63329;
-  --color-line: rgba(255, 255, 255, 0.07);
-  --color-line-2: rgba(255, 255, 255, 0.12);
+  --color-line: rgba(244, 241, 234, 0.07);
+  --color-line-2: rgba(244, 241, 234, 0.12);
 
-  /* Typography */
-  --font-display: "Clash Display", "Rajdhani", sans-serif;
+  /* Typography — display serif high-contrast (luxury), body Satoshi */
+  --font-display: "Playfair Display", "Clash Display", Georgia, serif;
   --font-body: "Satoshi", "Inter", system-ui, -apple-system, sans-serif;
   --font-mono: "Space Grotesk", sans-serif;
   /* gold per testo su fondo nero (più chiaro = legge "oro" non "bronzo") */
@@ -42,7 +42,7 @@
   *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 }
 
-html { scroll-behavior: smooth; scrollbar-width: thin; scrollbar-color: rgba(214,162,26,.25) #000; }
+html { scroll-behavior: smooth; scrollbar-width: thin; scrollbar-color: rgba(214,162,26,.25) var(--color-bg); }
 
 body {
   background: var(--color-bg);
@@ -56,22 +56,35 @@ body {
   overflow-x: hidden;
 }
 
+/* Sfondo "materiale": carbone caldo + alone dorato morbido in alto + vignettatura.
+   Fisso, sotto i contenuti — dà profondità senza il nero piatto. */
+body::before {
+  content: ""; position: fixed; inset: 0; z-index: -2; pointer-events: none;
+  background:
+    radial-gradient(120% 80% at 50% -10%, rgba(214,162,26,.10) 0%, rgba(214,162,26,.03) 26%, transparent 55%),
+    radial-gradient(100% 100% at 50% 0%, #151218 0%, #0e0c0d 60%, #0a090a 100%);
+}
+body::after {
+  content: ""; position: fixed; inset: 0; z-index: -1; pointer-events: none;
+  background: radial-gradient(120% 90% at 50% 45%, transparent 55%, rgba(0,0,0,.45) 100%); /* vignettatura */
+}
+
 ::selection { background: rgba(214, 162, 26, 0.3); color: #fff; }
 a:focus-visible, button:focus-visible { outline: 2px solid var(--color-gold); outline-offset: 3px; }
 ::-webkit-scrollbar { width: 8px; }
-::-webkit-scrollbar-track { background: #000; }
+::-webkit-scrollbar-track { background: var(--color-bg); }
 ::-webkit-scrollbar-thumb { background: rgba(214,162,26,.25); border-radius: 100vw; }
 ::-webkit-scrollbar-thumb:hover { background: rgba(214,162,26,.45); }
 
-/* (3)(4)(6)(9) Gerarchia display: tracking ottico negativo, interlinea stretta, no orfani */
+/* (3)(4)(6)(9) Gerarchia display serif: tracking lieve, interlinea elegante, no orfani */
 h1, h2, h3, h4 {
   font-family: var(--font-display);
-  font-weight: 600;
-  line-height: 1.03;
-  letter-spacing: -0.02em;
+  font-weight: 500;
+  line-height: 1.08;
+  letter-spacing: -0.01em;
   text-wrap: balance;                 /* (6) niente vedove/orfani nei titoli */
 }
-h1 { letter-spacing: -0.028em; }      /* (3) il display più grande vuole tracking più stretto */
+h1 { letter-spacing: -0.015em; }
 
 /* (6) body: spezzatura più armoniosa */
 p { text-wrap: pretty; }
@@ -89,33 +102,36 @@ p { text-wrap: pretty; }
 /* ── Reusable component classes (Premium Restraint) ───────── */
 @layer components {
   .btn-primary {
-    display: inline-flex; align-items: center; gap: 8px;
-    padding: 16px 36px;
-    background: var(--color-gold); color: var(--color-gold-contrast);
-    font-family: var(--font-display); font-size: 0.9rem; font-weight: 700;
-    letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none;
+    display: inline-flex; align-items: center; gap: 9px;
+    padding: 15px 34px;
+    /* finitura oro raffinata: lieve gradiente metallico invece del fill piatto */
+    background: linear-gradient(180deg, #e7bb3e 0%, var(--color-gold) 60%, #c0900f 100%);
+    color: var(--color-gold-contrast);
+    font-family: var(--font-mono); font-size: 0.78rem; font-weight: 600;
+    letter-spacing: 0.16em; text-transform: uppercase; text-decoration: none;
     border: none; border-radius: var(--radius-btn); cursor: pointer;
+    box-shadow: 0 1px 0 rgba(255,255,255,.25) inset, 0 10px 30px -12px rgba(214,162,26,.5);
     position: relative; overflow: hidden;
-    transition: background 0.4s var(--ease-premium), transform 0.3s var(--ease-premium), box-shadow 0.3s;
+    transition: transform 0.35s var(--ease-premium), box-shadow 0.35s var(--ease-premium), filter .35s;
   }
-  .btn-primary:hover { background: var(--color-gold-light); transform: translateY(-2px); box-shadow: 0 8px 32px rgba(214,162,26,.25); }
+  .btn-primary:hover { transform: translateY(-2px); filter: brightness(1.05); box-shadow: 0 1px 0 rgba(255,255,255,.3) inset, 0 16px 40px -12px rgba(214,162,26,.55); }
   .btn-primary:active { transform: translateY(0); }
 
   .btn-secondary {
-    display: inline-flex; align-items: center; gap: 8px;
-    padding: 14px 32px; background: transparent; color: var(--color-ink);
-    font-family: var(--font-display); font-size: 0.9rem; font-weight: 700;
-    letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none;
-    border: 1px solid rgba(214,162,26,.4); border-radius: var(--radius-btn); cursor: pointer;
-    transition: all 0.3s var(--ease-premium);
+    display: inline-flex; align-items: center; gap: 9px;
+    padding: 14px 30px; background: transparent; color: var(--color-ink);
+    font-family: var(--font-mono); font-size: 0.78rem; font-weight: 500;
+    letter-spacing: 0.16em; text-transform: uppercase; text-decoration: none;
+    border: 1px solid var(--color-line-2); border-radius: var(--radius-btn); cursor: pointer;
+    transition: all 0.35s var(--ease-premium);
   }
-  .btn-secondary:hover { color: var(--color-gold); border-color: var(--color-gold); background: rgba(214,162,26,.06); transform: translateY(-2px); }
+  .btn-secondary:hover { color: var(--color-gold); border-color: rgba(214,162,26,.5); background: rgba(214,162,26,.05); transform: translateY(-2px); }
 
   .btn-whatsapp {
     display: inline-flex; align-items: center; gap: 8px;
-    padding: 14px 32px; background: #25d366; color: #fff;
-    font-family: var(--font-display); font-size: 0.9rem; font-weight: 700;
-    letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none;
+    padding: 14px 30px; background: #25d366; color: #fff;
+    font-family: var(--font-mono); font-size: 0.78rem; font-weight: 600;
+    letter-spacing: 0.14em; text-transform: uppercase; text-decoration: none;
     border: none; border-radius: var(--radius-btn); cursor: pointer;
     transition: background 0.3s, transform 0.3s;
   }
@@ -131,12 +147,12 @@ p { text-wrap: pretty; }
   .card--static:hover { transform: none; border-color: rgba(255,255,255,.1); box-shadow: 0 1px 3px rgba(0,0,0,.3); }
 
   .section-label {
-    display: inline-flex; align-items: center; gap: 12px;
+    display: inline-flex; align-items: center; gap: 14px;
     font-family: var(--font-mono); font-size: 11px; font-weight: 500;
-    letter-spacing: 0.24em; text-transform: uppercase; color: var(--color-gold-on-dark);
+    letter-spacing: 0.28em; text-transform: uppercase; color: var(--color-ink-2);
     margin-bottom: 22px;
   }
-  .section-label::before { content: ''; display: inline-block; width: 28px; height: 1px; background: var(--color-gold-on-dark); opacity: .5; }
+  .section-label::before { content: ''; display: inline-block; width: 32px; height: 1px; background: var(--color-gold); opacity: .7; }
 
   .gold-sep { width: 100%; max-width: 1100px; margin: 0 auto; height: 1px; background: linear-gradient(90deg, transparent, rgba(214,162,26,.25), transparent); }
 }
@@ -171,7 +187,7 @@ html.lenis, html.lenis body { height: auto; }
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 
-@keyframes livePulse { 0% { box-shadow: 0 0 0 0 rgba(37,211,102,.5); } 70% { box-shadow: 0 0 0 8px rgba(37,211,102,0); } 100% { box-shadow: 0 0 0 0 rgba(37,211,102,0); } }
+@keyframes livePulse { 0% { box-shadow: 0 0 0 0 rgba(214,162,26,.5); } 70% { box-shadow: 0 0 0 7px rgba(214,162,26,0); } 100% { box-shadow: 0 0 0 0 rgba(214,162,26,0); } }
 
 /* ── Marquee credenziali ──────────────────────────────────── */
 .marquee {
