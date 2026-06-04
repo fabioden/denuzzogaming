@@ -6,8 +6,10 @@ import SiteBackground from "@/components/SiteBackground";
 import SmoothScroll from "@/components/SmoothScroll";
 import Loader from "@/components/Loader";
 
-// Sito Business (Web Design · Automazioni · AI) — pagina dedicata su denuzzogaming.com
-const BUSINESS_URL = "/business";
+// Sito Business (Web Design · Automazioni · AI) — pagina statica.
+// Punta a /business/index.html così apre SEMPRE la pagina (sia in dev che in produzione),
+// senza che il router SPA la intercetti e rimandi alla home.
+const BUSINESS_URL = "/business/index.html";
 
 const footerLinks = [
   { label: "Home", href: "/" },
