@@ -1,0 +1,1908 @@
+<!doctype html>
+<html lang="it">
+<head>
+<base href="/business/" />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#050507" />
+<title>Denuzzo AI — Fabio Denuzzo</title>
+<meta name="description" content="Denuzzo AI: intelligenza artificiale applicata al gaming e al coaching EA FC. Scopri i servizi AI di Fabio Denuzzo." />
+<meta name="robots" content="index, follow" />
+<meta property="og:title" content="Denuzzo AI — Fabio Denuzzo" />
+<meta property="og:description" content="Intelligenza artificiale applicata al gaming e al coaching EA FC. Scopri i servizi AI di Fabio Denuzzo." />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="it_IT" />
+<meta property="og:image" content="https://denuzzogaming.com/img/og-default.jpg" />
+<link rel="icon" type="image/png" href="logo.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,300;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+/* ═══════════════════════════════════════════
+   Denuzzo Business v2 — Professional Landing Page
+   Gold + Blue accent palette
+   ═══════════════════════════════════════════ */
+:root {
+  --gold: #d6a21a;
+  --gold-light: #f0c85a;
+  --blue: #4a9eff;
+  --blue-dim: rgba(74,158,255,0.12);
+  --blue-glow: rgba(74,158,255,0.08);
+  --dark: #08080a;
+  --dark-card: #0e0e11;
+  --dark-card-2: #131316;
+  --ink-0: #f0ece4;
+  --ink-1: #b8b2a6;
+  --ink-2: #706c64;
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-sans: 'DM Sans', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior:smooth; -webkit-font-smoothing:antialiased; }
+body { background:#050507; color:var(--ink-0); font-family:var(--font-sans); overflow-x:hidden; }
+a, button { cursor:pointer; }
+
+/* ── Mesh Gradient Background (Apple-style) ── */
+.ai-mesh-bg {
+  position:fixed; inset:0; z-index:0; pointer-events:none;
+  overflow:hidden;
+}
+.ai-mesh-blob {
+  position:absolute; border-radius:50%; filter:blur(100px); opacity:0.35;
+  will-change:transform;
+}
+.ai-mesh-blob--gold {
+  width:70vw; height:70vw; max-width:1100px; max-height:1100px;
+  background:radial-gradient(circle, rgba(214,162,26,0.8) 0%, rgba(214,162,26,0.3) 35%, transparent 65%);
+  animation:meshDrift1 20s ease-in-out infinite;
+}
+.ai-mesh-blob--blue {
+  width:65vw; height:65vw; max-width:1000px; max-height:1000px;
+  background:radial-gradient(circle, rgba(74,158,255,0.7) 0%, rgba(74,158,255,0.25) 35%, transparent 65%);
+  animation:meshDrift2 25s ease-in-out infinite;
+}
+.ai-mesh-blob--purple {
+  width:60vw; height:60vw; max-width:900px; max-height:900px;
+  background:radial-gradient(circle, rgba(124,92,191,0.6) 0%, rgba(124,92,191,0.2) 35%, transparent 65%);
+  animation:meshDrift3 22s ease-in-out infinite;
+}
+@keyframes meshDrift1 {
+  0%{transform:translate(-10%,10%)} 33%{transform:translate(20%,60%)} 66%{transform:translate(50%,20%)} 100%{transform:translate(-10%,10%)}
+}
+@keyframes meshDrift2 {
+  0%{transform:translate(80%,20%)} 33%{transform:translate(30%,70%)} 66%{transform:translate(60%,10%)} 100%{transform:translate(80%,20%)}
+}
+@keyframes meshDrift3 {
+  0%{transform:translate(40%,80%)} 33%{transform:translate(10%,30%)} 66%{transform:translate(70%,50%)} 100%{transform:translate(40%,80%)}
+}
+
+/* ── Progress Bar ── */
+.ai-progress-bar {
+  position:fixed; top:0; left:0; z-index:90;
+  width:3px; height:100vh; pointer-events:none;
+}
+.ai-progress-track {
+  position:absolute; inset:0;
+  background:rgba(240,236,228,0.03);
+}
+.ai-progress-fill {
+  position:absolute; top:0; left:0; width:100%;
+  background:linear-gradient(to bottom, var(--gold), var(--blue));
+  transition:height 0.15s ease-out;
+  box-shadow:0 0 8px rgba(214,162,26,0.3);
+}
+.ai-progress-dot {
+  position:absolute; left:50%; width:8px; height:8px;
+  border-radius:50%; background:var(--gold);
+  transform:translateX(-50%); transition:top 0.15s ease-out;
+  box-shadow:0 0 12px rgba(214,162,26,0.4);
+}
+
+/* ── Hero Particles ── */
+.ai-hero-particles { position:absolute; inset:0; z-index:1; pointer-events:none; overflow:hidden; }
+.ai-hero-particle {
+  position:absolute; border-radius:50%; background:var(--gold); opacity:0;
+  animation:heroParticle linear infinite;
+}
+@keyframes heroParticle {
+  0%{opacity:0;transform:translateY(0) scale(0.5)} 15%{opacity:0.6} 85%{opacity:0.3} 100%{opacity:0;transform:translateY(-100vh) scale(0.2)}
+}
+
+/* ── Custom Cursor ── */
+.ai-cursor {
+  position:fixed; top:0; left:0; z-index:200000; pointer-events:none;
+  width:10px; height:10px; border-radius:50%;
+  background:var(--gold); mix-blend-mode:difference;
+  transition: width 0.2s, height 0.2s, margin 0.2s;
+}
+.ai-cursor-ring {
+  position:fixed; top:0; left:0; z-index:199999; pointer-events:none;
+  width:36px; height:36px; border-radius:50%;
+  border:1px solid rgba(214,162,26,0.3);
+  transition: width 0.3s, height 0.3s, margin 0.3s, border-color 0.3s;
+}
+.ai-cursor.hover { width:18px; height:18px; margin:-4px 0 0 -4px; }
+.ai-cursor-ring.hover { width:50px; height:50px; margin:-7px 0 0 -7px; border-color:var(--blue); }
+@media(max-width:768px){ .ai-cursor,.ai-cursor-ring{display:none} body{cursor:auto} a,button{cursor:pointer} }
+
+/* ── Grain ── */
+.ai-grain {
+  position:fixed; inset:0; z-index:50; pointer-events:none; opacity:0.025;
+  mix-blend-mode:overlay;
+  background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-repeat:repeat; background-size:256px;
+}
+
+/* ── Grid Lines ── */
+.ai-gridlines { position:fixed; inset:0; z-index:1; pointer-events:none; }
+.ai-gridlines span {
+  position:absolute; top:0; bottom:0; width:1px;
+  background:rgba(240,236,228,0.025);
+}
+
+/* ── Hero ── */
+.ai-hero {
+  position:relative; width:100%; height:100vh; min-height:650px;
+  display:flex; align-items:center; justify-content:center; overflow:hidden;
+}
+.ai-hero-bg {
+  position:absolute; inset:-40px; z-index:0;
+  background:url('img/ai-hero-bg.png') center/cover no-repeat;
+  filter:brightness(0.3) saturate(0.8);
+  will-change:transform;
+}
+.ai-hero-overlay {
+  position:absolute; inset:0; z-index:1;
+  background:
+    radial-gradient(ellipse at 50% 40%, rgba(74,158,255,0.04) 0%, transparent 60%),
+    linear-gradient(to bottom, rgba(8,8,10,0.2) 0%, rgba(8,8,10,0.05) 40%, rgba(8,8,10,0.75) 100%);
+}
+.ai-hero-content {
+  position:relative; z-index:2; text-align:center; max-width:900px; padding:2rem;
+}
+.ai-hero-eyebrow {
+  display:inline-flex; align-items:center; gap:8px;
+  font-family:var(--font-mono); font-size:11px; font-weight:500;
+  letter-spacing:0.25em; text-transform:uppercase; color:var(--blue);
+  margin-bottom:1.5rem; opacity:0; transform:translateY(20px);
+}
+.ai-hero-eyebrow .dot { width:6px; height:6px; border-radius:50%; background:var(--blue); animation:pulse 2s ease-in-out infinite; }
+@keyframes pulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:0.5;transform:scale(0.8)} }
+.ai-hero-title {
+  font-family:var(--font-display); font-weight:400;
+  font-size:clamp(3rem,8vw,6rem); line-height:1.05;
+  color:var(--ink-0); letter-spacing:-0.025em;
+  margin-bottom:1.5rem; opacity:0; transform:translateY(30px);
+}
+.ai-hero-title em { color:var(--gold); font-style:italic; }
+.ai-hero-sub {
+  font-family:var(--font-sans); font-size:clamp(1rem,1.4vw,1.15rem);
+  color:var(--ink-1); line-height:1.6; max-width:48ch; margin:0 auto 2.5rem;
+  opacity:0; transform:translateY(20px);
+}
+.ai-hero-cta {
+  display:inline-flex; align-items:center; gap:10px;
+  padding:16px 40px; background:transparent; color:var(--ink-0);
+  font-family:var(--font-mono); font-size:12px; font-weight:600;
+  letter-spacing:0.16em; text-transform:uppercase; text-decoration:none;
+  border:1px solid rgba(214,162,26,0.35); cursor:pointer;
+  transition:all 0.4s ease, box-shadow 0.4s ease;
+  position:relative; overflow:hidden; opacity:0; transform:translateY(20px);
+}
+.ai-hero-cta:hover { color:var(--dark); border-color:var(--gold); box-shadow:0 0 30px rgba(214,162,26,0.15), 0 0 60px rgba(74,158,255,0.08); }
+.ai-hero-cta::before {
+  content:''; position:absolute; inset:0;
+  background:var(--gold); transform:scaleX(0); transform-origin:left;
+  transition:transform 0.4s cubic-bezier(0.16,1,0.3,1);
+}
+.ai-hero-cta:hover::before { transform:scaleX(1); }
+.ai-hero-cta span, .ai-hero-cta svg { position:relative; z-index:1; }
+
+.ai-hero-scroll {
+  position:absolute; bottom:2.5rem; left:50%; transform:translateX(-50%); z-index:2;
+  display:flex; flex-direction:column; align-items:center; gap:10px;
+  color:var(--ink-2); font-family:var(--font-mono); font-size:9px;
+  letter-spacing:0.3em; text-transform:uppercase;
+  animation:heroFloat 3s ease-in-out infinite;
+}
+.ai-hero-scroll .scroll-line { width:1px; height:40px; background:linear-gradient(to bottom,var(--gold),transparent); }
+@keyframes heroFloat { 0%,100%{transform:translateX(-50%) translateY(0)} 50%{transform:translateX(-50%) translateY(-6px)} }
+
+.ai-hero-contact {
+  position:absolute; bottom:2.5rem; left:3rem; z-index:2;
+  font-family:var(--font-mono); font-size:10px; line-height:2;
+}
+.ai-hero-contact span { color:var(--ink-2); display:block; letter-spacing:0.1em; text-transform:uppercase; }
+.ai-hero-contact a { color:var(--gold); text-decoration:none; letter-spacing:0.02em; }
+.ai-hero-contact a:hover { text-decoration:underline; }
+
+.ai-hero-socials {
+  position:absolute; bottom:2.5rem; right:3rem; z-index:2; display:flex; gap:18px;
+}
+.ai-hero-socials a { color:var(--ink-2); transition:all 0.3s; text-decoration:none; }
+.ai-hero-socials a:hover { color:var(--blue); transform:translateY(-2px); }
+
+/* ── Hamburger Nav ── */
+.ai-nav { position:fixed; top:0; right:0; z-index:100; padding:1.5rem 2rem; }
+.ai-hamburger {
+  width:48px; height:48px; background:rgba(8,8,10,0.5);
+  backdrop-filter:blur(16px); border:1px solid rgba(240,236,228,0.06);
+  border-radius:50%; display:flex; flex-direction:column;
+  align-items:center; justify-content:center; gap:5px;
+  cursor:pointer; transition:all 0.4s ease; padding:0;
+}
+.ai-hamburger:hover { border-color:rgba(214,162,26,0.25); background:rgba(8,8,10,0.7); }
+.ai-ham-line {
+  width:18px; height:1.5px; background:var(--ink-0);
+  border-radius:1px; transition:all 0.4s cubic-bezier(0.16,1,0.3,1); transform-origin:center;
+}
+
+.ai-fullmenu {
+  position:fixed; inset:0; z-index:99;
+  background:rgba(8,8,10,0.97); backdrop-filter:blur(40px);
+  display:flex; align-items:center; justify-content:center;
+  opacity:0; visibility:hidden; transition:all 0.5s cubic-bezier(0.16,1,0.3,1);
+}
+.ai-fullmenu.is-open { opacity:1; visibility:visible; }
+.ai-fullmenu-inner { text-align:center; }
+.ai-fullmenu-link {
+  display:block; font-family:var(--font-display); font-size:clamp(2rem,5vw,3.5rem);
+  font-weight:400; color:var(--ink-2); text-decoration:none;
+  padding:0.35em 0; transition:all 0.4s ease; letter-spacing:-0.01em;
+}
+.ai-fullmenu-link:hover { color:var(--gold); transform:translateX(12px); letter-spacing:0.02em; }
+.ai-fullmenu-divider { width:50px; height:1px; background:rgba(74,158,255,0.15); margin:1.8rem auto; }
+.ai-fullmenu-small {
+  display:inline-flex; align-items:center; gap:6px;
+  font-family:var(--font-mono); font-size:11px;
+  color:var(--ink-2); text-decoration:none; padding:0.4em 0;
+  letter-spacing:0.12em; text-transform:uppercase; transition:color 0.3s;
+}
+.ai-fullmenu-small:hover { color:var(--blue); }
+
+/* ── Sections ── */
+.ai-section { padding:clamp(7rem,16vh,14rem) clamp(1.5rem,5vw,8rem); position:relative; z-index:2; }
+.ai-section-meta {
+  display:flex; align-items:center; gap:12px;
+  font-family:var(--font-mono); font-size:10px; font-weight:500;
+  letter-spacing:0.25em; text-transform:uppercase; color:var(--blue);
+  margin-bottom:1rem;
+}
+.ai-section-meta .ai-num { color:var(--gold); opacity:0.6; }
+.ai-section-meta .ai-bar { width:32px; height:1px; background:linear-gradient(90deg,var(--gold),var(--blue)); opacity:0.3; }
+.ai-section-title {
+  font-family:var(--font-display); font-weight:400;
+  font-size:clamp(2.6rem,5.5vw,4.2rem); line-height:1.08;
+  max-width:18ch; margin-bottom:1.8rem; color:var(--ink-0);
+  letter-spacing:-0.02em;
+}
+.ai-section-title em { color:var(--gold); font-style:italic; }
+.ai-section-title .blue { color:var(--blue); }
+.ai-section-text {
+  font-size:clamp(1rem,1.2vw,1.1rem); line-height:1.75;
+  color:var(--ink-1); max-width:58ch;
+}
+.ai-separator {
+  width:60px; height:1px;
+  background:linear-gradient(90deg, var(--gold), var(--blue));
+  margin:0 0 2rem 0; opacity:0.4;
+}
+
+/* ── Stats Bar ── */
+.ai-stats {
+  display:flex; justify-content:center; gap:clamp(2rem,6vw,5rem);
+  padding:clamp(4rem,8vh,7rem) 2rem;
+  border-top:1px solid rgba(214,162,26,0.04);
+  border-bottom:1px solid rgba(74,158,255,0.04);
+  flex-wrap:wrap; position:relative; z-index:2;
+}
+.ai-stat { text-align:center; }
+.ai-stat-value {
+  font-family:var(--font-display); font-size:clamp(2.5rem,5vw,3.5rem);
+  font-weight:400; color:var(--ink-0); line-height:1;
+}
+.ai-stat-value .gold { color:var(--gold); }
+.ai-stat-label {
+  font-family:var(--font-mono); font-size:10px; font-weight:500;
+  letter-spacing:0.2em; text-transform:uppercase; color:var(--ink-2);
+  margin-top:0.6rem;
+}
+
+/* ── Services Flip Cards ── */
+.ai-services-grid {
+  display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:1.5rem; margin-top:3rem;
+}
+.ai-flip-card { perspective:1000px; height:320px; cursor:pointer; }
+.ai-flip-inner {
+  position:relative; width:100%; height:100%;
+  transition:transform 0.7s cubic-bezier(0.16,1,0.3,1);
+  transform-style:preserve-3d;
+}
+.ai-flip-card:hover .ai-flip-inner { transform:rotateY(180deg); }
+.ai-flip-front, .ai-flip-back {
+  position:absolute; inset:0; backface-visibility:hidden;
+  border-radius:14px; padding:2rem;
+  border:1px solid rgba(240,236,228,0.04);
+  display:flex; flex-direction:column;
+}
+.ai-flip-front {
+  background:rgba(14,14,17,0.6);
+  backdrop-filter:blur(20px); -webkit-backdrop-filter:blur(20px);
+  justify-content:space-between;
+}
+.ai-flip-front::after {
+  content:''; position:absolute; top:0; left:0; right:0; height:2px;
+  background:linear-gradient(90deg, var(--gold), var(--blue));
+  opacity:0; transition:opacity 0.3s; border-radius:14px 14px 0 0;
+}
+.ai-flip-card:hover .ai-flip-front::after { opacity:1; }
+.ai-flip-back {
+  background:rgba(19,19,22,0.7);
+  backdrop-filter:blur(20px); -webkit-backdrop-filter:blur(20px);
+  transform:rotateY(180deg); justify-content:center;
+  border-color:rgba(74,158,255,0.08);
+}
+.ai-flip-icon {
+  width:52px; height:52px; border-radius:12px;
+  background:linear-gradient(135deg, rgba(214,162,26,0.08), rgba(74,158,255,0.06));
+  display:flex; align-items:center; justify-content:center; font-size:24px;
+  margin-bottom:1.5rem;
+}
+.ai-flip-name {
+  font-family:var(--font-sans); font-size:1.15rem; font-weight:600;
+  color:var(--ink-0); margin-bottom:0.5rem;
+}
+.ai-flip-desc { font-size:0.9rem; line-height:1.6; color:var(--ink-2); }
+.ai-flip-hint {
+  margin-top:auto; font-family:var(--font-mono); font-size:10px;
+  letter-spacing:0.15em; text-transform:uppercase; color:var(--blue);
+  opacity:0.6; display:flex; align-items:center; gap:6px;
+}
+.ai-flip-back-title {
+  font-family:var(--font-mono); font-size:10px; font-weight:600;
+  letter-spacing:0.2em; text-transform:uppercase; color:var(--gold);
+  margin-bottom:1.2rem;
+}
+.ai-flip-back-list { list-style:none; display:flex; flex-direction:column; gap:10px; }
+.ai-flip-back-list li {
+  display:flex; align-items:flex-start; gap:10px;
+  font-size:0.9rem; line-height:1.5; color:var(--ink-1);
+}
+.ai-flip-back-list li::before {
+  content:'→'; color:var(--blue); flex-shrink:0; margin-top:1px;
+}
+
+/* ── Portfolio Carousel ── */
+.ai-carousel-section { padding:clamp(7rem,16vh,14rem) 0; position:relative; overflow:hidden; z-index:2; }
+.ai-carousel-header { padding:0 clamp(1.5rem,5vw,8rem); margin-bottom:3rem; }
+.ai-carousel {
+  display:flex; gap:1.5rem; padding:0 clamp(1.5rem,5vw,8rem);
+  overflow-x:auto; scroll-snap-type:x mandatory; -webkit-overflow-scrolling:touch;
+  scrollbar-width:none; cursor:grab;
+}
+.ai-carousel::-webkit-scrollbar { display:none; }
+.ai-carousel:active { cursor:grabbing; }
+.ai-carousel-card {
+  flex-shrink:0; width:clamp(300px,40vw,450px); scroll-snap-align:start;
+  border-radius:14px; overflow:hidden; position:relative;
+  aspect-ratio:4/3;
+  background:rgba(14,14,17,0.5); backdrop-filter:blur(12px); -webkit-backdrop-filter:blur(12px);
+  border:1px solid rgba(240,236,228,0.05);
+  transition:all 0.4s ease;
+}
+.ai-carousel-card:hover { border-color:rgba(214,162,26,0.15); transform:translateY(-6px); }
+.ai-carousel-placeholder {
+  width:100%; height:100%; display:flex; align-items:center; justify-content:center;
+  flex-direction:column; gap:8px;
+  background:linear-gradient(135deg, rgba(214,162,26,0.02), rgba(74,158,255,0.04));
+  font-family:var(--font-mono); font-size:11px; color:var(--ink-2);
+  letter-spacing:0.12em; text-transform:uppercase;
+}
+.ai-carousel-placeholder .ph-icon { font-size:28px; opacity:0.3; margin-bottom:4px; }
+.ai-carousel-label {
+  position:absolute; bottom:0; left:0; right:0;
+  padding:1.5rem; background:linear-gradient(to top, rgba(8,8,10,0.95) 0%, transparent 100%);
+}
+.ai-carousel-label span {
+  font-family:var(--font-mono); font-size:10px; color:var(--blue);
+  letter-spacing:0.12em; text-transform:uppercase; display:block; margin-bottom:4px;
+}
+.ai-carousel-label h3 {
+  font-family:var(--font-sans); font-size:1rem; font-weight:600; color:var(--ink-0);
+}
+.ai-carousel-dots {
+  display:flex; justify-content:center; gap:8px; margin-top:2rem;
+  padding:0 clamp(1.5rem,5vw,8rem);
+}
+.ai-carousel-dot {
+  width:32px; height:3px; border-radius:2px;
+  background:rgba(240,236,228,0.08); transition:all 0.3s;
+  border:none; padding:0; cursor:pointer;
+}
+.ai-carousel-dot.active { background:var(--gold); width:48px; }
+
+/* ── Testimonials ── */
+.ai-testimonials { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:1.5rem; margin-top:3rem; }
+.ai-testimonial {
+  background:rgba(14,14,17,0.5); backdrop-filter:blur(16px); -webkit-backdrop-filter:blur(16px);
+  border:1px solid rgba(240,236,228,0.05);
+  border-radius:14px; padding:2.2rem; position:relative;
+  transition:all 0.4s ease;
+}
+.ai-testimonial:hover { border-color:rgba(74,158,255,0.1); transform:translateY(-4px); }
+.ai-testimonial-quote {
+  position:absolute; top:1.2rem; right:1.5rem;
+  font-family:var(--font-display); font-size:3rem;
+  color:rgba(74,158,255,0.06); line-height:1;
+}
+.ai-testimonial-text {
+  font-size:0.95rem; line-height:1.75; color:var(--ink-1);
+  font-style:italic; margin-bottom:1.5rem; position:relative; z-index:1;
+}
+.ai-testimonial-footer { display:flex; align-items:center; gap:12px; }
+.ai-testimonial-avatar {
+  width:36px; height:36px; border-radius:50%;
+  background:linear-gradient(135deg, rgba(214,162,26,0.15), rgba(74,158,255,0.1));
+  display:flex; align-items:center; justify-content:center;
+  font-family:var(--font-display); font-size:14px; color:var(--gold);
+}
+.ai-testimonial-info {}
+.ai-testimonial-name {
+  font-family:var(--font-sans); font-size:13px; font-weight:600; color:var(--ink-0);
+}
+.ai-testimonial-role {
+  font-family:var(--font-mono); font-size:10px; color:var(--blue);
+  letter-spacing:0.1em; text-transform:uppercase;
+}
+
+/* ── FAQ ── */
+.ai-faq-list { margin-top:3rem; max-width:700px; }
+.ai-faq-item {
+  border-bottom:1px solid rgba(240,236,228,0.04); padding:1.5rem 0;
+}
+.ai-faq-q {
+  display:flex; align-items:center; justify-content:space-between; gap:16px;
+  font-family:var(--font-sans); font-size:1.05rem; font-weight:500;
+  color:var(--ink-0); cursor:pointer; background:none; border:none;
+  width:100%; text-align:left; padding:0; transition:color 0.3s;
+}
+.ai-faq-q:hover { color:var(--gold); }
+.ai-faq-q svg { flex-shrink:0; color:var(--blue); transition:transform 0.3s; }
+.ai-faq-q.is-open svg { transform:rotate(45deg); }
+.ai-faq-a {
+  max-height:0; overflow:hidden; transition:max-height 0.4s ease, padding 0.4s ease;
+  font-size:0.95rem; line-height:1.7; color:var(--ink-1); padding-top:0;
+}
+.ai-faq-a.is-open { max-height:300px; padding-top:1rem; }
+
+/* ── Contact ── */
+.ai-contact-wrap { display:flex; gap:clamp(3rem,6vw,6rem); flex-wrap:wrap; margin-top:3rem; align-items:flex-start; }
+.ai-contact-info { flex:1; min-width:280px; }
+.ai-contact-item { margin-bottom:2.2rem; }
+.ai-contact-label {
+  font-family:var(--font-mono); font-size:10px; font-weight:600;
+  letter-spacing:0.25em; text-transform:uppercase; color:var(--blue); margin-bottom:0.5rem;
+}
+.ai-contact-value { font-size:1.05rem; color:var(--ink-0); }
+.ai-contact-value a { color:var(--ink-0); text-decoration:none; transition:color 0.3s; }
+.ai-contact-value a:hover { color:var(--gold); }
+
+.ai-contact-form { flex:1; min-width:300px; }
+.ai-input {
+  width:100%; padding:14px 18px;
+  background:rgba(240,236,228,0.03); backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px);
+  border:1px solid rgba(240,236,228,0.06); border-radius:10px;
+  color:var(--ink-0); font-family:var(--font-sans); font-size:0.95rem;
+  margin-bottom:1rem; transition:border-color 0.3s; outline:none;
+}
+.ai-input:focus { border-color:rgba(74,158,255,0.3); }
+.ai-input::placeholder { color:var(--ink-2); }
+textarea.ai-input { min-height:130px; resize:vertical; }
+.ai-submit {
+  display:inline-flex; align-items:center; gap:10px;
+  padding:14px 36px; background:transparent; color:var(--ink-0);
+  font-family:var(--font-mono); font-size:12px; font-weight:600;
+  letter-spacing:0.14em; text-transform:uppercase;
+  border:1px solid rgba(214,162,26,0.3); cursor:pointer; transition:all 0.4s;
+  border-radius:0; position:relative; overflow:hidden;
+}
+.ai-submit::before {
+  content:''; position:absolute; inset:0;
+  background:linear-gradient(90deg,var(--gold),var(--blue));
+  transform:scaleX(0); transform-origin:left;
+  transition:transform 0.4s cubic-bezier(0.16,1,0.3,1);
+}
+.ai-submit:hover { color:var(--dark); border-color:var(--gold); }
+.ai-submit:hover::before { transform:scaleX(1); }
+.ai-submit span, .ai-submit svg { position:relative; z-index:1; }
+
+/* ── CTA Banner ── */
+.ai-cta-banner {
+  padding:clamp(5rem,10vh,8rem) clamp(1.5rem,5vw,8rem);
+  text-align:center; position:relative; overflow:hidden; z-index:2;
+  background:rgba(14,14,17,0.4); backdrop-filter:blur(16px);
+  border-top:1px solid rgba(214,162,26,0.04);
+  border-bottom:1px solid rgba(74,158,255,0.04);
+}
+.ai-cta-banner h2 {
+  font-family:var(--font-display); font-size:clamp(1.8rem,3.5vw,2.8rem);
+  font-weight:400; color:var(--ink-0); margin-bottom:1.5rem;
+}
+.ai-cta-banner em { color:var(--gold); font-style:italic; }
+
+/* ── Footer ── */
+.ai-footer {
+  padding:3rem clamp(1.5rem,5vw,8rem);
+  border-top:1px solid rgba(240,236,228,0.04);
+  display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1.5rem;
+}
+.ai-footer-left { font-family:var(--font-mono); font-size:10px; color:var(--ink-2); letter-spacing:0.1em; }
+.ai-footer-right { display:flex; gap:20px; }
+.ai-footer-right a { color:var(--ink-2); text-decoration:none; transition:all 0.3s; }
+.ai-footer-right a:hover { color:var(--blue); }
+.ai-footer-gaming {
+  font-family:var(--font-mono); font-size:10px; color:var(--ink-2);
+  letter-spacing:0.1em; text-decoration:none; transition:color 0.3s;
+  display:inline-flex; align-items:center; gap:6px;
+}
+.ai-footer-gaming:hover { color:var(--gold); }
+
+/* ── Language Toggle ── */
+.ai-lang-toggle {
+  display:flex; height:40px; border-radius:9999px;
+  background:rgba(8,8,10,0.5); backdrop-filter:blur(16px); -webkit-backdrop-filter:blur(16px);
+  border:1px solid rgba(240,236,228,0.06);
+  overflow:hidden; font-family:var(--font-mono); font-size:10px; font-weight:600;
+  letter-spacing:0.12em; align-items:stretch; flex-shrink:0;
+  position:fixed; top:1.5rem; right:5.5rem; z-index:100;
+}
+.ai-lang-btn {
+  padding:0 14px; background:transparent; border:none;
+  color:rgba(240,236,228,0.35); cursor:pointer; transition:all 0.3s ease;
+  font-family:inherit; font-size:inherit; font-weight:inherit;
+  letter-spacing:inherit; line-height:1; display:flex; align-items:center;
+}
+.ai-lang-btn.active { color:var(--blue); background:rgba(74,158,255,0.1); }
+@media(max-width:768px){ .ai-lang-btn,.ai-lang-toggle{cursor:pointer} }
+
+/* ── Language Picker Overlay ── */
+.ai-lang-picker-overlay{position:fixed;inset:0;z-index:100000;background:#050507;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2.5rem}
+.ai-lang-picker-title{font-family:var(--font-display);font-size:clamp(1.2rem,3vw,1.8rem);font-weight:300;letter-spacing:0.15em;text-transform:uppercase;color:rgba(240,236,228,0.7);text-align:center;line-height:1.6}
+.ai-lang-picker-buttons{display:flex;gap:1.5rem}
+.ai-lang-picker-btn{width:140px;height:56px;border-radius:9999px;border:1px solid rgba(74,158,255,0.25);background:transparent;color:var(--blue);font-family:var(--font-display);font-size:1.1rem;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;cursor:pointer;transition:all 0.4s cubic-bezier(0.22,1,0.36,1);position:relative;overflow:hidden}
+.ai-lang-picker-btn::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(74,158,255,0.12),transparent);opacity:0;transition:opacity 0.4s ease}
+.ai-lang-picker-btn:hover{border-color:rgba(74,158,255,0.6);box-shadow:0 0 30px rgba(74,158,255,0.12),0 0 60px rgba(74,158,255,0.05);transform:scale(1.05)}
+.ai-lang-picker-btn:hover::before{opacity:1}
+
+/* ── Scroll Reveal ── */
+.ai-reveal { opacity:0; transform:translateY(24px); transition:opacity 0.7s ease, transform 0.7s cubic-bezier(0.16,1,0.3,1); }
+.ai-reveal.is-visible { opacity:1; transform:translateY(0); }
+.ai-reveal-left { opacity:0; transform:translateX(-30px); transition:opacity 0.7s ease, transform 0.7s cubic-bezier(0.16,1,0.3,1); }
+.ai-reveal-left.is-visible { opacity:1; transform:translateX(0); }
+
+@media(max-width:768px) {
+  .ai-hero-contact, .ai-hero-socials { display:none; }
+  .ai-contact-wrap { flex-direction:column; }
+  .ai-stats { gap:2rem; }
+  .ai-flip-card { height:280px; }
+}
+
+</style>
+<style>
+/* ═══════════════════════════════════════════
+   Denuzzo Business — Premium 100K CSS
+   ═══════════════════════════════════════════ */
+
+/* ── Preloader ── */
+.preloader {
+  position:fixed; inset:0; z-index:10000;
+  background:#050507; display:flex; align-items:center; justify-content:center;
+  transition:opacity 0.8s ease, visibility 0.8s ease;
+}
+.preloader--out { opacity:0; visibility:hidden; }
+.preloader-inner { text-align:center; width:200px; }
+.preloader-logo {
+  display:flex; align-items:center; justify-content:center; margin-bottom:2rem;
+}
+.preloader-bar {
+  width:100%; height:2px; background:rgba(240,236,228,0.06); border-radius:2px; overflow:hidden;
+}
+.preloader-fill {
+  height:100%; background:linear-gradient(90deg, var(--gold), var(--blue));
+  transition:width 0.15s ease-out; border-radius:2px;
+}
+.preloader-pct {
+  font-family:var(--font-mono); font-size:11px; color:var(--ink-2);
+  letter-spacing:0.2em; margin-top:1rem;
+}
+
+/* ── Text Reveal ── */
+.text-reveal {
+  overflow:hidden; display:block;
+}
+.text-reveal-inner {
+  display:block;
+  clip-path:inset(0 100% 0 0);
+  transition:clip-path 1s cubic-bezier(0.16,1,0.3,1);
+  transition-delay:var(--tr-delay, 0s);
+}
+.text-reveal.is-revealed .text-reveal-inner {
+  clip-path:inset(0 0% 0 0);
+}
+
+/* ── Magnetic Button ── */
+.magnetic {
+  display:inline-flex; transition:transform 0.1s ease-out;
+  will-change:transform;
+}
+
+/* ── Marquee ── */
+.marquee-wrap {
+  overflow:hidden; position:relative; z-index:2;
+  padding:2.5rem 0;
+  border-top:1px solid rgba(214,162,26,0.04);
+  border-bottom:1px solid rgba(74,158,255,0.04);
+}
+.marquee-track {
+  display:flex; gap:0; white-space:nowrap; width:max-content;
+  animation:marqueeScroll linear infinite;
+}
+@keyframes marqueeScroll { 0%{transform:translateX(0)} 100%{transform:translateX(-50%)} }
+.marquee-item {
+  font-family:var(--font-display); font-size:clamp(1.2rem,2.5vw,2rem);
+  font-weight:400; font-style:italic; color:var(--ink-2);
+  padding:0 0.5em; display:inline-flex; align-items:center; gap:0.5em;
+  transition:color 0.3s;
+}
+.marquee-item:hover { color:var(--gold); }
+.marquee-dot { color:var(--gold); opacity:0.3; font-style:normal; font-size:0.7em; }
+
+/* ── 3D Sphere ── */
+.sphere-wrap {
+  position:absolute; right:8%; top:50%; transform:translateY(-50%); z-index:1;
+  width:clamp(200px,22vw,340px); height:clamp(200px,22vw,340px);
+  pointer-events:none;
+}
+@media(max-width:900px){ .sphere-wrap{display:none} }
+.sphere {
+  width:100%; height:100%; position:relative;
+  animation:sphereFloat 6s ease-in-out infinite;
+  transform-style:preserve-3d;
+}
+@keyframes sphereFloat { 0%,100%{transform:translateY(0) rotateY(0)} 50%{transform:translateY(-12px) rotateY(15deg)} }
+.sphere-ring {
+  position:absolute; inset:0; border-radius:50%;
+  border:1px solid rgba(214,162,26,0.12);
+  transform-style:preserve-3d;
+}
+.sphere-ring--1 { animation:ringRotate1 12s linear infinite; }
+.sphere-ring--2 { animation:ringRotate2 16s linear infinite; border-color:rgba(74,158,255,0.1); }
+.sphere-ring--3 { animation:ringRotate3 20s linear infinite; border-color:rgba(124,92,191,0.08); }
+@keyframes ringRotate1 { 0%{transform:rotateX(60deg) rotateY(0)} 100%{transform:rotateX(60deg) rotateY(360deg)} }
+@keyframes ringRotate2 { 0%{transform:rotateX(-30deg) rotateZ(0)} 100%{transform:rotateX(-30deg) rotateZ(360deg)} }
+@keyframes ringRotate3 { 0%{transform:rotateY(45deg) rotateX(0)} 100%{transform:rotateY(45deg) rotateX(360deg)} }
+.sphere-core {
+  position:absolute; inset:30%; border-radius:50%;
+  background:radial-gradient(circle at 35% 35%, rgba(214,162,26,0.15), rgba(74,158,255,0.08) 60%, transparent 80%);
+  box-shadow:0 0 60px rgba(214,162,26,0.08), 0 0 120px rgba(74,158,255,0.05);
+}
+.sphere-glow {
+  position:absolute; inset:-20%; border-radius:50%;
+  background:radial-gradient(circle, rgba(74,158,255,0.04), transparent 60%);
+  filter:blur(30px);
+}
+
+/* ── Portfolio Card Premium ── */
+.port-card {
+  flex-shrink:0; width:clamp(320px,42vw,480px); scroll-snap-align:start;
+  border-radius:16px; overflow:hidden; position:relative;
+  aspect-ratio:4/3; cursor:pointer;
+  border:1px solid rgba(240,236,228,0.05);
+  transition:transform 0.2s ease-out, border-color 0.3s, box-shadow 0.3s;
+  transform-style:preserve-3d;
+}
+.port-card:hover { border-color:rgba(214,162,26,0.15); box-shadow:0 20px 60px rgba(0,0,0,0.3); }
+.port-card-bg {
+  position:absolute; inset:0; transition:transform 0.5s cubic-bezier(0.16,1,0.3,1);
+}
+.port-card:hover .port-card-bg { transform:scale(1.08); }
+.port-card-placeholder {
+  width:100%; height:100%; display:flex; align-items:center; justify-content:center;
+  flex-direction:column; gap:10px;
+  background:linear-gradient(135deg, rgba(214,162,26,0.03), rgba(74,158,255,0.05));
+  font-family:var(--font-mono); font-size:11px; color:var(--ink-2);
+  letter-spacing:0.12em; text-transform:uppercase;
+}
+.port-card-ph-icon { font-size:32px; opacity:0.3; }
+.port-card-overlay {
+  position:absolute; inset:0; display:flex; flex-direction:column;
+  align-items:center; justify-content:center; gap:10px;
+  background:rgba(5,5,7,0.7); backdrop-filter:blur(8px);
+  opacity:0; transition:opacity 0.4s ease;
+}
+.port-card-overlay.show { opacity:1; }
+.port-card-tag {
+  font-family:var(--font-mono); font-size:10px; color:var(--blue);
+  letter-spacing:0.15em; text-transform:uppercase;
+}
+.port-card-title {
+  font-family:var(--font-display); font-size:1.4rem; font-weight:400;
+  color:var(--ink-0); text-align:center;
+}
+.port-card-view {
+  display:inline-flex; align-items:center; gap:6px;
+  padding:10px 24px; border:1px solid rgba(214,162,26,0.3);
+  border-radius:0; font-family:var(--font-mono); font-size:11px;
+  font-weight:600; letter-spacing:0.2em; color:var(--ink-0);
+  margin-top:0.5rem; transition:all 0.3s;
+}
+.port-card:hover .port-card-view { border-color:var(--gold); background:rgba(214,162,26,0.08); }
+.port-card-label {
+  position:absolute; bottom:0; left:0; right:0;
+  padding:1.2rem 1.5rem; display:flex; align-items:center; gap:10px;
+  background:linear-gradient(to top, rgba(5,5,7,0.9), transparent);
+  font-family:var(--font-mono); font-size:10px; color:var(--ink-2);
+  letter-spacing:0.12em; text-transform:uppercase;
+  transition:opacity 0.3s;
+}
+.port-card:hover .port-card-label { opacity:0; }
+.port-card-idx { color:var(--gold); }
+.port-card-sep { width:16px; height:1px; background:rgba(214,162,26,0.2); }
+
+/* ── Premium Footer ── */
+.pf {
+  position:relative; z-index:2;
+  border-top:1px solid rgba(240,236,228,0.04);
+}
+.pf-top {
+  padding:clamp(5rem,12vh,10rem) clamp(1.5rem,5vw,8rem) clamp(3rem,6vh,5rem);
+  text-align:center;
+}
+.pf-name {
+  font-family:var(--font-display); font-size:clamp(3rem,10vw,8rem);
+  font-weight:400; color:var(--ink-0); letter-spacing:-0.03em;
+  line-height:1; margin-bottom:1.5rem;
+}
+.pf-ai { color:var(--blue); font-style:italic; }
+.pf-tagline {
+  font-family:var(--font-sans); font-size:clamp(1rem,1.4vw,1.15rem);
+  color:var(--ink-1); max-width:40ch; display:block; margin:0 auto;
+}
+.pf-cta-row { margin-top:2.5rem; }
+.pf-cta {
+  display:inline-flex; align-items:center; gap:10px;
+  padding:16px 40px; border:1px solid rgba(214,162,26,0.3);
+  color:var(--ink-0); font-family:var(--font-mono); font-size:12px;
+  font-weight:600; letter-spacing:0.14em; text-transform:uppercase;
+  text-decoration:none; transition:all 0.4s ease; position:relative; overflow:hidden;
+}
+.pf-cta::before {
+  content:''; position:absolute; inset:0;
+  background:linear-gradient(90deg, var(--gold), var(--blue));
+  transform:scaleX(0); transform-origin:left;
+  transition:transform 0.4s cubic-bezier(0.16,1,0.3,1);
+}
+.pf-cta:hover { color:var(--dark); border-color:var(--gold); }
+.pf-cta:hover::before { transform:scaleX(1); }
+.pf-cta span, .pf-cta svg { position:relative; z-index:1; }
+
+.pf-grid {
+  display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+  gap:2rem; padding:3rem clamp(1.5rem,5vw,8rem);
+  border-top:1px solid rgba(240,236,228,0.03);
+}
+.pf-col {
+  display:flex; flex-direction:column;
+}
+.pf-col-title {
+  font-family:var(--font-mono); font-size:10px; font-weight:600;
+  letter-spacing:0.2em; text-transform:uppercase; color:var(--gold);
+  margin-bottom:1rem;
+}
+.pf-link {
+  display:block; font-size:0.9rem; color:var(--ink-2);
+  text-decoration:none; padding:0.35em 0; transition:color 0.3s;
+}
+.pf-link:hover { color:var(--ink-0); }
+.pf-socials { display:flex; gap:14px; margin-top:0.5rem; }
+.pf-socials a { color:var(--ink-2); transition:color 0.3s; }
+.pf-socials a:hover { color:var(--blue); }
+
+.pf-bottom {
+  display:flex; justify-content:space-between; align-items:center;
+  padding:2rem clamp(1.5rem,5vw,8rem);
+  border-top:1px solid rgba(240,236,228,0.03);
+  font-family:var(--font-mono); font-size:10px; color:var(--ink-2);
+  letter-spacing:0.1em;
+}
+.pf-credit { color:var(--gold); opacity:0.4; }
+
+/* ── Animated Link Underline ── */
+.anim-link {
+  position:relative; display:inline-block; text-decoration:none;
+  color:var(--ink-0); transition:color 0.3s;
+}
+.anim-link-text { position:relative; z-index:1; }
+.anim-link-line {
+  position:absolute; bottom:-2px; left:0; width:100%; height:1px;
+  background:var(--gold); transform:scaleX(0); transform-origin:right;
+  transition:transform 0.4s cubic-bezier(0.16,1,0.3,1);
+}
+.anim-link:hover .anim-link-line { transform:scaleX(1); transform-origin:left; }
+.anim-link:hover { color:var(--gold); }
+
+/* ── Card Tilt micro-interaction ── */
+.micro-tilt {
+  transition:transform 0.15s ease-out;
+  transform-style:preserve-3d;
+}
+
+/* ── Icon bounce ── */
+.icon-bounce { transition:transform 0.3s cubic-bezier(0.16,1,0.3,1); display:inline-block; }
+.icon-bounce:hover { transform:translateY(-3px) scale(1.1); }
+
+/* ── Input glow ── */
+.ai-input:focus {
+  border-color:rgba(74,158,255,0.35);
+  box-shadow:0 0 0 3px rgba(74,158,255,0.06), 0 0 20px rgba(74,158,255,0.04);
+}
+
+</style>
+<script src="https://unpkg.com/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script>
+function loadGA4(){
+  if(document.querySelector('script[src*="gtag"]'))return;
+  var s=document.createElement('script');
+  s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-31HY0G1WQC';
+  document.head.appendChild(s);
+  s.onload=function(){
+    window.dataLayer=window.dataLayer||[];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js',new Date());
+    gtag('config','G-31HY0G1WQC');
+  };
+}
+if(localStorage.getItem('dg_cookie_ok'))loadGA4();
+</script>
+</head>
+<body>
+<div id="root"></div>
+<script>
+// ═══════════════════════════════════════════
+// Language System — Context + Translations + Helper
+// ═══════════════════════════════════════════
+var LangContext = React.createContext('it');
+
+var TRANSLATIONS = {
+  it: {
+    // Preloader
+    'preloader.alt': 'Denuzzo Business',
+
+    // Hero
+    'hero.eyebrow': 'Web Design · Automazioni · AI',
+    'hero.sub': 'Il tuo business ha bisogno di un sito che converte, processi che funzionano da soli e strategie che portano risultati. Io li costruisco.',
+    'hero.cta': 'Vedi il Portfolio',
+    'hero.contact_label': 'Let\'s work together',
+    'hero.scroll': 'Scroll',
+
+    // Nav / Menu
+    'nav.chi_sono': 'Chi Sono',
+    'nav.servizi': 'Servizi',
+    'nav.portfolio': 'Portfolio',
+    'nav.faq': 'FAQ',
+    'nav.gaming': 'Denuzzo Gaming',
+    'nav.contatti': 'Contatti',
+    'nav.gaming_link': '🎮 Denuzzo Gaming',
+
+    // Chi Sono
+    'about.meta': 'Chi Sono',
+    'about.title_start': 'Il tuo problema è il mio ',
+    'about.title_em': 'punto di partenza',
+    'about.p1': 'Mi chiamo Fabio Denuzzo. Lavoro con professionisti e piccole aziende che vogliono due cose: una presenza online che li faccia prendere sul serio e processi interni che non gli rubino tempo. Collaboro con ',
+    'about.morfeus': 'Morfeus Hub',
+    'about.p1_end': ', realtà specializzata in soluzioni AI per il business.',
+    'about.p2': 'Non vendo promesse. Costruisco cose concrete: siti web che i clienti usano come biglietto da visita, automazioni che fanno risparmiare ore ogni settimana, chatbot che rispondono ai clienti quando tu non puoi.',
+
+    // Servizi
+    'services.meta': 'Servizi',
+    'services.title_start': 'Quello che faccio per i miei ',
+    'services.title_em': 'clienti',
+    'services.s1_name': 'Siti Web & Landing Page',
+    'services.s1_desc': 'Siti professionali con animazioni 3D, landing page che convertono, e-commerce su misura. Design originale, zero template.',
+    'services.s1_back_title': 'Un esempio concreto',
+    'services.s1_back_1': 'Denuzzo Gaming: sito con tunnel 3D, card animate, 7 sezioni interattive',
+    'services.s1_back_2': 'Consegnato in 5 giorni',
+    'services.s1_back_3': 'Three.js, GSAP, React',
+    'services.s1_back_4': 'Risultato: effetto wow immediato',
+    'services.s2_name': 'Automazioni con AI',
+    'services.s2_desc': 'Workflow su n8n che eliminano le attività ripetitive del tuo business. Tu imposti una volta, funziona per sempre.',
+    'services.s2_back_title': 'Esempio reale',
+    'services.s2_back_1': 'Lead che arriva → CRM aggiornato → email di benvenuto → task creato',
+    'services.s2_back_2': 'Tutto automatico, zero intervento manuale',
+    'services.s2_back_3': 'Integrazione con qualsiasi tool',
+    'services.s2_back_4': 'Risparmio medio: 10-15 ore/settimana',
+    'services.s3_name': 'Agenti AI & Chatbot',
+    'services.s3_desc': 'Assistenti virtuali che rispondono ai tuoi clienti 24/7, costruiti sui tuoi dati. Non chatbot generici: agenti che conoscono il tuo business.',
+    'services.s3_back_title': 'Come funziona',
+    'services.s3_back_1': 'Analizzo i tuoi dati e FAQ',
+    'services.s3_back_2': 'Costruisco l\'agente su misura',
+    'services.s3_back_3': 'Lo integro nel tuo sito/WhatsApp',
+    'services.s3_back_4': 'Il chatbot impara e migliora nel tempo',
+    'services.s4_name': 'Consulenza AI',
+    'services.s4_desc': 'Non sai da dove partire con l\'AI? Ti mostro dove può fare la differenza nel TUO business, senza perdere tempo in cose inutili.',
+    'services.s4_back_title': 'Cosa ottieni',
+    'services.s4_back_1': 'Call di analisi del tuo business',
+    'services.s4_back_2': 'Mappa delle opportunità AI concrete',
+    'services.s4_back_3': 'Piano d\'azione con priorità',
+    'services.s4_back_4': 'Supporto nell\'implementazione',
+    'services.flip_hint': 'Hover per dettagli',
+
+    // Portfolio
+    'portfolio.meta': 'Portfolio',
+    'portfolio.title_start': 'Lavori ',
+    'portfolio.title_em': 'realizzati',
+    'portfolio.text': 'Lavori reali. Quando caricherò i dettagli, vedrai tutto.',
+    'portfolio.p1_title': 'Denuzzo Gaming',
+    'portfolio.p2_title': 'Landing Page Corporate',
+    'portfolio.p3_title': 'Workflow Automazione CRM',
+    'portfolio.upload': 'Carica screenshot',
+    'portfolio.view': 'VIEW',
+    'portfolio.p3_tag': 'Automazione n8n',
+
+    // Marquee
+    'marquee.automazioni': 'Automazioni',
+
+    // CTA Banner
+    'cta.title_start': 'Hai un problema che ti fa perdere ',
+    'cta.title_em': 'tempo e soldi',
+    'cta.btn': 'Parliamone',
+
+    // FAQ
+    'faq.meta': 'FAQ',
+    'faq.title_start': 'Domande ',
+    'faq.title_em': 'frequenti',
+    'faq.q1': 'Quanto costa?',
+    'faq.a1': 'Una landing page parte da €800. Un\'automazione n8n da €500. Un chatbot personalizzato da €600. Tutto dipende dalla complessità — dopo una call gratuita di 15 minuti ti mando un preventivo chiaro, senza sorprese.',
+    'faq.q2': 'Quanto tempo ci vuole?',
+    'faq.a2': 'Una landing page: 3-7 giorni. Un\'automazione: 5-10 giorni. Un agente AI: 1-2 settimane. Tempi reali, non promesse.',
+    'faq.q3': 'Per chi lavori?',
+    'faq.a3': 'Professionisti, freelance e piccole aziende che vogliono un sito serio e processi che funzionano. Non lavoro con chi cerca il template da €50.',
+
+    // Gaming section
+    'gaming.meta': 'Gaming',
+    'gaming.title_start': 'Passione e business si ',
+    'gaming.title_em': 'incontrano',
+    'gaming.text': 'Denuzzo Gaming non è solo un sito — è dove passione e visione imprenditoriale si sono incontrate per la prima volta. Un universo parallelo che dimostra come si possa trasformare ciò che ami in un progetto digitale solido. Due mondi distinti, un\'unica mentalità: creare esperienze che restano.',
+    'gaming.cta': '🎮 Scopri Denuzzo Gaming',
+
+    // Contatti
+    'contact.meta': 'Contatti',
+    'contact.title_start': 'Hai un progetto in ',
+    'contact.title_em': 'testa',
+    'contact.email_label': 'Email',
+    'contact.services_label': 'Servizi',
+    'contact.services_value': 'Siti Web · Automazioni n8n · Agenti AI · Consulenza',
+    'contact.availability_label': 'Disponibilità',
+    'contact.availability_value': '● Aperto a nuovi progetti',
+    'contact.input_name': 'Il tuo nome',
+    'contact.input_email': 'La tua email',
+    'contact.input_message': 'Raccontami del tuo progetto...',
+    'contact.submit': 'Invia messaggio',
+
+    // Premium Footer
+    'footer.tagline': 'Trasformo le idee in risultati concreti per il tuo business.',
+    'footer.cta': 'Inizia un progetto',
+    'footer.nav_title': 'Navigazione',
+    'footer.services_title': 'Servizi',
+    'footer.contact_title': 'Contatti',
+    'footer.other_title': 'Altro',
+    'footer.siti_web': 'Siti Web',
+    'footer.automazioni_n8n': 'Automazioni n8n',
+    'footer.agenti_chatbot': 'Agenti AI & Chatbot',
+    'footer.consulenza_ai': 'Consulenza AI',
+    'footer.privacy': 'Privacy Policy',
+    'footer.copyright': '© 2026 Denuzzo Business — Tutti i diritti riservati',
+    'footer.credit': 'Crafted with passion',
+  },
+  en: {
+    // Preloader
+    'preloader.alt': 'Denuzzo Business',
+
+    // Hero
+    'hero.eyebrow': 'Web Design · Automation · AI',
+    'hero.sub': 'Your business needs a website that converts, processes that run on their own and strategies that deliver results. I build them.',
+    'hero.cta': 'View Portfolio',
+    'hero.contact_label': 'Let\'s work together',
+    'hero.scroll': 'Scroll',
+
+    // Nav / Menu
+    'nav.chi_sono': 'About',
+    'nav.servizi': 'Services',
+    'nav.portfolio': 'Portfolio',
+    'nav.faq': 'FAQ',
+    'nav.gaming': 'Denuzzo Gaming',
+    'nav.contatti': 'Contact',
+    'nav.gaming_link': '🎮 Denuzzo Gaming',
+
+    // Chi Sono
+    'about.meta': 'About',
+    'about.title_start': 'Your problem is my ',
+    'about.title_em': 'starting point',
+    'about.p1': 'My name is Fabio Denuzzo. I work with professionals and small businesses that want two things: an online presence that makes them look serious and internal processes that don\'t steal their time. I collaborate with ',
+    'about.morfeus': 'Morfeus Hub',
+    'about.p1_end': ', a company specialized in AI solutions for business.',
+    'about.p2': 'I don\'t sell promises. I build real things: websites that clients use as their business card, automations that save hours every week, chatbots that respond to customers when you can\'t.',
+
+    // Servizi
+    'services.meta': 'Services',
+    'services.title_start': 'What I do for my ',
+    'services.title_em': 'clients',
+    'services.s1_name': 'Websites & Landing Pages',
+    'services.s1_desc': 'Professional websites with 3D animations, landing pages that convert, custom e-commerce. Original design, zero templates.',
+    'services.s1_back_title': 'A real example',
+    'services.s1_back_1': 'Denuzzo Gaming: site with 3D tunnel, animated cards, 7 interactive sections',
+    'services.s1_back_2': 'Delivered in 5 days',
+    'services.s1_back_3': 'Three.js, GSAP, React',
+    'services.s1_back_4': 'Result: instant wow effect',
+    'services.s2_name': 'AI Automation',
+    'services.s2_desc': 'n8n workflows that eliminate repetitive tasks in your business. You set it up once, it works forever.',
+    'services.s2_back_title': 'Real example',
+    'services.s2_back_1': 'Lead arrives → CRM updated → welcome email → task created',
+    'services.s2_back_2': 'Fully automatic, zero manual intervention',
+    'services.s2_back_3': 'Integration with any tool',
+    'services.s2_back_4': 'Average savings: 10-15 hours/week',
+    'services.s3_name': 'AI Agents & Chatbots',
+    'services.s3_desc': 'Virtual assistants that respond to your customers 24/7, built on your data. Not generic chatbots: agents that know your business.',
+    'services.s3_back_title': 'How it works',
+    'services.s3_back_1': 'I analyze your data and FAQ',
+    'services.s3_back_2': 'I build the custom agent',
+    'services.s3_back_3': 'I integrate it into your site/WhatsApp',
+    'services.s3_back_4': 'The chatbot learns and improves over time',
+    'services.s4_name': 'AI Consulting',
+    'services.s4_desc': 'Don\'t know where to start with AI? I show you where it can make a difference in YOUR business, without wasting time on useless things.',
+    'services.s4_back_title': 'What you get',
+    'services.s4_back_1': 'Business analysis call',
+    'services.s4_back_2': 'Map of concrete AI opportunities',
+    'services.s4_back_3': 'Action plan with priorities',
+    'services.s4_back_4': 'Implementation support',
+    'services.flip_hint': 'Hover for details',
+
+    // Portfolio
+    'portfolio.meta': 'Portfolio',
+    'portfolio.title_start': 'Completed ',
+    'portfolio.title_em': 'projects',
+    'portfolio.text': 'Real work. When I upload the details, you\'ll see everything.',
+    'portfolio.p1_title': 'Denuzzo Gaming',
+    'portfolio.p2_title': 'Corporate Landing Page',
+    'portfolio.p3_title': 'CRM Automation Workflow',
+    'portfolio.upload': 'Upload screenshot',
+    'portfolio.view': 'VIEW',
+    'portfolio.p3_tag': 'n8n Automation',
+
+    // Marquee
+    'marquee.automazioni': 'Automations',
+
+    // CTA Banner
+    'cta.title_start': 'Got a problem that\'s costing you ',
+    'cta.title_em': 'time and money',
+    'cta.btn': 'Let\'s talk',
+
+    // FAQ
+    'faq.meta': 'FAQ',
+    'faq.title_start': 'Frequently asked ',
+    'faq.title_em': 'questions',
+    'faq.q1': 'How much does it cost?',
+    'faq.a1': 'A landing page starts at €800. An n8n automation from €500. A custom chatbot from €600. It all depends on complexity — after a free 15-minute call I send you a clear quote, no surprises.',
+    'faq.q2': 'How long does it take?',
+    'faq.a2': 'A landing page: 3-7 days. An automation: 5-10 days. An AI agent: 1-2 weeks. Real timelines, not promises.',
+    'faq.q3': 'Who do you work with?',
+    'faq.a3': 'Professionals, freelancers and small businesses that want a serious website and processes that work. I don\'t work with people looking for a €50 template.',
+
+    // Gaming section
+    'gaming.meta': 'Gaming',
+    'gaming.title_start': 'Passion and business ',
+    'gaming.title_em': 'meet',
+    'gaming.text': 'Denuzzo Gaming is not just a website — it\'s where passion and entrepreneurial vision met for the first time. A parallel universe that shows how you can turn what you love into a solid digital project. Two distinct worlds, one mindset: creating experiences that last.',
+    'gaming.cta': '🎮 Discover Denuzzo Gaming',
+
+    // Contatti
+    'contact.meta': 'Contact',
+    'contact.title_start': 'Got a project in ',
+    'contact.title_em': 'mind',
+    'contact.email_label': 'Email',
+    'contact.services_label': 'Services',
+    'contact.services_value': 'Websites · n8n Automations · AI Agents · Consulting',
+    'contact.availability_label': 'Availability',
+    'contact.availability_value': '● Open to new projects',
+    'contact.input_name': 'Your name',
+    'contact.input_email': 'Your email',
+    'contact.input_message': 'Tell me about your project...',
+    'contact.submit': 'Send message',
+
+    // Premium Footer
+    'footer.tagline': 'I turn ideas into real results for your business.',
+    'footer.cta': 'Start a project',
+    'footer.nav_title': 'Navigation',
+    'footer.services_title': 'Services',
+    'footer.contact_title': 'Contact',
+    'footer.other_title': 'Other',
+    'footer.siti_web': 'Websites',
+    'footer.automazioni_n8n': 'n8n Automations',
+    'footer.agenti_chatbot': 'AI Agents & Chatbots',
+    'footer.consulenza_ai': 'AI Consulting',
+    'footer.privacy': 'Privacy Policy',
+    'footer.copyright': '© 2026 Denuzzo Business — All rights reserved',
+    'footer.credit': 'Crafted with passion',
+  }
+};
+
+function t(key, lang) {
+  return (TRANSLATIONS[lang] && TRANSLATIONS[lang][key]) || (TRANSLATIONS.it[key]) || key;
+}
+</script>
+<script type="text/babel">
+// ai-premium.jsx — Premium 100K components
+
+// ── 1. Preloader ──
+// ── Language Picker Overlay (AnimatedContent-style GSAP) ──
+function AILangPicker({ onChoose, onDone }) {
+  const titleRef = React.useRef(null);
+  const btnsRef = React.useRef(null);
+  const [chosen, setChosen] = React.useState(false);
+
+  React.useEffect(() => {
+    const titleEl = titleRef.current;
+    const btnsEl = btnsRef.current;
+    if (titleEl) {
+      gsap.set(titleEl, { y: 60, scale: 0.9, opacity: 0, visibility: 'visible' });
+      gsap.to(titleEl, { y: 0, scale: 1, opacity: 1, duration: 1.8, ease: 'power3.out', delay: 0.5 });
+    }
+    if (btnsEl) {
+      gsap.set(btnsEl, { y: 40, opacity: 0, visibility: 'visible' });
+      gsap.to(btnsEl, { y: 0, opacity: 1, duration: 1.4, ease: 'power3.out', delay: 1.2 });
+    }
+  }, []);
+
+  const handleChoice = (lang) => {
+    if (chosen) return;
+    setChosen(true);
+    onChoose(lang); // mount Preloader behind immediately
+    const overlay = titleRef.current?.closest('.ai-lang-picker-overlay');
+    if (overlay) {
+      gsap.to(overlay, {
+        opacity: 0, duration: 1.2, ease: 'power2.inOut',
+        onComplete: () => { if (onDone) onDone(); }
+      });
+    } else {
+      setTimeout(() => { if (onDone) onDone(); }, 1000);
+    }
+  };
+
+  return (
+    <div className="ai-lang-picker-overlay">
+      <div ref={titleRef} style={{ visibility: 'hidden' }}>
+        <div className="ai-lang-picker-title">
+          Scegli la lingua<br/>
+          <span style={{ opacity: 0.5, fontSize: '0.85em' }}>Choose your language</span>
+        </div>
+      </div>
+      <div ref={btnsRef} className="ai-lang-picker-buttons" style={{ visibility: 'hidden' }}>
+        <button className="ai-lang-picker-btn" onClick={() => handleChoice('it')}>ITA</button>
+        <button className="ai-lang-picker-btn" onClick={() => handleChoice('en')}>ENG</button>
+      </div>
+    </div>
+  );
+}
+
+function Preloader({ onComplete }) {
+  const [progress, setProgress] = React.useState(0);
+  const [phase, setPhase] = React.useState('loading'); // loading → fadeout → done
+
+  React.useEffect(() => {
+    let p = 0;
+    const tick = setInterval(() => {
+      p += 2 + Math.random() * 5;
+      if (p >= 100) { p = 100; clearInterval(tick); setTimeout(() => setPhase('fadeout'), 400); }
+      setProgress(Math.min(p, 100));
+    }, 60);
+    return () => clearInterval(tick);
+  }, []);
+
+  React.useEffect(() => {
+    if (phase === 'fadeout') setTimeout(() => { setPhase('done'); onComplete && onComplete(); }, 900);
+  }, [phase]);
+
+  if (phase === 'done') return null;
+
+  return (
+    <div className={'preloader' + (phase === 'fadeout' ? ' preloader--out' : '')}>
+      <div className="preloader-inner">
+        <div className="preloader-logo"><img src="img/fd-logo.png" alt="Denuzzo Business" style={{width:'600px',height:'auto',objectFit:'contain'}} /></div>
+        <div className="preloader-bar">
+          <div className="preloader-fill" style={{width: progress + '%'}}></div>
+        </div>
+        <div className="preloader-pct">{Math.round(progress)}%</div>
+      </div>
+    </div>
+  );
+}
+
+// ── 2. Text Reveal (clip mask horizontal) ──
+function TextReveal({ children, delay = 0, as = 'div' }) {
+  const ref = React.useRef(null);
+  const [visible, setVisible] = React.useState(false);
+  React.useEffect(() => {
+    const ob = new IntersectionObserver(([e]) => { if (e.isIntersecting) setVisible(true); }, { threshold: 0.15 });
+    if (ref.current) ob.observe(ref.current);
+    return () => ob.disconnect();
+  }, []);
+  const Tag = as;
+  return (
+    <Tag ref={ref} className={'text-reveal' + (visible ? ' is-revealed' : '')} style={{'--tr-delay': delay + 's'}}>
+      <span className="text-reveal-inner">{children}</span>
+    </Tag>
+  );
+}
+
+// ── 3. Magnetic Button ──
+function MagneticButton({ children, className = '', href, onClick, style, as = 'a' }) {
+  const ref = React.useRef(null);
+  const handleMove = (e) => {
+    const el = ref.current; if (!el) return;
+    const rect = el.getBoundingClientRect();
+    const cx = rect.left + rect.width / 2;
+    const cy = rect.top + rect.height / 2;
+    const dx = (e.clientX - cx) * 0.25;
+    const dy = (e.clientY - cy) * 0.25;
+    el.style.transform = `translate(${dx}px, ${dy}px)`;
+  };
+  const handleLeave = () => {
+    const el = ref.current; if (!el) return;
+    el.style.transform = 'translate(0,0)';
+    el.style.transition = 'transform 0.4s cubic-bezier(0.16,1,0.3,1)';
+    setTimeout(() => { if (el) el.style.transition = ''; }, 400);
+  };
+  const Tag = as;
+  const props = { ref, className: 'magnetic ' + className, onMouseMove: handleMove, onMouseLeave: handleLeave, style };
+  if (Tag === 'a') { props.href = href; props.onClick = onClick; }
+  else { props.onClick = onClick; props.type = 'button'; }
+  return <Tag {...props}>{children}</Tag>;
+}
+
+// ── 4. Marquee ──
+function Marquee({ items, speed = 30 }) {
+  const doubled = [...items, ...items];
+  return (
+    <div className="marquee-wrap">
+      <div className="marquee-track" style={{animationDuration: speed + 's'}}>
+        {doubled.map((item, i) => (
+          <span key={i} className="marquee-item">
+            {item}
+            <span className="marquee-dot">·</span>
+          </span>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+// ── 5. 3D Floating Sphere (CSS only) ──
+function FloatingSphere() {
+  return (
+    <div className="sphere-wrap">
+      <div className="sphere">
+        <div className="sphere-ring sphere-ring--1"></div>
+        <div className="sphere-ring sphere-ring--2"></div>
+        <div className="sphere-ring sphere-ring--3"></div>
+        <div className="sphere-core"></div>
+        <div className="sphere-glow"></div>
+      </div>
+    </div>
+  );
+}
+
+// ── 6. Premium Footer ──
+function PremiumFooter() {
+  const lang = React.useContext(LangContext);
+  return (
+    <footer className="pf">
+      <div className="pf-top">
+        <TextReveal as="div" delay={0}>
+          <h2 className="pf-name">DENUZZO<span className="pf-ai">AI</span></h2>
+        </TextReveal>
+        <TextReveal as="p" delay={0.1}>
+          <span className="pf-tagline">{t('footer.tagline', lang)}</span>
+        </TextReveal>
+        <div className="pf-cta-row">
+          <MagneticButton href="mailto:business.fabiodenuzzo@gmail.com" className="pf-cta">
+            <span>{t('footer.cta', lang)}</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </MagneticButton>
+        </div>
+      </div>
+      <div className="pf-grid">
+        <div className="pf-col">
+          <h4 className="pf-col-title">{t('footer.nav_title', lang)}</h4>
+          <a href="#chi-sono-ai" className="pf-link">{t('nav.chi_sono', lang)}</a>
+          <a href="#servizi" className="pf-link">{t('nav.servizi', lang)} AI</a>
+          <a href="#portfolio" className="pf-link">{t('nav.portfolio', lang)}</a>
+          <a href="#contatti" className="pf-link">{t('nav.contatti', lang)}</a>
+        </div>
+        <div className="pf-col">
+          <h4 className="pf-col-title">{t('footer.services_title', lang)}</h4>
+          <a href="#servizi" className="pf-link">{t('footer.siti_web', lang)}</a>
+          <a href="#servizi" className="pf-link">{t('footer.automazioni_n8n', lang)}</a>
+          <a href="#servizi" className="pf-link">{t('footer.agenti_chatbot', lang)}</a>
+          <a href="#servizi" className="pf-link">{t('footer.consulenza_ai', lang)}</a>
+        </div>
+        <div className="pf-col">
+          <h4 className="pf-col-title">{t('footer.contact_title', lang)}</h4>
+          <a href="mailto:business.fabiodenuzzo@gmail.com" className="pf-link">business.fabiodenuzzo@gmail.com</a>
+          <div className="pf-socials">
+            <a href="https://www.instagram.com/fabio_denuzzo_/" target="_blank" rel="noopener noreferrer"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><circle cx="12" cy="12" r="5"></circle><circle cx="17.5" cy="6.5" r="1.5"></circle></svg></a>
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+            <a href="https://x.com/_lionel_10_" target="_blank" rel="noopener noreferrer"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M4 4l11.733 16H20L8.267 4H4zm0 16l6.5-6.5M20 4l-6.5 6.5"></path></svg></a>
+          </div>
+        </div>
+        <div className="pf-col">
+          <h4 className="pf-col-title">{t('footer.other_title', lang)}</h4>
+          <a href="#gaming" className="pf-link">{t('nav.gaming_link', lang)}</a>
+          <a href="#faq" className="pf-link">FAQ</a>
+          <a href="#" className="pf-link">{t('footer.privacy', lang)}</a>
+        </div>
+      </div>
+      <div className="pf-bottom">
+        <span>{t('footer.copyright', lang)}</span>
+        <span className="pf-credit">{t('footer.credit', lang)}</span>
+      </div>
+    </footer>
+  );
+}
+
+// ── 7. Portfolio Card Premium ──
+function PortfolioCardPremium({ title, tag, icon, index }) {
+  const lang = React.useContext(LangContext);
+  const ref = React.useRef(null);
+  const [hover, setHover] = React.useState(false);
+  const handleMove = (e) => {
+    const el = ref.current; if (!el) return;
+    const rect = el.getBoundingClientRect();
+    const x = ((e.clientX - rect.left) / rect.width - 0.5) * 8;
+    const y = ((e.clientY - rect.top) / rect.height - 0.5) * -8;
+    el.style.transform = `perspective(800px) rotateY(${x}deg) rotateX(${y}deg) translateY(-6px)`;
+  };
+  const handleLeave = () => {
+    setHover(false);
+    const el = ref.current; if (!el) return;
+    el.style.transform = 'perspective(800px) rotateY(0) rotateX(0) translateY(0)';
+  };
+  return (
+    <div ref={ref} className="port-card" onMouseEnter={() => setHover(true)} onMouseMove={handleMove} onMouseLeave={handleLeave}>
+      <div className="port-card-bg">
+        <div className="port-card-placeholder"><span className="port-card-ph-icon">{icon}</span>{t('portfolio.upload', lang)}</div>
+      </div>
+      <div className={'port-card-overlay' + (hover ? ' show' : '')}>
+        <span className="port-card-tag">{tag}</span>
+        <h3 className="port-card-title">{title}</h3>
+        <div className="port-card-view">
+          <span>{t('portfolio.view', lang)}</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+        </div>
+      </div>
+      <div className="port-card-label">
+        <span className="port-card-idx">0{index + 1}</span>
+        <span className="port-card-sep"></span>
+        <span>{tag}</span>
+      </div>
+    </div>
+  );
+}
+
+// ── 8. Link with animated underline ──
+function AnimLink({ children, href = '#', className = '', onClick }) {
+  return (
+    <a href={href} className={'anim-link ' + className} onClick={onClick}>
+      <span className="anim-link-text">{children}</span>
+      <span className="anim-link-line"></span>
+    </a>
+  );
+}
+
+Object.assign(window, {
+  Preloader, TextReveal, MagneticButton, Marquee,
+  FloatingSphere, PremiumFooter, PortfolioCardPremium, AnimLink
+});
+
+</script>
+<script type="text/babel">
+// ai-app.jsx — Denuzzo Business Landing Page v2
+
+// ── Mesh Gradient Background ──
+function MeshGradient() {
+  return (
+    <div className="ai-mesh-bg">
+      <div className="ai-mesh-blob ai-mesh-blob--gold" style={{top:'-10%',left:'-5%'}}></div>
+      <div className="ai-mesh-blob ai-mesh-blob--blue" style={{top:'30%',right:'-10%'}}></div>
+      <div className="ai-mesh-blob ai-mesh-blob--purple" style={{bottom:'-5%',left:'20%'}}></div>
+    </div>
+  );
+}
+
+// ── Hero Particles ──
+function HeroParticles() {
+  const particles = React.useMemo(() => {
+    const arr = [];
+    for (let i = 0; i < 25; i++) {
+      arr.push({
+        left: Math.random() * 100,
+        size: 1.5 + Math.random() * 3,
+        duration: 8 + Math.random() * 12,
+        delay: Math.random() * 10,
+        startY: 80 + Math.random() * 20
+      });
+    }
+    return arr;
+  }, []);
+  return (
+    <div className="ai-hero-particles">
+      {particles.map((p, i) => (
+        <div key={i} className="ai-hero-particle" style={{
+          left: p.left + '%', bottom: '-' + p.size + 'px',
+          width: p.size, height: p.size,
+          animationDuration: p.duration + 's',
+          animationDelay: p.delay + 's'
+        }}></div>
+      ))}
+    </div>
+  );
+}
+
+// ── Scroll Progress Bar ──
+function ScrollProgressBar() {
+  const [progress, setProgress] = React.useState(0);
+  React.useEffect(() => {
+    const onScroll = () => {
+      const h = document.documentElement.scrollHeight - window.innerHeight;
+      setProgress(h > 0 ? (window.scrollY / h) * 100 : 0);
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
+  return (
+    <div className="ai-progress-bar">
+      <div className="ai-progress-track"></div>
+      <div className="ai-progress-fill" style={{height: progress + '%'}}></div>
+      <div className="ai-progress-dot" style={{top: progress + '%'}}></div>
+    </div>
+  );
+}
+
+// ── Custom Cursor ──
+function AICursor() {
+  const dotRef = React.useRef(null);
+  const ringRef = React.useRef(null);
+  React.useEffect(() => {
+    let mx = 0, my = 0, dx = 0, dy = 0;
+    const move = (e) => { mx = e.clientX; my = e.clientY; };
+    const tick = () => {
+      dx += (mx - dx) * 0.15; dy += (my - dy) * 0.15;
+      if (dotRef.current) { dotRef.current.style.transform = `translate(${mx - 5}px,${my - 5}px)`; }
+      if (ringRef.current) { ringRef.current.style.transform = `translate(${dx - 18}px,${dy - 18}px)`; }
+      requestAnimationFrame(tick);
+    };
+    const addHover = () => { dotRef.current?.classList.add('hover'); ringRef.current?.classList.add('hover'); };
+    const removeHover = () => { dotRef.current?.classList.remove('hover'); ringRef.current?.classList.remove('hover'); };
+    document.addEventListener('mousemove', move);
+    requestAnimationFrame(tick);
+    const links = document.querySelectorAll('a,button,.ai-faq-q,.ai-carousel-card,.ai-flip-card');
+    links.forEach(l => { l.addEventListener('mouseenter', addHover); l.addEventListener('mouseleave', removeHover); });
+    return () => { document.removeEventListener('mousemove', move); };
+  }, []);
+  return (<React.Fragment><div className="ai-cursor" ref={dotRef}></div><div className="ai-cursor-ring" ref={ringRef}></div></React.Fragment>);
+}
+
+// ── Animated Counter ──
+function AnimCounter({ target, suffix = '', duration = 2000 }) {
+  const ref = React.useRef(null);
+  const [val, setVal] = React.useState(0);
+  const [started, setStarted] = React.useState(false);
+  React.useEffect(() => {
+    const ob = new IntersectionObserver(([e]) => { if (e.isIntersecting && !started) { setStarted(true); } }, { threshold: 0.3 });
+    if (ref.current) ob.observe(ref.current);
+    return () => ob.disconnect();
+  }, [started]);
+  React.useEffect(() => {
+    if (!started) return;
+    const num = parseInt(target);
+    const steps = 60;
+    const inc = num / steps;
+    let current = 0;
+    const interval = setInterval(() => {
+      current += inc;
+      if (current >= num) { setVal(num); clearInterval(interval); }
+      else { setVal(Math.floor(current)); }
+    }, duration / steps);
+    return () => clearInterval(interval);
+  }, [started, target, duration]);
+  return <span ref={ref}>{val}{suffix}</span>;
+}
+
+// ── FAQ Item ──
+function FAQItem({ q, a }) {
+  const [open, setOpen] = React.useState(false);
+  return (
+    <div className="ai-faq-item">
+      <button className={'ai-faq-q' + (open ? ' is-open' : '')} onClick={() => setOpen(!open)}>
+        {q}
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+      </button>
+      <div className={'ai-faq-a' + (open ? ' is-open' : '')}>{a}</div>
+    </div>
+  );
+}
+
+// ── Main App ──
+function DenuzzoAI() {
+  const [langChosen, setLangChosen] = React.useState(false);
+  const [lang, setLangState] = React.useState('it');
+  const setLang = (l) => { setLangState(l); try { localStorage.setItem('denuzzo-lang', l); } catch(e){} };
+  const [menuOpen, setMenuOpen] = React.useState(false);
+  const [loaded, setLoaded] = React.useState(false);
+  const revealRefs = React.useRef([]);
+  const heroRef = React.useRef(null);
+  const heroBgRef = React.useRef(null);
+  const carouselRef = React.useRef(null);
+  const [activeDot, setActiveDot] = React.useState(0);
+
+  // Smooth scroll (native — Lenis removed for performance)
+
+  // Scroll reveal — re-observe after loaded
+  React.useEffect(() => {
+    if (!loaded) return;
+    // Small delay to ensure DOM is painted
+    const timer = setTimeout(() => {
+      const allReveals = document.querySelectorAll('.ai-reveal');
+      const ob = new IntersectionObserver((entries) => {
+        entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('is-visible'); ob.unobserve(e.target); } });
+      }, { threshold: 0.08, rootMargin: '0px 0px -30px 0px' });
+      allReveals.forEach(el => ob.observe(el));
+      return () => ob.disconnect();
+    }, 300);
+    return () => clearTimeout(timer);
+  }, [loaded]);
+
+  // Hero parallax
+  React.useEffect(() => {
+    const onScroll = () => {
+      const sy = window.scrollY;
+      if (heroBgRef.current) { heroBgRef.current.style.transform = `translateY(${sy * 0.3}px) scale(1.1)`; }
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
+
+  // Hero entrance animation (after preloader)
+  React.useEffect(() => {
+    if (!loaded) return;
+    const timer = setTimeout(() => {
+      const els = heroRef.current?.querySelectorAll('.ai-hero-eyebrow, .ai-hero-title, .ai-hero-sub, .ai-hero-cta');
+      if (els) {
+        els.forEach((el, i) => {
+          gsap.to(el, { opacity: 1, y: 0, duration: 1, ease: 'power3.out', delay: 0.2 + i * 0.18 });
+        });
+      }
+    }, 300);
+    return () => clearTimeout(timer);
+  }, [loaded]);
+
+  // Carousel scroll tracking
+  React.useEffect(() => {
+    const c = carouselRef.current;
+    if (!c) return;
+    const onScroll = () => {
+      const cards = c.querySelectorAll('.ai-carousel-card');
+      const scrollLeft = c.scrollLeft;
+      const cardWidth = cards[0]?.offsetWidth + 24 || 400;
+      setActiveDot(Math.round(scrollLeft / cardWidth));
+    };
+    c.addEventListener('scroll', onScroll, { passive: true });
+    return () => c.removeEventListener('scroll', onScroll);
+  }, []);
+
+  const addReveal = (el) => { if (el && !revealRefs.current.includes(el)) revealRefs.current.push(el); };
+  const scrollTo = (id) => { setMenuOpen(false); document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' }); };
+  const scrollCarousel = (idx) => {
+    const c = carouselRef.current;
+    if (!c) return;
+    const cards = c.querySelectorAll('.ai-carousel-card');
+    const card = cards[idx];
+    if (card) c.scrollTo({ left: card.offsetLeft - 60, behavior: 'smooth' });
+  };
+
+  const portfolioItems = [
+    { title: t('portfolio.p1_title', lang), tag: 'Web Design · 3D', icon: '🎮' },
+    { title: t('portfolio.p2_title', lang), tag: 'Web Design', icon: '🌐' },
+    { title: t('portfolio.p3_title', lang), tag: t('portfolio.p3_tag', lang), icon: '🔄' },
+  ];
+
+  const marqueeItems = [
+    'Three.js', 'WebGL', 'GSAP', 'Framer Motion', 'Framer',
+    'Webflow', 'n8n', 'React', 'Next.js', 'UI/UX Design',
+    'Branding', 'E-commerce', t('marquee.automazioni', lang)
+  ];
+
+  const services = [
+    { icon: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>', name: t('services.s1_name', lang), desc: t('services.s1_desc', lang), backTitle: t('services.s1_back_title', lang), backItems: [t('services.s1_back_1', lang), t('services.s1_back_2', lang), t('services.s1_back_3', lang), t('services.s1_back_4', lang)] },
+    { icon: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/><polyline points="21 16 21 21 16 21"/><line x1="15" y1="15" x2="21" y2="21"/><line x1="4" y1="4" x2="9" y2="9"/></svg>', name: t('services.s2_name', lang), desc: t('services.s2_desc', lang), backTitle: t('services.s2_back_title', lang), backItems: [t('services.s2_back_1', lang), t('services.s2_back_2', lang), t('services.s2_back_3', lang), t('services.s2_back_4', lang)] },
+    { icon: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a2 2 0 0 1 2 2c0 .74-.4 1.39-1 1.73V7h1a7 7 0 0 1 7 7h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1.27A7 7 0 0 1 7.27 19H6a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1a7 7 0 0 1 7-7h-1V5.73c-.6-.34-1-.99-1-1.73a2 2 0 0 1 2-2z"/><circle cx="7.5" cy="14.5" r=".5" fill="currentColor"/><circle cx="16.5" cy="14.5" r=".5" fill="currentColor"/></svg>', name: t('services.s3_name', lang), desc: t('services.s3_desc', lang), backTitle: t('services.s3_back_title', lang), backItems: [t('services.s3_back_1', lang), t('services.s3_back_2', lang), t('services.s3_back_3', lang), t('services.s3_back_4', lang)] },
+    { icon: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>', name: t('services.s4_name', lang), desc: t('services.s4_desc', lang), backTitle: t('services.s4_back_title', lang), backItems: [t('services.s4_back_1', lang), t('services.s4_back_2', lang), t('services.s4_back_3', lang), t('services.s4_back_4', lang)] },
+  ];
+
+  const handleLangChoice = (chosenLang) => {
+    setLang(chosenLang);
+    setLangChosen(true);
+  };
+
+  const [langPickerDone, setLangPickerDone] = React.useState(false);
+
+  return (
+    <LangContext.Provider value={lang}>
+    <React.Fragment>
+      {/* Language picker overlay — on top of everything */}
+      {!langPickerDone && (
+        <AILangPicker onChoose={handleLangChoice} onDone={() => setLangPickerDone(true)} />
+      )}
+
+      <AICursor />
+      {!loaded && langChosen && <Preloader onComplete={() => setLoaded(true)} />}
+      {loaded && (
+        <React.Fragment>
+          <MeshGradient />
+          <ScrollProgressBar />
+          <AICursor />
+          <div className="ai-grain"></div>
+
+      {/* Grid lines */}
+      <div className="ai-gridlines">
+        <span style={{left:'20%'}}></span>
+        <span style={{left:'40%'}}></span>
+        <span style={{left:'60%'}}></span>
+        <span style={{left:'80%'}}></span>
+      </div>
+
+      {/* ── Lang Toggle ── */}
+      <div className="ai-lang-toggle">
+        <button className={'ai-lang-btn' + (lang === 'it' ? ' active' : '')} onClick={() => setLang('it')}>ITA</button>
+        <button className={'ai-lang-btn' + (lang === 'en' ? ' active' : '')} onClick={() => setLang('en')}>ENG</button>
+      </div>
+
+      {/* ── Nav ── */}
+      <div className="ai-nav">
+        <MagneticButton as="button" className="ai-hamburger" onClick={() => setMenuOpen(!menuOpen)}>
+          <span className="ai-ham-line" style={menuOpen ? {transform:'rotate(45deg) translate(2px,2px)'} : {}}></span>
+          <span className="ai-ham-line" style={menuOpen ? {transform:'rotate(-45deg) translate(2px,-2px)'} : {}}></span>
+        </MagneticButton>
+      </div>
+
+      <div className={'ai-fullmenu' + (menuOpen ? ' is-open' : '')}>
+        <div className="ai-fullmenu-inner">
+          <a className="ai-fullmenu-link" href="#" onClick={(e)=>{e.preventDefault();scrollTo('chi-sono-ai')}}>{t('nav.chi_sono', lang)}</a>
+          <a className="ai-fullmenu-link" href="#" onClick={(e)=>{e.preventDefault();scrollTo('servizi')}}>{t('nav.servizi', lang)}</a>
+          <a className="ai-fullmenu-link" href="#" onClick={(e)=>{e.preventDefault();scrollTo('portfolio')}}>{t('nav.portfolio', lang)}</a>
+          <a className="ai-fullmenu-link" href="#" onClick={(e)=>{e.preventDefault();scrollTo('faq')}}>{t('nav.faq', lang)}</a>
+          <a className="ai-fullmenu-link" href="#" onClick={(e)=>{e.preventDefault();scrollTo('gaming')}}>{t('nav.gaming', lang)}</a>
+          <a className="ai-fullmenu-link" href="#" onClick={(e)=>{e.preventDefault();scrollTo('contatti')}}>{t('nav.contatti', lang)}</a>
+          <div className="ai-fullmenu-divider"></div>
+          <a className="ai-fullmenu-small" href="/">{t('nav.gaming_link', lang)}</a>
+        </div>
+      </div>
+
+      {/* ═══ HERO ═══ */}
+      <section className="ai-hero" ref={heroRef}>
+        <div className="ai-hero-bg" ref={heroBgRef}></div>
+        <div className="ai-hero-overlay"></div>
+        <HeroParticles />
+        <FloatingSphere />
+        <div className="ai-hero-content">
+          <div className="ai-hero-eyebrow"><span className="dot"></span><span>{t('hero.eyebrow', lang)}</span></div>
+          <h1 className="ai-hero-title">Fabio <em>Denuzzo.</em></h1>
+          <p className="ai-hero-sub">{t('hero.sub', lang)}</p>
+          <a href="#portfolio" className="ai-hero-cta" onClick={(e)=>{e.preventDefault();scrollTo('portfolio')}}>
+            <span>{t('hero.cta', lang)}</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+        </div>
+
+        <div className="ai-hero-contact">
+          <span>{t('hero.contact_label', lang)}</span>
+          <a href="mailto:business.fabiodenuzzo@gmail.com">business.fabiodenuzzo@gmail.com</a>
+        </div>
+        <div className="ai-hero-socials">
+          <a href="https://www.instagram.com/fabio_denuzzo_/" target="_blank" rel="noopener noreferrer"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><circle cx="12" cy="12" r="5"></circle><circle cx="17.5" cy="6.5" r="1.5"></circle></svg></a>
+          <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+          <a href="https://x.com/_lionel_10_" target="_blank" rel="noopener noreferrer"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M4 4l11.733 16H20L8.267 4H4zm0 16l6.5-6.5M20 4l-6.5 6.5"></path></svg></a>
+        </div>
+        <div className="ai-hero-scroll"><span>{t('hero.scroll', lang)}</span><div className="scroll-line"></div></div>
+      </section>
+
+      {/* ═══ CHI SONO ═══ */}
+      <section className="ai-section" id="chi-sono-ai">
+        <div ref={addReveal} className="ai-reveal">
+          <div className="ai-section-meta"><span className="ai-num">01</span><span className="ai-bar"></span><span>{t('about.meta', lang)}</span></div>
+          <div className="ai-separator"></div>
+          <h2 className="ai-section-title">{t('about.title_start', lang)}<em>{t('about.title_em', lang)}</em>.</h2>
+          <p className="ai-section-text" style={{marginTop:'1.5rem'}}>
+            {t('about.p1', lang)}<strong style={{color:'var(--gold)'}}>{t('about.morfeus', lang)}</strong>{t('about.p1_end', lang)}
+          </p>
+          <p className="ai-section-text" style={{marginTop:'1rem'}}>
+            {t('about.p2', lang)}
+          </p>
+        </div>
+      </section>
+
+      {/* ═══ SERVIZI — FLIP CARDS ═══ */}
+      <section className="ai-section" id="servizi" style={{background:'rgba(74,158,255,0.01)'}}>
+        <div ref={addReveal} className="ai-reveal">
+          <div className="ai-section-meta"><span className="ai-num">02</span><span className="ai-bar"></span><span>{t('services.meta', lang)}</span></div>
+          <div className="ai-separator"></div>
+          <h2 className="ai-section-title">{t('services.title_start', lang)}<em>{t('services.title_em', lang)}</em>.</h2>
+        </div>
+        <div className="ai-services-grid">
+          {services.map((s, i) => (
+            <div key={i} ref={addReveal} className="ai-reveal" style={{transitionDelay: (i * 0.1) + 's'}}>
+              <div className="ai-flip-card">
+                <div className="ai-flip-inner">
+                  <div className="ai-flip-front">
+                    <div>
+                      <div className="ai-flip-icon" dangerouslySetInnerHTML={{__html: s.icon}}></div>
+                      <h3 className="ai-flip-name">{s.name}</h3>
+                      <p className="ai-flip-desc">{s.desc}</p>
+                    </div>
+                    <div className="ai-flip-hint">
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="1 4 1 10 7 10"></polyline><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"></path></svg>
+                      {t('services.flip_hint', lang)}
+                    </div>
+                  </div>
+                  <div className="ai-flip-back">
+                    <div className="ai-flip-back-title">{s.backTitle}</div>
+                    <ul className="ai-flip-back-list">
+                      {s.backItems.map((item, j) => <li key={j}>{item}</li>)}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* ═══ PORTFOLIO CAROUSEL ═══ */}
+      <section className="ai-carousel-section" id="portfolio">
+        <div className="ai-carousel-header">
+          <div ref={addReveal} className="ai-reveal">
+            <div className="ai-section-meta"><span className="ai-num">03</span><span className="ai-bar"></span><span>{t('portfolio.meta', lang)}</span></div>
+            <div className="ai-separator"></div>
+            <h2 className="ai-section-title">{t('portfolio.title_start', lang)}<em>{t('portfolio.title_em', lang)}</em>.</h2>
+            <p className="ai-section-text">{t('portfolio.text', lang)}</p>
+          </div>
+        </div>
+        <div className="ai-carousel" ref={carouselRef}>
+          {portfolioItems.map((p, i) => (
+            <PortfolioCardPremium key={i} title={p.title} tag={p.tag} icon={p.icon} index={i} />
+          ))}
+        </div>
+        <div className="ai-carousel-dots">
+          {portfolioItems.map((_, i) => (
+            <button key={i} className={'ai-carousel-dot' + (activeDot === i ? ' active' : '')} onClick={() => scrollCarousel(i)}></button>
+          ))}
+        </div>
+      </section>
+
+      {/* ═══ CTA BANNER ═══ */}
+      <div className="ai-cta-banner">
+        <div ref={addReveal} className="ai-reveal">
+          <h2>{t('cta.title_start', lang)}<em>{t('cta.title_em', lang)}</em>?</h2>
+          <MagneticButton href="#contatti" className="ai-hero-cta" onClick={(e)=>{e.preventDefault();scrollTo('contatti')}} style={{opacity:1,transform:'none'}}>
+            <span>{t('cta.btn', lang)}</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </MagneticButton>
+        </div>
+      </div>
+
+      {/* ═══ TESTIMONIANZE — rimosso temporaneamente ═══ */}
+
+      {/* ═══ FAQ ═══ */}
+      <section className="ai-section" id="faq" style={{background:'rgba(74,158,255,0.01)'}}>
+        <div ref={addReveal} className="ai-reveal">
+          <div className="ai-section-meta"><span className="ai-num">04</span><span className="ai-bar"></span><span>{t('faq.meta', lang)}</span></div>
+          <div className="ai-separator"></div>
+          <h2 className="ai-section-title">{t('faq.title_start', lang)}<em>{t('faq.title_em', lang)}</em>.</h2>
+        </div>
+        <div className="ai-faq-list" ref={addReveal}>
+          <FAQItem q={t('faq.q1', lang)} a={t('faq.a1', lang)} />
+          <FAQItem q={t('faq.q2', lang)} a={t('faq.a2', lang)} />
+          <FAQItem q={t('faq.q3', lang)} a={t('faq.a3', lang)} />
+        </div>
+      </section>
+
+      {/* ═══ DENUZZO GAMING ═══ */}
+      <section className="ai-section" id="gaming" style={{textAlign:'center'}}>
+        <div ref={addReveal} className="ai-reveal">
+          <div className="ai-section-meta" style={{justifyContent:'center'}}><span className="ai-num">05</span><span className="ai-bar"></span><span>{t('gaming.meta', lang)}</span></div>
+          <div className="ai-separator" style={{margin:'0 auto 2rem'}}></div>
+          <h2 className="ai-section-title" style={{maxWidth:'22ch',margin:'0 auto 1.5rem'}}>{t('gaming.title_start', lang)}<em>{t('gaming.title_em', lang)}</em>.</h2>
+          <p className="ai-section-text" style={{maxWidth:'52ch',margin:'0 auto'}}>
+            {t('gaming.text', lang)}
+          </p>
+          <div style={{marginTop:'2.5rem'}}>
+            <MagneticButton href="/" className="ai-hero-cta" style={{opacity:1,transform:'none'}}>
+              <span>{t('gaming.cta', lang)}</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </MagneticButton>
+          </div>
+        </div>
+      </section>
+
+      {/* ═══ CONTATTI ═══ */}
+      <section className="ai-section" id="contatti">
+        <div ref={addReveal} className="ai-reveal">
+          <div className="ai-section-meta"><span className="ai-num">06</span><span className="ai-bar"></span><span>{t('contact.meta', lang)}</span></div>
+          <div className="ai-separator"></div>
+          <h2 className="ai-section-title">{t('contact.title_start', lang)}<em>{t('contact.title_em', lang)}</em>?</h2>
+        </div>
+        <div className="ai-contact-wrap">
+          <div className="ai-contact-info">
+            <div ref={addReveal} className="ai-reveal ai-contact-item">
+              <div className="ai-contact-label">{t('contact.email_label', lang)}</div>
+              <div className="ai-contact-value"><a href="mailto:business.fabiodenuzzo@gmail.com">business.fabiodenuzzo@gmail.com</a></div>
+            </div>
+            <div ref={addReveal} className="ai-reveal ai-contact-item" style={{transitionDelay:'0.1s'}}>
+              <div className="ai-contact-label">{t('contact.services_label', lang)}</div>
+              <div className="ai-contact-value">{t('contact.services_value', lang)}</div>
+            </div>
+            <div ref={addReveal} className="ai-reveal ai-contact-item" style={{transitionDelay:'0.2s'}}>
+              <div className="ai-contact-label">{t('contact.availability_label', lang)}</div>
+              <div className="ai-contact-value" style={{color:'var(--blue)'}}>{t('contact.availability_value', lang)}</div>
+            </div>
+          </div>
+          <div className="ai-contact-form">
+            <form ref={addReveal} className="ai-reveal" style={{transitionDelay:'0.15s'}} onSubmit={(e) => e.preventDefault()}>
+              <input className="ai-input" type="text" placeholder={t('contact.input_name', lang)} />
+              <input className="ai-input" type="email" placeholder={t('contact.input_email', lang)} />
+              <textarea className="ai-input" placeholder={t('contact.input_message', lang)}></textarea>
+              <button type="submit" className="ai-submit">
+                <span>{t('contact.submit', lang)}</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      {/* ═══ FOOTER PREMIUM ═══ */}
+      <PremiumFooter />
+    </React.Fragment>
+    )}
+    </React.Fragment>
+    </LangContext.Provider>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(<DenuzzoAI />);
+
+</script>
+
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner" style="display:none;position:fixed;bottom:0;left:0;right:0;z-index:99999;background:rgba(10,10,15,.95);backdrop-filter:blur(12px);border-top:1px solid rgba(255,255,255,.07);padding:14px clamp(16px,4vw,40px);font-family:'DM Sans',system-ui,sans-serif;font-size:13px;color:#9898a8;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap">
+  <span>Questo sito utilizza cookie tecnici per garantire il corretto funzionamento. <a href="/privacy" style="color:#d6a21a;text-decoration:underline">Privacy Policy</a></span>
+  <button onclick="document.getElementById('cookie-banner').style.display='none';localStorage.setItem('dg_cookie_ok','1');loadGA4();" style="background:#d6a21a;color:#181308;border:none;padding:8px 20px;border-radius:6px;font-family:'Playfair Display',serif;font-weight:700;font-size:14px;cursor:pointer;text-transform:uppercase;letter-spacing:.04em;white-space:nowrap">Accetto</button>
+</div>
+<script>if(!localStorage.getItem('dg_cookie_ok'))document.getElementById('cookie-banner').style.display='flex';</script>
+</body>
+</html>
