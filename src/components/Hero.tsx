@@ -42,13 +42,13 @@ export default function Hero() {
           <motion.div {...rise(0.36)} className="flex items-stretch mb-11">
             {hero.stats.map((s, i) => (
               <Fragment key={s.label}>
-                {i > 0 && <span className="w-px self-stretch bg-line mx-[clamp(20px,3vw,40px)] my-1.5" />}
-                <div>
-                  <div className="font-display text-[clamp(2.1rem,3.6vw,3rem)] font-medium leading-none flex items-baseline text-ink nums">
+                {i > 0 && <span className="w-px self-stretch bg-line mx-[clamp(14px,3vw,40px)] my-1.5" />}
+                <div className="flex-1 min-w-0">
+                  <div className="font-display text-[clamp(1.8rem,3.4vw,3rem)] font-medium leading-none flex items-baseline text-ink nums">
                     <CountUp to={s.to} duration={1.6} startOnMount />
                     <span className="text-gold ml-1 text-[0.5em] font-mono font-medium">{s.suffix}</span>
                   </div>
-                  <div className="font-mono text-[10px] tracking-[.2em] uppercase text-muted mt-3.5 whitespace-nowrap">{s.label}</div>
+                  <div className="font-mono text-[9px] sm:text-[10px] tracking-[.14em] sm:tracking-[.2em] uppercase text-muted mt-3 leading-tight">{s.label}</div>
                 </div>
               </Fragment>
             ))}
