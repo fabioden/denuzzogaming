@@ -34,12 +34,12 @@ function SectionSplit({ s, index }: { s: Section; index: number }) {
           <Cta cta={s.cta} />
         </Reveal>
 
-        {/* RIGHT — foto */}
+        {/* RIGHT — foto. La Community è un'illustrazione quadrata → riquadro quadrato (no taglio). */}
         <Reveal dir="right" delay={0.1} className="order-1 lg:order-2">
           <Tilt amplitude={7} radius={14}>
-            <div className="relative rounded-[14px] overflow-hidden aspect-[4/3] border border-line-2 bg-card shadow-[0_30px_80px_-24px_rgba(0,0,0,.7)]">
+            <div className={`relative rounded-[14px] overflow-hidden border border-line-2 bg-card shadow-[0_30px_80px_-24px_rgba(0,0,0,.7)] ${s.id === "community" ? "aspect-square" : "aspect-[4/3]"}`}>
               <Pic base={s.img.base} alt={s.img.alt} eager={index === 0} className="w-full h-full object-cover" />
-              <span className="absolute inset-0 bg-gradient-to-t from-black/45 to-transparent pointer-events-none" />
+              {s.id !== "community" && <span className="absolute inset-0 bg-gradient-to-t from-black/45 to-transparent pointer-events-none" />}
             </div>
           </Tilt>
         </Reveal>
