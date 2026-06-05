@@ -752,6 +752,36 @@ textarea.ai-input { min-height:130px; resize:vertical; }
 .port-card-idx { color:var(--gold); }
 .port-card-sep { width:16px; height:1px; background:rgba(214,162,26,0.2); }
 
+/* ── Portfolio: griglia progetti (elenco estendibile) ── */
+.port-grid {
+  display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:1.5rem; padding:0 clamp(1.5rem,5vw,8rem);
+}
+.port-grid .port-card { width:auto; flex-shrink:initial; scroll-snap-align:none; }
+a.port-card { text-decoration:none; display:block; }
+.port-card-img { position:absolute; inset:0; background-size:cover; background-position:center; transition:transform .55s cubic-bezier(.16,1,.3,1); }
+.port-card:hover .port-card-img { transform:scale(1.06); }
+.port-card-info {
+  position:absolute; left:0; right:0; bottom:0; z-index:2; padding:1.4rem 1.5rem;
+  background:linear-gradient(to top, rgba(5,5,7,.94), rgba(5,5,7,.45) 55%, transparent);
+}
+.port-card-info .port-card-tag { display:block; margin-bottom:6px; font-family:var(--font-mono); font-size:10px; letter-spacing:.14em; text-transform:uppercase; color:var(--blue); }
+.port-card-info .port-card-title { font-family:var(--font-display); font-size:1.35rem; font-weight:500; color:var(--ink-0); text-align:left; }
+.port-card-cta {
+  position:absolute; top:1.2rem; right:1.3rem; z-index:3; display:inline-flex; align-items:center; gap:6px;
+  font-family:var(--font-mono); font-size:11px; letter-spacing:.1em; text-transform:uppercase;
+  color:#181308; background:var(--gold); padding:8px 14px; border-radius:999px;
+  opacity:0; transform:translateY(-6px); transition:all .35s ease;
+}
+.port-card-cta.show { opacity:1; transform:none; }
+.port-card-badge {
+  position:absolute; top:1.2rem; right:1.3rem; z-index:3;
+  font-family:var(--font-mono); font-size:10px; letter-spacing:.12em; text-transform:uppercase;
+  color:var(--ink-1); border:1px solid var(--line); border-radius:999px; padding:7px 13px; background:rgba(8,8,10,.6);
+}
+.port-card.is-soon { opacity:.6; cursor:default; }
+.port-card.is-soon:hover { border-color:rgba(240,236,228,.05); box-shadow:none; }
+
 /* ── Premium Footer ── */
 .pf {
   position:relative; z-index:2;
@@ -947,7 +977,7 @@ var TRANSLATIONS = {
     'portfolio.meta': 'Portfolio',
     'portfolio.title_start': 'Lavori ',
     'portfolio.title_em': 'realizzati',
-    'portfolio.text': 'Lavori reali. Quando caricherò i dettagli, vedrai tutto.',
+    'portfolio.text': 'Progetti reali. Clicca un progetto per aprire il caso studio.',
     'portfolio.p1_title': 'Denuzzo Gaming',
     'portfolio.p2_title': 'Landing Page Corporate',
     'portfolio.p3_title': 'Workflow Automazione CRM',
@@ -1077,7 +1107,7 @@ var TRANSLATIONS = {
     'portfolio.meta': 'Portfolio',
     'portfolio.title_start': 'Completed ',
     'portfolio.title_em': 'projects',
-    'portfolio.text': 'Real work. When I upload the details, you\'ll see everything.',
+    'portfolio.text': 'Real projects. Click one to open the case study.',
     'portfolio.p1_title': 'Denuzzo Gaming',
     'portfolio.p2_title': 'Corporate Landing Page',
     'portfolio.p3_title': 'CRM Automation Workflow',
@@ -1366,15 +1396,15 @@ function PremiumFooter() {
 }
 
 // ── 7. Portfolio Card Premium ──
-function PortfolioCardPremium({ title, tag, icon, index }) {
-  const lang = React.useContext(LangContext);
+function PortfolioCardPremium({ title, tag, icon, url, img, soon }) {
   const ref = React.useRef(null);
   const [hover, setHover] = React.useState(false);
   const handleMove = (e) => {
+    if (soon) return;
     const el = ref.current; if (!el) return;
     const rect = el.getBoundingClientRect();
-    const x = ((e.clientX - rect.left) / rect.width - 0.5) * 8;
-    const y = ((e.clientY - rect.top) / rect.height - 0.5) * -8;
+    const x = ((e.clientX - rect.left) / rect.width - 0.5) * 7;
+    const y = ((e.clientY - rect.top) / rect.height - 0.5) * -7;
     el.style.transform = `perspective(800px) rotateY(${x}deg) rotateX(${y}deg) translateY(-6px)`;
   };
   const handleLeave = () => {
@@ -1382,26 +1412,30 @@ function PortfolioCardPremium({ title, tag, icon, index }) {
     const el = ref.current; if (!el) return;
     el.style.transform = 'perspective(800px) rotateY(0) rotateX(0) translateY(0)';
   };
-  return (
-    <div ref={ref} className="port-card" onMouseEnter={() => setHover(true)} onMouseMove={handleMove} onMouseLeave={handleLeave}>
+  const inner = (
+    <React.Fragment>
       <div className="port-card-bg">
-        <div className="port-card-placeholder"><span className="port-card-ph-icon">{icon}</span>{t('portfolio.upload', lang)}</div>
+        {img
+          ? <div className="port-card-img" style={{ backgroundImage: 'url(' + img + ')' }}></div>
+          : <div className="port-card-placeholder"><span className="port-card-ph-icon">{icon}</span></div>}
       </div>
-      <div className={'port-card-overlay' + (hover ? ' show' : '')}>
+      <div className="port-card-info">
         <span className="port-card-tag">{tag}</span>
         <h3 className="port-card-title">{title}</h3>
-        <div className="port-card-view">
-          <span>{t('portfolio.view', lang)}</span>
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
-        </div>
       </div>
-      <div className="port-card-label">
-        <span className="port-card-idx">0{index + 1}</span>
-        <span className="port-card-sep"></span>
-        <span>{tag}</span>
-      </div>
-    </div>
+      {soon
+        ? <span className="port-card-badge">Prossimamente</span>
+        : <div className={'port-card-cta' + (hover ? ' show' : '')}><span>Apri</span> →</div>}
+    </React.Fragment>
   );
+  const props = {
+    ref,
+    className: 'port-card' + (soon ? ' is-soon' : ''),
+    onMouseEnter: () => setHover(true),
+    onMouseMove: handleMove,
+    onMouseLeave: handleLeave,
+  };
+  return url ? <a href={url} {...props}>{inner}</a> : <div {...props}>{inner}</div>;
 }
 
 // ── 8. Link with animated underline ──
@@ -1626,9 +1660,9 @@ function DenuzzoAI() {
   };
 
   const portfolioItems = [
-    { title: t('portfolio.p1_title', lang), tag: 'Web Design · 3D', icon: '🎮' },
-    { title: t('portfolio.p2_title', lang), tag: 'Web Design', icon: '🌐' },
-    { title: t('portfolio.p3_title', lang), tag: t('portfolio.p3_tag', lang), icon: '🔄' },
+    { title: 'Concierge AI', tag: 'Agente AI · Hospitality', icon: '🤖', url: '/business/progetti/concierge-ai-hospitality.html' },
+    { title: 'In arrivo', tag: 'Automazione AI', icon: '🔄', soon: true },
+    { title: 'In arrivo', tag: 'Agente AI · Chatbot', icon: '💬', soon: true },
   ];
 
   const marqueeItems = [
@@ -1792,14 +1826,9 @@ function DenuzzoAI() {
             <p className="ai-section-text">{t('portfolio.text', lang)}</p>
           </div>
         </div>
-        <div className="ai-carousel" ref={carouselRef}>
+        <div className="port-grid">
           {portfolioItems.map((p, i) => (
-            <PortfolioCardPremium key={i} title={p.title} tag={p.tag} icon={p.icon} index={i} />
-          ))}
-        </div>
-        <div className="ai-carousel-dots">
-          {portfolioItems.map((_, i) => (
-            <button key={i} className={'ai-carousel-dot' + (activeDot === i ? ' active' : '')} onClick={() => scrollCarousel(i)}></button>
+            <PortfolioCardPremium key={i} title={p.title} tag={p.tag} icon={p.icon} url={p.url} img={p.img} soon={p.soon} />
           ))}
         </div>
       </section>
