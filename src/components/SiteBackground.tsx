@@ -15,21 +15,21 @@ export default function SiteBackground() {
     setEnabled(!reduce && !small);
   }, []);
 
-  // Aurora ridotta a un respiro luminoso sottile: lo sfondo "materiale" è dato dal body (gradiente+vignettatura)
-  const opacity = pathname === "/" ? 0.22 : pathname.startsWith("/privacy") ? 0.1 : 0.15;
+  // Aurora più presente e in movimento (lo sfondo "vive"); lo sfondo materiale è dato dal body
+  const opacity = pathname === "/" ? 0.55 : pathname.startsWith("/privacy") ? 0.22 : 0.36;
 
   return (
-    <div className="fixed top-0 left-0 w-full h-[70vh] -z-10 pointer-events-none overflow-hidden" aria-hidden="true">
+    <div className="fixed top-0 left-0 w-full h-[85vh] -z-10 pointer-events-none overflow-hidden" aria-hidden="true">
       <div
-        className="w-full h-full [mask-image:linear-gradient(to_bottom,black_0%,black_30%,transparent_100%)] transition-opacity duration-700"
+        className="w-full h-full [mask-image:linear-gradient(to_bottom,black_0%,black_36%,transparent_100%)] transition-opacity duration-700"
         style={{ opacity }}
       >
         {enabled ? (
-          <Aurora colorStops={GOLD} amplitude={0.6} blend={0.4} speed={0.22} />
+          <Aurora colorStops={GOLD} amplitude={1.1} blend={0.55} speed={0.45} />
         ) : (
           <div
             className="w-full h-full"
-            style={{ background: "radial-gradient(60% 60% at 50% 0%, rgba(214,162,26,0.10), transparent 70%)" }}
+            style={{ background: "radial-gradient(60% 60% at 50% 0%, rgba(214,162,26,0.16), transparent 70%)" }}
           />
         )}
       </div>

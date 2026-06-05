@@ -59,15 +59,27 @@ body {
 /* Sfondo "materiale": carbone caldo + alone dorato morbido in alto + vignettatura.
    Fisso, sotto i contenuti — dà profondità senza il nero piatto. */
 body::before {
-  content: ""; position: fixed; inset: 0; z-index: -2; pointer-events: none;
+  content: ""; position: fixed; inset: 0; z-index: -3; pointer-events: none;
   background:
-    radial-gradient(120% 80% at 50% -10%, rgba(214,162,26,.10) 0%, rgba(214,162,26,.03) 26%, transparent 55%),
-    radial-gradient(100% 100% at 50% 0%, #151218 0%, #0e0c0d 60%, #0a090a 100%);
+    radial-gradient(130% 90% at 50% -8%, rgba(214,162,26,.14) 0%, rgba(214,162,26,.05) 30%, transparent 60%),
+    radial-gradient(90% 70% at 85% 115%, rgba(214,162,26,.05) 0%, transparent 60%),
+    radial-gradient(120% 130% at 50% 0%, #1b1722 0%, #15111a 42%, #100d12 100%); /* base più calda/morbida, nero "sfocato" */
 }
 body::after {
-  content: ""; position: fixed; inset: 0; z-index: -1; pointer-events: none;
-  background: radial-gradient(120% 90% at 50% 45%, transparent 55%, rgba(0,0,0,.45) 100%); /* vignettatura */
+  content: ""; position: fixed; inset: 0; z-index: -2; pointer-events: none;
+  background: radial-gradient(125% 95% at 50% 42%, transparent 60%, rgba(0,0,0,.32) 100%); /* vignettatura più dolce */
 }
+
+/* Bagliore dorato che segue il cursore — "vivo" */
+.cursor-glow {
+  position: fixed; top: 0; left: 0; z-index: -1; pointer-events: none;
+  width: 760px; height: 760px;
+  background: radial-gradient(circle, rgba(235,190,80,.22) 0%, rgba(214,162,26,.10) 34%, transparent 66%);
+  filter: blur(14px); opacity: 0; transition: opacity .8s ease;
+  will-change: transform;
+}
+@media (hover: none) { .cursor-glow { display: none; } }
+@media (prefers-reduced-motion: reduce) { .cursor-glow { display: none; } }
 
 ::selection { background: rgba(214, 162, 26, 0.3); color: #fff; }
 a:focus-visible, button:focus-visible { outline: 2px solid var(--color-gold); outline-offset: 3px; }
