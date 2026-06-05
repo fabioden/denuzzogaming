@@ -70,16 +70,10 @@ body::after {
   background: radial-gradient(125% 95% at 50% 42%, transparent 60%, rgba(0,0,0,.32) 100%); /* vignettatura più dolce */
 }
 
-/* Bagliore dorato che segue il cursore — "vivo" */
-.cursor-glow {
-  position: fixed; top: 0; left: 0; z-index: -1; pointer-events: none;
-  width: 760px; height: 760px;
-  background: radial-gradient(circle, rgba(235,190,80,.22) 0%, rgba(214,162,26,.10) 34%, transparent 66%);
-  filter: blur(14px); opacity: 0; transition: opacity .8s ease;
-  will-change: transform;
-}
-@media (hover: none) { .cursor-glow { display: none; } }
-@media (prefers-reduced-motion: reduce) { .cursor-glow { display: none; } }
+/* Scia dorata "contrail" che segue il cursore — canvas full-screen */
+.cursor-trail { position: fixed; inset: 0; z-index: 9995; pointer-events: none; }
+@media (hover: none) { .cursor-trail { display: none; } }
+@media (prefers-reduced-motion: reduce) { .cursor-trail { display: none; } }
 
 ::selection { background: rgba(214, 162, 26, 0.3); color: #fff; }
 a:focus-visible, button:focus-visible { outline: 2px solid var(--color-gold); outline-offset: 3px; }

@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { nav, social } from "@/content";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import SiteBackground from "@/components/SiteBackground";
-import CursorGlow from "@/components/CursorGlow";
+import CursorTrail from "@/components/CursorTrail";
 import SmoothScroll from "@/components/SmoothScroll";
 import Loader from "@/components/Loader";
 
@@ -40,7 +40,7 @@ export default function Layout({ children }: { children: ReactNode }) {
     <>
       <SmoothScroll />
       <SiteBackground />
-      <CursorGlow />
+      <CursorTrail />
       <Loader />
       <div className="grain-overlay" aria-hidden="true" />
 
