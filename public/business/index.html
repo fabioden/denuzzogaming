@@ -5,15 +5,15 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <meta name="theme-color" content="#050507" />
-<title>Denuzzo AI — Fabio Denuzzo</title>
-<meta name="description" content="Denuzzo AI: intelligenza artificiale applicata al gaming e al coaching EA FC. Scopri i servizi AI di Fabio Denuzzo." />
+<title>Fabio Denuzzo — Web Design · Automazioni · AI</title>
+<meta name="description" content="Web design, automazioni n8n, agenti AI e chatbot su misura per il tuo business. Progetti reali, risultati concreti." />
 <meta name="robots" content="index, follow" />
-<meta property="og:title" content="Denuzzo AI — Fabio Denuzzo" />
-<meta property="og:description" content="Intelligenza artificiale applicata al gaming e al coaching EA FC. Scopri i servizi AI di Fabio Denuzzo." />
+<meta property="og:title" content="Fabio Denuzzo — Web Design · Automazioni · AI" />
+<meta property="og:description" content="Web design, automazioni n8n, agenti AI e chatbot su misura per il tuo business. Progetti reali, risultati concreti." />
 <meta property="og:type" content="website" />
 <meta property="og:locale" content="it_IT" />
 <meta property="og:image" content="https://denuzzogaming.com/img/og-default.jpg" />
-<link rel="icon" type="image/png" href="logo.png" />
+<link rel="icon" type="image/png" href="/img/fd-mark.png" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,300;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
@@ -460,6 +460,13 @@ a, button { cursor:pointer; }
 
 /* ── FAQ ── */
 .ai-faq-list { margin-top:3rem; max-width:700px; }
+/* FAQ a 2 colonne con anteprima rete neurale animata a destra */
+.ai-faq-wrap { display:flex; gap:clamp(2rem,5vw,5rem); align-items:center; }
+.ai-faq-left { flex:1 1 56%; min-width:0; }
+.ai-faq-right { flex:1 1 44%; align-self:stretch; min-height:380px; display:flex; flex-direction:column; align-items:center; justify-content:center; }
+.neural-preview { width:100%; height:380px; display:block; }
+.neural-caption { font-family:var(--font-mono); font-size:10px; letter-spacing:.2em; text-transform:uppercase; color:var(--ink-2); margin-top:.6rem; }
+@media(max-width:860px){ .ai-faq-wrap{ flex-direction:column; align-items:stretch; } .ai-faq-right{ display:none; } }
 .ai-faq-item {
   border-bottom:1px solid rgba(240,236,228,0.04); padding:1.5rem 0;
 }
@@ -998,11 +1005,11 @@ var TRANSLATIONS = {
     'faq.title_start': 'Domande ',
     'faq.title_em': 'frequenti',
     'faq.q1': 'Quanto costa?',
-    'faq.a1': 'Una landing page parte da €800. Un\'automazione n8n da €500. Un chatbot personalizzato da €600. Tutto dipende dalla complessità — dopo una call gratuita di 15 minuti ti mando un preventivo chiaro, senza sorprese.',
+    'faq.a1': 'Ogni progetto è diverso, quindi ogni preventivo è su misura. Dopo una call gratuita di 15 minuti analizzo le tue esigenze e ti invio una proposta chiara e dettagliata — senza sorprese e senza impegno.',
     'faq.q2': 'Quanto tempo ci vuole?',
     'faq.a2': 'Una landing page: 3-7 giorni. Un\'automazione: 5-10 giorni. Un agente AI: 1-2 settimane. Tempi reali, non promesse.',
     'faq.q3': 'Per chi lavori?',
-    'faq.a3': 'Professionisti, freelance e piccole aziende che vogliono un sito serio e processi che funzionano. Non lavoro con chi cerca il template da €50.',
+    'faq.a3': 'Con professionisti, liberi professionisti e aziende che vogliono distinguersi online e automatizzare ciò che fa perdere tempo. Se cerchi qualità, cura dei dettagli e risultati concreti, siamo sulla stessa lunghezza d\'onda.',
 
     // Gaming section
     'gaming.meta': 'Gaming',
@@ -1128,11 +1135,11 @@ var TRANSLATIONS = {
     'faq.title_start': 'Frequently asked ',
     'faq.title_em': 'questions',
     'faq.q1': 'How much does it cost?',
-    'faq.a1': 'A landing page starts at €800. An n8n automation from €500. A custom chatbot from €600. It all depends on complexity — after a free 15-minute call I send you a clear quote, no surprises.',
+    'faq.a1': 'Every project is different, so every quote is tailored. After a free 15-minute call I analyze your needs and send you a clear, detailed proposal — no surprises, no commitment.',
     'faq.q2': 'How long does it take?',
     'faq.a2': 'A landing page: 3-7 days. An automation: 5-10 days. An AI agent: 1-2 weeks. Real timelines, not promises.',
     'faq.q3': 'Who do you work with?',
-    'faq.a3': 'Professionals, freelancers and small businesses that want a serious website and processes that work. I don\'t work with people looking for a €50 template.',
+    'faq.a3': 'With professionals, freelancers and companies that want to stand out online and automate what wastes their time. If you value quality, attention to detail and real results, we\'re a great match.',
 
     // Gaming section
     'gaming.meta': 'Gaming',
@@ -1581,6 +1588,73 @@ function FAQItem({ q, a }) {
   );
 }
 
+// ── Rete neurale animata in loop (anteprima "sistemi al lavoro") ──
+function NeuralPreview() {
+  const ref = React.useRef(null);
+  React.useEffect(() => {
+    const canvas = ref.current; if (!canvas) return;
+    const ctx = canvas.getContext('2d');
+    const dpr = Math.min(window.devicePixelRatio || 1, 2);
+    let w = 0, h = 0, raf = 0, t = 0, nodes = [], edges = [];
+    const layers = [4, 6, 6, 3];
+    function layout() {
+      const rect = canvas.getBoundingClientRect();
+      w = rect.width; h = rect.height;
+      if (w < 2 || h < 2) return;
+      canvas.width = w * dpr; canvas.height = h * dpr;
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      nodes = [];
+      const padX = w * 0.14, padY = h * 0.12;
+      const span = layers.length > 1 ? (w - padX * 2) / (layers.length - 1) : 0;
+      layers.forEach((count, li) => {
+        for (let i = 0; i < count; i++) {
+          const x = padX + li * span;
+          const y = count > 1 ? padY + i * (h - padY * 2) / (count - 1) : h / 2;
+          nodes.push({ x: x, y: y, layer: li, seed: i * 1.7 + li });
+        }
+      });
+      edges = [];
+      for (let li = 0; li < layers.length - 1; li++) {
+        const a = nodes.filter(n => n.layer === li);
+        const b = nodes.filter(n => n.layer === li + 1);
+        a.forEach(n1 => b.forEach(n2 => edges.push({ a: n1, b: n2, off: (n1.seed + n2.seed) * 0.19 })));
+      }
+    }
+    function frame() {
+      raf = requestAnimationFrame(frame);
+      if (!w || !h) { layout(); return; }
+      t += 0.01;
+      ctx.clearRect(0, 0, w, h);
+      for (let i = 0; i < edges.length; i++) {
+        const e = edges[i];
+        ctx.strokeStyle = 'rgba(244,241,234,0.05)'; ctx.lineWidth = 1;
+        ctx.beginPath(); ctx.moveTo(e.a.x, e.a.y); ctx.lineTo(e.b.x, e.b.y); ctx.stroke();
+        const p = (t * 0.5 + e.off) % 1;
+        const px = e.a.x + (e.b.x - e.a.x) * p, py = e.a.y + (e.b.y - e.a.y) * p;
+        const a = Math.sin(p * Math.PI);
+        ctx.fillStyle = 'rgba(230,180,60,' + (a * 0.85) + ')';
+        ctx.beginPath(); ctx.arc(px, py, 1.7, 0, 6.283); ctx.fill();
+      }
+      for (let i = 0; i < nodes.length; i++) {
+        const n = nodes[i];
+        const g = 0.5 + 0.5 * Math.sin(t * 2.2 + n.seed);
+        const last = n.layer === layers.length - 1;
+        ctx.shadowBlur = 8 * g;
+        ctx.shadowColor = last ? 'rgba(74,158,255,0.7)' : 'rgba(214,162,26,0.7)';
+        ctx.fillStyle = last ? 'rgba(120,180,255,' + (0.55 + 0.35 * g) + ')' : 'rgba(235,190,80,' + (0.5 + 0.4 * g) + ')';
+        ctx.beginPath(); ctx.arc(n.x, n.y, 3.2, 0, 6.283); ctx.fill();
+      }
+      ctx.shadowBlur = 0;
+    }
+    layout();
+    raf = requestAnimationFrame(frame);
+    const onR = () => layout();
+    window.addEventListener('resize', onR);
+    return () => { cancelAnimationFrame(raf); window.removeEventListener('resize', onR); };
+  }, []);
+  return <canvas ref={ref} className="neural-preview"></canvas>;
+}
+
 // ── Main App ──
 function DenuzzoAI() {
   const [langChosen, setLangChosen] = React.useState(false);
@@ -1848,15 +1922,23 @@ function DenuzzoAI() {
 
       {/* ═══ FAQ ═══ */}
       <section className="ai-section" id="faq" style={{background:'rgba(74,158,255,0.01)'}}>
-        <div ref={addReveal} className="ai-reveal">
-          <div className="ai-section-meta"><span className="ai-num">04</span><span className="ai-bar"></span><span>{t('faq.meta', lang)}</span></div>
-          <div className="ai-separator"></div>
-          <h2 className="ai-section-title">{t('faq.title_start', lang)}<em>{t('faq.title_em', lang)}</em>.</h2>
-        </div>
-        <div className="ai-faq-list" ref={addReveal}>
-          <FAQItem q={t('faq.q1', lang)} a={t('faq.a1', lang)} />
-          <FAQItem q={t('faq.q2', lang)} a={t('faq.a2', lang)} />
-          <FAQItem q={t('faq.q3', lang)} a={t('faq.a3', lang)} />
+        <div className="ai-faq-wrap">
+          <div className="ai-faq-left">
+            <div ref={addReveal} className="ai-reveal">
+              <div className="ai-section-meta"><span className="ai-num">04</span><span className="ai-bar"></span><span>{t('faq.meta', lang)}</span></div>
+              <div className="ai-separator"></div>
+              <h2 className="ai-section-title">{t('faq.title_start', lang)}<em>{t('faq.title_em', lang)}</em>.</h2>
+            </div>
+            <div className="ai-faq-list" ref={addReveal}>
+              <FAQItem q={t('faq.q1', lang)} a={t('faq.a1', lang)} />
+              <FAQItem q={t('faq.q2', lang)} a={t('faq.a2', lang)} />
+              <FAQItem q={t('faq.q3', lang)} a={t('faq.a3', lang)} />
+            </div>
+          </div>
+          <div className="ai-faq-right" ref={addReveal}>
+            <NeuralPreview />
+            <span className="neural-caption">Reti neurali · sistemi al lavoro</span>
+          </div>
         </div>
       </section>
 
