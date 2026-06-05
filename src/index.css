@@ -70,9 +70,8 @@ body::after {
   background: radial-gradient(125% 95% at 50% 42%, transparent 60%, rgba(0,0,0,.32) 100%); /* vignettatura più dolce */
 }
 
-/* Scia dorata "contrail" che segue il cursore — canvas full-screen */
+/* Scia dorata "contrail" che segue cursore (desktop) o dito (mobile) — canvas full-screen */
 .cursor-trail { position: fixed; inset: 0; z-index: 9995; pointer-events: none; }
-@media (hover: none) { .cursor-trail { display: none; } }
 @media (prefers-reduced-motion: reduce) { .cursor-trail { display: none; } }
 
 ::selection { background: rgba(214, 162, 26, 0.3); color: #fff; }

@@ -10,9 +10,8 @@ export default function CursorTrail() {
 
   useEffect(() => {
     const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    const fine = window.matchMedia("(pointer: fine)").matches;
     const canvas = canvasRef.current;
-    if (!canvas || reduce || !fine) return;
+    if (!canvas || reduce) return;
     const ctx = canvas.getContext("2d");
     if (!ctx) return;
 
@@ -36,12 +35,13 @@ export default function CursorTrail() {
     let active = false;
     const pts = Array.from({ length: N }, () => ({ x: mouse.x, y: mouse.y }));
 
-    const onMove = (e: MouseEvent) => {
+    const onMove = (e: PointerEvent) => {
       mouse.x = e.clientX;
       mouse.y = e.clientY;
       active = true;
     };
-    window.addEventListener("mousemove", onMove, { passive: true });
+    // pointermove copre sia mouse (desktop) che dito (mobile/touch)
+    window.addEventListener("pointermove", onMove, { passive: true });
 
     let raf = 0;
     const tick = () => {
@@ -80,7 +80,7 @@ export default function CursorTrail() {
 
     return () => {
       window.removeEventListener("resize", resize);
-      window.removeEventListener("mousemove", onMove);
+      window.removeEventListener("pointermove", onMove);
       cancelAnimationFrame(raf);
     };
   }, []);
