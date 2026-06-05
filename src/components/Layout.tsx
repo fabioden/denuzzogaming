@@ -11,6 +11,9 @@ import Loader from "@/components/Loader";
 // senza che il router SPA la intercetti e rimandi alla home.
 const BUSINESS_URL = "/business/index.html";
 
+// Community WhatsApp — apre la chat col messaggio precompilato
+const COMMUNITY_WA = "https://wa.me/393667142489?text=" + encodeURIComponent("Ciao fabio, voglio entrare nella community");
+
 const footerLinks = [
   { label: "Home", href: "/" },
   { label: "Coaching", href: "/coaching" },
@@ -41,12 +44,13 @@ export default function Layout({ children }: { children: ReactNode }) {
 
       {/* Nav */}
       <nav className="fixed inset-x-0 top-0 z-[1000] flex items-center justify-between px-[clamp(20px,4vw,52px)] py-4 bg-[#0e0c0d]/80 backdrop-blur-2xl border-b border-line transition-[background] duration-300">
-        <Link to="/" className="flex items-center gap-3 no-underline group">
+        <Link to="/" className="flex items-center gap-3 no-underline group shrink-0">
           <img src="/img/fd-mark.png" alt="Fabio Denuzzo" className="h-9 w-auto object-contain shrink-0 transition-transform duration-300 group-hover:scale-105" />
           <span className="font-mono text-[12px] font-medium tracking-[.28em] uppercase text-ink">Denuzzo Gaming</span>
         </Link>
 
-        <div className="hidden md:flex items-center gap-[clamp(18px,2.4vw,34px)]">
+        {/* Link centrali */}
+        <div className="hidden lg:flex flex-1 items-center justify-center gap-[clamp(12px,1.6vw,26px)]">
           {nav.map((l) => {
             const active = isActive(pathname, l.href);
             return (
@@ -57,21 +61,30 @@ export default function Layout({ children }: { children: ReactNode }) {
             );
           })}
 
-          {/* Denuzzo Business — apre il sito business (pagina statica /business) */}
+          {/* Denuzzo Business — apre il sito business (pagina statica) */}
           <a href={BUSINESS_URL} className="group relative inline-flex items-center gap-1.5 font-mono text-[11.5px] font-medium tracking-[.16em] uppercase no-underline text-ink-2 hover:text-gold transition-colors">
             Denuzzo Business
             <span className="text-gold text-[0.85em] leading-none transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5">↗</span>
             <span className="absolute -bottom-1.5 left-0 h-px bg-gold w-0 group-hover:w-full transition-all duration-300" />
           </a>
 
-          <Link to="/coaching" className="ml-1 inline-flex items-center px-4 py-2 rounded-full border border-gold/35 font-mono text-[11px] font-medium tracking-[.16em] uppercase text-gold hover:bg-gold/[.08] hover:border-gold/60 transition-all no-underline">Prenota</Link>
+          {/* Community WhatsApp */}
+          <a href={COMMUNITY_WA} target="_blank" rel="noopener noreferrer" className="group relative inline-flex items-center gap-1.5 font-mono text-[11.5px] font-medium tracking-[.16em] uppercase no-underline text-ink-2 hover:text-gold transition-colors">
+            <svg viewBox="0 0 24 24" fill="currentColor" className="w-[14px] h-[14px] shrink-0"><path d="M17.5 14.4c-.3-.15-1.7-.84-1.97-.94-.26-.1-.46-.14-.65.14-.2.27-.74.94-.9 1.13-.17.2-.33.22-.61.07-1.5-.75-2.48-1.34-3.47-3.03-.26-.45.26-.42.74-1.4.08-.17.04-.31-.02-.45-.07-.14-.65-1.57-.9-2.15-.23-.56-.47-.48-.65-.49h-.55c-.2 0-.5.07-.76.36-.26.27-1 .98-1 2.4 0 1.4 1.02 2.76 1.17 2.95.14.2 2.01 3.08 4.88 4.32 2.86 1.24 2.86.83 3.38.78.52-.05 1.68-.69 1.92-1.35.24-.66.24-1.22.17-1.34-.07-.12-.26-.19-.55-.33M12 2a10 10 0 0 0-8.55 15.18L2 22l4.94-1.3A10 10 0 1 0 12 2Z"/></svg>
+            Community
+            <span className="absolute -bottom-1.5 left-0 h-px bg-gold w-0 group-hover:w-full transition-all duration-300" />
+          </a>
         </div>
 
-        <button onClick={() => setMenuOpen(true)} aria-label="Menu" className="md:hidden w-10 h-10 rounded-full bg-white/[.04] border border-line-2 flex flex-col items-center justify-center gap-[5px] hover:bg-gold/[.08] transition">
-          <span className="block w-4 h-[1.5px] bg-ink" />
-          <span className="block w-4 h-[1.5px] bg-ink" />
-          <span className="block w-4 h-[1.5px] bg-ink" />
-        </button>
+        {/* Destra: Prenota + menu mobile */}
+        <div className="flex items-center gap-3 shrink-0">
+          <Link to="/coaching" className="hidden lg:inline-flex items-center px-4 py-2 rounded-full border border-gold/35 font-mono text-[11px] font-medium tracking-[.16em] uppercase text-gold hover:bg-gold/[.08] hover:border-gold/60 transition-all no-underline">Prenota</Link>
+          <button onClick={() => setMenuOpen(true)} aria-label="Menu" className="lg:hidden w-10 h-10 rounded-full bg-white/[.04] border border-line-2 flex flex-col items-center justify-center gap-[5px] hover:bg-gold/[.08] transition">
+            <span className="block w-4 h-[1.5px] bg-ink" />
+            <span className="block w-4 h-[1.5px] bg-ink" />
+            <span className="block w-4 h-[1.5px] bg-ink" />
+          </button>
+        </div>
       </nav>
 
       {/* Mobile menu */}
@@ -96,6 +109,11 @@ export default function Layout({ children }: { children: ReactNode }) {
               <circle cx="12" cy="7" r="4" />
             </svg>
             Denuzzo Business <span className="text-gold text-[.7em]">↗</span>
+          </a>
+          {/* Community WhatsApp */}
+          <a href={COMMUNITY_WA} target="_blank" rel="noopener noreferrer" onClick={() => setMenuOpen(false)} className="flex items-center gap-3 font-display text-[clamp(20px,4.5vw,30px)] font-bold uppercase no-underline text-ink-2 hover:text-gold transition">
+            <svg viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 shrink-0"><path d="M17.5 14.4c-.3-.15-1.7-.84-1.97-.94-.26-.1-.46-.14-.65.14-.2.27-.74.94-.9 1.13-.17.2-.33.22-.61.07-1.5-.75-2.48-1.34-3.47-3.03-.26-.45.26-.42.74-1.4.08-.17.04-.31-.02-.45-.07-.14-.65-1.57-.9-2.15-.23-.56-.47-.48-.65-.49h-.55c-.2 0-.5.07-.76.36-.26.27-1 .98-1 2.4 0 1.4 1.02 2.76 1.17 2.95.14.2 2.01 3.08 4.88 4.32 2.86 1.24 2.86.83 3.38.78.52-.05 1.68-.69 1.92-1.35.24-.66.24-1.22.17-1.34-.07-.12-.26-.19-.55-.33M12 2a10 10 0 0 0-8.55 15.18L2 22l4.94-1.3A10 10 0 1 0 12 2Z"/></svg>
+            Community
           </a>
         </div>
       </div>
