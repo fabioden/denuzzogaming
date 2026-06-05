@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#0d0b0c" />
+<title>Concierge AI — Hospitality · Caso studio | Fabio Denuzzo</title>
+<meta name="description" content="Caso studio: un assistente virtuale AI (concierge) per il settore hospitality. Risponde 24/7 a orari, menù, prenotazioni ed eventi, basato sui dati reali dell'attività." />
+<meta name="robots" content="index, follow" />
+<link rel="icon" type="image/png" href="/img/fd-mark.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+:root{
+  --gold:#d6a21a; --gold-light:#f0c85a; --blue:#4a9eff;
+  --bg:#0d0b0c; --card:#16141a; --card-2:#1a181e;
+  --ink-0:#f4f1ea; --ink-1:#b8b2a6; --ink-2:#74706a;
+  --line:rgba(244,241,234,.08);
+  --serif:'Playfair Display',Georgia,serif; --sans:'DM Sans',system-ui,sans-serif; --mono:'JetBrains Mono',monospace;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased}
+body{background:var(--bg);color:var(--ink-0);font-family:var(--sans);line-height:1.7;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;
+  background:radial-gradient(120% 80% at 50% -8%,rgba(214,162,26,.10),transparent 55%),radial-gradient(90% 70% at 85% 110%,rgba(74,158,255,.06),transparent 60%),radial-gradient(120% 130% at 50% 0%,#161320,#100d14 45%,#0c0a0d 100%)}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1000px;margin:0 auto;padding:0 clamp(20px,5vw,40px)}
+
+/* top bar */
+.topbar{position:sticky;top:0;z-index:50;display:flex;align-items:center;justify-content:space-between;
+  padding:16px clamp(20px,5vw,40px);backdrop-filter:blur(14px);background:rgba(13,11,12,.72);border-bottom:1px solid var(--line)}
+.topbar img{height:30px;width:auto}
+.back{display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-1);transition:color .3s}
+.back:hover{color:var(--gold)}
+
+/* hero */
+.hero{padding:clamp(56px,9vh,110px) 0 clamp(32px,5vh,56px)}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font-family:var(--mono);font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--blue);margin-bottom:1.2rem}
+.eyebrow .dot{width:6px;height:6px;border-radius:50%;background:var(--blue)}
+h1{font-family:var(--serif);font-weight:500;font-size:clamp(2.4rem,6vw,4rem);line-height:1.05;letter-spacing:-.01em;margin-bottom:1.2rem}
+h1 em{color:var(--gold);font-style:italic}
+.lead{font-size:clamp(1.05rem,1.4vw,1.2rem);color:var(--ink-1);max-width:60ch}
+.meta-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:1.8rem}
+.chip{font-family:var(--mono);font-size:11px;letter-spacing:.06em;color:var(--ink-1);border:1px solid var(--line);border-radius:999px;padding:7px 14px}
+.chip b{color:var(--gold);font-weight:500}
+
+/* sezioni */
+section{padding:clamp(36px,6vh,64px) 0}
+.kicker{font-family:var(--mono);font-size:10px;font-weight:500;letter-spacing:.24em;text-transform:uppercase;color:var(--gold);margin-bottom:.8rem}
+h2{font-family:var(--serif);font-weight:500;font-size:clamp(1.7rem,3.6vw,2.6rem);line-height:1.1;letter-spacing:-.01em;margin-bottom:1rem}
+h2 em{color:var(--gold);font-style:italic}
+p.body{color:var(--ink-1);max-width:64ch}
+.sep{height:1px;background:linear-gradient(90deg,transparent,rgba(214,162,26,.22),transparent);margin:0 auto;max-width:1000px}
+
+/* due colonne */
+.split{display:grid;grid-template-columns:1fr;gap:clamp(28px,4vw,56px);align-items:center}
+@media(min-width:860px){.split{grid-template-columns:1.05fr .95fr}}
+
+/* chat mockup */
+.chat{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:0 40px 90px -40px rgba(0,0,0,.8)}
+.chat-head{display:flex;align-items:center;gap:11px;padding:14px 18px;border-bottom:1px solid var(--line);background:rgba(255,255,255,.02)}
+.chat-ava{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(135deg,rgba(214,162,26,.2),rgba(74,158,255,.18));font-size:17px}
+.chat-id{font-weight:600;font-size:14px}
+.chat-id span{display:block;font-family:var(--mono);font-size:10px;letter-spacing:.1em;color:#5fd07a;text-transform:uppercase;font-weight:400;margin-top:1px}
+.chat-body{padding:18px;display:flex;flex-direction:column;gap:12px;background:
+  radial-gradient(100% 60% at 0% 0%,rgba(74,158,255,.04),transparent 60%)}
+.msg{max-width:82%;padding:11px 14px;border-radius:14px;font-size:.92rem;line-height:1.5}
+.msg.bot{align-self:flex-start;background:var(--card-2);border:1px solid var(--line);border-bottom-left-radius:5px;color:var(--ink-0)}
+.msg.user{align-self:flex-end;background:linear-gradient(135deg,var(--gold),#c0900f);color:#181308;border-bottom-right-radius:5px;font-weight:500}
+.msg small{display:block;font-family:var(--mono);font-size:9px;letter-spacing:.08em;opacity:.6;margin-top:5px;text-transform:uppercase}
+.chat-input{display:flex;align-items:center;gap:10px;padding:12px 16px;border-top:1px solid var(--line)}
+.chat-input .fake{flex:1;color:var(--ink-2);font-size:.9rem}
+.chat-input .send{width:34px;height:34px;border-radius:50%;background:var(--gold);display:grid;place-items:center;color:#181308}
+
+/* come funziona — step */
+.steps{display:grid;grid-template-columns:1fr;gap:14px;margin-top:1.6rem}
+@media(min-width:760px){.steps{grid-template-columns:repeat(2,1fr)}}
+.step{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px 20px}
+.step .n{font-family:var(--mono);font-size:11px;color:var(--gold);letter-spacing:.12em;margin-bottom:10px}
+.step h3{font-family:var(--sans);font-size:1.05rem;font-weight:600;margin-bottom:6px}
+.step p{color:var(--ink-2);font-size:.92rem}
+
+/* feature grid */
+.features{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-top:1.6rem}
+.feat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px}
+.feat .ic{font-size:20px;margin-bottom:10px;display:block}
+.feat h3{font-family:var(--sans);font-size:1rem;font-weight:600;margin-bottom:5px}
+.feat p{color:var(--ink-2);font-size:.88rem}
+
+/* tech */
+.tech{display:flex;flex-wrap:wrap;gap:10px;margin-top:1.4rem}
+.tech span{font-family:var(--mono);font-size:12px;color:var(--ink-1);border:1px solid var(--line);border-radius:8px;padding:9px 14px;background:rgba(255,255,255,.02)}
+
+/* cta */
+.cta{text-align:center;background:var(--card);border:1px solid var(--line);border-radius:20px;padding:clamp(36px,6vw,64px) clamp(20px,5vw,40px);margin:clamp(20px,4vh,40px) 0}
+.cta h2{margin-bottom:.8rem}
+.btn{display:inline-flex;align-items:center;gap:10px;margin-top:1.4rem;padding:15px 36px;border:1px solid rgba(214,162,26,.4);border-radius:10px;font-family:var(--mono);font-size:12px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-0);transition:all .35s;position:relative;overflow:hidden}
+.btn::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,var(--gold),var(--blue));transform:scaleX(0);transform-origin:left;transition:transform .4s cubic-bezier(.16,1,.3,1)}
+.btn:hover{color:#0d0b0c;border-color:var(--gold)}
+.btn:hover::before{transform:scaleX(1)}
+.btn span{position:relative;z-index:1}
+footer{padding:40px 0;text-align:center;border-top:1px solid var(--line);font-family:var(--mono);font-size:11px;color:var(--ink-2);letter-spacing:.08em}
+.disclaimer{font-family:var(--mono);font-size:11px;color:var(--ink-2);max-width:60ch;margin-top:1rem}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <a class="back" href="/business/index.html">← Torna al sito</a>
+  <a href="/business/index.html"><img src="/img/fd-mark.png" alt="Fabio Denuzzo" /></a>
+</div>
+
+<!-- HERO -->
+<header class="hero"><div class="wrap">
+  <div class="eyebrow"><span class="dot"></span>Caso studio · Agente AI</div>
+  <h1>Concierge AI per il <em>settore hospitality</em></h1>
+  <p class="lead">Un assistente virtuale in chat che risponde ai clienti <b>24 ore su 24</b>, in italiano e inglese, su orari, menù, prenotazioni ed eventi — basandosi sui dati reali dell'attività.</p>
+  <div class="meta-row">
+    <span class="chip"><b>Ruolo:</b> Progettazione &amp; sviluppo</span>
+    <span class="chip"><b>Tipo:</b> Agente AI · Web widget</span>
+    <span class="chip"><b>Settore:</b> Hospitality</span>
+  </div>
+</div></header>
+
+<div class="sep"></div>
+
+<!-- PROBLEMA + CHAT -->
+<section><div class="wrap split">
+  <div>
+    <div class="kicker">Il contesto</div>
+    <h2>Domande infinite, <em>a tutte le ore</em></h2>
+    <p class="body">Un'attività del settore hospitality riceve ogni giorno decine di messaggi ripetitivi: «Siete aperti stasera?», «Avete opzioni vegetariane?», «Come prenoto un tavolo?», «Fate eventi privati?». Spesso fuori orario, quando nessuno può rispondere — e ogni risposta mancata è un cliente (o una prenotazione) che si perde.</p>
+  </div>
+  <div>
+    <!-- MOCKUP CHAT (esempi generici) -->
+    <div class="chat" aria-label="Esempio di conversazione">
+      <div class="chat-head">
+        <div class="chat-ava">🤖</div>
+        <div class="chat-id">Concierge<span>● Online · 24/7</span></div>
+      </div>
+      <div class="chat-body">
+        <div class="msg bot">Ciao! 👋 Sono l'assistente del locale. Come posso aiutarti?</div>
+        <div class="msg user">Siete aperti stasera? E avete piatti vegetariani?</div>
+        <div class="msg bot">Sì, stasera siamo aperti fino a tarda sera. 🌙 Abbiamo diverse opzioni vegetariane nel menù — dai piattini da condividere ai primi. Vuoi che ti indichi come prenotare un tavolo?<small>risposta in 1,2s</small></div>
+        <div class="msg user">Sì grazie</div>
+        <div class="msg bot">Perfetto: puoi prenotare dal sistema online o scrivendo allo staff. Ti lascio il link 👇</div>
+      </div>
+      <div class="chat-input">
+        <div class="fake">Scrivi un messaggio…</div>
+        <div class="send">➤</div>
+      </div>
+    </div>
+  </div>
+</div></section>
+
+<div class="sep"></div>
+
+<!-- SOLUZIONE -->
+<section><div class="wrap">
+  <div class="kicker">La soluzione</div>
+  <h2>Un <em>concierge digitale</em> che non dorme mai</h2>
+  <p class="body">Ho progettato e sviluppato un assistente AI integrato nel sito: risponde da solo, in modo naturale e nel tono del brand, alle domande dei clienti. Conosce i dati reali dell'attività e, quando un'informazione non è disponibile (es. allergeni specifici o dettagli su eventi privati), <b>non inventa</b>: rimanda con garbo allo staff. Risultato: il cliente ha una risposta subito, lo staff è alleggerito dalle domande ripetitive.</p>
+</div></section>
+
+<!-- COME FUNZIONA -->
+<section><div class="wrap">
+  <div class="kicker">Come funziona</div>
+  <h2>Quattro pezzi, <em>un'unica esperienza</em></h2>
+  <div class="steps">
+    <div class="step"><div class="n">01</div><h3>Knowledge base</h3><p>I dati reali dell'attività (orari, menù, regole, eventi) vengono strutturati in una base di conoscenza che l'agente consulta.</p></div>
+    <div class="step"><div class="n">02</div><h3>Motore AI (Claude)</h3><p>Un modello linguistico avanzato interpreta la domanda e formula la risposta nel tono del brand, in IT/EN.</p></div>
+    <div class="step"><div class="n">03</div><h3>Backend sicuro</h3><p>Una funzione serverless fa da ponte: la chiave d'accesso all'AI resta protetta sul server, mai esposta al browser.</p></div>
+    <div class="step"><div class="n">04</div><h3>Widget nel sito</h3><p>Una chat leggera, integrabile in qualsiasi sito senza appesantirlo, pronta a rispondere giorno e notte.</p></div>
+  </div>
+</div></section>
+
+<div class="sep"></div>
+
+<!-- CARATTERISTICHE -->
+<section><div class="wrap">
+  <div class="kicker">Caratteristiche chiave</div>
+  <h2>Pensato per <em>funzionare davvero</em></h2>
+  <div class="features">
+    <div class="feat"><span class="ic">🕐</span><h3>Attivo 24/7</h3><p>Risponde anche di notte e nei festivi, quando lo staff non c'è.</p></div>
+    <div class="feat"><span class="ic">🌍</span><h3>Multilingua</h3><p>Italiano e inglese, riconosciuti in automatico dalla domanda.</p></div>
+    <div class="feat"><span class="ic">📅</span><h3>Consapevole del tempo</h3><p>Capisce «oggi», «stasera», «questo weekend» e li incrocia con gli orari.</p></div>
+    <div class="feat"><span class="ic">🎯</span><h3>Niente invenzioni</h3><p>Risponde solo su dati verificati; sul resto rimanda allo staff.</p></div>
+    <div class="feat"><span class="ic">🔒</span><h3>Sicuro</h3><p>Chiave AI protetta lato server, mai visibile nel browser.</p></div>
+    <div class="feat"><span class="ic">💸</span><h3>Costi sotto controllo</h3><p>Conversazioni ottimizzate e modello AI selezionabile in base al budget.</p></div>
+  </div>
+</div></section>
+
+<div class="sep"></div>
+
+<!-- TECH -->
+<section><div class="wrap">
+  <div class="kicker">Stack tecnologico</div>
+  <h2>Sotto il cofano</h2>
+  <p class="body">Tecnologie moderne, leggere e scalabili — pensate per essere economiche da mantenere e facili da estendere.</p>
+  <div class="tech">
+    <span>Claude API (LLM)</span>
+    <span>Node.js · Serverless</span>
+    <span>JavaScript</span>
+    <span>Knowledge base</span>
+    <span>Web widget (zero build)</span>
+    <span>Deploy cloud</span>
+  </div>
+</div></section>
+
+<!-- VALORE -->
+<section><div class="wrap">
+  <div class="kicker">Il valore</div>
+  <h2>Cosa cambia per l'attività</h2>
+  <div class="features">
+    <div class="feat"><span class="ic">⚡</span><h3>Risposte istantanee</h3><p>Il cliente non aspetta: ottiene subito ciò che cerca.</p></div>
+    <div class="feat"><span class="ic">🧘</span><h3>Staff alleggerito</h3><p>Meno domande ripetitive, più tempo per il servizio.</p></div>
+    <div class="feat"><span class="ic">📈</span><h3>Più prenotazioni</h3><p>Indirizza al sistema di prenotazione anche fuori orario.</p></div>
+    <div class="feat"><span class="ic">✨</span><h3>Esperienza premium</h3><p>Un tocco moderno che fa percepire l'attività come al passo coi tempi.</p></div>
+  </div>
+</div></section>
+
+<!-- CTA -->
+<div class="wrap">
+  <div class="cta">
+    <div class="kicker" style="justify-content:center">Vuoi qualcosa di simile?</div>
+    <h2>Un assistente AI <em>per la tua attività</em></h2>
+    <p class="body" style="margin:0 auto">Posso progettare un concierge (o un altro agente AI) su misura per il tuo business. Parliamone.</p>
+    <a class="btn" href="mailto:business.fabiodenuzzo@gmail.com?subject=Vorrei%20un%20agente%20AI%20per%20la%20mia%20attivit%C3%A0"><span>Scrivimi →</span></a>
+    <p class="disclaimer" style="margin:1.6rem auto 0">Caso studio anonimizzato a tutela del cliente. Nomi, dati e immagini reali non sono mostrati.</p>
+  </div>
+</div>
+
+<footer>© 2026 Fabio Denuzzo — Web Design · Automazioni · AI</footer>
+
+</body>
+</html>
