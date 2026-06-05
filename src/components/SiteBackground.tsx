@@ -8,15 +8,24 @@ const GOLD = ["#ecc074", "#d6a21a", "#b8860b"];
 export default function SiteBackground() {
   const { pathname } = useLocation();
   const [enabled, setEnabled] = useState(false);
+  const [mobile, setMobile] = useState(false);
 
   useEffect(() => {
     const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    const small = window.innerWidth < 768;
-    setEnabled(!reduce && !small);
+    setEnabled(!reduce);
+    setMobile(window.innerWidth < 768);
   }, []);
 
-  // Sottilissimo: solo un accenno di luce
-  const opacity = pathname === "/" ? 0.2 : pathname.startsWith("/privacy") ? 0.08 : 0.13;
+  // Sottilissimo ovunque; su mobile ancora più tenue e leggero
+  const opacity = mobile
+    ? pathname === "/"
+      ? 0.14
+      : 0.1
+    : pathname === "/"
+      ? 0.2
+      : pathname.startsWith("/privacy")
+        ? 0.08
+        : 0.13;
 
   return (
     <div className="fixed inset-0 pointer-events-none overflow-hidden" style={{ zIndex: -3 }} aria-hidden="true">
@@ -27,20 +36,20 @@ export default function SiteBackground() {
             colors={GOLD}
             backgroundColor="#0e0c0d"
             speed={0.26}
-            streakCount={2}
+            streakCount={mobile ? 1 : 2}
             streakWidth={1}
             streakLength={1}
-            glow={0.5}
-            density={0.4}
+            glow={mobile ? 0.45 : 0.5}
+            density={mobile ? 0.35 : 0.4}
             twinkle={0.25}
             zoom={3}
             backgroundGlow={0.2}
-            opacity={0.5}
-            mouseInteraction
+            opacity={mobile ? 0.45 : 0.5}
+            mouseInteraction={!mobile}
             mouseStrength={0.3}
             mouseRadius={0.9}
             mixBlendMode="screen"
-            dpr={1.5}
+            dpr={mobile ? 1 : 1.5}
           />
         ) : (
           <div
