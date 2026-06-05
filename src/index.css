@@ -59,7 +59,7 @@ body {
 /* Sfondo "materiale": carbone caldo + alone dorato morbido in alto + vignettatura.
    Fisso, sotto i contenuti — dà profondità senza il nero piatto. */
 body::before {
-  content: ""; position: fixed; inset: 0; z-index: -3; pointer-events: none;
+  content: ""; position: fixed; inset: 0; z-index: -4; pointer-events: none;
   background:
     radial-gradient(130% 90% at 50% -8%, rgba(214,162,26,.14) 0%, rgba(214,162,26,.05) 30%, transparent 60%),
     radial-gradient(90% 70% at 85% 115%, rgba(214,162,26,.05) 0%, transparent 60%),
