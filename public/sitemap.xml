@@ -41,6 +41,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://denuzzogaming.com/en/newsletter/neymar-ritorno-fc26</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://denuzzogaming.com/newsletter/evo-portieri-pack-weight-fc26</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

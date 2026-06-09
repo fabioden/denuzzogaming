@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import { newsletterPage as n, blogPage } from "@/content";
-import { articles } from "@/content/articles";
+import { articles, articleView } from "@/content/articles";
+import { L, useLang } from "@/i18n";
 import Seo from "@/components/Seo";
 import CoachingCTA from "@/components/CoachingCTA";
 
@@ -14,8 +14,10 @@ export default function Newsletter() {
   const [email, setEmail] = useState("");
   const [cat, setCat] = useState("Tutti");
 
+  const lang = useLang();
   const filtered = cat === "Tutti" ? articles : articles.filter((a) => a.category === cat);
   const latest = articles[0];
+  const lv = latest ? articleView(latest, lang) : null;
 
   return (
     <>
@@ -63,22 +65,22 @@ export default function Newsletter() {
       <div className="gold-sep" />
 
       {/* ULTIMA USCITA */}
-      {latest && (
+      {latest && lv && (
         <section className="pt-[clamp(40px,6vh,64px)]">
           <div className={wrap}>
-            <Link to={`/newsletter/${latest.slug}`} className="card flex flex-col md:flex-row md:items-center gap-6 no-underline group">
+            <L to={`/newsletter/${latest.slug}`} className="card flex flex-col md:flex-row md:items-center gap-6 no-underline group">
               <div className="flex-1">
                 <div className="flex items-center gap-3 mb-3">
-                  <span className="badge badge--red">🔥 Ultima uscita</span>
-                  <span className="font-mono text-[11px] tracking-[.1em] uppercase text-gold">{latest.category}</span>
+                  <span className="badge badge--red">🔥 {lang === "en" ? "Latest" : "Ultima uscita"}</span>
+                  <span className="font-mono text-[11px] tracking-[.1em] uppercase text-gold">{lv.category}</span>
                 </div>
-                <h2 className="text-[clamp(1.5rem,3vw,2.2rem)] leading-tight text-ink group-hover:text-gold transition-colors mb-2">{latest.title}</h2>
-                <p className="text-[.95rem] text-ink-2 max-w-[60ch]">{latest.excerpt}</p>
+                <h2 className="text-[clamp(1.5rem,3vw,2.2rem)] leading-tight text-ink group-hover:text-gold transition-colors mb-2">{lv.title}</h2>
+                <p className="text-[.95rem] text-ink-2 max-w-[60ch]">{lv.excerpt}</p>
                 <div className="flex items-center gap-3 font-mono text-[11px] text-muted mt-4">
-                  <span>{latest.dateLabel}</span><span>·</span><span>{latest.readingTime}</span>
+                  <span>{lv.dateLabel}</span><span>·</span><span>{latest.readingTime}</span>
                 </div>
               </div>
-            </Link>
+            </L>
           </div>
         </section>
       )}
@@ -105,19 +107,22 @@ export default function Newsletter() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-            {filtered.map((a) => (
-              <Link key={a.slug} to={`/newsletter/${a.slug}`} className="card flex flex-col no-underline group">
+            {filtered.map((a) => {
+              const av = articleView(a, lang);
+              return (
+              <L key={a.slug} to={`/newsletter/${a.slug}`} className="card flex flex-col no-underline group">
                 <div className="flex items-center justify-between mb-3">
-                  <span className="font-mono text-[11px] tracking-[.1em] uppercase text-gold">{a.category}</span>
+                  <span className="font-mono text-[11px] tracking-[.1em] uppercase text-gold">{av.category}</span>
                   {a.badge && <span className="inline-flex items-center px-2.5 py-0.5 font-display text-[10px] font-bold tracking-[.1em] uppercase rounded-full bg-red text-white">{a.badge}</span>}
                 </div>
-                <h3 className="text-[1.2rem] leading-snug mb-3 text-ink group-hover:text-gold transition-colors">{a.title}</h3>
-                <p className="text-[.92rem] text-ink-2 mb-4 flex-1">{a.excerpt}</p>
+                <h3 className="text-[1.2rem] leading-snug mb-3 text-ink group-hover:text-gold transition-colors">{av.title}</h3>
+                <p className="text-[.92rem] text-ink-2 mb-4 flex-1">{av.excerpt}</p>
                 <div className="flex items-center gap-3 font-mono text-[11px] text-muted">
-                  <span>{a.dateLabel}</span><span>·</span><span>{a.readingTime}</span>
+                  <span>{av.dateLabel}</span><span>·</span><span>{a.readingTime}</span>
                 </div>
-              </Link>
-            ))}
+              </L>
+              );
+            })}
           </div>
         </div>
       </section>

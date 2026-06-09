@@ -46,6 +46,7 @@ const DICT: Record<string, { it: string; en: string }> = {
   "menu.close": { it: "Chiudi", en: "Close" },
   "footer.rights": { it: "Tutti i diritti riservati", en: "All rights reserved" },
   "footer.privacy": { it: "Privacy Policy", en: "Privacy Policy" },
+  "article.readAlso": { it: "Leggi anche", en: "Read also" },
   "lang.switch": { it: "English", en: "Italiano" }, // etichetta del bottone (mostra l'ALTRA lingua)
 };
 
