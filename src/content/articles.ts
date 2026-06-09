@@ -110,6 +110,81 @@ La mossa intelligente è non bruciarli tutti per forza. Se hai, per esempio, 110
 > — Spendere tutti i gettoni per forza: meglio un tesoretto che un acquisto mediocre
 > — Rimandare un pacchetto che sta per scadere pensando "tanto resta lì"
 > — Inseguire il Pick Icon se non ti servono Icon: spesso è skippabile`,
+    en: {
+      title: "FUT Champions Store FC 26: How It Works & Which Rewards to Pick",
+      description: "How the EA FC 26 FUT Champions store works: tokens separate from Rivals, rewards by tier, tradeable or untradeable, and when it's worth hoarding your tokens.",
+      excerpt: "FUT Champions store: tokens kept apart from Rivals, rewards by tier (200→1000), tradeable or untradeable, and when hoarding tokens beats spending them.",
+      category: "Guide",
+      dateLabel: "10 June 2026",
+      heroAlt: "EA FC 26 FUT Champions store: tokens and packs on a black and gold background",
+      body: `After the "regular" Rivals token store, it's the **FUT Champions store**'s turn. It works much the same way, but there are a couple of things you really need to nail down so you don't waste your tokens — above all the **expiry dates** and the choice between **tradeable and untradeable** cards. Here's how to play it.
+
+## Two Separate Stores: Champions and Rivals
+
+First thing to clear up, because it causes confusion: the Champions store tokens **look identical** to the Rivals ones, but they're **separate**. You've got two distinct shops:
+
+- the **weekly store** (Rivals, Live, Squad Battles, SBCs and so on);
+- the **FUT Champions store**, fuelled by the tokens you grind out in Weekend League.
+
+On top of the store, the Weekend League tiered rewards still hand you coins, tokens and — only at **rank 1** — packs as well, plus up to 300,000 coins. The other ranks mainly drop coins and tokens, which you then spend in the store.
+
+## Rewards by Tier: from 200 to 1000 Tokens
+
+Rewards run from **200 all the way to 1000 tokens**. This year EA switched things up: packs have **fewer cards but higher quality**. Translated: less filler, more substance. Here are this week's tiers.
+
+![The token store reward ladder, from the lower tiers up to the top](/img/articles/fut-champions-store-gettoni-fc26-1.jpg)
+
+- **200 tokens** → a 3-player **92+ Path to Glory** pack (untradeable, max 2 per week). Alternatively, 4 **tradeable Path to Glory Squad 1** player items with no rating cap: these you can flip on the market.
+- **300 tokens** → a 5-player **93+ Path to Glory** player pick (up to 5 claimable, i.e. 1500 tokens on the table).
+- **400 tokens** → chunkier packs, around 50 cards, with a pick and guaranteed **85+/86+ fodder**. There are tradeable and untradeable versions, plus a tasty option: a tradeable **2-of-8 93+ Path to Glory** pick.
+- **600 tokens** (≈ 10 wins) → **National Pride** cards (think Dani Olmo) that you can **build by choosing your own PlayStyles** — 3 gold PS and 8 base PS to customise.
+
+> 💡 **Wins → tokens reference:** roughly speaking 8 wins are worth ~400 tokens, 10 wins ~600, 13 wins ~1100. To reach the 1000-token rewards you need 15-win form: if you're not getting there, focus on the 200–400 tiers, which are still excellent.
+
+In the higher tiers (**650+**) you'll find the best packs: the juiciest is a **14x Path to Glory 91+ with 4 guaranteed 93+**. There's also a **93+ Icon Pick**, but that's more down to taste — if you're not big on Icons, it's skippable.
+
+## Tradeable or Untradeable?
+
+This is the real decision in the store, even more than which tier to pick.
+
+![The choice between tradeable and untradeable cards in the token store](/img/articles/fut-champions-store-gettoni-fc26-2.jpg)
+
+- **Tradeable:** you can sell whatever you pack on the market. Great if you're after coins or want to cash in on a lucky pull.
+- **Untradeable:** can't be sold on, but these packs often **give more** for the same token cost.
+
+There's no universally right call: it depends on what you need. If you want to build coins, go tradeable. If you're chasing a big hit to keep in your squad, untradeable usually **pulls** better. Personally, when I want to roll the dice I prefer **untradeable**.
+
+## What Expires and What Doesn't
+
+This is the biggest difference from the Rivals store, and it's easy to get caught out:
+
+> ⚠️ **Tokens DON'T expire — the rewards do.** You can hold tokens and spend them in later weeks. But a lot of **store packs expire** and get swapped out the following week. And the Champions store is more **dynamic** than the Rivals one: it changes faster. Always check the expiry dates before putting off a purchase.
+
+Some rewards (especially cosmetic items and the smaller 25–50 token packs) are negligible: only useful for burning off leftover tokens after a combo, but nothing to lose sleep over.
+
+## Spend or Hoard: the Strategy
+
+Since tokens don't expire, you've got two routes:
+
+1. **Spend now** if this week's rewards convince you.
+2. **Hoard** to start next week with a stockpile, if there's nothing this week that excites you.
+
+The smart move is not to blow them all just for the sake of it. If you've got, say, 1100 tokens, you can grab a 1000 one and **set the rest aside** instead of forcing a second mediocre purchase. Or go all in on a single top untradeable pack and pray for the hit. Weigh it up based on how lucky you feel and what you actually need: coins or cards for the squad.
+
+## Summary
+
+> **✓ DO**
+> — Remember the Champions and Rivals stores have separate tokens
+> — Decide the most important thing first: tradeable (coins) or untradeable (more value)
+> — Check the expiry dates: the Champions store changes fast
+> — Hoard your tokens if the week's rewards don't convince you
+> — In the lower tiers (200–400) there's great value even without hitting 15 wins
+>
+> **✕ DON'T**
+> — Spend every token just because: a stockpile beats a mediocre purchase
+> — Put off a pack that's about to expire thinking "it'll stay there anyway"
+> — Chase the Icon Pick if you don't need Icons: it's often skippable`,
+    },
   },
   {
     slug: "path-to-glory-team-2-fc26",
@@ -185,6 +260,73 @@ Il filo conduttore è uno solo: **scegli le carte in base alla nazionale.** Bras
 > — Risparmiare pacchetti a tutti i costi: dai leak il Team 1 era più forte
 > — Investire su carte di nazionali a rischio eliminazione ai gironi
 > — Dare per certe le statistiche predette: possono cambiare al rilascio`,
+    en: {
+      title: "Path to Glory Team 2 FC 26: Leaked Players and Release Date",
+      description: "FUT Sheriff leaked the EA FC 26 Path to Glory Team 2 names: from Marquinhos to Laporte. Release date, how the World Cup upgrades work, and if it's pack-worthy.",
+      excerpt: "FUT Sheriff leaks Path to Glory Team 2: from Marquinhos to Laporte. Release date, how the World Cup upgrades work, and whether it's worth ripping packs.",
+      category: "News",
+      dateLabel: "9 June 2026",
+      heroAlt: "Path to Glory Team 2 on EA FC 26: a World Cup-style player reveal on a green and gold background",
+      body: `The **Path to Glory Team 2** is right around the corner and the first names are already floating around thanks to **FUT Sheriff** leaks. It's the second drop of the promo that kicks off the Festival of Football: World Cup-themed cards that upgrade themselves as nations advance. Marquinhos on the cover, but the real question is something else — **is it worth saving packs for this team?** Here's what we know and how to play it.
+
+> ⚠️ **Heads up:** the names and stats below are **leaks and predictions** (source: FUT Sheriff), not official EA info. They can change before release. Nothing is confirmed until it drops in-game.
+
+## The Leaked Players of Team 2
+
+These are the names that have leaked so far for PTG Team 2:
+
+![Path to Glory Team 2 card lineup in Ultimate Team style](/img/articles/path-to-glory-team-2-fc26-1.jpg)
+
+> ✔ **Defense:** Marquinhos (Brazil), Laporte (Spain), Martínez (Argentina), Antonee Robinson (England)
+> ✔ **Midfield:** Çalhanoğlu (Turkey), Xhaka (Switzerland), Kessié (Ivory Coast)
+> ✔ **Attack:** Isak (Sweden), Iñaki Williams (Spain), Džeko (Bosnia), Aktürkoğlu (Turkey), Jordan Ayew (Ghana)
+
+The face of the team is **Marquinhos**, listed on the cover as a **95 CB**: predicted stats of 94 pace, **96 defending**, 91 physical, 88 dribbling and 87 passing. A rock-solid center-back profile, perfect for anyone after a wall at the back — but remember, these are predicted numbers.
+
+Compared to Team 1 — the one with the big hitters like Vini Jr., De Bruyne and Saka — the names here carry objectively less weight. There are solid players, but the hype level isn't the same.
+
+## How the World Cup Upgrades Work
+
+This is the part you really need to understand, because it changes the whole conversation around the cards' value.
+
+![Path to Glory card climbing in rating with World Cup upgrades](/img/articles/path-to-glory-team-2-fc26-2.jpg)
+
+Path to Glory cards are **dynamic**: they launch with a base boost, then **upgrade automatically every time the player's nation advances** in the World Cup. The further the team goes, the more the card grows — overall, PlayStyle+, all the way up to versions that can hit **99** and reach 5-star skills / 5-star weak foot if the nation wins it all.
+
+> 💡 **The key concept:** you're not just buying today's card, you're betting on how far the nation will go. A player from a favored nation has massive upgrade potential; one from a nation that crashes out in the group stage stays exactly as is.
+
+Also keep one promo rule in mind: **Team 1 cards do not carry over into Team 2.** They're two separate drops, each available in its own week.
+
+## When Team 2 Drops
+
+The **Path to Glory Team 2 drops on Friday, 12 June 2026**, around **6 PM UK time (7 PM CET)**. The overall promo runs from **5 to 19 June**, so this is the second and final Path to Glory team before the Festival of Football moves on to other content.
+
+## Is It Worth Saving Packs?
+
+I'll be straight with you: **on paper, Team 1 was stronger.** If you've been hoarding packs hoping for blockbuster names in Team 2, the current leaks don't make this look like the moment to go all in. Barring surprises from the next leaks, **I wouldn't blow up my strategy** for this team.
+
+That said, a couple of cards deserve genuine attention — and the reason is exactly the upgrade mechanic:
+
+> 💡 **Who I'd keep an eye on:**
+> — **Marquinhos and Laporte** → already solid defenders, with nations (Brazil and Spain) among the favorites: tons of upgrade headroom.
+> — **Iñaki Williams and Isak** → quick strikers, profiles that always work in this meta.
+> — **Çalhanoğlu** → quality on the ball (passing and shooting) for anyone building through midfield.
+
+There's one common thread: **pick your cards based on the nation.** Brazil, Spain, England, Argentina have the potential to go deep and make the card pop off. On lower-rated nations you're buying a nice design and little upside — the risk the card stays frozen is high.
+
+## Summary
+
+> **✓ DO**
+> — Mark the date: Team 2 Friday 12 June, 7 PM CET
+> — Target cards from favored nations (Brazil, Spain, England) for the upgrades
+> — Consider Marquinhos or Laporte if you need a defender with room to grow
+> — Treat names and stats as leaks until EA makes them official
+>
+> **✕ DON'T**
+> — Save packs at all costs: from the leaks, Team 1 was stronger
+> — Invest in cards from nations at risk of going out in the group stage
+> — Take the predicted stats as gospel: they can change at release`,
+    },
   },
   {
     slug: "neymar-ritorno-fc26",
@@ -437,6 +579,65 @@ Il meccanismo è semplice: **gold commons → crafting upgrade → gold rares �
 > — Tenere Endrick sopra i 500K senza listarlo — il price range calerà
 > — Comprare TOTS League One ai prezzi di venerdì — ora sono molto più bassi
 > — Ignorare il pack weight attuale: è uno dei migliori momenti dell'anno`,
+    en: {
+      title: "Historic GK EVO, Pack Weight Spikes and the Weekend Market",
+      description: "For the first time in FUT, keepers get +25 Reactions. Osimhen Rapid+Quick Step, player picks dropping blues and how to work the weekend market.",
+      excerpt: "For the first time in FUT, keepers get +25 Reactions. Osimhen Rapid+Quick Step and how to work the weekend market.",
+      category: "Market",
+      dateLabel: "10 May 2026",
+      body: `This EA FC 26 weekend dropped two things you didn't see coming: a GK EVO for the history books and pack weight we haven't seen in weeks. Here's everything that actually matters.
+
+## The Keeper EVO That Changes FUT History
+
+For as long as Ultimate Team has existed — and we're talking years — goalkeepers have always gotten boosts to every stat except one: **Reactions**. The single most important stat for a keeper in EA FC. Never touched, never upgraded, not even in EVOs.
+
+This EVO, called Cat-like Reflexes, changes everything for the first time: **+25 Reactions**. If you've got an evolvable Vicario in your club, you already know what to do — he's one of the best keepers in the game and this boost makes him even more dominant. Matt Turner, for example, jumps from 71 to 93 Reactions with this EVO. The numbers speak for themselves.
+
+> ✔ First EVO ever to boost keeper Reactions
+> ✔ Guaranteed +25 Reactions
+> ✔ Includes a weak foot boost (+1 star)
+> ✔ Free — an absolute must-complete
+
+> ⚠️ **On the market:** TOTS keepers are tanking — Buffon from 690K to 520K, the Bundesliga TOTS keeper from 280K to 230K. These are interesting buys. Just like with past keeper EVOs, prices always bounce back once the initial hype dies down. Keepers with 3 PlayStyle+ stay the best in the game — buy the panic, sell the calm.
+
+## Osimhen SBC: Rapid + Quick Step on a Lengthy Player
+
+The most interesting SBC right now is **Osimhen**. The combo that makes him unique: Rapid+, Quick Step+ and Lengthy AcceleRATE. 97 Pace. Sprinting onto a through ball he'll be devastating — Rapid+ on a Lengthy player with that base pace is something you rarely see.
+
+The rest of the card fills out the picture: 97 Strength, 98 Jumping, 99 Heading Accuracy, elite shooting, First Touch, Pinged Pass, Finesse, Low Driven and Technical. Costs around 220,000 coins — three squads between 87 and 90 rated with some TOTW. Not cheap, but justified by the card's profile.
+
+> 💡 **Why he's special:** Rapid+ on Lengthy with 97 Pace means that when he sprints onto a through ball he's basically impossible to catch. This isn't a possession card — it's a card built to rip defenses apart in behind.
+
+## Pack Weight: Something Different Is Going On
+
+The 82+ player picks are dropping blues at a rate we haven't seen in weeks. The weekend's red picks have been exceptional. Barcola at 500,000 coins was packable — then he dropped to 200K but still a serious pull. Škriniar, Stiller, useful dupes for the SBC grind.
+
+The mechanic is simple: **gold commons → crafting upgrades → gold rares → 82+ player picks**. Every cycle gives you real TOTS chances. As long as the pack weight stays like this, this is the top priority over sitting on coins.
+
+> 💡 **Endrick at 500K minimum:** The price range is wrong — EA will correct it downward. If you've got him, list him at 501K right now before the range gets updated.
+
+## How to Make Coins This Weekend
+
+**85 and 86 rated.** Bid on them at 1.7K, list at 2,500+ when the content drops. The pattern repeats every weekend — it doesn't change.
+
+**Out-of-packs TOTS.** Tah, Ryerson, the Bundesliga and Premier League TOTS coming out of packs move predictably: up in the evening, down overnight, back up during rewards. Buy the dips, sell the spikes. 30-50K margins per card, risk-free.
+
+**League One TOTS sliding.** Nuno Mendes from 1.2M to 830K, Pacho at 1.1M, Sangaré down, Asensio from over 1M to 669K, Leroy Sané at 375K. Prices are normalizing after launch — if you want one of these for your squad, now is the time to buy, not last Friday.
+
+## Summary
+
+> **✓ DO**
+> — Cat-like Reflexes EVO: complete it, it's free and it's historic
+> — 82+ player picks: keep grinding while the pack weight holds
+> — Buy sliding TOTS keepers as a medium-term investment
+> — 85-86 rated bids at 1.7K, list at the content drop
+> — Osimhen SBC if you want a quick, physical striker that's different from the usual
+>
+> **✕ DON'T**
+> — Hold Endrick above 500K without listing him — the price range will drop
+> — Buy League One TOTS at Friday's prices — they're much lower now
+> — Sleep on the current pack weight: it's one of the best windows of the year`,
+    },
   },
   {
     slug: "league-one-tots-kvaraskhelia-sbc-fc26",
@@ -496,6 +697,60 @@ Il giorno dei rewards è uno dei momenti più prevedibili e sfruttabili del merc
 > **✕ DA EVITARE**
 > — Completare SBC Osimhen/Yilmaz: statistiche non giustificano il costo
 > — Tenere carte live UCL dopo la finale senza pianificare l'uscita`,
+    en: {
+      title: "League One TOTS: Is Kvaratskhelia Worth It? SBC, Market & Coins",
+      description: "This week's big SBC is Kvaratskhelia. The packable cards have interesting stats, but EA is missing a trick. Meanwhile, the market moves on rewards day.",
+      excerpt: "This week's big SBC is Kvaratskhelia. Interesting stats, but EA misses a trick. And the market's moving on rewards day.",
+      category: "TOTS",
+      dateLabel: "7 May 2026",
+      body: `League One TOTS week — not the most exciting promo of the year, but there's real stuff to break down: Friday's big SBC, a few interesting cards in packs, and the easiest way to make coins off today's rewards.
+
+## Kvaratskhelia: This Week's Big SBC
+
+The headline SBC this week is **Kvaratskhelia**. The official stats: 94 pace, 94 dribbling, 92 shooting, 91 passing, Rapid, Finesse and Game Changer. Five-star skills, five-star weak foot — as always.
+
+The card is good. No doubt about that. But looking at where we are in TOTS — after weeks of similar SBCs like Di Maria, Marco Reus, Hundman Sun — it doesn't hype me the way it should. The stats don't jump off the screen in any unique way. It's a strong card, but it's nothing different from what we've already seen.
+
+> 💡 **The price angle:** Kvaratskhelia's tradeable version sits at around 900K on the market. If EA makes it accessible — like they did with Leonard Carl at ~400K — it's absolutely worth completing. If it costs as much as the tradeable version, I'm thinking twice.
+
+## The Cards in Packs: Where the Real Value Is
+
+This week there are **three 97-rated cards with 4 PlayStyle+ each** in packs at the same time — something we've never seen in a single TOTS week before. Chawinga NWSL, Chawinga D1 Arkema and Vitinha PSG. The stats on some of the squad's cards are objectively strong.
+
+**Dembélé Super League** deserves its own mention. With Quick Step, Finesse and Technical at 95 rated — some argue it's comparable to his 97-rated Team of the Year card. Same pace and shooting, one point more in dribbling, three more in physical. The difference is the overall rating, but on the pitch the gap could be minimal. If you pack it, don't quick-sell it.
+
+> ⚠️ **The problem with the secondary SBCs:** Osimhen and Yilmaz drop as Super League SBCs with underwhelming stats for this stage of TOTS — 89 shooting and 88 passing on Yilmaz, 89 dribbling on Osimhen. Cards with interesting names but numbers that give you no real reason to run them. EA has the potential to make creative SBCs and just isn't using it.
+
+## UCL: PSG Into the Final, What to Do With Musiala
+
+PSG knocked out Bayern (1-1, through on aggregate) and are off to the UCL final. **Dembélé and Barcola** will get +1 overall and a third PlayStyle+ — their cards go up.
+
+**Musiala** has crashed from 1.5 million to around 500K after the elimination. He still picks up +1 overall for the equaliser in the second half of extra time. At 500K he's one of the strongest cards in the game at that price — anyone buying him today to use in their squad is getting a steal. Anyone buying to flip needs to work out how far he drops before jumping in.
+
+> 💡 **UCL final strategy:** Live cards like Hincapié, Dembélé and Vicky Lopez (currently extinct at 420K) will stay inflated until the UCL final. The logic is always the same — sell during the match or just before, not after the upgrade.
+
+## How to Make Coins Today With Division Rivals Rewards
+
+Rewards day is one of the most predictable and exploitable moments on the market. Here's what actually works:
+
+**85 and 86 rated.** On rewards days they drop as low as 1,200–1,500 coins on bids. In the evening, when the content drops, they climb back to 2,000–2,800, in some cases 3,000. Buy in the morning, list in the late afternoon.
+
+**89 rated.** With the 91+ TOTS Player Pick refreshing today (86+87+87 structure), demand for 89 fodder goes up. If you can snipe them under 5,000–6,000 coins on bids, they're worth it.
+
+**TOTS cards from previous weeks.** Premier League, Serie A — with the coin injection from rewards, people buy. Cards that were sitting still start moving. Study the graphs from the last two rewards Thursdays: the pattern repeats.
+
+## Summary
+
+> **✓ DO**
+> — Bid on 85–86 rated this morning, list tonight
+> — Complete the 91+ TOTS Player Pick with club fodder
+> — Watch Musiala: if he drops under 450K, he's a steal to use
+> — Only consider Kvaratskhelia if the SBC cost is accessible
+>
+> **✕ DON'T**
+> — Complete the Osimhen/Yilmaz SBCs: the stats don't justify the cost
+> — Hold UCL live cards past the final without planning your exit`,
+    },
   },
   {
     slug: "tots-evo-difensori-centrali-fc26",
@@ -554,6 +809,59 @@ Non è la settimana più hype della TOTS, ma ci sono carte con statistiche già 
 > — Comprare DC top sul mercato ora — scenderanno venerdì
 > — Tenere Dembélé o Musiala live se non ne sei convinto
 > — Lasciare il fodder fermo nel club senza usarlo`,
+    en: {
+      title: "EA FC 26 TOTS: The Mega CB EVO, How to Make Coins & the Full Meta",
+      description: "The max 90 mega EVO for centre-backs drops Friday. How to play the market, make coins flipping 93 TOTS cards, and what to expect from League One.",
+      excerpt: "The max 90 mega EVO for centre-backs drops Friday. Market moves, coins with 93 TOTS, and what to expect from League One.",
+      category: "TOTS",
+      dateLabel: "6 May 2026",
+      body: `We're deep into TOTS and this week has more to juggle than usual: a **big EVO dropping Friday**, UCL upgrades shaking up the market, and a few solid, low-risk ways to make coins. Here's what actually matters.
+
+## Max 90 Centre-Back EVO: Requirements & What to Expect
+
+Friday brings the first EVO of the year built for centre-backs, with these requirements:
+
+> ✔ **Position:** Centre Back · **Max overall:** 90
+> ✔ **Max PlayStyle Plus:** 2 · **Min base PlayStyles:** 10
+> **Expected result: 3 PlayStyle Plus + stat boosts**
+
+It's the first max 90 CB EVO to hand out 3 PS+ — and the requirements are open enough to include cards with extra positions like CDM or full-back. Cards like **Micky van de Ven** (already 94 pace) or **Patrick Vieira Winter Wildcard** fit perfectly. Likely PS+: **Intercept+, Bruiser, Quick Step**. If Intercept+ is confirmed, Hincapié — already maxed out in price — becomes one of the best CBs in the game.
+
+> ⚠️ **On the market:** Sell your valuable tradeable CBs **before Friday** — Tah, Jacob Ramon TOTS, Bremer TOTS. Once this EVO goes live, anyone sitting on evolvable cards in their club stops buying off the market. Prices drop. On the flip side, 88–90 rated CBs with ≤ 2 PS+ are already climbing on speculation — if you've got them, hold.
+
+## How to Make Coins This Week
+
+**93 TOTS cards on bids.** Right now they're going for 20,000 coins on bids. They climb to 23–24K at peak hours, and with no Weekend League rewards out, supply is lower than usual. The play is simple: snipe at 20K, list at 25K, walk away clean.
+
+**85–86 rated fodder.** It's bounced back above 2,000 coins, and on Division Rivals rewards days it spikes to 2,200–2,300. List today, not tomorrow — once rewards drop, supply floods and prices tank.
+
+**91+ TOTS Player Pick every two days.** It costs ~99,000 coins on the price tag, but building it with club fodder (86x2 + 83x14) brings the real cost way down. The odds aren't guaranteed, but it's still the best possible use for your excess fodder versus letting it rot in the club.
+
+> 💡 **Core principle:** Fodder you don't use is locked-up coins. Keep it moving — SBC, Player Pick, doesn't matter. An 84 rated sitting in your club is worth zero.
+
+## UCL: Arsenal in the Final, What Shifts on the Market
+
+Arsenal knocked out Atletico Madrid (2-1 on aggregate) to reach the UCL final. Direct knock-on: the Arsenal live cards — **Hincapié and Eze** — will soon get +1 overall and a third PlayStyle Plus. Arsenal card prices have already climbed ahead of the upgrade. The Atletico cards (Sorloth, Molina) crashed the moment they went out.
+
+> ⚠️ **PSG-Bayern tonight:** Dembélé is worth 4.2M, Musiala 1.4M. Whoever loses watches their card get cut in half within hours. If you've got one of these in your squad and you're not sure about keeping it, sell before kickoff.
+
+## TOTS League One: Cards to Keep an Eye On
+
+It's not the most hyped TOTS week, but there are cards with already-confirmed stats worth watching. The standouts: **Vitinha** (98 dribbling, 4 PS+), **Sangaré** (96 dribbling and pace, Intercept+), **Nuno Mendes** (Intercept+, Bruiser, Rapid), **Aubameyang** (Quick, Rapid — he'll be one of the fastest in the game). Keep an eye out for any SBCs of players left out of the base team: Hakimi, Dway and Jon Neves are the most anticipated names.
+
+## Summary
+
+> **✓ DO**
+> — Sell valuable tradeable CBs before Friday
+> — Snipe 93 TOTS on bids at ~20K, exit at 25K
+> — List your 85–86 rated today, ahead of rewards
+> — Hold 88–90 CBs with ≤ 2 PS+ in your club for the EVO
+>
+> **✕ DON'T**
+> — Buy top CBs off the market now — they'll drop Friday
+> — Hold Dembélé or Musiala live if you're not sold on them
+> — Leave fodder sitting in your club unused`,
+    },
   },
   {
     slug: "migliori-giocatori-per-ruolo-fc26",
@@ -633,6 +941,80 @@ I cinque play style che cerco sempre in un centravanti: **Incisive Pass, Tiki-Ta
 **1M+ →** Salma Paloulo. 99 tiro, velocità estrema, difficile da togliere palla. Con la chimica Sniper o Architect diventa Lengthy.
 
 > 💡 **La cosa che mi colpisce di questa meta:** alcune delle carte più forti del gioco costano meno di 100K. Kama, Pestra, Stout, Shah Pedro, Ryer — tutte carte eccellenti a prezzi ridicoli. Su FC 26 il nome non conta: contano i play style. E questi li hanno tutti.`,
+    en: {
+      title: "Best Players by Position in FC 26: Full Guide for 100K, 500K and 1 Million",
+      description: "From keeper to striker, the strongest meta cards split by budget. What squad can you build with what you've got? Budget-by-budget breakdown.",
+      excerpt: "From keeper to striker, the strongest meta cards split by budget: 100K, 500K and 1 million. What squad can you actually build?",
+      category: "Guide",
+      dateLabel: "2 May 2026",
+      body: `With TOTS in full swing the FC 26 market has completely flipped. New cards everywhere, prices shifting by the day, and everyone's asking the same question: **with what I've got, what do I buy?** I've broken down every position across three budget tiers — 100K, 500K and 1 million — to give you a straight answer. Let's go.
+
+> 🎯 **What to look for in every card:** PlayStyles first. The ones that matter most in this meta are: **Lengthy** for defenders and wingers, **Finesse Shot + Incisive Pass + Tiki-Taka** for midfielders and attackers, and **Quick Step** basically everywhere. With these PlayStyles a 50K card can out-perform a 500K one in the wrong hands.
+
+## Goalkeepers
+
+For keepers the two traits that actually matter are **Footwork** and **Far Reach**. If a card has both plus a decent frame, you're already on the right track.
+
+**100K →** Manuel. I've used him on the pitch and he's a menace — covers the goal in an annoying way and pulls off saves you don't expect. At that price he's a steal.
+**500K →** Icon CDM. Reliable, no nasty surprises, fair price.
+**1M+ →** Donnarumma Team of the Year. Still him, still the best. The TOTY version has better PlayStyles than the TOTS — don't let the number on the card fool you.
+
+## Right Back
+
+The keyword here is **Lengthy**. A lengthy fullback out wide makes a difference every game — recovers position, shuts down attacks down the flank, and pushes forward non-stop going the other way.
+
+**100K →** Kama (around 40K). Plays in the French league, he's 192 cm, can be Lengthy with the right chemistry. Has both attacking and defending PlayStyles. Complete card at a ridiculous price.
+**500K →** Pestra (around 75K — yeah, way under budget). Probably the best right back in the game right now.
+**1M+ →** Kasparai. The upgrade on Lucy Bronze, who was the benchmark for the position before TOTS.
+
+## Center Backs
+
+Beyond the usual Intercept and Anticipate, there's one PlayStyle that's often slept on but makes a real difference for center backs: **Quick Step**. A CB with Quick Step recovers far more easily against pacey attackers.
+
+**100K →** Kwan (around 100K). Intercept, Anticipate and Quick Step (silver). Solid, reliable, won't let you down.
+**500K →** Jakob Boram (around 200K — the best CB in the game at that price). 196 cm, wins everything, physically impossible to shift.
+**1M+ →** Bremer. Always among the best, never puts a foot wrong. If you already have Bremer, don't change.
+
+## Left Back
+
+**100K →** Reach (around 34K). Lengthy with the right chemistry, Quick Step, Intercept. The only thing missing is Bruiser — but at 34K you can't complain.
+**500K →** Stout (around 40K). Not Lengthy, but the pace and defensive quality are out of this league.
+**1M+ →** Nico O'Reilly. Completable SBC, 192-193 cm, Lengthy with the right chemistry, Bruiser. Bullies every winger he faces.
+
+## Central Midfielders
+
+**100K →** Sano. One of the fastest midfielders on the ball I've used. Moves like a striker or a winger despite playing in the middle.
+**500K →** Heckney (around 312K). 96 physical, can play both CAM and CDM, four star skills, five star weak foot, 178 cm.
+**1M+ →** McTominay TOTS. Feels like you've got 12 players on the pitch. Bruiser in the press, brutal physicality, wins the ball back everywhere.
+
+## Attacking Midfielder (CAM)
+
+**100K →** Aander (around 120K). Finesse Shot, Game Changer, Tiki-Taka, Incisive Pass. If he played in the Premier League he'd cost 500-600K.
+**500K →** Bachel (around 300K). Finesse, Tiki-Taka, Low Driven, Incisive. Something special on the ball.
+**1M+ →** Mariona TOTS. The best CAM in the game right now. Better than the TOTY version.
+
+## Right Wing
+
+**100K →** Ryer (around 50K). Full passing PlayStyles, Finesse Shot, Game Changer. Impossible to get wrong.
+**500K →** Tripic. Probably the find of the season. Plays in Norway, a complete unknown before this TOTS, but he's become one of the most used wingers in the game.
+**1M+ →** Embu (SBC). Quick Step and Rapid together — a devastating combo. Probably the best right winger in the game.
+
+## Left Wing
+
+**100K →** Alik Begoic (exactly 100K). Game Changer, Quick Step, Technical, Finesse, Low Driven, Incisive, Rapid. 185 cm so he holds up physically too.
+**500K →** PZ or similar with the Pink PlayStyle. Pink on the left side is essential for cutting inside.
+**1M+ →** Shelling (or a similar top tier). Simply the fastest card in the game.
+
+## Striker
+
+The five PlayStyles I always want in a striker: **Incisive Pass, Tiki-Taka, Game Changer, Low Driven, Finesse Shot**. Anyone who has all five is a buy regardless of the name.
+
+**100K →** Shah Pedro (around 45K). Has all five. If you're on a budget, this is the one to grab right away.
+**500K →** Mateo Fantasy FC — 99 shooting, Incisive, Finesse, everything you need. Finishes everything.
+**1M+ →** Salma Paloulo. 99 shooting, extreme pace, hard to dispossess. With Sniper or Architect chemistry she turns Lengthy.
+
+> 💡 **What strikes me about this meta:** some of the strongest cards in the game cost less than 100K. Kama, Pestra, Stout, Shah Pedro, Ryer — all excellent cards at ridiculous prices. On FC 26 the name doesn't matter: the PlayStyles do. And these cards have them all.`,
+    },
   },
   {
     slug: "bundesliga-tots-migliori-carte-fc26",
@@ -700,6 +1082,68 @@ Il confronto più atteso. **Harry Kane** costa circa 11.4 milioni, ha finesse sh
 ## Il Punto sul Mercato
 
 I prezzi delle carte Bundesliga TOTS stanno scendendo rapidamente, come sempre dopo il drop. Non comprare di fretta il venerdì: **aspetta 48-72 ore**, i prezzi calano sempre. L'unica eccezione sono le carte con utility immediata per SBC o EVO in corso.`,
+    en: {
+      title: "Bundesliga TOTS FC 26: Who to Buy and Who to Skip",
+      description: "From Taw and Schlotterbeck at the back to Mika Elise on the right wing, Kane and Ronaldo up top: the complete guide to the best meta cards of Bundesliga TOTS.",
+      excerpt: "From Taw and Schlotterbeck to Mika Elise, Kane and Ronaldo: the complete guide to the best Bundesliga TOTS meta cards.",
+      category: "TOTS",
+      dateLabel: "29 April 2026",
+      body: `Bundesliga TOTS has dropped and the market has gone wild. Prices crashing, cards popping off, and the same question hitting my DMs every single day: **"Fabio, what do I buy?"**. I broke it all down position by position, with the eyes of someone who knows this game inside out. Here's my full guide, no fluff.
+
+> ⚡ **Golden rule for the TOTS market:** if you pack a strong card on drop Friday, sell it right away. 24-48 hours later you can re-buy it at 40-50% of what you sold it for. Works every time, every promo, every year.
+
+## Goalkeepers — No Revolution
+
+Between the sticks things are stable. Kubul is still one of the most solid picks and his price has dropped over the last few days — good moment to grab him if you're missing one. Buffon, Yashin and Suvenov round out a position where quality isn't lacking, but neither is anything new. If you already have a keeper that works, there's no rush to switch.
+
+## Center Backs — The Pairing of the Moment
+
+Now we're talking. The **Tahw + Schlotterbeck** combo is currently one of the best CB pairings you can put on the pitch in FC 26. Both have every play style you're after: 90 pace for Taw, 88 for Schlotterbeck, 95 and 96 defending, 94 physical on both.
+
+If the budget won't stretch to that pairing, drop down to Yan Couat. On a mid budget Van Dijk and Puyol are still solid picks. If you want the best of the best, **Saliba and Gabriel** are still the absolute kings of the position — but be ready to spend.
+
+## Full Backs — You Need Variety
+
+On the left there are plenty of familiar names: Grimaldo is the fresh Bundesliga TOTS card and deserves attention. Cucurella, Cole, Theo Hernandez, De Marco are still among the best — and prices are dropping.
+
+On the right it's a similar story: prices falling thanks to the flood of cards. If you run an Italian side, the battle between Mhan and the TOTS Palmero is interesting. On the high budget, Cafu and the two Tam are the premium picks.
+
+## Defensive Midfielders — Kimmich is a Must Buy
+
+For La Liga go Tchouameni, for the Premier League Declan Rice or Raven Barrick. But the real buy to make right now, if you're building a German side, is **Joshua Kimmich**. He goes for around 1.4 million, has anticipate and pink paws, and he makes the difference in midfield every single game.
+
+## Box-to-Box and CAMs — Joao Felix is the New King
+
+In the middle of the park there's no shortage of quality. Tony Cruz and Marks form a pairing with vision and physicality. Locatelli is great if you run Serie A, McTominay keeps being reliable, and Bellingham is still strong.
+
+But the card to keep an eye on is **Joao Felix**. 95.2 meta rating, finesse shot, quick step, incisive pass, 90 pace, 96 shooting and dribbling, five star five star. He's simply the most complete card in that area of the pitch right now.
+
+Worth flagging too is **Juan Ma**, a complete newcomer: 91 pace, 96 passing, finesse shot, incisive dribbling. Often slept on because he's less well known.
+
+## Right Wing — Mika Elise is the King of the Meta
+
+Let's be clear: **Mika Elise is currently the best right winger in the game**. Her TOTS card speaks for itself: 96 pace, 97 dribbling, 96 passing, 94 shooting, five star four star, with finesse shot, quick step and incisive pass.
+
+On a mid budget Matsala, Vinicius Junior and Jamal are still solid picks. Among the cheaper options, Tripic — a nobody until a few weeks ago — is becoming one of the most used cards in the game.
+
+## Left Wing — Bou or Luis Diaz?
+
+Here's something that rubs me the wrong way, and I'll say it straight: **Bou is better than Luis Diaz** in FC 26. From a gameplay standpoint that's just the truth, the numbers back it up. But as someone who loves real football, I find it hard to accept.
+
+This is exactly one of FC 26's problems: the link between real-life performance and virtual value breaks down when EA decides to push certain cards. If you have a Bayern side, get Bou. Otherwise, Luis Diaz is still top tier. On a mid budget Doku, Gordon and Williams are excellent.
+
+## Strikers — Kane or Ronaldo?
+
+The most anticipated head-to-head. **Harry Kane** costs around 11.4 million, with finesse shot, low driven shot, power shot and technical dribbling. 91 pace — one of the slowest — but 98 shooting, the best in the entire game.
+
+**Cristiano Ronaldo** costs around 6 million. Quick step, low driven shot, finesse shot, three play style plus. 93 pace and dribbling, 96 shooting. Five star five star — and for a lot of people that's the dealbreaker.
+
+> ⚖️ **My verdict:** Kane is the more complete player of the two on paper. Ronaldo has five star five star and costs half as much. If you play a lot inside the box with a fixed striker, Kane. If you want flexibility and skill moves, Ronaldo.
+
+## The State of the Market
+
+Bundesliga TOTS card prices are dropping fast, like always after the drop. Don't panic-buy on Friday: **wait 48-72 hours**, prices always come down. The only exception is cards with immediate utility for an ongoing SBC or EVO.`,
+    },
   },
   {
     slug: "come-difendere-attaccare-fc26",
@@ -772,6 +1216,73 @@ Quando usarlo: principalmente nei **contropiedi**, quando la difesa avversaria �
 **Errore 2 — Usare il triangolo nei passaggi normali.** Il triangolo non è un passaggio normale — è un filtrante in profondità. Si usa solo dopo L1, quando hai già mandato un giocatore in profondità.
 
 **Errore 3 — Tiro assistito attivo.** Il tiro assistito lascia alla CPU il controllo dell'angolo e della potenza. **Disattiva il tiro assistito**: più controllo, più gol.`,
+    en: {
+      title: "How to Defend and Attack on FC 26: The Complete Guide",
+      description: "Distances, switching, jockeying, runs and player lock: everything you need to climb from Division 10 to Elite on EA FC 26. Video included.",
+      excerpt: "Distances, switching, jockeying, runs and player lock: everything to climb from Division 10 to Elite. Video included.",
+      category: "Guide",
+      dateLabel: "24 April 2026",
+      body: `This article pulls together everything you need to actually get better at EA FC 26 — from Division 10 all the way to Elite. **No generic theory: precise, ready-to-use concepts**, built from years of international competition, two FIFA World Cups and hundreds of coaching sessions.
+
+▶ Watch the full video (50 minutes of free coaching): https://www.youtube.com/watch?v=VoccWsVV5mU
+
+Simple structure: first the **defensive phase** (distances, switching, jockeying, containing), then the **attacking phase** (runs, shielding, player lock, through balls), and finally the **3 mistakes almost everyone makes**.
+
+## 1. Why Distances Matter
+
+The first concept you need to internalize is **distances**. Distance is the gap between the opponent on the ball and your nearest player. It sounds obvious, but it's the foundation of everything.
+
+The classic Division 6-10 mistake is charging the ball carrier with any player, even your striker. The result? A body feint, an X on the full-back, and you're already beaten. **If your opponent has more passing options, don't press — cover.**
+
+> 📐 **The distance rule:** wide distances = jockey and mark the passing lanes. Tight distances (the cage) = press with the player behind the ball line. Never with the one in front.
+
+With your strikers you mark **the midfielders**, not the center-backs. When a player builds up, the first pass almost always goes to the full-back or the holding midfielder. Block that lane and you force him onto the full-back — much easier for you to handle.
+
+## 2. Switching: Right Stick and L1
+
+Switching players quickly is the single skill that separates a good defender from a bad one. Two ways:
+
+**Right stick** → use it in the covering phase. Flick the stick toward the player you want to grab. It's the most precise method because you decide who you take.
+
+**L1** → use it to press. When your opponent is in the cage, L1 gives you the player nearest to the ball carrier. But watch out: **if it gives you the player in front, don't press with him**. Switch with the right stick and take the one behind the ball line.
+
+## 3. Pressing vs Jockeying
+
+**Jockeying:** hold L2 + R2, stay in position. You don't backpedal — you hold your ground on the passing lane. Jockeying is a wall: he comes at you, you intercept.
+
+**Pressing:** when your opponent is in the cage, charge in with R2 and tackle with the shoot button (circle/B). **Don't use X to press** — in advanced defending, X is only for shoulder-to-shoulder battles down the wing with physical players.
+
+> ⚡ **The key step:** first I run to get position on the passing lane, then I jockey. Never jockey from a distance.
+
+Golden rule: **never press with your center-backs**. Miss a tackle with a center-back and the striker is through on goal with open space. Always press with midfielders, wingers or forwards.
+
+## 4. Runs: Stop Sprinting, Make Others Run
+
+The number one mistake in attack is grabbing the ball and sprinting. **On FC 26 you shouldn't run — you make your off-the-ball players run.** The more you stay still on the ball, the harder it is for your opponent to switch defenders, which opens up gaps.
+
+**L1 + direction** → sends the nearest player on a run in the direction you point with the left stick.
+**L1 + X** → standard run from the player ahead of you.
+
+> 🏃 **Watch out:** if you L1 toward one player and then L1 toward another, the first one returns to position. Wait for the first to reach the attacking spot, then trigger the second to create an overload in the box.
+
+## 5. Shielding the Ball
+
+Dead-simple physical concept: put your body in front of the ball and your opponent can't take it. **Left stick always in shield position** — angled so your body screens the opponent off the ball. When you want to pick up pace without losing control, use **R1 (technical dribbling)** instead of a normal sprint.
+
+## 6. Player Lock: The Pros' Counter-Attack Weapon
+
+**Player lock** has to be turned on in the settings (Player Lock → On). Click both sticks and you can freely move a specific player, no matter where the ball is.
+
+When to use it: mainly on **counter-attacks**, when the opponent's defense is high. You send the player-locked man in behind, then thread the through ball. You need a player with the **Tiki Taka and Trivela** PlayStyles — without those two, the first-time through ball won't fire properly even with 99 passing.
+
+## The 3 Mistakes Almost Everyone Makes
+
+**Mistake 1 — Sprinting too much in attack.** A normal sprint knocks the ball off your feet. Walk, use body feints with the left stick, use R1 to pick up pace. Only sprint once you've already beaten your man.
+
+**Mistake 2 — Using triangle for normal passes.** Triangle isn't a normal pass — it's a through ball in behind. You only use it after L1, once you've already sent a player on a run.
+
+**Mistake 3 — Assisted shooting on.** Assisted shooting hands the CPU control over angle and power. **Turn off assisted shooting**: more control, more goals.`,
+    },
   },
   {
     slug: "como-gaming-club-campione-eserie-a-2026",
@@ -815,6 +1326,44 @@ Grazie all'accesso alle semifinali, quattro club — **Sassuolo, Torino, Como e 
 ## Il Livello Sale: Cosa Devi Fare Tu
 
 Guardare una finale come questa dovrebbe farti riflettere: **il gap tra un giocatore medio e un pro player non è genetico**. È fatto di ore di studio, di metodo, di analisi degli errori. Vejrgang non è arrivato in finale per fortuna — ci è arrivato perché ogni giorno lavora su aspetti specifici del proprio gioco.`,
+    en: {
+      title: "Como Gaming Club Crowned Italian Champion: Vejrgang Rules eSerie A 2026",
+      description: "At Naples Comicon, Como Gaming Club claims the title, carried by Anders Vejrgang. An epic grand final against Torino FC Esports: 9-5.",
+      excerpt: "At Naples Comicon, Como Gaming Club claims the title, carried by Anders Vejrgang. An epic grand final against Torino: 9-5.",
+      category: "eSports",
+      dateLabel: "18 April 2026",
+      body: `At Naples Comicon 2026, under the lights of the Esports Stage, a new page was written in the history of Italian virtual football. The **Como Gaming Club** was crowned Italian Champion of the sixth edition of the eSerie A Goleador, the official virtual league of the Lega Calcio Serie A. The undisputed star of the show? **Anders Vejrgang**, regarded as one of the best pro players in the world on EA Sports FC.
+
+A tournament that brought together the esports teams of 16 clubs from Italy's top flight, capped off by a thrilling grand final: **9-5 against Torino FC Esports**, the defending champions.
+
+## A Textbook Season
+
+The sixth edition of the eSerie A Goleador was arguably the most fiercely contested ever. An intense winter regular season filtered out the best teams, who then faced off in the Naples finals stage with a single-elimination format.
+
+The semifinals delivered drama: **Sassuolo eSports against Torino FC Esports** on one side, **Como Gaming Club against Hellas Verona FC** on the other.
+
+> 🎮 **Tactical trivia:** the Como-Torino final was an exact rematch of the very fixture that opened the Regular Season for both teams. A perfect full circle.
+
+## Vejrgang: When Talent Defies Explanation
+
+If Como Gaming Club lifted the trophy, much of the credit goes to **Anders Vejrgang**. After a balanced first half, the Dane raised his level in devastating fashion in the second. The final scoreline of **9-5** tells only part of the story of his dominance: sublime technique, advanced game reading, and an ability to exploit the slightest defensive gap.
+
+For someone who studies the game like I do — as a former pro player and coach — watching Vejrgang in the final was a masterclass. **It is not just about mechanical skill**: it is the ability to keep tactical composure under pressure that separates champions from good players.
+
+## What It Means for Italian Esports
+
+This win goes beyond the trophy. It is proof that the esports model tied to professional football clubs works. Luigi De Siervo, CEO of the Lega Calcio Serie A, stressed that bringing the final to Comicon was "the right move" to reach Gen Z.
+
+## International Stage
+
+Thanks to their semifinal runs, four clubs — **Sassuolo, Torino, Como and Hellas Verona** — punched their ticket to the **League Phase of the eChampions League** (15-16 May 2026). As finalists, Sassuolo and Torino also qualified for the **EA Sports FC Pro World Championship** (22-26 July 2026).
+
+> 🇮🇹 **A former pro's perspective:** seeing Italian teams qualify for the eChampions League and the World Championship is something that, just a few years ago, felt out of reach. The level of our esports scene has grown enormously.
+
+## The Bar Is Rising: What You Need to Do
+
+Watching a final like this should make you think: **the gap between an average player and a pro is not genetic**. It is built on hours of study, on method, on analyzing your own mistakes. Vejrgang did not reach the final by luck — he got there because every single day he works on specific aspects of his own game.`,
+    },
   },
   {
     slug: "fc26-sta-morendo-3-motivi",
@@ -868,6 +1417,54 @@ Oggi la prima domanda non è "che stats ha?" ma "che play style plus ha?". Quest
 La community chiede cose semplici: **più comunicazione, più trasparenza, più coraggio nel fare scelte diverse**. "The Club is Yours" era lo slogan di FC 26. Nei primi mesi sembrava funzionare. Poi il silenzio.
 
 FC 26 non è un gioco morto. È un gioco stanco. E un gioco stanco può ancora svegliarsi — se qualcuno decide di scuoterlo davvero.`,
+    en: {
+      title: "Is FC 26 Dying? The 3 Real Reasons Behind the Decline",
+      description: "Leaks, repetitive promos and broken PlayStyles: here's why the hype around FC 26 is collapsing and what EA should do to turn things around.",
+      excerpt: "Leaks, repetitive promos and broken PlayStyles: why the hype around FC 26 is collapsing and what EA should do about it.",
+      category: "Opinion",
+      dateLabel: "12 April 2026",
+      body: `If you grind EA FC 26, you can probably feel it too: **something's off**. The hype is at an all-time low, creators are quitting the scene one after another, and even the most positive voices among us are struggling to hide the fatigue. But why?
+
+I've broken down the situation in depth — as a former Top 10 World pro player — and pinned down **3 specific reasons** that are dragging FC 26 down.
+
+## 1. Leaks Killed the Surprise
+
+Remember when you waited for Friday night with no clue what was dropping? That feeling is basically gone. **These days we know everything 48-72 hours in advance.**
+
+The problem isn't just that "we already know everything." It's psychological, and it has a name: **expectation disconfirmation**. When a leaker posts a concept with Dembélé at 96 pace and 95 dribbling, your brain builds an expectation. If the real card is different — even slightly — disappointment kicks in automatically, no matter how objectively good the card actually is.
+
+> 💡 **The leak paradox:** on one hand they help you plan investments and SBCs. On the other, every leaked drop is a moment of surprise lost forever. EA claims leaks don't impact engagement — the real numbers say otherwise.
+
+There's also a side that goes beyond the game: some leakers use this info for **insider trading on the market**, sniping cards before the leak goes public to flip them at inflated prices.
+
+## 2. The Promo Cycle: 7 Years of the Same Pattern
+
+It was FIFA 19 when EA announced the shift to a daily content model. Back then it felt revolutionary. **Seven years later, that same routine has become a prison.**
+
+The cycle is always identical: Monday leak of the next promo, Tuesday-Wednesday official stats, Friday night drop. Every week. Every month. Every year. Total predictability has turned excitement into obligation. You don't play to have fun — you play so you don't miss the content train.
+
+> 📊 **The stat that hits hard:** it's not that the content is bad. It's that the cadence never gives you time to enjoy it. The second you get used to a card, a better one already drops. The pile-up breeds fatigue, not satisfaction.
+
+The fix: **less quantity, more quality and surprise**. Content that's unique, creative, unexpected.
+
+## 3. PlayStyles Broke the Balance
+
+Introduced in FC 24, PlayStyles were a brilliant idea. The problem is that **over time they became the only yardstick** for judging a card.
+
+Today the first question isn't "what are the stats?" but "what's the PlayStyle+?". This creates two distortions:
+
+**First distortion:** EA can no longer build unique players. If a defender is physical and aggressive in real life, his natural PlayStyles would be Enforcer and Precision Header. But EA knows nobody would grind the SBC with those — so they hand him more "meta" ones instead. A game that betrays reality to chase artificial competitiveness.
+
+**Second distortion:** PlayStyles create rigid tiers. Got the right PlayStyle? Top card. Don't have it? Trash card. **The card decides everything, the player matters less and less.**
+
+> 🎮 **The hope:** FC 24 proved PlayStyles can be balanced. Getting back to that balance is possible. EA just has to want it.
+
+## What We Expect From EA
+
+The community is asking for simple things: **more communication, more transparency, more guts to make different choices**. "The Club is Yours" was the FC 26 slogan. In the first few months it seemed to work. Then, silence.
+
+FC 26 isn't a dead game. It's a tired game. And a tired game can still wake up — if someone decides to truly shake it.`,
+    },
   },
 ];
 
