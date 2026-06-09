@@ -26,12 +26,34 @@
   /* gold per testo su fondo nero (più chiaro = legge "oro" non "bronzo") */
   --color-gold-on-dark: #e6b43c;
 
+  /* Token sezione DIABETE (generano le utility; usati solo dentro .diabete-scope) */
+  --color-glu-green: #2fa56a;
+  --color-glu-green-deep: #218a57;
+  --color-glu-green-soft: #e6f6ee;
+  --color-glu-yellow: #eab308;
+  --color-glu-red: #e0483c;
+  --color-ink-soft: #56666b;
+
   /* Radius */
   --radius-card: 12px;
   --radius-btn: 8px;
 
   /* Easing */
   --ease-premium: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* ═══ Sezione DIABETE: tema chiaro/verde ISOLATO (non tocca gaming/business) ═══ */
+.diabete-scope {
+  --color-bg: #ffffff;
+  --color-ink: #15252b;
+  --color-ink-soft: #56666b;
+  --color-line: #e7ece9;
+  --font-display: "Fraunces", Georgia, serif;
+  --font-sans: "Hanken Grotesk", system-ui, -apple-system, sans-serif;
+  --font-mono: "Space Mono", ui-monospace, monospace;
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  line-height: 1.6;
 }
 
 /* ── Base ─────────────────────────────────────────────────────

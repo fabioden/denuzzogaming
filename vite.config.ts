@@ -13,5 +13,8 @@ export default defineConfig({
   },
   server: {
     port: 5174,
+    // DEV: la chat diabete chiama /api/chat → motore locale (t1-insieme) su :8787.
+    // In PRODUZIONE diventerà una Vercel Serverless Function (Fase 3).
+    proxy: { '/api': 'http://localhost:8787' },
   },
 })
