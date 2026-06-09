@@ -196,6 +196,7 @@ p { text-wrap: pretty; }
 .article-body li { list-style: none; position: relative; padding-left: 1.2em; }
 .article-body li::before { content: ''; position: absolute; left: 0; top: .7em; width: 6px; height: 6px; border-radius: 50%; background: var(--color-gold); }
 .article-body blockquote { border-left: 2px solid var(--color-gold); padding-left: 1.2em; color: var(--color-ink); font-style: italic; }
+.article-body img { width: 100%; height: auto; border-radius: 12px; border: 1px solid var(--color-line); margin: 1.6em 0; }
 
 /* ── fadeUp on scroll ─────────────────────────────────────── */
 .fade-up { opacity: 0; transform: translateY(26px); filter: blur(6px); transition: opacity .8s var(--ease-premium), transform .8s var(--ease-premium), filter .8s var(--ease-premium); }

@@ -11,6 +11,8 @@ export type Article = {
   dateLabel: string;
   readingTime: string;
   badge?: string;
+  heroImage?: string; // es. "/img/articles/<slug>-hero.jpg"
+  heroAlt?: string; // testo alternativo (SEO/accessibilità)
   excerpt: string;
   body: string;
 };

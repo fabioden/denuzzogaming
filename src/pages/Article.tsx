@@ -35,7 +35,9 @@ export default function Article() {
           datePublished: article.date,
           dateModified: article.date,
           mainEntityOfPage: `https://denuzzogaming.com/newsletter/${article.slug}`,
-          image: "https://denuzzogaming.com/img/og-default.jpg",
+          image: article.heroImage
+            ? `https://denuzzogaming.com${article.heroImage}`
+            : "https://denuzzogaming.com/img/og-default.jpg",
           articleSection: article.category,
         }}
       />
@@ -53,6 +55,14 @@ export default function Article() {
         <div className="flex items-center gap-3 font-mono text-[12px] text-muted mb-10 pb-8 border-b border-line">
           <span>Fabio Denuzzo</span><span>·</span><span>{article.dateLabel}</span><span>·</span><span>{article.readingTime}</span>
         </div>
+
+        {article.heroImage && (
+          <img
+            src={article.heroImage}
+            alt={article.heroAlt || article.title}
+            className="w-full rounded-xl border border-line mb-10"
+          />
+        )}
 
         <div className="article-body">
           <ReactMarkdown>{article.body}</ReactMarkdown>
