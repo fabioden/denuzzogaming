@@ -1,14 +1,19 @@
+import { lazy, Suspense } from "react";
 import { BrowserRouter, Routes, Route, Navigate, Outlet } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
+import { Analytics } from "@vercel/analytics/react";
 import Layout from "@/components/Layout";
 import ScrollToTop from "@/components/ScrollToTop";
-import Hub from "@/pages/Hub";
-import Diabete from "@/pages/Diabete";
-import Home from "@/pages/Home";
-import Coaching from "@/pages/Coaching";
-import Newsletter from "@/pages/Newsletter";
-import Article from "@/pages/Article";
-import Privacy from "@/pages/Privacy";
+
+// CODE-SPLIT: ogni pagina è un chunk separato, caricato solo quando serve.
+// Così l'home (hub) non carica il 3D del diabete né le animazioni del gaming.
+const Hub = lazy(() => import("@/pages/Hub"));
+const Diabete = lazy(() => import("@/pages/Diabete"));
+const Home = lazy(() => import("@/pages/Home"));
+const Coaching = lazy(() => import("@/pages/Coaching"));
+const Newsletter = lazy(() => import("@/pages/Newsletter"));
+const Article = lazy(() => import("@/pages/Article"));
+const Privacy = lazy(() => import("@/pages/Privacy"));
 
 // La cornice gaming (nav, footer, sfondo) avvolge SOLO il mondo gaming.
 function GamingShell() {
@@ -24,6 +29,7 @@ export default function App() {
     <HelmetProvider>
       <BrowserRouter>
         <ScrollToTop />
+        <Suspense fallback={null}>
         <Routes>
           {/* HUB e DIABETE: fuori dalla cornice gaming, con identità propria */}
           <Route path="/" element={<Hub />} />
@@ -43,6 +49,8 @@ export default function App() {
 
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
+        </Suspense>
+        <Analytics />
       </BrowserRouter>
     </HelmetProvider>
   );
