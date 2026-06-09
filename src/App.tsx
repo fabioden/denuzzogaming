@@ -7,7 +7,6 @@ import ScrollToTop from "@/components/ScrollToTop";
 // CODE-SPLIT: ogni pagina è un chunk separato, caricato solo quando serve.
 // Così l'home (hub) non carica il 3D del diabete né le animazioni del gaming.
 const Hub = lazy(() => import("@/pages/Hub"));
-const Diabete = lazy(() => import("@/pages/Diabete"));
 const Home = lazy(() => import("@/pages/Home"));
 const Coaching = lazy(() => import("@/pages/Coaching"));
 const Newsletter = lazy(() => import("@/pages/Newsletter"));
@@ -30,10 +29,11 @@ export default function App() {
         <ScrollToTop />
         <Suspense fallback={null}>
         <Routes>
-          {/* HUB (bilingue: / = IT, /en = EN) e DIABETE: fuori dalla cornice gaming */}
+          {/* HUB (bilingue: / = IT, /en = EN) */}
           <Route path="/" element={<Hub />} />
           <Route path="/en" element={<Hub />} />
-          <Route path="/diabete" element={<Diabete />} />
+          {/* /diabete temporaneamente NON pubblico (chat backend = Fase 3, contenuti da revisione clinica) */}
+          <Route path="/diabete" element={<Navigate to="/" replace />} />
 
           {/* MONDO GAMING: dentro il Layout gaming */}
           <Route element={<GamingShell />}>

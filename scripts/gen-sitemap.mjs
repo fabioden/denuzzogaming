@@ -27,7 +27,7 @@ const pages = [
   { path: "/newsletter", cf: "weekly", pr: "0.8", bilingual: true },
   { path: "/privacy", cf: "monthly", pr: "0.4", bilingual: true },
   { path: "/business/", cf: "monthly", pr: "0.8", bilingual: false }, // statico, solo IT
-  { path: "/diabete", cf: "monthly", pr: "0.8", bilingual: false }, // mondo diabete, solo IT
+  // /diabete NON in sitemap: non pubblico finché non è pronto (Fase 3)
 ];
 
 const urls = [];

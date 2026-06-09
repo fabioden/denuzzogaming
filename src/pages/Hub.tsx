@@ -31,6 +31,7 @@ const PORTE = [
     to: "/gaming",
     external: false,
     accent: "#d6a21a",
+    comingSoon: false,
   },
   {
     key: "business",
@@ -49,6 +50,7 @@ const PORTE = [
     to: "/business/",
     external: true,
     accent: "#4a9eff",
+    comingSoon: false,
   },
   {
     key: "diabete",
@@ -66,6 +68,7 @@ const PORTE = [
     to: "/diabete",
     external: false,
     accent: "#2fa56a",
+    comingSoon: true,
   },
 ];
 
@@ -73,7 +76,13 @@ function Porta({ p, i }: { p: (typeof PORTE)[number]; i: number }) {
   const lang = useLang();
   const title = lang === "en" ? p.titleEn : p.title;
   const desc = lang === "en" ? p.descEn : p.desc;
-  const cta = lang === "en" ? p.ctaEn : p.cta;
+  const cta = p.comingSoon
+    ? lang === "en"
+      ? "Coming soon"
+      : "In arrivo"
+    : lang === "en"
+      ? p.ctaEn
+      : p.cta;
   const inner = (
     <>
       <div
@@ -93,9 +102,9 @@ function Porta({ p, i }: { p: (typeof PORTE)[number]; i: number }) {
         <p className="mt-2 text-[0.98rem] leading-relaxed" style={{ color: MUTED }}>
           {desc}
         </p>
-        <span className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold" style={{ color: INK }}>
+        <span className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold" style={{ color: p.comingSoon ? MUTED : INK }}>
           {cta}
-          <span className="transition-transform group-hover:translate-x-1">→</span>
+          {!p.comingSoon && <span className="transition-transform group-hover:translate-x-1">→</span>}
         </span>
       </div>
     </>
@@ -110,9 +119,13 @@ function Porta({ p, i }: { p: (typeof PORTE)[number]; i: number }) {
       initial={{ opacity: 0, y: 26 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, delay: 0.2 + i * 0.1 }}
-      whileHover={{ y: -8 }}
+      whileHover={p.comingSoon ? undefined : { y: -8 }}
     >
-      {p.external ? (
+      {p.comingSoon ? (
+        <div className={className} style={{ ...style, opacity: 0.55, cursor: "default" }}>
+          {inner}
+        </div>
+      ) : p.external ? (
         <a href={p.to} className={className} style={style}>
           {inner}
         </a>
