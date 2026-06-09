@@ -1,7 +1,6 @@
 import { lazy, Suspense } from "react";
 import { BrowserRouter, Routes, Route, Navigate, Outlet } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
-import { Analytics } from "@vercel/analytics/react";
 import Layout from "@/components/Layout";
 import ScrollToTop from "@/components/ScrollToTop";
 
@@ -50,7 +49,6 @@ export default function App() {
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
         </Suspense>
-        <Analytics />
       </BrowserRouter>
     </HelmetProvider>
   );
