@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { Link } from "react-router-dom";
+import { useLang, L } from "@/i18n";
 import Lightfall from "@/components/reactbits/Lightfall";
 import Seo from "@/components/Seo";
 
@@ -22,8 +23,11 @@ const PORTE = [
       </svg>
     ),
     title: "Gaming",
+    titleEn: "Gaming",
     desc: "Coaching 1:1, guide e la mia storia da 2× Campione Italiano nel competitivo EA FC.",
+    descEn: "1:1 coaching, guides and my story as a 2× Italian Champion in competitive EA FC.",
     cta: "Entra nel gaming",
+    ctaEn: "Enter gaming",
     to: "/gaming",
     external: false,
     accent: "#d6a21a",
@@ -37,8 +41,11 @@ const PORTE = [
       </svg>
     ),
     title: "Business",
+    titleEn: "Business",
     desc: "Agenti AI, automazioni e siti web su misura per far crescere la tua azienda.",
+    descEn: "AI agents, automations and custom websites to grow your business.",
     cta: "Lavora con me",
+    ctaEn: "Work with me",
     to: "/business/",
     external: true,
     accent: "#4a9eff",
@@ -51,8 +58,11 @@ const PORTE = [
       </svg>
     ),
     title: "Diabete",
+    titleEn: "Diabetes",
     desc: "Un assistente AI gratuito e la mia esperienza, per chi convive col diabete.",
+    descEn: "A free AI assistant and my own experience, for people living with diabetes.",
     cta: "Trova aiuto",
+    ctaEn: "Find help",
     to: "/diabete",
     external: false,
     accent: "#2fa56a",
@@ -60,6 +70,10 @@ const PORTE = [
 ];
 
 function Porta({ p, i }: { p: (typeof PORTE)[number]; i: number }) {
+  const lang = useLang();
+  const title = lang === "en" ? p.titleEn : p.title;
+  const desc = lang === "en" ? p.descEn : p.desc;
+  const cta = lang === "en" ? p.ctaEn : p.cta;
   const inner = (
     <>
       <div
@@ -74,13 +88,13 @@ function Porta({ p, i }: { p: (typeof PORTE)[number]; i: number }) {
           {p.icon}
         </div>
         <h2 className="mt-5 text-2xl font-bold" style={{ color: p.accent, fontFamily: "'Playfair Display', serif" }}>
-          {p.title}
+          {title}
         </h2>
         <p className="mt-2 text-[0.98rem] leading-relaxed" style={{ color: MUTED }}>
-          {p.desc}
+          {desc}
         </p>
         <span className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold" style={{ color: INK }}>
-          {p.cta}
+          {cta}
           <span className="transition-transform group-hover:translate-x-1">→</span>
         </span>
       </div>
@@ -103,9 +117,9 @@ function Porta({ p, i }: { p: (typeof PORTE)[number]; i: number }) {
           {inner}
         </a>
       ) : (
-        <Link to={p.to} className={className} style={style}>
+        <L to={p.to} className={className} style={style}>
           {inner}
-        </Link>
+        </L>
       )}
     </motion.div>
   );
@@ -132,12 +146,20 @@ export default function Hub() {
     return () => clearTimeout(t);
   }, [intro]);
 
+  const lang = useLang();
+  const switchHref = lang === "en" ? "/" : "/en"; // toggle hub IT/EN
+
   return (
     <div className="relative min-h-screen overflow-hidden bg-[#08080a]" style={{ color: INK }}>
       <Seo
-        title="Fabio Denuzzo — Gaming, Business & Diabete"
-        description="L'hub di Fabio Denuzzo: coaching EA FC, soluzioni AI per il business e un assistente gratuito sul diabete. Scegli dove andare."
+        title={lang === "en" ? "Fabio Denuzzo — Gaming, Business & Diabetes" : "Fabio Denuzzo — Gaming, Business & Diabete"}
+        description={
+          lang === "en"
+            ? "Fabio Denuzzo's hub: EA FC coaching, AI solutions for business, and a free diabetes assistant. Choose where to go."
+            : "L'hub di Fabio Denuzzo: coaching EA FC, soluzioni AI per il business e un assistente gratuito sul diabete. Scegli dove andare."
+        }
         path="/"
+        bilingual
       />
 
       {/* INTRO: logo che si carica, poi rivela la hub */}
@@ -183,11 +205,21 @@ export default function Hub() {
       </div>
 
       <div className="relative mx-auto flex min-h-screen max-w-6xl flex-col px-5 py-8 sm:px-8">
-        <header className="flex items-center gap-2.5">
-          <img src="/img/fd-mark.png" className="h-9 w-9" alt="" />
-          <span className="text-lg font-semibold tracking-tight" style={{ fontFamily: "'Playfair Display', serif" }}>
-            Fabio Denuzzo
-          </span>
+        <header className="flex items-center justify-between gap-2.5">
+          <div className="flex items-center gap-2.5">
+            <img src="/img/fd-mark.png" className="h-9 w-9" alt="" />
+            <span className="text-lg font-semibold tracking-tight" style={{ fontFamily: "'Playfair Display', serif" }}>
+              Fabio Denuzzo
+            </span>
+          </div>
+          <Link
+            to={switchHref}
+            aria-label="Switch language"
+            className="inline-flex items-center justify-center rounded-full border px-3.5 py-1.5 font-mono text-[11px] font-semibold uppercase tracking-[0.1em] transition-colors hover:text-white"
+            style={{ borderColor: "rgba(245,240,232,0.18)", color: MUTED }}
+          >
+            {lang === "en" ? "IT" : "EN"}
+          </Link>
         </header>
 
         <div className="flex flex-1 flex-col justify-center py-12">
@@ -198,7 +230,7 @@ export default function Hub() {
             className="text-sm font-semibold uppercase tracking-[0.2em]"
             style={{ color: GOLD }}
           >
-            Benvenuto
+            {lang === "en" ? "Welcome" : "Benvenuto"}
           </motion.p>
           <motion.h1
             initial={{ opacity: 0, y: 16 }}
@@ -207,7 +239,7 @@ export default function Hub() {
             className="mt-3 text-[clamp(2.2rem,5.5vw,4rem)] font-bold leading-[1.05] tracking-tight"
             style={{ fontFamily: "'Playfair Display', serif" }}
           >
-            Una persona, tre mondi.
+            {lang === "en" ? "One person, three worlds." : "Una persona, tre mondi."}
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 16 }}
@@ -216,8 +248,13 @@ export default function Hub() {
             className="mt-4 max-w-xl text-lg leading-relaxed"
             style={{ color: MUTED }}
           >
-            Gaming competitivo, AI per il tuo business e supporto sul diabete.
-            <br className="hidden sm:block" /> <span className="font-medium" style={{ color: INK }}>Cosa posso fare per te?</span>
+            {lang === "en"
+              ? "Competitive gaming, AI for your business and diabetes support."
+              : "Gaming competitivo, AI per il tuo business e supporto sul diabete."}
+            <br className="hidden sm:block" />{" "}
+            <span className="font-medium" style={{ color: INK }}>
+              {lang === "en" ? "What can I do for you?" : "Cosa posso fare per te?"}
+            </span>
           </motion.p>
 
           <div className="mt-10 grid gap-5 md:grid-cols-3">

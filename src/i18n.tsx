@@ -27,10 +27,12 @@ export function isGamingPath(path: string): boolean {
   return GAMING_PREFIXES.some((p) => c === p || c.startsWith(p + "/"));
 }
 
-/** Aggiunge/toglie il prefisso /en. Localizza SOLO i path gaming; gli altri restano com'erano. */
+/** Aggiunge/toglie il prefisso /en. Bilingue: l'hub "/" e i path gaming; business/diabete restano IT. */
 export function localizePath(path: string, lang: Lang): string {
   const clean = canonicalPath(path);
-  if (lang !== "en" || !isGamingPath(clean)) return clean;
+  if (lang !== "en") return clean;
+  if (clean === "/") return "/en"; // hub
+  if (!isGamingPath(clean)) return clean; // business/diabete = solo IT
   return `/en${clean}`;
 }
 

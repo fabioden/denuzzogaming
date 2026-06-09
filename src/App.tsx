@@ -30,8 +30,9 @@ export default function App() {
         <ScrollToTop />
         <Suspense fallback={null}>
         <Routes>
-          {/* HUB e DIABETE: fuori dalla cornice gaming, con identità propria */}
+          {/* HUB (bilingue: / = IT, /en = EN) e DIABETE: fuori dalla cornice gaming */}
           <Route path="/" element={<Hub />} />
+          <Route path="/en" element={<Hub />} />
           <Route path="/diabete" element={<Diabete />} />
 
           {/* MONDO GAMING: dentro il Layout gaming */}
@@ -43,7 +44,6 @@ export default function App() {
             <Route path="/newsletter/:slug" element={<Article />} />
             <Route path="/privacy" element={<Privacy />} />
             {/* Inglese (mirror /en) — stesso componente, lingua derivata dall'URL */}
-            <Route path="/en" element={<Navigate to="/en/gaming" replace />} />
             <Route path="/en/gaming" element={<Home />} />
             <Route path="/en/coaching" element={<Coaching />} />
             <Route path="/en/newsletter" element={<Newsletter />} />

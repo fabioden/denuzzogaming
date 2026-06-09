@@ -21,7 +21,7 @@ const articles = slugMatches.map((m, i) => {
 // 2) Pagine statiche. bilingual=true → aggiunge anche /en/... (per ora solo gli articoli sono tradotti;
 //    le pagine gaming passeranno a true quando i loro contenuti saranno tradotti — Fase 2).
 const pages = [
-  { path: "/", cf: "weekly", pr: "1.0", bilingual: false }, // hub: solo IT
+  { path: "/", cf: "weekly", pr: "1.0", bilingual: true }, // hub IT + /en
   { path: "/gaming", cf: "weekly", pr: "0.9", bilingual: true },
   { path: "/coaching", cf: "weekly", pr: "0.8", bilingual: true },
   { path: "/newsletter", cf: "weekly", pr: "0.8", bilingual: true },
@@ -35,7 +35,8 @@ const add = (path, cf, pr) => urls.push({ loc: SITE + path, cf, pr });
 
 for (const p of pages) {
   add(p.path, p.cf, p.pr);
-  if (p.bilingual) add("/en" + p.path, p.cf, p.pr);
+  // URL inglese: l'hub "/" → "/en" (no doppia barra); le altre → "/en" + path
+  if (p.bilingual) add(p.path === "/" ? "/en" : "/en" + p.path, p.cf, p.pr);
 }
 for (const a of articles) {
   add(`/newsletter/${a.slug}`, "weekly", "0.7");
