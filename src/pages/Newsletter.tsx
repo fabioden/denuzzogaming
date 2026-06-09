@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { newsletterPage as n, blogPage } from "@/content";
+import { blogPage as blogPageIt } from "@/content";
+import { useContent } from "@/content/use-content";
 import { articles, articleView } from "@/content/articles";
 import { L, useLang } from "@/i18n";
 import Seo from "@/components/Seo";
@@ -10,18 +11,21 @@ const section = "py-[clamp(56px,8vh,110px)] relative";
 const lead = "text-[clamp(1rem,1.4vw,1.18rem)] text-ink-2 max-w-[56ch]";
 
 export default function Newsletter() {
+  const { newsletterPage: n, blogPage } = useContent();
   const [done, setDone] = useState(false);
   const [email, setEmail] = useState("");
-  const [cat, setCat] = useState("Tutti");
+  // Filtro: l'indice 0 = "Tutti"/"All". I valori di confronto restano sempre
+  // quelli italiani (blogPageIt.categories), perché articles[].category è in IT.
+  const [cat, setCat] = useState(blogPageIt.categories[0]);
 
   const lang = useLang();
-  const filtered = cat === "Tutti" ? articles : articles.filter((a) => a.category === cat);
+  const filtered = cat === blogPageIt.categories[0] ? articles : articles.filter((a) => a.category === cat);
   const latest = articles[0];
   const lv = latest ? articleView(latest, lang) : null;
 
   return (
     <>
-      <Seo title={n.seo.title} description={n.seo.description} path={n.seo.path} />
+      <Seo title={n.seo.title} description={n.seo.description} path={n.seo.path} bilingual />
 
       {/* HERO + FORM */}
       <header className={`${wrap} pt-[clamp(150px,20vh,220px)] pb-[clamp(40px,6vh,64px)]`}>
@@ -46,7 +50,7 @@ export default function Newsletter() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder={n.placeholder}
-              aria-label="La tua email"
+              aria-label={lang === "en" ? "Your email" : "La tua email"}
               required
               className="flex-1 min-w-[200px] bg-card border border-line-2 rounded-[8px] px-[18px] py-[15px] text-ink text-[.95rem] outline-none focus:border-gold transition-colors"
             />
@@ -89,19 +93,19 @@ export default function Newsletter() {
       <section className={section} id="articoli">
         <div className={wrap}>
           <div className="mb-8 fade-up">
-            <span className="section-label">Tutte le uscite</span>
-            <h2 className="text-[clamp(1.8rem,4vw,2.8rem)]">Archivio articoli</h2>
+            <span className="section-label">{lang === "en" ? "All releases" : "Tutte le uscite"}</span>
+            <h2 className="text-[clamp(1.8rem,4vw,2.8rem)]">{lang === "en" ? "Article archive" : "Archivio articoli"}</h2>
           </div>
 
-          {/* Filtri */}
+          {/* Filtri (valore = categoria IT, etichetta = lingua corrente) */}
           <div className="flex flex-wrap gap-2.5 mb-8">
-            {blogPage.categories.map((c) => (
+            {blogPageIt.categories.map((c, i) => (
               <button
                 key={c}
                 onClick={() => setCat(c)}
                 className={`font-mono text-[11px] tracking-[.1em] uppercase rounded-full px-4 py-2 border transition ${cat === c ? "bg-gold text-gold-contrast border-gold" : "text-ink-2 border-line-2 hover:border-gold hover:text-gold"}`}
               >
-                {c}
+                {blogPage.categories[i] ?? c}
               </button>
             ))}
           </div>
@@ -133,7 +137,7 @@ export default function Newsletter() {
       <section className={section}>
         <div className={wrap}>
           <div className="card card--static max-w-[760px] mx-auto fade-up">
-            <span className="section-label">L'autore</span>
+            <span className="section-label">{lang === "en" ? "The author" : "L'autore"}</span>
             <h3 className="text-[1.4rem] mb-3">{n.author.name}</h3>
             <p className="text-[1rem] text-ink-2 leading-relaxed">{n.author.bio}</p>
           </div>

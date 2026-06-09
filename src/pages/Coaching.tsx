@@ -1,4 +1,5 @@
-import { coachingPage as c } from "@/content";
+import { useContent } from "@/content/use-content";
+import { useLang } from "@/i18n";
 import Seo from "@/components/Seo";
 import SpotlightCard from "@/components/reactbits/SpotlightCard";
 
@@ -7,12 +8,15 @@ const section = "py-[clamp(64px,9vh,120px)] relative";
 const lead = "text-[clamp(1rem,1.4vw,1.18rem)] text-ink-2 max-w-[56ch]";
 
 export default function Coaching() {
+  const { coachingPage: c } = useContent();
+  const lang = useLang();
   return (
     <>
       <Seo
         title={c.seo.title}
         description={c.seo.description}
         path={c.seo.path}
+        bilingual
         jsonLd={{
           "@context": "https://schema.org",
           "@type": "Service",
@@ -44,13 +48,13 @@ export default function Coaching() {
       <section className={section} id="prezzi">
         <div className={wrap}>
           <div className="text-center mb-[clamp(40px,6vh,64px)] fade-up">
-            <span className="section-label justify-center">Pacchetti · offerta lancio −25%</span>
-            <h2 className="text-[clamp(2rem,5vw,3.2rem)]">Scegli il tuo percorso</h2>
+            <span className="section-label justify-center">{lang === "en" ? "Packages · launch offer −25%" : "Pacchetti · offerta lancio −25%"}</span>
+            <h2 className="text-[clamp(2rem,5vw,3.2rem)]">{lang === "en" ? "Choose your path" : "Scegli il tuo percorso"}</h2>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 items-start">
             {c.packages.map((p) => (
               <div key={p.name} className={`relative h-full ${p.popular ? "lg:-translate-y-2" : ""}`}>
-                {p.popular && <span className="absolute -top-3 left-1/2 -translate-x-1/2 z-10 inline-flex items-center px-3.5 py-1 font-display text-[11px] font-bold tracking-[.1em] uppercase rounded-full bg-red text-white">Più scelto</span>}
+                {p.popular && <span className="absolute -top-3 left-1/2 -translate-x-1/2 z-10 inline-flex items-center px-3.5 py-1 font-display text-[11px] font-bold tracking-[.1em] uppercase rounded-full bg-red text-white">{lang === "en" ? "Most chosen" : "Più scelto"}</span>}
                 <SpotlightCard className={`card flex flex-col h-full ${p.popular ? "border-gold/40" : ""}`}>
                   <h3 className="text-[1.4rem] mb-2">{p.name}</h3>
                   <p className="text-[.92rem] text-ink-2 mb-5 min-h-[3em]">{p.desc}</p>
@@ -80,8 +84,8 @@ export default function Coaching() {
       <section className={section}>
         <div className={wrap}>
           <div className="mb-[clamp(40px,6vh,64px)] fade-up">
-            <span className="section-label">Cosa impari</span>
-            <h2 className="text-[clamp(2rem,5vw,3.2rem)]">Risultati concreti, non teoria</h2>
+            <span className="section-label">{lang === "en" ? "What you learn" : "Cosa impari"}</span>
+            <h2 className="text-[clamp(2rem,5vw,3.2rem)]">{lang === "en" ? "Concrete results, not theory" : "Risultati concreti, non teoria"}</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 fade-up">
             {c.learn.map((l) => (
@@ -100,8 +104,8 @@ export default function Coaching() {
       <section className={section}>
         <div className={wrap}>
           <div className="mb-[clamp(40px,6vh,64px)] fade-up">
-            <span className="section-label">Come funziona</span>
-            <h2 className="text-[clamp(2rem,5vw,3.2rem)]">Dalla prenotazione al recap</h2>
+            <span className="section-label">{lang === "en" ? "How it works" : "Come funziona"}</span>
+            <h2 className="text-[clamp(2rem,5vw,3.2rem)]">{lang === "en" ? "From booking to recap" : "Dalla prenotazione al recap"}</h2>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 fade-up">
             {c.steps.map((s) => (
@@ -121,8 +125,8 @@ export default function Coaching() {
       <section className={section}>
         <div className={wrap}>
           <div className="mb-[clamp(40px,6vh,64px)] fade-up">
-            <span className="section-label">Risultati reali</span>
-            <h2 className="text-[clamp(2rem,5vw,3.2rem)]">I miei allievi salgono di Division</h2>
+            <span className="section-label">{lang === "en" ? "Real results" : "Risultati reali"}</span>
+            <h2 className="text-[clamp(2rem,5vw,3.2rem)]">{lang === "en" ? "My students climb Divisions" : "I miei allievi salgono di Division"}</h2>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 fade-up">
             {c.results.map((r) => (
@@ -148,7 +152,7 @@ export default function Coaching() {
         <div className={wrap}>
           <div className="mb-[clamp(40px,6vh,64px)] fade-up">
             <span className="section-label">FAQ</span>
-            <h2 className="text-[clamp(2rem,5vw,3.2rem)]">Domande frequenti</h2>
+            <h2 className="text-[clamp(2rem,5vw,3.2rem)]">{lang === "en" ? "Frequently asked questions" : "Domande frequenti"}</h2>
           </div>
           <div className="flex flex-col gap-4 max-w-[820px] fade-up">
             {c.faq.map((f) => (
@@ -169,11 +173,11 @@ export default function Coaching() {
         <div className="gold-sep mb-[clamp(56px,8vh,110px)]" />
         <div className={wrap}>
           <div className="fade-up">
-            <h2 className="text-[clamp(2.2rem,5.5vw,3.6rem)]">Pronto a <em className="not-italic text-gold">vincere</em>?</h2>
-            <p className={`${lead} mx-auto mb-8 mt-[18px]`}>Prenota e inizia a giocare come un professionista.</p>
+            <h2 className="text-[clamp(2.2rem,5.5vw,3.6rem)]">{lang === "en" ? <>Ready to <em className="not-italic text-gold">win</em>?</> : <>Pronto a <em className="not-italic text-gold">vincere</em>?</>}</h2>
+            <p className={`${lead} mx-auto mb-8 mt-[18px]`}>{lang === "en" ? "Book your session and start playing like a pro." : "Prenota e inizia a giocare come un professionista."}</p>
             <div className="flex flex-wrap gap-3.5 justify-center">
-              <a href="#prezzi" className="btn-primary">Scegli il pacchetto →</a>
-              <a href="https://wa.me/393667142489" target="_blank" rel="noopener noreferrer" className="btn-secondary">Scrivimi prima</a>
+              <a href="#prezzi" className="btn-primary">{lang === "en" ? "Choose your package →" : "Scegli il pacchetto →"}</a>
+              <a href="https://wa.me/393667142489" target="_blank" rel="noopener noreferrer" className="btn-secondary">{lang === "en" ? "Message me first" : "Scrivimi prima"}</a>
             </div>
           </div>
         </div>

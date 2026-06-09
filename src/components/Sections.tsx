@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import { homeSections } from "@/content";
+import { useContent } from "@/content/use-content";
+import { useLang } from "@/i18n";
 import Reveal from "@/components/Reveal";
 import Pic from "@/components/Pic";
 import ShinyText from "@/components/reactbits/ShinyText";
@@ -49,15 +51,16 @@ function SectionSplit({ s, index }: { s: Section; index: number }) {
 }
 
 function FinalCTA() {
+  const lang = useLang();
   return (
     <section className="py-[clamp(72px,12vh,150px)] text-center">
       <div className="gold-sep mb-[clamp(72px,12vh,150px)]" />
       <div className="max-w-[1180px] mx-auto px-[clamp(24px,5vw,64px)]">
         <Reveal>
-          <h2 className="text-[clamp(2.4rem,6vw,4.2rem)] mb-5">Pronto a <em className="not-italic"><ShinyText text="vincere" color="#d6a21a" shineColor="#f6d98a" speed={4} spread={100} /></em>?</h2>
-          <p className="text-[clamp(1.05rem,1.5vw,1.25rem)] text-ink-2 max-w-[46ch] mx-auto mb-9">Coaching 1:1 con un 2× Campione Italiano EA FC. Da €22,50 a sessione.</p>
+          <h2 className="text-[clamp(2.4rem,6vw,4.2rem)] mb-5">{lang === "en" ? "Ready to " : "Pronto a "}<em className="not-italic"><ShinyText text={lang === "en" ? "win" : "vincere"} color="#d6a21a" shineColor="#f6d98a" speed={4} spread={100} /></em>?</h2>
+          <p className="text-[clamp(1.05rem,1.5vw,1.25rem)] text-ink-2 max-w-[46ch] mx-auto mb-9">{lang === "en" ? "1:1 coaching with a 2× EA FC Italian Champion. From €22.50 per session." : "Coaching 1:1 con un 2× Campione Italiano EA FC. Da €22,50 a sessione."}</p>
           <Magnet padding={50} magnetStrength={4} wrapperClassName="inline-block">
-            <Link to="/coaching" className="btn-primary">Prenota il coaching →</Link>
+            <Link to="/coaching" className="btn-primary">{lang === "en" ? "Book coaching →" : "Prenota il coaching →"}</Link>
           </Magnet>
         </Reveal>
       </div>
@@ -66,6 +69,7 @@ function FinalCTA() {
 }
 
 export default function Sections() {
+  const { homeSections } = useContent();
   return (
     <>
       {homeSections.map((s, i) => (

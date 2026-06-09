@@ -1,15 +1,19 @@
-import { privacyPage as p } from "@/content";
+import { useContent } from "@/content/use-content";
+import { useLang } from "@/i18n";
 import Seo from "@/components/Seo";
 
 const wrap = "max-w-[820px] mx-auto px-[clamp(24px,5vw,56px)]";
 
 export default function Privacy() {
+  const { privacyPage: p } = useContent();
+  const lang = useLang();
   return (
     <>
       <Seo
         title={p.seo.title}
         description={p.seo.description}
         path={p.seo.path}
+        bilingual
         jsonLd={{
           "@context": "https://schema.org",
           "@type": "Organization",
@@ -43,7 +47,7 @@ export default function Privacy() {
 
         <div className="card card--gold mt-12 text-center">
           <p className="text-ink-2 text-[.98rem]">
-            Per esercitare i tuoi diritti scrivi a{" "}
+            {lang === "en" ? "To exercise your rights, write to" : "Per esercitare i tuoi diritti scrivi a"}{" "}
             <a href={`mailto:${p.email}`} className="text-gold no-underline border-b border-gold/35 hover:border-gold">{p.email}</a>
           </p>
         </div>

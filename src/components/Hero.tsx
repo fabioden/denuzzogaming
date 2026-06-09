@@ -1,12 +1,15 @@
 import { Fragment } from "react";
 import { Link } from "react-router-dom";
 import { motion, useReducedMotion } from "motion/react";
-import { hero } from "@/content";
+import { useContent } from "@/content/use-content";
+import { useLang } from "@/i18n";
 import Pic from "@/components/Pic";
 import CountUp from "@/components/reactbits/CountUp";
 import Tilt from "@/components/reactbits/Tilt";
 
 export default function Hero() {
+  const { hero } = useContent();
+  const lang = useLang();
   const reduce = useReducedMotion();
 
   const rise = (delay: number) => ({
@@ -26,7 +29,7 @@ export default function Hero() {
         <div className="max-w-[560px]">
           <motion.div {...rise(0)} className="flex w-fit items-center gap-2.5 mb-7 px-3.5 py-1.5 rounded-full border border-line bg-white/[.02] font-mono text-[10px] tracking-[.18em] uppercase text-ink-2">
             <span className="w-1.5 h-1.5 rounded-full bg-gold" style={{ animation: "livePulse 2.4s infinite" }} />
-            Disponibile per coaching · risposta in 24h
+            {lang === "en" ? "Available for coaching · reply within 24h" : "Disponibile per coaching · risposta in 24h"}
           </motion.div>
 
           <motion.span {...rise(0.06)} className="section-label">{hero.eyebrow}</motion.span>
@@ -80,7 +83,7 @@ export default function Hero() {
       </div>
 
       <div className="absolute bottom-6 left-1/2 -translate-x-1/2 hidden lg:flex flex-col items-center gap-1.5 scroll-cue text-muted pointer-events-none">
-        <span className="font-mono text-[10px] tracking-[.22em] uppercase">Scopri</span>
+        <span className="font-mono text-[10px] tracking-[.22em] uppercase">{lang === "en" ? "Discover" : "Scopri"}</span>
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"><path d="M12 5v14M6 13l6 6 6-6" /></svg>
       </div>
     </section>

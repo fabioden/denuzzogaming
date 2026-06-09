@@ -3,6 +3,7 @@ import { RoundedBox, Float, Environment, Lightformer, Text, Bounds } from "@reac
 import { useRef, type ReactNode } from "react";
 import type { Group } from "three";
 import { career } from "@/content";
+import { useContent } from "@/content/use-content";
 
 type Item = (typeof career)[number];
 
@@ -47,6 +48,7 @@ function Rig({ children }: { children: ReactNode }) {
 }
 
 export default function CareerScene3D() {
+  const { career } = useContent();
   const n = career.length;
   const mid = (n - 1) / 2;
   const step = 1.34;

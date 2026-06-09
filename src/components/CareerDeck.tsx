@@ -1,15 +1,18 @@
-import { career } from "@/content";
+import { useContent } from "@/content/use-content";
+import { useLang } from "@/i18n";
 import Tilt from "@/components/reactbits/Tilt";
 
 const wrap = "max-w-[1180px] mx-auto px-[clamp(24px,5vw,64px)]";
 
 export default function CareerDeck() {
+  const { career } = useContent();
+  const lang = useLang();
   return (
     <section className="py-[clamp(64px,9vh,120px)]" id="palmares">
       <div className={wrap}>
         <div className="mb-[clamp(28px,4vh,48px)] fade-up">
-          <span className="section-label">Carriera · Palmares</span>
-          <h2 className="text-[clamp(2rem,5vw,3.4rem)] leading-[1.05]">Costruito sul campo, una stagione alla volta</h2>
+          <span className="section-label">{lang === "en" ? "Career · Honours" : "Carriera · Palmares"}</span>
+          <h2 className="text-[clamp(2rem,5vw,3.4rem)] leading-[1.05]">{lang === "en" ? "Built on the pitch, one season at a time" : "Costruito sul campo, una stagione alla volta"}</h2>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-6">
