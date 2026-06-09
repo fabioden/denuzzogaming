@@ -14,7 +14,7 @@ const PORTE = [
     key: "gaming",
     emoji: "🎮",
     title: "Gaming",
-    desc: "Coaching, guide e la mia storia nel competitivo EA FC.",
+    desc: "Coaching 1:1, guide e la mia storia da 2× Campione Italiano nel competitivo EA FC.",
     cta: "Entra nel gaming",
     to: "/gaming",
     external: false,
@@ -24,7 +24,7 @@ const PORTE = [
     key: "business",
     emoji: "💼",
     title: "Business",
-    desc: "Agenti AI, automazioni e siti web che fanno crescere la tua azienda.",
+    desc: "Agenti AI, automazioni e siti web su misura per far crescere la tua azienda.",
     cta: "Lavora con me",
     to: "/business/",
     external: true,
@@ -151,15 +151,17 @@ export default function Hub() {
             className="h-full w-full"
             colors={["#e6b53c", "#4a9eff", "#2fa56a"]}
             backgroundColor="#08080a"
-            speed={0.5}
-            streakCount={7}
-            glow={1}
-            density={0.6}
-            opacity={1}
+            speed={0.28}
+            streakCount={4}
+            glow={0.4}
+            density={0.38}
+            opacity={0.42}
             mouseInteraction={false}
           />
         </div>
-        <div className="absolute inset-0 bg-gradient-to-r from-[#08080a] via-[#08080a]/40 to-transparent" />
+        {/* velo scuro per tenere lo sfondo sobrio e leggibile */}
+        <div className="absolute inset-0 bg-[#08080a]/45" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#08080a] via-[#08080a]/55 to-transparent" />
         <div className="absolute inset-0 bg-gradient-to-t from-[#08080a] via-transparent to-transparent" />
       </div>
 
@@ -179,7 +181,7 @@ export default function Hub() {
             className="text-sm font-semibold uppercase tracking-[0.2em]"
             style={{ color: GOLD }}
           >
-            Ciao 👋
+            Benvenuto
           </motion.p>
           <motion.h1
             initial={{ opacity: 0, y: 16 }}
@@ -188,7 +190,7 @@ export default function Hub() {
             className="mt-3 text-[clamp(2.2rem,5.5vw,4rem)] font-bold leading-[1.05] tracking-tight"
             style={{ fontFamily: "'Playfair Display', serif" }}
           >
-            Sono Fabio Denuzzo.
+            Il sito di Fabio Denuzzo.
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 16 }}
@@ -197,7 +199,7 @@ export default function Hub() {
             className="mt-4 max-w-xl text-lg leading-relaxed"
             style={{ color: MUTED }}
           >
-            Gioco, creo soluzioni AI per il business e aiuto chi convive col diabete.
+            Tre mondi in un unico posto: gaming, business e diabete.
             <br className="hidden sm:block" /> <span className="font-medium" style={{ color: INK }}>Cosa cerchi?</span>
           </motion.p>
 
