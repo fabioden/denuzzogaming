@@ -190,7 +190,7 @@ export default function Hub() {
             className="mt-3 text-[clamp(2.2rem,5.5vw,4rem)] font-bold leading-[1.05] tracking-tight"
             style={{ fontFamily: "'Playfair Display', serif" }}
           >
-            Il sito di Fabio Denuzzo.
+            Una persona, tre mondi.
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 16 }}
@@ -199,8 +199,8 @@ export default function Hub() {
             className="mt-4 max-w-xl text-lg leading-relaxed"
             style={{ color: MUTED }}
           >
-            Tre mondi in un unico posto: gaming, business e diabete.
-            <br className="hidden sm:block" /> <span className="font-medium" style={{ color: INK }}>Cosa cerchi?</span>
+            Gaming competitivo, AI per il tuo business e supporto sul diabete.
+            <br className="hidden sm:block" /> <span className="font-medium" style={{ color: INK }}>Cosa posso fare per te?</span>
           </motion.p>
 
           <div className="mt-10 grid gap-5 md:grid-cols-3">
