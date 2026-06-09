@@ -36,14 +36,22 @@ export default function App() {
 
           {/* MONDO GAMING: dentro il Layout gaming */}
           <Route element={<GamingShell />}>
+            {/* Italiano (default) */}
             <Route path="/gaming" element={<Home />} />
             <Route path="/coaching" element={<Coaching />} />
             <Route path="/newsletter" element={<Newsletter />} />
             <Route path="/newsletter/:slug" element={<Article />} />
+            <Route path="/privacy" element={<Privacy />} />
+            {/* Inglese (mirror /en) — stesso componente, lingua derivata dall'URL */}
+            <Route path="/en" element={<Navigate to="/en/gaming" replace />} />
+            <Route path="/en/gaming" element={<Home />} />
+            <Route path="/en/coaching" element={<Coaching />} />
+            <Route path="/en/newsletter" element={<Newsletter />} />
+            <Route path="/en/newsletter/:slug" element={<Article />} />
+            <Route path="/en/privacy" element={<Privacy />} />
             {/* Blog unificato dentro Newsletter — redirect legacy */}
             <Route path="/blog" element={<Navigate to="/newsletter" replace />} />
             <Route path="/blog/:slug" element={<Navigate to="/newsletter" replace />} />
-            <Route path="/privacy" element={<Privacy />} />
           </Route>
 
           <Route path="*" element={<Navigate to="/" replace />} />

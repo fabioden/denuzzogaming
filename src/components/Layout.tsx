@@ -1,6 +1,7 @@
 import { useState, type ReactNode } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { nav, social } from "@/content";
+import { L, useT, useLang, localizePath, canonicalPath } from "@/i18n";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import SiteBackground from "@/components/SiteBackground";
 import CursorTrail from "@/components/CursorTrail";
@@ -35,6 +36,11 @@ export default function Layout({ children }: { children: ReactNode }) {
   const [menuOpen, setMenuOpen] = useState(false);
   const { pathname } = useLocation();
   useScrollReveal(pathname);
+  const t = useT();
+  const lang = useLang();
+  const canon = canonicalPath(pathname); // path senza /en, per lo stato attivo
+  // URL della stessa pagina nell'altra lingua (per il selettore)
+  const switchHref = localizePath(pathname, lang === "en" ? "it" : "en");
 
   return (
     <>
@@ -46,20 +52,20 @@ export default function Layout({ children }: { children: ReactNode }) {
 
       {/* Nav */}
       <nav className="fixed inset-x-0 top-0 z-[1000] flex items-center justify-between px-[clamp(20px,4vw,52px)] py-4 bg-[#0e0c0d]/80 backdrop-blur-2xl border-b border-line transition-[background] duration-300">
-        <Link to="/gaming" className="flex items-center gap-3 no-underline group shrink-0">
+        <L to="/gaming" className="flex items-center gap-3 no-underline group shrink-0">
           <img src="/img/fd-mark.png" alt="Fabio Denuzzo" className="h-9 w-auto object-contain shrink-0 transition-transform duration-300 group-hover:scale-105" />
           <span className="font-mono text-[12px] font-medium tracking-[.28em] uppercase text-ink">Denuzzo Gaming</span>
-        </Link>
+        </L>
 
         {/* Link centrali */}
         <div className="hidden lg:flex flex-1 items-center justify-center gap-[clamp(12px,1.6vw,26px)]">
           {nav.map((l) => {
-            const active = isActive(pathname, l.href);
+            const active = isActive(canon, l.href);
             return (
-              <Link key={l.label} to={l.href} className={`group relative font-mono text-[11.5px] font-medium tracking-[.16em] uppercase no-underline transition-colors ${active ? "text-gold" : "text-ink-2 hover:text-ink"}`}>
+              <L key={l.label} to={l.href} className={`group relative font-mono text-[11.5px] font-medium tracking-[.16em] uppercase no-underline transition-colors ${active ? "text-gold" : "text-ink-2 hover:text-ink"}`}>
                 {l.label}
                 <span className={`absolute -bottom-1.5 left-0 h-px bg-gold transition-all duration-300 ${active ? "w-full" : "w-0 group-hover:w-full"}`} />
-              </Link>
+              </L>
             );
           })}
 
@@ -80,8 +86,12 @@ export default function Layout({ children }: { children: ReactNode }) {
 
         {/* Destra: Prenota + menu mobile */}
         <div className="flex items-center gap-3 shrink-0">
-          <Link to="/coaching" className="hidden lg:inline-flex items-center px-4 py-2 rounded-full border border-gold/35 font-mono text-[11px] font-medium tracking-[.16em] uppercase text-gold hover:bg-gold/[.08] hover:border-gold/60 transition-all no-underline">Prenota</Link>
-          <button onClick={() => setMenuOpen(true)} aria-label="Menu" className="lg:hidden w-10 h-10 rounded-full bg-white/[.04] border border-line-2 flex flex-col items-center justify-center gap-[5px] hover:bg-gold/[.08] transition">
+          {/* Selettore lingua IT/EN (mostra la lingua di destinazione) */}
+          <Link to={switchHref} aria-label="Switch language" className="inline-flex items-center justify-center w-9 h-9 rounded-full border border-line-2 font-mono text-[11px] font-semibold tracking-[.1em] uppercase text-ink-2 hover:text-gold hover:border-gold/50 transition-colors no-underline">
+            {lang === "en" ? "IT" : "EN"}
+          </Link>
+          <L to="/coaching" className="hidden lg:inline-flex items-center px-4 py-2 rounded-full border border-gold/35 font-mono text-[11px] font-medium tracking-[.16em] uppercase text-gold hover:bg-gold/[.08] hover:border-gold/60 transition-all no-underline">{t("nav.book")}</L>
+          <button onClick={() => setMenuOpen(true)} aria-label={t("menu.open")} className="lg:hidden w-10 h-10 rounded-full bg-white/[.04] border border-line-2 flex flex-col items-center justify-center gap-[5px] hover:bg-gold/[.08] transition">
             <span className="block w-4 h-[1.5px] bg-ink" />
             <span className="block w-4 h-[1.5px] bg-ink" />
             <span className="block w-4 h-[1.5px] bg-ink" />
@@ -92,18 +102,22 @@ export default function Layout({ children }: { children: ReactNode }) {
       {/* Mobile menu */}
       <div className={`fixed inset-0 z-[9999] bg-bg flex flex-col px-6 py-5 transition-all duration-400 ${menuOpen ? "visible opacity-100 translate-y-0" : "invisible opacity-0 -translate-y-5"}`}>
         <div className="flex items-center justify-between">
-          <Link to="/gaming" onClick={() => setMenuOpen(false)} className="flex items-center gap-3 no-underline">
+          <L to="/gaming" onClick={() => setMenuOpen(false)} className="flex items-center gap-3 no-underline">
             <img src="/img/fd-mark.png" alt="Fabio Denuzzo" className="h-9 w-auto object-contain" />
             <span className="font-mono text-[12px] font-medium tracking-[.28em] uppercase text-ink">Denuzzo Gaming</span>
-          </Link>
-          <button onClick={() => setMenuOpen(false)} aria-label="Chiudi" className="w-10 h-10 rounded-full bg-white/[.04] border border-line-2 grid place-items-center text-ink hover:rotate-90 transition">
+          </L>
+          <button onClick={() => setMenuOpen(false)} aria-label={t("menu.close")} className="w-10 h-10 rounded-full bg-white/[.04] border border-line-2 grid place-items-center text-ink hover:rotate-90 transition">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" className="w-[18px] h-[18px]"><line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" /></svg>
           </button>
         </div>
         <div className="flex-1 flex flex-col justify-center gap-6">
           {nav.map((l) => (
-            <Link key={l.label} to={l.href} onClick={() => setMenuOpen(false)} className={`font-display text-[clamp(28px,6vw,42px)] font-bold uppercase no-underline transition ${isActive(pathname, l.href) ? "text-gold" : "text-ink hover:text-gold hover:translate-x-3"}`}>{l.label}</Link>
+            <L key={l.label} to={l.href} onClick={() => setMenuOpen(false)} className={`font-display text-[clamp(28px,6vw,42px)] font-bold uppercase no-underline transition ${isActive(canon, l.href) ? "text-gold" : "text-ink hover:text-gold hover:translate-x-3"}`}>{l.label}</L>
           ))}
+          {/* Selettore lingua */}
+          <Link to={switchHref} onClick={() => setMenuOpen(false)} className="font-mono text-[clamp(16px,4vw,22px)] font-semibold tracking-[.16em] uppercase no-underline text-ink-2 hover:text-gold transition">
+            {lang === "en" ? "🇮🇹 Italiano" : "🇬🇧 English"}
+          </Link>
           {/* Denuzzo Business — sito personale */}
           <a href={BUSINESS_URL} onClick={() => setMenuOpen(false)} className="flex items-center gap-3 font-display text-[clamp(20px,4.5vw,30px)] font-bold uppercase no-underline text-ink-2 hover:text-gold transition">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6 shrink-0">
@@ -133,12 +147,12 @@ export default function Layout({ children }: { children: ReactNode }) {
             l.ext ? (
               <a key={l.label} href={l.href} target="_blank" rel="noopener noreferrer" className="text-[12px] font-semibold tracking-[.14em] uppercase text-ink-2 no-underline hover:text-gold transition-colors">{l.label}</a>
             ) : (
-              <Link key={l.label} to={l.href} className="text-[12px] font-semibold tracking-[.14em] uppercase text-ink-2 no-underline hover:text-gold transition-colors">{l.label}</Link>
+              <L key={l.label} to={l.href} className="text-[12px] font-semibold tracking-[.14em] uppercase text-ink-2 no-underline hover:text-gold transition-colors">{l.label}</L>
             )
           )}
         </div>
         <div className="text-[12px] text-muted">
-          © 2026 Fabio Denuzzo · Tutti i diritti riservati · <Link to="/privacy" className="text-muted underline underline-offset-[3px] hover:text-gold transition-colors">Privacy Policy</Link>
+          © 2026 Fabio Denuzzo · {t("footer.rights")} · <L to="/privacy" className="text-muted underline underline-offset-[3px] hover:text-gold transition-colors">{t("footer.privacy")}</L>
         </div>
       </footer>
     </>
