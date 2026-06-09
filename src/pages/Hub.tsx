@@ -12,7 +12,15 @@ const GOLD = "#d6a21a";
 const PORTE = [
   {
     key: "gaming",
-    emoji: "🎮",
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="h-6 w-6">
+        <line x1="6" x2="10" y1="11" y2="11" />
+        <line x1="8" x2="8" y1="9" y2="13" />
+        <line x1="15" x2="15.01" y1="12" y2="12" />
+        <line x1="18" x2="18.01" y1="10" y2="10" />
+        <path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z" />
+      </svg>
+    ),
     title: "Gaming",
     desc: "Coaching 1:1, guide e la mia storia da 2× Campione Italiano nel competitivo EA FC.",
     cta: "Entra nel gaming",
@@ -22,7 +30,12 @@ const PORTE = [
   },
   {
     key: "business",
-    emoji: "💼",
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="h-6 w-6">
+        <rect width="20" height="14" x="2" y="7" rx="2" ry="2" />
+        <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+      </svg>
+    ),
     title: "Business",
     desc: "Agenti AI, automazioni e siti web su misura per far crescere la tua azienda.",
     cta: "Lavora con me",
@@ -32,7 +45,11 @@ const PORTE = [
   },
   {
     key: "diabete",
-    emoji: "🩺",
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="h-6 w-6">
+        <path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z" />
+      </svg>
+    ),
     title: "Diabete",
     desc: "Un assistente AI gratuito e la mia esperienza, per chi convive col diabete.",
     cta: "Trova aiuto",
@@ -51,10 +68,10 @@ function Porta({ p, i }: { p: (typeof PORTE)[number]; i: number }) {
       />
       <div className="relative">
         <div
-          className="flex h-12 w-12 items-center justify-center rounded-2xl text-2xl"
-          style={{ background: `${p.accent}22`, boxShadow: `inset 0 0 0 1px ${p.accent}55` }}
+          className="flex h-12 w-12 items-center justify-center rounded-2xl"
+          style={{ background: `${p.accent}22`, boxShadow: `inset 0 0 0 1px ${p.accent}55`, color: p.accent }}
         >
-          {p.emoji}
+          {p.icon}
         </div>
         <h2 className="mt-5 text-2xl font-bold" style={{ color: p.accent, fontFamily: "'Playfair Display', serif" }}>
           {p.title}
@@ -151,17 +168,17 @@ export default function Hub() {
             className="h-full w-full"
             colors={["#e6b53c", "#4a9eff", "#2fa56a"]}
             backgroundColor="#08080a"
-            speed={0.28}
-            streakCount={4}
-            glow={0.4}
-            density={0.38}
-            opacity={0.42}
+            speed={0.42}
+            streakCount={6}
+            glow={0.7}
+            density={0.5}
+            opacity={0.78}
             mouseInteraction={false}
           />
         </div>
-        {/* velo scuro per tenere lo sfondo sobrio e leggibile */}
-        <div className="absolute inset-0 bg-[#08080a]/45" />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#08080a] via-[#08080a]/55 to-transparent" />
+        {/* velo leggero: i colori dei 3 mondi restano visibili, ma con un look curato */}
+        <div className="absolute inset-0 bg-[#08080a]/20" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#08080a] via-[#08080a]/35 to-transparent" />
         <div className="absolute inset-0 bg-gradient-to-t from-[#08080a] via-transparent to-transparent" />
       </div>
 
