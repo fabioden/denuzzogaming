@@ -43,7 +43,7 @@ export default function Article() {
       <article className={`${wrap} pt-[clamp(140px,18vh,200px)] pb-[clamp(48px,7vh,90px)]`}>
         {/* Breadcrumb */}
         <nav className="font-mono text-[11px] tracking-[.08em] uppercase text-muted mb-8">
-          <Link to="/" className="hover:text-gold">Home</Link> /{" "}
+          <Link to="/gaming" className="hover:text-gold">Home</Link> /{" "}
           <Link to="/newsletter" className="hover:text-gold">Newsletter</Link> /{" "}
           <span className="text-ink-2">{article.category}</span>
         </nav>

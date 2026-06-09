@@ -46,7 +46,7 @@ export default function Layout({ children }: { children: ReactNode }) {
 
       {/* Nav */}
       <nav className="fixed inset-x-0 top-0 z-[1000] flex items-center justify-between px-[clamp(20px,4vw,52px)] py-4 bg-[#0e0c0d]/80 backdrop-blur-2xl border-b border-line transition-[background] duration-300">
-        <Link to="/" className="flex items-center gap-3 no-underline group shrink-0">
+        <Link to="/gaming" className="flex items-center gap-3 no-underline group shrink-0">
           <img src="/img/fd-mark.png" alt="Fabio Denuzzo" className="h-9 w-auto object-contain shrink-0 transition-transform duration-300 group-hover:scale-105" />
           <span className="font-mono text-[12px] font-medium tracking-[.28em] uppercase text-ink">Denuzzo Gaming</span>
         </Link>
@@ -92,7 +92,7 @@ export default function Layout({ children }: { children: ReactNode }) {
       {/* Mobile menu */}
       <div className={`fixed inset-0 z-[9999] bg-bg flex flex-col px-6 py-5 transition-all duration-400 ${menuOpen ? "visible opacity-100 translate-y-0" : "invisible opacity-0 -translate-y-5"}`}>
         <div className="flex items-center justify-between">
-          <Link to="/" onClick={() => setMenuOpen(false)} className="flex items-center gap-3 no-underline">
+          <Link to="/gaming" onClick={() => setMenuOpen(false)} className="flex items-center gap-3 no-underline">
             <img src="/img/fd-mark.png" alt="Fabio Denuzzo" className="h-9 w-auto object-contain" />
             <span className="font-mono text-[12px] font-medium tracking-[.28em] uppercase text-ink">Denuzzo Gaming</span>
           </Link>
