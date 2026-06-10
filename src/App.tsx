@@ -1,5 +1,5 @@
-import { lazy, Suspense } from "react";
-import { BrowserRouter, Routes, Route, Navigate, Outlet } from "react-router-dom";
+import { lazy, Suspense, useEffect } from "react";
+import { BrowserRouter, Routes, Route, Navigate, Outlet, useLocation } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 import Layout from "@/components/Layout";
 import ScrollToTop from "@/components/ScrollToTop";
@@ -22,6 +22,17 @@ function GamingShell() {
   );
 }
 
+// Il mondo diabete vive sul sottodominio dedicato diabete.denuzzogaming.com (SEO separata).
+// Redirect 1:1 per non avere contenuti duplicati: /diabete/articoli/x → .../articoli/x
+function DiabeteRedirect() {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    const rest = pathname.replace(/^\/diabete/, "");
+    window.location.replace("https://diabete.denuzzogaming.com" + (rest || "/"));
+  }, [pathname]);
+  return null;
+}
+
 export default function App() {
   return (
     <HelmetProvider>
@@ -32,8 +43,8 @@ export default function App() {
           {/* HUB (bilingue: / = IT, /en = EN) */}
           <Route path="/" element={<Hub />} />
           <Route path="/en" element={<Hub />} />
-          {/* /diabete temporaneamente NON pubblico (chat backend = Fase 3, contenuti da revisione clinica) */}
-          <Route path="/diabete" element={<Navigate to="/" replace />} />
+          {/* Il mondo diabete è sul sottodominio dedicato → redirect 1:1 (no contenuti duplicati) */}
+          <Route path="/diabete/*" element={<DiabeteRedirect />} />
 
           {/* MONDO GAMING: dentro il Layout gaming */}
           <Route element={<GamingShell />}>

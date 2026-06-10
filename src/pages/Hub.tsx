@@ -65,10 +65,10 @@ const PORTE = [
     descEn: "A free AI assistant and my own experience, for people living with diabetes.",
     cta: "Trova aiuto",
     ctaEn: "Find help",
-    to: "/diabete",
-    external: false,
+    to: "https://diabete.denuzzogaming.com",
+    external: true,
     accent: "#2fa56a",
-    comingSoon: true,
+    comingSoon: false,
   },
 ];
 
