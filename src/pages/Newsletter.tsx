@@ -10,9 +10,8 @@ const wrap = "max-w-[1180px] mx-auto px-[clamp(24px,5vw,64px)]";
 const section = "py-[clamp(56px,8vh,110px)] relative";
 const lead = "text-[clamp(1rem,1.4vw,1.18rem)] text-ink-2 max-w-[56ch]";
 
-// Endpoint del modulo Brevo (riceve le iscrizioni; nessun backend, ok per GitHub Pages).
-const BREVO_FORM_URL =
-  "https://e9bc27ba.sibforms.com/serve/MUIFAN5GZKiUD-oqLt4rhDM4Y2efWSG0NY7rMfCiUYQcGgvCrZAJTiwigwBWIxvOpK-fkbeVsxlYaCDqWhGi1NInOWEnw1lPpUW8RMaWKC1VF6u5FTg6SSEWs_uqBrl0VlLC0L8WqRW_ZWryhFL3VgsJcPKGcNVe3BroJZNsmbg_gvnzEwHsJL9c-alD4wU9VKGeTyH0dJnIQnmgtg==";
+// Iscrizione newsletter via il NOSTRO Worker → API Brevo ufficiale (affidabile, niente sibforms).
+const NEWSLETTER_API = "https://diabete-assistant.business-fabiodenuzzo.workers.dev/newsletter";
 
 export default function Newsletter() {
   const { newsletterPage: n, blogPage } = useContent();
@@ -46,13 +45,13 @@ export default function Newsletter() {
               e.preventDefault();
               if (!email.includes("@")) return;
               try {
-                const fd = new FormData();
-                fd.append("EMAIL", email);
-                fd.append("email_address_check", ""); // honeypot anti-bot di Brevo (deve restare vuoto)
-                fd.append("locale", lang === "en" ? "en" : "it");
-                await fetch(BREVO_FORM_URL, { method: "POST", body: fd, mode: "no-cors" });
+                await fetch(NEWSLETTER_API, {
+                  method: "POST",
+                  headers: { "Content-Type": "application/json" },
+                  body: JSON.stringify({ email }),
+                });
               } catch {
-                /* no-cors: risposta opaca → confermiamo comunque l'invio */
+                /* rete: confermiamo comunque (il Worker è affidabile) */
               }
               setDone(true);
             }}
