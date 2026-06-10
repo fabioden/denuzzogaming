@@ -18,7 +18,7 @@ export const hero = {
   img: { base: "juventus", alt: "Fabio Denuzzo at the Juventus Esports presentation" },
 };
 
-// Career deck — palmares as cards (signature effect, scroll-driven)
+// Career deck: palmares as cards (signature effect, scroll-driven)
 export const career = [
   { year: "2013", type: "Champion", title: "Italian Champion", sub: "FIFA 13" },
   { year: "2018", type: "World", title: "FIFA eWorld Cup", sub: "Finals · London" },
@@ -88,9 +88,9 @@ export const about = {
   },
   timeline: [
     { year: "2013", txt: "FIFA 13 Italian Champion" },
-    { year: "2018", txt: "FIFA eWorld Cup — London" },
+    { year: "2018", txt: "FIFA eWorld Cup, London" },
     { year: "2020", txt: "Juventus FC Pro Player" },
-    { year: "2021", txt: "FIFA eWorld Cup — Top 4 EU" },
+    { year: "2021", txt: "FIFA eWorld Cup, Top 4 EU" },
     { year: "2023", txt: "FIFA 23 Italian Champion" },
     { year: "Today", txt: "Coach & Content Creator" },
   ],
@@ -102,9 +102,9 @@ export const coaching = {
   subtitle:
     "1-to-1 sessions with a 2× Italian Champion and eWorld Cup competitor. META tactics, FUT market management and a competitive mindset.",
   steps: [
-    { n: "01 — Book", h: "Choose when", p: "Pick a date and time from the coaching page." },
-    { n: "02 — Live session", h: "60 minutes 1:1", p: "Gameplay review together + tactics tailored to your style." },
-    { n: "03 — Recap + growth", h: "Leave with a plan", p: "Get a written recap with the key points to work on." },
+    { n: "01 · Book", h: "Choose when", p: "Pick a date and time from the coaching page." },
+    { n: "02 · Live session", h: "60 minutes 1:1", p: "Gameplay review together + tactics tailored to your style." },
+    { n: "03 · Recap + growth", h: "Leave with a plan", p: "Get a written recap with the key points to work on." },
   ],
   trust: [
     { num: "300+", label: "Students since 2020" },
@@ -112,8 +112,8 @@ export const coaching = {
     { num: "1:1", label: "Private session" },
   ],
   testimonials: [
-    { quote: "After 3 sessions I went from Division 5 to Division 2. Fabio's method is concrete, no useless theory.", author: "Luca R. — Milan" },
-    { quote: "He taught me to read the FUT market like a pro. I tripled my coins in two weeks.", author: "Marco T. — Rome" },
+    { quote: "After 3 sessions I went from Division 5 to Division 2. Fabio's method is concrete, no useless theory.", author: "Luca R., Milan" },
+    { quote: "He taught me to read the FUT market like a pro. I tripled my coins in two weeks.", author: "Marco T., Rome" },
   ],
   cta: "Discover the coaching",
   priceAnchor: "from €22.50 per session",
@@ -126,7 +126,7 @@ export const newsletter = {
     "Daily articles to master tactics, manage the market and stay up to date on every EA Sports FC 26 update.",
   lead: "Subscribe and get instantly: the 5 META formations of the week",
   placeholder: "Your email",
-  success: "Subscription confirmed — check your inbox.",
+  success: "Subscription confirmed: check your inbox.",
   tags: ["META Tactics", "FUT Market", "EA FC 26 News", "Weekly Guides"],
 };
 
@@ -160,7 +160,7 @@ export const finalCta = {
 /* ─────────────────────────────────────────── COACHING ── */
 export const coachingPage = {
   seo: {
-    title: "1:1 Coaching — Fabio Denuzzo | EA FC 26",
+    title: "1:1 Coaching, Fabio Denuzzo | EA FC 26",
     description:
       "1:1 coaching sessions with Fabio Denuzzo, 2× Italian EA FC Champion and former pro player. META tactics, game reading, pro mindset. From €22.50.",
     path: "/coaching",
@@ -215,9 +215,9 @@ export const coachingPage = {
     { h: "A personalized plan to climb", p: "A report with error analysis, areas for improvement and an action plan after every session." },
   ],
   steps: [
-    { n: "01 — Book", h: "Choose and pay", p: "Pick your package and pay securely with Stripe." },
-    { n: "02 — Live session", h: "60 minutes 1:1", p: "Gameplay review + tactics in real time." },
-    { n: "03 — Recap + growth", h: "Leave with a plan", p: "Written recap with the plan to improve." },
+    { n: "01 · Book", h: "Choose and pay", p: "Pick your package and pay securely with Stripe." },
+    { n: "02 · Live session", h: "60 minutes 1:1", p: "Gameplay review + tactics in real time." },
+    { n: "03 · Recap + growth", h: "Leave with a plan", p: "Written recap with the plan to improve." },
   ],
   results: [
     { from: "Gold 3", to: "Elite 1", time: "In 1 month · 4 sessions", quote: "From Gold 3 to Elite 1 in a month. Fabio opened my eyes to mistakes I'd been making for years.", author: "Marco L." },
@@ -226,8 +226,8 @@ export const coachingPage = {
   ],
   faq: [
     { q: "How does a session work?", a: "A private call on Discord or WhatsApp. We play together and I analyze your gameplay in real time. At the end you get a written recap." },
-    { q: "Is a minimum level required?", a: "No. I coach players of every level — the program is tailored to you." },
-    { q: "On which platforms?", a: "PlayStation, Xbox and PC — all EA Sports FC 26 platforms." },
+    { q: "Is a minimum level required?", a: "No. I coach players of every level: the program is tailored to you." },
+    { q: "On which platforms?", a: "PlayStation, Xbox and PC: all EA Sports FC 26 platforms." },
     { q: "How long until results?", a: "Improvements from the very first session. With 4 hours, a Division jump is practically guaranteed." },
     { q: "How does payment work?", a: "You pay with Stripe (card). After payment I reach out to you on WhatsApp to schedule the session." },
     { q: "How do I book the session?", a: "After payment I reach out to you on WhatsApp within 24h to set the date and time of the session together." },
@@ -237,7 +237,7 @@ export const coachingPage = {
 /* ─────────────────────────────────────── NEWSLETTER ── */
 export const newsletterPage = {
   seo: {
-    title: "FC Newsletter — Fabio Denuzzo | EA FC 26",
+    title: "FC Newsletter, Fabio Denuzzo | EA FC 26",
     description:
       "EA FC 26 newsletter: meta, tactics, guides and analysis by Fabio Denuzzo, former World Top 10 pro player. Free, zero spam.",
     path: "/newsletter",
@@ -272,7 +272,7 @@ export const newsletterPage = {
 /* ──────────────────────────────────────────── BLOG ── */
 export const blogPage = {
   seo: {
-    title: "EA FC Blog — Denuzzo Gaming",
+    title: "EA FC Blog, Denuzzo Gaming",
     description:
       "News, guides, meta analysis and EA FC tips from pro player Fabio Denuzzo. TOTS, SBC, formations, tactics and coaching.",
     path: "/blog",
@@ -288,7 +288,7 @@ export const blogPage = {
 /* ───────────────────────────────────────── PRIVACY ── */
 export const privacyPage = {
   seo: {
-    title: "Privacy Policy — Denuzzo Gaming",
+    title: "Privacy Policy, Denuzzo Gaming",
     description: "Denuzzo Gaming's privacy and cookie policy.",
     path: "/privacy",
   },

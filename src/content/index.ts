@@ -35,7 +35,7 @@ export const hero = {
   img: { base: "juventus", alt: "Fabio Denuzzo alla presentazione Juventus Esports" },
 };
 
-// Career deck — palmares come carte (effetto firma, scroll-driven)
+// Career deck: palmares come carte (effetto firma, scroll-driven)
 export const career = [
   { year: "2013", type: "Campione", title: "Campione Italiano", sub: "FIFA 13" },
   { year: "2018", type: "Mondiale", title: "FIFA eWorld Cup", sub: "Finali · Londra" },
@@ -105,9 +105,9 @@ export const about = {
   },
   timeline: [
     { year: "2013", txt: "Campione Italiano FIFA 13" },
-    { year: "2018", txt: "FIFA eWorld Cup — Londra" },
+    { year: "2018", txt: "FIFA eWorld Cup, Londra" },
     { year: "2020", txt: "Pro Player Juventus FC" },
-    { year: "2021", txt: "FIFA eWorld Cup — Top 4 EU" },
+    { year: "2021", txt: "FIFA eWorld Cup, Top 4 EU" },
     { year: "2023", txt: "Campione Italiano FIFA 23" },
     { year: "Oggi", txt: "Coach & Content Creator" },
   ],
@@ -119,9 +119,9 @@ export const coaching = {
   subtitle:
     "Sessioni 1‑to‑1 con un 2× Campione Italiano e partecipante eWorld Cup. Tattiche META, gestione del mercato FUT e mentalità competitiva.",
   steps: [
-    { n: "01 — Prenota", h: "Scegli quando", p: "Seleziona data e orario dalla pagina coaching." },
-    { n: "02 — Sessione live", h: "60 minuti 1:1", p: "Gameplay review insieme + tattica applicata al tuo stile." },
-    { n: "03 — Recap + crescita", h: "Resta con un piano", p: "Ricevi un recap scritto con i punti chiave su cui lavorare." },
+    { n: "01 · Prenota", h: "Scegli quando", p: "Seleziona data e orario dalla pagina coaching." },
+    { n: "02 · Sessione live", h: "60 minuti 1:1", p: "Gameplay review insieme + tattica applicata al tuo stile." },
+    { n: "03 · Recap + crescita", h: "Resta con un piano", p: "Ricevi un recap scritto con i punti chiave su cui lavorare." },
   ],
   trust: [
     { num: "300+", label: "Allievi dal 2020" },
@@ -129,8 +129,8 @@ export const coaching = {
     { num: "1:1", label: "Sessione privata" },
   ],
   testimonials: [
-    { quote: "Dopo 3 sessioni sono passato da Division 5 a Division 2. Il metodo di Fabio è concreto, niente teoria inutile.", author: "Luca R. — Milano" },
-    { quote: "Mi ha insegnato a leggere il mercato FUT come un pro. Ho triplicato i crediti in due settimane.", author: "Marco T. — Roma" },
+    { quote: "Dopo 3 sessioni sono passato da Division 5 a Division 2. Il metodo di Fabio è concreto, niente teoria inutile.", author: "Luca R., Milano" },
+    { quote: "Mi ha insegnato a leggere il mercato FUT come un pro. Ho triplicato i crediti in due settimane.", author: "Marco T., Roma" },
   ],
   cta: "Scopri il coaching",
   priceAnchor: "da €22,50 a sessione",
@@ -143,7 +143,7 @@ export const newsletter = {
     "Articoli quotidiani per imparare tattiche, gestire il mercato e restare aggiornato su ogni novità di EA Sports FC 26.",
   lead: "Iscriviti e ricevi subito: le 5 formazioni META della settimana",
   placeholder: "La tua email",
-  success: "Iscrizione confermata — controlla la tua inbox.",
+  success: "Iscrizione confermata: controlla la tua inbox.",
   tags: ["Tattiche META", "Mercato FUT", "News EA FC 26", "Guide settimanali"],
 };
 
@@ -177,7 +177,7 @@ export const finalCta = {
 /* ─────────────────────────────────────────── COACHING ── */
 export const coachingPage = {
   seo: {
-    title: "Coaching 1:1 — Fabio Denuzzo | EA FC 26",
+    title: "Coaching 1:1, Fabio Denuzzo | EA FC 26",
     description:
       "Sessioni di coaching 1:1 con Fabio Denuzzo, 2× Campione Italiano EA FC, ex pro player. Tattiche META, lettura del gioco, mentalità da pro. Da €22,50.",
     path: "/coaching",
@@ -232,9 +232,9 @@ export const coachingPage = {
     { h: "Piano personalizzato per salire", p: "Report con analisi errori, aree di miglioramento e piano d'azione dopo ogni sessione." },
   ],
   steps: [
-    { n: "01 — Prenota", h: "Scegli e paga", p: "Scegli il pacchetto e paga in sicurezza con Stripe." },
-    { n: "02 — Sessione live", h: "60 minuti 1:1", p: "Gameplay review + tattica in tempo reale." },
-    { n: "03 — Recap + crescita", h: "Resta con un piano", p: "Recap scritto con il piano per migliorare." },
+    { n: "01 · Prenota", h: "Scegli e paga", p: "Scegli il pacchetto e paga in sicurezza con Stripe." },
+    { n: "02 · Sessione live", h: "60 minuti 1:1", p: "Gameplay review + tattica in tempo reale." },
+    { n: "03 · Recap + crescita", h: "Resta con un piano", p: "Recap scritto con il piano per migliorare." },
   ],
   results: [
     { from: "Oro 3", to: "Elite 1", time: "In 1 mese · 4 sessioni", quote: "Da Oro 3 a Elite 1 in un mese. Fabio mi ha aperto gli occhi su errori che facevo da anni.", author: "Marco L." },
@@ -243,8 +243,8 @@ export const coachingPage = {
   ],
   faq: [
     { q: "Come si svolge una sessione?", a: "Call privata su Discord o WhatsApp. Giochiamo insieme, analizzo il gameplay in tempo reale. Alla fine ricevi un recap scritto." },
-    { q: "Serve un livello minimo?", a: "No. Alleno giocatori di ogni livello — il percorso viene personalizzato." },
-    { q: "Su quali piattaforme?", a: "PlayStation, Xbox e PC — tutte le piattaforme EA Sports FC 26." },
+    { q: "Serve un livello minimo?", a: "No. Alleno giocatori di ogni livello: il percorso viene personalizzato." },
+    { q: "Su quali piattaforme?", a: "PlayStation, Xbox e PC: tutte le piattaforme EA Sports FC 26." },
     { q: "Quanto tempo per i risultati?", a: "Miglioramenti dalla prima sessione. Con 4 ore, il salto di Division è praticamente garantito." },
     { q: "Come funziona il pagamento?", a: "Paghi con Stripe (carta). Dopo il pagamento ti contatto su WhatsApp per fissare la sessione." },
     { q: "Come prenoto la sessione?", a: "Dopo il pagamento ti contatto su WhatsApp entro 24h per fissare insieme data e orario della sessione." },
@@ -254,7 +254,7 @@ export const coachingPage = {
 /* ─────────────────────────────────────── NEWSLETTER ── */
 export const newsletterPage = {
   seo: {
-    title: "Newsletter FC — Fabio Denuzzo | EA FC 26",
+    title: "Newsletter FC, Fabio Denuzzo | EA FC 26",
     description:
       "Newsletter su EA FC 26: meta, tattiche, guide e analisi di Fabio Denuzzo, ex pro player Top 10 Mondiale. Gratis, zero spam.",
     path: "/newsletter",
@@ -289,7 +289,7 @@ export const newsletterPage = {
 /* ──────────────────────────────────────────── BLOG ── */
 export const blogPage = {
   seo: {
-    title: "Blog EA FC — Denuzzo Gaming",
+    title: "Blog EA FC, Denuzzo Gaming",
     description:
       "News, guide, analisi meta e consigli EA FC dal pro player Fabio Denuzzo. TOTS, SBC, formazioni, tattiche e coaching.",
     path: "/blog",
@@ -305,7 +305,7 @@ export const blogPage = {
 /* ───────────────────────────────────────── PRIVACY ── */
 export const privacyPage = {
   seo: {
-    title: "Privacy Policy — Denuzzo Gaming",
+    title: "Privacy Policy, Denuzzo Gaming",
     description: "Informativa sulla privacy e cookie policy di Denuzzo Gaming.",
     path: "/privacy",
   },
