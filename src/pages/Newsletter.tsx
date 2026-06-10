@@ -84,7 +84,7 @@ export default function Newsletter() {
         <section className="pt-[clamp(40px,6vh,64px)]">
           <div className={wrap}>
             <L to={`/newsletter/${latest.slug}`} className="card flex flex-col md:flex-row md:items-center gap-6 no-underline group">
-              <div className="flex-1">
+              <div className="flex-1 order-last md:order-first">
                 <div className="flex items-center gap-3 mb-3">
                   <span className="badge badge--red">🔥 {lang === "en" ? "Latest" : "Ultima uscita"}</span>
                   <span className="font-mono text-[11px] tracking-[.1em] uppercase text-gold">{lv.category}</span>
@@ -95,6 +95,16 @@ export default function Newsletter() {
                   <span>{lv.dateLabel}</span><span>·</span><span>{latest.readingTime}</span>
                 </div>
               </div>
+              {latest.heroImage && (
+                <div className="w-full md:w-[44%] shrink-0 aspect-video rounded-[12px] overflow-hidden border border-line-2 bg-card">
+                  <img
+                    src={latest.heroImage}
+                    alt={lv.heroAlt || lv.title}
+                    loading="lazy"
+                    className="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.06]"
+                  />
+                </div>
+              )}
             </L>
           </div>
         </section>
@@ -126,6 +136,16 @@ export default function Newsletter() {
               const av = articleView(a, lang);
               return (
               <L key={a.slug} to={`/newsletter/${a.slug}`} className="card flex flex-col no-underline group">
+                {a.heroImage && (
+                  <div className="mb-4 aspect-video rounded-[10px] overflow-hidden border border-line-2 bg-card">
+                    <img
+                      src={a.heroImage}
+                      alt={av.heroAlt || av.title}
+                      loading="lazy"
+                      className="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.06]"
+                    />
+                  </div>
+                )}
                 <div className="flex items-center justify-between mb-3">
                   <span className="font-mono text-[11px] tracking-[.1em] uppercase text-gold">{av.category}</span>
                   {a.badge && <span className="inline-flex items-center px-2.5 py-0.5 font-display text-[10px] font-bold tracking-[.1em] uppercase rounded-full bg-red text-white">{a.badge}</span>}
