@@ -126,7 +126,7 @@ function Porta({ p, i }: { p: (typeof PORTE)[number]; i: number }) {
           {inner}
         </div>
       ) : p.external ? (
-        <a href={p.to} className={className} style={style}>
+        <a href={lang === "en" && p.to === "/business/" ? "/business/en/" : p.to} className={className} style={style}>
           {inner}
         </a>
       ) : (

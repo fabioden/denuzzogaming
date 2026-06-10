@@ -26,7 +26,8 @@ const pages = [
   { path: "/coaching", cf: "weekly", pr: "0.8", bilingual: true },
   { path: "/newsletter", cf: "weekly", pr: "0.8", bilingual: true },
   { path: "/privacy", cf: "monthly", pr: "0.4", bilingual: true },
-  { path: "/business/", cf: "monthly", pr: "0.8", bilingual: false }, // statico, solo IT
+  { path: "/business/", cf: "monthly", pr: "0.8", bilingual: false }, // business IT
+  { path: "/business/en/", cf: "monthly", pr: "0.7", bilingual: false }, // business EN
   // /diabete NON in sitemap: non pubblico finché non è pronto (Fase 3)
 ];
 
