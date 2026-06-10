@@ -165,7 +165,7 @@ export default function Hub() {
   return (
     <div className="relative min-h-screen overflow-hidden bg-[#08080a]" style={{ color: INK }}>
       <Seo
-        title={lang === "en" ? "Fabio Denuzzo — Gaming, Business & Diabetes" : "Fabio Denuzzo — Gaming, Business & Diabete"}
+        title={lang === "en" ? "Fabio Denuzzo: Gaming, Business & Diabetes" : "Fabio Denuzzo: Gaming, Business & Diabete"}
         description={
           lang === "en"
             ? "Fabio Denuzzo's hub: EA FC coaching, AI solutions for business, and a free diabetes assistant. Choose where to go."

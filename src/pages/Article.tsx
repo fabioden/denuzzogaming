@@ -24,7 +24,7 @@ export default function Article() {
   return (
     <>
       <Seo
-        title={`${v.title} — Denuzzo Gaming`}
+        title={`${v.title} | Denuzzo Gaming`}
         description={v.description}
         path={`/newsletter/${article.slug}`}
         type="article"

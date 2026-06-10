@@ -15,8 +15,8 @@ export default function Home() {
       <Seo
         title={
           lang === "en"
-            ? "Fabio Denuzzo — EA FC 26 Coach | 2× Italian Champion & eWorld Cup"
-            : "Fabio Denuzzo — Coach EA FC 26 | 2× Campione Italiano & eWorld Cup"
+            ? "Fabio Denuzzo, EA FC 26 Coach | 2× Italian Champion & eWorld Cup"
+            : "Fabio Denuzzo, Coach EA FC 26 | 2× Campione Italiano & eWorld Cup"
         }
         description={
           lang === "en"
