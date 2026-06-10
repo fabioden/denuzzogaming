@@ -181,7 +181,7 @@ export const coachingPage = {
       price: "€22.50",
       features: ["60 minutes 1:1 live", "Personalized gameplay analysis", "Tailored tactical plan", "Written post-session recap"],
       cta: "Book now →",
-      stripe: "https://buy.stripe.com/cNi3cv997gx75QV16b4AU00",
+      stripe: "https://buy.stripe.com/dRm00jbhf4Opfrv3ej4AU05",
       popular: false,
     },
     {
@@ -191,7 +191,7 @@ export const coachingPage = {
       price: "€82.50",
       features: ["4 sessions of 60 minutes", "Complete personalized program", "WhatsApp support between sessions", "Detailed replay analysis", "Up-to-date META tactics"],
       cta: "Choose the program →",
-      stripe: "https://buy.stripe.com/00w6oHbhfft31AF3ej4AU01",
+      stripe: "https://buy.stripe.com/bJe7sL1GFgx77Z33ej4AU07",
       popular: true,
     },
     {
@@ -201,7 +201,7 @@ export const coachingPage = {
       price: "€150",
       features: ["8 sessions of 60 minutes", "Complete game transformation", "Ongoing mentoring via WhatsApp", "Priority booking access", "Personalized opponent analysis", "Pro-level competitive mindset"],
       cta: "Start the transformation →",
-      stripe: "https://buy.stripe.com/7sY7sL2KJ4Op0wBaGL4AU02",
+      stripe: "https://buy.stripe.com/14A28rbhf2Gh3INcOT4AU08",
       popular: false,
     },
   ],
