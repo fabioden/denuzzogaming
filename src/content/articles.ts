@@ -29,6 +29,155 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "path-to-glory-mondiale-upgrade-fc26",
+    title: "Path to Glory e il Mondiale: come salgono le carte e su chi puntare",
+    description:
+      "Il Mondiale 2026 parte oggi e in EA FC 26 accende gli upgrade Path to Glory: come funzionano (+1 OVR a turno), su chi puntare e quando comprare.",
+    category: "Guida",
+    date: "2026-06-11",
+    dateLabel: "11 Giugno 2026",
+    readingTime: "6 min",
+    badge: "GUIDA",
+    heroImage: "/img/articles/path-to-glory-mondiale-upgrade-fc26-hero.jpg",
+    heroAlt:
+      "Carta Path to Glory in stile EA FC con frecce di upgrade verdi e il trofeo del Mondiale: il viaggio verso la gloria",
+    excerpt:
+      "Il Mondiale parte oggi e accende gli upgrade Path to Glory: +1 OVR a ogni turno, fino a 3. Come funziona, su chi puntare e quando comprare.",
+    body: `Ci siamo: il **Mondiale 2026** (USA, Canada e Messico) parte **oggi**, e in Ultimate Team non è solo un evento da spettatore. È il momento in cui le carte **Path to Glory** iniziano a salire davvero: più la nazionale va avanti nel torneo vero, più la carta si potenzia. Ti spiego come funziona, su chi conviene puntare e gli errori da non fare.
+
+## Come funzionano gli upgrade Path to Glory
+
+Le carte **Path to Glory** (PTG) sono legate alle nazionali del Mondiale. Il meccanismo è semplice e bellissimo:
+
+- ogni volta che la nazionale del giocatore **supera un turno** nel Mondiale reale, la carta riceve un **upgrade di +1 overall**;
+- gli upgrade sono **fino a 3** in totale (es. una 96 può arrivare fino a 99);
+- si applicano **in automatico** alla carta che hai nel club, senza che tu faccia nulla.
+
+Tradotto: stai facendo trading non solo sulla carta, ma sul **percorso della nazionale nel torneo**. Se punti sul cavallo giusto, ti ritrovi in rosa una carta che cresce da sola partita dopo partita.
+
+> 💡 **Perché è speciale:** è uno dei pochi casi in cui il calcio vero e Ultimate Team viaggiano insieme. Ogni risultato del Mondiale muove le tue carte (e il mercato).
+
+![Una carta Path to Glory che sale di overall da 96 a 99 con la barra di avanzamento](/img/articles/path-to-glory-mondiale-upgrade-fc26-1.jpg)
+
+## Su chi puntare: il Team 1
+
+Il primo team Path to Glory è già in gioco. I nomi grossi:
+
+- **Vinícius Júnior** (Brasile), il Brasile è sempre tra i favoriti: tante chance di upgrade.
+- **Jamal Musiala** (Germania), nazionale solida, di solito arriva in fondo.
+- **Bukayo Saka** (Inghilterra), un'altra big che punta lontano.
+- **Christian Pulisic** (USA), padroni di casa: spinta del pubblico e girone abbordabile.
+- **Raúl Jiménez** (Messico), anche il Messico gioca in casa.
+- **James Rodríguez** (Colombia), il numero 10 colombiano, al debutto su FC 26.
+
+La logica è una: **più credi che la nazionale vada avanti, più upgrade incassi**. Le carte delle nazionali favorite (Brasile, Inghilterra, Germania) hanno il potenziale di arrivare al cap; gli outsider costano meno ma rischi che si fermino al girone.
+
+> ⚠️ **Sul mercato:** le carte PTG delle nazionali forti tendono a costare di più già adesso, perché tutti scommettono sull'upgrade. Se vuoi comprarle, **conviene farlo prima** che la nazionale vinca la prima partita: dopo i risultati il prezzo sale.
+
+![Tabellone del Mondiale fatto di carte Path to Glory che avanzano verso il trofeo](/img/articles/path-to-glory-mondiale-upgrade-fc26-2.jpg)
+
+## La strategia: rischio e ricompensa
+
+Due modi di giocartela:
+
+1. **Sicurezza:** punta su una nazionale top (Brasile, Francia, Inghilterra, Germania, Spagna). Paghi di più, ma le probabilità di 2-3 upgrade sono alte.
+2. **Scommessa:** prendi una carta di un outsider che secondo te può sorprendere. Costa poco; se la nazionale fa il colpo, l'upgrade ti regala una carta fortissima a prezzo basso.
+
+In entrambi i casi, **il momento per comprare è ora**, prima che il torneo entri nel vivo. Una carta che ha già incassato un upgrade costa di più di una ancora "a zero turni".
+
+> ✔ **Mossa intelligente:** se hai in rosa un giocatore PTG di una nazionale che gioca oggi o domani, tienilo: l'upgrade è gratis e automatico. Vendere proprio prima di una partita vinta è l'errore classico.
+
+## Domani arriva il Team 2
+
+E non è finita: il **Path to Glory Team 2 esce domani, 12 giugno**, con altri nomi pesanti (tra i leak: Bellingham, Wirtz, Musiala, Çalhanoğlu). Quindi prima di spendere tutto sul Team 1, valuta: tra 24 ore avrai altre opzioni, magari un giocatore di una nazionale che ti convince di più.
+
+## Riepilogo
+
+> **✓ DA FARE**
+> — Capire il meccanismo: +1 overall a ogni turno superato, fino a 3 upgrade, automatici
+> — Puntare su nazionali che credi vadano lontano (più upgrade)
+> — Comprare ORA, prima che i risultati facciano salire i prezzi
+> — Tenere le carte PTG di nazionali che giocano: l'upgrade è gratis
+>
+> **✕ DA EVITARE**
+> — Vendere una carta PTG proprio prima di una partita che la nazionale può vincere
+> — Spendere tutto sul Team 1 dimenticando che il Team 2 esce domani
+> — Pagare caro una carta che ha già preso gli upgrade
+> — Puntare su un outsider come fosse sicuro: è una scommessa, trattala come tale`,
+    en: {
+      title: "Path to Glory & the World Cup: How Cards Climb and Who to Back",
+      description:
+        "The 2026 World Cup kicks off today and lights up EA FC 26's Path to Glory upgrades: how they work (+1 OVR per round), who to back and when to buy.",
+      excerpt:
+        "The World Cup starts today and triggers Path to Glory upgrades: +1 OVR per round, up to 3. How it works, who to back and when to buy.",
+      category: "Guide",
+      dateLabel: "11 June 2026",
+      heroAlt:
+        "Path to Glory card in EA FC style with green upgrade arrows and the World Cup trophy: the road to glory",
+      body: `Here we go: the **2026 World Cup** (USA, Canada and Mexico) kicks off **today**, and in Ultimate Team it's not just a spectator event. This is when **Path to Glory** cards really start to climb: the further a nation goes in the real tournament, the more the card upgrades. Here's how it works, who's worth backing and the mistakes to avoid.
+
+## How Path to Glory Upgrades Work
+
+**Path to Glory** (PTG) cards are tied to the World Cup nations. The mechanic is simple and brilliant:
+
+- every time the player's nation **advances a round** in the real World Cup, the card gets a **+1 overall upgrade**;
+- there are **up to 3** upgrades in total (e.g. a 96 can climb all the way to 99);
+- they apply **automatically** to the card in your club, no input needed.
+
+Translated: you're trading not just the card, but the **nation's run in the tournament**. Back the right horse and you've got a card in your squad that grows on its own, match after match.
+
+> 💡 **Why it's special:** it's one of the few cases where real football and Ultimate Team move together. Every World Cup result shifts your cards (and the market).
+
+![A Path to Glory card climbing from 96 to 99 overall with a progress bar](/img/articles/path-to-glory-mondiale-upgrade-fc26-1.jpg)
+
+## Who to Back: Team 1
+
+The first Path to Glory team is already live. The big names:
+
+- **Vinícius Júnior** (Brazil), Brazil are always among the favourites: plenty of upgrade chances.
+- **Jamal Musiala** (Germany), a solid nation that usually goes deep.
+- **Bukayo Saka** (England), another big side aiming far.
+- **Christian Pulisic** (USA), hosts: home crowd and a manageable group.
+- **Raúl Jiménez** (Mexico), Mexico are at home too.
+- **James Rodríguez** (Colombia), Colombia's number 10, on his FC 26 debut.
+
+The logic is one: **the further you think the nation goes, the more upgrades you bank**. Cards from the favourites (Brazil, England, Germany) have the potential to hit the cap; outsiders are cheaper but you risk them bowing out in the group stage.
+
+> ⚠️ **On the market:** PTG cards from strong nations already cost more right now, because everyone's betting on the upgrade. If you want them, **buy before** the nation wins its first game: prices rise after results.
+
+![A World Cup bracket made of Path to Glory cards advancing toward the trophy](/img/articles/path-to-glory-mondiale-upgrade-fc26-2.jpg)
+
+## The Strategy: Risk and Reward
+
+Two ways to play it:
+
+1. **Safe:** back a top nation (Brazil, France, England, Germany, Spain). You pay more, but the odds of 2-3 upgrades are high.
+2. **Gamble:** grab a card from an outsider you think can surprise. It's cheap; if the nation pulls it off, the upgrade hands you a monster card at a low price.
+
+Either way, **the time to buy is now**, before the tournament heats up. A card that's already banked an upgrade costs more than one still on zero rounds.
+
+> ✔ **Smart move:** if you've got a PTG player from a nation playing today or tomorrow, hold them: the upgrade is free and automatic. Selling right before a win is the classic mistake.
+
+## Team 2 Lands Tomorrow
+
+And it's not over: **Path to Glory Team 2 drops tomorrow, June 12**, with more heavy names (leaks include Bellingham, Wirtz, Musiala, Çalhanoğlu). So before you spend everything on Team 1, think about it: in 24 hours you'll have more options, maybe a player from a nation you fancy more.
+
+## Summary
+
+> **✓ DO**
+> — Get the mechanic: +1 overall per round advanced, up to 3 upgrades, automatic
+> — Back nations you believe will go deep (more upgrades)
+> — Buy NOW, before results push prices up
+> — Hold PTG cards from nations that are playing: the upgrade is free
+>
+> **✕ DON'T**
+> — Sell a PTG card right before a game its nation can win
+> — Spend everything on Team 1 forgetting Team 2 drops tomorrow
+> — Overpay for a card that's already taken its upgrades
+> — Treat an outsider bet as a sure thing: it's a gamble, play it like one`,
+    },
+  },
+  {
     slug: "putellas-end-of-an-era-fc26",
     title: "Putellas End of an Era FC 26: la carta tributo 96, stats ufficiali",
     description:

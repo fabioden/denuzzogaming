@@ -61,6 +61,16 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://denuzzogaming.com/newsletter/path-to-glory-mondiale-upgrade-fc26</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://denuzzogaming.com/en/newsletter/path-to-glory-mondiale-upgrade-fc26</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://denuzzogaming.com/newsletter/putellas-end-of-an-era-fc26</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
