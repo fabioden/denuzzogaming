@@ -29,6 +29,143 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "putellas-end-of-an-era-fc26",
+    title: "Putellas End of an Era FC 26: la carta tributo 96, stats ufficiali",
+    description:
+      "FUT Sheriff ha leakato la SBC End of an Era di Alexia Putellas in EA FC 26: stats ufficiali 96 CM, cosa fa la carta e l'ondata di EOAE in arrivo.",
+    category: "SBC",
+    date: "2026-06-10",
+    dateLabel: "10 Giugno 2026",
+    readingTime: "5 min",
+    badge: "LEAK",
+    heroImage: "/img/articles/putellas-end-of-an-era-fc26-hero.jpg",
+    heroAlt:
+      "Carta End of an Era di Putellas in stile EA FC: una centrocampista che alza un trofeo tra schegge viola e luce dorata",
+    excerpt:
+      "Putellas End of an Era leakata: stats ufficiali 96 CM (96 DRI, 95 PAS, 89 DEF), 4 PlayStyle+, più tutta l'ondata di SBC EOAE in arrivo.",
+    body: `FUT Sheriff ha sganciato una delle carte più emozionanti di questo EA FC 26: la **Alexia Putellas End of an Era**, un tributo da 96 alla regista che ha appena chiuso la sua era al Barcellona. Le stat sono ufficiali, e sono da regista totale. Ti spiego cos'è, quanto è forte e cosa aspettarti dalla SBC.
+
+## Cos'è una carta End of an Era
+
+Le **End of an Era** (EOAE) sono carte speciali che celebrano un giocatore che chiude un capitolo importante: lascia il club dopo anni, oppure si avvicina alla fine della carriera. Di solito arrivano come **SBC** (le sfide creazione rosa) ed escono nella fase finale della stagione di Ultimate Team, quando EA omaggia le leggende. Sono carte da collezione, spesso non scambiabili, pensate più per il cuore (e per la rosa) che per il trading.
+
+## Putellas EOAE: le stat ufficiali
+
+![Carta End of an Era di Putellas in stile FUT: 96 a centrocampo con quattro PlayStyle+](/img/articles/putellas-end-of-an-era-fc26-1.jpg)
+
+FUT Sheriff l'ha mostrata con la dicitura **OFFICIAL STATS**. Ecco i numeri:
+
+- **96 OVR, centrocampista centrale (CM)**, Spagna, Liga F, Barcellona
+- **PAC 91 · SHO 95 · PAS 95 · DRI 96 · DEF 89 · PHY 88**
+- **4 PlayStyle+**
+
+È il profilo della **regista totale**: 96 di dribbling e 95 di passaggio per dettare il gioco, 95 al tiro per andare in gol da fuori, e una difesa da 89 che per un centrocampo è roba seria (recupera palloni e regge il pressing). Con 4 PlayStyle+ può fare la differenza in mezzo al campo in tutte le fasi.
+
+> 💡 **Perché è speciale:** un CM con dribbling 96, passaggio 95 e difesa 89 è un profilo completo, raro da trovare in un'unica carta. Per chi gioca con la costruzione dal basso e il possesso, è oro.
+
+## Una carta che è un addio
+
+Il senso dell'End of an Era qui è forte: **Putellas ha lasciato il Barcellona dopo 14 stagioni**, da due volte Pallone d'Oro e simbolo del calcio femminile moderno. La carta tributo arriva proprio per chiudere quel capitolo blaugrana. È uno di quei contenuti che vanno oltre il rating: chi segue il calcio femminile, o chi vuole una leggenda in rosa, qui ha pane per i suoi denti.
+
+## Non è sola: l'ondata End of an Era
+
+![Schermata SBC in stile Ultimate Team con una squadra di carte End of an Era](/img/articles/putellas-end-of-an-era-fc26-2.jpg)
+
+La Putellas non è un caso isolato. In questa fase sono leakate diverse **EOAE** in arrivo come SBC, tra cui nomi grossi: **Salah** (la più alta, intorno al 95), **Bernardo Silva**, **John Stones**, **Griezmann**, **Robertson**, **Goretzka**, e un altro tributo blaugrana, **Jordi Alba**. Tradotto: siamo nella stagione degli addii, e nelle prossime settimane di SBC ne vedremo parecchie.
+
+> ⚠️ **Sul mercato:** le ondate di SBC EOAE bruciano tanto **fodder** (le carte da scambio per completare le sfide). Se prevedi di farne più di una, tieni d'occhio i prezzi degli 84-88: tendono a salire quando escono SBC pesanti una dietro l'altra.
+
+## Quanto costa e conviene farla?
+
+Qui serve onestà: **requisiti e costo della SBC non sono ancora stati svelati**. Appena escono aggiorniamo. In generale, le End of an Era sono SBC da collezione, non scambiabili, da valutare su due cose:
+
+1. **ti serve per la rosa?** Un CM da 96 con questo profilo è utilissimo in mezzo al campo;
+2. **la vuoi per il valore affettivo o da collezione?** Per i fan è un pezzo da tenere.
+
+Se la SBC sarà cara (tante rose), valuta se quel CM ti cambia davvero la squadra rispetto ad alternative più economiche sul mercato.
+
+> ✔ **Da tenere d'occhio:** appena EA pubblica la SBC, controlla il costo in coins, la scadenza e se è ripetibile. Le EOAE di solito sono uno-e-via.
+
+## Riepilogo
+
+> **✓ DA FARE**
+> — Segnarti le stat: 96 CM, PAC 91 / SHO 95 / PAS 95 / DRI 96 / DEF 89 / PHY 88, 4 PlayStyle+
+> — Valutarla come regista totale per la costruzione dal basso e il possesso
+> — Tenere da parte fodder 84-88: in questa fase escono tante SBC EOAE
+> — Aspettare i requisiti ufficiali prima di decidere
+>
+> **✕ DA EVITARE**
+> — Dare per certi costo e requisiti: non sono ancora usciti (è un leak sulle stat)
+> — Bruciare tutto il fodder sulla prima EOAE se ne vuoi fare altre
+> — Farla solo per l'hype se non ti serve un CM e non sei un collezionista`,
+    en: {
+      title: "Putellas End of an Era FC 26: the 96 Tribute Card, Official Stats",
+      description:
+        "FUT Sheriff leaked Alexia Putellas' End of an Era SBC in EA FC 26: official 96 CM stats, what the card does and the wider EOAE wave to come.",
+      excerpt:
+        "Putellas End of an Era leaked: official 96 CM stats (96 DRI, 95 PAS, 89 DEF), 4 PlayStyle+, plus the whole EOAE SBC wave coming next.",
+      category: "SBC",
+      dateLabel: "10 June 2026",
+      heroAlt:
+        "Putellas End of an Era card in EA FC style: a midfielder lifting a trophy among purple shards and golden light",
+      body: `FUT Sheriff has dropped one of the most emotional cards of this EA FC 26: the **Alexia Putellas End of an Era**, a 96-rated tribute to the playmaker who's just closed her era at Barcelona. The stats are official, and they're pure midfield general. Here's what it is, how strong it is and what to expect from the SBC.
+
+## What an End of an Era Card Is
+
+**End of an Era** (EOAE) cards celebrate a player closing an important chapter: leaving a club after years, or nearing the end of their career. They usually arrive as **SBCs** (Squad Building Challenges) in the final stretch of the Ultimate Team season, when EA pays tribute to the legends. They're collector cards, often untradeable, built more for the heart (and your squad) than for trading.
+
+## Putellas EOAE: the Official Stats
+
+![Putellas End of an Era card in FUT style: a 96-rated central midfielder with four PlayStyle+](/img/articles/putellas-end-of-an-era-fc26-1.jpg)
+
+FUT Sheriff showed it off with the **OFFICIAL STATS** tag. Here are the numbers:
+
+- **96 OVR, central midfielder (CM)**, Spain, Liga F, Barcelona
+- **PAC 91 · SHO 95 · PAS 95 · DRI 96 · DEF 89 · PHY 88**
+- **4 PlayStyle+**
+
+This is the **complete midfield general**: 96 dribbling and 95 passing to dictate the game, 95 shooting to score from range, and an 89 defending that's genuinely serious for a midfielder (wins the ball, holds up under pressure). With 4 PlayStyle+ she can swing the midfield in every phase.
+
+> 💡 **Why it's special:** a CM with 96 dribbling, 95 passing and 89 defending is a complete profile, rare to find on a single card. If you play possession football and build from the back, this is gold.
+
+## A Card That's a Goodbye
+
+The End of an Era meaning hits hard here: **Putellas left Barcelona after 14 seasons**, a two-time Ballon d'Or winner and a symbol of the modern women's game. The tribute card lands exactly to close that Blaugrana chapter. It's the kind of content that goes beyond the rating: if you follow the women's game, or want a legend in your squad, this one's for you.
+
+## She's Not Alone: the End of an Era Wave
+
+![Ultimate Team style SBC screen with a full squad of End of an Era cards](/img/articles/putellas-end-of-an-era-fc26-2.jpg)
+
+Putellas isn't a one-off. Several **EOAE** cards have leaked as upcoming SBCs, including big names: **Salah** (the highest, around 95), **Bernardo Silva**, **John Stones**, **Griezmann**, **Robertson**, **Goretzka**, and another Blaugrana tribute, **Jordi Alba**. Translated: we're in goodbye season, and the next few weeks of SBCs will be packed with them.
+
+> ⚠️ **On the market:** EOAE SBC waves burn a lot of **fodder** (the cards you use to complete challenges). If you plan to do more than one, keep an eye on 84-88 prices: they tend to rise when heavy SBCs drop back to back.
+
+## How Much Does It Cost & Is It Worth It?
+
+Time for honesty: the **SBC requirements and cost haven't been revealed yet**. We'll update as soon as they're out. In general, End of an Era cards are collector SBCs, untradeable, worth weighing on two things:
+
+1. **do you need it for your squad?** A 96 CM with this profile is hugely useful in midfield;
+2. **do you want it for the sentiment or the collection?** For fans it's a keeper.
+
+If the SBC turns out expensive (lots of squads), think about whether that CM really changes your team versus cheaper alternatives on the market.
+
+> ✔ **Keep an eye out:** as soon as EA posts the SBC, check the coin cost, the expiry and whether it's repeatable. EOAE cards are usually one-and-done.
+
+## Summary
+
+> **✓ DO**
+> — Note the stats: 96 CM, PAC 91 / SHO 95 / PAS 95 / DRI 96 / DEF 89 / PHY 88, 4 PlayStyle+
+> — Consider her as a complete playmaker for possession and build-up
+> — Save 84-88 fodder: lots of EOAE SBCs are dropping in this window
+> — Wait for the official requirements before deciding
+>
+> **✕ DON'T**
+> — Treat the cost and requirements as confirmed: they're not out yet (this is a stats leak)
+> — Burn all your fodder on the first EOAE if you want to do others
+> — Do it just for the hype if you don't need a CM and aren't a collector`,
+    },
+  },
+  {
     slug: "evo-gettoni-week1-fc26",
     title: "EA FC 26: i nuovi EVO da fare e l'ultimo giorno per i gettoni",
     description:
