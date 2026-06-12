@@ -29,6 +29,123 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "path-to-glory-team-2-rosa-fc26",
+    title: "Path to Glory Team 2: la rosa completa svelata e su chi puntare",
+    description:
+      "Il Path to Glory Team 2 di EA FC 26 esce oggi: la rosa completa leakata (Bellingham, Wirtz e altri), come funzionano gli upgrade col Mondiale e su chi puntare.",
+    category: "News",
+    date: "2026-06-12",
+    dateLabel: "12 Giugno 2026",
+    readingTime: "6 min",
+    badge: "LEAK",
+    heroImage: "/img/articles/path-to-glory-team-2-rosa-fc26-hero.jpg",
+    heroAlt:
+      "Reveal Path to Glory Team 2 in stile EA FC: carte verde-oro davanti al tabellone del Mondiale",
+    excerpt:
+      "Il Path to Glory Team 2 esce oggi: la rosa completa guidata da Bellingham e Wirtz, come funzionano gli upgrade e quali carte puntare.",
+    body: `Ci siamo: il **Path to Glory Team 2** esce **oggi alle 18:00**, e la rosa completa è già stata svelata dai leak. Tra i nomi ci sono pezzi da novanta come **Bellingham** e **Wirtz**, e come il Team 1 sono carte che si potenziano col cammino delle nazionali al Mondiale. Ti faccio il punto: chi c'è, chi spicca e su chi conviene puntare.
+
+## Quando esce e come funziona
+
+Il Team 2 arriva **oggi, 12 giugno, alle 18:00** (ora italiana) e resta in pacchetti per una settimana, fino al 19 giugno. Come il Team 1, sono **carte Path to Glory dinamiche**: ricevono un **upgrade di +1 overall ogni volta che la nazionale supera un turno** al Mondiale, fino a 3 upgrade, in automatico. Quindi anche qui non scegli solo la carta, scommetti sul percorso della sua nazionale.
+
+## La rosa completa: i nomi che contano
+
+![La rosa completa del Path to Glory Team 2 svelata dai leak, con le valutazioni](/img/articles/path-to-glory-team-2-rosa-fc26-1.jpg)
+
+In cima alla lista, i due nomi più pesanti: **Jude Bellingham** (Inghilterra) e **Florian Wirtz** (Germania), le carte da copertina con il potenziale di upgrade più alto, perché le loro nazionali sono tra le favorite. Subito dietro un gruppone da 96-95:
+
+- **Iñaki Williams** (Ghana), **Alexander Isak** (Svezia), **Jules Koundé** (Francia)
+- **Joško Gvardiol** (Croazia), **Lee Kang-in** (Corea del Sud), **Hakan Çalhanoğlu** (Turchia)
+- **Marquinhos** (Brasile), **Granit Xhaka** (Svizzera)
+
+E ancora tanta sostanza più in basso: **Takefusa Kubo** (Giappone), **Aymeric Laporte** (Spagna), **Franck Kessié** (Costa d'Avorio), **Edin Džeko** (Bosnia), **Dodi Lukébakio** (Belgio), **André Ayew** (Ghana), **Kerem Aktürkoğlu** (Turchia) e altri ancora, per una rosa di oltre 30 carte.
+
+> 💡 **Perché è speciale:** un Team 2 così pieno di titolari di nazionali grosse è perfetto per il meccanismo upgrade: tante carte possono crescere per settimane insieme al Mondiale.
+
+## Su chi puntare
+
+![Carta Path to Glory davanti al tabellone del Mondiale e alle bandiere delle favorite](/img/articles/path-to-glory-team-2-rosa-fc26-2.jpg)
+
+La regola è sempre quella: **più credi che la nazionale vada avanti, più upgrade incassi**. In quest'ottica:
+
+- **Scommesse "sicure":** Bellingham (Inghilterra) e Wirtz (Germania), nazionali da fase finale, più Koundé (Francia), Marquinhos (Brasile) e Laporte (Spagna), tutte tra le favorite del torneo. Carte care, ma con alte chance di arrivare al cap.
+- **Outsider interessanti:** Iñaki Williams e Ayew (Ghana), Isak (Svezia), Kubo (Giappone), Çalhanoğlu e Aktürkoğlu (Turchia). Costano meno; se la nazionale fa il colpo, l'upgrade ti regala una carta fortissima a poco.
+
+Come sempre, **se vuoi comprarle conviene farlo presto**, prima che i risultati del Mondiale facciano salire i prezzi delle carte "giuste".
+
+> ⚠️ **Sul mercato:** all'uscita di un nuovo team il mercato si muove tanto. Le carte dei favoriti tendono a costare di più già da subito; gli outsider sono l'affare se hai fiducia nel loro Mondiale.
+
+## Riepilogo
+
+> **✓ DA FARE**
+> — Segnarti l'orario: Team 2 in pacchetti oggi alle 18:00, per una settimana
+> — Puntare su titolari di nazionali che credi vadano lontano (più upgrade)
+> — Comprare presto le carte che ti interessano, prima che i risultati alzino i prezzi
+> — Valutare un outsider (Ghana, Giappone, Turchia) come scommessa a basso costo
+>
+> **✕ DA EVITARE**
+> — Pagare caro un big senza considerare il sorteggio e il livello della nazionale
+> — Buttarti su tutto il Team 2: scegli 1-2 carte e segui il loro Mondiale
+> — Aspettare troppo: dopo le prime vittorie le carte giuste si impennano`,
+    en: {
+      title: "Path to Glory Team 2: The Full Squad Revealed & Who to Back",
+      description:
+        "EA FC 26 Path to Glory Team 2 drops today: the full leaked squad (Bellingham, Wirtz & more), how the World Cup upgrades work and who to back.",
+      excerpt:
+        "PTG Team 2 is out today: the full leaked squad led by Bellingham and Wirtz, how upgrades work and which cards to target.",
+      category: "News",
+      dateLabel: "12 June 2026",
+      heroAlt:
+        "Path to Glory Team 2 reveal in EA FC style: green-and-gold cards in front of the World Cup bracket",
+      body: `Here we go: **Path to Glory Team 2** drops **today at 6 PM (UK)**, and the full squad has already been revealed by the leaks. Among the names are heavyweights like **Bellingham** and **Wirtz**, and like Team 1 these are cards that upgrade as their nations progress at the World Cup. Here's the rundown: who's in, who stands out and who's worth backing.
+
+## When It Drops and How It Works
+
+Team 2 arrives **today, June 12, at 6 PM UK time** and stays in packs for a week, until June 19. Like Team 1, these are **dynamic Path to Glory cards**: they get a **+1 overall upgrade every time the nation advances a round** at the World Cup, up to 3 upgrades, automatically. So again, you're not just picking the card, you're betting on its nation's run.
+
+## The Full Squad: the Names That Matter
+
+![The full Path to Glory Team 2 squad revealed by the leaks, with ratings](/img/articles/path-to-glory-team-2-rosa-fc26-1.jpg)
+
+At the top of the list, the two biggest names: **Jude Bellingham** (England) and **Florian Wirtz** (Germany), the cover cards with the highest upgrade potential because their nations are among the favourites. Right behind them a stacked 96-95 group:
+
+- **Iñaki Williams** (Ghana), **Alexander Isak** (Sweden), **Jules Koundé** (France)
+- **Joško Gvardiol** (Croatia), **Lee Kang-in** (South Korea), **Hakan Çalhanoğlu** (Turkey)
+- **Marquinhos** (Brazil), **Granit Xhaka** (Switzerland)
+
+And plenty more lower down: **Takefusa Kubo** (Japan), **Aymeric Laporte** (Spain), **Franck Kessié** (Ivory Coast), **Edin Džeko** (Bosnia), **Dodi Lukébakio** (Belgium), **André Ayew** (Ghana), **Kerem Aktürkoğlu** (Turkey) and others, for a squad of over 30 cards.
+
+> 💡 **Why it's special:** a Team 2 this full of starters from big nations is perfect for the upgrade mechanic: plenty of cards can keep growing for weeks alongside the World Cup.
+
+## Who to Back
+
+![A Path to Glory card in front of the World Cup bracket and the favourites' flags](/img/articles/path-to-glory-team-2-rosa-fc26-2.jpg)
+
+The rule is always the same: **the further you think the nation goes, the more upgrades you bank**. With that in mind:
+
+- **"Safe" bets:** Bellingham (England) and Wirtz (Germany), deep-run nations, plus Koundé (France), Marquinhos (Brazil) and Laporte (Spain), all among the tournament favourites. Pricey cards, but with a high chance of hitting the cap.
+- **Interesting outsiders:** Iñaki Williams and Ayew (Ghana), Isak (Sweden), Kubo (Japan), Çalhanoğlu and Aktürkoğlu (Turkey). Cheaper; if the nation pulls off a run, the upgrade hands you a monster card on the cheap.
+
+As always, **if you want them, buy early**, before the World Cup results push up the prices of the "right" cards.
+
+> ⚠️ **On the market:** a new team launch moves the market a lot. Favourites' cards already cost more from the start; outsiders are the bargain if you trust their World Cup run.
+
+## Summary
+
+> **✓ DO**
+> — Note the time: Team 2 in packs today at 6 PM UK, for one week
+> — Back starters from nations you believe will go deep (more upgrades)
+> — Buy the cards you want early, before results push prices up
+> — Consider an outsider (Ghana, Japan, Turkey) as a low-cost gamble
+>
+> **✕ DON'T**
+> — Overpay for a star without weighing the draw and the nation's level
+> — Spread across the whole Team 2: pick 1-2 cards and follow their World Cup
+> — Wait too long: after the first wins the right cards spike`,
+    },
+  },
+  {
     slug: "path-to-glory-mondiale-upgrade-fc26",
     title: "Path to Glory e il Mondiale: come salgono le carte e su chi puntare",
     description:
