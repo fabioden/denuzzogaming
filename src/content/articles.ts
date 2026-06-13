@@ -40,7 +40,7 @@ export const articles: Article[] = [
     badge: "GUIDA",
     heroImage: "/img/articles/al-owairan-come-sbloccare-fc26-hero.jpg",
     heroAlt:
-      "Schermata obiettivi Asia/Oceania di EA FC 26 con il premio Al Owairan 95 COC",
+      "Carta Al Owairan 95 COC del Festival of Football tra le bandiere delle nazioni Asia/Oceania",
     excerpt:
       "Sblocca Al Owairan 95 COC, 50K e 100 gettoni in sole 12 partite: due rose pronte e cosa fare in ogni match, passo-passo.",
     body: `Gli obiettivi "Il viaggio delle nazioni Asia/Oceania" regalano un bottino niente male: la carta **Al Owairan 95 COC** (non scambiabile), **50.000 crediti**, **100 gettoni** e in più giocatori, EVO e pacchetti. Sembrano tanti requisiti, ma con le due rose giuste li chiudi tutti in **12 partite**. Ti spiego passo-passo cosa fare.
@@ -51,6 +51,8 @@ export const articles: Article[] = [
 - **50.000 crediti**
 - **100 gettoni**
 - vari **giocatori, EVO e pacchetti** dai singoli gruppi
+
+![Schermata obiettivi Asia/Oceania con il premio Al Owairan 95 COC](/img/articles/al-owairan-come-sbloccare-fc26-1.jpg)
 
 ## Le regole d'oro (per fare prima)
 
@@ -77,6 +79,8 @@ Costruisci questo **XI** (tutti Asia/Oceania):
 - 🇳🇿 **1 neozelandese**
 - 🇶🇦 **1 uzbeko o qatariota**
 - 🇸🇦 **1 saudita**
+
+![L'XI misto Asia/Oceania in 4-4-1-1 per le 6 partite "qualsiasi modalità"](/img/articles/al-owairan-come-sbloccare-fc26-2.jpg)
 
 > ⚠️ **Importante:** il tuo **COC (trequartista) dev'essere un giocatore Asia/Oceania**, e **almeno un giocatore deve avere 94 di velocità**.
 
@@ -121,7 +125,7 @@ Costruisci questo **XI** (tutti Asia/Oceania):
       category: "Guide",
       dateLabel: "13 June 2026",
       heroAlt:
-        "EA FC 26 Asia/Oceania objectives screen with the Al Owairan 95 CAM reward",
+        "Al Owairan 95 CAM Festival of Football card among the Asia/Oceania nations' flags",
       body: `The "Asia/Oceania Nations Journey" objectives hand out a tasty haul: the **Al Owairan 95 CAM** card (untradeable), **50,000 coins**, **100 tokens** plus players, EVOs and packs. It looks like a lot of requirements, but with the right two squads you clear them all in **12 games**. Here's the step-by-step.
 
 ## What You Unlock
@@ -130,6 +134,8 @@ Costruisci questo **XI** (tutti Asia/Oceania):
 - **50,000 coins**
 - **100 tokens**
 - various **players, EVOs and packs** from the individual groups
+
+![Asia/Oceania objectives screen with the Al Owairan 95 CAM reward](/img/articles/al-owairan-come-sbloccare-fc26-1.jpg)
 
 ## Golden Rules (to go faster)
 
@@ -156,6 +162,8 @@ Build this **XI** (all Asia/Oceania):
 - 🇳🇿 **1 New Zealander**
 - 🇶🇦 **1 Uzbek or Qatari**
 - 🇸🇦 **1 Saudi**
+
+![The mixed Asia/Oceania XI in a 4-4-1-1 for the 6 "any mode" games](/img/articles/al-owairan-come-sbloccare-fc26-2.jpg)
 
 > ⚠️ **Important:** your **CAM must be an Asia/Oceania player**, and **at least one player must have 94 Pace**.
 
