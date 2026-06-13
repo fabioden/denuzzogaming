@@ -29,6 +29,171 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "al-owairan-come-sbloccare-fc26",
+    title: "Al Owairan 95 gratis: come sbloccarlo in 12 partite (Asia/Oceania)",
+    description:
+      "Guida semplice agli obiettivi Asia/Oceania di EA FC 26: sblocca Al Owairan 95 COC, 50K e 100 gettoni in sole 12 partite con due rose pronte.",
+    category: "Guida",
+    date: "2026-06-13",
+    dateLabel: "13 Giugno 2026",
+    readingTime: "6 min",
+    badge: "GUIDA",
+    heroImage: "/img/articles/al-owairan-come-sbloccare-fc26-hero.jpg",
+    heroAlt:
+      "Schermata obiettivi Asia/Oceania di EA FC 26 con il premio Al Owairan 95 COC",
+    excerpt:
+      "Sblocca Al Owairan 95 COC, 50K e 100 gettoni in sole 12 partite: due rose pronte e cosa fare in ogni match, passo-passo.",
+    body: `Gli obiettivi "Il viaggio delle nazioni Asia/Oceania" regalano un bottino niente male: la carta **Al Owairan 95 COC** (non scambiabile), **50.000 crediti**, **100 gettoni** e in più giocatori, EVO e pacchetti. Sembrano tanti requisiti, ma con le due rose giuste li chiudi tutti in **12 partite**. Ti spiego passo-passo cosa fare.
+
+## Cosa sblocchi
+
+- **Al Owairan 95 COC** (non scambiabile): **PAC 99 · SHO 93 · PAS 93 · DRI 93 · DEF 50 · PHY 93**. Un trequartista fulmine, perfetto per attaccare gli spazi.
+- **50.000 crediti**
+- **100 gettoni**
+- vari **giocatori, EVO e pacchetti** dai singoli gruppi
+
+## Le regole d'oro (per fare prima)
+
+- Gioca a **difficoltà bassa**: vinci tranquillo e decidi tu chi segna e chi fa assist.
+- Le azioni speciali (pallonetto, tiro a giro, powershot, cross, rasoterra potente, assist in profondità) falle con calma contro l'IA.
+- Tieni in campo **solo giocatori Asia/Oceania**: così i gruppi "Asia/Oceania" e "Uzbekistan/Qatar" si completano da soli.
+
+## Parte 1 — 6 partite ai Live Events (rosa giapponese)
+
+Schiera **6 giocatori giapponesi** titolari. Poi, nelle **6 partite**:
+
+- fai **2 assist in ognuna** delle 6 (con i giapponesi),
+- **vinci almeno 3** delle 6,
+- in una partita segna un **goal di pallonetto** (chip).
+
+Con questo chiudi il blocco Giappone e i requisiti "6 giapponesi / 2 assist con oggetto giapponese / vinci 3" del gruppo Asia/Oceania.
+
+## Parte 2 — 6 partite in qualsiasi modalità (l'XI misto)
+
+Costruisci questo **XI** (tutti Asia/Oceania):
+
+- 🇦🇺 **Tim Cahill + 3 australiani** (4 australiani in totale)
+- 🇰🇷 **4 coreani**
+- 🇳🇿 **1 neozelandese**
+- 🇶🇦 **1 uzbeko o qatariota**
+- 🇸🇦 **1 saudita**
+
+> ⚠️ **Importante:** il tuo **COC (trequartista) dev'essere un giocatore Asia/Oceania**, e **almeno un giocatore deve avere 94 di velocità**.
+
+**Partite 1-3:**
+- 3 **goal di tiro a giro** con coreani (uno a partita, in 3 partite diverse),
+- **3 assist in una sola partita** (uno dei tre **su cross**),
+- **2 goal con il neozelandese**,
+- **5 assist con gli australiani** (spalmati sulle partite),
+- 1 **goal rasoterra potente** (low driven).
+
+**Partite 4-5:**
+- vincile per chiudere **Tim Cahill** (5 vittorie da titolare, più la **volée**), il **goal in powershot** con un saudita e l'**assist in profondità** (through ball).
+
+**Partita 6:**
+- metti dentro **3 sauditi in più** (così ne hai **4 totali**, uno con **94 di velocità**),
+- **segna con il giocatore da 94 di velocità** e **vinci**.
+
+## Checklist finale
+
+> ✔ **6 partite Live Events** con 6 giapponesi: 2 assist a partita, 3 vittorie, 1 pallonetto
+> ✔ **6 partite con l'XI misto:** tiri a giro coreani, 2 goal Nuova Zelanda, 5 assist australiani, 3 assist in 1 game (uno su cross), rasoterra potente, Tim Cahill (5 vittorie + volée), powershot e through ball sauditi, partita finale con 4 sauditi e goal del 94-pace
+> ✔ **Tutti Asia/Oceania** → gruppi Asia/Oceania e Uzbekistan/Qatar completati da soli
+
+## Riepilogo
+
+> **✓ DA FARE**
+> — Prepara due rose: 6 giapponesi per i Live Events, poi l'XI misto
+> — Gioca a difficoltà bassa per controllare goal e assist
+> — Tieni sempre 11 giocatori Asia/Oceania in campo
+> — Nell'XI misto: un COC Asia/Oceania e un giocatore con 94 di velocità
+>
+> **✕ DA EVITARE**
+> — Cambiare nazioni a caso: rispetta le due rose e fai meno partite
+> — Scordare le azioni speciali (pallonetto, tiro a giro, powershot, cross, through ball): falle apposta
+> — Inserire giocatori non Asia/Oceania: rallentano i gruppi continentali`,
+    en: {
+      title: "Al Owairan 95 for Free: How to Unlock Him in 12 Games (Asia/Oceania)",
+      description:
+        "Simple EA FC 26 Asia/Oceania objectives guide: unlock Al Owairan 95 CAM, 50K and 100 tokens in just 12 games with two ready-made squads.",
+      excerpt:
+        "Unlock Al Owairan 95 CAM, 50K and 100 tokens in just 12 games: two ready squads and what to do in every match, step by step.",
+      category: "Guide",
+      dateLabel: "13 June 2026",
+      heroAlt:
+        "EA FC 26 Asia/Oceania objectives screen with the Al Owairan 95 CAM reward",
+      body: `The "Asia/Oceania Nations Journey" objectives hand out a tasty haul: the **Al Owairan 95 CAM** card (untradeable), **50,000 coins**, **100 tokens** plus players, EVOs and packs. It looks like a lot of requirements, but with the right two squads you clear them all in **12 games**. Here's the step-by-step.
+
+## What You Unlock
+
+- **Al Owairan 95 CAM** (untradeable): **PAC 99 · SHO 93 · PAS 93 · DRI 93 · DEF 50 · PHY 93**. A lightning-fast playmaker, perfect for attacking the space.
+- **50,000 coins**
+- **100 tokens**
+- various **players, EVOs and packs** from the individual groups
+
+## Golden Rules (to go faster)
+
+- Play on **low difficulty**: win comfortably and decide who scores and who assists.
+- Do the special actions (chip, finesse, power shot, cross, low driven, through ball) calmly against the AI.
+- Field **only Asia/Oceania players**: that way the "Asia/Oceania" and "Uzbekistan/Qatar" groups complete themselves.
+
+## Part 1 — 6 Live Events games (Japanese squad)
+
+Start **6 Japanese players**. Then, across the **6 games**:
+
+- get **2 assists in each** of the 6 (with Japanese players),
+- **win at least 3** of the 6,
+- in one game score a **chip goal**.
+
+This clears the Japan block and the "6 Japanese / 2 assists with a Japanese item / win 3" requirements of the Asia/Oceania group.
+
+## Part 2 — 6 games in any mode (the mixed XI)
+
+Build this **XI** (all Asia/Oceania):
+
+- 🇦🇺 **Tim Cahill + 3 Australians** (4 Australians total)
+- 🇰🇷 **4 Koreans**
+- 🇳🇿 **1 New Zealander**
+- 🇶🇦 **1 Uzbek or Qatari**
+- 🇸🇦 **1 Saudi**
+
+> ⚠️ **Important:** your **CAM must be an Asia/Oceania player**, and **at least one player must have 94 Pace**.
+
+**Games 1-3:**
+- 3 **finesse goals** with Koreans (one per game, in 3 different games),
+- **3 assists in a single game** (one of them a **cross**),
+- **2 goals with the New Zealander**,
+- **5 assists with Australians** (spread across games),
+- 1 **low driven goal**.
+
+**Games 4-5:**
+- win them to finish **Tim Cahill** (5 wins as a starter, plus the **volley**), the **power shot goal** with a Saudi and the **through ball assist**.
+
+**Game 6:**
+- swap in **3 more Saudis** (so you have **4 total**, one with **94 Pace**),
+- **score with the 94-Pace player** and **win**.
+
+## Final Checklist
+
+> ✔ **6 Live Events games** with 6 Japanese: 2 assists per game, 3 wins, 1 chip
+> ✔ **6 games with the mixed XI:** Korean finesse goals, 2 New Zealand goals, 5 Australian assists, 3 assists in 1 game (one a cross), low driven, Tim Cahill (5 wins + volley), Saudi power shot and through ball, final game with 4 Saudis and a 94-Pace goal
+> ✔ **All Asia/Oceania** → the Asia/Oceania and Uzbekistan/Qatar groups complete themselves
+
+## Summary
+
+> **✓ DO**
+> — Prep two squads: 6 Japanese for Live Events, then the mixed XI
+> — Play on low difficulty to control goals and assists
+> — Always keep 11 Asia/Oceania players on the pitch
+> — In the mixed XI: an Asia/Oceania CAM and a 94-Pace player
+>
+> **✕ DON'T**
+> — Swap nations randomly: stick to the two squads and play fewer games
+> — Forget the special actions (chip, finesse, power shot, cross, through ball): do them on purpose
+> — Field non-Asia/Oceania players: they slow down the continental groups`,
+    },
+  },
+  {
     slug: "path-to-glory-team-2-rosa-fc26",
     title: "Path to Glory Team 2: la rosa completa svelata e su chi puntare",
     description:
