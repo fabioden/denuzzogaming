@@ -29,6 +29,119 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "pedro-neto-path-to-glory-sbc-fc26",
+    title: "Pedro Neto Path to Glory: la SBC da 95 RW, stats ufficiali",
+    description:
+      "FUT Sheriff ha leakato la SBC Path to Glory di Pedro Neto in EA FC 26: stats ufficiali 95 RW (97 di velocità), come gioca e cosa sapere sulla sfida.",
+    category: "SBC",
+    date: "2026-06-13",
+    dateLabel: "13 Giugno 2026",
+    readingTime: "4 min",
+    badge: "LEAK",
+    heroImage: "/img/articles/pedro-neto-path-to-glory-sbc-fc26-hero.jpg",
+    heroAlt:
+      "Carta Path to Glory di Pedro Neto 95 RW in stile EA FC, con il trofeo del Mondiale sullo sfondo",
+    excerpt:
+      "Pedro Neto Path to Glory leakata: 95 RW con 97 di velocità e 3 PlayStyle+, una SBC che cresce col Mondiale del Portogallo. Ecco com'è.",
+    body: `FUT Sheriff ha leakato una **SBC Path to Glory** ghiotta: **Pedro Neto** in versione **95 RW**. È un'ala da 97 di velocità che, come tutte le Path to Glory, può salire ancora col cammino del Portogallo al Mondiale. Ecco le stat ufficiali, com'è da giocare e cosa sapere sulla sfida.
+
+## Le stat ufficiali
+
+![Carta Path to Glory di Pedro Neto 95 RW con il blocco statistiche](/img/articles/pedro-neto-path-to-glory-sbc-fc26-1.jpg)
+
+- **95 RW**, Portogallo, Premier League (Chelsea)
+- **PAC 97 · SHO 93 · PAS 90 · DRI 95 · DEF 55 · PHY 88**
+- **3 PlayStyle+**
+
+È il profilo dell'**ala dominante**: 97 di velocità e 95 di dribbling per saltare l'uomo e attaccare lo spazio, 93 al tiro per far male quando rientra sul piede, e 90 di passaggio per servire assist. La difesa a 55 dice solo che non è un'ala che torna a coprire, ma per un esterno offensivo è un dettaglio.
+
+> 💡 **Perché è forte:** 97 di velocità e 95 di dribbling sono numeri da ala di altissimo livello a EA FC, e con 93 al tiro segna anche da sola. Perfetta sulla destra di un 4-3-3.
+
+## Una carta che cresce: il Path to Glory
+
+![Schermata SBC Path to Glory in stile Ultimate Team con il tabellone del Mondiale](/img/articles/pedro-neto-path-to-glory-sbc-fc26-2.jpg)
+
+Trattandosi di una carta **Path to Glory**, non resta ferma: riceve un **upgrade ogni volta che il Portogallo supera un turno** al Mondiale, in automatico. E il Portogallo è tra le nazionali che possono andare lontano, quindi il potenziale di crescita è alto: la 95 di oggi può diventare una bomba nelle prossime settimane.
+
+## Quanto costa e conviene farla?
+
+Qui serve onestà: **requisiti e costo della SBC non sono ancora stati svelati**, aggiorniamo appena escono. In generale è una sfida da collezione (carta non scambiabile), da valutare su due cose:
+
+1. **ti serve un'ala destra meta?** Con questi numeri sì, è tra le migliori a quel prezzo.
+2. **credi nel Mondiale del Portogallo?** Se sì, gli upgrade la rendono ancora più conveniente.
+
+Se la SBC sarà cara, aspetta di vedere i requisiti ufficiali prima di bruciare il fodder.
+
+> ✔ **Da tenere d'occhio:** appena EA pubblica la sfida, controlla costo in coins, scadenza e se è ripetibile.
+
+## Riepilogo
+
+> **✓ DA FARE**
+> — Segnarti le stat: 95 RW, PAC 97 / SHO 93 / PAS 90 / DRI 95 / DEF 55 / PHY 88, 3 PlayStyle+
+> — Considerarla come ala destra per il 4-3-3: velocità, dribbling e tiro
+> — Ricordare che cresce con il Mondiale del Portogallo
+> — Aspettare i requisiti ufficiali prima di decidere
+>
+> **✕ DA EVITARE**
+> — Dare per certi costo e requisiti: non sono ancora usciti (è un leak sulle stat)
+> — Bruciare tutto il fodder prima di vedere la sfida ufficiale
+> — Aspettarti che difenda: la metti per attaccare`,
+    en: {
+      title: "Pedro Neto Path to Glory: the 95 RW SBC, Official Stats",
+      description:
+        "FUT Sheriff leaked Pedro Neto's Path to Glory SBC in EA FC 26: official 95 RW stats (97 Pace), how he plays and what to know about the challenge.",
+      excerpt:
+        "Pedro Neto Path to Glory leaked: 95 RW with 97 Pace and 3 PlayStyle+, an SBC that grows with Portugal's World Cup run. Here's the lowdown.",
+      category: "SBC",
+      dateLabel: "13 June 2026",
+      heroAlt:
+        "Pedro Neto 95 RW Path to Glory card in EA FC style, with the World Cup trophy in the background",
+      body: `FUT Sheriff has leaked a tasty **Path to Glory SBC**: **Pedro Neto** as a **95 RW**. He's a 97-Pace winger who, like every Path to Glory item, can climb even higher with Portugal's World Cup run. Here are the official stats, how he plays and what to know about the challenge.
+
+## The Official Stats
+
+![Pedro Neto 95 RW Path to Glory card with the stat block](/img/articles/pedro-neto-path-to-glory-sbc-fc26-1.jpg)
+
+- **95 RW**, Portugal, Premier League (Chelsea)
+- **PAC 97 · SHO 93 · PAS 90 · DRI 95 · DEF 55 · PHY 88**
+- **3 PlayStyle+**
+
+This is the **dominant winger** profile: 97 Pace and 95 dribbling to beat your man and attack the space, 93 shooting to hurt teams when he cuts inside, and 90 passing to set up assists. The 55 defending just means he won't track back, but for an attacking winger that's a detail.
+
+> 💡 **Why he's strong:** 97 Pace and 95 dribbling are elite winger numbers in EA FC, and with 93 shooting he scores on his own. Perfect on the right of a 4-3-3.
+
+## A Card That Grows: Path to Glory
+
+![Path to Glory SBC screen in Ultimate Team style with the World Cup bracket](/img/articles/pedro-neto-path-to-glory-sbc-fc26-2.jpg)
+
+Being a **Path to Glory** card, he doesn't stand still: he gets an **upgrade every time Portugal advances a round** at the World Cup, automatically. And Portugal are among the nations that can go deep, so the upside is high: today's 95 could turn into a monster over the coming weeks.
+
+## How Much Does It Cost & Is It Worth It?
+
+Time for honesty: the **SBC requirements and cost haven't been revealed yet**, we'll update as soon as they're out. In general it's a collector challenge (untradeable card), worth weighing on two things:
+
+1. **do you need a meta right winger?** With these numbers, yes, he's among the best at that price.
+2. **do you believe in Portugal's World Cup?** If so, the upgrades make him even better value.
+
+If the SBC turns out expensive, wait to see the official requirements before burning fodder.
+
+> ✔ **Keep an eye out:** as soon as EA posts the challenge, check the coin cost, the expiry and whether it's repeatable.
+
+## Summary
+
+> **✓ DO**
+> — Note the stats: 95 RW, PAC 97 / SHO 93 / PAS 90 / DRI 95 / DEF 55 / PHY 88, 3 PlayStyle+
+> — Consider him as a right winger for a 4-3-3: pace, dribbling and shooting
+> — Remember he grows with Portugal's World Cup run
+> — Wait for the official requirements before deciding
+>
+> **✕ DON'T**
+> — Treat the cost and requirements as confirmed: they're not out yet (this is a stats leak)
+> — Burn all your fodder before seeing the official challenge
+> — Expect him to defend: he's there to attack`,
+    },
+  },
+  {
     slug: "al-owairan-come-sbloccare-fc26",
     title: "Al Owairan 95 gratis: come sbloccarlo in 12 partite (Asia/Oceania)",
     description:

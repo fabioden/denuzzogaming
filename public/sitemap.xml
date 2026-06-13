@@ -61,6 +61,16 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://denuzzogaming.com/newsletter/pedro-neto-path-to-glory-sbc-fc26</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://denuzzogaming.com/en/newsletter/pedro-neto-path-to-glory-sbc-fc26</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://denuzzogaming.com/newsletter/al-owairan-come-sbloccare-fc26</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
