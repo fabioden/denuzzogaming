@@ -29,6 +29,115 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "greats-of-the-game-icons-fc26",
+    title: "Greats of the Game: il promo Icon e Hero del 19 giugno",
+    description:
+      "Greats of the Game arriva il 19 giugno su EA FC 26: promo solo Icon e Hero con Kempes, Rivellino, Eto'o e R9. Cosa sappiamo e l'effetto sul mercato.",
+    category: "News",
+    date: "2026-06-14",
+    dateLabel: "14 Giugno 2026",
+    readingTime: "5 min",
+    badge: "LEAK",
+    heroImage: "/img/articles/greats-of-the-game-icons-fc26-hero.jpg",
+    heroAlt:
+      "Due carte ICON in stile EA FC avvolte da luce dorata: le leggende del promo Greats of the Game",
+    excerpt:
+      "Greats of the Game il 19 giugno: promo solo Icon e Hero (Kempes, Rivellino, Eto'o, R9), niente carte live e occhio al mercato delle Icon.",
+    body: `Mentre il Mondiale infiamma Ultimate Team con gli upgrade Path to Glory, i leaker parlano già del prossimo grande promo: **Greats of the Game**, in arrivo **venerdì 19 giugno**. È un promo **solo Icon e Hero**, e c'è chi lo definisce già "il promo dell'anno". Ecco cosa sappiamo.
+
+## Cos'è Greats of the Game
+
+È un promo dedicato alle leggende: porta in pacchetti una squadra di **Icon e Hero**, rendendole molto più "packabili" del solito (un po' come Trophy Titans). Per chi gioca da un po': è il promo che su FC 24 molti ricordano come uno dei migliori in assoluto, tra valore (Icon con 4 PlayStyle+ a poche centinaia di migliaia di crediti) e SBC memorabili.
+
+## Le novità: Kempes, Rivellino, Eto'o e R9
+
+![Walkout di una carta ICON in stile EA FC con quattro PlayStyle+](/img/articles/greats-of-the-game-icons-fc26-1.jpg)
+
+Tra i nomi che girano:
+
+- le **due Icon nuove di quest'anno, Kempes e Rivellino**, avranno la loro versione Greats of the Game;
+- **Eto'o** è la prima Icon GOTG e arriva **prima del promo**, come ricompensa del **Gauntlet**, con **4 PlayStyle+** (stat ufficiali: Power Shot, Finesse, Slow Driven, Quick Step): una carta da provare;
+- **R9 (Ronaldo)** è di nuovo nei leak;
+- si parla di **oltre 10 nomi grossi** e di possibili contenuti forti, come un'Icon SBC da 4 PlayStyle+ e magari il primo EVO da 4 PlayStyle+.
+
+> 💡 **Perché c'è hype:** i leaker (tra cui Foot Police) lo stanno spingendo come "promo dell'anno". Cautela d'obbligo, ma i nomi e il formato Icon/Hero fanno gola.
+
+## La differenza chiave: niente carte live
+
+Attenzione a un punto importante: a differenza di FC 24 (dove le Greats of the Game erano **live** e si potenziavano con Euro e Copa America), **quest'anno NON sono carte live**. Quindi quello che packi è quello che resta: niente upgrade legati al Mondiale su queste carte.
+
+## Effetto mercato: occhio alle tue Icon
+
+![Carte ICON con un grafico di mercato in calo: l'effetto del promo sui prezzi](/img/articles/greats-of-the-game-icons-fc26-2.jpg)
+
+Se hai delle **Icon top** in club, tienile d'occhio: quando un promo rende le Icon più packabili, i loro prezzi tendono a **scendere**. Chi vuole vendere spesso conviene che lo faccia **prima** dell'uscita del promo. Stesso discorso, con più cautela, per le carte live Path to Glory: se i leak continuano a essere fortissimi, parte del mercato potrebbe muoversi. Per ora niente panic sell: si guarda e si decide coi leak alla mano.
+
+## Riepilogo
+
+> **✓ DA FARE**
+> — Segnarti la data: Greats of the Game venerdì 19 giugno (Icon + Hero)
+> — Provare l'Eto'o dal Gauntlet (4 PlayStyle+) prima del promo
+> — Se hai Icon top, valutare di venderle prima dell'uscita
+> — Tenere d'occhio i leak dei prossimi giorni per i nomi confermati
+>
+> **✕ DA EVITARE**
+> — Aspettarti che queste carte siano live: quest'anno NON si aggiornano
+> — Dare per oro colato l'hype "promo dell'anno": aspetta i nomi confermati
+> — Comprare Icon care proprio a ridosso del promo: rischiano di scendere`,
+    en: {
+      title: "Greats of the Game: the Icon & Hero Promo Landing June 19",
+      description:
+        "Greats of the Game lands June 19 on EA FC 26: an Icon and Hero only promo with Kempes, Rivellino, Eto'o and R9. What we know and the market impact.",
+      excerpt:
+        "Greats of the Game on June 19: an Icon and Hero only promo (Kempes, Rivellino, Eto'o, R9), no live cards and watch the Icon market.",
+      category: "News",
+      dateLabel: "14 June 2026",
+      heroAlt:
+        "Two ICON cards in EA FC style bathed in golden light: the legends of the Greats of the Game promo",
+      body: `While the World Cup is lighting up Ultimate Team with Path to Glory upgrades, the leakers are already talking about the next big promo: **Greats of the Game**, landing **Friday, June 19**. It's an **Icon and Hero only** promo, and some are already calling it "the promo of the year". Here's what we know.
+
+## What Greats of the Game Is
+
+It's a promo dedicated to the legends: it brings a full team of **Icons and Heroes** into packs, making them far more "packable" than usual (a bit like Trophy Titans). For anyone who's been around a while: it's the promo many remember as one of the best on FC 24, between value (Icons with 4 PlayStyle+ for a few hundred thousand coins) and memorable SBCs.
+
+## The New Names: Kempes, Rivellino, Eto'o and R9
+
+![An ICON card walkout in EA FC style with four PlayStyle+](/img/articles/greats-of-the-game-icons-fc26-1.jpg)
+
+Among the names doing the rounds:
+
+- the **two new Icons this year, Kempes and Rivellino**, will get their Greats of the Game version;
+- **Eto'o** is the first GOTG Icon and arrives **before the promo**, as a **Gauntlet reward**, with **4 PlayStyle+** (official stats: Power Shot, Finesse, Slow Driven, Quick Step): a card to try;
+- **R9 (Ronaldo)** is back in the leaks;
+- there's talk of **10+ huge names** and possible big content, like a 4-PlayStyle+ Icon SBC and maybe the first 4-PlayStyle+ EVO.
+
+> 💡 **Why the hype:** the leakers (Foot Police among them) are pushing it as "the promo of the year". Stay cautious, but the names and the Icon/Hero format are mouth-watering.
+
+## The Key Difference: No Live Cards
+
+One important point: unlike FC 24 (where Greats of the Game cards were **live** and upgraded with the Euros and Copa America), **this year they are NOT live cards**. So what you pack is what you keep: no World Cup upgrades on these cards.
+
+## Market Impact: Watch Your Icons
+
+![ICON cards with a falling market graph: the promo's effect on prices](/img/articles/greats-of-the-game-icons-fc26-2.jpg)
+
+If you're holding **top Icons** in your club, keep an eye on them: when a promo makes Icons more packable, their prices tend to **drop**. If you want to sell, it's often best to do it **before** the promo launches. The same goes, more carefully, for live Path to Glory cards: if the leaks keep looking huge, part of the market could move. No panic selling for now: watch, and decide with the leaks in hand.
+
+## Summary
+
+> **✓ DO**
+> — Note the date: Greats of the Game on Friday, June 19 (Icon + Hero)
+> — Try the Eto'o from the Gauntlet (4 PlayStyle+) before the promo
+> — If you hold top Icons, consider selling before launch
+> — Watch the next few days of leaks for confirmed names
+>
+> **✕ DON'T**
+> — Expect these cards to be live: this year they don't upgrade
+> — Take the "promo of the year" hype as gospel: wait for confirmed names
+> — Buy pricey Icons right before the promo: they could drop`,
+    },
+  },
+  {
     slug: "pedro-neto-path-to-glory-sbc-fc26",
     title: "Pedro Neto Path to Glory: la SBC da 95 RW, stats ufficiali",
     description:
