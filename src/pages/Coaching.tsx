@@ -1,4 +1,5 @@
 import { useContent } from "@/content/use-content";
+import { social } from "@/content";
 import { useLang } from "@/i18n";
 import Seo from "@/components/Seo";
 import SpotlightCard from "@/components/reactbits/SpotlightCard";
@@ -19,15 +20,50 @@ export default function Coaching() {
         bilingual
         jsonLd={{
           "@context": "https://schema.org",
-          "@type": "Service",
-          name: "Coaching EA FC 1:1",
-          provider: { "@type": "Person", name: "Fabio Denuzzo", jobTitle: "Professional Esports Coach" },
-          offers: c.packages.map((p) => ({
-            "@type": "Offer",
-            name: p.name,
-            price: p.price.replace("€", "").replace(",", "."),
-            priceCurrency: "EUR",
-          })),
+          "@graph": [
+            {
+              "@type": "Person",
+              "@id": "https://denuzzogaming.com/#fabio",
+              name: "Fabio Denuzzo",
+              url: "https://denuzzogaming.com/",
+              jobTitle: lang === "en" ? "Professional EA Sports FC coach" : "Coach professionista EA Sports FC",
+              description:
+                lang === "en"
+                  ? "Ex pro player for Juventus and Dsyre Esports, 2× Italian Champion and 2× FIFA eWorld Cup participant. EA Sports FC (FUT) coach with 300+ students since 2020."
+                  : "Ex pro player per Juventus e Dsyre Esports, 2× Campione Italiano e 2× partecipante al FIFA eWorld Cup. Coach di EA Sports FC (FUT), 300+ allievi dal 2020.",
+              award: [
+                lang === "en" ? "2× Italian EA Sports FC Champion" : "2× Campione Italiano EA Sports FC",
+                lang === "en" ? "2× FIFA eWorld Cup participant" : "2× partecipante FIFA eWorld Cup",
+              ],
+              knowsAbout: ["EA Sports FC", "FIFA Ultimate Team", "FUT", "esports coaching"],
+              nationality: { "@type": "Country", name: "Italy" },
+              sameAs: [social.youtube, social.tiktok, social.instagram, social.twitch, social.twitter],
+            },
+            {
+              "@type": "ProfessionalService",
+              "@id": "https://denuzzogaming.com/coaching#service",
+              name: "Coaching EA FC 1:1 — Denuzzo Gaming",
+              serviceType: lang === "en" ? "EA Sports FC coaching" : "Coaching EA Sports FC",
+              url: "https://denuzzogaming.com/coaching",
+              areaServed: "Worldwide",
+              provider: { "@id": "https://denuzzogaming.com/#fabio" },
+              offers: c.packages.map((p) => ({
+                "@type": "Offer",
+                name: p.name,
+                price: p.price.replace("€", "").replace(",", ".").trim(),
+                priceCurrency: "EUR",
+              })),
+            },
+            {
+              "@type": "FAQPage",
+              "@id": "https://denuzzogaming.com/coaching#faq",
+              mainEntity: c.faq.map((f) => ({
+                "@type": "Question",
+                name: f.q,
+                acceptedAnswer: { "@type": "Answer", text: f.a },
+              })),
+            },
+          ],
         }}
       />
 
