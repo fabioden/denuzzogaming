@@ -29,6 +29,99 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "greats-of-the-game-squadra-fc26",
+    title: "Greats of the Game: la squadra completa svelata, tutte le Icon",
+    description:
+      "Svelata la rosa completa di Greats of the Game su EA FC 26: da Ronaldo e Cruyff a Maldini e Ronaldinho. Tutti i nomi, le valutazioni e quando esce.",
+    category: "News",
+    date: "2026-06-16",
+    dateLabel: "16 Giugno 2026",
+    readingTime: "4 min",
+    badge: "LEAK",
+    heroImage: "/img/articles/greats-of-the-game-squadra-fc26-hero.jpg",
+    heroAlt:
+      "La rosa completa Greats of the Game di EA FC 26 con tutte le carte Icon e le valutazioni",
+    excerpt:
+      "La rosa completa di Greats of the Game è uscita: 17 Icon da Ronaldo a Cruyff, Maldini, Ronaldinho, Xavi e Iniesta. Nomi, voti e uscita.",
+    body: `Dopo tanta attesa, la **squadra completa di Greats of the Game è stata svelata dai leak**: una formazione di sole Icon da sogno, in arrivo **venerdì 19 giugno**. Da Ronaldo a Cruyff, da Maldini a Ronaldinho. Ecco tutti i nomi, le valutazioni e cosa aspettarsi.
+
+## La rosa: tutte le Icon (con le valutazioni)
+
+- **97** → **Ronaldo** (ST), **Cruyff** (CAM), **Charlton** (CM), **Beckenbauer** (CB), **Maldini** (CB), **Ronaldinho** (LW), **Henry** (ST)
+- **96** → **Iniesta** (CM), **Xavi** (CM), **Puskás** (ST)
+- **95** → **Bale** (RW), **Kroos** (CM), **Kempes** (ST), **Thuram** (RB), **Matthäus** (CAM)
+- **94** → **Lahm** (RB)
+- **92** → **Šuker** (ST)
+
+Dentro ci sono anche le **due Icon nuove dell'anno** (Kempes è qui; Rivellino è atteso nel promo). Un parco leggende da far girare la testa.
+
+> 💡 **Perché è un team da sogno:** un centrocampo Xavi-Iniesta-Kroos, una difesa Maldini-Beckenbauer, un attacco Ronaldo-Henry-Ronaldinho. Roba che a EA FC vale oro.
+
+## Quando esce e come prenderle
+
+Il promo parte **venerdì 19 giugno** con una **squadra unica**; le versioni base entrano in pacchetti dal **26 giugno**. Durante il promo queste Icon sono molto più "packabili" del solito, e alcune arriveranno via **SBC**. ⚠️ Ricorda: a differenza di FC 24, **quest'anno NON sono carte live** (non si aggiornano col torneo).
+
+## Occhio al mercato
+
+Quando le Icon diventano più packabili, i loro prezzi tendono a **scendere**: se hai Icon top in club e vuoi venderle, spesso conviene farlo **prima** dell'uscita. Per chi compra, invece, può essere il momento giusto per prendere una leggenda a meno.
+
+## Riepilogo
+
+> **✓ DA FARE**
+> — Segnarti la data: Greats of the Game venerdì 19 giugno, squadra unica
+> — Puntare alle Icon che ti servono: durante il promo sono più packabili
+> — Se hai Icon top da vendere, valutare di farlo prima dell'uscita
+>
+> **✕ DA EVITARE**
+> — Aspettarti carte live: quest'anno le Greats of the Game NON si aggiornano
+> — Comprare Icon care a ridosso del promo: rischiano di scendere
+> — Dare per confermati nomi non presenti nella rosa svelata (es. Zidane non c'è)`,
+    en: {
+      title: "Greats of the Game: the Full Squad Revealed, Every Icon",
+      description:
+        "EA FC 26 Greats of the Game full squad revealed: from Ronaldo and Cruyff to Maldini and Ronaldinho. All the names, ratings and the release date.",
+      excerpt:
+        "The full Greats of the Game squad is out: 17 Icons from Ronaldo to Cruyff, Maldini, Ronaldinho, Xavi and Iniesta. Names, ratings and release.",
+      category: "News",
+      dateLabel: "16 June 2026",
+      heroAlt:
+        "The full EA FC 26 Greats of the Game squad with all the Icon cards and ratings",
+      body: `After all the wait, the **full Greats of the Game squad has been revealed by the leaks**: a dream all-Icon lineup, landing **Friday, June 19**. From Ronaldo to Cruyff, from Maldini to Ronaldinho. Here are all the names, the ratings and what to expect.
+
+## The Squad: Every Icon (with Ratings)
+
+- **97** → **Ronaldo** (ST), **Cruyff** (CAM), **Charlton** (CM), **Beckenbauer** (CB), **Maldini** (CB), **Ronaldinho** (LW), **Henry** (ST)
+- **96** → **Iniesta** (CM), **Xavi** (CM), **Puskás** (ST)
+- **95** → **Bale** (RW), **Kroos** (CM), **Kempes** (ST), **Thuram** (RB), **Matthäus** (CAM)
+- **94** → **Lahm** (RB)
+- **92** → **Šuker** (ST)
+
+The lineup also includes the **two new Icons of the year** (Kempes is here; Rivellino is expected in the promo). A legends roster to make your head spin.
+
+> 💡 **Why it's a dream team:** a Xavi-Iniesta-Kroos midfield, a Maldini-Beckenbauer defence, a Ronaldo-Henry-Ronaldinho attack. That's pure gold in EA FC.
+
+## When It Drops and How to Get Them
+
+The promo starts **Friday, June 19** with a **single squad**; base versions hit packs from **June 26**. During the promo these Icons are far more "packable" than usual, and some will arrive via **SBC**. ⚠️ Remember: unlike FC 24, **this year they are NOT live cards** (they don't upgrade with the tournament).
+
+## Watch the Market
+
+When Icons become more packable, their prices tend to **drop**: if you're holding top Icons and want to sell, it's often best to do it **before** launch. For buyers, it can be the right moment to grab a legend for less.
+
+## Summary
+
+> **✓ DO**
+> — Note the date: Greats of the Game on Friday, June 19, single squad
+> — Target the Icons you need: they're more packable during the promo
+> — If you have top Icons to sell, consider doing it before launch
+>
+> **✕ DON'T**
+> — Expect live cards: this year Greats of the Game cards don't upgrade
+> — Buy pricey Icons right before the promo: they could drop
+> — Treat unconfirmed names as in the squad (e.g. Zidane isn't in it)`,
+    },
+  },
+  {
     slug: "greats-of-the-game-icons-fc26",
     title: "Greats of the Game: il promo Icon e Hero del 19 giugno",
     description:
