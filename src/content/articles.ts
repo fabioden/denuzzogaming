@@ -29,6 +29,115 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "star-performer-mondiale-fc26",
+    title: "Star Performer Mondiale FC 26: le carte Man of the Match in arrivo",
+    description:
+      "Le carte Star Performer (i Man of the Match del Mondiale) sono leakate su EA FC 26: cosa sono, come funzionano, quando arrivano e perché il mercato si muove già.",
+    category: "News",
+    date: "2026-06-17",
+    dateLabel: "17 Giugno 2026",
+    readingTime: "5 min",
+    badge: "LEAK",
+    heroImage: "/img/articles/star-performer-mondiale-fc26-hero.jpg",
+    heroAlt:
+      "Carta Star Performer del Mondiale in stile EA FC: un attaccante esulta in ginocchio sotto il trofeo, tutto oro",
+    excerpt:
+      "Le Star Performer (i Man of the Match del Mondiale) sono leakate: cosa sono, come funzionano, quando escono e perché i prezzi salgono coi risultati veri.",
+    body: `Messi fa una tripletta all'esordio Mondiale e la prima cosa che viene voglia di fare è accenderlo su EA FC 26 e usarlo. È quella connessione tra il campo vero e il gioco. E proprio questo è il pezzo che ancora manca a FC 26: le carte **Star Performer**, cioè i nuovi "Man of the Match". Sono leakate, ma non ancora in gioco. Ecco cosa sappiamo.
+
+## Cosa sono le Star Performer (i Man of the Match)
+
+- carte speciali per i **migliori in campo** delle partite del Mondiale;
+- arrivano con un **PlayStyle o PlayStyle+** in base alla prestazione;
+- soprattutto: sono **evolvibili tramite EVO Lab** (sono uno dei tipi di carta ammessi), quindi le potenzi nel tempo.
+
+È il ritorno del concetto "Man of the Match" delle vecchie FIFA: una carta che celebra chi ha appena giocato una grande partita reale.
+
+## Quando arrivano e come funzioneranno
+
+- ⚠️ Per ora **non sono ancora in gioco**: ci sono solo leak (il primo dopo Messico-Sudafrica). EA ha indicato una finestra "International Star Performers" attorno al **26 giugno**.
+- Il modello atteso è quello già visto con gli Star Performer di Champions, Europa e Conference League: **una squadra settimanale, in pacchetti per 48 ore (di solito da sabato a lunedì)**. EA sceglie i migliori della settimana di gironi e li mette insieme.
+- Oggi (mercoledì) si chiude la prima giornata dei gironi: è realistico un leak o anteprima tra giovedì e venerdì, con il drop nel weekend.
+
+## Chi se le meriterebbe
+
+Se EA prende i veri uomini-partita: **Messi** (tripletta contro l'Algeria), **Haaland** (doppietta contro l'Iraq), **Mbappé** (gol d'apertura), e dai primi match anche **Giménez**, **Quiñones** e **Balogun** (USA). Una line-up stellare.
+
+## Il mercato si muove già col Mondiale
+
+![Carta Star Performer con il grafico del prezzo in salita: il mercato segue le prestazioni reali](/img/articles/star-performer-mondiale-fc26-1.jpg)
+
+Non servono nemmeno le carte ufficiali: i prezzi seguono le prestazioni reali. **Messi** era a 1,1 milioni, dopo la tripletta è salito a circa **1,38 milioni**. **Haaland** da ~350K a oltre **400K**. **Mbappé oro** da 190K a **220K**. La gente guarda la partita, logga e compra il giocatore che ha appena visto giocare.
+
+> 💡 **Come sfruttarlo:** se un big sta per giocare e secondo te farà la partita, prenderlo **prima** del match e rivendere nell'hype è la mossa classica. Occhio invece a non strapagare una carta già gonfiata.
+
+> ⚠️ **Sul fronte opposto:** molte carte **Path to Glory** (soprattutto del Team 2) stanno scendendo e sono ora economiche, complice l'hype del promo icone di venerdì. Quelle che non si aggiornano col Mondiale restano deboli.
+
+## Riepilogo
+
+> **✓ DA FARE**
+> — Sapere cosa sono: carte per i migliori del Mondiale, con PlayStyle+ ed evolvibili in EVO Lab
+> — Aspettarle nel weekend (modello: squadra settimanale in pacchetti 48h), finestra ~26 giugno
+> — Seguire il mercato: i prezzi salgono con chi gioca bene davvero
+>
+> **✕ DA EVITARE**
+> — Darle per già in gioco: per ora sono solo leak, non sono uscite
+> — Strapagare un big già gonfiato dall'hype del momento
+> — Tenere carte Path to Glory deboli che non si aggiornano sperando nel rimbalzo`,
+    en: {
+      title: "World Cup Star Performers FC 26: the Man of the Match Cards Incoming",
+      description:
+        "EA FC 26 Star Performer cards (the World Cup Man of the Match) have leaked: what they are, how they work, when they drop and why the market is already moving.",
+      excerpt:
+        "Star Performers (the World Cup Man of the Match) have leaked: what they are, how they work, when they drop and why prices rise with real results.",
+      category: "News",
+      dateLabel: "17 June 2026",
+      heroAlt:
+        "World Cup Star Performer card in EA FC style: a striker celebrating on his knees under the trophy, all gold",
+      body: `Messi scores a hat-trick on his World Cup opener and the first thing you want to do is fire up EA FC 26 and use him. That's the connection between the real pitch and the game. And that's exactly the piece FC 26 is still missing: **Star Performer** cards, this year's "Man of the Match". They've leaked, but they're not in the game yet. Here's what we know.
+
+## What Star Performers Are (the Man of the Match)
+
+- special cards for the **standout players** in World Cup matches;
+- they come with a **PlayStyle or PlayStyle+** depending on the performance;
+- crucially: they're **evolvable through the EVO Lab** (they're one of the allowed card types), so you can upgrade them over time.
+
+It's the return of the old FIFA "Man of the Match" idea: a card that celebrates someone who's just played a great real-life game.
+
+## When They Drop and How They'll Work
+
+- ⚠️ For now they're **not in the game yet**: only leaks (the first after Mexico vs South Africa). EA has flagged an "International Star Performers" window around **June 26**.
+- The expected model is the one we've seen with Champions, Europa and Conference League Star Performers: **a weekly squad, in packs for 48 hours (usually Saturday to Monday)**. EA picks the best of the group-stage week and drops them together.
+- Today (Wednesday) the first round of group games wraps up: a leak or preview between Thursday and Friday with a weekend drop is realistic.
+
+## Who Would Deserve One
+
+If EA take the real men of the match: **Messi** (hat-trick vs Algeria), **Haaland** (brace vs Iraq), **Mbappé** (opening goal), plus early standouts **Giménez**, **Quiñones** and **Balogun** (USA). A star-studded lineup.
+
+## The Market Is Already Moving with the World Cup
+
+![A Star Performer card with a rising price graph: the market follows real performances](/img/articles/star-performer-mondiale-fc26-1.jpg)
+
+You don't even need the official cards: prices follow real performances. **Messi** was at 1.1 million, after the hat-trick he jumped to about **1.38 million**. **Haaland** from ~350K to over **400K**. **Gold Mbappé** from 190K to **220K**. People watch the match, log in and buy the player they just saw play.
+
+> 💡 **How to play it:** if a big name is about to play and you think he'll deliver, buying **before** the match and selling into the hype is the classic move. Just don't overpay for a card that's already pumped.
+
+> ⚠️ **On the flip side:** a lot of **Path to Glory** cards (especially Team 2) are dropping and are now cheap, partly because of the hype for Friday's Icon promo. The ones that don't upgrade with the World Cup stay weak.
+
+## Summary
+
+> **✓ DO**
+> — Know what they are: cards for the World Cup's best, with PlayStyle+ and evolvable in the EVO Lab
+> — Expect them at the weekend (model: weekly squad in 48h packs), window ~June 26
+> — Follow the market: prices rise with players who actually perform
+>
+> **✕ DON'T**
+> — Treat them as already in the game: for now they're only leaks, not out
+> — Overpay for a big name already pumped by the moment's hype
+> — Hold weak Path to Glory cards that don't upgrade hoping for a bounce`,
+    },
+  },
+  {
     slug: "greats-of-the-game-squadra-fc26",
     title: "Greats of the Game: la squadra completa svelata, tutte le Icon",
     description:
