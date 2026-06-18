@@ -29,6 +29,107 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "hall-of-fame-carte-fc27",
+    title: "Hall of Fame: la nuova classe di carte testata per FC 27",
+    description:
+      "FUT Sheriff leaka una possibile nuova classe di carte EA FC, la Hall of Fame, testata per FC 27: Pato, Balotelli, Fellaini e Akinfenwa tra i primi nomi.",
+    category: "News",
+    date: "2026-06-18",
+    dateLabel: "18 Giugno 2026",
+    readingTime: "4 min",
+    badge: "LEAK",
+    heroImage: "/img/articles/hall-of-fame-carte-fc27-hero.jpg",
+    heroAlt:
+      "Carta Hall of Fame in stile EA FC di Pato: cornice dorata con ali e stelle, 89 ST",
+    excerpt:
+      "FUT Sheriff: una nuova classe di carte 'Hall of Fame' in test per FC 27. Pato, Balotelli, Fellaini e Akinfenwa tra i primi nomi (stat concept).",
+    body: `FUT Sheriff ha sganciato una serie di leak che, messi insieme, raccontano qualcosa di nuovo: EA starebbe testando una **classe di carte inedita, la "Hall of Fame"**, per **FC 27**. Non Icon, non Hero: una rarità tutta nuova per celebrare leggende e giocatori cult. E i primi nomi sono da brividi: Pato, Balotelli, Fellaini e Akinfenwa.
+
+## Cos'è la "Hall of Fame"
+
+Il dettaglio chiave arriva dal post su Pato: secondo FUT Sheriff non verrebbe rilasciato come Icon né come Hero, ma sotto una **nuova classe/rarità chiamata Hall of Fame**. In pratica un terzo tipo di carta-leggenda, accanto a Icon ed Hero.
+
+> ⚠️ **Da chiarire subito:** è roba per **FC 27** (il prossimo gioco), e sono carte **in test**. Lo scrive FUT Sheriff stesso: "being tested" non garantisce che arrivino davvero, è solo una forte indicazione.
+
+## I primi nomi leakati
+
+**Pato** 🇧🇷 (89 ST): il "Papero", talento purissimo dei tempi del Milan, qui con 93 di velocità e 89 di dribbling.
+
+![Carta Hall of Fame di Balotelli in stile EA FC: 88 ST, cornice dorata](/img/articles/hall-of-fame-carte-fc27-1.jpg)
+
+**Balotelli** 🇮🇹 (88 ST): Super Mario, 88 di velocità e 87 al tiro. Una carta cult, soprattutto per il pubblico italiano.
+
+![Carta Hall of Fame di Akinfenwa in stile EA FC: 86 ST, 93 di fisico](/img/articles/hall-of-fame-carte-fc27-2.jpg)
+
+**Akinfenwa** 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (86 ST): "The Beast", con un fisico da **93**, l'attaccante più potente che ricordi. E poi **Fellaini** 🇧🇪 (88 CDM): fisico e colpi di testa, ex Everton e Manchester United.
+
+## Occhio alle statistiche
+
+Le carte che girano sono **concept di FUT Sheriff x LeanDesign**: il design e i numeri che vedi sono una loro interpretazione, **non valori ufficiali EA**. Quindi prendile come idea, non come dato definitivo.
+
+## Perché è interessante
+
+Una nuova classe "Hall of Fame" significherebbe un modo in più per portare in gioco **leggende e giocatori cult**, non solo i fuoriclasse assoluti delle Icon. Per chi ama le carte nostalgia è una notizia ghiotta. Restiamo in attesa di conferme ufficiali da EA.
+
+## Riepilogo
+
+> **✓ DA FARE**
+> — Tenere d'occhio FC 27: la "Hall of Fame" sarebbe una nuova classe di carte, oltre a Icon ed Hero
+> — Goderti i primi concept: Pato, Balotelli, Akinfenwa, Fellaini
+>
+> **✕ DA EVITARE**
+> — Darlo per confermato: è in test e per FC 27, non per FC 26
+> — Prendere le stat come ufficiali: sono concept del designer, non di EA`,
+    en: {
+      title: "Hall of Fame: the New Card Class Being Tested for FC 27",
+      description:
+        "FUT Sheriff leaks a possible new EA FC card class, Hall of Fame, being tested for FC 27: Pato, Balotelli, Fellaini and Akinfenwa among the first names.",
+      excerpt:
+        "FUT Sheriff: a new 'Hall of Fame' card class is being tested for FC 27. Pato, Balotelli, Fellaini and Akinfenwa among the first names (concept stats).",
+      category: "News",
+      dateLabel: "18 June 2026",
+      heroAlt:
+        "Pato Hall of Fame card in EA FC style: golden frame with wings and stars, 89 ST",
+      body: `FUT Sheriff has dropped a string of leaks that, put together, point to something new: EA is reportedly testing a brand-new card class, the **"Hall of Fame"**, for **FC 27**. Not Icon, not Hero: a whole new rarity to celebrate legends and cult players. And the first names are spicy: Pato, Balotelli, Fellaini and Akinfenwa.
+
+## What the "Hall of Fame" Is
+
+The key detail comes from the Pato post: according to FUT Sheriff he wouldn't be released as an Icon or a Hero, but under a **new class/rarity called Hall of Fame**. Essentially a third type of legend card, alongside Icons and Heroes.
+
+> ⚠️ **Clear this up first:** this is for **FC 27** (the next game), and these are cards **being tested**. FUT Sheriff says so: "being tested" doesn't guarantee they'll make it, it's only a strong indication.
+
+## The First Leaked Names
+
+**Pato** 🇧🇷 (89 ST): the "Duck", pure talent from his Milan days, here with 93 pace and 89 dribbling.
+
+![Balotelli Hall of Fame card in EA FC style: 88 ST, golden frame](/img/articles/hall-of-fame-carte-fc27-1.jpg)
+
+**Balotelli** 🇮🇹 (88 ST): Super Mario, 88 pace and 87 shooting. A cult card, especially for the Italian crowd.
+
+![Akinfenwa Hall of Fame card in EA FC style: 86 ST, 93 physical](/img/articles/hall-of-fame-carte-fc27-2.jpg)
+
+**Akinfenwa** 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (86 ST): "The Beast", with **93** physical, the most powerful striker you can remember. And then **Fellaini** 🇧🇪 (88 CDM): all height and headers, ex Everton and Manchester United.
+
+## Mind the Stats
+
+The cards going around are **FUT Sheriff x LeanDesign concepts**: the design and the numbers you see are their take, **not official EA values**. So treat them as an idea, not as confirmed data.
+
+## Why It's Interesting
+
+A new "Hall of Fame" class would mean another way to bring **legends and cult players** into the game, not just the absolute greats of the Icons. For nostalgia-card lovers it's juicy news. We're waiting on official confirmation from EA.
+
+## Summary
+
+> **✓ DO**
+> — Keep an eye on FC 27: Hall of Fame would be a new card class, beyond Icons and Heroes
+> — Enjoy the first concepts: Pato, Balotelli, Akinfenwa, Fellaini
+>
+> **✕ DON'T**
+> — Treat it as confirmed: it's being tested and for FC 27, not FC 26
+> — Take the stats as official: they're the designer's concept, not EA's`,
+    },
+  },
+  {
     slug: "star-performer-mondiale-fc26",
     title: "Star Performer Mondiale FC 26: le carte Man of the Match in arrivo",
     description:
