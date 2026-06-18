@@ -29,6 +29,179 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "come-giocare-ea-fc-guida",
+    title: "Come giocare a EA FC: la guida del coach (difesa e attacco)",
+    description:
+      "La guida completa di Fabio Denuzzo per giocare a EA FC: difesa (distanze, aggressione, switching), attacco (inserimenti, filtrante di prima) e gli errori da evitare.",
+    category: "Scuola Denuzzo",
+    date: "2026-06-18",
+    dateLabel: "18 Giugno 2026",
+    readingTime: "9 min",
+    badge: "EPISODIO 1",
+    heroImage: "/img/articles/come-giocare-ea-fc-guida-hero.jpg",
+    heroAlt:
+      "Guida EA FC del coach Fabio Denuzzo: lavagna tattica con difesa e attacco, stile esports",
+    excerpt:
+      "La guida completa per giocare davvero a EA FC: difesa (distanze, aggressione, switching), attacco (inserimenti, filtrante di prima) ed errori da evitare.",
+    body: `Benvenuto nel **primo episodio della Scuola Denuzzo**. La differenza tra chi resta in Divisione 10 e chi sale di livello non sono i trucchi: sono i **fondamentali**. In anni di competizioni, due Mondiali e maglie come Juventus e Milan, ho capito cosa conta davvero a EA FC. Questa è la guida completa: come difendere, come attaccare e gli errori che ti rovinano le partite. Prima la teoria, poi la pratica.
+
+## Difendere: le distanze
+
+Il concetto più importante della difesa sono le **distanze**: lo spazio tra il portatore di palla avversario e il tuo giocatore più vicino.
+
+- Se sei **da solo** vicino all'avversario, **non andargli addosso**: gli basta un cambio gioco e ti salta. In quel caso **marca le linee di passaggio**, non il pallone.
+- Marca soprattutto i **mediani** con il tuo attaccante, non i difensori centrali: il primo passaggio dell'avversario va quasi sempre al mediano o al terzino. Se chiudi il mediano, lo costringi sul terzino, dove difendere è più facile.
+
+![Schema di difesa in stile EA FC: distanze e copertura delle linee di passaggio](/img/articles/come-giocare-ea-fc-guida-1.jpg)
+
+## Aggressione e switching
+
+Quando l'avversario è **ingabbiato** (poche o zero opzioni di passaggio), si **aggredisce**. Aggredire non vuol dire temporeggiare: significa **correre addosso (R2) e fare il contrasto**. Regola d'oro: **aggredisci con il giocatore dietro la linea della palla** (di solito esterni o attaccante) e lascia il difensore centrale alla CPU. Se aggredisci col centrale e sbagli, apri un buco enorme.
+
+Per coprire le linee devi saper **switchare**:
+- **Analogico destro** = sposti la selezione sul giocatore che vuoi, per coprire le linee. È ciò che divide un Divisione 10 da un pro.
+- **L1** = ti dà il giocatore più vicino al pallone. Usalo per **aggredire** quando sei già vicino, non per scegliere chi marca.
+- Punto di riferimento: il giocatore col **triangolino rosso** in testa.
+
+> 💡 **La regola pratica:** copri con l'analogico destro; quando si crea la "gabbietta" attorno all'avversario, schiaccia L1 e corri a fare il contrasto.
+
+## Temporeggiare senza regalare campo
+
+Errore classico: temporeggiare correndo all'indietro. **No.** Temporeggiare è **L2+R2 restando in posizione**, come un muro: l'avversario ti viene addosso e gli rubi palla o intercetti il passaggio. Se cammini all'indietro, regali campo e la squadra si schiaccia.
+
+La sequenza giusta: **prima corri** a metterti sulla linea del passaggio, **poi** temporeggi. Temporeggiare fuori dalla linea di passaggio non serve a niente.
+
+> ⚠️ **Contrasto sì, X con misura:** il contrasto (corri addosso) è per aggredire. La **X** (difesa avanzata) usala solo spalla a spalla o sulla fascia, su un avversario in corsa. Sbagliare X o contrasto = buco difensivo.
+
+## Attaccare: fai correre la palla, non te
+
+L'errore numero uno in attacco: prendere palla e correre. **Non si corre col pallone.** Devi far correre i giocatori **senza** palla:
+
+- **L1** manda in profondità il giocatore davanti.
+- **L1 + X** è l'uno-due (dai e vai).
+- Inserisci un giocatore, aspetta che arrivi in zona offensiva, poi inseriscine un altro: così porti **più uomini in area**.
+
+## Proteggi il pallone
+
+La protezione palla quest'anno è decisiva: **analogico sinistro** sempre in protezione, con il **corpo tra palla e avversario**. Se tieni il corpo "di fronte", te la rubano in due secondi. Non serve l'L2: solo analogico sinistro, il corpo sempre tra l'avversario e la palla.
+
+## Verticalizza e fai sbagliare la difesa
+
+Non giocare in **orizzontale** (la CPU avversaria ti pressa da sola). **Verticalizza**: l'obiettivo è far **switchare i difensori avversari**, perché quando escono dalla posizione si aprono i buchi. I **movimenti di corpo** (solo analogico sinistro) mandano in panico l'avversario.
+
+## Le giocate da pro: filtrante di prima e player lock
+
+- **Filtrante di prima** (la giocata forte dell'anno): L1 per mandare in profondità, poi **triangolo** (passaggio incisivo) **di prima** sul giocatore lanciato. Devastante in contropiede.
+- **Player lock**: attivalo nelle impostazioni ("aggancia giocatori"). Premi **entrambi gli analogici**, mandi in profondità il giocatore che vuoi e poi servi il triangolo. Ottimo nei contropiedi.
+
+> 💡 **PlayStyle più delle statistiche:** senza i PlayStyle giusti (**Tiki-Taka** e **Incisivo/Trivela**) anche 99 di passaggio non ti fa fare il filtrante di prima. Cerca giocatori con quei PlayStyle: valgono più di tanti punti statistica.
+
+## I 3 errori che ti costano le partite
+
+1. **Correre col pallone:** in corsa la palla si stacca dai piedi e ti aggrediscono. Cammina o usa **R1** (tocco tecnico), così resta incollata.
+2. **Triangolo a caso:** il triangolo è un filtrante in profondità, non un passaggio normale. Se lo usi per un passaggio semplice lo sbagli e prendi il contropiede. Usalo **solo dopo** aver mandato in profondità con L1.
+3. **Tiro assistito:** il gioco è già "scriptato"; col tiro assistito la CPU sceglie angolo e potenza e ti penalizza. Passa a **semi-assistito**: più potenza, e l'angolo lo decidi tu.
+
+## Riepilogo
+
+> **✓ DA FARE**
+> — In difesa: marca i mediani con l'attaccante e copri le linee con l'analogico destro
+> — Aggredisci (corsa + contrasto) col giocatore dietro la linea palla quando l'avversario è ingabbiato
+> — Temporeggia restando in posizione, dopo esserti messo sulla linea del passaggio
+> — In attacco: non correre col pallone, fai inserire i giocatori (L1 / L1+X), proteggi palla con l'analogico sinistro
+> — Verticalizza e usa il filtrante di prima con i PlayStyle giusti (Tiki-Taka + Incisivo)
+>
+> **✕ DA EVITARE**
+> — Andare addosso al portatore quando sei da solo (ti salta)
+> — Aggredire col difensore centrale (apri buchi)
+> — Temporeggiare correndo all'indietro (regali campo)
+> — Correre col pallone, usare il triangolo a caso, tenere il tiro assistito`,
+    en: {
+      title: "How to Play EA FC: the Coach's Guide (Defending & Attacking)",
+      description:
+        "Fabio Denuzzo's complete guide to playing EA FC: defending (distances, pressing, switching), attacking (runs, first-time through balls) and the mistakes to avoid.",
+      excerpt:
+        "The complete guide to actually playing EA FC: defending (distances, pressing, switching), attacking (runs, first-time through balls) and mistakes to avoid.",
+      category: "Denuzzo School",
+      dateLabel: "18 June 2026",
+      heroAlt:
+        "Coach Fabio Denuzzo's EA FC guide: a tactical board with defending and attacking, esports style",
+      body: `Welcome to the **first episode of the Denuzzo School**. What separates someone stuck in Division 10 from someone who climbs isn't tricks: it's the **fundamentals**. Across years of competition, two World Cups and shirts like Juventus and Milan, I learned what really matters in EA FC. This is the complete guide: how to defend, how to attack and the mistakes that ruin your games. Theory first, then practice.
+
+## Defending: distances
+
+The most important defensive concept is **distances**: the space between the opponent's ball carrier and your nearest player.
+
+- If you're **alone** near the opponent, **don't rush in**: one switch of play and he beats you. Instead, **mark the passing lanes**, not the ball.
+- Above all, mark the **central midfielders** with your striker, not the centre-backs: the opponent's first pass almost always goes to the midfielder or full-back. Shut the midfielder and you force him onto the full-back, where defending is easier.
+
+![EA FC defending diagram: distances and covering the passing lanes](/img/articles/come-giocare-ea-fc-guida-1.jpg)
+
+## Pressing and switching
+
+When the opponent is **boxed in** (few or no passing options), you **press**. Pressing isn't containing: it means **running at him (R2) and tackling**. Golden rule: **press with the player behind the line of the ball** (usually wingers or the striker) and leave the centre-back to the CPU. Press with your centre-back and miss, and you open a huge hole.
+
+To cover the lanes you must **switch** well:
+- **Right stick** = move your selection to the player you want, to cover the lanes. This is what separates a Division 10 from a pro.
+- **L1** = gives you the player nearest the ball. Use it to **press** when you're already close, not to choose who marks.
+- Reference point: the player with the **red triangle** above his head.
+
+> 💡 **The practical rule:** cover with the right stick; when the "little cage" forms around the opponent, press L1 and run in to tackle.
+
+## Containing without giving up space
+
+Classic mistake: containing while backpedaling. **No.** Containing is **L2+R2 while holding your position**, like a wall: the opponent comes at you and you win the ball or intercept the pass. Backpedal and you give up space and your team gets pinned back.
+
+The right sequence: **run first** to get onto the passing lane, **then** contain. Containing off the passing lane is useless.
+
+> ⚠️ **Tackle yes, X sparingly:** the tackle (run in) is for pressing. Use **X** (advanced defending) only shoulder to shoulder or out wide, on a player who's sprinting. Mistime the X or the tackle and you open a hole.
+
+## Attacking: make the ball run, not you
+
+The number-one attacking mistake: grabbing the ball and running. **You don't run with the ball.** Make your players run **without** it:
+
+- **L1** sends the player ahead of you in behind.
+- **L1 + X** is the one-two (give and go).
+- Trigger one run, wait for him to reach the attacking zone, then trigger another: that's how you get **more men in the box**.
+
+## Shield the ball
+
+Shielding matters this year: **left stick** always in protection, with your **body between the ball and the opponent**. Hold your body "facing" him and you lose it in two seconds. You don't need L2: just the left stick, body always between opponent and ball.
+
+## Go vertical and make the defense slip
+
+Don't play **sideways** (the CPU presses you on its own). **Go vertical**: the goal is to make the **opponent's defenders switch**, because when they leave their spot the gaps open. **Body feints** (left stick only) send the opponent into a panic.
+
+## The pro plays: first-time through ball and player lock
+
+- **First-time through ball** (the strong play of the year): L1 to send a man in behind, then a **first-time triangle** (incisive pass) to the runner. Devastating on the counter.
+- **Player lock**: turn it on in settings ("lock to player"). Press **both sticks**, send the player you want in behind, then feed the triangle. Great on counters.
+
+> 💡 **PlayStyles over stats:** without the right PlayStyles (**Tiki Taka** and **Incisive/Trivela**) even 99 passing won't pull off the first-time through ball. Look for players with those PlayStyles: they're worth more than plenty of stat points.
+
+## The 3 mistakes that cost you games
+
+1. **Running with the ball:** at a sprint the ball comes off your feet and you get pressed. Walk or use **R1** (knock-on), so it stays glued.
+2. **Random triangle:** the triangle is a through ball in behind, not a normal pass. Use it for a simple pass and you'll misfire and get countered. Use it **only after** sending a man in behind with L1.
+3. **Assisted shooting:** the game is already "scripted"; with assisted shooting the CPU picks the angle and power and works against you. Switch to **semi-assisted**: more power, and you choose the angle.
+
+## Summary
+
+> **✓ DO**
+> — Defending: mark the midfielders with your striker and cover the lanes with the right stick
+> — Press (run + tackle) with the player behind the line of the ball when the opponent is boxed in
+> — Contain while holding your position, after getting onto the passing lane
+> — Attacking: don't run with the ball, trigger runs (L1 / L1+X), shield with the left stick
+> — Go vertical and use the first-time through ball with the right PlayStyles (Tiki Taka + Incisive)
+>
+> **✕ DON'T**
+> — Rush the ball carrier when you're alone (he beats you)
+> — Press with your centre-back (you open holes)
+> — Contain while backpedaling (you give up space)
+> — Run with the ball, use the triangle randomly, keep assisted shooting`,
+    },
+  },
+  {
     slug: "hall-of-fame-carte-fc27",
     title: "Hall of Fame: la nuova classe di carte testata per FC 27",
     description:

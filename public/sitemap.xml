@@ -61,6 +61,16 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://denuzzogaming.com/newsletter/come-giocare-ea-fc-guida</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://denuzzogaming.com/en/newsletter/come-giocare-ea-fc-guida</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://denuzzogaming.com/newsletter/hall-of-fame-carte-fc27</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>

@@ -22,9 +22,13 @@ export default function Newsletter() {
   const [cat, setCat] = useState(blogPageIt.categories[0]);
 
   const lang = useLang();
-  const filtered = cat === blogPageIt.categories[0] ? articles : articles.filter((a) => a.category === cat);
-  const latest = articles[0];
+  // La Newsletter mostra solo news/leak: le guide "come si gioca" vivono nella sezione Scuola Denuzzo.
+  const news = articles.filter((a) => a.category !== "Scuola Denuzzo");
+  const filtered = cat === blogPageIt.categories[0] ? news : news.filter((a) => a.category === cat);
+  const latest = news[0];
   const lv = latest ? articleView(latest, lang) : null;
+  // Scuola Denuzzo: le guide "come si gioca" (sezione dedicata dentro la Newsletter).
+  const guides = articles.filter((a) => a.category === "Scuola Denuzzo");
 
   return (
     <>
@@ -109,6 +113,53 @@ export default function Newsletter() {
           </div>
         </section>
       )}
+
+      {/* SCUOLA DENUZZO — sezione delle guide "come si gioca" */}
+      {guides.length > 0 && (
+        <section className="pt-[clamp(40px,6vh,64px)]" id="scuola-denuzzo">
+          <div className={wrap}>
+            <div className="mb-8 fade-up">
+              <span className="section-label">{lang === "en" ? "Denuzzo School" : "Scuola Denuzzo"}</span>
+              <h2 className="text-[clamp(1.8rem,4vw,2.8rem)]">{lang === "en" ? "Learn to play EA FC" : "Impara a giocare a EA FC"}</h2>
+              <p className={`${lead} mt-3`}>
+                {lang === "en"
+                  ? "The coach's guides: defending, attacking and fundamentals, explained simply."
+                  : "Le guide del coach: difesa, attacco e fondamentali, spiegati semplice."}
+              </p>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+              {guides.map((a) => {
+                const av = articleView(a, lang);
+                return (
+                  <L key={a.slug} to={`/newsletter/${a.slug}`} className="card flex flex-col no-underline group">
+                    {a.heroImage && (
+                      <div className="mb-4 aspect-video rounded-[10px] overflow-hidden border border-line-2 bg-card">
+                        <img
+                          src={a.heroImage}
+                          alt={av.heroAlt || av.title}
+                          loading="lazy"
+                          className="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.06]"
+                        />
+                      </div>
+                    )}
+                    <div className="flex items-center justify-between mb-3">
+                      <span className="font-mono text-[11px] tracking-[.1em] uppercase text-gold">{lang === "en" ? "Guide" : "Guida"}</span>
+                      {a.badge && <span className="inline-flex items-center px-2.5 py-0.5 font-display text-[10px] font-bold tracking-[.1em] uppercase rounded-full bg-red text-white">{a.badge}</span>}
+                    </div>
+                    <h3 className="text-[1.2rem] leading-snug mb-3 text-ink group-hover:text-gold transition-colors">{av.title}</h3>
+                    <p className="text-[.92rem] text-ink-2 mb-4 flex-1">{av.excerpt}</p>
+                    <div className="flex items-center gap-3 font-mono text-[11px] text-muted">
+                      <span>{av.dateLabel}</span><span>·</span><span>{a.readingTime}</span>
+                    </div>
+                  </L>
+                );
+              })}
+            </div>
+          </div>
+        </section>
+      )}
+
+      <div className="gold-sep" />
 
       {/* GRIGLIA ARTICOLI */}
       <section className={section} id="articoli">
