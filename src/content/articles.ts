@@ -30,6 +30,146 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "a-scuola-di-coaching-3",
+    title: "A scuola di coaching #3: leggere la partita e l'avversario (Weekend League)",
+    description:
+      "Episodio 3 della Scuola Denuzzo: come leggere la partita e l'avversario in Weekend League su EA FC. Fuorigioco al kickoff, attaccare il fondo, gestire le partite scriptate e rimontare. Con video e minuti cliccabili.",
+    category: "Scuola Denuzzo",
+    date: "2026-06-18",
+    dateLabel: "18 Giugno 2026",
+    readingTime: "8 min",
+    badge: "EPISODIO 3",
+    youtubeId: "Bzcj1k6EF5Y",
+    heroImage: "/img/articles/a-scuola-di-coaching-3-hero.jpg",
+    heroAlt:
+      "A scuola di coaching #3 con Fabio Denuzzo: lavagna tattica EA FC, leggere la partita e l'avversario",
+    excerpt:
+      "Il match IQ da ex pro: leggi l'avversario, usa il fuorigioco al kickoff, attacca il fondo per aprire la difesa e cerca il gol più sicuro nelle partite scriptate. Video sincronizzato coi minuti.",
+    body: `Benvenuto nel **terzo episodio della Scuola Denuzzo**. Stavolta non è solo lavagna: ti porto dentro la mia testa durante una partita di **Weekend League**. Il vero coaching non è solo la tecnica, è la **lettura**: capire chi hai davanti e decidere come batterlo ([4:06](https://www.youtube.com/watch?v=Bzcj1k6EF5Y&t=246s)). In quella partita sono partito male e l'ho vinta 4-3 al 90°, leggendo l'avversario. Qui sopra trovi il video completo: i minuti nel testo sono cliccabili e ti portano al punto esatto.
+
+## 1. Leggi l'avversario prima del fischio
+
+Appena entri, guarda la [rosa avversaria](https://www.youtube.com/watch?v=Bzcj1k6EF5Y&t=255s): difesa e attacco. Una difesa con buoni centrali regge bene; un attacco non clamoroso ti dice dove puoi rischiare meno. Sembra un'analisi banale, ma ti orienta su come impostare la partita.
+
+![Lavagna coaching EA FC, lettura: analizza la rosa, attacca il fondo, scaletta fondo-centrocampista-driven, cerca il gol piu sicuro](/img/articles/a-scuola-di-coaching-3-1.jpg)
+
+## 2. Il fuorigioco al calcio d'inizio
+
+Al [kickoff](https://www.youtube.com/watch?v=Bzcj1k6EF5Y&t=273s), tuo o suo, alza la difesa e spamma il **fuorigioco**: tiene la squadra compatta e impedisce all'avversario di arrivare in area subito dopo il fischio, che è il momento più pericoloso. È il modo più semplice per non farti schiacciare. Non esagerare però ([11:43](https://www.youtube.com/watch?v=Bzcj1k6EF5Y&t=703s)): usalo al kickoff e nei momenti giusti, non per tutta la partita.
+
+![Lavagna coaching EA FC, difesa: fuorigioco al kickoff, temporeggia e raddoppia, non cercare il contatto fisico, switcha bene](/img/articles/a-scuola-di-coaching-3-2.jpg)
+
+## 3. Capisci come switcha l'avversario
+
+Osserva come [cambia giocatore in difesa](https://www.youtube.com/watch?v=Bzcj1k6EF5Y&t=344s). Se non switcha i difensori e si limita a prendere i mediani, a volte trascinandosi dietro i giocatori, ha un punto debole preciso: quando [arrivi sul fondo e la sua squadra si schiaccia](https://www.youtube.com/watch?v=Bzcj1k6EF5Y&t=391s), fa fatica a difendere. Quel giocatore lo punisci proprio lì.
+
+## 4. Attacca il fondo per aprire la difesa
+
+Contro chi non switcha, e contro una CPU difensiva forte, l'unico modo è [arrivare sul fondo](https://www.youtube.com/watch?v=Bzcj1k6EF5Y&t=420s): così costringi la difesa ad aprirsi e crei l'occasione. La **scaletta** che funziona ([13:33](https://www.youtube.com/watch?v=Bzcj1k6EF5Y&t=813s)): arriva sul fondo, scarica al centrocampista, poi **driven** per entrare in area più veloce e ridurre l'aiuto della CPU avversaria.
+
+## 5. Partita "scriptata": cerca il gol più sicuro
+
+Quando senti che la partita è [scriptata](https://www.youtube.com/watch?v=Bzcj1k6EF5Y&t=676s) (la CPU avversaria intercetta tutto), cambia obiettivo: non il tiro spettacolare, ma il **gol più sicuro**. Niente conclusioni col piede debole o con una finalizzatrice scarsa, perché in quelle partite il portiere fa il miracolo o prendi il palo. La lucidità da ex pro è scegliere la giocata ad alta percentuale, non quella bella.
+
+## 6. Difendi sotto pressione senza regalare nulla
+
+Quando l'avversario ha una [CPU difensiva forte](https://www.youtube.com/watch?v=Bzcj1k6EF5Y&t=857s) e tu sei inferiore fisicamente:
+
+- **Temporeggia e raddoppia**: hai tempo, non buttarti.
+- **Non cercare il contatto fisico** se sei più debole: ti distrugge in due secondi. Punta l'esterno e gioca sullo spazio.
+- **Switcha bene** ([16:50](https://www.youtube.com/watch?v=Bzcj1k6EF5Y&t=1010s)): un solo switch sbagliato e prendi gol. Prendi il giocatore giusto, non il difensore a caso.
+
+## 7. Rimontare: alza la profondità e pressa mirato
+
+Se devi rimontare, [aumenta la profondità](https://www.youtube.com/watch?v=Bzcj1k6EF5Y&t=948s) per allungare la squadra avversaria, e pressa in modo mirato il portatore senza scoprirti. Spesso è da lì che arriva il gol del pareggio o del sorpasso.
+
+## Riepilogo
+
+> **✓ DA FARE**
+> — Leggi la rosa e come switcha l'avversario, prima e durante
+> — Fuorigioco al kickoff per restare compatto
+> — Attacca il fondo (scaletta: fondo, centrocampista, driven) per aprire la difesa
+> — In partita scriptata cerca il gol più sicuro
+> — Temporeggia, raddoppia, switcha pulito; alza la profondità per rimontare
+>
+> **✕ DA EVITARE**
+> — Cercare il contatto fisico quando sei inferiore
+> — Tirare col piede debole nelle partite scriptate
+> — Switchare a caso (un errore = gol)
+> — Spammare il fuorigioco per tutta la partita
+
+## Prossimo episodio
+
+La lettura della partita è quello che divide chi si ferma e chi sale: non servono solo i piedi, serve la testa. Continua a seguire la **Scuola Denuzzo**, nei prossimi episodi mettiamo in pratica questi concetti partita dopo partita.`,
+    en: {
+      title: "Coaching School #3: How to Read the Game in EA FC (Weekend League)",
+      description:
+        "Episode 3 of Denuzzo School: how to read the game and your opponent in EA FC Weekend League. Offside trap at kickoff, attacking the byline, handling scripted games and comebacks. With video and clickable timestamps.",
+      excerpt:
+        "Pro-level match IQ: read your opponent, use the offside trap at kickoff, attack the byline to open the defence, and go for the safest goal in scripted games. Video synced to the timestamps.",
+      category: "Denuzzo School",
+      dateLabel: "June 18, 2026",
+      heroAlt:
+        "Coaching School #3 with Fabio Denuzzo: EA FC tactics whiteboard, reading the game and the opponent",
+      body: `Welcome to the **third episode of Denuzzo School**. This time it is not just the whiteboard: I take you inside my head during a **Weekend League** game. Real coaching is not only the technique, it is the **reading**: understanding who you are facing and deciding how to beat them ([4:06](https://www.youtube.com/watch?v=Bzcj1k6EF5Y&t=246s)). In that match I started badly and won it 4-3 at the 90th minute, by reading my opponent. The full video is above: the timestamps in the text are clickable and jump to the exact moment.
+
+## 1. Read your opponent before kickoff
+
+As soon as you go in, look at the [opponent's squad](https://www.youtube.com/watch?v=Bzcj1k6EF5Y&t=255s): defence and attack. A defence with good centre-backs holds up well; an attack that is not scary tells you where you can take fewer risks. It seems a trivial analysis, but it guides how you set up the game.
+
+![EA FC coaching whiteboard, reading: analyse the squad, attack the byline, the play fondo-midfielder-driven, go for the safest goal](/img/articles/a-scuola-di-coaching-3-1.jpg)
+
+## 2. The offside trap at kickoff
+
+At [kickoff](https://www.youtube.com/watch?v=Bzcj1k6EF5Y&t=273s), yours or theirs, push your line up and spam the **offside trap**: it keeps the team compact and stops the opponent from reaching your box right after the whistle, which is the most dangerous moment. It is the simplest way to avoid getting pinned back. Do not overdo it though ([11:43](https://www.youtube.com/watch?v=Bzcj1k6EF5Y&t=703s)): use it at kickoff and at the right moments, not for the whole game.
+
+![EA FC coaching whiteboard, defending: offside trap at kickoff, contain and double up, do not seek physical contact, switch well](/img/articles/a-scuola-di-coaching-3-2.jpg)
+
+## 3. Read how your opponent switches
+
+Watch how they [change player on defence](https://www.youtube.com/watch?v=Bzcj1k6EF5Y&t=344s). If they do not switch the defenders and just grab the midfielders, sometimes dragging players out of shape, they have a clear weakness: when you [get to the byline and their team gets pinned back](https://www.youtube.com/watch?v=Bzcj1k6EF5Y&t=391s), they struggle to defend. That is exactly where you punish that kind of player.
+
+## 4. Attack the byline to open the defence
+
+Against someone who does not switch, and against a strong defensive CPU, the only way is to [get to the byline](https://www.youtube.com/watch?v=Bzcj1k6EF5Y&t=420s): you force the defence to open up and you create the chance. The **play** that works ([13:33](https://www.youtube.com/watch?v=Bzcj1k6EF5Y&t=813s)): get to the byline, lay it off to the midfielder, then a **driven pass** to get into the box faster and cut down the opponent's CPU help.
+
+## 5. A "scripted" game: go for the safest goal
+
+When you feel the game is [scripted](https://www.youtube.com/watch?v=Bzcj1k6EF5Y&t=676s) (the opponent's CPU intercepts everything), change your goal: not the spectacular shot, but the **safest goal**. No finishes with the weak foot or a poor finisher, because in those games the keeper makes the save or you hit the post. The pro-level composure is choosing the high-percentage play, not the pretty one.
+
+## 6. Defend under pressure without giving anything away
+
+When the opponent has a [strong defensive CPU](https://www.youtube.com/watch?v=Bzcj1k6EF5Y&t=857s) and you are physically weaker:
+
+- **Contain and double up**: you have time, do not lunge.
+- **Do not seek physical contact** if you are weaker: it destroys you in two seconds. Target the wing and play on the space.
+- **Switch well** ([16:50](https://www.youtube.com/watch?v=Bzcj1k6EF5Y&t=1010s)): a single wrong switch and you concede. Pick the right player, not a random defender.
+
+## 7. Comebacks: push the depth and press with purpose
+
+If you need to come back, [increase the depth](https://www.youtube.com/watch?v=Bzcj1k6EF5Y&t=948s) to stretch the opposing team, and press the ball carrier with purpose without overcommitting. That is often where the equaliser or the winner comes from.
+
+## Recap
+
+> **✓ DO**
+> — Read the squad and how the opponent switches, before and during
+> — Offside trap at kickoff to stay compact
+> — Attack the byline (the play: byline, midfielder, driven) to open the defence
+> — In a scripted game go for the safest goal
+> — Contain, double up, switch cleanly; push the depth to come back
+>
+> **✕ AVOID**
+> — Seeking physical contact when you are weaker
+> — Shooting with the weak foot in scripted games
+> — Switching randomly (one mistake = a goal)
+> — Spamming the offside trap for the whole game
+
+## Next episode
+
+Reading the game is what separates those who stall from those who climb: it is not just the feet, it is the head. Keep following **Denuzzo School**, in the next episodes we put these concepts into practice game after game.`,
+    },
+  },
+  {
     slug: "a-scuola-di-coaching-2",
     title: "A scuola di coaching #2: come migliorare a EA FC (la sessione con Luca)",
     description:
