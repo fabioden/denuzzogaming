@@ -114,7 +114,7 @@ function metaBlock(r) {
   const d = esc(r.description);
   const u = esc(r.url);
   const im = esc(img);
-  const rh = 'data-rh="true"';
+  const rh = 'data-prerender="true"';
   const lines = [
     `<title ${rh}>${t}</title>`,
     `<meta ${rh} name="description" content="${d}" />`,
