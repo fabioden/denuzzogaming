@@ -47,6 +47,17 @@ export default function Article() {
           mainEntityOfPage: `https://denuzzogaming.com/newsletter/${article.slug}`,
           image: heroUrl,
           articleSection: v.category,
+          ...(article.youtubeId && {
+            video: {
+              "@type": "VideoObject",
+              name: v.title,
+              description: v.description,
+              thumbnailUrl: heroUrl,
+              uploadDate: article.date,
+              contentUrl: `https://www.youtube.com/watch?v=${article.youtubeId}`,
+              embedUrl: `https://www.youtube.com/embed/${article.youtubeId}`,
+            },
+          }),
         }}
       />
 
@@ -70,6 +81,19 @@ export default function Article() {
             alt={v.heroAlt || v.title}
             className="w-full rounded-xl border border-line mb-10"
           />
+        )}
+
+        {article.youtubeId && (
+          <div className="relative w-full aspect-video rounded-xl overflow-hidden border border-line mb-10">
+            <iframe
+              className="absolute inset-0 w-full h-full"
+              src={`https://www.youtube-nocookie.com/embed/${article.youtubeId}`}
+              title={v.title}
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            />
+          </div>
         )}
 
         <div className="article-body">

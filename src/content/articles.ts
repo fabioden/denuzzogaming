@@ -13,6 +13,7 @@ export type Article = {
   badge?: string;
   heroImage?: string; // es. "/img/articles/<slug>-hero.jpg"
   heroAlt?: string; // testo alternativo (SEO/accessibilità)
+  youtubeId?: string; // se presente, mostra il player YouTube sotto la copertina (es. guide video)
   excerpt: string;
   body: string;
   // Versione inglese (opzionale): se assente, l'articolo resta solo italiano.
@@ -28,6 +29,170 @@ export type Article = {
 };
 
 export const articles: Article[] = [
+  {
+    slug: "a-scuola-di-coaching-2",
+    title: "A scuola di coaching #2: come migliorare a EA FC (la sessione con Luca)",
+    description:
+      "Episodio 2 di A scuola di coaching: le impostazioni giuste, la squadra e i concetti di difesa e attacco di EA FC spiegati a Luca, dalla Divisione 7 verso l'Elite. Con video e minuti cliccabili.",
+    category: "Scuola Denuzzo",
+    date: "2026-06-18",
+    dateLabel: "18 Giugno 2026",
+    readingTime: "8 min",
+    badge: "EPISODIO 2",
+    youtubeId: "PGyTRYyDj9Y",
+    heroImage: "/img/articles/a-scuola-di-coaching-2-hero.jpg",
+    heroAlt:
+      "A scuola di coaching #2 con Fabio Denuzzo: lavagna tattica EA FC, dalla Divisione 7 all'Elite",
+    excerpt:
+      "Coaching EA FC con Luca: impostazioni, tattiche, difesa (spamma X, switcha, fai togliere palla alla CPU) e attacco (fraseggio L1+X, movimenti di corpo). Video sincronizzato coi minuti.",
+    body: `Benvenuto nel **secondo episodio della Scuola Denuzzo**. Torna *A scuola di coaching*, la serie in cui prendo un giocatore reale e provo a portarlo dalle divisioni basse fino all'Elite. Questa volta tocca a **Luca**, che riparte dalla [Divisione 7](https://www.youtube.com/watch?v=PGyTRYyDj9Y&t=183s). Qui sopra trovi il video completo: i minuti nel testo sono cliccabili e ti portano al punto esatto della spiegazione.
+
+## Le impostazioni di gioco
+
+Prima ancora di scendere in campo, le [impostazioni](https://www.youtube.com/watch?v=PGyTRYyDj9Y&t=229s) fanno una differenza enorme.
+
+- **Tiro semi-assistito / di precisione** ([4:05](https://www.youtube.com/watch?v=PGyTRYyDj9Y&t=245s)): quest'anno che non c'è il timed finishing, il tiro di precisione ti dà più potenza e più controllo sulla mira.
+- **Difesa avanzata** ([4:12](https://www.youtube.com/watch?v=PGyTRYyDj9Y&t=252s)): è la scelta giusta. Con la difesa avanzata la **X** serve a fare le spallate e a vincere i contrasti spalla a spalla; con la tattica avresti solo il cerchio dosato. Quest'anno la X è molto più importante.
+- **Cambio automatico solo sulle palle alte** ([5:10](https://www.youtube.com/watch?v=PGyTRYyDj9Y&t=310s)): lascia che la CPU ti aiuti a switchare solo sui palloni alti, e tieni la **sensibilità cambio levetta intorno a 4**. Per il "prossimo giocatore" non per forza quello più vicino alla palla: spesso quello più lontano ti fa coprire meglio.
+- **Aggancia giocatore (player lock)** ([6:03](https://www.youtube.com/watch?v=PGyTRYyDj9Y&t=363s)): attivalo, serve.
+- **Visuale** ([6:16](https://www.youtube.com/watch?v=PGyTRYyDj9Y&t=376s)): consiglio la **tribuna stampa**. Vedi il campo più da vicino e leggi meglio le distanze, fondamentale quest'anno che i contrasti sono difficili. La COP è più da pro player ma ti fa sbagliare più tackle.
+
+## La squadra e le tattiche
+
+[Le tattiche](https://www.youtube.com/watch?v=PGyTRYyDj9Y&t=447s) con cui mi trovo meglio:
+
+- **Mentalità equilibrata** (non difesa alta): la cosa più sicura.
+- **Modulo 4-4-1-1 avanzato** oppure **4-2-3-1 largo**.
+- **Terzini in difensivo e stretti** ([7:46](https://www.youtube.com/watch?v=PGyTRYyDj9Y&t=466s)): aiutano tantissimo la fase difensiva, che quest'anno è più dura.
+- **Centrocampo: uno di contenimento, uno box-to-box.**
+- **Davanti: un'ala e un attaccante interno**, più l'avanzato. L'attaccante interno con i tagli dentro al campo è oro.
+
+> 💡 Scegli i giocatori per i **PlayStyle** e per come si muovono, non solo per le statistiche. Un terzino forte in fase difensiva (Intercetto, Tiki-Taka) ti salva più partite di uno veloce.
+
+## Fase difensiva: fai togliere palla alla CPU
+
+![Lavagna coaching EA FC, fase difensiva: spamma la X, switcha il terzino, temporeggia, L2 piu R1](/img/articles/a-scuola-di-coaching-2-1.jpg)
+
+Qui Luca perdeva più palloni. I concetti chiave:
+
+- **Spamma la X spalla a spalla** ([11:21](https://www.youtube.com/watch?v=PGyTRYyDj9Y&t=681s)): quando sei affiancato all'avversario sulla fascia, schiaccia la X in continuazione. Anche se ogni tanto va male non succede nulla, e il più delle volte vinci il rimpallo.
+- **Non spostare i difensori a mano** ([11:57](https://www.youtube.com/watch?v=PGyTRYyDj9Y&t=717s)): se trascini il centrale fuori posizione, prendi gol. Lascia la linea dov'è e semmai **switcha il terzino**.
+- **Switcha il terzino sugli inserimenti in profondità** ([14:36](https://www.youtube.com/watch?v=PGyTRYyDj9Y&t=876s)): quando l'avversario lancia l'esterno alle spalle del terzino, la CPU non copre bene. Seleziona tu il terzino e segui l'inserimento, manualmente.
+- **Temporeggia con la distanza giusta** ([14:08](https://www.youtube.com/watch?v=PGyTRYyDj9Y&t=848s)): né troppo vicino né troppo lontano. Troppo lontano e lo lasci giocare, troppo vicino e ti salta.
+- **Fai togliere palla alla CPU** ([23:29](https://www.youtube.com/watch?v=PGyTRYyDj9Y&t=1409s)): è il concetto più importante. Mandi un giocatore addosso al portatore (**switch + R1**) e con **L2** marchi la linea di passaggio dove pensi vada la palla. Quando arriva il raddoppio, la CPU intercetta da sola. Più switchi veloce, più crei una "gabbia" e l'avversario non capisce più come uscire.
+- **Esci coi centrali a intuire il passaggio** ([24:51](https://www.youtube.com/watch?v=PGyTRYyDj9Y&t=1491s)): sugli inserimenti da dietro, marca tu manualmente il giocatore lanciato e lascia che la CPU vada sul portatore.
+
+> ⚠️ Per ora **il contrasto a vuoto è il nemico**: molti fanno il tackle e vanno fuori tempo. Aspetta, spamma X spalla a spalla, e fai sbagliare l'avversario.
+
+## Fase offensiva: fraseggia e usa i movimenti di corpo
+
+![Lavagna coaching EA FC, fase offensiva: fraseggio L1 piu X, movimenti di corpo, proteggi palla, non verticalizzare a caso](/img/articles/a-scuola-di-coaching-2-2.jpg)
+
+- **Fraseggio L1 + X, esterno-interno** ([15:44](https://www.youtube.com/watch?v=PGyTRYyDj9Y&t=944s)): EA FC quest'anno è fraseggio. Fai girare palla, anche all'indietro, per **fuggire dalla pressione**. L'errore di Luca era cercare lo stretto in zone già marcate ([17:09](https://www.youtube.com/watch?v=PGyTRYyDj9Y&t=1029s)): lì perdi palla.
+- **Movimenti di corpo, la trottola** ([20:27](https://www.youtube.com/watch?v=PGyTRYyDj9Y&t=1227s)): solo con l'**analogico sinistro**, senza tasti. Ti giri su te stesso tenendo sempre il **corpo tra palla e avversario**. Se tieni la palla davanti te la tolgono; se proteggi col corpo e fai i micromovimenti, non te la prendono.
+- **Proteggi palla prima di concludere** ([21:06](https://www.youtube.com/watch?v=PGyTRYyDj9Y&t=1266s)): quando arrivi alla punta, proteggi col corpo, fai andare fuori tempo il difensore, poi ti giri e concludi.
+- **Non verticalizzare a caso** ([17:44](https://www.youtube.com/watch?v=PGyTRYyDj9Y&t=1064s)): Luca cerca subito il driven verso la punta, anche quando è marcata. Se il giocatore non ha il PlayStyle adatto e ci sono i mediani davanti, quel pallone non passa. **Prima crea il movimento** (uno-due L1+X) per far uscire i mediani, poi arriva il filtrante.
+- **R1 per i giocatori lenti** ([21:56](https://www.youtube.com/watch?v=PGyTRYyDj9Y&t=1316s)): con gente come Lukman, invece di correre usa il **tocco tecnico R1**: la palla resta incollata e fai lo zigzag.
+
+## Gli errori di Luca da correggere
+
+[Riepilogo della prima partita](https://www.youtube.com/watch?v=PGyTRYyDj9Y&t=1048s):
+
+> **✓ DA FARE**
+> — Spamma la X spalla a spalla e switcha bene i terzini
+> — Fai togliere palla alla CPU (switch + R1, L2 sulla linea di passaggio)
+> — Fraseggia L1+X per uscire dalla pressione, poi verticalizza
+> — Usa i movimenti di corpo e proteggi palla col corpo
+>
+> **✕ DA EVITARE**
+> — Spostare i difensori centrali a mano (gol assicurato)
+> — Verticalizzare col driven a caso verso la punta marcata
+> — Cercare i passaggi nello stretto in zone già coperte
+> — Temporeggiare troppo lontano dall'avversario
+
+## Prossimo episodio
+
+Questo è il punto di partenza di Luca: dalla Divisione 7 verso l'Elite. Nei prossimi episodi lavoriamo sugli inserimenti difensivi e sulla costruzione, e vediamo se i concetti diventano automatici in partita. Continua a seguire la **Scuola Denuzzo**.`,
+    en: {
+      title: "Coaching School #2: How to Get Better at EA FC (Luca's Session)",
+      description:
+        "Episode 2 of the coaching series: the right settings, squad building and the defending and attacking concepts of EA FC, from Division 7 toward Elite. With video and clickable timestamps.",
+      excerpt:
+        "EA FC coaching with Luca: settings, tactics, defending (spam X, switch, let the CPU win the ball) and attacking (L1+X passing, body feints). Video synced to the timestamps.",
+      category: "Denuzzo School",
+      dateLabel: "June 18, 2026",
+      heroAlt:
+        "Coaching School #2 with Fabio Denuzzo: EA FC tactics whiteboard, from Division 7 to Elite",
+      body: `Welcome to the **second episode of Denuzzo School**. *Coaching School* is back, the series where I take a real player and try to take them from the lower divisions up to Elite. This time it is **Luca**, starting again from [Division 7](https://www.youtube.com/watch?v=PGyTRYyDj9Y&t=183s). The full video is above: the timestamps in the text are clickable and jump to the exact moment.
+
+## Game settings
+
+Before you even step on the pitch, the [settings](https://www.youtube.com/watch?v=PGyTRYyDj9Y&t=229s) make a huge difference.
+
+- **Precision / semi-assisted shooting** ([4:05](https://www.youtube.com/watch?v=PGyTRYyDj9Y&t=245s)): with no timed finishing this year, precision shooting gives you more power and more control over your aim.
+- **Advanced defending** ([4:12](https://www.youtube.com/watch?v=PGyTRYyDj9Y&t=252s)): the right pick. With advanced defending the **X** button does the shoulder challenges and wins the side-by-side duels; tactical only gives you the metered circle. The X matters much more this year.
+- **Auto switch only on high balls** ([5:10](https://www.youtube.com/watch?v=PGyTRYyDj9Y&t=310s)): let the CPU help you switch only on lofted balls, and keep the **switch-stick sensitivity around 4**. For "next player", not necessarily the one closest to the ball: the farther one often gives better cover.
+- **Player lock** ([6:03](https://www.youtube.com/watch?v=PGyTRYyDj9Y&t=363s)): turn it on, you need it.
+- **Camera** ([6:16](https://www.youtube.com/watch?v=PGyTRYyDj9Y&t=376s)): I recommend **Tele Broadcast**. You see the pitch closer and read distances better, key this year when tackles are hard. The Co-op camera is more of a pro-player choice but makes you miss more tackles.
+
+## The squad and tactics
+
+[The tactics](https://www.youtube.com/watch?v=PGyTRYyDj9Y&t=447s) I get on best with:
+
+- **Balanced mentality** (not a high line): the safest option.
+- **4-4-1-1 attacking** or **4-2-3-1 wide**.
+- **Full-backs on defend and narrow** ([7:46](https://www.youtube.com/watch?v=PGyTRYyDj9Y&t=466s)): they help the defensive phase a lot, which is harder this year.
+- **Midfield: one holding, one box-to-box.**
+- **Up front: a winger and an inside forward**, plus the advanced striker. The inside forward cutting inside is gold.
+
+> 💡 Pick players for their **PlayStyles** and movement, not just the stats. A full-back who is strong defensively (Interceptor, Tiki-Taka) saves more games than a fast one.
+
+## Defending: let the CPU win the ball
+
+![EA FC coaching whiteboard, defending: spam X, switch the full-back, contain, L2 plus R1](/img/articles/a-scuola-di-coaching-2-1.jpg)
+
+This is where Luca lost most balls. The key concepts:
+
+- **Spam X side by side** ([11:21](https://www.youtube.com/watch?v=PGyTRYyDj9Y&t=681s)): when you are alongside the opponent on the wing, hammer X. Even if it sometimes goes wrong nothing happens, and most of the time you win the loose ball.
+- **Do not drag your defenders by hand** ([11:57](https://www.youtube.com/watch?v=PGyTRYyDj9Y&t=717s)): if you pull the centre-back out of position, you concede. Leave the line where it is and **switch the full-back** instead.
+- **Switch the full-back on through runs** ([14:36](https://www.youtube.com/watch?v=PGyTRYyDj9Y&t=876s)): when the opponent plays the winger in behind the full-back, the CPU does not cover well. Select the full-back yourself and track the run, manually.
+- **Contain at the right distance** ([14:08](https://www.youtube.com/watch?v=PGyTRYyDj9Y&t=848s)): not too close, not too far. Too far and you let them play, too close and they beat you.
+- **Let the CPU win the ball** ([23:29](https://www.youtube.com/watch?v=PGyTRYyDj9Y&t=1409s)): the most important concept. Send a player at the carrier (**switch + R1**) and with **L2** mark the passing lane where you think the ball is going. When the double-team arrives, the CPU intercepts on its own. The faster you switch, the more you build a "cage" and the opponent stops understanding how to get out.
+- **Step out with the centre-backs to read the pass** ([24:51](https://www.youtube.com/watch?v=PGyTRYyDj9Y&t=1491s)): on runs from deep, mark the runner manually and let the CPU go to the carrier.
+
+> ⚠️ For now the **mistimed tackle is the enemy**: many people lunge and get caught out. Wait, spam X side by side, and make the opponent make the mistake.
+
+## Attacking: pass it around and use body feints
+
+![EA FC coaching whiteboard, attacking: L1 plus X passing, body feints, shield the ball, do not force it forward](/img/articles/a-scuola-di-coaching-2-2.jpg)
+
+- **L1 + X passing, winger to inside forward** ([15:44](https://www.youtube.com/watch?v=PGyTRYyDj9Y&t=944s)): EA FC this year is about passing. Move the ball, even backwards, to **escape the pressure**. Luca's mistake was forcing tight passes into already-marked zones ([17:09](https://www.youtube.com/watch?v=PGyTRYyDj9Y&t=1029s)): that is where you lose it.
+- **Body feints, the spin** ([20:27](https://www.youtube.com/watch?v=PGyTRYyDj9Y&t=1227s)): just the **left stick**, no buttons. You spin on yourself keeping the **body between ball and opponent**. Keep the ball in front and they take it; shield with your body and do the micro-movements and they cannot.
+- **Shield before you finish** ([21:06](https://www.youtube.com/watch?v=PGyTRYyDj9Y&t=1266s)): when you reach the striker, shield with your body, make the defender mistime, then turn and finish.
+- **Do not force it forward** ([17:44](https://www.youtube.com/watch?v=PGyTRYyDj9Y&t=1064s)): Luca goes straight for the driven pass to the striker, even when marked. If the player lacks the right PlayStyle and the holding midfielders are there, that ball never gets through. **Create the movement first** (an L1+X one-two) to pull the midfielders out, then the through ball is on.
+- **R1 for slow players** ([21:56](https://www.youtube.com/watch?v=PGyTRYyDj9Y&t=1316s)): with players like Lukman, instead of sprinting use the **R1 technical dribble**: the ball stays glued and you can zigzag.
+
+## Luca's mistakes to fix
+
+[First-game recap](https://www.youtube.com/watch?v=PGyTRYyDj9Y&t=1048s):
+
+> **✓ DO**
+> — Spam X side by side and switch your full-backs well
+> — Let the CPU win the ball (switch + R1, L2 on the passing lane)
+> — Pass with L1+X to escape pressure, then go forward
+> — Use body feints and shield the ball
+>
+> **✕ AVOID**
+> — Dragging your centre-backs by hand (a goal waiting to happen)
+> — Forcing the driven pass at a marked striker
+> — Looking for tight passes in covered zones
+> — Containing too far from the opponent
+
+## Next episode
+
+This is Luca's starting point: from Division 7 toward Elite. In the next episodes we work on defensive tracking and build-up, and we see whether these concepts become automatic in-game. Keep following **Denuzzo School**.`,
+    },
+  },
   {
     slug: "come-giocare-ea-fc-guida",
     title: "Come giocare a EA FC: la guida del coach (difesa e attacco)",
