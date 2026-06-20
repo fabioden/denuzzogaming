@@ -30,6 +30,141 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "ea-fc-26-mercato-crollato",
+    title: "EA FC 26: il mercato è crollato (promo Greats of the Game)",
+    description:
+      "Greats of the Game ha fatto crollare il mercato di EA FC 26: pack weight altissimo, icone economiche, TOTS a picco. Perché è successo, i Path to Glory bruciati, gli EVO da non perdere e cosa comprare adesso.",
+    category: "Mercato",
+    date: "2026-06-20",
+    dateLabel: "20 Giugno 2026",
+    readingTime: "7 min",
+    badge: "MERCATO",
+    heroImage: "/img/articles/ea-fc-26-mercato-crollato-hero.jpg",
+    heroAlt:
+      "EA FC 26: il mercato è crollato con la promo Greats of the Game, grafico dei prezzi in picchiata",
+    excerpt:
+      "Prezzi giù oltre il 50%: icone ovunque, TOTS crollati, Path to Glory bruciati. La guida al mercato EA FC 26: cosa comprare, cosa evitare e come fare crediti nel caos.",
+    body: `La promo **Greats of the Game** ha ribaltato il mercato di EA FC 26. Il motivo è uno solo: il **pack weight** di queste carte è altissimo, escono dappertutto, e questo ha fatto crollare i prezzi di mezzo mercato. Su alcune carte parliamo di cali **oltre il 50%** in un giorno. Ecco cosa sta succedendo e, soprattutto, cosa conviene fare adesso.
+
+## Perché il mercato è crollato
+
+Quando le icone escono facilmente dai pacchetti, i prezzi scendono, e basta guardare il mercato per capirlo: uno Zinedine Zidane 97 a circa 1,5 milioni, con pagine e pagine di copie in vendita, ti dice tutto. Gareth Bale, 98 di velocità e quattro PlayStyle+, sta sotto il milione.
+
+L'effetto si è propagato a catena:
+- **Le icone costano poco**, quindi nessuno vuole più tenere carte "normali" sopravvalutate. Perché usare un centrocampista da 1,7 milioni quando con 500k prendi un'icona di valore simile?
+- **I TOTS sono crollati**: l'arrivo di un pacchetto TOTS scambiabile ha riempito il mercato. Bruno Fernandes è passato da 1,3 milioni a circa 600k in un giorno, e tante carte Team of the Season sono finite a 12k.
+- **Gli EVO si svendono**: gente che aveva evoluto un Vieira (era 6 milioni qualche settimana fa) ora cancella l'EVO, lo vende e ricompra la carta a meno.
+
+## I Path to Glory bruciati
+
+Chi aveva investito sulle carte live in vista del Mondiale si è scottato: la live di Florian Wirtz da 2 milioni è scesa a 1,2-1,3, Kvaratskhelia da circa 1,5 milioni a 900k. Se hai queste carte stai perdendo crediti, è normale.
+
+Ma non è tutto da buttare: i PTG **non escono più dai pacchetti**, quindi l'offerta non cresce. C'è ancora spazio per investire, a patto di scegliere bene. La chiave sono i **prossimi match**: cerca le carte live non ancora upgradate e con un calendario favorevole (un Araujo con Uruguay-Arabia Saudita, i portoghesi tipo Ruben Dias). Se la nazionale vince, arriva il +1 e la carta sale.
+
+## Cosa fare adesso sul mercato
+
+Regola da ex pro: **quando tutto crolla, è il momento migliore per fare crediti.** La gente si spaventa, smette di tradare e si creano affari ovunque.
+- **Bids e snipes**: è ora che fai la differenza. Un Bruno Fernandes TOTS appena packato finisce su offerte bassissime; un Harry Kane TOTS sceso da 700k a 380k lo puoi vincere a bid sui 320k e rivenderlo subito a 380-390k.
+- **Attenzione ai TOTS**: stanno ancora scendendo per l'offerta scambiabile, non riempirti la rosa pensando che siano un investimento.
+- **Carte che escono dai pacchetti oggi**: gli Star Performer (Messi, Mbappé, Haaland, Balagán e altri) lasciano i pack. Diventano rare e chi le vuole evolvere le cerca, quindi possono salire nei prossimi giorni.
+
+## Gli EVO da non perdere
+
+Il bello di questa fase sono le evoluzioni:
+- **Cameroon King** (riferimento Eto'o): 91 da attaccante, fino a 95 di tiro e chimica icona, ma costa 125k.
+- **Built for Glory**: EVO gratis, +2 overall (max 90) con bei boost di dribbling e passaggio, ottima per concatenare.
+- **Attacking Artistry** (training camp): +4 a passo, tiro, passaggio e dribbling fino a 95, più Passaggio Incisivo+. Ha un tempo di attesa di un paio di giorni.
+- **Gold Standard EVO**: è **tornato** nello store dei token (500 token). Max 92, ci infili i difensori e li porti a numeri folli (93 passo, 95 difesa, 94 fisico). Se vivi di EVO, questo è oro.
+
+## Obiettivo Africa: il JJ Okocha
+
+Tra gli obiettivi spicca quello africano, che regala il **JJ Okocha** e premi ottimi (un 95 da allenatore, gettoni, EVO forti come "Do it like Yaya"). Serve una rosa specifica (Mané, Drogba, un centrocampista ivoriano, un'ala destra egiziana e una sinistra sudafricana) e bastano sei-sette partite, molte completabili anche a difficoltà bassa. Una sola richiesta (rovesciata e tre gol a partita) va fatta a livello Campione: falla contro la squadra più scarsa possibile e la chiudi.
+
+## SBC deboli, ma il menu grind è elite
+
+Lato SBC questa settimana c'è poco di interessante: il Figo da 534k non vale, meglio mettere il tuo fodder negli **icon pick** o nei player pick 92+ di tutti i giorni. Il **menu grind** invece è ottimo: comuni oro nel 77x5, poi i rari nei pacchetti upgrade (84x2, 83+, 82+), e ti ritrovi materiale per craftare quasi tutto. C'è anche un upgrade TOTS ripetibile a 22k che, con il fodder così economico, è quasi una scommessa divertente.
+
+## Riepilogo
+
+> **✓ DA FARE**
+> — Sfrutta il crollo: bids e snipes sui TOTS svalutati per fare crediti
+> — Investi sui PTG con il calendario giusto (carte non ancora upgradate)
+> — Approfitta degli EVO: Built for Glory (gratis) e il ritorno del Gold Standard
+> — Fai l'obiettivo Africa per il JJ Okocha e gli EVO premio
+>
+> **✕ DA EVITARE**
+> — Riempirti la rosa di TOTS pensando che siano un investimento (scendono ancora)
+> — Farti prendere dal panic selling sui Path to Glory
+> — SBC costose come il Figo: il fodder rende di più negli icon/player pick
+
+Il mercato è nel caos, ma il caos è il momento di chi sa leggere i prezzi. Compra, usa, rivendi quando hai finito e tieni i crediti pronti per i prossimi affari.`,
+    en: {
+      title: "EA FC 26 Market Crash: Greats of the Game Destroyed Prices",
+      description:
+        "Greats of the Game crashed the EA FC 26 market: huge pack weight, cheap icons, TOTS tanking. Why it happened, the burned Path to Glory cards, the EVOs to grab and what to buy now.",
+      excerpt:
+        "Prices down over 50%: icons everywhere, TOTS crashed, Path to Glory burned. The EA FC 26 market guide: what to buy, what to avoid and how to make coins in the chaos.",
+      category: "Market",
+      dateLabel: "June 20, 2026",
+      heroAlt:
+        "EA FC 26 market crash with the Greats of the Game promo, price chart plummeting",
+      body: `The **Greats of the Game** promo has flipped the EA FC 26 market upside down. The reason is simple: the **pack weight** of these cards is huge, they come out everywhere, and that has crashed the prices of half the market. On some cards we are talking drops of **over 50%** in a single day. Here is what is happening and, most importantly, what is worth doing now.
+
+## Why the market crashed
+
+When icons come out of packs easily, prices just fall, and you only have to look at the market to see it: a Zinedine Zidane 97 at around 1.5 million, with pages and pages of copies for sale, tells you everything. Gareth Bale, 98 pace and four PlayStyle+, sits under a million.
+
+The effect spread like a chain:
+- **Icons are cheap**, so nobody wants to hold overpriced "normal" cards anymore. Why use a 1.7 million midfielder when 500k buys you an icon of similar value?
+- **TOTS have crashed**: a tradable TOTS pack flooded the market. Bruno Fernandes went from 1.3 million to around 600k in a day, and many Team of the Season cards ended up at 12k.
+- **EVOs are being dumped**: people who had evolved a Vieira (it was 6 million weeks ago) now wipe the EVO, sell it and buy the card back for less.
+
+## The burned Path to Glory cards
+
+Anyone who invested in live cards ahead of the World Cup got burned: Florian Wirtz's live card went from 2 million to 1.2-1.3, Kvaratskhelia from around 1.5 million to 900k. If you hold these, you are losing coins, that is normal.
+
+But it is not all to throw away: PTG cards **no longer come out of packs**, so the supply is not growing. There is still room to invest, as long as you pick well. The key is the **upcoming matches**: look for live cards not yet upgraded and with a favourable schedule (an Araujo with Uruguay vs Saudi Arabia, the Portuguese like Ruben Dias). If the nation wins, the +1 comes and the card rises.
+
+## What to do now on the market
+
+Pro rule: **when everything crashes, it is the best time to make coins.** People panic, stop trading, and deals appear everywhere.
+- **Bids and snipes**: this is where you make the difference. A freshly packed Bruno Fernandes TOTS ends up on rock-bottom bids; a Harry Kane TOTS down from 700k to 380k can be won on bid around 320k and resold straight away at 380-390k.
+- **Be careful with TOTS**: they are still dropping because of the tradable supply, do not fill your squad thinking they are an investment.
+- **Cards leaving packs today**: the Star Performers (Messi, Mbappé, Haaland, Balagán and others) leave the packs. They become rare and people who want to evolve them go looking, so they can rise over the next few days.
+
+## The EVOs not to miss
+
+The best part of this phase are the evolutions:
+- **Cameroon King** (Eto'o reference): 91 striker, up to 95 shooting and icon chemistry, but it costs 125k.
+- **Built for Glory**: free EVO, +2 overall (max 90) with nice dribbling and passing boosts, great for chaining.
+- **Attacking Artistry** (training camp): +4 to pace, shooting, passing and dribbling up to 95, plus Incisive Pass+. It has a wait time of a couple of days.
+- **Gold Standard EVO**: it is **back** in the token store (500 tokens). Max 92, you put defenders in and take them to crazy numbers (93 pace, 95 defending, 94 physical). If you live for EVOs, this is gold.
+
+## Africa objective: the JJ Okocha
+
+Among the objectives, the African one stands out, giving the **JJ Okocha** and great rewards (a 95 manager item, tokens, strong EVOs like "Do it like Yaya"). It needs a specific squad (Mané, Drogba, an Ivorian midfielder, an Egyptian right winger and a South African left winger) and six or seven games are enough, many completable even on low difficulty. Only one task (a bicycle kick and three goals per match) has to be done on Legendary: do it against the weakest possible team and you will close it.
+
+## Weak SBCs, but the menu grind is elite
+
+On the SBC side there is little of interest this week: the 534k Figo is not worth it, better to put your fodder into the daily **icon picks** or 92+ player picks. The **menu grind** instead is excellent: gold commons into the 77x5, then rares into the upgrade packs (84x2, 83+, 82+), and you end up with material to craft almost anything. There is also a repeatable TOTS upgrade at 22k that, with fodder this cheap, is almost a fun gamble.
+
+## Recap
+
+> **✓ DO**
+> — Use the crash: bids and snipes on devalued TOTS to make coins
+> — Invest in PTG cards with the right schedule (not yet upgraded)
+> — Take the EVOs: Built for Glory (free) and the return of Gold Standard
+> — Do the Africa objective for the JJ Okocha and the reward EVOs
+>
+> **✕ AVOID**
+> — Filling your squad with TOTS thinking they are an investment (still dropping)
+> — Panic selling on the Path to Glory cards
+> — Expensive SBCs like Figo: fodder pays off more in icon/player picks
+
+The market is in chaos, but chaos is the moment for those who can read prices. Buy, use, resell when you are done, and keep coins ready for the next deals.`,
+    },
+  },
+  {
     slug: "a-scuola-di-coaching-3",
     title: "A scuola di coaching #3: leggere la partita e l'avversario (Weekend League)",
     description:
