@@ -30,6 +30,111 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "ea-fc-27-data-uscita-novita",
+    title: "EA FC 27: data d'uscita, novità e leak (tutto quello che sappiamo)",
+    description:
+      "EA FC 27: data d'uscita attesa (25 settembre 2026), reveal e pre-order di luglio, piattaforme, edizioni e prezzi, cover, e tutte le novità e i leak (FC The Grounds open-world, Ultimate Team, Career Mode). Pagina aggiornata.",
+    category: "News",
+    date: "2026-06-21",
+    dateLabel: "21 Giugno 2026",
+    readingTime: "6 min",
+    badge: "FC 27",
+    heroImage: "/img/articles/ea-fc-27-data-uscita-novita-hero.jpg",
+    heroAlt:
+      "EA FC 27: copertina con data d'uscita, novità e leak, stadio e carte olografiche",
+    excerpt:
+      "Data d'uscita, piattaforme, edizioni, cover e le novità più chiacchierate (open-world The Grounds, carte olografiche, Career Mode): tutto quello che sappiamo su EA FC 27, tra confermato e rumor.",
+    body: `**EA FC 27 si avvicina.** Il nuovo capitolo dovrebbe uscire a settembre 2026 e nelle prossime settimane EA inizierà a togliere i veli. Qui trovi tutto quello che sappiamo finora, diviso tra **confermato** e **rumor**, così non ti fai un'idea sbagliata. Aggiorno questa pagina a ogni novità fino al lancio.
+
+> ⚠️ Buona parte delle novità arriva da leak e indiscrezioni, non da annunci ufficiali. Le ho segnalate come "rumor": prendile con le pinze finché EA non conferma.
+
+## Quando esce EA FC 27
+
+La data attesa è il **25 settembre 2026**, con **accesso anticipato intorno al 18 settembre** per chi prende le edizioni Ultimate. Attenzione: non è ancora un annuncio ufficiale di EA. Il **reveal vero e proprio è previsto per la settimana della finale dei Mondiali** (a metà luglio), e i **pre-order dovrebbero aprire il 15 luglio 2026**. Da lì in poi arriveranno trailer, cover e dettagli concreti.
+
+## Su quali piattaforme
+
+EA FC 27 è atteso su **PS5 e PS4, Xbox Series X|S e Xbox One, Nintendo Switch e Switch 2, PC (EA App, Steam ed Epic Games) e Amazon Luna**. In pratica, le stesse piattaforme di FC26.
+
+## Edizioni e prezzo
+
+Dovrebbero esserci tre edizioni: **Standard, Ultimate e Ultimate+**. I prezzi tipici al lancio sono intorno a **79,99€ per la Standard** e **109,99€ per la Ultimate**. Come sempre, le edizioni superiori danno l'accesso anticipato e i bonus per Ultimate Team.
+
+## La cover
+
+Il nome più chiacchierato per la copertina è **Ousmane Dembélé** (rumor): comparirebbe già nei menu e nei materiali delle prime build. La conferma dovrebbe arrivare insieme al pre-order.
+
+## Le novità più chiacchierate (rumor)
+
+Qui siamo nel campo dei leak, quindi tutto da confermare. Ma il quadro è interessante:
+
+- **FC The Grounds:** la novità più grossa. Sarebbe una **modalità open-world / hub sociale** dove esplori, fai mini-giochi (Rush, foot tennis) e partite casual. Sarebbe il primo open-world di un gioco EA Sports.
+- **Ultimate Team:** SBC **completabili con un click**, possibilità di mettere **11 doppioni dello stesso giocatore** in una SBC (finalmente), e nuove **carte olografiche** con autografi e numeri seriali limitati per icone ed eroi.
+- **Career Mode:** una revisione profonda, con **mercato trasferimenti rifatto** (si parla di buy-back clause), settore giovanile, tournée pre-stagione e management internazionale.
+- **Gameplay:** motore ancora **Frostbite**, ma con AI più intelligente, **difesa ribilanciata** dopo le lamentele su FC26 e stop ad alcuni exploit (tipo le uscite a vuoto del portiere).
+- **Ritorni:** il **Camp Nou**, la nazionale del **Brasile**, l'AFC Asian Cup e **Alex Hunter** di "The Journey", più nuove icone.
+
+## Il parere del coach
+
+Da chi ci gioca a livello competitivo, la notizia che aspetto di più è la **difesa ribilanciata**. Su FC26 difendere è stato un calvario per tanti, e se EA sistema i contrasti e le coperture, il gioco diventa subito più equo e divertente. Le novità su Ultimate Team (un click sulle SBC, i doppioni utilizzabili) sono di buon senso e ci fanno solo risparmiare tempo. Sull'open-world resto curioso ma prudente: bello sulla carta, conta come lo realizzano.
+
+Il consiglio? Non spendere crediti o soldi su FC26 pensando al lungo periodo: a settembre si riparte da zero. Goditi questa fine di FC26 e tieni gli occhi su FC27.
+
+## Aggiornamenti
+
+Aggiorno questa pagina ogni volta che esce una notizia ufficiale: cover, trailer, data definitiva, gameplay deep dive. Torna a controllarla nelle prossime settimane.`,
+    en: {
+      title: "EA FC 27: Release Date, Features and Leaks (Everything We Know)",
+      description:
+        "EA FC 27: expected release date (September 25, 2026), July reveal and pre-orders, platforms, editions and prices, the cover, and all the features and leaks (FC The Grounds open-world, Ultimate Team, Career Mode). Updated page.",
+      excerpt:
+        "Release date, platforms, editions, cover and the most talked-about features (open-world The Grounds, holographic cards, Career Mode): everything we know about EA FC 27, between confirmed and rumor.",
+      category: "News",
+      dateLabel: "June 21, 2026",
+      heroAlt:
+        "EA FC 27: cover with release date, features and leaks, stadium and holographic cards",
+      body: `**EA FC 27 is coming.** The new edition should release in September 2026 and EA will start lifting the curtain over the coming weeks. Here is everything we know so far, split between **confirmed** and **rumor**, so you do not get the wrong idea. I update this page with every new development until launch.
+
+> ⚠️ A lot of this comes from leaks and rumors, not official announcements. I have flagged them as "rumor": take them with a pinch of salt until EA confirms.
+
+## When does EA FC 27 come out
+
+The expected date is **September 25, 2026**, with **early access around September 18** for those who get the Ultimate editions. Note: this is not an official EA announcement yet. The proper **reveal is expected during the week of the World Cup final** (mid-July), and **pre-orders should open on July 15, 2026**. From there we will get trailers, the cover and concrete details.
+
+## On which platforms
+
+EA FC 27 is expected on **PS5 and PS4, Xbox Series X|S and Xbox One, Nintendo Switch and Switch 2, PC (EA App, Steam and Epic Games) and Amazon Luna**. Basically the same platforms as FC26.
+
+## Editions and price
+
+There should be three editions: **Standard, Ultimate and Ultimate+**. Typical launch prices are around **79.99 for the Standard** and **109.99 for the Ultimate**. As always, the higher editions give early access and Ultimate Team bonuses.
+
+## The cover
+
+The most talked-about name for the cover is **Ousmane Dembélé** (rumor): he reportedly already shows up in the menus and assets of early builds. Confirmation should come with the pre-order.
+
+## The most talked-about features (rumor)
+
+We are in leak territory here, so all to be confirmed. But the picture is interesting:
+
+- **FC The Grounds:** the biggest one. It would be an **open-world / social hub mode** where you explore, play mini-games (Rush, foot tennis) and casual matches. It would be the first open-world in an EA Sports game.
+- **Ultimate Team:** **one-click SBC completion**, the ability to put **11 duplicates of the same player** into an SBC (finally), and new **holographic cards** with autographs and limited serial numbers for icons and heroes.
+- **Career Mode:** a deep overhaul, with a **rebuilt transfer market** (a buy-back clause is rumored), youth academy, preseason tours and international management.
+- **Gameplay:** still the **Frostbite** engine, but with smarter AI, **rebalanced defending** after the FC26 complaints, and a stop to some exploits (like keeper rushes).
+- **Returns:** the **Camp Nou**, the **Brazil** national team, the AFC Asian Cup and **Alex Hunter** from The Journey, plus new icons.
+
+## The coach's take
+
+As someone who plays competitively, the thing I am waiting for most is the **rebalanced defending**. On FC26 defending has been a nightmare for many, and if EA fixes the tackling and the cover, the game instantly becomes fairer and more fun. The Ultimate Team changes (one click on SBCs, usable duplicates) are common sense and just save us time. On the open-world I stay curious but cautious: nice on paper, it depends on how they pull it off.
+
+My advice? Do not spend coins or money on FC26 thinking long term: in September it all resets. Enjoy this end of FC26 and keep an eye on FC27.
+
+## Updates
+
+I update this page every time there is official news: cover, trailer, final date, gameplay deep dive. Check back over the coming weeks.`,
+    },
+  },
+  {
     slug: "ea-fc-26-mercato-crollato",
     title: "EA FC 26: il mercato è crollato (promo Greats of the Game)",
     description:
