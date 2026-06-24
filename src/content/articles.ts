@@ -30,6 +30,133 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "come-prepararti-a-ea-fc-27",
+    title: "Come prepararti a EA FC 27: cosa fare ora (e cosa non fare su FC26)",
+    description:
+      "La guida del coach per arrivare pronto a EA FC 27: come gestire crediti e tempo negli ultimi mesi di FC26, quali fondamentali allenare (si portano avanti), le date di reveal, pre-order e uscita, e gli errori costosi da evitare.",
+    category: "Guide",
+    date: "2026-06-24",
+    dateLabel: "24 Giugno 2026",
+    readingTime: "6 min",
+    badge: "GUIDA",
+    heroImage: "/img/articles/come-prepararti-a-ea-fc-27-hero.jpg",
+    heroAlt:
+      "Preparati a EA FC 27: checklist e calendario verso settembre, la guida del coach",
+    excerpt:
+      "Mancano 3 mesi a EA FC 27: ecco cosa fare ora (e cosa no). Pianifica i crediti, allena i fondamentali che restano, prepara il setup ed evita gli errori che a settembre ti costano caro.",
+    body: `Mancano poco più di tre mesi a **EA FC 27** (uscita attesa il 25 settembre 2026). Questi ultimi mesi di FC26 non sono tempo perso: gestiti bene, ti fanno arrivare al lancio davanti agli altri. Da ex pro ti dico cosa fare ora, punto per punto, e soprattutto cosa **non** fare per non buttare crediti e tempo.
+
+## 1. Pianifica i tuoi crediti
+
+La regola d'oro: **a settembre l'Ultimate Team riparte da zero.** Club, rosa e progressi non si trasferiscono al nuovo capitolo. Quindi non ha senso accumulare crediti "per il lungo periodo" o investire ora in carte costosissime sperando che valgano di più: tra poco non le userai più.
+
+Cosa fare invece: usa i crediti per **divertirti adesso**, completa gli obiettivi che ti interessano, prova le carte che hai sempre voluto. Meglio un mese di partite con la squadra dei sogni che un tesoretto che a settembre non vale niente.
+
+## 2. Allena le skill (queste te le porti su FC27)
+
+Qui c'è la notizia buona: il motore resta **Frostbite**, quindi i **fondamentali non cambiano**. Tutto quello che alleni ora te lo ritrovi su FC27:
+- la **difesa** (temporeggiare, switchare il giocatore giusto, far togliere palla alla CPU);
+- i **movimenti di corpo** e la protezione palla;
+- il **fraseggio** e la lettura della partita.
+
+Se usi questi mesi per migliorare i fondamentali invece di rincorrere il meta del momento, a settembre parti già un gradino sopra. Le carte cambiano ogni anno, la tua mano no. Trovi i concetti nella [Scuola Denuzzo](/newsletter#scuola-denuzzo).
+
+## 3. Conosci le novità
+
+Arrivare informati al day-one fa la differenza: sai cosa comprare, quali modalità provare, dove conviene spendere. Le novità attese di FC27 (la modalità open-world The Grounds, l'Ultimate Team rivisto, il Career Mode rifatto, la difesa ribilanciata) le trovi spiegate qui: [EA FC 27: tutto quello che sappiamo](/newsletter/ea-fc-27-data-uscita-novita). Tienila d'occhio, la aggiorno a ogni notizia.
+
+## 4. Prepara la squadra e il setup
+
+Due cose pratiche da sistemare ora:
+- **Il setup**: impostazioni, controller, postazione. Arrivare al lancio con i settaggi già rodati ti fa risparmiare le prime partite di assestamento, quelle dove tutti perdono punti.
+- **La testa**: decidi che tipo di giocatore vuoi essere su FC27 (Rivals, Champions, divertimento). Il day-one premia chi ha un piano, non chi improvvisa.
+
+## 5. Tieni d'occhio le date
+
+- **Reveal ufficiale**: atteso a metà luglio, la settimana della finale dei Mondiali.
+- **Pre-order**: dovrebbero aprire il **15 luglio 2026**. Le edizioni Ultimate danno l'**accesso anticipato** (circa una settimana prima del lancio).
+- **Uscita**: attesa il **25 settembre 2026**.
+
+Se giochi seriamente, l'accesso anticipato vale: quei primi giorni con il mercato vergine sono i migliori per costruire crediti.
+
+## Evita gli errori costosi
+
+> **✓ DA FARE**
+> — Spendi i crediti ora per divertirti e completare obiettivi
+> — Allena i fondamentali (difesa, movimenti, fraseggio): si portano su FC27
+> — Informati sulle novità e prepara il setup
+> — Segna le date: pre-order 15 luglio, uscita 25 settembre
+>
+> **✕ DA EVITARE**
+> — Investire in carte costose pensando al lungo periodo (a settembre si azzera)
+> — Accumulare crediti "per dopo": non si trasferiscono
+> — Spendere soldi veri a fine ciclo sperando di "portarti avanti"
+> — Rincorrere il meta invece di migliorare la tua mano
+
+Tre mesi sono tanti se li usi bene. Divertiti con la fine di FC26, allena i fondamentali e arriva a settembre pronto a fare il salto.`,
+    en: {
+      title: "How to Get Ready for EA FC 27: What to Do Now (and What Not to Do on FC26)",
+      description:
+        "The coach's guide to arriving ready for EA FC 27: how to handle coins and time in FC26's final months, which fundamentals to train (they carry over), the reveal, pre-order and release dates, and the costly mistakes to avoid.",
+      excerpt:
+        "Three months to EA FC 27: here is what to do now (and what not to). Plan your coins, train the fundamentals that carry over, prepare your setup and avoid the mistakes that cost you in September.",
+      category: "Guides",
+      dateLabel: "June 24, 2026",
+      heroAlt:
+        "Get ready for EA FC 27: checklist and calendar toward September, the coach's guide",
+      body: `EA FC 27 is just over three months away (release expected on September 25, 2026). These final months of FC26 are not wasted time: handled well, they get you to launch ahead of everyone else. As a former pro, here is what to do now, point by point, and above all what **not** to do so you do not waste coins and time.
+
+## 1. Plan your coins
+
+The golden rule: **in September, Ultimate Team resets to zero.** Club, squad and progress do not carry over to the new edition. So there is no point hoarding coins "for the long run" or investing now in very expensive cards hoping they will be worth more: soon you will not use them anymore.
+
+What to do instead: use your coins to **have fun now**, complete the objectives you care about, try the cards you always wanted. Better a month of games with your dream squad than a stash that is worth nothing in September.
+
+## 2. Train your skills (these carry over to FC27)
+
+Here is the good news: the engine stays **Frostbite**, so the **fundamentals do not change**. Everything you train now you will find again on FC27:
+- **defending** (containing, switching to the right player, letting the CPU win the ball);
+- **body feints** and ball shielding;
+- **passing combinations** and reading the game.
+
+If you use these months to improve the fundamentals instead of chasing the current meta, in September you start a step ahead. The cards change every year, your hands do not. You will find the concepts in [Denuzzo School](/newsletter#scuola-denuzzo).
+
+## 3. Know what is coming
+
+Arriving informed on day one makes the difference: you know what to buy, which modes to try, where it is worth spending. The expected FC27 features (the open-world mode The Grounds, the revamped Ultimate Team, the rebuilt Career Mode, rebalanced defending) are explained here: [EA FC 27: everything we know](/newsletter/ea-fc-27-data-uscita-novita). Keep an eye on it, I update it with every piece of news.
+
+## 4. Prepare the squad and the setup
+
+Two practical things to sort now:
+- **The setup**: settings, controller, your station. Arriving at launch with your settings already dialled in saves you those first adjustment games, the ones where everyone drops points.
+- **The mindset**: decide what kind of player you want to be on FC27 (Rivals, Champions, just for fun). Day one rewards those who have a plan, not those who improvise.
+
+## 5. Keep an eye on the dates
+
+- **Official reveal**: expected in mid-July, the week of the World Cup final.
+- **Pre-order**: should open on **July 15, 2026**. The Ultimate editions give **early access** (about a week before launch).
+- **Release**: expected on **September 25, 2026**.
+
+If you play seriously, early access is worth it: those first days with a fresh market are the best for building coins.
+
+## Avoid the costly mistakes
+
+> **✓ DO**
+> — Spend your coins now to have fun and complete objectives
+> — Train the fundamentals (defending, movement, passing): they carry over to FC27
+> — Get informed on the features and prepare your setup
+> — Mark the dates: pre-order July 15, release September 25
+>
+> **✕ AVOID**
+> — Investing in expensive cards thinking long term (it all resets in September)
+> — Hoarding coins "for later": they do not carry over
+> — Spending real money at the end of the cycle hoping to "get ahead"
+> — Chasing the meta instead of improving your own hands
+
+Three months is a lot if you use them well. Enjoy the end of FC26, train the fundamentals and get to September ready to make the jump.`,
+    },
+  },
+  {
     slug: "ea-fc-27-data-uscita-novita",
     title: "EA FC 27: data d'uscita, novità e leak (tutto quello che sappiamo)",
     description:
