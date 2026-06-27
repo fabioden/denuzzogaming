@@ -30,6 +30,135 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "festival-of-football-path-to-glory-investire",
+    title: "Festival of Football e Path to Glory: come investire durante il Mondiale",
+    description:
+      "Il Festival of Football e le carte Path to Glory di EA FC 26 spiegate: come funzionano gli upgrade dinamici legati al Mondiale 2026, come investire comprando prima dell'upgrade, gestione del rischio ed errori da evitare.",
+    category: "Mercato",
+    date: "2026-06-27",
+    dateLabel: "27 Giugno 2026",
+    readingTime: "6 min",
+    badge: "MERCATO",
+    heroImage: "/img/articles/festival-of-football-path-to-glory-investire-hero.jpg",
+    heroAlt:
+      "Festival of Football e Path to Glory: come investire durante il Mondiale su EA FC 26, trofeo e carte in salita",
+    excerpt:
+      "Le Path to Glory salgono se la nazionale avanza nel Mondiale: ecco come investire con metodo. Compra prima dell'upgrade, diversifica, gestisci il rischio ed evita gli errori che ti svuotano i crediti.",
+    body: `Il **Mondiale 2026** è nel vivo e in EA FC 26 è esploso il **Festival of Football**, il mega-evento estivo a tema Coppa del Mondo. Il pezzo forte sono le carte **Path to Glory**, e per chi sa muoversi sul mercato è uno dei momenti migliori dell'anno per fare crediti. Ma serve metodo, non istinto. Ti spiego come funzionano e come investire senza farti male.
+
+## Come funzionano le Path to Glory
+
+Le Path to Glory sono carte **dinamiche**: partono con un upgrade base e **si potenziano man mano che la loro nazionale avanza nel Mondiale reale**. Più la squadra va avanti (passa il girone, vince agli ottavi e così via), più la carta sale di overall, e quasi sempre sale anche di prezzo.
+
+Due cose importanti:
+- Le carte restano nei pacchetti solo per un periodo limitato (di solito una settimana), poi escono. Da quel momento **l'offerta non cresce più**: diventano sempre più rare.
+- L'upgrade è legato ai risultati veri. Quindi investire su una Path to Glory è, in pratica, **scommettere su quanto andrà avanti quella nazionale**.
+
+## La strategia: comprare prima dell'upgrade
+
+Il principio è semplice: **il valore si crea prima della partita, non dopo.** Se compri la carta di un giocatore la cui nazionale è favorita per il prossimo match, e quella vince, la carta riceve il boost e il prezzo sale. Hai comprato "scontato" e ora vale di più.
+
+Come muoversi:
+- Guarda il **calendario reale**: cerca nazionali con un match abbordabile in arrivo e una carta non ancora potenziata.
+- **Compra prima** dell'incontro, quando il prezzo è ancora basso.
+- Dopo l'upgrade, **vendi sul rialzo** oppure tieni se pensi che la nazionale possa andare ancora avanti (e la carta salire ancora).
+
+## Gestione del rischio (la parte che salva i crediti)
+
+Qui si separano quelli che fanno crediti da quelli che si scottano:
+- **Diversifica**: non mettere tutto su una sola nazionale. Se quella esce dal Mondiale, la carta smette di crescere e il prezzo crolla.
+- **Occhio alle eliminazioni**: una carta di una nazionale a forte rischio di uscire è una scommessa pericolosa, anche se costa poco.
+- **Sfrutta la rarità**: le carte uscite dai pacchetti, con l'offerta ferma, tendono a reggere meglio il prezzo. Spesso vale più una carta "vecchia" e rara di una nuova ancora in circolazione.
+- Non immobilizzare tutti i crediti: tieni sempre un margine per gli affari improvvisi (bids e snipes quando il mercato si muove).
+
+## Gli errori da evitare
+
+- **Comprare dopo l'upgrade**: paghi la carta al massimo, con poco margine di crescita. Il momento giusto è prima.
+- **Inseguire l'hype**: se tutti comprano un giocatore, il prezzo è già gonfiato.
+- **Panic selling**: se una nazionale perde una partita ma non è eliminata, non svendere nel panico. A volte conviene aspettare il match dopo.
+- **Investire i soldi veri** pensando di "portarti avanti": ricordati che a settembre arriva FC27 e l'Ultimate Team riparte da zero (ne parlo qui: [Come prepararti a EA FC 27](/newsletter/come-prepararti-a-ea-fc-27)).
+
+## Il principio del coach
+
+Il Festival of Football è un'occasione vera per chi ama il mercato, e con il Mondiale che muove i prezzi ogni giorno c'è da divertirsi. Ma tieni la testa: **fai crediti per goderti questa fine di FC26**, non per accumulare in vista del futuro. Compra con metodo, diversifica, e quando una carta ti ha dato il suo rialzo, incassa.
+
+## Riepilogo
+
+> **✓ DA FARE**
+> — Compra le Path to Glory prima dell'upgrade, su nazionali con match favorevoli
+> — Diversifica su più nazionali per ridurre il rischio
+> — Vendi sul rialzo dopo l'avanzamento, o tieni se può salire ancora
+> — Sfrutta le carte rare uscite dai pacchetti
+>
+> **✕ DA EVITARE**
+> — Comprare dopo l'upgrade (paghi al massimo)
+> — Puntare tutto su una sola nazionale (se esce, crolli)
+> — Panic selling dopo una sconfitta non decisiva
+> — Spendere soldi veri pensando al lungo periodo (a settembre FC27 azzera tutto)`,
+    en: {
+      title: "Festival of Football & Path to Glory: How to Invest During the World Cup",
+      description:
+        "EA FC 26's Festival of Football and Path to Glory cards explained: how the dynamic upgrades tied to the 2026 World Cup work, how to invest by buying before the upgrade, risk management and the mistakes to avoid.",
+      excerpt:
+        "Path to Glory cards rise as the nation advances in the World Cup: here is how to invest with a method. Buy before the upgrade, diversify, manage the risk and avoid the mistakes that drain your coins.",
+      category: "Market",
+      dateLabel: "June 27, 2026",
+      heroAlt:
+        "Festival of Football and Path to Glory: how to invest during the World Cup on EA FC 26, trophy and rising cards",
+      body: `The **2026 World Cup** is in full swing and in EA FC 26 the **Festival of Football** has kicked off, the World Cup themed summer mega-event. The highlight is the **Path to Glory** cards, and for anyone who knows how to move on the market it is one of the best times of the year to make coins. But it takes a method, not instinct. Here is how they work and how to invest without getting burned.
+
+## How Path to Glory cards work
+
+Path to Glory cards are **dynamic**: they start with a base upgrade and **get boosted as their nation advances in the real World Cup**. The further the team goes (out of the group, wins in the round of 16 and so on), the more the card rises in overall, and almost always in price too.
+
+Two important things:
+- The cards stay in packs only for a limited time (usually a week), then they leave. From that moment **the supply stops growing**: they become rarer and rarer.
+- The upgrade is tied to real results. So investing in a Path to Glory is basically **betting on how far that nation will go**.
+
+## The strategy: buy before the upgrade
+
+The principle is simple: **value is created before the match, not after.** If you buy the card of a player whose nation is favoured for the next match, and they win, the card gets the boost and the price rises. You bought it "discounted" and now it is worth more.
+
+How to move:
+- Look at the **real schedule**: find nations with a winnable match coming up and a card that has not been boosted yet.
+- **Buy before** the match, while the price is still low.
+- After the upgrade, **sell into the rise** or hold if you think the nation can go further (and the card rise more).
+
+## Risk management (the part that saves your coins)
+
+This is where the ones who make coins split from the ones who get burned:
+- **Diversify**: do not put everything on one nation. If it goes out of the World Cup, the card stops growing and the price crashes.
+- **Watch the eliminations**: a card from a nation at strong risk of going out is a dangerous bet, even if it is cheap.
+- **Use the rarity**: cards that have left packs, with supply frozen, tend to hold their price better. Often an "old" rare card is worth more than a new one still in circulation.
+- Do not lock up all your coins: always keep a margin for sudden deals (bids and snipes when the market moves).
+
+## The mistakes to avoid
+
+- **Buying after the upgrade**: you pay top price with little room to grow. The right moment is before.
+- **Chasing the hype**: if everyone is buying a player, the price is already inflated.
+- **Panic selling**: if a nation loses a match but is not eliminated, do not dump in a panic. Sometimes it is worth waiting for the next game.
+- **Spending real money** thinking you will "get ahead": remember that in September FC27 arrives and Ultimate Team resets to zero (I cover it here: [How to get ready for EA FC 27](/newsletter/come-prepararti-a-ea-fc-27)).
+
+## The coach's take
+
+The Festival of Football is a real opportunity for those who love the market, and with the World Cup moving prices every day there is fun to be had. But keep your head: **make coins to enjoy this end of FC26**, not to hoard for the future. Buy with a method, diversify, and when a card has given you its rise, cash in.
+
+## Recap
+
+> **✓ DO**
+> — Buy Path to Glory cards before the upgrade, on nations with favourable matches
+> — Diversify across several nations to reduce the risk
+> — Sell into the rise after the advance, or hold if it can go higher
+> — Use the rare cards that have left packs
+>
+> **✕ AVOID**
+> — Buying after the upgrade (you pay top price)
+> — Putting everything on a single nation (if it goes out, you crash)
+> — Panic selling after a non-decisive defeat
+> — Spending real money thinking long term (in September FC27 resets everything)`,
+    },
+  },
+  {
     slug: "come-prepararti-a-ea-fc-27",
     title: "Come prepararti a EA FC 27: cosa fare ora (e cosa non fare su FC26)",
     description:
