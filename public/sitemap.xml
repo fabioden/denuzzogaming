@@ -61,6 +61,16 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://denuzzogaming.com/newsletter/fc-the-grounds-open-world-ea-fc-27</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://denuzzogaming.com/en/newsletter/fc-the-grounds-open-world-ea-fc-27</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://denuzzogaming.com/newsletter/festival-of-football-path-to-glory-investire</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>

@@ -30,6 +30,111 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "fc-the-grounds-open-world-ea-fc-27",
+    title: "FC The Grounds: la modalità open-world di EA FC 27 (cosa sappiamo)",
+    description:
+      "FC The Grounds, la modalità open-world di EA FC 27 spiegata dai leak: cos'è, lo street football 5v5, i distretti a tema, la personalizzazione dell'avatar e il ritorno di Alex Hunter. Cosa sappiamo, e cosa è ancora rumor.",
+    category: "News",
+    date: "2026-06-30",
+    dateLabel: "30 Giugno 2026",
+    readingTime: "5 min",
+    badge: "FC 27",
+    heroImage: "/img/articles/fc-the-grounds-open-world-ea-fc-27-hero.jpg",
+    heroAlt:
+      "FC The Grounds, la modalità open-world di EA FC 27: quartiere notturno con campo da street football",
+    excerpt:
+      "EA FC 27 avrebbe un mondo aperto, FC The Grounds: avatar, street football 5v5, distretti a tema e il ritorno di Alex Hunter. La 'The City' del calcio, spiegata. Tutto ancora da leak.",
+    body: `La novità più chiacchierata di EA FC 27 ha un nome: **FC The Grounds**, una **modalità open-world**. Sarebbe il primo mondo aperto di un gioco EA Sports, e farebbe al calcio quello che "The City" ha fatto a NBA 2K. Attenzione: tutto arriva da **leak e da un marchio registrato**, non da annunci ufficiali. Ecco cosa sappiamo, con i piedi per terra.
+
+> ⚠️ Niente di confermato da EA: sono indiscrezioni e le do come tali. Il quadro vero arriverà al reveal di metà luglio.
+
+## Cos'è FC The Grounds
+
+Secondo i leak, The Grounds comparirebbe nel **menu principale** accanto a Ultimate Team, Kick-Off e Career Mode. Invece di scorrere menu statici, **giri con il tuo avatar** in un mondo online dove incontri altri giocatori, esplori e ti muovi liberamente. In pratica un **hub sociale** vivo, non una schermata.
+
+## Cosa ci fai
+
+- **Partite casual e street football 5v5**: sfide veloci sui campetti del mondo aperto.
+- **Sfide della community** sparse per la mappa.
+- **Personalizzazione dell'equipaggiamento** e dello stile da mostrare agli altri.
+
+È pensata come la parte "social e divertimento" di FC, dove ritrovarsi tra una partita seria e l'altra.
+
+## I distretti
+
+Il mondo sarebbe diviso in **distretti a tema**, ognuno ispirato a una cultura calcistica: per esempio una zona da **street sudamericano**, un'altra con l'**atmosfera degli stadi europei**. Funzionerebbero da punti di ritrovo: chiacchierare, mostrare i cosmetici, formare squadre e party in modo naturale.
+
+## Il tuo avatar
+
+La personalizzazione riprenderebbe elementi dei **Pro Clubs**: creazione del personaggio, sistema di upgrade e tanti vestiti per distinguerti. Il tuo stile diventa la tua identità nel mondo.
+
+## Il ritorno di Alex Hunter
+
+Bella sorpresa per i nostalgici: **Alex Hunter**, il protagonista di "The Journey", tornerebbe in The Grounds. Forse come **NPC** (gestisce una base di allenamento) e, cosa più ghiotta, come **personaggio sbloccabile** da usare altrove nel gioco.
+
+## "La The City del calcio"
+
+L'idea è chiara: portare nel calcio quello che NBA 2K ha fatto con il suo mondo aperto sociale. Se funziona, cambia il modo di vivere il gioco fuori dalle partite competitive: non più solo menu, ma un posto dove stare.
+
+## Il parere del coach
+
+Sulla carta è la novità più eccitante degli ultimi anni. Ma resto **curioso e prudente**: un open-world vive o muore sui **server** e sulla **longevità**, deve restare pieno di gente e dare motivi per tornarci. Per chi gioca competitivo non cambierà l'Ultimate Team, ma può rendere il gioco molto più divertente nel mezzo. Aspettiamo il reveal per i dettagli veri.
+
+## Quando arriva
+
+The Grounds dovrebbe uscire **al lancio di FC27** (atteso a settembre 2026), magari con contenuti che si aggiungono a tappe. La conferma e il primo trailer sono attesi a **metà luglio**. Trovi tutto il resto su FC27 qui: [EA FC 27: tutto quello che sappiamo](/newsletter/ea-fc-27-data-uscita-novita), e i consigli per arrivare pronto qui: [Come prepararti a EA FC 27](/newsletter/come-prepararti-a-ea-fc-27).`,
+    en: {
+      title: "FC The Grounds: EA FC 27's Open-World Mode (Everything We Know)",
+      description:
+        "FC The Grounds, EA FC 27's open-world mode explained from the leaks: what it is, 5v5 street football, themed districts, avatar customization and the return of Alex Hunter. What we know, and what is still rumor.",
+      excerpt:
+        "EA FC 27 would have an open world, FC The Grounds: an avatar, 5v5 street football, themed districts and the return of Alex Hunter. Football's 'The City', explained. All still from leaks.",
+      category: "News",
+      dateLabel: "June 30, 2026",
+      heroAlt:
+        "FC The Grounds, EA FC 27's open-world mode: a night neighborhood with a street football court",
+      body: `The most talked-about feature of EA FC 27 has a name: **FC The Grounds**, an **open-world mode**. It would be the first open world in an EA Sports game, doing for football what "The City" did for NBA 2K. A heads-up: everything comes from **leaks and a registered trademark**, not official announcements. Here is what we know, with both feet on the ground.
+
+> ⚠️ Nothing is confirmed by EA: these are rumors and I treat them as such. The real picture will come at the mid-July reveal.
+
+## What FC The Grounds is
+
+According to the leaks, The Grounds would appear in the **main menu** next to Ultimate Team, Kick-Off and Career Mode. Instead of scrolling through static menus, you **walk around with your avatar** in an online world where you meet other players, explore and move freely. Basically a living **social hub**, not a screen.
+
+## What you do there
+
+- **Casual matches and 5v5 street football**: quick challenges on the courts of the open world.
+- **Community challenges** scattered across the map.
+- **Equipment customization** and a style to show off to others.
+
+It is designed as the "social and fun" side of FC, a place to hang out between serious games.
+
+## The districts
+
+The world would be split into **themed districts**, each inspired by a football culture: for example a **South American street** area, another with the **atmosphere of European stadiums**. They would work as meeting points: chatting, showing off cosmetics, forming teams and parties naturally.
+
+## Your avatar
+
+Customization would borrow from **Pro Clubs**: character creation, an upgrade system and plenty of clothing to stand out. Your style becomes your identity in the world.
+
+## The return of Alex Hunter
+
+A nice surprise for the nostalgic: **Alex Hunter**, the protagonist of "The Journey", would return in The Grounds. Perhaps as an **NPC** (running a training base) and, most excitingly, as an **unlockable character** to use elsewhere in the game.
+
+## "Football's The City"
+
+The idea is clear: bring to football what NBA 2K did with its open-world social space. If it works, it changes how you experience the game outside competitive matches: no longer just menus, but a place to be.
+
+## The coach's take
+
+On paper it is the most exciting feature in years. But I stay **curious and cautious**: an open world lives or dies on its **servers** and its **longevity**, it has to stay full of people and give you reasons to come back. For competitive players it will not change Ultimate Team, but it can make the game a lot more fun in between. Let us wait for the reveal for the real details.
+
+## When it arrives
+
+The Grounds should launch **with FC27** (expected September 2026), possibly with content added in stages. Confirmation and the first trailer are expected in **mid-July**. You will find everything else on FC27 here: [EA FC 27: everything we know](/newsletter/ea-fc-27-data-uscita-novita), and the tips to arrive ready here: [How to get ready for EA FC 27](/newsletter/come-prepararti-a-ea-fc-27).`,
+    },
+  },
+  {
     slug: "festival-of-football-path-to-glory-investire",
     title: "Festival of Football e Path to Glory: come investire durante il Mondiale",
     description:
