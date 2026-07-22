@@ -32,7 +32,7 @@ export default function Article() {
         bilingual={v.hasEn}
         jsonLd={{
           "@context": "https://schema.org",
-          "@type": "Article",
+          "@type": article.category === "News" ? "NewsArticle" : "Article",
           headline: v.title,
           description: v.description,
           inLanguage: lang === "en" ? "en" : "it",

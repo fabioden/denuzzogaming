@@ -33,7 +33,7 @@ export const articles: Article[] = [
     slug: "ea-fc-27-reveal-mbappe-cover-23-luglio",
     title: "EA FC 27: Mbappé in copertina e reveal ufficiale il 23 luglio",
     description:
-      "EA ha ufficializzato le prime due cose che contano su EA FC 27: Kylian Mbappé cover star dell'Ultimate Edition e il reveal del gameplay il 23 luglio. Cosa è confermato da EA e cosa resta solo leak (data d'uscita, open-world, prezzi).",
+      "EA FC 27: Mbappé è la cover star ufficiale e il gameplay reveal è il 23 luglio. Cosa ha confermato davvero EA e cosa è ancora solo leak (uscita, open-world).",
     category: "News",
     date: "2026-07-22",
     dateLabel: "22 Luglio 2026",
@@ -83,7 +83,7 @@ Per approfondire: [EA FC 27: data d'uscita e novità](/newsletter/ea-fc-27-data-
     en: {
       title: "EA FC 27: Mbappé on the Cover and Official Reveal on July 23",
       description:
-        "EA has made the first two things that matter about EA FC 27 official: Kylian Mbappé as the Ultimate Edition cover star and the gameplay reveal on July 23. What EA has confirmed, and what is still just a leak (release date, open-world, pricing).",
+        "EA FC 27: Mbappé is the official cover star and the gameplay reveal is July 23. What EA actually confirmed, and what is still just a leak (release, open-world).",
       category: "News",
       dateLabel: "July 22, 2026",
       heroAlt:
