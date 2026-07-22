@@ -30,6 +30,103 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "ea-fc-27-reveal-mbappe-cover-23-luglio",
+    title: "EA FC 27: Mbappé in copertina e reveal ufficiale il 23 luglio",
+    description:
+      "EA ha ufficializzato le prime due cose che contano su EA FC 27: Kylian Mbappé cover star dell'Ultimate Edition e il reveal del gameplay il 23 luglio. Cosa è confermato da EA e cosa resta solo leak (data d'uscita, open-world, prezzi).",
+    category: "News",
+    date: "2026-07-22",
+    dateLabel: "22 Luglio 2026",
+    readingTime: "3 min",
+    badge: "FC 27",
+    heroImage: "/img/articles/ea-fc-27-reveal-mbappe-hero.jpg",
+    heroAlt:
+      "Grafica celebrativa di EA FC 27 Ultimate Edition con la data del trailer ufficiale: 23 luglio",
+    excerpt:
+      "EA conferma Mbappé cover star di EA FC 27 e fissa il reveal del gameplay al 23 luglio. Il resto (uscita a settembre, l'open-world, i prezzi) è ancora leak. Ti metto ordine tra vero e voci.",
+    body: `Ci siamo, il nuovo capitolo sta arrivando. EA ha ufficializzato le prime due cose che contano davvero: chi c'è in copertina e quando vedremo il gioco. Il resto, per ora, sono voci. E qui provo a metterti ordine, cosi sai cosa è vero e cosa è ancora da confermare.
+
+## Cosa è ufficiale (lo dice EA)
+
+Due cose, confermate direttamente dai canali ufficiali di EA Sports:
+
+- **Kylian Mbappé è la cover star** dell'Ultimate Edition di EA FC 27.
+- **Il reveal del gameplay è il 23 luglio.** È il primo sguardo vero al gioco: come si muove, come gira, cosa cambia rispetto a quest'anno.
+
+Fine. Su queste due puoi contarci al 100 per cento.
+
+## Cosa è ancora un leak (occhio)
+
+Intorno al reveal gira tanta roba che sembra ufficiale ma non lo è. Te la elenco al condizionale, perché finché non parla EA restano voci, per quanto insistenti:
+
+- **Uscita prevista intorno al 25 settembre**, con qualche giorno di early access per chi prende l'Ultimate Edition e per gli abbonati EA Play. Da leak affidabili, ma non confermata.
+- **Una nuova modalità open-world** (se ne parla come "FC The Grounds"), con avatar personalizzabili e spazi social. Se ne discute parecchio, EA non l'ha confermata.
+- **Aggiornamenti a Carriera e Ultimate Team.** Logico aspettarseli, ma i dettagli veri li vedremo solo al reveal.
+
+> ⚠️ Regola della casa: le indiscrezioni le do come indiscrezioni. Il quadro vero arriva dal reveal del 23 luglio.
+
+## Cosa significa per chi gioca a Ultimate Team
+
+Il nuovo gioco è vicino, e questo cambia le tue mosse già da adesso su FC 26:
+
+- **Non svuotare il club a fine ciclo.** Con FC 27 dietro l'angolo, buttare crediti per l'ultimo top player rischia di essere denaro perso: quello che costruisci ora dura poche settimane.
+- **Investi sul sapere, non solo sulle carte.** Moduli, PlayStyle, lettura delle tattiche: questa roba non si azzera con il cambio gioco. Chi capisce il perché di una giocata riparte avanti a settembre, chiunque abbia in squadra.
+- **Guarda il reveal con occhio tecnico.** Non "che bello", ma: come sono i tempi della difesa, come reagiscono i portieri, quanto pesa la fisicità. Sono i dettagli che decidono se il meta cambierà davvero.
+
+## Il consiglio del coach
+
+Ogni anno il gioco nuovo riparte da zero per la maggior parte delle persone. Per chi ha basi solide, no. Il momento migliore per prepararsi a FC 27 non è settembre, è adesso: rifinisci i principi che restano validi sempre e arrivi al nuovo ciclo già un passo avanti.
+
+Domani si vede il gioco. Io lo commento a caldo, tu preparati a giocarlo meglio degli altri.
+
+Per approfondire: [EA FC 27: data d'uscita e novità](/newsletter/ea-fc-27-data-uscita-novita), [FC The Grounds, l'open-world spiegato](/newsletter/fc-the-grounds-open-world-ea-fc-27) e [Come prepararti a EA FC 27](/newsletter/come-prepararti-a-ea-fc-27).`,
+    en: {
+      title: "EA FC 27: Mbappé on the Cover and Official Reveal on July 23",
+      description:
+        "EA has made the first two things that matter about EA FC 27 official: Kylian Mbappé as the Ultimate Edition cover star and the gameplay reveal on July 23. What EA has confirmed, and what is still just a leak (release date, open-world, pricing).",
+      category: "News",
+      dateLabel: "July 22, 2026",
+      heroAlt:
+        "EA FC 27 Ultimate Edition celebratory graphic with the official trailer date: July 23",
+      excerpt:
+        "EA confirms Mbappé as EA FC 27 cover star and sets the gameplay reveal for July 23. Everything else (September launch, the open-world, pricing) is still a leak. Here is what is real and what is rumor.",
+      body: `Here we go, the new chapter is coming. EA has made the first two things that really matter official: who is on the cover and when we will see the game. Everything else, for now, is just talk. Let me sort out what is true and what still has to be confirmed.
+
+## What is official (straight from EA)
+
+Two things, confirmed directly by EA Sports' official channels:
+
+- **Kylian Mbappé is the cover star** of EA FC 27 Ultimate Edition.
+- **The gameplay reveal is on July 23.** It is the first real look at the game: how it moves, how it plays, what changes from this year.
+
+That is it. You can count on those two at 100 per cent.
+
+## What is still a leak (careful)
+
+Around the reveal there is a lot going around that looks official but is not. I will list it in the conditional, because until EA speaks it stays rumor, however insistent:
+
+- **Release reportedly around September 25**, with a few days of early access for Ultimate Edition owners and EA Play subscribers. From reliable leaks, but not confirmed.
+- **A new open-world mode** (talked about as "FC The Grounds"), with customizable avatars and social spaces. Heavily discussed, not confirmed by EA.
+- **Career Mode and Ultimate Team updates.** Reasonable to expect, but the real details will only come at the reveal.
+
+> ⚠️ House rule: rumors are given as rumors. The real picture comes from the July 23 reveal.
+
+## What it means for Ultimate Team players
+
+The new game is close, and that changes your moves on FC 26 already:
+
+- **Do not empty your club at the end of the cycle.** With FC 27 around the corner, burning coins on one last top player risks being money wasted: what you build now lasts a few weeks.
+- **Invest in knowledge, not just cards.** Formations, PlayStyles, reading tactics: this does not reset when the game changes. Whoever understands the why of a play starts ahead in September, no matter their squad.
+- **Watch the reveal with a technical eye.** Not "how nice", but: how is defensive timing, how do keepers react, how much does physicality weigh. Those details decide whether the meta really changes.
+
+## The coach's advice
+
+Every year the new game starts from zero for most people. Not for those with solid foundations. The best time to prepare for FC 27 is not September, it is now: sharpen the principles that always hold and you arrive at the new cycle already a step ahead.
+
+Tomorrow we see the game. I will break it down live, you get ready to play it better than the rest.`,
+    },
+  },
+  {
     slug: "fc-the-grounds-open-world-ea-fc-27",
     title: "FC The Grounds: la modalità open-world di EA FC 27 (cosa sappiamo)",
     description:
