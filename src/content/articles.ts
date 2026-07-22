@@ -30,6 +30,131 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "conviene-comprare-ea-fc-27-edizioni-prezzi",
+    title: "Conviene comprare EA FC 27? Standard, Ultimate e Ultimate+ a confronto",
+    description:
+      "EA FC 27 in Standard, Ultimate e Ultimate+: prezzi, early access e cosa cambia. Il consiglio del coach su quale edizione conviene davvero, senza buttare soldi.",
+    category: "Guida",
+    date: "2026-07-22",
+    dateLabel: "22 Luglio 2026",
+    readingTime: "4 min",
+    badge: "FC 27",
+    heroImage: "/img/articles/conviene-comprare-ea-fc-27-edizioni-prezzi-hero.jpg",
+    heroAlt:
+      "Guida all'acquisto di EA FC 27: le edizioni Standard, Ultimate e Ultimate+ a confronto",
+    excerpt:
+      "Standard, Ultimate o Ultimate+? Prezzi, early access e cosa cambia davvero tra le edizioni di EA FC 27. Il metodo del coach per scegliere senza sprecare soldi.",
+    body: `A settembre arriva EA FC 27 e la domanda che mi fate già è una: quale edizione prendo, o conviene aspettare? Ti do i numeri che girano e, soprattutto, il metodo per decidere senza buttare soldi. Come sempre, separo l'ufficiale dalle voci.
+
+> ⚠️ Attenzione: edizioni, prezzi e date qui sotto arrivano da leak affidabili ma NON sono confermati da EA. Di ufficiale, per ora, c'è solo Mbappé in copertina e il reveal del 23 luglio. I prezzi veri escono con l'apertura dei preordini.
+
+## Le date (da leak)
+
+- **Uscita (Standard):** intorno al **25 settembre 2026**.
+- **Early access:** dal **18 settembre** (7 giorni prima) per chi prende Ultimate o Ultimate+, oppure per chi ha l'abbonamento EA Play.
+
+## Le tre edizioni (da leak)
+
+### Standard
+Il gioco base, disponibile dal 25 settembre, senza early access. In genere include i bonus preorder base (un giocatore in prestito e qualche pacchetto). Prezzo intorno ai **70-80€** a seconda della piattaforma.
+
+### Ultimate
+Il gradino dei giocatori assidui, intorno ai **100€**. Includerebbe:
+
+- **7 giorni di early access** (dal 18 settembre)
+- il **Premium Pass** della Season 1
+- **3 x 2.000 FC Points**
+- uno **slot Evolution** in più
+- un **pacchetto International Icon 85+**
+
+### Ultimate+ (la novità)
+Quest'anno spunterebbe una terza edizione, la più cara. Avrebbe tutto l'Ultimate, più:
+
+- il **Premium Pass esteso** dalla Season 1 alla Season 5
+- **5 x 2.000 FC Points**
+- un **Player Pick Hall of Fame** (1 tra 5 giocatori)
+
+## Il consiglio del coach (la parte che conta)
+
+Qui ti dico come la vedo io, da chi ci lavora tutti i giorni:
+
+1. **La cosa che vale davvero nell'Ultimate non sono i pacchetti, è l'early access.** Sette giorni di vantaggio su Ultimate Team sono enormi: mercato vergine, fai crediti con il trading iniziale e costruisci la rosa mentre gli altri devono ancora partire. Per chi gioca serio, quello vale il sovrapprezzo.
+2. **I FC Points sono pacchetti, e i pacchetti sono fortuna.** Non contarli come valore garantito. Se li avresti comprati comunque, l'edizione di fatto te li sconta. Se non spendi in FUT, gran parte di quello che paghi in più non ti serve.
+3. **Ultimate+ ha senso solo se spendi parecchio tutto l'anno.** Il Premium Pass fino alla Season 5 e i FC Points extra si ripagano solo in quel caso. Per tutti gli altri è denaro buttato.
+
+## In sintesi, chi compra cosa
+
+- **Giochi ogni tanto e non apri pacchetti:** Standard.
+- **Giochi tanto Ultimate Team e vuoi partire prima:** Ultimate, per l'early access.
+- **Spendi comunque parecchio durante l'anno:** Ultimate+.
+
+## Un'ultima cosa
+
+Non correre a preordinare oggi. Aspetta il reveal e l'annuncio ufficiale dei prezzi: i numeri qui sopra restano indiscrezioni. E ricorda che i preordini digitali si possono quasi sempre modificare o annullare prima dell'uscita, quindi non c'è nessun motivo di avere fretta.
+
+Per il resto su FC 27: [Mbappé in copertina e reveal del 23 luglio](/newsletter/ea-fc-27-reveal-mbappe-cover-23-luglio), [data d'uscita e novità](/newsletter/ea-fc-27-data-uscita-novita) e [come prepararti a FC 27](/newsletter/come-prepararti-a-ea-fc-27).`,
+    en: {
+      title: "Is EA FC 27 Worth Buying? Standard, Ultimate and Ultimate+ Compared",
+      description:
+        "EA FC 27 in Standard, Ultimate and Ultimate+: prices, early access and what changes. The coach's advice on which edition is actually worth it, without wasting money.",
+      category: "Guide",
+      dateLabel: "July 22, 2026",
+      heroAlt:
+        "EA FC 27 buying guide: Standard, Ultimate and Ultimate+ editions compared",
+      excerpt:
+        "Standard, Ultimate or Ultimate+? Prices, early access and what really changes between EA FC 27 editions. The coach's method to choose without wasting money.",
+      body: `EA FC 27 lands in September and the question I already get is one: which edition do I buy, or is it better to wait? I will give you the numbers going around and, above all, the method to decide without wasting money. As always, I separate what is official from what is rumor.
+
+> ⚠️ Heads up: editions, prices and dates below come from reliable leaks but are NOT confirmed by EA. Officially, for now, we only have Mbappé on the cover and the July 23 reveal. Real prices arrive when pre-orders open.
+
+## The dates (from leaks)
+
+- **Release (Standard):** around **September 25, 2026**.
+- **Early access:** from **September 18** (7 days earlier) for Ultimate or Ultimate+ buyers, or for EA Play subscribers.
+
+## The three editions (from leaks)
+
+### Standard
+The base game, available from September 25, no early access. Usually includes the base pre-order bonuses (a loan player and a few packs). Price around **70-80€** depending on platform.
+
+### Ultimate
+The tier for regular players, around **100€**. It would include:
+
+- **7 days of early access** (from September 18)
+- the Season 1 **Premium Pass**
+- **3 x 2,000 FC Points**
+- an extra **Evolution slot**
+- an **International Icon 85+ pack**
+
+### Ultimate+ (the new one)
+This year a third, pricier edition would appear. It would have everything in Ultimate, plus:
+
+- the **Premium Pass extended** from Season 1 to Season 5
+- **5 x 2,000 FC Points**
+- a **Hall of Fame Player Pick** (1 of 5 players)
+
+## The coach's advice (the part that matters)
+
+Here is how I see it, from someone who works with this every day:
+
+1. **The real value in Ultimate is not the packs, it is the early access.** Seven days head start on Ultimate Team is huge: fresh market, you make coins with early trading and build your squad while others have not even started. For serious players, that alone is worth the extra cost.
+2. **FC Points are packs, and packs are luck.** Do not count them as guaranteed value. If you would have bought them anyway, the edition basically discounts them. If you do not spend in FUT, most of what you pay extra is useless to you.
+3. **Ultimate+ only makes sense if you spend a lot all year.** The Premium Pass through Season 5 and the extra FC Points pay off only in that case. For everyone else it is money wasted.
+
+## In short, who buys what
+
+- **You play occasionally and do not open packs:** Standard.
+- **You play a lot of Ultimate Team and want to start early:** Ultimate, for the early access.
+- **You spend a lot throughout the year anyway:** Ultimate+.
+
+## One last thing
+
+Do not rush to pre-order today. Wait for the reveal and the official price announcement: the numbers above are still rumors. And remember that digital pre-orders can almost always be changed or cancelled before launch, so there is no reason to hurry.
+
+More on FC 27: [Mbappé on the cover and the July 23 reveal](/en/newsletter/ea-fc-27-reveal-mbappe-cover-23-luglio), [release date and news](/en/newsletter/ea-fc-27-data-uscita-novita) and [how to prepare for FC 27](/en/newsletter/come-prepararti-a-ea-fc-27).`,
+    },
+  },
+  {
     slug: "ea-fc-27-reveal-mbappe-cover-23-luglio",
     title: "EA FC 27: Mbappé in copertina e reveal ufficiale il 23 luglio",
     description:
