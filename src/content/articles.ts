@@ -41,7 +41,7 @@ export const articles: Article[] = [
     badge: "FC 27",
     heroImage: "/img/articles/ea-fc-27-reveal-tutte-le-novita-ufficiali-hero.jpg",
     heroAlt:
-      "EA FC 27, il reveal ufficiale del 23 luglio: The Grounds, FUT Gallery, Carriera e gameplay",
+      "Kylian Mbappé nella key art ufficiale di EA FC 27, dal trailer di reveal del 23 luglio",
     youtubeId: "MOclJJ7IpSY",
     excerpt:
       "Il trailer ufficiale è uscito. The Grounds, la FUT Gallery, il mercato della Carriera rifatto, il gameplay e la data: tutto quello che ha mostrato EA, spiegato dal coach.",
@@ -113,7 +113,7 @@ Continua qui: [Mbappé in copertina e il reveal](/newsletter/ea-fc-27-reveal-mba
       category: "News",
       dateLabel: "July 23, 2026",
       heroAlt:
-        "EA FC 27 official reveal on July 23: The Grounds, FUT Gallery, Career and gameplay",
+        "Kylian Mbappé in the official EA FC 27 key art, from the July 23 reveal trailer",
       excerpt:
         "The official trailer is out. The Grounds, the FUT Gallery, the rebuilt Career transfer market, gameplay and the release date: everything EA showed, explained by the coach.",
       body: `Here we go, the official EA FC 27 trailer is out and we can finally talk about real things, not leaks. I gathered everything EA showed and, as always, I add the coach's take: what actually matters and what is just show. The full trailer is above.
