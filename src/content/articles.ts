@@ -30,6 +30,156 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "ea-fc-27-reveal-tutte-le-novita-ufficiali",
+    title: "EA FC 27: tutte le novità del reveal ufficiale",
+    description:
+      "Trailer ufficiale di EA FC 27: The Grounds, la FUT Gallery, il nuovo mercato in Carriera e il gameplay. Tutte le novità del reveal spiegate dal coach.",
+    category: "News",
+    date: "2026-07-23",
+    dateLabel: "23 Luglio 2026",
+    readingTime: "6 min",
+    badge: "FC 27",
+    heroImage: "/img/articles/ea-fc-27-reveal-tutte-le-novita-ufficiali-hero.jpg",
+    heroAlt:
+      "EA FC 27, il reveal ufficiale del 23 luglio: The Grounds, FUT Gallery, Carriera e gameplay",
+    youtubeId: "MOclJJ7IpSY",
+    excerpt:
+      "Il trailer ufficiale è uscito. The Grounds, la FUT Gallery, il mercato della Carriera rifatto, il gameplay e la data: tutto quello che ha mostrato EA, spiegato dal coach.",
+    body: `Ci siamo, il trailer ufficiale di EA FC 27 è uscito e finalmente parliamo di cose vere, non di leak. Ti ho raccolto tutto quello che ha mostrato EA e, come sempre, ci metto il parere da coach: cosa conta davvero e cosa è solo scena. Qui sopra trovi il trailer completo.
+
+## Quando esce e le edizioni
+
+- **Uscita mondiale: 25 settembre 2026.**
+- **Early access dal 18 settembre** per chi prende Ultimate o Ultimate+ (per gli abbonati EA Play, prova di 10 ore dal 18).
+- **Cover:** Mbappé su Standard e Ultimate. La nuova **Ultimate+** mette insieme **Mbappé e Bellingham**, ma è in vendita **solo fino al 31 agosto**: se la vuoi, non aspettare troppo.
+
+Il confronto completo tra le tre edizioni te l'ho già spiegato qui: [conviene comprare EA FC 27?](/newsletter/conviene-comprare-ea-fc-27-edizioni-prezzi).
+
+## The Grounds: il nuovo social playground (confermato)
+
+Era la voce più chiacchierata, ora è ufficiale. **The Grounds** è uno spazio sociale dove giri, incontri gente e giochi partite casual, dai kickabout ai Clubs.
+
+- **Tre distretti** ispirati alla cultura del calcio.
+- **Personalizzazione** del tuo personaggio.
+- **Mentori** che ti guidano: Mbappé, Chloe Kelly, Dybala e il ritorno di **Alex Hunter**, il protagonista di The Journey.
+- Solo su **PS5, Xbox Series, PC e Switch 2**. Chi resta su old-gen non ce l'ha.
+
+**Il parere del coach:** è la parte divertimento del gioco, non tocca il competitivo. Bella per staccare tra una partita seria e l'altra, ma vivrà o morirà sui server e su quanta gente ci resta nel tempo.
+
+## Ultimate Team: arriva la FUT Gallery
+
+La novità grossa per chi vive di Ultimate Team. La **FUT Gallery** è un modo per collezionare e immortalare il tuo club: valuti i tuoi player item per club, leghe e nazioni, sali di **Gallery Level** e sblocchi ricompense. In pratica un nuovo motivo per completare collezioni, con premi legati al livello raggiunto.
+
+**Il parere del coach:** sulla carta è roba per i collezionisti e per chi macina contenuti tutto l'anno. Aspetto di vedere quanto pesano davvero i reward prima di dire se sposta gli equilibri competitivi.
+
+## Carriera: mercato ricostruito da zero
+
+Per chi ama la Carriera Allenatore, la notizia migliore: il **mercato trasferimenti è rifatto da zero**.
+
+- **Valutazioni dinamiche** dei giocatori, che tengono conto del potere d'acquisto del club, del potenziale, del rating e della forma.
+- **Club gestiti dall'AI** che fanno offerte vere sui giocatori.
+- Nuovi strumenti di trattativa, come le **clausole di riacquisto**, e un processo di trasferimento più snello.
+
+**Il parere del coach:** è l'aggiornamento che i giocatori Carriera chiedevano da anni. Se funziona come promesso, dà finalmente un mercato che ha senso.
+
+## Il gameplay: cosa cambia in campo
+
+Qui guardo con più attenzione, perché è quello che ti fa vincere o perdere le partite:
+
+- **Calci d'angolo dinamici**, con schemi nuovi.
+- Migliore **attacking awareness**: gli attaccanti leggono meglio lo spazio.
+- **Difesa AI ribilanciata** e controlli difensivi più orientati al giocatore.
+- Animazioni rifatte e grafica migliorata.
+
+**Il parere del coach:** la voce che pesa di più è la **difesa ribilanciata**. Ogni anno l'equilibrio tra attacco e difesa decide il meta. Se hanno davvero sistemato la difesa dell'AI, cambia il modo di difendere che tutti dovremo reimparare. Lo capiremo solo con il controller in mano.
+
+## Numeri e piattaforme
+
+**21.000+ giocatori**, 800+ club, 130+ stadi, 35+ leghe. Disponibile su **PS5, PS4, Xbox Series, Xbox One, PC, Switch e Switch 2**.
+
+## Cosa fare adesso
+
+Il gioco è a due mesi. Le mosse intelligenti:
+
+- Su **FC 26 non svuotare il club** per l'ultima carta: quello che costruisci ora dura poche settimane.
+- Se punti all'**Ultimate+** (Mbappé e Bellingham), ricorda che sparisce dopo il **31 agosto**.
+- Continua a lavorare sui **fondamentali** (moduli, PlayStyle, difesa): restano validi anche con il gioco nuovo, e una difesa ribilanciata premierà chi sa difendere di testa, non a caso.
+
+Continua qui: [Mbappé in copertina e il reveal](/newsletter/ea-fc-27-reveal-mbappe-cover-23-luglio), [quale edizione comprare](/newsletter/conviene-comprare-ea-fc-27-edizioni-prezzi) e [come prepararti a FC 27](/newsletter/come-prepararti-a-ea-fc-27).`,
+    en: {
+      title: "EA FC 27: Everything New From the Official Reveal",
+      description:
+        "EA FC 27 official trailer: The Grounds, the FUT Gallery, the rebuilt Career transfer market and gameplay. Everything new from the reveal, explained by the coach.",
+      category: "News",
+      dateLabel: "July 23, 2026",
+      heroAlt:
+        "EA FC 27 official reveal on July 23: The Grounds, FUT Gallery, Career and gameplay",
+      excerpt:
+        "The official trailer is out. The Grounds, the FUT Gallery, the rebuilt Career transfer market, gameplay and the release date: everything EA showed, explained by the coach.",
+      body: `Here we go, the official EA FC 27 trailer is out and we can finally talk about real things, not leaks. I gathered everything EA showed and, as always, I add the coach's take: what actually matters and what is just show. The full trailer is above.
+
+## Release date and editions
+
+- **Worldwide launch: September 25, 2026.**
+- **Early access from September 18** for Ultimate or Ultimate+ buyers (EA Play subscribers get a 10-hour trial from the 18th).
+- **Cover:** Mbappé on Standard and Ultimate. The new **Ultimate+** pairs **Mbappé and Bellingham**, but it is on sale **only until August 31**: if you want it, do not wait too long.
+
+I already broke down the three editions here: [is EA FC 27 worth buying?](/en/newsletter/conviene-comprare-ea-fc-27-edizioni-prezzi).
+
+## The Grounds: the new social playground (confirmed)
+
+It was the most talked-about rumor, now it is official. **The Grounds** is a social space where you roam, meet people and play casual matches, from kickabouts to Clubs.
+
+- **Three districts** inspired by football culture.
+- **Character customization.**
+- **Mentors** guiding you: Mbappé, Chloe Kelly, Dybala and the return of **Alex Hunter**, the star of The Journey.
+- Only on **PS5, Xbox Series, PC and Switch 2**. Old-gen players do not get it.
+
+**The coach's take:** it is the fun part of the game, it does not touch the competitive side. Nice to unwind between serious matches, but it will live or die on the servers and on how many people stick around.
+
+## Ultimate Team: the FUT Gallery arrives
+
+The big one for those who live in Ultimate Team. The **FUT Gallery** is a way to collect and immortalize your club: you grade your player items across clubs, leagues and nations, raise your **Gallery Level** and unlock rewards. Basically a new reason to complete collections, with prizes tied to the level you reach.
+
+**The coach's take:** on paper it is for collectors and for those grinding all year. I want to see how much the rewards actually weigh before saying whether it shifts the competitive balance.
+
+## Career: the transfer market rebuilt from scratch
+
+For Manager Career fans, the best news: the **transfer market is rebuilt from the ground up**.
+
+- **Dynamic player valuations** that factor in the club's buying power, potential, rating and form.
+- **AI-run clubs** making real bids on players.
+- New negotiating tools, like **buy-back clauses**, and a smoother transfer process.
+
+**The coach's take:** it is the update Career players have asked for over years. If it works as promised, it finally gives a market that makes sense.
+
+## Gameplay: what changes on the pitch
+
+This is where I look hardest, because it is what wins or loses you games:
+
+- **Dynamic corners**, with new routines.
+- Better **attacking awareness**: forwards read space better.
+- **Rebalanced AI defending** and more player-oriented defensive controls.
+- Revamped animations and improved graphics.
+
+**The coach's take:** the item that weighs most is the **rebalanced defending**. Every year the balance between attack and defense decides the meta. If they truly fixed AI defending, it changes how we all have to defend. We will only know with a controller in hand.
+
+## Numbers and platforms
+
+**21,000+ players**, 800+ clubs, 130+ stadiums, 35+ leagues. Available on **PS5, PS4, Xbox Series, Xbox One, PC, Switch and Switch 2**.
+
+## What to do now
+
+The game is two months away. The smart moves:
+
+- On **FC 26 do not empty your club** for one last card: what you build now lasts a few weeks.
+- If you want the **Ultimate+** (Mbappé and Bellingham), remember it disappears after **August 31**.
+- Keep working on the **fundamentals** (formations, PlayStyles, defending): they stay valid with the new game, and rebalanced defending will reward those who defend with their head, not at random.
+
+More here: [Mbappé on the cover and the reveal](/en/newsletter/ea-fc-27-reveal-mbappe-cover-23-luglio), [which edition to buy](/en/newsletter/conviene-comprare-ea-fc-27-edizioni-prezzi) and [how to prepare for FC 27](/en/newsletter/come-prepararti-a-ea-fc-27).`,
+    },
+  },
+  {
     slug: "conviene-comprare-ea-fc-27-edizioni-prezzi",
     title: "Conviene comprare EA FC 27? Standard, Ultimate e Ultimate+ a confronto",
     description:
