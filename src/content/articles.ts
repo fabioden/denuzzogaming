@@ -30,6 +30,113 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "ea-fc-27-costa-troppo-prezzo-verita",
+    title: "EA FC 27 costa troppo? La verità sul prezzo e cosa NON comprare",
+    description:
+      "EA FC 27 costa troppo? Standard, Ultimate e Ultimate+ a confronto, i FC Points spiegati senza giri di parole e il consiglio onesto del coach su cosa comprare davvero.",
+    category: "Opinione",
+    date: "2026-07-25",
+    dateLabel: "25 Luglio 2026",
+    readingTime: "4 min",
+    badge: "OPINIONE",
+    heroImage: "/img/articles/ea-fc-27-costa-troppo-prezzo-verita-hero.jpg",
+    heroAlt:
+      "EA FC 27 costa troppo? L'opinione del coach Fabio Denuzzo su edizioni, prezzo e FC Points",
+    excerpt:
+      "Standard, Ultimate o Ultimate+? Ti dico cosa paghi davvero su EA FC 27, perché i FC Points sono la parte discutibile e cosa NON comprare. Da coach, non da venditore.",
+    body: `Parliamoci chiaro. Ogni anno esce il gioco nuovo, ogni anno si parla di prezzo, e ogni anno c'è chi ti spinge a comprare l'edizione più cara. Io faccio il coach, non il venditore: ti dico cosa paghi davvero su EA FC 27 e cosa, secondo me, non vale i tuoi soldi.
+
+## Quanto costa (le cifre)
+
+- **Standard:** intorno ai 70-80€.
+- **Ultimate:** intorno ai 100€.
+- **Ultimate+** (la nuova, con Mbappé e Bellingham): la più cara, in vendita solo fino al 31 agosto.
+
+I prezzi esatti possono cambiare per piattaforma e regione, ma l'ordine di grandezza è questo.
+
+## Il gioco base è caro, ma di mercato
+
+70-80€ è ormai il prezzo dei giochi AAA. Caro, sì, ma è lo standard del settore. Se giochi tutto l'anno, il costo per ora di divertimento è bassissimo. Fin qui niente di scandaloso: paghi un gioco, giochi un gioco.
+
+## Il problema vero: cosa paghi nell'Ultimate
+
+Quando sali di edizione, l'extra è fatto soprattutto di **FC Points**, cioè crediti per aprire pacchetti. E qui devo essere onesto con te:
+
+- **I pacchetti sono fortuna.** Non stai comprando giocatori, stai comprando la possibilità di trovarli.
+- L'unico valore concreto e **garantito** del sovrapprezzo è l'**early access** di 7-8 giorni. Punto.
+- Il resto (Premium Pass, icon pack) è contorno che ripaghi solo se giochi tantissimo.
+
+Detto senza giri: nell'Ultimate paghi soprattutto per **giocarti la fortuna dei pacchetti**. Questa è la parte del prezzo che trovo davvero discutibile.
+
+## Il costo che nessuno nomina: l'azzeramento annuale
+
+C'è un costo nascosto in tutto questo: è un gioco **annuale**. Paghi pieno ogni settembre e a settembre riparti da zero. La squadra che costruisci quest'anno non te la porti dietro. Su questo, chi dice "troppo" ha ragione.
+
+## Cosa consiglio io (senza fronzoli)
+
+- **Standard: per quasi tutti.** Se non spendi in pacchetti tutto l'anno, è la scelta giusta.
+- **Ultimate: solo se l'early access ti serve davvero** (competitivo serio, trading iniziale). In quel caso vale l'extra, ma per la settimana di anticipo, non per i pacchetti.
+- **Ultimate+: solo se sei uno che spende comunque parecchio** durante l'anno. Per tutti gli altri sono soldi buttati.
+- E soprattutto: **non farti trascinare dall'hype pre-lancio.** Copertine e trailer emozionano, ma non ti fanno vincere le partite.
+
+## In sintesi
+
+EA FC 27 non è una truffa, ma il modo in cui sono costruite le edizioni costose ti spinge a spendere sui pacchetti, e quello sì lo trovo esagerato. Il mio consiglio da coach: **paga il gioco, non la fortuna.** Tieni i crediti, allena i fondamentali, e a settembre parti avanti a chi ha svuotato il portafoglio.
+
+Per i dettagli edizione per edizione: [quale edizione di FC 27 comprare](/newsletter/conviene-comprare-ea-fc-27-edizioni-prezzi). E per arrivare pronto: [come prepararti a FC 27](/newsletter/come-prepararti-a-ea-fc-27).`,
+    en: {
+      title: "Is EA FC 27 Too Expensive? The Truth About the Price and What NOT to Buy",
+      description:
+        "Is EA FC 27 too expensive? Standard, Ultimate and Ultimate+ compared, FC Points explained without spin, and the coach's honest advice on what to actually buy.",
+      category: "Opinion",
+      dateLabel: "July 25, 2026",
+      heroAlt:
+        "Is EA FC 27 too expensive? Coach Fabio Denuzzo's take on editions, price and FC Points",
+      excerpt:
+        "Standard, Ultimate or Ultimate+? I tell you what you actually pay for on EA FC 27, why FC Points are the questionable part, and what NOT to buy. As a coach, not a seller.",
+      body: `Let us be clear. Every year the new game drops, every year people argue about the price, and every year someone pushes you to buy the most expensive edition. I am a coach, not a seller: I will tell you what you actually pay for on EA FC 27 and what, in my view, is not worth your money.
+
+## How much it costs (the numbers)
+
+- **Standard:** around 70-80€.
+- **Ultimate:** around 100€.
+- **Ultimate+** (the new one, with Mbappé and Bellingham): the priciest, on sale only until August 31.
+
+Exact prices can change by platform and region, but this is the ballpark.
+
+## The base game is pricey, but market rate
+
+70-80€ is now the standard AAA game price. Expensive, yes, but it is the industry norm. If you play all year, the cost per hour of fun is tiny. Nothing scandalous here: you pay for a game, you play a game.
+
+## The real issue: what you pay for in Ultimate
+
+When you move up an edition, the extra is mostly **FC Points**, meaning currency to open packs. And here I have to be honest with you:
+
+- **Packs are luck.** You are not buying players, you are buying the chance to find them.
+- The only concrete, **guaranteed** value of the premium is the **early access** of 7-8 days. That is it.
+- The rest (Premium Pass, icon pack) is a side dish you only recoup if you play a huge amount.
+
+Bluntly: in Ultimate you mostly pay to **gamble on pack luck**. That is the part of the price I find genuinely questionable.
+
+## The cost nobody mentions: the yearly reset
+
+There is a hidden cost in all this: it is an **annual** game. You pay full price every September and every September you start from zero. The squad you build this year does not carry over. On this, those who say "too much" have a point.
+
+## What I recommend (no fluff)
+
+- **Standard: for almost everyone.** If you do not spend on packs all year, it is the right pick.
+- **Ultimate: only if you genuinely need the early access** (serious competitive, early trading). Then it is worth the extra, but for the week head start, not for the packs.
+- **Ultimate+: only if you spend a lot anyway** during the year. For everyone else it is money wasted.
+- Above all: **do not get swept up by the pre-launch hype.** Covers and trailers are exciting, but they do not win you games.
+
+## In short
+
+EA FC 27 is not a scam, but the way the expensive editions are built pushes you to spend on packs, and that part I do find excessive. My coach's advice: **pay for the game, not for the luck.** Keep your coins, train the fundamentals, and in September you start ahead of those who emptied their wallet.
+
+For the edition-by-edition details: [which FC 27 edition to buy](/en/newsletter/conviene-comprare-ea-fc-27-edizioni-prezzi). And to get ready: [how to prepare for FC 27](/en/newsletter/come-prepararti-a-ea-fc-27).`,
+    },
+  },
+  {
     slug: "ea-fc-27-gameplay-come-cambia-difesa",
     title: "EA FC 27, come cambia il gameplay: la difesa ribilanciata e cosa dovrai reimparare",
     description:
