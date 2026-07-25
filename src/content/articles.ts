@@ -30,6 +30,101 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "futties-fc-26-migliori-carte-cosa-fare",
+    title: "FUTTIES FC 26: le migliori carte e cosa fare (e NON fare) a fine ciclo",
+    description:
+      "FUTTIES è arrivato su FC 26: carte rosa 99, Best of Batch, Token garantiti e SBC. Le carte che valgono e il consiglio del coach per non buttare crediti con FC 27 vicino.",
+    category: "News",
+    date: "2026-07-24",
+    dateLabel: "24 Luglio 2026",
+    readingTime: "4 min",
+    badge: "FUTTIES",
+    heroImage: "/img/articles/futties-fc-26-migliori-carte-cosa-fare-hero.jpg",
+    heroAlt:
+      "FUTTIES FC 26: le carte rosa 99 e i migliori giocatori del Team 1 in Ultimate Team",
+    excerpt:
+      "FUTTIES è live su FC 26: le carte di punta del Team 1, i Token garantiti e il consiglio del coach per chiudere il ciclo senza sprecare crediti con FC 27 a due mesi.",
+    body: `FUTTIES è arrivato: è l'ultima promo del ciclo di FC 26, e il Team 1 è uscito oggi con alcune delle carte più forti di tutto l'anno. Ti dico quali valgono davvero e, soprattutto, cosa NON fare adesso che FC 27 è a due mesi.
+
+## Cos'è FUTTIES
+
+L'ultima festa dell'anno di Ultimate Team. Porta **carte rosa iper-potenziate** (fino a 99 in tante statistiche), il ritorno dei **Best of Batch** (i migliori special dell'anno che tornano disponibili), **SBC premium**, **Evolutions**, **Obiettivi** e **Player Pick**. Escono nuovi nomi ogni settimana, quindi il contenuto si rinnova fino a fine ciclo.
+
+## Le carte di punta del Team 1
+
+Tra i nomi più forti di questa prima ondata: **Valverde, Van Dijk, Luis Díaz e Xavi Simons**. E arrivano le **99 rosa** per le stelle del momento, da **Mbappé, Bonmatí e Bellingham a Yamal**, più leggende come **R9 e Maradona**.
+
+FUTTIES si aggiorna ogni venerdì, quindi altri nomi e Best of Batch arriveranno nei prossimi drop.
+
+## I Token: le carte "garantite"
+
+La parte più intelligente di FUTTIES sono i **Token**. Con i gettoni che accumuli (fino a **1.000 a settimana**, con refresh ogni venerdì) scegli carte **garantite** nel Token Store, senza affidarti alla fortuna dei pacchetti. Tra i disponibili: **Müller, Griezmann e Victor Muñoz**.
+
+Il consiglio: i Token sono il modo migliore di "spendere" a FUTTIES, perché sai esattamente cosa prendi.
+
+## Il consiglio del coach (a fine ciclo, occhio ai crediti)
+
+Qui la parte importante, quella che gli altri non ti dicono:
+
+1. **FC 27 esce il 25 settembre.** Tutto quello che costruisci ora dura poche settimane, poi si azzera.
+2. **Niente SBC costose o pacchetti a raffica** per "l'ultima carta": è denaro e crediti buttati.
+3. **Punta sul garantito** (Token e Best of Batch mirati): prendi solo le carte che ti servono per divertirti e finire gli obiettivi da qui a settembre.
+4. **Se ti restano crediti, tienili.** A inizio FC 27 valgono molto di più: mercato vergine e trading iniziale ti fanno ripartire avanti a tutti.
+
+In pratica: goditi FUTTIES per chiudere il ciclo in bellezza, ma da qui in poi gioca in difesa col portafoglio.
+
+## Quando escono le prossime carte
+
+FUTTIES continua a **ondate settimanali** (nuovi Team e Best of Batch ogni venerdì) fino al lancio di FC 27.
+
+Intanto guarda avanti: [quale edizione di FC 27 comprare](/newsletter/conviene-comprare-ea-fc-27-edizioni-prezzi), [tutte le novità del reveal](/newsletter/ea-fc-27-reveal-tutte-le-novita-ufficiali) e [come prepararti a FC 27](/newsletter/come-prepararti-a-ea-fc-27).`,
+    en: {
+      title: "FC 26 FUTTIES: The Best Cards and What to Do (and NOT Do) at End of Cycle",
+      description:
+        "FUTTIES is here on FC 26: pink 99 cards, Best of Batch, guaranteed Tokens and SBCs. The cards worth it and the coach's advice to not waste coins with FC 27 close.",
+      category: "News",
+      dateLabel: "July 24, 2026",
+      heroAlt:
+        "FC 26 FUTTIES: the pink 99 cards and best Team 1 players in Ultimate Team",
+      excerpt:
+        "FUTTIES is live on FC 26: the standout Team 1 cards, the guaranteed Tokens and the coach's advice to close the cycle without wasting coins with FC 27 two months away.",
+      body: `FUTTIES is here: it is the final promo of the FC 26 cycle, and Team 1 dropped today with some of the strongest cards of the whole year. I will tell you which ones are actually worth it and, above all, what NOT to do now that FC 27 is two months away.
+
+## What FUTTIES is
+
+Ultimate Team's last party of the year. It brings **hyper-boosted pink cards** (up to 99 across many stats), the return of **Best of Batch** (the year's best specials coming back), **premium SBCs**, **Evolutions**, **Objectives** and **Player Picks**. New names drop every week, so the content refreshes until the end of the cycle.
+
+## Team 1 standout cards
+
+Among the strongest names in this first wave: **Valverde, Van Dijk, Luis Díaz and Xavi Simons**. And the **pink 99s** arrive for the stars of the moment, from **Mbappé, Bonmatí and Bellingham to Yamal**, plus legends like **R9 and Maradona**.
+
+FUTTIES refreshes every Friday, so more names and Best of Batch will arrive in the next drops.
+
+## Tokens: the "guaranteed" cards
+
+The smartest part of FUTTIES is the **Tokens**. With the tokens you stack up (up to **1,000 a week**, refreshing every Friday) you pick **guaranteed** cards in the Token Store, without relying on pack luck. Available names include **Müller, Griezmann and Victor Muñoz**.
+
+The tip: Tokens are the best way to "spend" during FUTTIES, because you know exactly what you get.
+
+## The coach's advice (end of cycle, mind your coins)
+
+Here is the important part, the one others do not tell you:
+
+1. **FC 27 launches September 25.** Everything you build now lasts a few weeks, then resets.
+2. **No expensive SBCs or endless packs** for "one last card": that is money and coins wasted.
+3. **Go for guaranteed** (Tokens and targeted Best of Batch): only grab the cards you need to have fun and finish objectives from now to September.
+4. **If you have coins left, keep them.** At the start of FC 27 they are worth much more: a fresh market and early trading put you ahead of everyone.
+
+In short: enjoy FUTTIES to close the cycle in style, but from here on play defense with your wallet.
+
+## When the next cards drop
+
+FUTTIES continues in **weekly waves** (new Teams and Best of Batch every Friday) until the FC 27 launch.
+
+Meanwhile, look ahead: [which FC 27 edition to buy](/en/newsletter/conviene-comprare-ea-fc-27-edizioni-prezzi), [everything new from the reveal](/en/newsletter/ea-fc-27-reveal-tutte-le-novita-ufficiali) and [how to prepare for FC 27](/en/newsletter/come-prepararti-a-ea-fc-27).`,
+    },
+  },
+  {
     slug: "ea-fc-27-reveal-tutte-le-novita-ufficiali",
     title: "EA FC 27: tutte le novità del reveal ufficiale",
     description:
