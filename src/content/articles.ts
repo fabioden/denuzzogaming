@@ -30,6 +30,135 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "ea-fc-27-gameplay-come-cambia-difesa",
+    title: "EA FC 27, come cambia il gameplay: la difesa ribilanciata e cosa dovrai reimparare",
+    description:
+      "Analisi da coach del gameplay di EA FC 27: difesa AI ribilanciata, controlli difensivi, attaccanti più intelligenti e calci d'angolo dinamici. Cosa cambia in campo e cosa allenare da ora.",
+    category: "Guida",
+    date: "2026-07-25",
+    dateLabel: "25 Luglio 2026",
+    readingTime: "5 min",
+    badge: "FC 27",
+    heroImage: "/img/articles/ea-fc-27-gameplay-come-cambia-difesa-hero.jpg",
+    heroAlt:
+      "Analisi del gameplay di EA FC 27: la difesa ribilanciata spiegata dal coach Fabio Denuzzo",
+    excerpt:
+      "Le modalità fanno rumore, ma è il gameplay che vince le partite. La difesa ribilanciata di EA FC 27 letta da coach: cosa cambia davvero in campo e cosa allenare già da adesso.",
+    body: `Le modalità fanno rumore, ma è il gameplay che ti fa vincere o perdere le partite. Nel reveal EA ha confermato un pugno di cambiamenti al modo in cui si gioca, e io te li leggo da coach: cosa significano davvero in campo e cosa dovrai reimparare per restare competitivo. Niente leak qui, solo quello che EA ha confermato, più la mia analisi.
+
+## 1. La difesa ribilanciata (il cambiamento che decide il meta)
+
+EA ha confermato una **difesa AI ribilanciata** e **controlli difensivi più orientati al giocatore**. È la voce che pesa di più, e ti spiego perché.
+
+Ogni anno l'equilibrio tra attacco e difesa decide il meta. Se cambia la difesa, cambia tutto il resto. "Controlli orientati al giocatore" significa **più responsabilità su di te** e meno sull'AI che copre da sola: torneranno a pesare la **difesa di posizione** (stare, non inseguire) e la **difesa semi-manuale**.
+
+Cosa allenare fin da subito:
+
+- Smetti di premere il tackle a caso: impara a **contenere** e a togliere lo spazio.
+- Copri le **linee di passaggio**, non correre dietro al portatore.
+- Usa il **secondo difensore** con criterio, non a raffica.
+
+**Il parere del coach:** chi si affida al "tanto difende l'AI" farà fatica. Chi difende di testa parte avvantaggiato. Questa è la singola cosa che deciderà chi sale e chi resta bloccato.
+
+## 2. Attaccanti che leggono meglio lo spazio
+
+Confermata una migliore **attacking awareness**: gli attaccanti si muovono e attaccano lo spazio in modo più intelligente.
+
+In fase offensiva vuol dire **più movimenti senza palla**, tagli in profondità e opzioni che prima non si creavano. Per sfruttarlo devi alzare l'attenzione ai movimenti dei tuoi attaccanti e giocare il **filtrante al momento giusto**, senza tenere la palla troppo.
+
+**Il parere del coach:** premia chi ha pazienza e vede la giocata, non chi corre a testa bassa. Se impari a leggere i tempi degli inserimenti, segni di più con meno fatica.
+
+## 3. Calci d'angolo dinamici
+
+EA ha rifatto i **corner**, con schemi nuovi. Sembra un dettaglio, non lo è: i **piazzati sono spesso sottovalutati**, e chi impara i nuovi schemi si prende gol "gratis" che gli altri non sanno fare.
+
+Cosa fare: appena esce il gioco, dedica **venti minuti in allenamento** solo ai nuovi calci d'angolo. È un vantaggio che pochissimi si prenderanno.
+
+## 4. Animazioni e reattività
+
+Animazioni rifatte e grafica migliorata. Non è solo estetica: **animazioni nuove significano timing diverso** su contrasti, tiri e controlli. Il feeling cambia e va riassorbito nelle prime ore di gioco.
+
+**Il parere del coach:** le prime 10-20 partite servono a ritarare i tempi. Non giudicare il gioco, e non giudicare te stesso, dalle primissime partite.
+
+## Cosa allenare da ORA (e che varrà anche su FC 27)
+
+La buona notizia è che i fondamentali non si azzerano con il gioco nuovo. Da qui a settembre, su FC 26, lavora su tre cose:
+
+- **Difesa di posizione e pazienza**: non inseguire la palla, gestisci lo spazio.
+- **Lettura dei movimenti in attacco** e tempi del filtrante.
+- **Gestione del possesso** senza fretta.
+
+Chi allena questo adesso arriva a FC 27 già avanti, perché la difesa ribilanciata premierà esattamente queste qualità.
+
+## Cosa NON sappiamo ancora
+
+Onestà da coach: il feeling vero (velocità di gioco, quanto sarà forte la difesa, quali moduli domineranno) lo capiremo solo con il controller in mano al lancio. Le prime settimane di FC 27 le analizzeremo insieme, come sempre.
+
+Se vuoi anticipare il meta invece di rincorrerlo, è adesso che si costruisce il vantaggio: [come prepararti a FC 27](/newsletter/come-prepararti-a-ea-fc-27). E qui trovi [tutte le novità del reveal](/newsletter/ea-fc-27-reveal-tutte-le-novita-ufficiali) e [quale edizione comprare](/newsletter/conviene-comprare-ea-fc-27-edizioni-prezzi).`,
+    en: {
+      title: "EA FC 27 Gameplay: How the Rebalanced Defending Changes What You Must Relearn",
+      description:
+        "A coach's analysis of EA FC 27 gameplay: rebalanced AI defending, defensive controls, smarter attackers and dynamic corners. What changes on the pitch and what to train now.",
+      category: "Guide",
+      dateLabel: "July 25, 2026",
+      heroAlt:
+        "EA FC 27 gameplay analysis: the rebalanced defending explained by coach Fabio Denuzzo",
+      excerpt:
+        "Modes make noise, but gameplay wins games. EA FC 27's rebalanced defending read by a coach: what really changes on the pitch and what to train right now.",
+      body: `Modes make noise, but it is the gameplay that wins or loses you games. At the reveal EA confirmed a handful of changes to how the game plays, and I read them for you as a coach: what they really mean on the pitch and what you will have to relearn to stay competitive. No leaks here, just what EA confirmed, plus my analysis.
+
+## 1. Rebalanced defending (the change that decides the meta)
+
+EA confirmed **rebalanced AI defending** and **more player-oriented defensive controls**. It is the item that weighs most, and here is why.
+
+Every year the balance between attack and defense decides the meta. If defending changes, everything else changes. "Player-oriented controls" means **more responsibility on you** and less on the AI covering by itself: **positional defending** (hold, do not chase) and **semi-manual defending** will matter again.
+
+What to train right away:
+
+- Stop spamming the tackle: learn to **contain** and cut off space.
+- Cover **passing lanes**, do not chase the ball carrier.
+- Use the **second defender** with judgment, not on repeat.
+
+**The coach's take:** whoever relies on "the AI defends for me" will struggle. Whoever defends with their head starts ahead. This single thing will decide who climbs and who stays stuck.
+
+## 2. Attackers that read space better
+
+A better **attacking awareness** is confirmed: attackers move and attack space more intelligently.
+
+Going forward it means **more off-the-ball movement**, runs in behind and options that did not exist before. To exploit it you need to watch your attackers' movement and play the **through ball at the right time**, without holding the ball too long.
+
+**The coach's take:** it rewards patience and vision, not running head down. Learn to read the timing of runs and you score more with less effort.
+
+## 3. Dynamic corners
+
+EA rebuilt **corners**, with new routines. It sounds minor, it is not: **set pieces are often underrated**, and whoever learns the new routines grabs "free" goals others cannot.
+
+What to do: as soon as the game is out, spend **twenty minutes in practice** on the new corners alone. It is an edge very few will take.
+
+## 4. Animations and responsiveness
+
+Revamped animations and improved graphics. It is not just looks: **new animations mean different timing** on tackles, shots and touches. The feel changes and needs to be reabsorbed in the first hours.
+
+**The coach's take:** the first 10-20 games are for recalibrating your timing. Do not judge the game, or yourself, from the very first matches.
+
+## What to train NOW (and that will hold on FC 27)
+
+The good news is fundamentals do not reset with the new game. From now to September, on FC 26, work on three things:
+
+- **Positional defending and patience**: do not chase the ball, manage space.
+- **Reading attacking movement** and through-ball timing.
+- **Possession management** without rushing.
+
+Whoever trains this now arrives at FC 27 ahead, because rebalanced defending will reward exactly these qualities.
+
+## What we do NOT know yet
+
+Coach's honesty: the real feel (game speed, how strong defending is, which formations dominate) we will only know with a controller in hand at launch. The first weeks of FC 27 we will break down together, as always.
+
+If you want to get ahead of the meta instead of chasing it, now is when the edge is built: [how to prepare for FC 27](/en/newsletter/come-prepararti-a-ea-fc-27). And here you will find [everything new from the reveal](/en/newsletter/ea-fc-27-reveal-tutte-le-novita-ufficiali) and [which edition to buy](/en/newsletter/conviene-comprare-ea-fc-27-edizioni-prezzi).`,
+    },
+  },
+  {
     slug: "futties-fc-26-migliori-carte-cosa-fare",
     title: "FUTTIES FC 26: le migliori carte e cosa fare (e NON fare) a fine ciclo",
     description:
