@@ -30,6 +30,105 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "ea-comunicazione-fc26-trasparenza-fc27",
+    title: "EA ammette: la comunicazione su FC 26 è stata un flop. Cosa promette per FC 27",
+    description:
+      "EA ammette che la comunicazione con la community su FC 26 è fallita e promette più trasparenza per FC 27 con il principio 'show, don't tell'. Cosa cambia davvero, e il parere del coach.",
+    category: "News",
+    date: "2026-07-25",
+    dateLabel: "25 Luglio 2026",
+    readingTime: "4 min",
+    badge: "FC 27",
+    heroImage: "/img/articles/ea-comunicazione-fc26-trasparenza-fc27-hero.jpg",
+    heroAlt:
+      "EA ammette il flop di comunicazione su FC 26 e promette più trasparenza per FC 27",
+    excerpt:
+      "EA ammette apertamente che la comunicazione su FC 26 è fallita e per FC 27 punta sul 'show, don't tell'. Cosa hanno detto gli sviluppatori e cosa mi aspetto io, da coach.",
+    body: `È raro vedere EA ammettere un errore così apertamente. In una recente intervista gli sviluppatori hanno riconosciuto che la comunicazione con la community durante FC 26 è stata un fallimento rispetto agli standard che loro stessi si erano dati. Ti riassumo cosa hanno detto e ci metto il mio parere, da chi il gioco lo vive ogni giorno.
+
+## Il flop della comunicazione su FC 26
+
+A inizio anno il team aveva promesso comunicazioni più frequenti, più trasparenza sulle scelte di sviluppo e un dialogo continuo con i giocatori. Non è andata così.
+
+- La comunicazione si è concentrata **solo all'inizio e verso la fine** del ciclo annuale.
+- In mezzo, **lunghi periodi di silenzio quasi totale**, senza spiegazioni sui problemi del gioco, sulle modifiche in arrivo o sulle ragioni di certe scelte.
+- Il team parla di **difficoltà interne** che hanno rallentato sia la velocità sia il livello di trasparenza (senza però entrare nei dettagli).
+
+La cosa che conta è che si sono presi la **responsabilità**: non hanno detto "è stata meno efficace del previsto", hanno ammesso di non aver raggiunto gli standard che loro stessi avevano fissato. E questo, inevitabilmente, ha eroso la fiducia dei giocatori.
+
+## Cosa promettono per FC 27: "show, don't tell"
+
+Per FC 27 vogliono ricostruire il rapporto, ma sanno che nuove promesse non bastano. La loro parola d'ordine è **"show, don't tell"**: dimostrare con i fatti, non a parole.
+
+- Non si aspettano fiducia immediata: va **riguadagnata** con comunicazioni regolari e aggiornamenti concreti.
+- Oltre alle **Pitch Notes** (gli articoli ufficiali su modifiche e aggiornamenti), promettono **interventi più diretti** degli sviluppatori.
+- L'obiettivo sono **punti di contatto costanti** durante tutto l'anno, non solo al lancio o sui grandi aggiornamenti.
+- Vogliono spiegare non solo cosa arriva, ma anche il **perché delle modifiche** e quanto pesano davvero i feedback della community.
+
+Sono loro stessi a dirlo: giudicateci sui fatti dell'anno, non sulle intenzioni dichiarate prima dell'uscita.
+
+## Il parere del coach
+
+Da uno che il gioco lo vive: è un buon segnale, e già l'ammissione onesta è più di quanto si veda di solito. Ma su una cosa EA ha ragione: la fiducia si guadagna con i fatti, non con l'intervista.
+
+Ecco cosa guarderò durante l'anno per capire se mantengono davvero:
+
+- Comunicano anche quando le notizie sono **scomode** (nerf, bug, ritardi), o solo quando c'è qualcosa da vendere?
+- Spiegano il **perché** delle patch, o si limitano all'elenco delle modifiche?
+- I feedback della community **cambiano qualcosa** davvero, o restano decorazione?
+
+Se rispettano questo, FC 27 può essere un ciclo diverso e più sano. Se no, sarà l'ennesima buona intenzione da lancio. Io lo seguirò tutto l'anno e te lo dirò senza filtri, come sempre.
+
+Intanto guarda cosa è già confermato: [tutte le novità del reveal](/newsletter/ea-fc-27-reveal-tutte-le-novita-ufficiali), [come cambia il gameplay](/newsletter/ea-fc-27-gameplay-come-cambia-difesa) e [quale edizione comprare](/newsletter/conviene-comprare-ea-fc-27-edizioni-prezzi).`,
+    en: {
+      title: "EA Admits FC 26 Communication Was a Failure. What It Promises for FC 27",
+      description:
+        "EA admits its FC 26 community communication failed and promises more transparency for FC 27 with a 'show, don't tell' approach. What really changes, and the coach's take.",
+      category: "News",
+      dateLabel: "July 25, 2026",
+      heroAlt:
+        "EA admits the FC 26 communication failure and promises more transparency for FC 27",
+      excerpt:
+        "EA openly admits its FC 26 communication failed and for FC 27 bets on 'show, don't tell'. What the developers said and what I expect, as a coach.",
+      body: `It is rare to see EA admit a mistake this openly. In a recent interview the developers acknowledged that community communication during FC 26 was a failure compared to the standards they had set for themselves. Here is a summary of what they said, plus my take as someone who lives the game every day.
+
+## The FC 26 communication failure
+
+At the start of the year the team promised more frequent communication, more transparency on development choices and continuous dialogue with players. It did not go that way.
+
+- Communication was concentrated **only at the beginning and toward the end** of the annual cycle.
+- In between, **long stretches of near-total silence**, without explanations about the game's issues, upcoming changes or the reasons behind certain choices.
+- The team cites **internal difficulties** that slowed both the speed and the level of transparency (without going into detail).
+
+What matters is that they took **responsibility**: they did not say "it was less effective than planned", they admitted they did not meet the standards they had set themselves. And that, inevitably, eroded player trust.
+
+## What they promise for FC 27: "show, don't tell"
+
+For FC 27 they want to rebuild the relationship, but they know new promises are not enough. Their motto is **"show, don't tell"**: prove it with facts, not words.
+
+- They do not expect instant trust: it must be **earned back** with regular communication and concrete updates.
+- Beyond the **Pitch Notes** (the official articles on changes and updates), they promise **more direct developer input**.
+- The goal is **constant touchpoints** throughout the year, not just at launch or around major updates.
+- They want to explain not only what is coming, but also the **why behind changes** and how much community feedback actually weighs.
+
+They say it themselves: judge us on the year's facts, not on the intentions stated before release.
+
+## The coach's take
+
+From someone who lives the game: it is a good sign, and the honest admission alone is more than we usually get. But EA is right about one thing: trust is earned with facts, not with an interview.
+
+Here is what I will watch during the year to see if they truly deliver:
+
+- Do they communicate even when the news is **uncomfortable** (nerfs, bugs, delays), or only when there is something to sell?
+- Do they explain the **why** behind patches, or just list the changes?
+- Does community feedback **actually change anything**, or is it just decoration?
+
+If they respect this, FC 27 can be a different, healthier cycle. If not, it will be another launch-day good intention. I will follow it all year and tell you straight, as always.
+
+Meanwhile, see what is already confirmed: [everything new from the reveal](/en/newsletter/ea-fc-27-reveal-tutte-le-novita-ufficiali), [how the gameplay changes](/en/newsletter/ea-fc-27-gameplay-come-cambia-difesa) and [which edition to buy](/en/newsletter/conviene-comprare-ea-fc-27-edizioni-prezzi).`,
+    },
+  },
+  {
     slug: "ea-fc-27-costa-troppo-prezzo-verita",
     title: "EA FC 27 costa troppo? La verità sul prezzo e cosa NON comprare",
     description:
