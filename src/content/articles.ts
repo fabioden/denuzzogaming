@@ -315,7 +315,7 @@ Meanwhile, see what is already confirmed: [everything new from the reveal](/en/n
     dateLabel: "25 Luglio 2026",
     readingTime: "4 min",
     badge: "OPINIONE",
-    heroImage: "/img/articles/ea-fc-27-costa-troppo-prezzo-verita-hero.jpg",
+    heroImage: "/img/articles/ea-fc-27-costa-troppo-prezzo-verita-hero-v2.jpg",
     heroAlt:
       "EA FC 27 costa troppo? L'opinione del coach Fabio Denuzzo su edizioni, prezzo e FC Points",
     excerpt:
