@@ -30,6 +30,183 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "ea-fc-27-ultimate-team-novita-gallery-sbc-power-curve",
+    title: "EA FC 27 Ultimate Team: tutte le novità (Gallery, SBC a punti, EVO Pathways e power curve)",
+    description:
+      "Come cambia Ultimate Team su EA FC 27: la Gallery, le SBC a punteggio, le EVO Pathways, la power curve più lenta, i token e la trasparenza in Rivals e Champions. Guida completa e parere del coach.",
+    category: "Guida",
+    date: "2026-08-03",
+    dateLabel: "3 Agosto 2026",
+    readingTime: "7 min",
+    badge: "FC 27",
+    heroImage: "/img/articles/ea-fc-27-ultimate-team-novita-gallery-sbc-power-curve-hero.jpg",
+    heroAlt:
+      "Le novità di Ultimate Team su EA FC 27: Gallery, SBC a punteggio, EVO Pathways e power curve",
+    excerpt:
+      "Gallery, SBC a punteggio, EVO Pathways, power curve più lenta, token e trasparenza online: tutto quello che sappiamo su come cambia Ultimate Team in FC 27, con il parere del coach.",
+    body: `Dopo il reveal stanno uscendo i dettagli veri su come cambia Ultimate Team in FC 27. Ho messo insieme tutto quello che sappiamo finora, tra pitch notes, trailer e i chiarimenti della community, e ci aggiungo il mio parere da coach: cosa ti conviene sapere prima di partire.
+
+> ⚠️ Alcune cose sono confermate da EA, altre arrivano da analisi e vanno prese con il condizionale finché non escono le note ufficiali di lancio.
+
+## 1. La Gallery: il collezionismo torna a contare
+
+La **Gallery** registra le carte passate almeno una volta dal tuo club. La cosa importante: anche se poi **vendi la carta o la usi in una SBC**, il progresso resta. Completi set durante l'anno per ricompense sempre migliori.
+
+- Le carte **primo proprietario** (prese dai pacchetti) valgono più di quelle comprate sul mercato, ma entrambe contano.
+- È collegata alle nuove carte **olografiche** (normali e "pristine", più rare, con una firma stilizzata).
+
+**Il parere del coach:** bella idea, ridà senso a tenere e aprire pacchetti. Anche una carta apparentemente inutile può servirti a completare un set. Da adesso, pensaci due volte prima di scartare tutto.
+
+## 2. SBC a punteggio: cambia come si buildano
+
+Ogni carta avrà un **punteggio** (basato su valutazione e rarità). Per molte SBC non servirà più la media precisa o le combinazioni obbligate 87/88/89: basterà **raggiungere il punteggio richiesto**. Una stessa sfida si potrà chiudere in due modi opposti: **tante carte basse** (anche bronzi) oppure **poche carte alte**.
+
+Conseguenza sul mercato: i prezzi delle soluzioni diventano meno prevedibili. Anche bronzi, argenti e special "secondarie" potrebbero acquistare valore all'improvviso.
+
+**Il parere del coach:** è il cambiamento più interessante per chi ama l'economia del gioco. L'inizio di FC 27 sarà una manna per i trader: chi capisce prima il rapporto **costo/punti** risparmia (e guadagna) tanto.
+
+## 3. EVO Pathways: Evoluzioni con percorsi a scelta
+
+Le Evoluzioni potranno avere **più percorsi**. La stessa EVO trasforma un giocatore in direzioni diverse: un percorso più offensivo (dribbling, velocità, ruolo da ala), un altro più difensivo (consapevolezza difensiva, accelerazione, stile da terzino).
+
+**Il parere del coach:** ottimo. Finalmente costruisci la carta che serve alla **tua** squadra e al tuo stile, non quella decisa da EA.
+
+## 4. PlayStyles Lab più limitato (e perché è un bene)
+
+La personalizzazione degli stili sarà **più limitata** rispetto a FC 26. Le carte manterranno di più la loro **identità originale**. Oggi tutti mettono gli stessi PlayStyle+ e gli attaccanti finiscono per assomigliarsi; su FC 27 dovrebbero restare più unici.
+
+**Il parere del coach:** sembra un passo indietro, ma è positivo. Meno giocatori "fotocopia", più varietà in campo. Torna a contare la scelta del giocatore giusto, ed è proprio il tipo di cosa su cui lavoro nel coaching.
+
+## 5. Token: limite giornaliero e rischio FOMO
+
+I token restano, ma nel trailer si vede un possibile limite di **250 al giorno** invece di circa 1.000 a settimana. EA lo spiega come un punto naturale in cui staccare. Il rischio però è l'opposto: un tetto **giornaliero** ti fa sentire in colpa ogni giorno che salti.
+
+**Il parere del coach:** dipende tutto dai **prezzi nel token store**. Se le ricompense costano tanto, il limite quotidiano crea più FOMO, non meno. Da tenere d'occhio.
+
+## 6. Più ricompense a fine partita
+
+Una parte delle ricompense si sposta alla **fine di ogni singola partita**: più monete, SP, ricompense flessibili e pacchetti scambiabili. Premia il tempo che giochi e mette più crediti in circolo, con un mercato più attivo.
+
+Attenzione: potrebbe essere una **redistribuzione**, con ricompense settimanali di Rivals e Champions più magre. Non per forza un guadagno netto.
+
+## 7. Power curve più lenta (la modifica più importante)
+
+EA vuole ridurre il divario tra carte iniziali ed endgame: circa il **20% più piccolo** rispetto a FC 26. Cosa comporta:
+
+- massimo **3 PlayStyle+** per carta;
+- meno PlayStyle nelle prime fasi;
+- aumenti di statistiche più contenuti e **coerenti con il ruolo** (attaccanti sull'offensiva, difensori sulla difensiva);
+- niente carte complete "Gullit Gang" già nei primi mesi.
+
+L'idea è darti più tempo per goderti una carta prima che diventi obsoleta. Aspettati **EVO da +1/+2**, SBC con miglioramenti minimi e **promo meno aggressive**.
+
+**Il parere del coach:** è la cosa che mi piace di più. Una progressione più lenta rende il gioco più sano e premia chi **sa giocare**, non solo chi ha la carta più gonfiata. All'inizio qualcuno si lamenterà, ma sul lungo periodo è meglio per tutti.
+
+## 8. Meno promo, carte speciali di nuovo preziose
+
+Meno campagne e promozioni. Oggi vedi una carta colorata e pensi subito "roba da SBC". Con meno promo, trovare una special nei pacchetti torna a essere un **evento**, e le carte migliori tengono il valore più a lungo.
+
+## 9. Rivals e Champions: più trasparenza
+
+Struttura simile, ma parte delle ricompense arriva **dopo le partite**. La novità più apprezzata: a fine match vedi **info sull'avversario**, la divisione in Rivals e il record in Champions. Capisci meglio contro chi hai perso, e diventano visibili eventuali problemi di matchmaking.
+
+**Il parere del coach:** piccola cosa, ma di qualità. Aiuta a leggere le sconfitte con più lucidità, invece di prendersela col gioco.
+
+## Il verdetto (mio, e non solo)
+
+Tante modifiche buone, ma **nessuna "wow"** che ribalta Ultimate Team: sono miglioramenti di sistemi che esistono già, non modalità nuove. E mancano ancora dettagli importanti (la roadmap del live service, le note di lancio).
+
+La direzione però mi piace: **progressione più lenta, collezionismo che conta, economia più flessibile**. Se EA mantiene davvero la power curve controllata, e la comunicazione più costante che ha promesso, FC 27 può essere un ciclo più sano. Lo seguiremo aggiornamento per aggiornamento.
+
+Continua qui: [tutte le novità del reveal](/newsletter/ea-fc-27-reveal-tutte-le-novita-ufficiali), [come cambia il gameplay](/newsletter/ea-fc-27-gameplay-come-cambia-difesa) e [la comunicazione EA verso FC 27](/newsletter/ea-comunicazione-fc26-trasparenza-fc27).`,
+    en: {
+      title: "EA FC 27 Ultimate Team: Everything New (Gallery, Points SBCs, EVO Pathways and Power Curve)",
+      description:
+        "How Ultimate Team changes on EA FC 27: the Gallery, points-based SBCs, EVO Pathways, a slower power curve, tokens and transparency in Rivals and Champions. Full guide and the coach's take.",
+      category: "Guide",
+      dateLabel: "August 3, 2026",
+      heroAlt:
+        "EA FC 27 Ultimate Team changes: Gallery, points-based SBCs, EVO Pathways and power curve",
+      excerpt:
+        "Gallery, points-based SBCs, EVO Pathways, a slower power curve, tokens and online transparency: everything we know about how Ultimate Team changes on FC 27, with the coach's take.",
+      body: `After the reveal, the real details on how Ultimate Team changes in FC 27 are coming out. I put together everything we know so far, across pitch notes, the trailer and community clarifications, and I add my take as a coach: what is worth knowing before you start.
+
+> ⚠️ Some things are confirmed by EA, others come from analysis and should be taken with a grain of salt until the official launch notes drop.
+
+## 1. The Gallery: collecting matters again
+
+The **Gallery** logs the cards that have passed through your club at least once. The key part: even if you later **sell the card or use it in an SBC**, the progress stays. You complete sets across the year for better and better rewards.
+
+- **First-owner** cards (pulled from packs) are worth more than ones bought on the market, but both count.
+- It ties into the new **holographic** cards (normal and "pristine", rarer, with a stylized signature).
+
+**The coach's take:** nice idea, it gives meaning to keeping and opening packs again. Even a seemingly useless card can help complete a set. From now on, think twice before dumping everything.
+
+## 2. Points-based SBCs: how you build changes
+
+Every card will have a **score** (based on rating and rarity). For many SBCs you will no longer need a precise average or forced 87/88/89 combinations: you just need to **hit the required score**. The same challenge could be completed two opposite ways: **many low cards** (even bronzes) or **a few high cards**.
+
+Market consequence: solution prices become less predictable. Even bronzes, silvers and "secondary" specials could suddenly gain value.
+
+**The coach's take:** it is the most interesting change for anyone who loves the game's economy. The start of FC 27 will be a goldmine for traders: whoever understands the **cost/points** ratio first saves (and earns) a lot.
+
+## 3. EVO Pathways: Evolutions with paths to choose
+
+Evolutions will be able to have **multiple paths**. The same EVO transforms a player in different directions: one more offensive (dribbling, pace, winger role), another more defensive (defensive awareness, acceleration, full-back style).
+
+**The coach's take:** great. You finally build the card **your** squad and your style need, not the one EA decides.
+
+## 4. A more limited PlayStyles Lab (and why it is good)
+
+Style customization will be **more limited** than FC 26. Cards will keep more of their **original identity**. Today everyone slaps on the same PlayStyle+ and attackers end up alike; on FC 27 they should stay more unique.
+
+**The coach's take:** it looks like a step back, but it is a good thing. Fewer "copy-paste" players, more variety on the pitch. Picking the right player matters again, which is exactly what I work on in coaching.
+
+## 5. Tokens: daily cap and FOMO risk
+
+Tokens stay, but the trailer shows a possible **250-per-day** cap instead of about 1,000 a week. EA frames it as a natural point to stop. The risk, though, is the opposite: a **daily** cap makes you feel guilty every day you skip.
+
+**The coach's take:** it all depends on the **token store prices**. If rewards are expensive, the daily cap creates more FOMO, not less. One to watch.
+
+## 6. More rewards at the end of each match
+
+Part of the rewards shifts to the **end of every single match**: more coins, SP, flexible rewards and tradeable packs. It rewards time played and puts more coins in circulation, with a more active market.
+
+Careful: it could be a **redistribution**, with leaner weekly Rivals and Champions rewards. Not necessarily a net gain.
+
+## 7. A much slower power curve (the most important change)
+
+EA wants to cut the gap between starting and endgame cards: about **20% smaller** than FC 26. What it means:
+
+- a maximum of **3 PlayStyle+** per card;
+- fewer PlayStyles in the early phases;
+- smaller stat boosts, more **role-consistent** (attackers on offense, defenders on defense);
+- no complete "Gullit Gang" cards in the first months.
+
+The idea is to give you more time to enjoy a card before it is outdated. Expect **+1/+2 EVOs**, SBCs with minimal upgrades and **less aggressive promos**.
+
+**The coach's take:** it is what I like most. A slower progression makes the game healthier and rewards those who **can play**, not just whoever has the most inflated card. Some will complain early on, but long term it is better for everyone.
+
+## 8. Fewer promos, special cards valuable again
+
+Fewer campaigns and promotions. Today you see a colorful card and immediately think "SBC fodder". With fewer promos, pulling a special from a pack becomes an **event** again, and the best cards hold their value longer.
+
+## 9. Rivals and Champions: more transparency
+
+Similar structure, but part of the rewards arrive **after matches**. The most appreciated new thing: at the end of a match you see **opponent info**, the division in Rivals and the record in Champions. You understand better who you lost to, and matchmaking issues become visible.
+
+**The coach's take:** a small thing, but a quality one. It helps you read losses with a clearer head instead of blaming the game.
+
+## The verdict (mine, and not only)
+
+Lots of good changes, but **no "wow"** that flips Ultimate Team on its head: they are improvements to systems that already exist, not new modes. And important details are still missing (the live-service roadmap, the launch notes).
+
+But I like the direction: **slower progression, collecting that matters, a more flexible economy**. If EA really keeps the power curve controlled, and the more consistent communication it promised, FC 27 can be a healthier cycle. We will follow it update by update.
+
+More here: [everything new from the reveal](/en/newsletter/ea-fc-27-reveal-tutte-le-novita-ufficiali), [how the gameplay changes](/en/newsletter/ea-fc-27-gameplay-come-cambia-difesa) and [EA's communication toward FC 27](/en/newsletter/ea-comunicazione-fc26-trasparenza-fc27).`,
+    },
+  },
+  {
     slug: "ea-comunicazione-fc26-trasparenza-fc27",
     title: "EA ammette: la comunicazione su FC 26 è stata un flop. Cosa promette per FC 27",
     description:
