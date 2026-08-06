@@ -56,6 +56,11 @@ p.body{color:var(--ink-1);max-width:64ch}
 .feat .ic{font-size:20px;margin-bottom:10px;display:block}
 .feat h3{font-family:var(--sans);font-size:1rem;font-weight:600;margin-bottom:5px}
 .feat p{color:var(--ink-2);font-size:.88rem}
+.inside{list-style:none;margin-top:1.4rem;display:flex;flex-direction:column;gap:12px}
+.inside li{color:var(--ink-1);font-size:.98rem;padding-left:18px;position:relative;line-height:1.6}
+.inside li::before{content:"";position:absolute;left:0;top:.62em;width:7px;height:7px;border-radius:50%;background:var(--gold)}
+.inside li b{color:var(--ink-0);font-weight:600}
+.book-cover{width:100%;max-width:330px;border-radius:14px;border:1px solid var(--line);display:block;margin:0 auto;box-shadow:0 40px 90px -34px rgba(0,0,0,.8)}
 .tech{display:flex;flex-wrap:wrap;gap:10px;margin-top:1.4rem}
 .tech span{font-family:var(--mono);font-size:12px;color:var(--ink-1);border:1px solid var(--line);border-radius:8px;padding:9px 14px;background:rgba(255,255,255,.02)}
 .cta{text-align:center;background:var(--card);border:1px solid var(--line);border-radius:20px;padding:clamp(36px,6vw,64px) clamp(20px,5vw,40px);margin:clamp(20px,4vh,40px) 0}
@@ -127,16 +132,21 @@ footer{padding:40px 0;text-align:center;border-top:1px solid var(--line);font-fa
 
 <div class="sep"></div>
 
-<section><div class="wrap">
-  <div class="kicker">Cosa trovi dentro</div>
-  <h2>Non teoria, <em>ragionamento</em></h2>
-  <div class="features">
-    <div class="feat"><span class="ic">🍝</span><h3>Carbo, grassi, proteine, fibre</h3><p>Come funzionano davvero nel corpo di un diabetico.</p></div>
-    <div class="feat"><span class="ic">🌊</span><h3>Il modello a onde</h3><p>Perché certi piatti ti alzano la glicemia ore dopo il pasto.</p></div>
-    <div class="feat"><span class="ic">📖</span><h3>Ricettario ragionato</h3><p>La lettura glicemica di ogni piatto.</p></div>
-    <div class="feat"><span class="ic">🎯</span><h3>5 scenari reali</h3><p>Cena fuori, sport, malattia, viaggio, notte dopo la pizza.</p></div>
-    <div class="feat"><span class="ic">❓</span><h3>Le 5 domande</h3><p>Da farsi prima di ogni pasto.</p></div>
-    <div class="feat"><span class="ic">🗺️</span><h3>Una mappa personale</h3><p>Per imparare a leggere il tuo corpo.</p></div>
+<section><div class="wrap split">
+  <div>
+    <div class="kicker">Cosa trovi dentro</div>
+    <h2>Non teoria, <em>ragionamento</em></h2>
+    <ul class="inside">
+      <li><b>Carbo, grassi, proteine, fibre</b>: come funzionano davvero nel corpo di un diabetico.</li>
+      <li><b>Il modello a onde</b>: perché certi piatti ti alzano la glicemia ore dopo il pasto.</li>
+      <li><b>Ricettario ragionato</b>: la lettura glicemica di ogni piatto.</li>
+      <li><b>5 scenari reali</b>: cena fuori, sport, malattia, viaggio, notte dopo la pizza.</li>
+      <li><b>Le 5 domande</b>: da farsi prima di ogni pasto.</li>
+      <li><b>Una mappa personale</b>: per imparare a leggere il tuo corpo.</li>
+    </ul>
+  </div>
+  <div>
+    <img class="book-cover" src="/business/progetti/libro-thumb.jpg" alt="Copertina del libro «Il diabete non si cura. Si impara.» di Fabio Denuzzo" loading="lazy" />
   </div>
 </div></section>
 

@@ -56,6 +56,8 @@ p.body{color:var(--ink-1);max-width:64ch}
 .feat .ic{font-size:20px;margin-bottom:10px;display:block}
 .feat h3{font-family:var(--sans);font-size:1rem;font-weight:600;margin-bottom:5px}
 .feat p{color:var(--ink-2);font-size:.88rem}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px;margin-top:1.8rem}
+.gallery img{width:100%;height:auto;border-radius:16px;border:1px solid var(--line);display:block;box-shadow:0 30px 60px -34px rgba(0,0,0,.75)}
 .tech{display:flex;flex-wrap:wrap;gap:10px;margin-top:1.4rem}
 .tech span{font-family:var(--mono);font-size:12px;color:var(--ink-1);border:1px solid var(--line);border-radius:8px;padding:9px 14px;background:rgba(255,255,255,.02)}
 .cta{text-align:center;background:var(--card);border:1px solid var(--line);border-radius:20px;padding:clamp(36px,6vw,64px) clamp(20px,5vw,40px);margin:clamp(20px,4vh,40px) 0}
@@ -130,11 +132,11 @@ footer{padding:40px 0;text-align:center;border-top:1px solid var(--line);font-fa
 <section><div class="wrap">
   <div class="kicker">Cosa fa</div>
   <h2>Semplice, <em>concreta</em></h2>
-  <div class="features">
-    <div class="feat"><span class="ic">📸</span><h3>Foto al piatto</h3><p>L'AI stima l'impatto sulla glicemia di quello che stai per mangiare.</p></div>
-    <div class="feat"><span class="ic">🍽️</span><h3>Ricette italiane</h3><p>Pensate per tenere la glicemia stabile.</p></div>
-    <div class="feat"><span class="ic">📚</span><h3>Impara</h3><p>Sezioni educative su cibo e glicemia, con tono caldo e chiaro.</p></div>
-    <div class="feat"><span class="ic">💡</span><h3>Consigli</h3><p>Piccoli accorgimenti per rendere ogni pasto più graduale.</p></div>
+  <p class="body">Fotografi il piatto e capisci quanto muove la glicemia, con ricette italiane, sezioni per imparare e consigli pratici. Ecco l'app in azione.</p>
+  <div class="gallery">
+    <img src="/business/progetti/glicoden-app-1.jpg" alt="Glicoden — la nuova app per capire come il cibo muove la glicemia" loading="lazy" />
+    <img src="/business/progetti/glicoden-app-2.jpg" alt="Glicoden — fotografi il piatto e stima l'impatto sulla glicemia" loading="lazy" />
+    <img src="/business/progetti/glicoden-app-3.jpg" alt="Glicoden — ricette italiane con l'impatto stimato di ogni piatto" loading="lazy" />
   </div>
 </div></section>
 

@@ -56,6 +56,11 @@ p.body{color:var(--ink-1);max-width:64ch}
 .feat .ic{font-size:20px;margin-bottom:10px;display:block}
 .feat h3{font-family:var(--sans);font-size:1rem;font-weight:600;margin-bottom:5px}
 .feat p{color:var(--ink-2);font-size:.88rem}
+.inside{list-style:none;margin-top:1.4rem;display:flex;flex-direction:column;gap:12px}
+.inside li{color:var(--ink-1);font-size:.98rem;padding-left:18px;position:relative;line-height:1.6}
+.inside li::before{content:"";position:absolute;left:0;top:.62em;width:7px;height:7px;border-radius:50%;background:var(--gold)}
+.inside li b{color:var(--ink-0);font-weight:600}
+.book-cover{width:100%;max-width:330px;border-radius:14px;border:1px solid var(--line);display:block;margin:0 auto;box-shadow:0 40px 90px -34px rgba(0,0,0,.8)}
 .tech{display:flex;flex-wrap:wrap;gap:10px;margin-top:1.4rem}
 .tech span{font-family:var(--mono);font-size:12px;color:var(--ink-1);border:1px solid var(--line);border-radius:8px;padding:9px 14px;background:rgba(255,255,255,.02)}
 .cta{text-align:center;background:var(--card);border:1px solid var(--line);border-radius:20px;padding:clamp(36px,6vw,64px) clamp(20px,5vw,40px);margin:clamp(20px,4vh,40px) 0}
@@ -127,16 +132,21 @@ footer{padding:40px 0;text-align:center;border-top:1px solid var(--line);font-fa
 
 <div class="sep"></div>
 
-<section><div class="wrap">
-  <div class="kicker">What is inside</div>
-  <h2>Not theory, <em>reasoning</em></h2>
-  <div class="features">
-    <div class="feat"><span class="ic">🍝</span><h3>Carbs, fat, protein, fiber</h3><p>How they really work in a diabetic body.</p></div>
-    <div class="feat"><span class="ic">🌊</span><h3>The wave model</h3><p>Why certain dishes raise your blood sugar hours later.</p></div>
-    <div class="feat"><span class="ic">📖</span><h3>Reasoned recipe book</h3><p>The glycemic read of every dish.</p></div>
-    <div class="feat"><span class="ic">🎯</span><h3>5 real scenarios</h3><p>Eating out, sport, illness, travel, the night after pizza.</p></div>
-    <div class="feat"><span class="ic">❓</span><h3>The 5 questions</h3><p>To ask yourself before every meal.</p></div>
-    <div class="feat"><span class="ic">🗺️</span><h3>A personal map</h3><p>To learn to read your own body.</p></div>
+<section><div class="wrap split">
+  <div>
+    <div class="kicker">What is inside</div>
+    <h2>Not theory, <em>reasoning</em></h2>
+    <ul class="inside">
+      <li><b>Carbs, fat, protein, fiber</b>: how they really work in a diabetic body.</li>
+      <li><b>The wave model</b>: why certain dishes raise your blood sugar hours later.</li>
+      <li><b>Reasoned recipe book</b>: the glycemic read of every dish.</li>
+      <li><b>5 real scenarios</b>: eating out, sport, illness, travel, the night after pizza.</li>
+      <li><b>The 5 questions</b>: to ask yourself before every meal.</li>
+      <li><b>A personal map</b>: to learn to read your own body.</li>
+    </ul>
+  </div>
+  <div>
+    <img class="book-cover" src="/business/progetti/libro-thumb.jpg" alt="Cover of the book «Il diabete non si cura. Si impara.» by Fabio Denuzzo" loading="lazy" />
   </div>
 </div></section>
 
