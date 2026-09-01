@@ -30,6 +30,133 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "ea-fc-27-rating-migliori-giocatori-per-ruolo",
+    title: "Rating EA FC 27: i migliori giocatori per ruolo (e chi comprare davvero)",
+    description:
+      "I rating ufficiali di EA FC 27: Mbappé e Haaland 91, il gruppone dei 90 e i migliori per ruolo. La lista completa e il parere del coach su chi conta davvero in campo.",
+    category: "News",
+    date: "2026-09-01",
+    dateLabel: "1 Settembre 2026",
+    readingTime: "5 min",
+    badge: "RATINGS",
+    heroImage: "/img/articles/ea-fc-27-rating-migliori-giocatori-per-ruolo-hero.jpg",
+    heroAlt:
+      "I rating ufficiali di EA FC 27: Mbappé e Haaland 91 e i migliori giocatori per ruolo",
+    excerpt:
+      "Rating ufficiali di FC 27: Mbappé e Haaland 91, il gruppo dei 90 con le sorprese Yamal, Olise e Vitinha. I migliori per ruolo e il parere del coach su chi vale davvero in campo.",
+    body: `EA ha svelato i rating ufficiali di FC 27: oltre 21.000 giocatori nel database. Ti riassumo i migliori per ruolo e, come sempre, ci metto il parere da coach, perché l'overall è solo un numero: quello che conta in campo è un'altra cosa.
+
+## I due numeri uno: 91
+
+In cima al gioco ci sono due nomi, entrambi **91 di overall**:
+
+- **Kylian Mbappé** (la cover star)
+- **Erling Haaland**
+
+## Il gruppone dei 90
+
+Subito sotto, un blocco fittissimo di fenomeni a **90**:
+
+- **Rodri, Vitinha, Pedri, Jude Bellingham** (centrocampo)
+- **Harry Kane** (punta)
+- **Ousmane Dembélé, Michael Olise, Lamine Yamal** (esterni)
+- **Thibaut Courtois** (portiere)
+
+La cosa che salta all'occhio: **Yamal, Olise e Vitinha a 90**, cioè nello stesso gruppo di Rodri, Kane, Pedri e Bellingham. Segnale di dove EA vede il futuro del gioco.
+
+## I 89 e gli 88 (dove trovi i colpi)
+
+- **89:** Gabriel, Donnarumma, Bruno Fernandes, Kvaratskhelia, Willian Pacho, Vinícius Júnior, e ancora **Lionel Messi**.
+- **88:** Oblak, Declan Rice, Saliba, Van Dijk, Hakimi, Kimmich, Luis Díaz.
+
+Questa è la fascia più interessante per chi gioca Ultimate Team: giocatori fortissimi che costeranno molto meno dei 90-91.
+
+## I migliori per ruolo (uomini)
+
+- **Attaccanti:** Haaland (91) davanti a tutti, poi Kane (90). Dietro, occhio a Isak e Gyökeres.
+- **Ali e trequarti:** Mbappé (91), poi Dembélé, Olise, Yamal, Vinícius, Kvaratskhelia.
+- **Centrocampo:** Rodri, Vitinha, Pedri, Bellingham (90), poi Bruno Fernandes (89) e Rice (88).
+- **Difesa:** Gabriel (89) guida i centrali, con Saliba e Van Dijk (88). Terzini: Hakimi (88).
+- **Portieri:** Courtois (90), poi Donnarumma (89) e Oblak (88).
+
+## Il femminile
+
+- **Alexia Putellas** resta la numero uno a **91**.
+- Subito dietro **Aitana Bonmatí** e **Khadija Shaw** a **90**, poi **Mariona** a **89**.
+
+## Il parere del coach
+
+Attenzione, qui sta il punto che gli altri non ti dicono: **l'overall non ti fa vincere le partite.** Su FC 27, con la power curve più lenta di cui abbiamo parlato, all'inizio contano ancora di più due cose:
+
+1. **I PlayStyle+ giusti per il ruolo**, non l'overall. Un attaccante 84 con i PlayStyle giusti ti rende più di un 88 senza.
+2. **Le stat che servono a quel ruolo:** un difensore lo scegli per intercetto e fisico, non per il numerone; un'ala per accelerazione e dribbling.
+
+Quindi non buttarti sui 90-91 solo perché sono in cima alla lista. A inizio ciclo il valore vero è nella fascia **86-89**: giocatori fortissimi, con i PlayStyle giusti, a un prezzo umano. Quelli ti fanno partire avanti senza svuotare il club.
+
+Continua qui: [tutte le novità di Ultimate Team](/newsletter/ea-fc-27-ultimate-team-novita-gallery-sbc-power-curve), [come cambia il gameplay](/newsletter/ea-fc-27-gameplay-come-cambia-difesa) e [come prepararti a FC 27](/newsletter/come-prepararti-a-ea-fc-27).`,
+    en: {
+      title: "EA FC 27 Ratings: The Best Players by Position (and Who to Actually Buy)",
+      description:
+        "The official EA FC 27 ratings: Mbappé and Haaland at 91, the group of 90s and the best by position. Full list and the coach's take on who really matters on the pitch.",
+      category: "News",
+      dateLabel: "September 1, 2026",
+      heroAlt:
+        "The official EA FC 27 ratings: Mbappé and Haaland at 91 and the best players by position",
+      excerpt:
+        "FC 27 official ratings: Mbappé and Haaland at 91, the 90 group with surprises Yamal, Olise and Vitinha. The best by position and the coach's take on who truly matters.",
+      body: `EA has revealed the official FC 27 ratings: over 21,000 players in the database. Here is a summary of the best by position and, as always, the coach's take, because overall is just a number: what matters on the pitch is something else.
+
+## The two number ones: 91
+
+At the top of the game are two names, both **91 overall**:
+
+- **Kylian Mbappé** (the cover star)
+- **Erling Haaland**
+
+## The pack of 90s
+
+Right below, a dense block of stars at **90**:
+
+- **Rodri, Vitinha, Pedri, Jude Bellingham** (midfield)
+- **Harry Kane** (striker)
+- **Ousmane Dembélé, Michael Olise, Lamine Yamal** (wingers)
+- **Thibaut Courtois** (goalkeeper)
+
+What stands out: **Yamal, Olise and Vitinha at 90**, in the same group as Rodri, Kane, Pedri and Bellingham. A sign of where EA sees the game heading.
+
+## The 89s and 88s (where the deals are)
+
+- **89:** Gabriel, Donnarumma, Bruno Fernandes, Kvaratskhelia, Willian Pacho, Vinícius Júnior, and still **Lionel Messi**.
+- **88:** Oblak, Declan Rice, Saliba, Van Dijk, Hakimi, Kimmich, Luis Díaz.
+
+This is the most interesting tier for Ultimate Team: elite players who will cost far less than the 90-91s.
+
+## The best by position (men)
+
+- **Strikers:** Haaland (91) ahead of everyone, then Kane (90). Behind them, watch Isak and Gyökeres.
+- **Wingers and playmakers:** Mbappé (91), then Dembélé, Olise, Yamal, Vinícius, Kvaratskhelia.
+- **Midfield:** Rodri, Vitinha, Pedri, Bellingham (90), then Bruno Fernandes (89) and Rice (88).
+- **Defense:** Gabriel (89) leads the centre-backs, with Saliba and Van Dijk (88). Full-backs: Hakimi (88).
+- **Goalkeepers:** Courtois (90), then Donnarumma (89) and Oblak (88).
+
+## The women's game
+
+- **Alexia Putellas** stays number one at **91**.
+- Right behind, **Aitana Bonmatí** and **Khadija Shaw** at **90**, then **Mariona** at **89**.
+
+## The coach's take
+
+Careful, here is the point others do not tell you: **overall does not win you games.** On FC 27, with the slower power curve we talked about, two things matter even more early on:
+
+1. **The right PlayStyle+ for the role**, not the overall. An 84 striker with the right PlayStyles beats an 88 without them.
+2. **The stats that role needs:** you pick a defender for interceptions and physicality, not the big number; a winger for acceleration and dribbling.
+
+So do not jump on the 90-91s just because they top the list. Early in the cycle the real value is in the **86-89** tier: elite players, with the right PlayStyles, at a human price. Those get you ahead without emptying your club.
+
+More here: [everything new in Ultimate Team](/en/newsletter/ea-fc-27-ultimate-team-novita-gallery-sbc-power-curve), [how the gameplay changes](/en/newsletter/ea-fc-27-gameplay-come-cambia-difesa) and [how to prepare for FC 27](/en/newsletter/come-prepararti-a-ea-fc-27).`,
+    },
+  },
+  {
     slug: "ea-fc-27-ultimate-team-novita-gallery-sbc-power-curve",
     title: "EA FC 27 Ultimate Team: tutte le novità (Gallery, SBC a punti, EVO Pathways e power curve)",
     description:
