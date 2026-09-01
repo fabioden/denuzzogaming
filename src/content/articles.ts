@@ -44,7 +44,7 @@ export const articles: Article[] = [
       "I rating ufficiali di EA FC 27: Mbappé e Haaland 91 e i migliori giocatori per ruolo",
     excerpt:
       "Rating ufficiali di FC 27: Mbappé e Haaland 91, il gruppo dei 90 con le sorprese Yamal, Olise e Vitinha. I migliori per ruolo e il parere del coach su chi vale davvero in campo.",
-    body: `EA ha svelato i rating ufficiali di FC 27: oltre 21.000 giocatori nel database. Ti riassumo i migliori per ruolo e, come sempre, ci metto il parere da coach, perché l'overall è solo un numero: quello che conta in campo è un'altra cosa.
+    body: `EA ha svelato i rating ufficiali di FC 27: oltre 21.000 giocatori nel database, che puoi consultare per intero sul [sito ufficiale EA](https://www.ea.com/it/games/ea-sports-fc/ratings). Ti riassumo i migliori per ruolo e, come sempre, ci metto il parere da coach, perché l'overall è solo un numero: quello che conta in campo è un'altra cosa.
 
 ## I due numeri uno: 91
 
@@ -104,7 +104,7 @@ Continua qui: [tutte le novità di Ultimate Team](/newsletter/ea-fc-27-ultimate-
         "The official EA FC 27 ratings: Mbappé and Haaland at 91 and the best players by position",
       excerpt:
         "FC 27 official ratings: Mbappé and Haaland at 91, the 90 group with surprises Yamal, Olise and Vitinha. The best by position and the coach's take on who truly matters.",
-      body: `EA has revealed the official FC 27 ratings: over 21,000 players in the database. Here is a summary of the best by position and, as always, the coach's take, because overall is just a number: what matters on the pitch is something else.
+      body: `EA has revealed the official FC 27 ratings: over 21,000 players in the database, which you can browse in full on the [official EA site](https://www.ea.com/games/ea-sports-fc/ratings). Here is a summary of the best by position and, as always, the coach's take, because overall is just a number: what matters on the pitch is something else.
 
 ## The two number ones: 91
 
