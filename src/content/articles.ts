@@ -39,7 +39,7 @@ export const articles: Article[] = [
     dateLabel: "1 Settembre 2026",
     readingTime: "5 min",
     badge: "RATINGS",
-    heroImage: "/img/articles/ea-fc-27-rating-migliori-giocatori-per-ruolo-hero.jpg",
+    heroImage: "/img/articles/ea-fc-27-rating-migliori-giocatori-per-ruolo-hero-v2.jpg",
     heroAlt:
       "I rating ufficiali di EA FC 27: Mbappé e Haaland 91 e i migliori giocatori per ruolo",
     excerpt:
