@@ -9,12 +9,12 @@ import type { ReactNode } from "react";
 export const FOUNDER_TAKEN = 37;
 export const FOUNDER_TOTAL = 50;
 
-export const STACK: { t: string; v: string; bonus?: boolean }[] = [
-  { t: "7 corsi video completi (17 esercizi)", v: "€149" },
-  { t: "Le Dritte: il meta ogni settimana, tutta la stagione", v: "€60" },
-  { t: "30% di sconto sul coaching 1:1", v: "€60" },
-  { t: "Community WhatsApp privata degli allievi", v: "€40" },
-  { t: "Clip-review 1:1 di una tua partita", v: "€50", bonus: true },
+// Solo ciò che i corsi sono davvero (niente bonus/extra non consegnati). Fabio aggiusta le voci.
+export const STACK: { t: string; v?: string; bonus?: boolean }[] = [
+  { t: "7 corsi video completi (17 esercizi brevi)" },
+  { t: "Costruzione rosa, difesa, attacco e mentalità" },
+  { t: "Ti dico esattamente cosa fare, in che ordine — niente teoria" },
+  { t: "Nuovi corsi durante tutta la stagione EA FC 27" },
 ];
 
 // Palmarès reale di Fabio (titoli SUOI da giocatore) = l'unica prova, niente testimonianze finte.
@@ -81,18 +81,7 @@ export function AcademyOffer({ cta, comingSoon }: { cta: ReactNode; comingSoon?:
         <p className="text-[.86rem] text-ink"><strong className="text-gold">Sali o continui gratis.</strong> Se segui il percorso e non sali di divisione, tieni l'accesso finché non ci arrivi.</p>
       </div>
 
-      {/* Scarsità visibile */}
-      <div className="mt-5">
-        <div className="h-[9px] rounded-full bg-line-2 overflow-hidden">
-          <span className="block h-full rounded-full bg-gradient-to-r from-gold to-gold-light" style={{ width: `${seatsPct}%` }} />
-        </div>
-        <div className="flex items-center justify-between mt-2 text-[.78rem] text-ink-2">
-          <span>{comingSoon ? "Posti founder" : "Prezzo fondatore, poi 59€"}</span>
-          <strong className="text-gold tabular-nums">{FOUNDER_TAKEN} / {FOUNDER_TOTAL} posti presi</strong>
-        </div>
-      </div>
-
-      <div className="mt-4">{cta}</div>
+      <div className="mt-5">{cta}</div>
 
       {/* Fiducia al punto di decisione */}
       {comingSoon ? (
