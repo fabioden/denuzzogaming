@@ -37,7 +37,6 @@ export function ShieldIcon({ size = 24 }: { size?: number }) {
 }
 
 export function AcademyOffer({ cta, comingSoon }: { cta: ReactNode; comingSoon?: boolean }) {
-  const seatsPct = Math.min(100, Math.round((FOUNDER_TAKEN / FOUNDER_TOTAL) * 100));
   return (
     <div className="relative mx-auto max-w-[560px] rounded-[16px] border border-line-2 bg-gradient-to-b from-[#1b1721] to-[#131017] p-[clamp(22px,4vw,32px)] shadow-[0_30px_70px_-34px_rgba(0,0,0,.85)] fade-up">
       <span className="absolute -top-3 left-1/2 -translate-x-1/2 inline-flex items-center px-4 py-1 rounded-full bg-gold text-gold-contrast text-[11px] font-bold uppercase tracking-[.1em] whitespace-nowrap">
