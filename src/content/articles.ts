@@ -30,6 +30,103 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "webapp-fc-27-data-uscita-checklist",
+    title: "Web App FC 27: quando esce, chi può entrare e la checklist del primo giorno",
+    description:
+      "La Web App di EA FC 27 esce il 16 settembre: date, il requisito che taglia fuori molti e la checklist del coach per costruire crediti dal primo giorno, prima di tutti gli altri.",
+    category: "Guida",
+    date: "2026-09-02",
+    dateLabel: "2 Settembre 2026",
+    readingTime: "4 min",
+    badge: "WEB APP",
+    heroImage: "/img/articles/webapp-fc-27-data-uscita-checklist-hero.jpg",
+    heroAlt:
+      "Web App EA FC 27: data d'uscita, requisiti d'accesso e checklist del primo giorno per Ultimate Team",
+    excerpt:
+      "La Web App di FC 27 esce il 16 settembre. Le date, il requisito che spiazza molti e la checklist del coach per partire col vantaggio del primo giorno su Ultimate Team.",
+    body: `Il primo momento vero di FC 27 non è il 25, è il **16 settembre** con la Web App. È lì che si costruisce il vantaggio del primo giorno, mentre gli altri devono ancora accendere la console. Ti do le date, chi può entrare (occhio a un requisito che taglia fuori tanta gente) e la checklist per partire col piede giusto.
+
+## Le date che contano
+
+- **Web App:** 16 settembre, ore 20:00 (CET).
+- **Companion App** (da telefono): 17 settembre, ore 20:00.
+- **Early access** (Ultimate e Ultimate+): 18 settembre.
+- **Uscita mondiale:** 25 settembre.
+
+## Chi può entrare il primo giorno (il requisito che spiazza)
+
+Per usare la Web App dal giorno uno servono due cose:
+
+- Aver **creato un club Ultimate Team su FC 26 prima del 1° agosto 2026**.
+- Un **account EA pulito**: niente ban, blocchi al mercato o richiami dalla stagione precedente.
+
+Se non hai un club FC 26 idoneo, dovrai aspettare l'accesso al gioco vero e proprio. Controlla adesso la tua situazione, non il 16.
+
+## Web App o Companion: che differenza c'è
+
+La **Web App** si apre dal browser del PC, la **Companion** dal telefono (esce un giorno dopo). Da entrambe gestisci club, mercato e SBC **senza avere il gioco aperto**. Sembra un dettaglio, è oro: mentre gli altri dormono, tu stai già facendo crediti.
+
+## La checklist del primo giorno (da coach)
+
+1. **Riscatta** i bonus preorder e i pacchetti di benvenuto.
+2. **Fai le SBC starter**: crediti e giocatori quasi gratis, sono le più convenienti dell'anno.
+3. **Apri i pacchetti con il mercato ancora "vergine"**: i prezzi iniziali ballano, si compra e si rivende bene.
+4. **Non buttare via nulla**: con la nuova Gallery anche le carte scarse servono a completare i set.
+5. **Inizia il trading leggero**: nei primi giorni si fanno i crediti più facili di tutta la stagione.
+
+## Il consiglio del coach
+
+La Web App vale più di mezza giornata di gioco. Chi la sfrutta dal **16** arriva all'early access del **18** con un tesoretto e una rosa già avviata, mentre gli altri partono da zero. È il primo vantaggio concreto del ciclo: non sprecarlo.
+
+Continua qui: [i rating ufficiali](/newsletter/ea-fc-27-rating-migliori-giocatori-per-ruolo), [tutte le novità di Ultimate Team](/newsletter/ea-fc-27-ultimate-team-novita-gallery-sbc-power-curve) e [come prepararti a FC 27](/newsletter/come-prepararti-a-ea-fc-27).`,
+    en: {
+      title: "FC 27 Web App: Release Date, Who Can Log In and the Day-One Checklist",
+      description:
+        "The EA FC 27 Web App drops September 16: dates, the requirement that locks many out, and the coach's checklist to build coins from day one, before everyone else.",
+      category: "Guide",
+      dateLabel: "September 2, 2026",
+      heroAlt:
+        "EA FC 27 Web App: release date, access requirements and the day-one Ultimate Team checklist",
+      excerpt:
+        "The FC 27 Web App drops September 16. The dates, the requirement that catches many out, and the coach's checklist to start with a day-one edge on Ultimate Team.",
+      body: `The first real moment of FC 27 is not the 25th, it is **September 16** with the Web App. That is where the day-one edge is built, while others still have to turn their console on. Here are the dates, who can log in (watch a requirement that locks a lot of people out) and the checklist to start on the right foot.
+
+## The dates that matter
+
+- **Web App:** September 16, 8:00 PM (CET).
+- **Companion App** (mobile): September 17, 8:00 PM.
+- **Early access** (Ultimate and Ultimate+): September 18.
+- **Worldwide release:** September 25.
+
+## Who can log in day one (the requirement that catches people out)
+
+To use the Web App from day one you need two things:
+
+- Having **created an Ultimate Team club on FC 26 before August 1, 2026**.
+- A **clean EA account**: no bans, transfer market locks or warnings from last season.
+
+If you do not have an eligible FC 26 club, you will have to wait for full game access. Check your situation now, not on the 16th.
+
+## Web App or Companion: what is the difference
+
+The **Web App** opens in your PC browser, the **Companion** on your phone (one day later). From both you manage your club, market and SBCs **without the game running**. It sounds minor, it is gold: while others sleep, you are already making coins.
+
+## The day-one checklist (coach's version)
+
+1. **Redeem** your pre-order bonuses and welcome packs.
+2. **Do the starter SBCs**: near-free coins and players, the best value of the year.
+3. **Open packs with the market still "fresh"**: early prices swing, you buy and resell well.
+4. **Do not dump anything**: with the new Gallery even weak cards help complete sets.
+5. **Start light trading**: the first days bring the easiest coins of the whole season.
+
+## The coach's take
+
+The Web App is worth more than half a day of playing. Whoever uses it from the **16th** reaches early access on the **18th** with a war chest and a squad already going, while others start from zero. It is the first concrete edge of the cycle: do not waste it.
+
+More here: [the official ratings](/en/newsletter/ea-fc-27-rating-migliori-giocatori-per-ruolo), [everything new in Ultimate Team](/en/newsletter/ea-fc-27-ultimate-team-novita-gallery-sbc-power-curve) and [how to prepare for FC 27](/en/newsletter/come-prepararti-a-ea-fc-27).`,
+    },
+  },
+  {
     slug: "ea-fc-27-rating-migliori-giocatori-per-ruolo",
     title: "Rating EA FC 27: i migliori giocatori per ruolo (e chi comprare davvero)",
     description:
