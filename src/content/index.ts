@@ -6,6 +6,7 @@ export type NavItem = { label: string; href: string; active?: boolean };
 
 export const nav: NavItem[] = [
   { label: "Home", href: "/", active: true },
+  { label: "Academy", href: "/academy" },
   { label: "Coaching", href: "/coaching" },
   { label: "Newsletter", href: "/newsletter" },
 ];

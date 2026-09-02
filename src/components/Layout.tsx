@@ -18,6 +18,7 @@ const COMMUNITY_WA = "https://wa.me/393667142489?text=" + encodeURIComponent("Ci
 
 const footerLinks = [
   { label: "Home", href: "/" },
+  { label: "Academy", href: "/academy" },
   { label: "Coaching", href: "/coaching" },
   { label: "Newsletter", href: "/newsletter" },
   { label: "YouTube", href: social.youtube, ext: true },
@@ -90,6 +91,8 @@ export default function Layout({ children }: { children: ReactNode }) {
           <Link to={switchHref} aria-label="Switch language" className="inline-flex items-center justify-center w-9 h-9 rounded-full border border-line-2 font-mono text-[11px] font-semibold tracking-[.1em] uppercase text-ink-2 hover:text-gold hover:border-gold/50 transition-colors no-underline">
             {lang === "en" ? "IT" : "EN"}
           </Link>
+          <Link to="/login" className="hidden sm:inline-flex items-center font-mono text-[11px] font-medium tracking-[.16em] uppercase text-ink-2 hover:text-gold transition-colors no-underline">Accedi</Link>
+          <Link to="/gratis" className="inline-flex items-center px-4 py-2 rounded-full bg-gold text-gold-contrast font-mono text-[11px] font-semibold tracking-[.16em] uppercase hover:opacity-90 transition-opacity no-underline">{lang === "en" ? "Free lesson" : "Lezione gratis"}</Link>
           <L to="/coaching" className="hidden lg:inline-flex items-center px-4 py-2 rounded-full border border-gold/35 font-mono text-[11px] font-medium tracking-[.16em] uppercase text-gold hover:bg-gold/[.08] hover:border-gold/60 transition-all no-underline">{t("nav.book")}</L>
           <button onClick={() => setMenuOpen(true)} aria-label={t("menu.open")} className="lg:hidden w-10 h-10 rounded-full bg-white/[.04] border border-line-2 flex flex-col items-center justify-center gap-[5px] hover:bg-gold/[.08] transition">
             <span className="block w-4 h-[1.5px] bg-ink" />
@@ -114,6 +117,8 @@ export default function Layout({ children }: { children: ReactNode }) {
           {nav.map((l) => (
             <L key={l.label} to={l.href} onClick={() => setMenuOpen(false)} className={`font-display text-[clamp(28px,6vw,42px)] font-bold uppercase no-underline transition ${isActive(canon, l.href) ? "text-gold" : "text-ink hover:text-gold hover:translate-x-3"}`}>{l.label}</L>
           ))}
+          <Link to="/gratis" onClick={() => setMenuOpen(false)} className="font-display text-[clamp(28px,6vw,42px)] font-bold uppercase no-underline text-gold hover:translate-x-3 transition">{lang === "en" ? "Free lesson" : "Lezione gratis"}</Link>
+          <Link to="/login" onClick={() => setMenuOpen(false)} className="font-display text-[clamp(28px,6vw,42px)] font-bold uppercase no-underline text-ink hover:text-gold hover:translate-x-3 transition">Accedi</Link>
           {/* Selettore lingua */}
           <Link to={switchHref} onClick={() => setMenuOpen(false)} className="font-mono text-[clamp(16px,4vw,22px)] font-semibold tracking-[.16em] uppercase no-underline text-ink-2 hover:text-gold transition">
             {lang === "en" ? "🇮🇹 Italiano" : "🇬🇧 English"}
