@@ -24,6 +24,7 @@ const pages = [
   { path: "/", cf: "weekly", pr: "1.0", bilingual: true }, // hub IT + /en
   { path: "/gaming", cf: "weekly", pr: "0.9", bilingual: true },
   { path: "/coaching", cf: "weekly", pr: "0.8", bilingual: true },
+  { path: "/academy", cf: "weekly", pr: "0.9", bilingual: true },
   { path: "/newsletter", cf: "weekly", pr: "0.8", bilingual: true },
   { path: "/privacy", cf: "monthly", pr: "0.4", bilingual: true },
   { path: "/business/", cf: "monthly", pr: "0.8", bilingual: false }, // business IT

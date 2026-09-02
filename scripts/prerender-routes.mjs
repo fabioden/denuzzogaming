@@ -64,6 +64,11 @@ const PAGES = [
     en: { title: "EA FC Coaching with Fabio Denuzzo", description: "One-to-one and group EA FC coaching sessions with a 2x Italian champion and former pro player." },
   },
   {
+    path: "/academy", bilingual: true, type: "website",
+    it: { title: "Academy EA FC — i corsi video di Fabio Denuzzo", description: "In arrivo con EA FC 27: i corsi video di Fabio Denuzzo, 2x campione italiano. Entra nella lista founder e sblocca l'Academy appena esce." },
+    en: { title: "EA FC Academy — Fabio Denuzzo's video courses", description: "Coming with EA FC 27: Fabio Denuzzo's video courses, 2x Italian champion. Join the founder list and unlock the Academy at launch." },
+  },
+  {
     path: "/newsletter", bilingual: true, type: "website",
     it: { title: "Newsletter EA FC e Scuola Denuzzo", description: "Articoli, leak e guide EA FC, piu la Scuola Denuzzo: impara a giocare con le guide del coach." },
     en: { title: "EA FC Newsletter & Denuzzo School", description: "EA FC articles, leaks and guides, plus Denuzzo School: learn to play with the coach's guides." },
