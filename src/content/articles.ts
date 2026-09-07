@@ -30,6 +30,131 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "starter-squad-fc-27-come-costruirla-senza-bruciare-crediti",
+    title: "Starter squad FC 27: come costruirla senza bruciare crediti (la strategia)",
+    description:
+      "Come costruire una starter squad intelligente su EA FC 27: evita l'hype e la Premier League, cerca valore in Saudi League, Serie A e Liga F, gioca untradeable e proteggi i crediti nelle prime settimane.",
+    category: "Guida",
+    date: "2026-09-07",
+    dateLabel: "7 Settembre 2026",
+    readingTime: "6 min",
+    badge: "FC 27",
+    heroImage: "/img/articles/starter-squad-fc-27-come-costruirla-senza-bruciare-crediti-hero.jpg",
+    heroAlt:
+      "Come costruire una starter squad economica su EA FC 27 senza bruciare crediti nelle prime settimane",
+    excerpt:
+      "All'uscita di FC 27 l'errore numero uno è buttarsi sulle carte hype. Ti spiego come costruire una starter squad intelligente che ti diverte e protegge i crediti. Da gestore di capitale, non da collezionista.",
+    body: `L'errore numero uno all'uscita di FC 27 è buttarsi sulle carte più hype e ritrovarsi con metà crediti in una settimana. Ti spiego come costruire una starter squad intelligente, che ti fa divertire e ti protegge il portafoglio nelle prime settimane. È un ragionamento più da gestore di capitale che da collezionista, e riprende un'ottima analisi di **Nate (The FUT Accountant)**, con il mio parere da coach.
+
+## L'idea di fondo
+
+Una buona starter squad non deve avere i giocatori più forti o più meta. Deve avere: carte **usabili e competitive**, stat adatte al gameplay, **costo basso** e soprattutto **poco rischio di svalutazione**. Il mercato dei primi giorni è volatile: l'obiettivo numero uno è proteggere i crediti.
+
+## 1. Non comprare subito le carte più "meta"
+
+Le carte più desiderate nei primi giorni sono **sovrapprezzate dall'hype**. Esempio storico: in FC 26 Marmoush partì a circa 80k e in due settimane e mezzo crollò verso i 22k, perché da carta 84 usciva spesso dai pacchetti e arrivavano alternative migliori. Stesso copione per Rashford ed Ekitiké.
+
+Non sono carte cattive: sono care per l'hype. Ma se la paghi 80k e dopo una settimana vale 30k, hai bruciato una fetta enorme del tuo capitale iniziale. Su FC 27 lo stesso rischio riguarderà i nomi più chiacchierati (Barcola, per esempio, è dato in odore di prezzi altissimi al lancio).
+
+## 2. Evita la Premier League all'inizio
+
+Esiste una vera **"Premier League tax"**: la stessa qualità costa molto di più solo perché è il campionato più popolare. La mossa furba è cercare stat simili in campionati meno gettonati. Tre miniere d'oro:
+
+- **Saudi League:** tante carte forti a meno (Theo Hernández, Simakan, Reijnders, Diaby). Per un'ala conta velocità e dribbling, non il resto: la prendi a una frazione della Premier.
+- **Serie A:** storicamente ottima per squadre economiche (Malen, Dybala, Pulisic). Pulisic con 5 stelle di piede debole e più ruoli è il tipo di colpo perfetto.
+- **Liga F** (il femminile spagnolo): il campionato più sottovalutato, gemme velocissime anche a 2-5k (Vicky López, Kika Nazareth, Rosa Márquez). Ottime su fascia, centrocampo e attacco, meno su centrali difensive e portieri.
+
+## 3. Non comprare la squadra durante la Web App
+
+Sulla Web App il mercato è distorto: pochi pacchetti aperti, poca offerta, prezzi gonfiati. Quando esce il gioco vero, migliaia di persone aprono pacchetti e il prezzo delle carte medio-basse **crolla**. Resisti alla tentazione di comprare solo perché "non c'è altro da fare": aspetta l'accesso al gioco e paghi gli stessi giocatori molto meno. (Sulle date della Web App ti ho spiegato tutto qui: [Web App FC 27](/newsletter/webapp-fc-27-data-uscita-checklist).)
+
+## 4. Vai il più possibile di "untradeable" (first owner)
+
+Nei primi momenti: gioca con la rosa base (anche bronzi e argenti), fai qualche Squad Battles facile e le modalità che danno premi, apri i primi pacchetti e guarda quali **non scambiabili** trovi. Poi decidi la squadra.
+
+Un giocatore trovato non scambiabile **non ti può far perdere crediti**, perché non l'hai comprato. Se metà squadra è untradeable, il rischio economico crolla. E capita spesso che una carta trovata a caso sia molto più forte in game di quanto sembri: è anche la parte più divertente, scoprire le "hidden gem".
+
+## 5. Se ti girano bene i crediti, punta su carte rare e di rating alto
+
+Se nei primi giorni accumuli parecchi crediti, meglio investirli in carte **davvero rare e forti** (Icone, Heroes, gold top) che in tante starter sovrapprezzate. FC 27 potrebbe avere un mercato iniziale più sano: EA ha annunciato più ricompense scambiabili, più pacchetti e più crediti giocando.
+
+La logica: all'inizio pochi possono permettersi le top, poi la gente accumula crediti, la domanda per le carte elite sale e, se l'offerta resta limitata, il prezzo sale (esempio storico: Son in FIFA 22, da circa 255k a 315k). Attenzione però: il **market crash** arriva sempre, di solito tra ottobre e novembre, e stavolta c'è pure GTA 6 di mezzo. Quindi non "per sempre", ma le prime settimane possono premiare le elite.
+
+## Pianifica, ma non vincolarti
+
+Progettare la squadra va benissimo: guarda i database, studia i link tra campionati, immagina le alternative economiche. Così, appena trovi un untradeable, sai subito con chi linkarlo e come tenere la chemistry. La pianificazione è positiva, legarsi troppo presto a una squadra costosa no.
+
+## La filosofia in una frase
+
+Meglio una squadra da **30-40k** che perde pochi crediti e ti fa accumulare capitale, che una starter da **150-300k** piena di carte "meta" che dopo due settimane vale una frazione. All'inizio di FC 27 comportati da gestore di capitale, non da collezionista.
+
+## Il consiglio del coach
+
+Aggiungo la mia: la squadra non ti fa vincere le partite, te le fa vincere il **come giochi**. Nelle prime settimane investi sui fondamentali (te ne ho parlato nel pezzo sul [gameplay](/newsletter/ea-fc-27-gameplay-come-cambia-difesa)) e tieni i crediti. Chi arriva a novembre con capitale E manico, domina.
+
+Continua qui: [i rating ufficiali](/newsletter/ea-fc-27-rating-migliori-giocatori-per-ruolo), [Web App FC 27](/newsletter/webapp-fc-27-data-uscita-checklist) e [come prepararti a FC 27](/newsletter/come-prepararti-a-ea-fc-27).`,
+    en: {
+      title: "FC 27 Starter Squad: How to Build It Without Burning Coins (the Strategy)",
+      description:
+        "How to build a smart starter squad on EA FC 27: avoid the hype and the Premier League, find value in the Saudi League, Serie A and Liga F, go untradeable and protect your coins in the first weeks.",
+      category: "Guide",
+      dateLabel: "September 7, 2026",
+      heroAlt:
+        "How to build a budget starter squad on EA FC 27 without burning coins in the first weeks",
+      excerpt:
+        "At FC 27 launch the number one mistake is jumping on hype cards. Here is how to build a smart starter squad that is fun and protects your coins. Like a capital manager, not a collector.",
+      body: `The number one mistake at FC 27 launch is jumping on the most hyped cards and ending up with half your coins gone in a week. Here is how to build a smart starter squad, one that is fun and protects your wallet in the first weeks. It is more the mindset of a capital manager than a collector, and it builds on a great analysis by **Nate (The FUT Accountant)**, with my coach's take.
+
+## The core idea
+
+A good starter squad does not need the strongest or most meta players. It needs: **usable, competitive** cards, stats suited to the gameplay, a **low cost** and above all **little devaluation risk**. The early market is volatile: goal number one is protecting your coins.
+
+## 1. Do not buy the most "meta" cards right away
+
+The most wanted cards in the first days are **overpriced by hype**. Historic example: in FC 26 Marmoush started around 80k and within two and a half weeks crashed toward 22k, because as an 84 he was pulled often from packs and better alternatives arrived. Same script for Rashford and Ekitiké.
+
+They are not bad cards: they are expensive because of hype. But if you pay 80k and a week later it is worth 30k, you have burned a huge chunk of your starting capital. On FC 27 the same risk hits the most talked-about names (Barcola, for one, is tipped for very high launch prices).
+
+## 2. Avoid the Premier League early
+
+There is a real **"Premier League tax"**: the same quality costs far more just because it is the most popular league. The smart move is finding similar stats in less popular leagues. Three goldmines:
+
+- **Saudi League:** many strong cards for less (Theo Hernández, Simakan, Reijnders, Diaby). For a winger, pace and dribbling matter, not the rest: you get it for a fraction of the Premier price.
+- **Serie A:** historically great for budget squads (Malen, Dybala, Pulisic). Pulisic with a 5-star weak foot and multiple positions is the perfect kind of buy.
+- **Liga F** (Spain's women's league): the most underrated league, blazing-fast gems even at 2-5k (Vicky López, Kika Nazareth, Rosa Márquez). Great on the wing, in midfield and attack, less so for centre-backs and keepers.
+
+## 3. Do not buy your squad during the Web App
+
+On the Web App the market is distorted: few packs opened, low supply, inflated prices. When the full game drops, thousands open packs and the price of mid-to-low cards **crashes**. Resist the urge to buy just because "there is nothing else to do": wait for game access and pay much less for the same players. (I explained the Web App dates here: [FC 27 Web App](/en/newsletter/webapp-fc-27-data-uscita-checklist).)
+
+## 4. Go untradeable as much as possible (first owner)
+
+In the first moments: play with your base squad (bronzes and silvers too), do a few easy Squad Battles and the modes that give rewards, open your first packs and see which **untradeable** players you find. Then decide the squad.
+
+An untradeable player **cannot lose you coins**, because you did not buy him. If half your squad is untradeable, the economic risk collapses. And often a card you find by chance is far stronger in game than it looks: it is also the most fun part, discovering the hidden gems.
+
+## 5. If you have plenty of coins, look at rare, high-rated cards
+
+If you stack up a lot of coins early, better to invest them in **truly rare, strong** cards (Icons, Heroes, top golds) than in many overpriced starters. FC 27 could have a healthier early market: EA announced more tradeable rewards, more packs and more coins from playing.
+
+The logic: early on few can afford the top cards, then people stack coins, demand for elite cards rises, and if supply stays limited the price rises (historic example: Son in FIFA 22, from about 255k to 315k). Careful though: the **market crash** always comes, usually between October and November, and this time GTA 6 is in the mix too. So not "forever", but the first weeks can reward the elites.
+
+## Plan, but do not lock yourself in
+
+Designing your squad is great: browse the databases, study the links between leagues, imagine the budget alternatives. That way, the moment you find an untradeable, you know who to link him with and how to keep chemistry. Planning is good, committing too early to an expensive squad is not.
+
+## The philosophy in one sentence
+
+Better a 30-40k squad that loses few coins and lets you stack capital, than a 150-300k starter full of "meta" cards that is worth a fraction two weeks later. Early in FC 27, act like a capital manager, not a collector.
+
+## The coach's take
+
+Let me add mine: the squad does not win you games, **how you play** does. In the first weeks invest in the fundamentals (I covered them in the [gameplay piece](/en/newsletter/ea-fc-27-gameplay-come-cambia-difesa)) and keep your coins. Whoever reaches November with capital AND skill dominates.
+
+More here: [the official ratings](/en/newsletter/ea-fc-27-rating-migliori-giocatori-per-ruolo), [FC 27 Web App](/en/newsletter/webapp-fc-27-data-uscita-checklist) and [how to prepare for FC 27](/en/newsletter/come-prepararti-a-ea-fc-27).`,
+    },
+  },
+  {
     slug: "webapp-fc-27-data-uscita-checklist",
     title: "Web App FC 27: quando esce, chi può entrare e la checklist del primo giorno",
     description:
