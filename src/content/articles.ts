@@ -30,6 +30,162 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "fc-27-gameplay-beta-difesa-manuale-cosa-aspettarsi",
+    title: "FC 27, il gameplay dalla beta: difesa manuale e prime settimane durissime (cosa aspettarsi)",
+    description:
+      "Analisi hands-on del gameplay di EA FC 27 dalla beta: difesa più manuale, CPU passiva, mastino e raddoppio nerfati, nuove corse e filtranti manuali. Cosa aspettarsi al day one, spiegato dal coach.",
+    category: "Guida",
+    date: "2026-09-08",
+    dateLabel: "8 Settembre 2026",
+    readingTime: "7 min",
+    badge: "GAMEPLAY",
+    heroImage: "/img/articles/fc-27-gameplay-beta-difesa-manuale-cosa-aspettarsi-hero.jpg",
+    heroAlt:
+      "Analisi del gameplay di EA FC 27 dalla beta: difesa manuale e cosa aspettarsi al day one",
+    youtubeId: "1vL-SRdlEYM",
+    excerpt:
+      "La beta è chiusa, ma ho analizzato a fondo il gameplay di FC 27. Difesa più manuale, CPU passiva, nuove corse: com'è davvero con il controller in mano e perché le prime settimane saranno dure.",
+    body: `La beta è chiusa, ma ho analizzato a fondo il gameplay di FC 27, anche grazie al footage di un collega estero, visto che la mia beta non posso mostrarla. Ti dico com'è davvero con il controller in mano, non cosa c'è scritto nelle note. Serve a chi vuole fare un acquisto consapevole al day one.
+
+> ⚠️ Tutto quello che leggi qui viene dalla beta, ormai chiusa. EA ha già rilasciato alcune patch notes con piccoli aggiustamenti (nerf al mastino, stili di corsa, player lock). Al lancio il gioco potrebbe uscire un po' diverso.
+
+## Il messaggio chiave: "dovrete imparare"
+
+EA lo ha detto chiaro, sui social e in diretta: FC 27 sarà più manuale e i giocatori dovranno **imparare**, soprattutto in difesa. Hanno anche detto che non faranno patch immediate ogni volta che la gente fatica, come l'anno scorso.
+
+Ci credo poco, sinceramente: FC è un gioco da milioni di persone, deve restare accessibile a chi lavora, ha famiglia, non ha tempo. Ma se mantengono la parola, le prime settimane saranno dure per tutti. Anche per i pro. Anche per me.
+
+## La difesa: più manuale, CPU passiva
+
+È il cuore del cambiamento. Dalla beta:
+
+- **La CPU non ti aiuta più.** Il giocatore non controllato spesso resta fermo, non intercetta, non mette la gamba, non rincorre da solo.
+- **Raddoppio nerfato:** sta lontano, passivo, poco utile (forse qualcosa in area).
+- **Mastino depotenziato:** niente più "teletrasporto" da dietro. Se sei affiancato bene funziona, se insegui da dietro no.
+- **Intercetti buffati:** il raggio con cui il giocatore si allunga sulla palla è aumentato e si nota. Premiato posizionarsi bene sulla linea di passaggio.
+- **Contrasti più puliti**, fatti al momento giusto.
+- **Più spazi** tra i reparti.
+
+Tradotto: vince chi difende a mano e sa **switchare**. La difesa torna a essere il vero skill gap. Chi sta col mediano 90 minuti e si affida alla CPU soffrirà.
+
+## L'attacco: più facile, ma occhio ai dettagli
+
+Conseguenza diretta: con più spazi, attaccare è più semplice.
+
+- **Inserimenti senza palla migliorati**, i giocatori si muovono con più intelligenza e tengono meglio la posizione (meno fuorigioco automatici sciocchi).
+- **L'R1** (il giocatore che ti viene incontro) resta fondamentale: senza, allo switch rischi che l'avversario ti scivoli avanti e rubi palla.
+- Attenzione a un **bug della beta**: l'IA offensiva a volte resta "calamitata" alla linea difensiva sbagliata e ti rovina il gol a porta vuota. Segnalato, spero risolto.
+
+## Le nuove opzioni di passaggio
+
+- **Corse curve (trigger runs, L1+R1):** ottima scorciatoia per chi non padroneggia gli inserimenti manuali, ma nella beta spesso venivano male (il giocatore tornava indietro, si allargava). Le sistemeranno, spero senza renderle esagerate.
+- **Dai e vai (L1 e poi passaggio):** questo mi è piaciuto tanto, scambi veloci molto efficaci.
+- **Le corse con L1 ora si fermano:** niente più maratone infinite di giocatori che attraversano il campo. Cambia parecchio il gioco ad alti livelli.
+- **Filtranti più manuali:** serve precisione col triangolo, altrimenti sbagli potenza e direzione. Gli R1 più triangolo restano i più manuali. Nota: per i filtranti alti ora serve il **doppio triangolo** (il doppio X è stato tolto).
+- **Nota dolente:** nella beta i filtranti e i lanci **alti** erano troppo forti. Spero li tocchino, altrimenti rischiamo l'ennesimo gioco a palle alte spammate.
+
+## Dribbling e velocità
+
+- La levetta è simile, ma con più spazi e CPU passiva è più facile girarsi e **skillare**.
+- Doppio passo più fluido, un filo più veloce in uscita.
+- **Nuovo dribbling:** i giocatori con dribbling alto fanno l'animazione di cadere ma restano in piedi (un po' mi preoccupa).
+- **Velocità più realistica:** niente speed boost assurdo, ma la corsa non rallenta più come su FC 26, resta fluida. Chi ha spazio e velocità (Mbappé, Yamal e simili) può punire.
+
+## Portieri: la nota dolente
+
+Da tre anni lo dico: sono figurine. Tolto il movimento su FC 26, tanti gol arrivano da lì. Tra tiri forti e portieri deboli, aspettati ancora partite con parecchi gol.
+
+## Cross, colpi di testa e tiri
+
+- **Cross più manuali ma con potenziale:** i colpi di testa sono un po' più precisi. Dopo anni di "non si crossa", quest'anno non lo escludo, soprattutto a livelli medi e in Carriera.
+- **Powershot** buoni, forse un filo forti.
+- **Tiro a giro incostante**, il driven (rasoterra) sempre ottimo.
+- **Piccola comodità:** sui calci da fermo puoi selezionare il ricevitore.
+
+## Il consiglio del coach
+
+Datevi tempo. Lo paragono al salto da FIFA 20 a FIFA 21: cambiò tutto e per settimane fu il panico, poi ci si abituò. Le prime settimane di FC 27 saranno un dramma per la maggioranza, e va bene così, fa parte del processo. Chi sa difendere e switchare partirà avvantaggiato, ma anche i più forti faticheranno all'inizio.
+
+Se compri al day one, compra consapevole: non è un "26.0", la manualità in più si sente. E se vuoi arrivare pronto proprio su quello che conta (la difesa), è esattamente lì che lavoro nel coaching.
+
+Continua qui: [come cambia il gameplay dal reveal](/newsletter/ea-fc-27-gameplay-come-cambia-difesa), [i rating ufficiali](/newsletter/ea-fc-27-rating-migliori-giocatori-per-ruolo) e [la starter squad senza bruciare crediti](/newsletter/starter-squad-fc-27-come-costruirla-senza-bruciare-crediti).`,
+    en: {
+      title: "FC 27 Gameplay From the Beta: Manual Defending and Brutal First Weeks (What to Expect)",
+      description:
+        "Hands-on analysis of EA FC 27 gameplay from the beta: more manual defending, passive AI, nerfed jockey and second man, new runs and manual through balls. What to expect at day one, from the coach.",
+      category: "Guide",
+      dateLabel: "September 8, 2026",
+      heroAlt:
+        "EA FC 27 gameplay analysis from the beta: manual defending and what to expect at day one",
+      excerpt:
+        "The beta is closed, but I analysed FC 27's gameplay in depth. More manual defending, passive AI, new runs: what it is really like with a controller in hand and why the first weeks will be tough.",
+      body: `The beta is closed, but I analysed FC 27's gameplay in depth, also thanks to a foreign colleague's footage, since I cannot show my own beta. I will tell you what it is really like with a controller in hand, not what the notes say. This is for anyone who wants to make an informed day-one purchase.
+
+> ⚠️ Everything here comes from the beta, now closed. EA has already released some patch notes with small tweaks (jockey nerf, run styles, player lock). At launch the game could come out a bit different.
+
+## The key message: "you will have to learn"
+
+EA said it clearly, on social and live: FC 27 will be more manual and players will have to **learn**, especially in defense. They also said they will not patch immediately every time people struggle, like last year.
+
+I honestly doubt it: FC is a game for millions, it has to stay accessible to people who work, have families, lack time. But if they keep their word, the first weeks will be tough for everyone. Even the pros. Even me.
+
+## Defending: more manual, passive AI
+
+This is the heart of the change. From the beta:
+
+- **The AI no longer helps you.** The uncontrolled player often stands still, does not intercept, does not put a leg in, does not chase on its own.
+- **Nerfed second man:** it stays far, passive, not very useful (maybe something in the box).
+- **Weakened jockey:** no more "teleport" from behind. Alongside your man it works, chasing from behind it does not.
+- **Buffed interceptions:** the reach with which a player stretches for the ball is increased and you notice it. Positioning well on the passing lane is rewarded.
+- **Cleaner tackles**, made at the right time.
+- **More space** between the lines.
+
+Translation: whoever defends manually and can **switch** wins. Defending becomes the real skill gap again. Whoever sits with a holding mid for 90 minutes and relies on the AI will suffer.
+
+## Attacking: easier, but mind the details
+
+Direct consequence: with more space, attacking is easier.
+
+- **Improved off-the-ball runs**, players move more intelligently and hold position better (fewer silly automatic offsides).
+- **R1** (the player coming to the ball) stays essential: without it, on a switch the opponent can slip in front and steal the ball.
+- Watch a **beta bug**: the attacking AI sometimes stays "magnetised" to the wrong defensive line and ruins your open-goal chance. Reported, hopefully fixed.
+
+## The new passing options
+
+- **Curved runs (trigger runs, L1+R1):** a great shortcut for those who do not master manual runs, but in the beta they often came out badly (the player went back, drifted wide). They will fix them, hopefully without making them overpowered.
+- **Give-and-go (L1 then pass):** I liked this a lot, very effective quick exchanges.
+- **L1 runs now stop:** no more endless marathons of players crossing the whole pitch. It changes high-level play quite a bit.
+- **More manual through balls:** you need precision with triangle, otherwise you miss power and direction. R1 plus triangle stay the most manual. Note: for lofted through balls you now need **double triangle** (double X was removed).
+- **Sore point:** in the beta the **lofted** through balls and passes were too strong. I hope they touch them, or we risk another spam-the-high-ball game.
+
+## Dribbling and pace
+
+- The stick feels similar, but with more space and passive AI it is easier to turn and **skill**.
+- The double touch is smoother, a touch faster on the exit.
+- **New dribbling:** high-dribbling players do the falling animation but stay up (that worries me a little).
+- **More realistic pace:** no absurd speed boost, but the run no longer slows down like on FC 26, it stays fluid. Whoever has space and pace (Mbappé, Yamal and co.) can punish.
+
+## Goalkeepers: the sore point
+
+I have said it for three years: they are cardboard. With the movement removed on FC 26, many goals come from there. Between strong shots and weak keepers, expect plenty of goals still.
+
+## Crosses, headers and shots
+
+- **More manual crosses but with potential:** headers are a bit more precise. After years of "do not cross", this year I would not rule it out, especially at mid levels and in Career.
+- **Powershots** good, maybe a touch strong.
+- **Finesse shot inconsistent**, the driven (low) shot always great.
+- **Small convenience:** on set pieces you can select the receiver.
+
+## The coach's take
+
+Give yourself time. I compare it to the jump from FIFA 20 to FIFA 21: everything changed and for weeks it was panic, then people adjusted. The first weeks of FC 27 will be a drama for most, and that is fine, it is part of the process. Whoever can defend and switch starts ahead, but even the strongest will struggle early.
+
+If you buy at day one, buy informed: it is not a "26.0", the extra manual feel is real. And if you want to arrive ready on what matters most (defending), that is exactly what I work on in coaching.
+
+More here: [how the gameplay changes from the reveal](/en/newsletter/ea-fc-27-gameplay-come-cambia-difesa), [the official ratings](/en/newsletter/ea-fc-27-rating-migliori-giocatori-per-ruolo) and [the starter squad without burning coins](/en/newsletter/starter-squad-fc-27-come-costruirla-senza-bruciare-crediti).`,
+    },
+  },
+  {
     slug: "starter-squad-fc-27-come-costruirla-senza-bruciare-crediti",
     title: "Starter squad FC 27: come costruirla senza bruciare crediti (la strategia)",
     description:
