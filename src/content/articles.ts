@@ -30,6 +30,124 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "migliore-starter-squad-fc-27-prima-weekend-league",
+    title: "La miglior starter squad per FC 27: la squadra economica per la prima Weekend League",
+    description:
+      "La mia starter squad per EA FC 27: undici giocatori economici e usabili, modulo 4-4-2, tutti scelti per la velocità (la cosa più importante nella beta). Chi comprare e perché, con i rating.",
+    category: "Guida",
+    date: "2026-09-08",
+    dateLabel: "8 Settembre 2026",
+    readingTime: "6 min",
+    badge: "FC 27",
+    heroImage: "/img/articles/migliore-starter-squad-fc-27-prima-weekend-league-hero.jpg",
+    heroAlt:
+      "La miglior starter squad per EA FC 27: la formazione 4-4-2 economica per la prima Weekend League",
+    youtubeId: "tVjIU15OQmk",
+    excerpt:
+      "La mia starter squad per FC 27: economica, usabile da tutti, in 4-4-2 e costruita sulla velocità. Chi comprare reparto per reparto e perché, con i rating e i timestamp del video.",
+    body: `So benissimo che vi state chiedendo quale sarà la miglior squadra per iniziare su EA FC 27. In questo articolo, che accompagna il video qui sopra, vi tolgo ogni dubbio. È una **squadra usabile da tutti**, non piena di nomi costosissimi: perfetta per la **prima Weekend League**. Il modulo che consiglio è il **4-4-2** (o il 4-1-2-2 stretto).
+
+> ⚠️ I rating sono quelli previsti per FC 27, in parte dalla beta e dai primi database. Qualcosa può cambiare al lancio. Alcuni giocatori hanno cambiato squadra rispetto a FC 26.
+
+## Il concetto chiave: la velocità comanda
+
+Dalla beta è emerso chiaro: su FC 27 la **velocità** è la cosa più importante. Explosive e controlled battono i lenti, e i giocatori veloci, agili, che sanno skillare, volano. Per questo la squadra è costruita su **giocatori rapidi con un buon body type**, non sui numeri più alti in assoluto. E occhio: alcune carte costeranno tantissimo i primi giorni (poi caleranno quando si spacchettano), altre saranno subito economiche.
+
+## Il portiere
+
+- **Courtois** *(min 1:56)* — il classico portiere forte a inizio anno, affidabile, con la sua stazza. Nella beta i portieri non erano clamorosi, ma lui resta il più sicuro su cui puntare.
+
+## La difesa
+
+- **Marco Palestra, terzino destro** *(2:19)* — 78 di overall ma **90 di velocità** e 1,86 m di body type. Su FC 27 è molto più veloce che su FC 26: una starter economica ottima.
+- **Raúl Asensio, centrale** *(3:20)* — con un **+10 di velocità** (84) e un buon fisico. Usatelo da difensore centrale: su FC 27 la velocità dietro conta tantissimo.
+- **Ibáñez, centrale** *(3:47)* — 83 di overall, 83 in difesa, 86 di fisico. Più forte e più caro, può essere la bella sorpresa del reparto.
+- **Josep Chavarría, terzino sinistro** *(2:52)* — passato al Chelsea, 79 di overall e **86 di velocità**. Spagnolo, facile da linkare, ottimo come starter.
+
+## Il centrocampo
+
+- **Éderson** *(4:47)* — 82 di overall, uno di quelli che uso sempre a inizio anno. Equilibrio e presenza.
+- **Khéphren Thuram** *(5:11)* — 1,92 m, forte in fase difensiva. Da starter serve uno così, fisico e presente: sarà chip e molto interessante.
+
+## Gli esterni
+
+- **Victor Muñoz** *(4:10)* — passato al Liverpool, **94 di velocità**, explosive. Un fulmine: la piccola sorpresa che darà tanto fastidio, con una carta molto forte.
+- **Nico Williams** *(4:34)* — explosive, 1,81 m, cinque stelle di piede debole. Fortissimo a inizio anno, costerà parecchio ma è fenomenale.
+
+## L'attacco
+
+- **Donyell Malen** *(5:53)* — per me **il più forte di tutti** come starter: 83 di tiro, 86 di velocità, 85 di dribbling, quattro stelle piede debole e quattro skill. All'inizio un tiro così pesa tantissimo.
+- **Openda** *(5:29)* — ex Lione, ha avuto un downgrade ma resta un motorino da **95 di velocità**, corre senza sosta. Un classico bulldozer da inizio anno.
+
+## Perché questa squadra
+
+Non ho scelto i nomi più grossi, ma i giocatori con il miglior rapporto **prestazioni in campo / prezzo** per la prima Weekend League. Tutti veloci, con body type adatto al ruolo, facili da linkare e in gran parte economici. È la stessa logica che vi ho spiegato nell'articolo su [come costruire una starter squad senza bruciare crediti](/newsletter/starter-squad-fc-27-come-costruirla-senza-bruciare-crediti): partire forte spendendo poco, e tenere i crediti per gli upgrade.
+
+Piccola nota per i tifosi: tra questi ci sono anche **ex Juventini** (Openda e Thuram), se vi fa piacere o vi rode.
+
+## Il consiglio del coach
+
+La squadra vi mette in condizione, ma le partite le vincete voi: su FC 27, con la difesa più manuale, conterà **come giocate** più che l'overall delle carte. Da **ottobre riparto con il coaching**: se volete arrivare pronti alla prima Weekend League, è il momento giusto per lavorarci.
+
+Continua qui: [come cambia il gameplay dalla beta](/newsletter/fc-27-gameplay-beta-difesa-manuale-cosa-aspettarsi), [i rating ufficiali](/newsletter/ea-fc-27-rating-migliori-giocatori-per-ruolo) e [la Web App FC 27](/newsletter/webapp-fc-27-data-uscita-checklist).`,
+    en: {
+      title: "The Best Starter Squad for FC 27: The Budget Team for Your First Weekend League",
+      description:
+        "My starter squad for EA FC 27: eleven cheap, usable players, a 4-4-2, all chosen for pace (the most important thing in the beta). Who to buy and why, with ratings.",
+      category: "Guide",
+      dateLabel: "September 8, 2026",
+      heroAlt:
+        "The best starter squad for EA FC 27: the budget 4-4-2 for your first Weekend League",
+      excerpt:
+        "My starter squad for FC 27: cheap, usable by everyone, in a 4-4-2 and built on pace. Who to buy line by line and why, with the ratings and the video timestamps.",
+      body: `I know you are all wondering what the best team to start on EA FC 27 will be. In this article, which goes with the video above, I clear up every doubt. It is a **squad anyone can use**, not full of expensive names: perfect for your **first Weekend League**. The formation I recommend is the **4-4-2** (or the narrow 4-1-2-2).
+
+> ⚠️ Ratings are the ones expected for FC 27, partly from the beta and early databases. Some may change at launch. A few players changed clubs since FC 26.
+
+## The key idea: pace rules
+
+The beta made it clear: on FC 27 **pace** is the most important thing. Explosive and controlled beat the slow ones, and fast, agile players who can skill fly. That is why this squad is built on **fast players with a good body type**, not on the highest raw numbers. And note: some cards will cost a lot in the first days (then drop as they get packed), others will be cheap right away.
+
+## Goalkeeper
+
+- **Courtois** *(1:56)* — the classic strong early-year keeper, reliable, with his frame. In the beta keepers were not amazing, but he stays the safest bet.
+
+## Defense
+
+- **Marco Palestra, right-back** *(2:19)* — 78 overall but **90 pace** and a 1.86m body type. On FC 27 he is much faster than on FC 26: a great budget starter.
+- **Raúl Asensio, centre-back** *(3:20)* — with a **+10 pace** (84) and a good physique. Use him at CB: on FC 27 pace at the back matters a lot.
+- **Ibáñez, centre-back** *(3:47)* — 83 overall, 83 defending, 86 physical. Stronger and pricier, could be the surprise of the line.
+- **Josep Chavarría, left-back** *(2:52)* — moved to Chelsea, 79 overall and **86 pace**. Spanish, easy to link, a great starter.
+
+## Midfield
+
+- **Éderson** *(4:47)* — 82 overall, one I always use early in the year. Balance and presence.
+- **Khéphren Thuram** *(5:11)* — 1.92m, strong defensively. As a starter you need one like this, physical and present: he will be cheap and very interesting.
+
+## Wingers
+
+- **Victor Muñoz** *(4:10)* — moved to Liverpool, **94 pace**, explosive. A rocket: the little surprise that will cause a lot of trouble, with a very strong card.
+- **Nico Williams** *(4:34)* — explosive, 1.81m, five-star weak foot. Very strong early on, he will cost a fair bit but he is phenomenal.
+
+## Attack
+
+- **Donyell Malen** *(5:53)* — for me **the strongest of all** as a starter: 83 shooting, 86 pace, 85 dribbling, four-star weak foot and four-star skills. Early on, shooting like that weighs a ton.
+- **Openda** *(5:29)* — ex Lyon, he took a downgrade but stays a motor with **95 pace**, running non-stop. A classic early-year bulldozer.
+
+## Why this squad
+
+I did not pick the biggest names, but the players with the best **on-pitch performance to price** ratio for the first Weekend League. All fast, with a body type suited to the role, easy to link and mostly cheap. It is the same logic I explained in the article on [building a starter squad without burning coins](/en/newsletter/starter-squad-fc-27-come-costruirla-senza-bruciare-crediti): start strong spending little, and keep coins for upgrades.
+
+A small note for the fans: there are some **ex-Juventus** players here too (Openda and Thuram), if that pleases or annoys you.
+
+## The coach's take
+
+The squad sets you up, but you win the games: on FC 27, with more manual defending, **how you play** will matter more than the cards' overall. From **October I am back with coaching**: if you want to arrive ready for the first Weekend League, now is the time to work on it.
+
+More here: [how the gameplay changes from the beta](/en/newsletter/fc-27-gameplay-beta-difesa-manuale-cosa-aspettarsi), [the official ratings](/en/newsletter/ea-fc-27-rating-migliori-giocatori-per-ruolo) and [the FC 27 Web App](/en/newsletter/webapp-fc-27-data-uscita-checklist).`,
+    },
+  },
+  {
     slug: "fc-27-gameplay-beta-difesa-manuale-cosa-aspettarsi",
     title: "FC 27, il gameplay dalla beta: difesa manuale e prime settimane durissime (cosa aspettarsi)",
     description:
