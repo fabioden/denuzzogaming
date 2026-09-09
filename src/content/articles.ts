@@ -30,6 +30,151 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "fc-27-day-one-cosa-fare-guida-partenza",
+    title: "FC 27, cosa fare al day one: la guida per partire bene (e non sbagliare come sempre)",
+    description:
+      "La mia guida al day one di EA FC 27: intro, scelta del campionato, bonus, l'abitudine della Gallery, le nuove SBC lineari e perché NON devi buttarti subito in Rivals. Passo per passo dal coach.",
+    category: "Guida",
+    date: "2026-09-09",
+    dateLabel: "9 Settembre 2026",
+    readingTime: "6 min",
+    badge: "DAY ONE",
+    heroImage: "/img/articles/fc-27-day-one-cosa-fare-guida-partenza-hero.jpg",
+    heroAlt:
+      "La guida al day one di EA FC 27: la routine per partire bene su Ultimate Team",
+    excerpt:
+      "Se al day one di FC 27 fai quello che hai fatto negli ultimi 5 anni, sbagli. Quest'anno lo start è diverso: Gallery, SBC nuove, difesa manuale. Ecco cosa farei io dal secondo in cui apro il gioco.",
+    body: `Nessuno te lo sta dicendo, ma se il **18 settembre**, appena parte FC 27, fai esattamente quello che hai fatto negli ultimi cinque anni per lo start, per me lo sbagli. Quest'anno la partenza è parecchio diversa: c'è un nuovo modo di creare il club, c'è la **Gallery** che cambia il valore che diamo alle carte, ci sono le **nuove SBC**, e lato gameplay hai una difesa molto più manuale. E c'è un errore classico, buttarsi subito in Rivals, che io non farò. Ecco cosa farei e farò io dal secondo in cui apro il gioco.
+
+## 1. Non skippare l'intro
+
+Appena apri FC 27, prima ancora di Ultimate Team, **non saltare l'intro**. Non è un tutorial ed è persino giocabile: dura 5-6 minuti e ti introduce ad alcune cose. L'ho provata, è una delle cose fatte bene quest'anno. Guardatela, è la prima e unica volta che puoi.
+
+## 2. Scegli bene il campionato
+
+La prima scelta dentro Ultimate Team non è più la **nazionalità** (cambia dopo 15 anni), ma il **campionato**. I miei quattro consigli: **Premier League, Liga, Serie A, Ligue 1**. Tra questi prendi quello che preferisci: contano perché il pacchetto iniziale ti dà giocatori dello stesso campionato, e perché pesano sui punti **Gallery** (con un po' di fortuna acchiappi combo che valgono di più).
+
+## 3. Riscatta i bonus (e gestisci gli FC Points)
+
+Se hai l'**Ultimate** o l'**Ultimate+**, riscatti i tuoi vantaggi:
+
+- il **pacchetto Icon 85+** (con l'Ultimate) e in più il **Pick Hall of Fame** con l'Ultimate+;
+- i primi **FC Points** (i primi 2.000), quindi non ti serve comprare il pass;
+- gli Icon preorder allo start sono **tutti buoni** (si upgradano a fine novembre, guarda caso vicino all'uscita di GTA).
+
+Sul **Pick Hall of Fame** io punterei su un **attaccante veloce**: la mia scelta sarebbe Remy, o in alternativa Elia. All'inizio la velocità conta, un CDC o una carta lenta lasciali stare.
+
+Attenzione: i bonus arrivano teoricamente dalle **19:00 del 18 settembre**, ma spesso con un'ora o due di ritardo, i server saranno intasati. Niente panico.
+
+## 4. L'abitudine della Gallery (la cosa più importante)
+
+Questa imparala dal giorno 1, deve diventare **memoria muscolare**: **dopo ogni spacchettamento, vai in Gallery**. La Gallery registra le carte che passano dal tuo club, e restano anche se le **vendi, le scarti o le usi in SBC**. Il menu è banale: entri nel campionato, premi start, lui ti grada in automatico i giocatori (prima i più forti) e ti dà i punti. Fallo sempre:
+
+> spacchetto → Gallery → SBC → Gallery → apro i premi → Gallery.
+
+Perché conta: alzi il **livello Gallery** e dal negozio gettoni prendi le nuove **Hall of Fame** (Balotelli, Pato e compagnia). È un modo per portarti a casa un ottimo giocatore già allo start.
+
+## 5. Le nuove SBC lineari
+
+Sono la novità più grande di Ultimate Team quest'anno. **Fatti un paio di SBC iniziali** (c'è il tutorial che spiega il meccanismo). Ogni carta ha un **punteggio** in base a overall e rarità: una SBC non chiede più la media 85, ma **tot punti**. Un bronzo vale 10, un argento 50, un oro 100: quindi la stessa sfida la chiudi con dieci bronzi o con un solo oro.
+
+Regola d'oro: **non buttare tutte le carte** che trovi. Nessuno sa ancora come EA gestirà punteggi e requisiti nelle prime settimane, e la roba nel club ti servirà per gli **obiettivi iniziali**, che quest'anno danno un bel vantaggio, perché fare crediti a inizio gioco sarà più difficile.
+
+## 6. Crea la squadra (e non toccare nulla)
+
+Dopo i primi pacchetti, vai nel menu squadra. **Modulo 4-4-2**, quello di default va benissimo: non cambiare tattiche, moduli o istruzioni. Metti i migliori 11 più qualcuno in panchina e allo start **fregatene dell'intesa**.
+
+## 7. NON buttarti subito in Rivals
+
+Questo è l'errore che fanno tutti. Prima di Rivals, fatti **3-5 partite (anche di più) in Squad Battles** a livello Esperto o Campione. Perché:
+
+1. **Il tuo tempo è sacro:** nelle Battles puoi mettere in pausa quando vuoi e fare tutte le modifiche che ti servono.
+2. **Capisci come vuoi giocare** questo nuovo gameplay manuale: terzino che si alza o no, seconda punta o COC, esterni larghi o stretti, squadra alta o pressing. Lo scopri lì, non prendendo mazzate online.
+3. **Prendi i primi premi:** se giochi qualche Battle tra venerdì e sabato, la domenica mattina raccogli crediti e pacchetti iniziali. Se li dimenticano in tanti.
+
+Fai anche **obiettivi, eventi ed evoluzioni** iniziali. E solo dopo un paio di giorni, **Rivals con calma**. Allo start le Rivals sono piene di pro che devono salire (hanno il primo torneo competitivo a ottobre): il gameplay non lo conosci ancora, le partite finiscono con tanti gol, ti tilti e smetti già al day one. Non ne vale la pena, e c'è tempo: i premi Rivals arrivano dal giovedì, hai una settimana.
+
+## Il riassunto
+
+Guarda l'intro, scegli bene il campionato, riscatta i bonus e gestisci gli FC Points. Dopo ogni pacchetto vai in Gallery. Fai le prime SBC con criterio per capire il nuovo metodo. Crea la squadra, gioca qualche Squad Battles, controlla obiettivi, evoluzioni ed eventi, e poi Rivals con calma.
+
+## Il consiglio del coach
+
+La cosa più importante di tutte è **gestire il tempo**: parti efficiente, non emotivo. Chi al day one costruisce con metodo, invece di fiondarsi in Rivals a farsi male, tra due settimane è molto più avanti. È esattamente la mentalità su cui lavoro nel coaching.
+
+Continua qui: [la Web App e la checklist del primo giorno](/newsletter/webapp-fc-27-data-uscita-checklist), [la starter squad economica](/newsletter/migliore-starter-squad-fc-27-prima-weekend-league) e [come cambia il gameplay dalla beta](/newsletter/fc-27-gameplay-beta-difesa-manuale-cosa-aspettarsi).`,
+    en: {
+      title: "FC 27, What to Do at Day One: The Guide to Start Right (and Not Mess It Up Again)",
+      description:
+        "My EA FC 27 day-one guide: the intro, choosing your league, the bonuses, the Gallery habit, the new streamlined SBCs and why you should NOT rush into Rivals. Step by step from the coach.",
+      category: "Guide",
+      dateLabel: "September 9, 2026",
+      heroAlt:
+        "The EA FC 27 day-one guide: the routine to start right on Ultimate Team",
+      excerpt:
+        "If at FC 27 day one you do what you have done for the last 5 years, you are getting it wrong. This year the start is different: Gallery, new SBCs, manual defending. Here is what I would do from the second I open the game.",
+      body: `Nobody is telling you this, but on **September 18**, when FC 27 starts, if you do exactly what you have done for the last five years, you are getting the start wrong. This year the start is quite different: there is a new way to build your club, there is the **Gallery** that changes the value we give cards, there are the **new SBCs**, and on the gameplay side you have much more manual defending. And there is a classic mistake, rushing straight into Rivals, that I will not make. Here is what I would and will do from the second I open the game.
+
+## 1. Do not skip the intro
+
+As soon as you open FC 27, before Ultimate Team, **do not skip the intro**. It is not a tutorial and it is even playable: it lasts 5-6 minutes and introduces a few things. I played it, it is one of the things done well this year. Watch it, it is the first and only time you can.
+
+## 2. Choose your league carefully
+
+The first choice inside Ultimate Team is no longer **nationality** (changing after 15 years), but the **league**. My four picks: **Premier League, Liga, Serie A, Ligue 1**. Pick whichever you prefer among these: they matter because the starter pack gives you players from that league, and because they weigh on **Gallery** points (with some luck you grab combos worth more).
+
+## 3. Redeem the bonuses (and manage FC Points)
+
+If you have **Ultimate** or **Ultimate+**, redeem your perks:
+
+- the **85+ Icon pack** (with Ultimate) and on top the **Hall of Fame Pick** with Ultimate+;
+- your first **FC Points** (the first 2,000), so you do not need to buy the pass;
+- the preorder Icons are **all good** at the start (they upgrade in late November, conveniently near GTA's release).
+
+For the **Hall of Fame pick** I would go for a **fast striker**: my choice would be Remy, or Elia as an alternative. Early on, pace matters, leave a CDM or a slow card alone.
+
+Careful: bonuses theoretically arrive from **7:00 PM on September 18**, but often with an hour or two delay, the servers will be jammed. No panic.
+
+## 4. The Gallery habit (the most important thing)
+
+Learn this from day 1, it has to become **muscle memory**: **after every pack, go to the Gallery**. The Gallery logs the cards that pass through your club, and they stay even if you **sell, discard or use them in an SBC**. The menu is trivial: enter the league, press start, it auto-grades your players (best first) and gives you points. Do it always:
+
+> open pack → Gallery → SBC → Gallery → open rewards → Gallery.
+
+Why it matters: you raise your **Gallery level** and from the token store you grab the new **Hall of Fame** cards (Balotelli, Pato and co.). It is a way to bring home a great player right at the start.
+
+## 5. The new streamlined SBCs
+
+They are the biggest Ultimate Team novelty this year. **Do a couple of starter SBCs** (there is a tutorial explaining the mechanism). Every card has a **score** based on overall and rarity: an SBC no longer asks for an 85 average, but a **points total**. A bronze is worth 10, a silver 50, a gold 100: so you complete the same challenge with ten bronzes or a single gold.
+
+Golden rule: **do not dump all the cards** you find. No one yet knows how EA will handle scores and requirements in the first weeks, and the stuff in your club will be needed for the **starter objectives**, which this year give a real edge, because making coins early will be harder.
+
+## 6. Build the squad (and touch nothing)
+
+After the first packs, go to the squad menu. **4-4-2 formation**, the default one is fine: do not change tactics, formation or instructions. Put your best 11 plus a few subs and at the start **do not worry about chemistry**.
+
+## 7. Do NOT rush into Rivals
+
+This is the mistake everyone makes. Before Rivals, play **3-5 games (or more) in Squad Battles** on Legendary or World Class. Because:
+
+1. **Your time is sacred:** in Battles you can pause whenever you want and make all the changes you need.
+2. **You figure out how you want to play** this new manual gameplay: overlapping full-back or not, second striker or CAM, wide or narrow wingers, high line or pressing. You learn it there, not by taking beatings online.
+3. **You grab the first rewards:** if you play a few Battles between Friday and Saturday, Sunday morning you collect coins and starter packs. Many people forget this.
+
+Do the starter **objectives, events and evolutions** too. And only after a couple of days, **Rivals calmly**. At the start Rivals is full of pros who have to climb (they have their first competitive tournament in October): you do not know the gameplay yet, games end with lots of goals, you tilt and quit on day one. It is not worth it, and there is time: Rivals rewards come from Thursday, you have a week.
+
+## The summary
+
+Watch the intro, choose your league well, redeem the bonuses and manage FC Points. After every pack go to the Gallery. Do the first SBCs with care to learn the new method. Build the squad, play some Squad Battles, check objectives, evolutions and events, then Rivals calmly.
+
+## The coach's take
+
+The most important thing of all is **managing your time**: start efficient, not emotional. Whoever builds with method at day one, instead of rushing into Rivals to get hurt, is much further ahead two weeks later. It is exactly the mindset I work on in coaching.
+
+More here: [the Web App and day-one checklist](/en/newsletter/webapp-fc-27-data-uscita-checklist), [the budget starter squad](/en/newsletter/migliore-starter-squad-fc-27-prima-weekend-league) and [how the gameplay changes from the beta](/en/newsletter/fc-27-gameplay-beta-difesa-manuale-cosa-aspettarsi).`,
+    },
+  },
+  {
     slug: "migliore-starter-squad-fc-27-prima-weekend-league",
     title: "La miglior starter squad per FC 27: la squadra economica per la prima Weekend League",
     description:
