@@ -30,6 +30,111 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "fc-27-playstyle-carte-starter-da-prendere-e-evitare",
+    title: "FC 27: i PlayStyle contano ancora. Le carte starter da prendere (e quelle da evitare)",
+    description:
+      "Su EA FC 27 i PlayStyle sono stati nerfati ma contano ancora. Con i rating ufficiali fuori, ti mostro le carte starter economiche OP per i loro PlayStyle e quelle da evitare, più i nerf a Bruiser e Lengthy.",
+    category: "Guida",
+    date: "2026-09-13",
+    dateLabel: "13 Settembre 2026",
+    readingTime: "6 min",
+    badge: "FC 27",
+    heroImage: "/img/articles/fc-27-playstyle-carte-starter-da-prendere-e-evitare-hero.jpg",
+    heroAlt:
+      "PlayStyle su EA FC 27: le carte starter da prendere e quelle da evitare in base ai PlayStyle",
+    excerpt:
+      "EA ha nerfato i PlayStyle, ma contano ancora. Con i rating ufficiali fuori, non guardare solo le statistiche: ecco le carte starter OP per i loro PlayStyle, quelle da evitare e i nerf a Bruiser e Lengthy.",
+    body: `Manca una settimana a FC 27, e adesso che sono usciti i **rating ufficiali** in tanti stanno costruendo la starter guardando solo le statistiche. È un errore. EA ha nerfato i PlayStyle, sì, ma **contano ancora**: sono nel gioco, non li hanno tolti. Quindi la carta giusta la scegli guardando **statistiche E PlayStyle insieme**. Ti mostro quali carte economiche diventano OP per i loro PlayStyle, quali con buone stat sono da evitare, e due cambi che spostano tutto.
+
+> ⚠️ I rating sono ufficiali, ma i PlayStyle nei database sono in parte da leak (soprattutto su Icone ed Eroi), non tutto è confermato al 100%. Per cercare i giocatori usa **Footbin** (partner ufficiale EA), è più veloce del sito EA.
+
+## I PlayStyle contano ancora (nonostante il nerf)
+
+Alcuni PlayStyle sono buoni sempre, ogni anno. Ecco alcune carte starter che i PlayStyle **promuovono a pieni voti**:
+
+- **Kika Nazareth** (83, CAM): ha sei PlayStyle base (game changer, incisive, tiki taka, technical e altri). Tantissimi per una carta da 83. Perfetta a centrocampo.
+- **Zaïre-Emery**: tiki taka, jockey, first touch, press proven, quick step, relentless. PlayStyle da box-to-box o CDM top, con anche un po' di difensivo (jockey).
+- **Ibáñez** (Saudi League, CB): intercept, block, jockey. E con la **difesa manuale** di FC 27, jockey potrebbe essere uno dei PlayStyle più sottovalutati dell'anno.
+
+E gemme nascoste che saltano fuori solo guardando i PlayStyle: **Sano** (CDM Bundesliga, intercept+), **Fekir** (79, evolvibile subito, finesse/power/dead ball/technical), **Di María** (record del gioco, sette PlayStyle base).
+
+## Le carte da EVITARE (buone stat, PlayStyle scarsi)
+
+Qui sta il punto che gli altri non ti dicono: ci sono carte con **ottime statistiche** che io lascerei stare, perché senza PlayStyle utili in campo rendono poco:
+
+- **Di Lorenzo** (Serie A): zero o pochissimi PlayStyle base.
+- **Zaccagni** (Serie A): solo inventive e technical, troppo poco per un'ala.
+- **Akanji**: buon 84 in difesa e 81 fisico, ma ha solo long ball. Da evitare a inizio gioco.
+
+Attenzione soprattutto alla **Serie A**: diverse carte economiche che sembrano ottime sulla carta hanno PlayStyle poveri, quindi controllale una per una (nella mia [squadra Serie A](/newsletter/migliore-squadra-serie-a-fc-27) ho scelto proprio chi i PlayStyle giusti ce li ha, tipo Thuram con triangolo e driven).
+
+## Due cambi che spostano tutto: Bruiser e Lengthy nerfati
+
+- **Bruiser (mastino) nerfato:** la spallata da dietro non funziona più, se la spammi ti ritrovi con l'animazione a vuoto. Resta buono **spalla a spalla**, ma non è più OP. È coerente con la difesa più manuale di cui ti ho già parlato.
+- **Lengthy nerfato:** nei test il giocatore lengthy recupera molto meno sul lungo, mentre **explosive e controlled** ora reggono. Meno ossessione per i lengthy, che su FC 26 era diventata esagerata.
+- **Altezza donne:** la soglia per essere lengthy si alza (circa 1,73 m), quindi tante giocatrici che erano lengthy su FC 26 non lo saranno più. Ricontrolla le tue.
+
+## Impatto sui prezzi
+
+I PlayStyle+ giusti alzano il valore delle carte: **Intercept+** e **Finesse+** costeranno di più perché erano meta su FC 26 e la gente compra quello che conosce. Carte come **Claudia Pina** (ora Finesse+) e **Dembélé** (Finesse+) saranno tra le più costose; **Graham Hansen**, che ora ha Technical+ invece di Trickster+, diventa più usabile e più richiesta. Sono previsioni, ma il concetto regge: i PlayStyle spostano i prezzi, non solo l'overall.
+
+## Il consiglio del coach
+
+Non innamorarti delle statistiche. Su FC 27 la carta giusta è quella che ha **le stat E i PlayStyle giusti per il ruolo**. Prima di comprare la tua starter, aprila su Footbin e controlla i PlayStyle uno per uno: eviti fregature, risparmi crediti e giochi meglio.
+
+Continua qui: [i rating ufficiali per ruolo](/newsletter/ea-fc-27-rating-migliori-giocatori-per-ruolo), [la miglior squadra Serie A](/newsletter/migliore-squadra-serie-a-fc-27) e [come cambia il gameplay dalla beta](/newsletter/fc-27-gameplay-beta-difesa-manuale-cosa-aspettarsi).`,
+    en: {
+      title: "FC 27: PlayStyles Still Matter. The Starter Cards to Buy (and the Ones to Avoid)",
+      description:
+        "On EA FC 27 PlayStyles were nerfed but still matter. With the official ratings out, here are the cheap starter cards that are OP for their PlayStyles and the ones to avoid, plus the Bruiser and Lengthy nerfs.",
+      category: "Guide",
+      dateLabel: "September 13, 2026",
+      heroAlt:
+        "PlayStyles on EA FC 27: the starter cards to buy and the ones to avoid based on PlayStyles",
+      excerpt:
+        "EA nerfed PlayStyles, but they still matter. With the official ratings out, do not just look at stats: here are the starter cards that are OP for their PlayStyles, the ones to avoid, and the Bruiser and Lengthy nerfs.",
+      body: `FC 27 is a week away, and now that the **official ratings** are out a lot of people are building their starter looking only at stats. That is a mistake. EA nerfed PlayStyles, yes, but they **still matter**: they are in the game, they did not remove them. So you pick the right card by looking at **stats AND PlayStyles together**. Let me show you which cheap cards become OP for their PlayStyles, which ones with good stats to avoid, and two changes that shift everything.
+
+> ⚠️ Ratings are official, but the PlayStyles in the databases are partly from leaks (especially on Icons and Heroes), not everything is 100% confirmed. To search players use **Footbin** (official EA partner), it is faster than the EA site.
+
+## PlayStyles still matter (despite the nerf)
+
+Some PlayStyles are good every single year. Here are some starter cards the PlayStyles **promote with top marks**:
+
+- **Kika Nazareth** (83, CAM): six base PlayStyles (game changer, incisive, tiki taka, technical and more). A ton for an 83. Perfect in midfield.
+- **Zaïre-Emery**: tiki taka, jockey, first touch, press proven, quick step, relentless. Top box-to-box or CDM PlayStyles, with some defensive flavour (jockey).
+- **Ibáñez** (Saudi League, CB): intercept, block, jockey. And with FC 27's **manual defending**, jockey could be one of the most underrated PlayStyles of the year.
+
+Plus hidden gems that only show up when you check the PlayStyles: **Sano** (Bundesliga CDM, intercept+), **Fekir** (79, instantly evolvable, finesse/power/dead ball/technical), **Di María** (game record, seven base PlayStyles).
+
+## The cards to AVOID (good stats, poor PlayStyles)
+
+Here is the point others do not tell you: there are cards with **great stats** I would leave alone, because without useful PlayStyles they underperform on the pitch:
+
+- **Di Lorenzo** (Serie A): zero or very few base PlayStyles.
+- **Zaccagni** (Serie A): only inventive and technical, too little for a winger.
+- **Akanji**: a good 84 defending and 81 physical, but only long ball. Avoid early on.
+
+Watch **Serie A** especially: several cheap cards that look great on paper have poor PlayStyles, so check them one by one (in my [Serie A squad](/en/newsletter/migliore-squadra-serie-a-fc-27) I picked exactly the ones that do have the right PlayStyles, like Thuram with triangolo and driven).
+
+## Two changes that shift everything: Bruiser and Lengthy nerfed
+
+- **Bruiser (jockey shoulder) nerfed:** the shoulder charge from behind no longer works, if you spam it you get the whiff animation. It stays good **shoulder to shoulder**, but it is no longer OP. Consistent with the more manual defending I already told you about.
+- **Lengthy nerfed:** in tests the lengthy player catches up much less over long runs, while **explosive and controlled** now hold up. Less obsession with lengthy, which on FC 26 had become excessive.
+- **Women's height:** the threshold to be lengthy goes up (around 1.73 m), so many women who were lengthy on FC 26 no longer will be. Recheck yours.
+
+## Price impact
+
+The right PlayStyle+ raises a card's value: **Intercept+** and **Finesse+** will cost more because they were meta on FC 26 and people buy what they know. Cards like **Claudia Pina** (now Finesse+) and **Dembélé** (Finesse+) will be among the most expensive; **Graham Hansen**, who now has Technical+ instead of Trickster+, becomes more usable and more in demand. These are predictions, but the concept holds: PlayStyles move prices, not just the overall.
+
+## The coach's take
+
+Do not fall in love with stats. On FC 27 the right card is the one that has **the right stats AND the right PlayStyles for the role**. Before buying your starter, open it on Footbin and check the PlayStyles one by one: you avoid traps, save coins and play better.
+
+More here: [the official ratings by position](/en/newsletter/ea-fc-27-rating-migliori-giocatori-per-ruolo), [the best Serie A squad](/en/newsletter/migliore-squadra-serie-a-fc-27) and [how the gameplay changes from the beta](/en/newsletter/fc-27-gameplay-beta-difesa-manuale-cosa-aspettarsi).`,
+    },
+  },
+  {
     slug: "migliore-squadra-serie-a-fc-27",
     title: "La miglior squadra Serie A per FC 27: lo Squad Builder economico (starter)",
     description:
