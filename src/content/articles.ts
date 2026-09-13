@@ -30,6 +30,113 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "migliore-squadra-serie-a-fc-27",
+    title: "La miglior squadra Serie A per FC 27: lo Squad Builder economico (starter)",
+    description:
+      "La mia miglior squadra Serie A per iniziare EA FC 27: modulo 4-4-2, quasi tutti giocatori economici, scelti per velocità e fisico ma con chi sa passare. Chi comprare reparto per reparto.",
+    category: "Guida",
+    date: "2026-09-13",
+    dateLabel: "13 Settembre 2026",
+    readingTime: "6 min",
+    badge: "SERIE A",
+    heroImage: "/img/articles/migliore-squadra-serie-a-fc-27-hero.jpg",
+    heroAlt:
+      "La miglior squadra Serie A per EA FC 27: lo Squad Builder economico in 4-4-2 con Bremer, Malen e Yildiz",
+    excerpt:
+      "La mia Serie A per iniziare FC 27: 4-4-2, quasi tutta economica, costruita sulla velocità e sul fisico ma con chi sa davvero passare. Reparto per reparto, chi comprare e perché.",
+    body: `Adesso che abbiamo gli overall ufficiali possiamo costruire le squadre, e in base a quello che ho visto nella beta vi consiglio la **miglior Serie A per iniziare FC 27**. È una starter con qualche giocatore che può costare un po' di più, ma la maggior parte costa davvero poco. Il modulo migliore per me resta il **4-4-2** (o il 4-1-1-2 stretto, o il 4-4-1-1).
+
+> ⚠️ I valori sono quelli previsti per FC 27, in parte dalla beta e dagli overall usciti. Qualcosa può cambiare al lancio.
+
+## L'idea di fondo
+
+Due cose contano più di tutto su FC 27, dalla beta: la **velocità** e, in difesa, il **fisico** (si difende a mano, è dura). Ma attenzione: i **filtranti alti sono fortissimi**, quindi vi servono anche giocatori che **sappiano passare** davvero, non solo motorini veloci. Ho costruito la squadra su questo equilibrio.
+
+## Portiere
+
+- **Maignan.** Se hai pochi crediti, prendi **Falcone del Lecce** (84): forse il miglior rapporto qualità-prezzo del reparto, dopo l'annata che ha fatto.
+
+## Difesa
+
+- **Terzino destro: Wesley** — il migliore, e non costa tanto. 90 di velocità, quello che serve.
+- **Centrale: Bremer** (86) — il top: 87 di difesa, 85 di velocità, fisico. Ha il mastino, che quest'anno non serve, ma il resto è oro.
+- **Centrale economico: Solet dell'Udinese** — il mio pupillo, già ottimo l'anno scorso. 84 di velocità, 77 difesa, 81 fisico: se sei a corto di crediti è lui.
+- **Terzino sinistro: Dimarco** — a sinistra la Serie A è messa maluccio. Alternativa furba: sposta **Wesley a sinistra** e metti **Spence dell'Inter** (89 di velocità, ottimo body type) come terzino, gioca su entrambe le fasce.
+
+## Centrocampo
+
+- **Khéphren Thuram** — per me d'obbligo. 81 difesa, 85 fisico, 79 velocità, e ha **triangolo e driven** come PlayStyle. Con un gioco così fisico e difficile da difendere, uno così ti serve.
+- **Il secondo: se hai crediti prendi Barella** (uno che sa davvero passare, e qui vale la pena spendere). Alternativa economica: **Koné della Roma**, che ha triangolo e driven, ma non aspettarti il fenomeno.
+
+## Attacco e trequarti
+
+- **Diao (ala destra)** — costerà pochissimo e vola (90 di velocità). Davanti alla porta si mangerà qualcosa e non fa un passaggio di due centimetri (67), ma body type e velocità pesano. Se hai più crediti, al suo posto **Pulisic**.
+- **Nico Paz** — questo sa passare: 79 di passaggio, triangolo, technical, low driven, tiro a giro. In coppia con Malen è perfetto, lui rifinisce e manda in porta.
+- **Donyell Malen (punta)** — sarà devastante e non costa tanto (83): 86 velocità, 85 dribbling. Attacca la profondità, il buggone che ci piacerà.
+- In seconda punta, se hai il preorder puoi affiancare un'**Icona**, oppure **Dybala** (85, tecnico): l'attacco della Roma è sorprendentemente forte.
+
+## In sintesi
+
+Squadra da iniziare quasi tutta economica, con qualche upgrade dove conta (Bremer, Barella, eventualmente Pulisic o un'Icona). Velocità e fisico per reggere il nuovo gameplay, più due giocatori che sanno passare (Nico Paz e il centrocampista) per sfruttare i filtranti. È la stessa logica della [starter squad senza bruciare crediti](/newsletter/starter-squad-fc-27-come-costruirla-senza-bruciare-crediti): parti forte spendendo poco.
+
+## Il consiglio del coach
+
+La squadra vi mette in condizione, ma le partite le vince **come giocate**. Da **ottobre riaprono i coaching** e sto costruendo un'**Academy** con percorsi veri (come fare la squadra, come difendere, palle inattive, come segnare tanto). Se volete migliorare sul serio su FC 27, è lì che si lavora.
+
+Continua qui: [cosa fare al day one](/newsletter/fc-27-day-one-cosa-fare-guida-partenza), [la starter squad economica](/newsletter/migliore-starter-squad-fc-27-prima-weekend-league) e [come cambia il gameplay dalla beta](/newsletter/fc-27-gameplay-beta-difesa-manuale-cosa-aspettarsi).`,
+    en: {
+      title: "The Best Serie A Squad for FC 27: The Budget Squad Builder (Starter)",
+      description:
+        "My best Serie A squad to start EA FC 27: a 4-4-2, mostly cheap players, chosen for pace and physique but with players who can actually pass. Who to buy line by line.",
+      category: "Guide",
+      dateLabel: "September 13, 2026",
+      heroAlt:
+        "The best Serie A squad for EA FC 27: the budget 4-4-2 Squad Builder with Bremer, Malen and Yildiz",
+      excerpt:
+        "My Serie A to start FC 27: a 4-4-2, mostly cheap, built on pace and physique but with players who can really pass. Line by line, who to buy and why.",
+      body: `Now that we have the official ratings we can build squads, and based on what I saw in the beta I recommend the **best Serie A to start FC 27**. It is a starter with a few players that can cost a bit more, but most of it is really cheap. The best formation for me is still the **4-4-2** (or the narrow 4-1-1-2, or the 4-4-1-1).
+
+> ⚠️ Values are those expected for FC 27, partly from the beta and the released ratings. Some may change at launch.
+
+## The core idea
+
+Two things matter most on FC 27, from the beta: **pace** and, in defense, **physique** (you defend manually, it is hard). But careful: **lofted through balls are very strong**, so you also need players who can **actually pass**, not just fast motors. I built the squad on that balance.
+
+## Goalkeeper
+
+- **Maignan.** If you are short on coins, get **Falcone of Lecce** (84): maybe the best value in the position after the season he had.
+
+## Defense
+
+- **Right-back: Wesley** — the best, and not expensive. 90 pace, exactly what you need.
+- **Centre-back: Bremer** (86) — the top pick: 87 defending, 85 pace, physical. He has the jockey style, useless this year, but the rest is gold.
+- **Budget centre-back: Solet of Udinese** — my favourite, already great last year. 84 pace, 77 defending, 81 physical: if you are low on coins, he is the one.
+- **Left-back: Dimarco** — on the left Serie A is a bit thin. Smart alternative: move **Wesley to the left** and put **Spence of Inter** (89 pace, great body type) at full-back, he plays both sides.
+
+## Midfield
+
+- **Khéphren Thuram** — a must for me. 81 defending, 85 physical, 79 pace, and he has **triangolo and driven** as PlayStyles. With a game this physical and hard to defend, you need one like him.
+- **The second one: if you have coins get Barella** (someone who really can pass, worth spending here). Budget alternative: **Koné of Roma**, who has triangolo and driven, but do not expect a superstar.
+
+## Attack and playmaker
+
+- **Diao (right wing)** — will cost very little and he flies (90 pace). He will miss a few in front of goal and cannot pass two centimetres (67), but body type and pace matter. If you have more coins, **Pulisic** instead.
+- **Nico Paz** — this one can pass: 79 passing, triangolo, technical, low driven, finesse shot. Paired with Malen he is perfect, he creates and sends him through.
+- **Donyell Malen (striker)** — he will be devastating and does not cost much (83): 86 pace, 85 dribbling. He attacks the space, the broken card we will love.
+- As a second striker, if you have the preorder you can pair an **Icon**, or **Dybala** (85, technical): Roma's attack is surprisingly strong.
+
+## In short
+
+A starter squad that is mostly cheap, with a few upgrades where it counts (Bremer, Barella, maybe Pulisic or an Icon). Pace and physique to handle the new gameplay, plus two players who can pass (Nico Paz and the midfielder) to exploit the through balls. It is the same logic as the [starter squad without burning coins](/en/newsletter/starter-squad-fc-27-come-costruirla-senza-bruciare-crediti): start strong spending little.
+
+## The coach's take
+
+The squad sets you up, but games are won by **how you play**. From **October coaching reopens** and I am building an **Academy** with real courses (how to build your squad, how to defend, set pieces, how to score a lot). If you want to genuinely improve on FC 27, that is where the work happens.
+
+More here: [what to do at day one](/en/newsletter/fc-27-day-one-cosa-fare-guida-partenza), [the budget starter squad](/en/newsletter/migliore-starter-squad-fc-27-prima-weekend-league) and [how the gameplay changes from the beta](/en/newsletter/fc-27-gameplay-beta-difesa-manuale-cosa-aspettarsi).`,
+    },
+  },
+  {
     slug: "fc-27-day-one-cosa-fare-guida-partenza",
     title: "FC 27, cosa fare al day one: la guida per partire bene (e non sbagliare come sempre)",
     description:
