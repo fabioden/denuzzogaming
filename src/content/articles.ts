@@ -30,6 +30,117 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "fc-27-watchlist-day-one-carte-da-tenere-docchio",
+    title: "FC 27 Watchlist Day One: le carte da tenere d'occhio dal database ufficiale",
+    description:
+      "È uscito il database completo di EA FC 27 con i PlayStyle. Ho scremato la watchlist delle carte da tenere d'occhio al day one: usabili subito, gemme da EVO e le più forti, reparto per reparto.",
+    category: "Guida",
+    date: "2026-09-13",
+    dateLabel: "13 Settembre 2026",
+    readingTime: "5 min",
+    badge: "DAY ONE",
+    heroImage: "/img/articles/fc-27-watchlist-day-one-carte-da-tenere-docchio-hero.jpg",
+    heroAlt:
+      "FC 27 Watchlist Day One: le carte da tenere d'occhio dal database ufficiale per Ultimate Team",
+    excerpt:
+      "È uscito il database completo con i PlayStyle. Ho scremato per te la watchlist del day one: carte usabili subito, gemme da EVO e le più forti. Nomi su cui puntare l'occhio, non prezzi.",
+    body: `È uscito il **database completo di FC 27** con i PlayStyle ufficiali, e ci si può perdere. Così ho scremato per te una **watchlist per il day one**: carte usabili subito, gemme da evolvere e le più forti in assoluto. Non ti do prezzi (sono ancora tutte ipotesi), ma i nomi su cui tenere l'occhio quando spacchetti o vai sul mercato. È il complemento pratico all'articolo su [i PlayStyle](/newsletter/fc-27-playstyle-carte-starter-da-prendere-e-evitare).
+
+> ⚠️ I PlayStyle nel database sono in parte da leak e i prezzi sono solo previsioni. Salva la lista e controlla ogni carta su Footbin prima di comprarla.
+
+## Attaccanti e ali da day one
+
+- **Pedro Neto** — versatile (destra e sinistra), 4 stelle / 4 stelle, low driven, rapid e quick step. Usabilissimo la prima settimana, ma è una carta da transizione: puntala presto e cambiala presto.
+- **Christian Pulisic** — ogni anno una spina nel fianco: CAM, punta, esterno, 4/5 stelle, low driven, incisive, technical, quick step.
+- **Ferran Torres** — 4/4 stelle, in forma anche nella realtà, e ho la sensazione che non costerà tantissimo.
+- **Anthony Gordon** — con il passaggio al Barça, velocità, tiro e finesse/rapid/quick step: mettilo a sinistra, rientra e tira.
+- **Nico Williams** — meta e fortissimo a inizio anno, ma sarà caro: tienilo d'occhio più che comprarlo subito.
+
+## Centrocampo
+
+- **Warren Zaïre-Emery** — 83, sei PlayStyle (tiki taka, jockey, first touch, press proven, quick step, relentless) e versatile (box-to-box, CDM, mediano destro). Ottime stat per l'inizio: occhio solo al prezzo, PSG e Francia saranno meta.
+
+## Difesa (dove serve dare fastidio)
+
+- **Jed Spence** — terzino destro e sinistro, jockey e rapid, dovrebbe costare poco: ottima carta di partenza su entrambe le fasce.
+- **Lacroix** — centrale di Premier con jockey, intercept, aerial e long ball: buoni PlayStyle difensivi.
+- **Sano** — 81, con **Intercept+** (fortissimo su FC 26), più anticipate, relentless e aerial: la gemma nascosta del reparto.
+
+## Il femminile (le più forti)
+
+- **Claudia Pina** — finesse, tiki taka, inventive, technical, trickster: in coppia con Vicky López è un incubo da affrontare. Sarà tra le carte più care.
+- **Lauren James** — 5/5 stelle, con rapid come PlayStyle+ e tanti base: potrebbe non costare quanto pensi, una da monitorare.
+
+## Le gemme da EVOLUZIONE
+
+- **Nabil Fekir** — 79, finesse, power shot, dead ball, technical, first touch: overall basso e PlayStyle top, perfetto da evolvere subito.
+- **CR7** — power shot, acrobatic, low driven, game changer, trickster: potenziale EVO enorme e forse nemmeno costoso.
+- **Benzema** — finesse, incisive, first touch: un altro EVO goloso per l'inizio.
+
+## Come usare questa lista
+
+La regola è semplice: cerca le carte con **tanti PlayStyle base buoni** e un **body type unico**, non l'overall più alto. Salva questa watchlist, aprila su Footbin quando spacchetti, e non pagare l'hype dei primi giorni. Il perché di tutto questo te l'ho spiegato qui: [i PlayStyle contano ancora](/newsletter/fc-27-playstyle-carte-starter-da-prendere-e-evitare).
+
+## Il consiglio del coach
+
+Una watchlist non è una lista della spesa: è una lista di **occhi aperti**. Non comprarle tutte al day one, tienile d'occhio e prendi quelle che ti servono davvero al momento giusto, quando i prezzi si assestano. Chi compra d'impulso il primo giorno è quello che due settimane dopo ha il club dimezzato.
+
+Continua qui: [la starter squad senza bruciare crediti](/newsletter/starter-squad-fc-27-come-costruirla-senza-bruciare-crediti), [cosa fare al day one](/newsletter/fc-27-day-one-cosa-fare-guida-partenza) e [i rating ufficiali per ruolo](/newsletter/ea-fc-27-rating-migliori-giocatori-per-ruolo).`,
+    en: {
+      title: "FC 27 Day-One Watchlist: The Cards to Keep an Eye On From the Official Database",
+      description:
+        "The full EA FC 27 database with PlayStyles is out. Here is my day-one watchlist: cards usable right away, EVO gems and the strongest ones, line by line.",
+      category: "Guide",
+      dateLabel: "September 13, 2026",
+      heroAlt:
+        "FC 27 day-one watchlist: the cards to keep an eye on from the official database for Ultimate Team",
+      excerpt:
+        "The full database with PlayStyles is out. I skimmed the day-one watchlist for you: cards usable right away, EVO gems and the strongest ones. Names to watch, not prices.",
+      body: `The **full FC 27 database** with official PlayStyles is out, and it is easy to get lost. So I skimmed a **day-one watchlist** for you: cards usable right away, gems to evolve and the strongest ones overall. I am not giving you prices (they are all guesses for now), but the names to keep an eye on when you open packs or hit the market. It is the practical companion to the article on [PlayStyles](/en/newsletter/fc-27-playstyle-carte-starter-da-prendere-e-evitare).
+
+> ⚠️ The PlayStyles in the database are partly from leaks and prices are only predictions. Save the list and check every card on Footbin before buying.
+
+## Attackers and wingers for day one
+
+- **Pedro Neto** — versatile (right and left), 4 stars / 4 stars, low driven, rapid and quick step. Very usable in the first week, but a transition card: target it early and swap it early.
+- **Christian Pulisic** — a thorn in the side every year: CAM, striker, winger, 4/5 stars, low driven, incisive, technical, quick step.
+- **Ferran Torres** — 4/4 stars, in form in real life too, and I have a feeling he will not cost much.
+- **Anthony Gordon** — with the move to Barça, pace, shooting and finesse/rapid/quick step: put him on the left, cut in and shoot.
+- **Nico Williams** — meta and very strong early, but he will be expensive: watch him rather than buying right away.
+
+## Midfield
+
+- **Warren Zaïre-Emery** — 83, six PlayStyles (tiki taka, jockey, first touch, press proven, quick step, relentless) and versatile (box-to-box, CDM, right mid). Great stats for the start: just watch the price, PSG and France will be meta.
+
+## Defense (where you need to be a pain)
+
+- **Jed Spence** — right-back and left-back, jockey and rapid, should be cheap: a great starter card on both sides.
+- **Lacroix** — Premier League centre-back with jockey, intercept, aerial and long ball: good defensive PlayStyles.
+- **Sano** — 81, with **Intercept+** (huge on FC 26), plus anticipate, relentless and aerial: the hidden gem of the line.
+
+## The women's game (the strongest)
+
+- **Claudia Pina** — finesse, tiki taka, inventive, technical, trickster: paired with Vicky López she is a nightmare to face. She will be among the most expensive cards.
+- **Lauren James** — 5/5 stars, with rapid as a PlayStyle+ and many base ones: she might cost less than you think, one to monitor.
+
+## The EVO gems
+
+- **Nabil Fekir** — 79, finesse, power shot, dead ball, technical, first touch: low overall and top PlayStyles, perfect to evolve right away.
+- **CR7** — power shot, acrobatic, low driven, game changer, trickster: huge EVO potential and maybe not even expensive.
+- **Benzema** — finesse, incisive, first touch: another tasty EVO for the start.
+
+## How to use this list
+
+The rule is simple: look for cards with **many good base PlayStyles** and a **unique body type**, not the highest overall. Save this watchlist, open it on Footbin when you pack, and do not pay the first-days hype. The why of all this I explained here: [PlayStyles still matter](/en/newsletter/fc-27-playstyle-carte-starter-da-prendere-e-evitare).
+
+## The coach's take
+
+A watchlist is not a shopping list: it is a list of **eyes open**. Do not buy them all at day one, keep an eye on them and grab only the ones you truly need at the right moment, when prices settle. Whoever buys on impulse on day one is the one with a halved club two weeks later.
+
+More here: [the starter squad without burning coins](/en/newsletter/starter-squad-fc-27-come-costruirla-senza-bruciare-crediti), [what to do at day one](/en/newsletter/fc-27-day-one-cosa-fare-guida-partenza) and [the official ratings by position](/en/newsletter/ea-fc-27-rating-migliori-giocatori-per-ruolo).`,
+    },
+  },
+  {
     slug: "fc-27-playstyle-carte-starter-da-prendere-e-evitare",
     title: "FC 27: i PlayStyle contano ancora. Le carte starter da prendere (e quelle da evitare)",
     description:
