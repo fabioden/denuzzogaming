@@ -30,6 +30,91 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "fc-27-migliori-evoluzioni-day-one",
+    title: "Le migliori Evoluzioni da fare al day one su FC 27 (senza sprecare gli slot)",
+    description:
+      "Le Evoluzioni sono il modo più intelligente per costruire la squadra a inizio EA FC 27 senza bruciare crediti. I migliori candidati day one (Rashford, Lookman, Tomori, Kika Nazareth, CR7) e il metodo per non sprecare gli slot.",
+    category: "Guida",
+    date: "2026-09-18",
+    dateLabel: "18 Settembre 2026",
+    readingTime: "5 min",
+    badge: "EVO",
+    heroImage: "/img/articles/fc-27-migliori-evoluzioni-day-one-hero.jpg",
+    heroAlt:
+      "Le migliori Evoluzioni da fare al day one su EA FC 27: i candidati e il metodo per non sprecare gli slot",
+    excerpt:
+      "Le Evoluzioni sono il modo più furbo per costruire senza bruciare crediti a inizio FC 27. I migliori candidati day one e il metodo del coach per non sprecare gli slot EVO.",
+    body: `Le **Evoluzioni** sono il modo più intelligente per costruire la squadra a inizio FC 27 senza bruciare crediti: prendi una carta economica e la fai diventare da titolare. Con le nuove **EVO Pathways** (i percorsi a scelta di cui ti ho parlato) contano ancora di più. Ti dico i migliori candidati per il day one e, soprattutto, come non sprecare gli slot.
+
+> ⚠️ Le EVO attive cambiano ogni settimana e ognuna ha i suoi requisiti (overall massimo, ruolo, tetto di velocità, numero di posizioni). Controlla su Futbin o FUT.GG quali sono attive quando giochi: qui ti do il metodo e i profili giusti, non una lista che scade in due giorni.
+
+## Il metodo: come ragionare sulle EVO
+
+- **Cerca overall basso ma buon potenziale:** carte con body type giusto, velocità alta e magari i PlayStyle giusti, ma overall contenuto. Più margine di crescita = più valore.
+- **Sfrutta le Pathways:** puoi scegliere la direzione dell'Evoluzione. Costruisci la carta che serve alla **tua** squadra, non quella che decide EA.
+- **Non strapagare la carta base:** l'errore più comune del day one è pagarla 5-10k di troppo. Aspetta che il prezzo si assesti.
+- **Gli slot sono limitati:** non sprecarli su carte a caso, ragiona prima.
+
+## I migliori candidati day one
+
+- **Marcus Rashford** (82): il classico da starter EVO. Overall basso, tanta velocità e margine enorme per crescere.
+- **Ademola Lookman** (83): profilo bilanciato, perfetto per un'Evoluzione da punta a requisiti bassi.
+- **Fikayo Tomori** (85 di velocità): un difensore veloce, e con la difesa più manuale di FC 27 la velocità dietro pesa parecchio.
+- **Kika Nazareth**: chimica Liga F e tanti PlayStyle, la rendono eleggibile a percorsi interessanti e ottima a centrocampo.
+- **Cristiano Ronaldo** (84): l'overall abbassato è un vantaggio, lo fa rientrare in più percorsi. Potenziale EVO enorme per i tifosi.
+
+## Le categorie furbe (poco battute)
+
+- **Terzini:** la scelta budget perenne. Economici, poca concorrenza da parte degli altri, si incastrano nei percorsi difensivi, e con le novità difensive di FC 27 un terzino difensivo evoluto rende ancora di più.
+- **Portieri:** spesso il miglior rapporto **crediti / statistiche** della prima settimana. Se esce un'EVO portiere, è quasi sempre la più conveniente.
+
+## Il consiglio del coach
+
+Le EVO gratis o economiche sono il modo migliore per partire forte senza svuotare il club. La regola è una: **prima guardi il percorso e cosa ti serve in squadra, POI scegli la carta da evolvere**, mai il contrario. E tieni i crediti da parte: a inizio ciclo valgono oro, e serviranno per la prima promo e le prime SBC che valgono davvero.
+
+Continua qui: [la watchlist day one](/newsletter/fc-27-watchlist-day-one-carte-da-tenere-docchio), [i PlayStyle da prendere e da evitare](/newsletter/fc-27-playstyle-carte-starter-da-prendere-e-evitare) e [tutte le novità di Ultimate Team](/newsletter/ea-fc-27-ultimate-team-novita-gallery-sbc-power-curve).`,
+    en: {
+      title: "The Best Evolutions to Do at Day One on FC 27 (Without Wasting Your Slots)",
+      description:
+        "Evolutions are the smartest way to build your squad early on EA FC 27 without burning coins. The best day-one candidates (Rashford, Lookman, Tomori, Kika Nazareth, CR7) and the method to not waste your slots.",
+      category: "Guide",
+      dateLabel: "September 18, 2026",
+      heroAlt:
+        "The best Evolutions to do at day one on EA FC 27: the candidates and the method to not waste your slots",
+      excerpt:
+        "Evolutions are the smartest way to build without burning coins early on FC 27. The best day-one candidates and the coach's method to not waste your EVO slots.",
+      body: `**Evolutions** are the smartest way to build your squad early on FC 27 without burning coins: you take a cheap card and turn it into a starter. With the new **EVO Pathways** (the branching paths I told you about) they matter even more. Here are the best day-one candidates and, above all, how not to waste your slots.
+
+> ⚠️ Active EVOs change every week and each has its own requirements (max overall, position, pace cap, number of positions). Check Futbin or FUT.GG for what is active when you play: here I give you the method and the right profiles, not a list that expires in two days.
+
+## The method: how to think about EVOs
+
+- **Look for low overall but high potential:** cards with the right body type, high pace and maybe the right PlayStyles, but a contained overall. More room to grow = more value.
+- **Use the Pathways:** you can choose the direction of the Evolution. Build the card **your** squad needs, not the one EA decides.
+- **Do not overpay for the base card:** the most common day-one mistake is paying 5-10k too much. Wait for the price to settle.
+- **Slots are limited:** do not waste them on random cards, think first.
+
+## The best day-one candidates
+
+- **Marcus Rashford** (82): the classic starter EVO. Low overall, lots of pace and huge room to grow.
+- **Ademola Lookman** (83): a balanced profile, perfect for a low-requirement striker Evolution.
+- **Fikayo Tomori** (85 pace): a fast defender, and with FC 27's more manual defending, pace at the back matters a lot.
+- **Kika Nazareth**: Liga F chemistry and many PlayStyles make her eligible for interesting paths and great in midfield.
+- **Cristiano Ronaldo** (84): the lowered overall is an advantage, it lets him qualify for more paths. Huge EVO potential for the fans.
+
+## The smart categories (less contested)
+
+- **Full-backs:** the perennial budget pick. Cheap, little competition from other managers, they slot into defensive paths, and with FC 27's defensive changes an evolved defensive full-back is even more impactful.
+- **Goalkeepers:** often the best **coins-per-stat** ratio of the first week. If a GK EVO drops, it is almost always the most efficient one.
+
+## The coach's take
+
+Free or cheap EVOs are the best way to start strong without emptying your club. The rule is one: **first look at the path and what your squad needs, THEN pick the card to evolve**, never the other way around. And keep coins aside: early in the cycle they are gold, and you will need them for the first promo and the first SBCs that are actually worth it.
+
+More here: [the day-one watchlist](/en/newsletter/fc-27-watchlist-day-one-carte-da-tenere-docchio), [the PlayStyles to buy and avoid](/en/newsletter/fc-27-playstyle-carte-starter-da-prendere-e-evitare) and [everything new in Ultimate Team](/en/newsletter/ea-fc-27-ultimate-team-novita-gallery-sbc-power-curve).`,
+    },
+  },
+  {
     slug: "fc-27-watchlist-day-one-carte-da-tenere-docchio",
     title: "FC 27 Watchlist Day One: le carte da tenere d'occhio dal database ufficiale",
     description:
