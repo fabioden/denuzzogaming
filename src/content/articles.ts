@@ -30,6 +30,105 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "fc-27-come-fare-crediti-day-one-mercato-trading",
+    title: "FC 27, come fare crediti dal day one: mercato, SBC e trading",
+    description:
+      "I primi giorni di EA FC 27 sono i più caldi del mercato: cosa tenere, il rischio dei pacchetti dello store, le SBC iniziali che valgono e due metodi concreti per fare crediti (bidding e chemistry style).",
+    category: "Mercato",
+    date: "2026-09-18",
+    dateLabel: "18 Settembre 2026",
+    readingTime: "6 min",
+    badge: "MERCATO",
+    heroImage: "/img/articles/fc-27-come-fare-crediti-day-one-mercato-trading-hero.jpg",
+    heroAlt:
+      "Come fare crediti dal day one su EA FC 27: mercato, SBC iniziali e trading (bidding e chemistry style)",
+    excerpt:
+      "I primi giorni di FC 27 sono i più caldi del mercato dell'anno. Cosa tenere, cosa evitare, le SBC iniziali che valgono e due metodi concreti per fare crediti senza solo speculare.",
+    body: `I primi giorni di FC 27 sono i più caldi del mercato di tutto l'anno: alcune carte hanno già raddoppiato di prezzo. Ti spiego cosa sta succedendo, cosa tenere, cosa evitare e due metodi concreti per fare crediti senza limitarti a sperare che salgano. Riprendo l'analisi di **Nate (The FUT Accountant)** e ci metto il mio parere da chi ci lavora.
+
+> ⚠️ Prezzi, SBC e contenuti cambiano di ora in ora: quelli qui sotto sono esempi del momento, il valore è nel metodo, non nel singolo numero.
+
+## Il mercato è esploso (e perché)
+
+Due ondate di domanda: prima gli accessi anticipati (Nuova Zelanda, Xbox), poi soprattutto l'**Europa** che si collega. Migliaia di utenti col gioco in mano, crediti dagli FC Points, pacchetti aperti, e la domanda di carte usabili che cresce più in fretta dell'offerta. Risultato: prezzi su. Esempi visti: **Messi** da circa 30k a 63k fino a sfiorare i 100k; il **TOTW Raya** da circa 100k a quasi 300k.
+
+Salirà ancora? Le impennate più violente forse sono già passate, ma il weekend (Rivals, premi, crediti) continua a sostenere la domanda.
+
+## Cosa TENERE (hold)
+
+Carte **forti, rare, ad alto rating** e soprattutto le **extinct** (comprate all'istante al prezzo massimo, tipo Barcola e Tchouaméni): possono salire ancora quando EA aggiorna i price range. Non svenderle al limite attuale.
+
+## Il vero rischio: i pacchetti dello store
+
+L'anno scorso i pacchetti da 100k fecero crollare il mercato. EA ha detto nelle Pitch Notes di volerne pubblicare **meno e più controllati**. Probabili pacchetti piccoli (15-25k), improbabile il ritorno immediato del 100k. Chi rischia di più? Le **carte economiche**, perché si trovano più spesso e sentono di più un aumento dell'offerta.
+
+## Le SBC e gli obiettivi iniziali che valgono
+
+- **Marquee Matchups** (ogni giovedì): a inizio ciclo valgono **molto più del solito**, perché i pacchetti sono scambiabili e quasi tutte le carte valgono ancora crediti. Occhio ai requisiti di nazionalità o lega: gli scozzesi, per dire, sono schizzati verso i 1.500 crediti. Controlla il club: vendi sull'aumento o tieni una carta per la SBC.
+- **Obiettivi e Gallery:** le carte da obiettivo e SBC contano per la Gallery, quindi **aggiorna set e grade** per sbloccare i reward (a livello 5 un holographic, a livello 10 un Base Hero holo).
+- **Daily login:** entra ogni giorno, sono ricompense gratis (pacchetti, SP per la progressione).
+- **Cosa aspettarsi venerdì:** la prima **Player SBC** (una Ones to Watch, stimata sui 10-20k), forse la prima **Evoluzione**, i TOTW. Occhio se EA userà già il nuovo sistema SBC semplificato.
+
+## Come fare crediti: 2 metodi concreti
+
+**1. Bidding + flipping.** Compri all'asta sotto il Buy Now e rivendi subito. Esempio: De Gea si vende sui 1.200-1.300, lo vinci all'asta a 650-750 → 400-600 di margine. Il singolo profitto è piccolo, ma è un gioco di **volume**: 300 crediti ripetuti cento volte fanno tanto. A inizio anno moltissime aste passano inosservate perché tutti usano il Compra Subito. Funziona anche sulle carte costose (un Wirtz da 30k vinto sotto prezzo). Ricorda la **tassa del 5%** in vendita.
+
+**2. Chemistry Style trading.** Compri carte popolari con lo **stile intesa già applicato** (Hunter, Shadow, Anchor) e le rivendi più care della versione base. Esempio: Tomori base circa 3k, con Shadow circa 5.500: trovarlo con Shadow a circa 4k è già un buon trade. Marmoush con Hunter uguale. La gente lo rimette in vendita dimenticando che lo stile aggiunge valore: lì fai il margine.
+
+## Il consiglio del coach
+
+Nei primi giorni la **liquidità vale più di qualsiasi carta**: chi ha crediti quando esce la prima SBC o promo compra bene, chi ha svuotato il club resta a guardare. Non innamorarti dei rialzi, non svenderti le carte forti, e fai crediti col **metodo** (bidding e chemistry style), non solo sperando che il mercato salga. È più noioso che vedere una carta raddoppiare di notte, ma è il modo più affidabile di costruire capitale.
+
+Continua qui: [la starter squad senza bruciare crediti](/newsletter/starter-squad-fc-27-come-costruirla-senza-bruciare-crediti), [la watchlist day one](/newsletter/fc-27-watchlist-day-one-carte-da-tenere-docchio) e [tutte le novità di Ultimate Team](/newsletter/ea-fc-27-ultimate-team-novita-gallery-sbc-power-curve).`,
+    en: {
+      title: "FC 27, How to Make Coins From Day One: Market, SBCs and Trading",
+      description:
+        "The first days of EA FC 27 are the hottest for the market: what to hold, the store-pack risk, the early SBCs worth doing and two concrete methods to make coins (bidding and chemistry style).",
+      category: "Market",
+      dateLabel: "September 18, 2026",
+      heroAlt:
+        "How to make coins from day one on EA FC 27: market, early SBCs and trading (bidding and chemistry style)",
+      excerpt:
+        "The first days of FC 27 are the hottest market of the year. What to hold, what to avoid, the early SBCs worth doing and two concrete methods to make coins without just speculating.",
+      body: `The first days of FC 27 are the hottest market of the whole year: some cards have already doubled in price. Let me explain what is happening, what to hold, what to avoid and two concrete methods to make coins without just hoping they go up. I build on the analysis of **Nate (The FUT Accountant)** and add my take as someone who works with this.
+
+> ⚠️ Prices, SBCs and content change by the hour: the ones below are examples of the moment, the value is in the method, not the single number.
+
+## The market exploded (and why)
+
+Two waves of demand: first the early access users (New Zealand, Xbox), then above all **Europe** logging in. Thousands of users with the game, coins from FC Points, packs opened, and demand for usable cards rising faster than supply. Result: prices up. Examples seen: **Messi** from around 30k to 63k up to nearly 100k; the **TOTW Raya** from around 100k to almost 300k.
+
+Will it keep rising? The most violent spikes may already be behind us, but the weekend (Rivals, rewards, coins) keeps sustaining demand.
+
+## What to HOLD
+
+Cards that are **strong, rare, high-rated** and above all **extinct** (bought instantly at the max price, like Barcola and Tchouaméni): they can rise more when EA updates the price ranges. Do not sell them at the current cap.
+
+## The real risk: the store packs
+
+Last year the 100k packs crashed the market. EA said in the Pitch Notes it wants to release **fewer and more controlled** packs. Likely small packs (15-25k), unlikely an immediate return of the 100k. Who is most at risk? The **cheap cards**, because they are found more often and feel a supply increase more.
+
+## The early SBCs and objectives worth it
+
+- **Marquee Matchups** (every Thursday): early in the cycle they are worth **much more than usual**, because the packs are tradeable and almost every card still holds coin value. Watch the nationality or league requirements: Scottish players, for example, spiked toward 1,500 coins. Check your club: sell on the rise or keep one for the SBC.
+- **Objectives and Gallery:** cards from objectives and SBCs count for the Gallery, so **update your sets and grades** to unlock the rewards (a holographic at level 5, a Base Hero holo at level 10).
+- **Daily login:** log in every day, they are free rewards (packs, SP for progression).
+- **What to expect Friday:** the first **Player SBC** (a Ones to Watch, estimated around 10-20k), maybe the first **Evolution**, the TOTW. Watch whether EA already uses the new streamlined SBC system.
+
+## How to make coins: 2 concrete methods
+
+**1. Bidding + flipping.** You buy at auction below Buy Now and resell right away. Example: De Gea sells around 1,200-1,300, you win the auction at 650-750 → 400-600 margin. The single profit is small, but it is a **volume** game: 300 coins repeated a hundred times adds up. Early in the year many auctions go unnoticed because everyone uses Buy Now. It works on expensive cards too (a 30k Wirtz won below price). Remember the **5% tax** on sales.
+
+**2. Chemistry Style trading.** You buy popular cards with the **chemistry style already applied** (Hunter, Shadow, Anchor) and resell them higher than the base version. Example: Tomori base around 3k, with Shadow around 5,500: finding him with Shadow at around 4k is already a good trade. Marmoush with Hunter the same. People relist forgetting the style adds value: that is where you make the margin.
+
+## The coach's take
+
+In the first days **liquidity is worth more than any card**: whoever has coins when the first SBC or promo drops buys well, whoever emptied their club just watches. Do not fall in love with the rises, do not dump your strong cards, and make coins with a **method** (bidding and chemistry style), not just by hoping the market climbs. It is more boring than watching a card double overnight, but it is the most reliable way to build capital.
+
+More here: [the starter squad without burning coins](/en/newsletter/starter-squad-fc-27-come-costruirla-senza-bruciare-crediti), [the day-one watchlist](/en/newsletter/fc-27-watchlist-day-one-carte-da-tenere-docchio) and [everything new in Ultimate Team](/en/newsletter/ea-fc-27-ultimate-team-novita-gallery-sbc-power-curve).`,
+    },
+  },
+  {
     slug: "fc-27-migliori-evoluzioni-day-one",
     title: "Le migliori Evoluzioni da fare al day one su FC 27 (senza sprecare gli slot)",
     description:
