@@ -30,6 +30,129 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "fc-27-moduli-tattiche-meta",
+    title: "Moduli e tattiche meta di FC 27: le formazioni migliori (con impostazioni)",
+    description:
+      "I moduli meta di EA FC 27 con le impostazioni concrete: ruoli, stile di costruzione e linea difensiva. Il 4-2-1-3, il 4-4-1-1 e le alternative, spiegati dal coach, più i principi che valgono su ogni modulo.",
+    category: "Guida",
+    date: "2026-09-22",
+    dateLabel: "22 Settembre 2026",
+    readingTime: "6 min",
+    badge: "TATTICHE",
+    heroImage: "/img/articles/fc-27-moduli-tattiche-meta-hero.jpg",
+    heroAlt:
+      "I moduli e le tattiche meta di EA FC 27: le formazioni migliori con ruoli e impostazioni",
+    excerpt:
+      "Ora che si gioca, il modulo giusto fa la differenza. I moduli meta di FC 27 con impostazioni concrete (ruoli, costruzione, linea difensiva) e il parere del coach su quale scegliere.",
+    body: `Ora che si gioca davvero, il **modulo giusto** fa la differenza. Ti do i moduli meta del lancio con **impostazioni concrete** (ruoli, stile di costruzione, linea difensiva) e ci metto il parere da coach su quale scegliere e come giocarlo. Ricorda una cosa sopra tutte: su FC 27 la **difesa è manuale**, quindi il modulo serve a darti equilibrio, non a difendere al posto tuo.
+
+> ⚠️ Il meta si assesta nelle prime settimane e ognuno ha il suo stile. Queste sono le impostazioni più usate al lancio, da usare come base e poi adattare a te.
+
+## Il modulo meta: 4-2-1-3
+
+Il più equilibrato al lancio, il migliore per iniziare.
+
+- **Costruzione:** Contropiede. **Linea difensiva:** 55.
+- **Ruoli:** portiere Portiere/Difesa; terzini Terzino/Difesa; centrali Difensore/Difesa; un mediano **Box Crasher/Bilanciato**, l'altro **Holding/Difesa**; ali **Attaccante interno/Attacco**; trequartista **Seconda punta (Shadow Striker)/Attacco**; punta **Attaccante avanzato/Attacco**.
+
+Perché funziona: avere le **ali** invece dei centrocampisti tiene gli attaccanti più vicini, quindi combinazioni migliori tra punta ed esterni. Il Box Crasher ti dà la spinta, l'Holding resta a coprire.
+
+**Parere del coach:** è il modulo più completo per partire. L'Holding è la tua rete di sicurezza con la difesa manuale, non toglierlo.
+
+## L'alternativa solida: 4-4-1-1
+
+- **Costruzione:** Contropiede. **Linea:** 45.
+- Due centrali di centrocampo, esterni come **Attaccanti interni** (Bilanciato), un **Holding** più un **Box-to-Box**.
+
+**Parere del coach:** più equilibrato e coperto del 4-2-1-3, ottimo se prendi troppi gol. La linea più bassa (45) ti protegge dietro.
+
+## Per chi ama il palleggio: 4-1-2-1-2 stretto
+
+- **Costruzione:** Passaggi corti. **Linea:** 40.
+- Un **Holding** più due **Box-to-Box**, due punte. Palleggio centrale, tutti che si smarcano.
+
+**Parere del coach:** di controllo e divertente, ma è stretto: se non giri palla veloce ti chiudono gli spazi. Per chi ha pazienza e sa costruire.
+
+## Aggressivo: 4-3-3 (4)
+
+- **Costruzione:** Contropiede. **Linea:** 60.
+- Cinque in attacco: ali Attaccanti interni, trequartista Seconda punta, più Box-to-Box e Holding per un minimo di equilibrio.
+
+**Parere del coach:** tanta pressione ma ti scopri parecchio. Prendilo solo se sai difendere di posizione, altrimenti prendi imbarcate.
+
+## I principi che valgono su OGNI modulo
+
+- **La difesa è manuale:** nessun modulo difende al posto tuo. Tieni l'Holding come áncora, difendi di posizione e impara a **switchare**.
+- **La linea difensiva:** più è alta, più spazio dai dietro (occhio agli attaccanti explosive). 55 è un buon compromesso.
+- **Non cambiare modulo ogni partita:** imparane **uno** bene, conta più del modulo perfetto.
+- **La velocità comanda:** ali e punta explosive o rapid rendono di più.
+
+## Il consiglio del coach
+
+Se parti ora, vai di **4-2-1-3**: equilibrio e combinazioni. Se prendi troppi gol, passa al **4-4-1-1** e abbassa la linea. Ma il punto vero è questo: nessun modulo ti salva se non difendi a mano e non leggi la partita. È esattamente lì che lavoro nel coaching.
+
+Continua qui: [come cambia il gameplay dalla beta](/newsletter/fc-27-gameplay-beta-difesa-manuale-cosa-aspettarsi), [cosa fare al day one](/newsletter/fc-27-day-one-cosa-fare-guida-partenza) e [la miglior squadra Serie A](/newsletter/migliore-squadra-serie-a-fc-27).`,
+    en: {
+      title: "EA FC 27 Meta Formations and Tactics: The Best Setups (With Settings)",
+      description:
+        "EA FC 27's meta formations with concrete settings: roles, build-up style and defensive line. The 4-2-1-3, the 4-4-1-1 and the alternatives, explained by the coach, plus the principles that hold on any formation.",
+      category: "Guide",
+      dateLabel: "September 22, 2026",
+      heroAlt:
+        "EA FC 27 meta formations and tactics: the best setups with roles and settings",
+      excerpt:
+        "Now that we are playing, the right formation matters. FC 27's meta formations with concrete settings (roles, build-up, defensive line) and the coach's take on which to pick.",
+      body: `Now that we are actually playing, the **right formation** makes a difference. Here are the launch meta formations with **concrete settings** (roles, build-up style, defensive line) plus the coach's take on which to pick and how to play it. Remember one thing above all: on FC 27 **defending is manual**, so the formation gives you balance, it does not defend for you.
+
+> ⚠️ The meta settles over the first weeks and everyone has their own style. These are the most used launch settings, use them as a base and then adapt them to you.
+
+## The meta formation: 4-2-1-3
+
+The most balanced at launch, the best to start with.
+
+- **Build-up:** Counter. **Defensive line:** 55.
+- **Roles:** goalkeeper Goalkeeper/Defend; full-backs Fullback/Defend; centre-backs Defender/Defend; one midfielder **Box Crasher/Balanced**, the other **Holding/Defend**; wingers **Inside Forward/Attack**; the CAM **Shadow Striker/Attack**; striker **Advanced Forward/Attack**.
+
+Why it works: having **wingers** instead of midfielders keeps your attackers closer together, so better link-up between striker and wide men. The Box Crasher gives you the push, the Holding stays to cover.
+
+**The coach's take:** the most complete formation to start. The Holding is your safety net with manual defending, do not remove it.
+
+## The solid alternative: 4-4-1-1
+
+- **Build-up:** Counter. **Line:** 45.
+- Two center mids, the wide men as **Inside Forwards** (Balanced), one **Holding** plus one **Box-to-Box**.
+
+**The coach's take:** more balanced and covered than the 4-2-1-3, great if you concede too much. The lower line (45) protects you at the back.
+
+## For possession lovers: 4-1-2-1-2 (narrow)
+
+- **Build-up:** Short Passing. **Line:** 40.
+- One **Holding** plus two **Box-to-Box**, two strikers. Central possession, everyone making themselves available.
+
+**The coach's take:** controlled and fun, but it is narrow: if you do not move the ball fast they close the spaces. For those with patience who can build.
+
+## Aggressive: 4-3-3 (4)
+
+- **Build-up:** Counter. **Line:** 60.
+- Five attackers: Inside Forward wingers, a Shadow Striker CAM, plus a Box-to-Box and a Holding for a bit of balance.
+
+**The coach's take:** lots of pressure but you expose yourself a lot. Take it only if you can defend positionally, otherwise you ship goals.
+
+## The principles that hold on EVERY formation
+
+- **Defending is manual:** no formation defends for you. Keep the Holding as an anchor, defend positionally and learn to **switch**.
+- **The defensive line:** the higher it is, the more space you give at the back (watch explosive attackers). 55 is a good compromise.
+- **Do not change formation every match:** learn **one** well, it matters more than the perfect formation.
+- **Pace rules:** explosive or rapid wingers and striker perform better.
+
+## The coach's take
+
+If you are starting now, go 4-2-1-3: balance and link-up. If you concede too much, switch to 4-4-1-1 and drop the line. But the real point is this: no formation saves you if you do not defend by hand and read the game. That is exactly what I work on in coaching.
+
+More here: [how the gameplay changes from the beta](/en/newsletter/fc-27-gameplay-beta-difesa-manuale-cosa-aspettarsi), [what to do at day one](/en/newsletter/fc-27-day-one-cosa-fare-guida-partenza) and [the best Serie A squad](/en/newsletter/migliore-squadra-serie-a-fc-27).`,
+    },
+  },
+  {
     slug: "fc-27-come-fare-crediti-day-one-mercato-trading",
     title: "FC 27, come fare crediti dal day one: mercato, SBC e trading",
     description:
