@@ -30,6 +30,173 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "come-difendere-fc-27-guida-difesa-manuale",
+    title: "Come difendere su FC 27: la guida alla difesa manuale (tasto per tasto)",
+    description:
+      "La difesa è la skill che decide EA FC 27: l'AI non ruba più palla per te. La guida del coach alla difesa manuale, tasto per tasto: switch, jockey, tackle, secondo uomo, coprire gli spazi e il fuorigioco.",
+    category: "Guida",
+    date: "2026-09-22",
+    dateLabel: "22 Settembre 2026",
+    readingTime: "7 min",
+    badge: "COACHING",
+    heroImage: "/img/articles/come-difendere-fc-27-guida-difesa-manuale-hero.jpg",
+    heroAlt:
+      "Come difendere su EA FC 27: la guida alla difesa manuale tasto per tasto del coach Fabio Denuzzo",
+    excerpt:
+      "Su FC 27 l'AI non difende più per te: si difende a mano, ed è la skill che decide le partite. Ti spiego esattamente come difendo io, tasto per tasto. Impara questo e salti divisioni.",
+    body: `La difesa è **LA skill** che decide FC 27 quest'anno: EA ha tolto l'auto-tackle dell'AI, i tuoi compagni non ti rubano più palla, coprono e basta. Si difende **a mano**. Ti spiego esattamente come difendo io, tasto per tasto. Se impari questo, salti divisioni: è la cosa su cui c'è più margine di crescita in assoluto.
+
+> Comandi indicati come PlayStation / Xbox. Il concetto vale su entrambe.
+
+## Il loop della difesa manuale (la base)
+
+Il ciclo è sempre questo, ripetilo a ogni azione:
+
+**switcha presto → copri lo spazio pericoloso → jockey sull'attaccante → tackle solo quando la palla è scoperta.**
+
+## 1. Switcha, switcha, switcha (la chiave dell'anno)
+
+Il difensore che **non** controlli ha meno raggio d'azione: devi prendere tu l'uomo giusto.
+
+- Combina **L1/LB** (passa al giocatore più vicino) con la **levetta destra** (switch mirato su un uomo preciso).
+- Switcha **prima del contatto**, non dopo che ti ha già superato.
+- Cambia spesso, non tenere lo stesso giocatore troppo a lungo.
+
+## 2. Jockey e speed jockey (L2 / L2+R2)
+
+- **Jockey (L2/LT):** stai quadrato davanti all'attaccante. Quest'anno il jockey è più veloce e ti dà alto controllo del difensore.
+- **Speed jockey (L2+R2 / LT+RT):** jockey più rapido per recuperare o chiudere lo spazio. Su campo aperto: prima sprinti, poi jockey, poi speed jockey per chiudere.
+- Aggiungi lo **sprint analogico** (premi la levetta sinistra) per controllo difensivo extra.
+
+## 3. NON lanciarti (la pazienza vince)
+
+Nell'1v1 la pazienza batte l'aggressività: stai **goal-side**, jockey, riduci lo spazio e aspetta l'errore.
+
+- Usa il **cerchio/B** (contrasto in scivolata dal basso) **il meno possibile**.
+- Se ti lanci e sbagli, sei fuori posizione: corri indietro e recupera.
+- Spesso la palla la vinci solo **standoci addosso** col jockey, senza premere nulla.
+
+## 4. Il tackle giusto
+
+- **Stand tackle:** quest'anno ha più raggio. Se leggi bene ed entri nella linea di passaggio o dribbling, copri più campo e pulisci la palla.
+- **Slide tackle (scivolata):** quest'anno è molto buono, ha "extra reach". Usalo quando devi allungarti per arrivare sulla palla.
+- Attacca il portatore **solo** quando la palla è scoperta o dopo un suo brutto stop.
+
+## 5. Il secondo uomo (R1) e il doppiaggio
+
+- **R1/RB (secondo uomo in pressing):** non fa il tackle, ma **intimidisce** e stressa chi ha palla, mentre col tuo difensore copri lo spazio. Usalo per dare fastidio, non per rubare.
+- **Doppia** sull'uomo pericoloso e alterna i due con lo switch veloce.
+
+## 6. Copri spazi e linee di passaggio (a mano)
+
+Non essere passivo, ma non lanciarti: **copri manualmente** lo spazio pericoloso e le **linee di passaggio**, soprattutto quelle centrali.
+
+Scansiona il campo, individua la **corsa pericolosa** e switcha **prima** che parta il filtrante: reagire prima è molto più facile che recuperare dopo che la palla è già arrivata.
+
+## 7. Il fuorigioco (freccia su, su)
+
+**D-pad su due volte** = trappola del fuorigioco, poi copri lo spazio a mano. Con la difesa alta scatta anche da sola, ma imparare a chiamarlo al momento giusto ti fa punire i filtranti.
+
+## 8. Il mastino / Bruiser (X) con giudizio
+
+La spallata (**X/A**) funziona **spalla a spalla**, ma non spammarla come l'anno scorso: perdi l'equilibrio e regali spazio. Usala nel momento giusto, non a raffica.
+
+## Difendi con TUTTA la squadra
+
+- **Traccia indietro** con i centrocampisti e il trequartista, non solo con i difensori.
+- **Non tirare mai fuori i centrali** a caso: restano in posizione.
+- Compatto, stretto, aiutati con i terzini.
+
+## Il consiglio del coach
+
+FC 27 è un gioco da matti: non staccare mai la testa, un vantaggio di +4 può diventare 6-5 in un attimo. La difesa **non è un tasto**, è **lettura, posizione e switch**. Allena questo e sali di livello davvero.
+
+**Vuoi imparare a difendere sul serio, con me che ti correggo partita per partita?** È esattamente quello che facciamo nel coaching 1 a 1: 👉 [prenota il tuo coaching qui](/coaching) e saltiamo insieme il muro della difesa manuale.
+
+Continua qui: [i moduli e le tattiche meta](/newsletter/fc-27-moduli-tattiche-meta), [come cambia il gameplay dalla beta](/newsletter/fc-27-gameplay-beta-difesa-manuale-cosa-aspettarsi) e [cosa fare al day one](/newsletter/fc-27-day-one-cosa-fare-guida-partenza).`,
+    en: {
+      title: "How to Defend on FC 27: The Manual Defending Guide (Button by Button)",
+      description:
+        "Defending is the skill that decides EA FC 27: the AI no longer wins the ball for you. The coach's manual defending guide, button by button: switching, jockey, tackling, second man, covering space and the offside trap.",
+      category: "Guide",
+      dateLabel: "September 22, 2026",
+      heroAlt:
+        "How to defend on EA FC 27: coach Fabio Denuzzo's button-by-button manual defending guide",
+      excerpt:
+        "On FC 27 the AI no longer defends for you: it is manual, and it is the skill that decides games. I show you exactly how I defend, button by button. Learn this and you climb divisions.",
+      body: `Defending is **THE skill** that decides FC 27 this year: EA removed the AI auto-tackle, your teammates no longer win the ball for you, they just cover. It is **manual**. I show you exactly how I defend, button by button. Learn this and you climb divisions: it is where there is the most room to grow, full stop.
+
+> Controls shown as PlayStation / Xbox. The concept holds on both.
+
+## The manual defending loop (the base)
+
+The cycle is always this, repeat it every play:
+
+**switch early → cover the dangerous space → jockey the attacker → tackle only when the ball is exposed.**
+
+## 1. Switch, switch, switch (this year's key)
+
+The defender you are **not** controlling has less reach: you have to grab the right man yourself.
+
+- Combine **L1/LB** (switch to the closest player) with the **right stick** (targeted switch to a specific man).
+- Switch **before contact**, not after he has already gone past you.
+- Change often, do not hold the same player too long.
+
+## 2. Jockey and speed jockey (L2 / L2+R2)
+
+- **Jockey (L2/LT):** stay square in front of the attacker. This year jockey is faster and gives you high control of the defender.
+- **Speed jockey (L2+R2 / LT+RT):** faster jockey to recover or close space. In open space: sprint first, then jockey, then speed jockey to close.
+- Add **analog sprint** (press the left stick) for extra defensive control.
+
+## 3. Do NOT lunge (patience wins)
+
+In a 1v1 patience beats aggression: stay **goal-side**, jockey, reduce the space and wait for the mistake.
+
+- Use **circle/B** (the sliding tackle from standing) **as little as possible**.
+- If you lunge and miss, you are out of position: run back and recover.
+- Often you win the ball just by **staying on him** with jockey, without pressing anything.
+
+## 4. The right tackle
+
+- **Stand tackle:** it has more range this year. Read well and step into the passing or dribbling lane, and you cover more ground and win it cleanly.
+- **Slide tackle:** it is very good this year, with "extra reach". Use it when you need to stretch to reach the ball.
+- Attack the ball carrier **only** when the ball is exposed or after a bad touch.
+
+## 5. The second man (R1) and doubling up
+
+- **R1/RB (second man press):** it does not tackle, but it **intimidates** and stresses the ball carrier, while you cover the space with your defender. Use it to pressure, not to steal.
+- **Double up** on the dangerous man and alternate the two with fast switching.
+
+## 6. Cover space and passing lanes (manually)
+
+Do not be passive, but do not lunge: **manually cover** the dangerous space and the **passing lanes**, especially the central ones.
+
+Scan the pitch, spot the **dangerous run** and switch **before** the through ball is played: reacting first is far easier than recovering after the ball has arrived.
+
+## 7. The offside trap (D-pad up, up)
+
+**D-pad up twice** = offside trap, then cover the space by hand. With a high line it also triggers on its own, but learning to call it at the right time lets you punish through balls.
+
+## 8. The jockey shoulder / Bruiser (X) with judgment
+
+The shoulder charge (**X/A**) works **shoulder to shoulder**, but do not spam it like last year: you lose your footing and give away space. Use it at the right moment, not on repeat.
+
+## Defend with the WHOLE team
+
+- **Track back** with the midfielders and the CAM, not just the defenders.
+- **Never pull the centre-backs out** at random: keep them in position.
+- Compact, narrow, help with the full-backs.
+
+## The coach's take
+
+FC 27 is a mad man's game: never switch off, a +4 lead can become 6-5 in a flash. Defending **is not a button**, it is **reading, positioning and switching**. Train this and you really level up.
+
+**Want to learn to defend for real, with me correcting you game by game?** That is exactly what we do in 1-to-1 coaching: 👉 [book your coaching here](/en/coaching) and let's break through the manual defending wall together.
+
+More here: [the meta formations and tactics](/en/newsletter/fc-27-moduli-tattiche-meta), [how the gameplay changes from the beta](/en/newsletter/fc-27-gameplay-beta-difesa-manuale-cosa-aspettarsi) and [what to do at day one](/en/newsletter/fc-27-day-one-cosa-fare-guida-partenza).`,
+    },
+  },
+  {
     slug: "fc-27-moduli-tattiche-meta",
     title: "Moduli e tattiche meta di FC 27: le formazioni migliori (con impostazioni)",
     description:
