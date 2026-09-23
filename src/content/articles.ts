@@ -30,6 +30,123 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "come-attaccare-segnare-fc-27-guida",
+    title: "Come attaccare e segnare su FC 27: la guida offensiva (tasto per tasto)",
+    description:
+      "Con la difesa più manuale, su EA FC 27 attaccare è più facile ma serve metodo. La guida del coach a come attaccare e segnare: R1, corse, filtranti manuali, tiri e come sfruttare gli spazi.",
+    category: "Guida",
+    date: "2026-09-22",
+    dateLabel: "22 Settembre 2026",
+    readingTime: "6 min",
+    badge: "COACHING",
+    heroImage: "/img/articles/come-attaccare-segnare-fc-27-guida-hero.jpg",
+    heroAlt:
+      "Come attaccare e segnare su EA FC 27: la guida offensiva tasto per tasto del coach Fabio Denuzzo",
+    excerpt:
+      "Con la difesa manuale ci sono più spazi: attaccare è più facile, ma serve metodo. Ti spiego come attacco e segno io, tasto per tasto. È il gemello della guida sulla difesa.",
+    body: `Con la difesa più manuale, su FC 27 attaccare è **più facile**, perché ci sono più spazi tra i reparti. Ma "più facile" non vuol dire a caso: serve metodo. Ti spiego come attacco e segno io, tasto per tasto. È il gemello della [guida sulla difesa](/newsletter/come-difendere-fc-27-guida-difesa-manuale): insieme ti danno il quadro completo.
+
+> Comandi indicati come PlayStation / Xbox. Il concetto vale su entrambe.
+
+## Il principio: sfrutta gli spazi
+
+Con la difesa manuale, chi non controlli non copre da solo: si aprono spazi tra difesa e centrocampo avversari. Chi ha **velocità** e sa muovere i giocatori senza palla punisce. L'attacco parte da lì, non dal singolo tasto.
+
+## 1. L'R1 (vieni incontro): fondamentale
+
+Tieni **R1/RB** e il giocatore **ti viene incontro** invece di scappare in avanti (dove finisce in fuorigioco o si fa rubare palla allo switch). È da anni il tasto più importante per far girare palla e non perderla: usalo sempre in costruzione.
+
+## 2. Le corse: dai-e-vai e trigger runs
+
+- **Dai-e-vai (L1 + passaggio):** chi ti dà la palla parte forte. Perfetto per l'uno-due e per attaccare lo spazio velocemente.
+- **Corse curve / trigger runs (L1+R1 guardando un giocatore):** parte una corsa curva intelligente che attacca lo spazio. Ottima scorciatoia per chi non padroneggia gli inserimenti manuali.
+- **Inserimenti direzionali (L1 mirato):** mandi in profondità l'uomo che vuoi tu. Nota: quest'anno le corse con L1 **si fermano** (niente più maratone infinite), quindi conta il tempismo.
+
+## 3. I filtranti (più manuali quest'anno)
+
+- **Filtrante rasoterra (triangolo/Y):** serve precisione, se carichi troppo va fuori. Non è più "indirizza e parte da solo".
+- **Filtrante full manual (R1+triangolo):** il più preciso a distanza, il vero manuale.
+- **Filtrante alto / lob (doppio triangolo, il doppio X è stato tolto):** fortissimo quest'anno, apre il campo su un taglio dalla parte opposta. Usalo, ma non spammarlo.
+
+## 4. I tiri
+
+- **Driven / rasoterra:** il più affidabile, il tuo tiro di default.
+- **Tiro a giro / finesse:** quest'anno **incostante**, non fidarti ciecamente.
+- **Powershot (L1+R1 + tiro):** molto buono, anche senza il PlayStyle dedicato. Ma serve **tempo e spazio**, non da sotto pressione.
+- **Dentro l'area, sangue freddo:** i portieri sono deboli e gran parte dei gol arriva da lì. Non strafare, scegli l'angolo.
+
+## 5. Muovi la palla, non correre a testa bassa
+
+Con più spazi premia chi ha **pazienza e vede la giocata**, non chi corre a caso. Gli attaccanti tengono meglio la posizione: aspetta il momento e gioca il filtrante giusto. E ricorda: la **velocità comanda**, gli explosive e i rapid puniscono lo spazio.
+
+## 6. Cross e calci piazzati
+
+- **Cross più manuali ma con potenziale:** i colpi di testa sono un po' più precisi. Dopo anni di "non si crossa", quest'anno si può, soprattutto a livelli medi.
+- Sui **calci da fermo** puoi selezionare il ricevitore: piccola cosa, ma utile.
+
+## Il consiglio del coach
+
+Attaccare bene è **tempismo e lettura**, non spam di corse e tiri. Se difendi con metodo e attacchi con criterio, domini le partite invece di subirle. **Vuoi che guardi le tue azioni offensive e ti corregga partita per partita?** È quello che facciamo nel coaching 1 a 1: 👉 [prenota il tuo coaching qui](/coaching).
+
+Continua qui: [come difendere su FC 27](/newsletter/come-difendere-fc-27-guida-difesa-manuale), [i moduli e le tattiche meta](/newsletter/fc-27-moduli-tattiche-meta) e [come cambia il gameplay dalla beta](/newsletter/fc-27-gameplay-beta-difesa-manuale-cosa-aspettarsi).`,
+    en: {
+      title: "How to Attack and Score on FC 27: The Attacking Guide (Button by Button)",
+      description:
+        "With more manual defending, attacking on EA FC 27 is easier but needs a method. The coach's guide to attacking and scoring: R1, runs, manual through balls, shooting and using space.",
+      category: "Guide",
+      dateLabel: "September 22, 2026",
+      heroAlt:
+        "How to attack and score on EA FC 27: coach Fabio Denuzzo's button-by-button attacking guide",
+      excerpt:
+        "With manual defending there is more space: attacking is easier, but it needs a method. I show you how I attack and score, button by button. It is the twin of the defending guide.",
+      body: `With more manual defending, attacking on FC 27 is **easier**, because there is more space between the lines. But "easier" does not mean random: it needs a method. I show you how I attack and score, button by button. It is the twin of the [defending guide](/en/newsletter/come-difendere-fc-27-guida-difesa-manuale): together they give you the full picture.
+
+> Controls shown as PlayStation / Xbox. The concept holds on both.
+
+## The principle: exploit the space
+
+With manual defending, the players you do not control do not cover on their own: space opens between the opponent's defense and midfield. Whoever has **pace** and can move players off the ball punishes. Attacking starts there, not from a single button.
+
+## 1. R1 (come to the ball): essential
+
+Hold **R1/RB** and the player **comes toward you** instead of running away (where he ends up offside or loses the ball on a switch). For years it has been the most important button to move the ball and not lose it: always use it in build-up.
+
+## 2. The runs: give-and-go and trigger runs
+
+- **Give-and-go (L1 + pass):** the player who gives you the ball bursts forward. Perfect for a one-two and to attack space fast.
+- **Curved runs / trigger runs (L1+R1 while looking at a player):** a smart curved run that attacks the space starts. A great shortcut for those who do not master manual runs.
+- **Directional runs (targeted L1):** you send the man you want in behind. Note: this year L1 runs **stop** (no more endless marathons), so timing matters.
+
+## 3. Through balls (more manual this year)
+
+- **Ground through ball (triangle/Y):** it needs precision, overpower it and it goes out. It is no longer "point and it goes".
+- **Full manual through ball (R1+triangle):** the most precise over distance, the real manual one.
+- **Lofted / lob through ball (double triangle, double X was removed):** very strong this year, it opens the pitch to a run on the far side. Use it, but do not spam it.
+
+## 4. Shooting
+
+- **Driven / low shot:** the most reliable, your default shot.
+- **Finesse shot:** **inconsistent** this year, do not trust it blindly.
+- **Powershot (L1+R1 + shoot):** very good, even without the dedicated PlayStyle. But it needs **time and space**, not under pressure.
+- **In the box, stay calm:** keepers are weak and most goals come from there. Do not overdo it, pick your corner.
+
+## 5. Move the ball, do not run head down
+
+With more space it rewards those with **patience and vision**, not those who run at random. Attackers hold position better: wait for the moment and play the right through ball. And remember: **pace rules**, explosive and rapid players punish space.
+
+## 6. Crosses and set pieces
+
+- **More manual crosses but with potential:** headers are a bit more precise. After years of "do not cross", this year you can, especially at mid levels.
+- On **set pieces** you can select the receiver: a small thing, but useful.
+
+## The coach's take
+
+Attacking well is **timing and reading**, not spamming runs and shots. If you defend with a method and attack with judgment, you dominate games instead of suffering them. **Want me to watch your attacking plays and correct you game by game?** That is what we do in 1-to-1 coaching: 👉 [book your coaching here](/en/coaching).
+
+More here: [how to defend on FC 27](/en/newsletter/come-difendere-fc-27-guida-difesa-manuale), [the meta formations and tactics](/en/newsletter/fc-27-moduli-tattiche-meta) and [how the gameplay changes from the beta](/en/newsletter/fc-27-gameplay-beta-difesa-manuale-cosa-aspettarsi).`,
+    },
+  },
+  {
     slug: "come-difendere-fc-27-guida-difesa-manuale",
     title: "Come difendere su FC 27: la guida alla difesa manuale (tasto per tasto)",
     description:
