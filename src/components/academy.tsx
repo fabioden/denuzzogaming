@@ -105,7 +105,19 @@ export function CourseTile({ course, locked, to, progress, fluid }: { course: Co
   const cls = fluid
     ? "group w-full text-left cursor-pointer no-underline"
     : "group snap-start shrink-0 w-[clamp(220px,30vw,280px)] text-left cursor-pointer hover:z-10 no-underline";
-  const inner = (
+  const inner = !live ? (
+      // TESSERA "IN ARRIVO": sfondo nero + lucchetto al centro + "In arrivo" (niente miniatura)
+      <div className="relative aspect-video rounded-[var(--radius-card)] overflow-hidden border border-line-2" style={{ background: "#0b0a0e" }}>
+        <div className="absolute top-0 left-0 h-[3px] w-10 bg-gold/60 rounded-br" />
+        <div className="absolute inset-0 flex flex-col items-center justify-center gap-2 text-ink-2">
+          <LockIcon size={30} />
+          <span className="text-[.72rem] font-semibold uppercase tracking-[.2em]">In arrivo</span>
+        </div>
+        <div className="absolute inset-x-0 bottom-0 p-3">
+          <p className="font-display text-ink-2 text-[.95rem] leading-tight">{course.title}</p>
+        </div>
+      </div>
+  ) : (
       <div
         className="relative aspect-video rounded-[var(--radius-card)] overflow-hidden border border-line-2 bg-card"
         style={hasCover ? { backgroundImage: `url(${course.cover})`, backgroundSize: "cover", backgroundPosition: "center" } : { background: placeholderBg }}
@@ -118,9 +130,7 @@ export function CourseTile({ course, locked, to, progress, fluid }: { course: Co
         <div className="absolute inset-0" style={{ background: "linear-gradient(180deg, rgba(10,10,15,.12) 0%, transparent 40%, rgba(10,10,15,.78))" }} />
         <div className="absolute top-0 left-0 h-[3px] w-10 bg-gold rounded-br" />
         <span className="absolute top-2.5 left-3 text-[11px] font-semibold uppercase tracking-[.12em] text-ink-2">{course.category}</span>
-        {!live ? (
-          <span className="absolute top-2.5 right-2.5 text-[11px] font-semibold bg-[#2a2530] text-ink-2 border border-line-2 px-2 py-0.5 rounded-full">In arrivo</span>
-        ) : locked && !hasFree ? (
+        {locked && !hasFree ? (
           <span className="absolute top-2.5 right-2.5 text-gold"><LockIcon /></span>
         ) : locked && hasFree ? (
           <span className="absolute top-2.5 right-2.5 text-[11px] font-semibold bg-gold text-gold-contrast px-2 py-0.5 rounded-full">Anteprima gratis</span>
@@ -129,7 +139,7 @@ export function CourseTile({ course, locked, to, progress, fluid }: { course: Co
           <span className="w-12 h-12 rounded-full bg-gold text-gold-contrast flex items-center justify-center">
             <PlayIcon size={22} />
           </span>
-          <span className="text-ink text-[.86rem] font-medium">{!live ? "In arrivo" : locked && !hasFree ? "Sblocca ora" : "Riproduci"}</span>
+          <span className="text-ink text-[.86rem] font-medium">{locked && !hasFree ? "Sblocca ora" : "Riproduci"}</span>
         </div>
         <div className="absolute inset-x-0 bottom-0 p-3">
           <p className="font-display text-ink text-[.98rem] leading-tight">{course.title}</p>

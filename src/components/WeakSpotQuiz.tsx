@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 type AreaKey = "difesa" | "attacco" | "squadra" | "mentalita";
 
 const AREAS: Record<AreaKey, { label: string; courseId: string; blurb: string }> = {
-  difesa: { label: "Difesa", courseId: "difesa", blurb: "Prendi gol evitabili: è lì che perdi i punti." },
+  difesa: { label: "Difesa", courseId: "intro", blurb: "Prendi gol evitabili: è lì che perdi i punti." },
   attacco: { label: "Attacco", courseId: "attacco", blurb: "Crei ma non concretizzi: il problema è in zona gol." },
   squadra: { label: "Costruzione squadra", courseId: "squadra-meta", blurb: "La rosa non gira: moduli, chimica e PlayStyle da sistemare." },
   mentalita: { label: "Testa da campione", courseId: "pressione", blurb: "Sotto pressione crolli: la testa decide le partite." },

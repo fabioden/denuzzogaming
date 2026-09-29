@@ -172,7 +172,7 @@ export default function Home() {
                   Abbonati ora <ArrowIcon size={17} />
                 </a>
               </div>
-              <p className="text-muted text-[.82rem] mt-3">€12,99/mese o €99/anno · Difesa disponibile ora + nuovi video ogni settimana · disdici quando vuoi</p>
+              <p className="text-muted text-[.82rem] mt-3">€12,99/mese oppure €99 per tutta la stagione EA FC 27 · Difesa disponibile ora + nuovi video ogni settimana · disdici quando vuoi</p>
             </div>
           </>
         )}

@@ -10,7 +10,7 @@ import type { MemberContext } from "@/components/MemberLayout";
 export default function Settings() {
   const { user, profile, isActive } = useOutletContext<MemberContext>();
   const navigate = useNavigate();
-  const planLabel = profile?.plan === "annuale" ? "Annuale · €99/anno" : profile?.plan === "mensile" ? "Mensile · €12,99/mese" : "Attivo";
+  const planLabel = profile?.plan === "annuale" ? "Tutta la stagione EA FC 27 · €99" : profile?.plan === "mensile" ? "Mensile · €12,99/mese" : "Attivo";
   const renew = profile?.current_period_end ? new Date(profile.current_period_end).toLocaleDateString("it-IT", { day: "numeric", month: "long", year: "numeric" }) : null;
 
   async function logout() {

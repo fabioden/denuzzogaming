@@ -86,10 +86,10 @@ export function AcademyOffer({ user }: { user?: BuyUser }) {
         <PlanCard
           base={CHECKOUT.annuale}
           user={user}
-          tier="Annuale"
+          tier="Per tutto EA FC 27"
           price={PRICING.annuale.price}
-          period={PRICING.annuale.period}
-          hint="Il migliore per la stagione"
+          period=""
+          hint="Tutta la stagione, paghi una volta"
           recommended
           badge="≈ 2 mesi gratis"
         />

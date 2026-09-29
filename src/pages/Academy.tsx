@@ -73,7 +73,7 @@ export default function Academy() {
           <div className="mt-6 flex justify-center">
             <Link to="/login" className="btn-primary no-underline inline-flex items-center gap-2 text-[1.02rem] px-8 py-4">Crea l'account e abbonati <ArrowIcon size={17} /></Link>
           </div>
-          <p className="text-muted text-[.82rem] mt-3">€12,99/mese o €99/anno · Difesa disponibile ora + nuovi video ogni settimana · disdici quando vuoi</p>
+          <p className="text-muted text-[.82rem] mt-3">€12,99/mese oppure €99 per tutta la stagione EA FC 27 · Difesa disponibile ora + nuovi video ogni settimana · disdici quando vuoi</p>
         </div>
       </section>
     </>

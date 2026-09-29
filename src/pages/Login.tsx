@@ -105,7 +105,7 @@ export default function Login() {
               </span>
               <span className="section-label">Con l'abbonamento</span>
               <h3 className="text-[1.15rem] mt-1 text-ink">Sblocchi tutto</h3>
-              <p className="text-muted text-[.85rem] mb-4">€12,99/mese o €99/anno · disdici quando vuoi</p>
+              <p className="text-muted text-[.85rem] mb-4">€12,99/mese oppure €99 per tutta la stagione · disdici quando vuoi</p>
               <ul className="flex flex-col gap-2.5">
                 {memberPerks.map((p) => (
                   <Perk key={p} strong>

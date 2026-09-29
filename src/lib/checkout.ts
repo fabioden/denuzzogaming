@@ -9,7 +9,7 @@ export const CHECKOUT = {
 
 export const PRICING = {
   mensile: { price: "€12,99", period: "/mese" },
-  annuale: { price: "€99", period: "/anno", hint: "circa 2 mesi gratis" },
+  annuale: { price: "€99", period: "", hint: "per tutta la stagione EA FC 27" },
 };
 
 // Aggiunge id utente + email al link Stripe, così il webhook collega l'acquisto all'account.

@@ -25,7 +25,7 @@ export default function Courses() {
         {locked && (
           <div className="hero-rise mt-5 rounded-[var(--radius-card)] border border-gold/30 bg-gold/[.06] p-4 sm:p-5 flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-5" style={{ animationDelay: ".45s" }}>
             <p className="text-ink-2 text-[.97rem] flex-1 leading-snug">
-              <strong className="text-ink">Il primo video di ogni area è gratis.</strong> Provalo ora. Per sbloccare tutto il corso c'è l'abbonamento: €12,99/mese o €99/anno, disdici quando vuoi.
+              <strong className="text-ink">Il primo video di ogni area è gratis.</strong> Provalo ora. Per sbloccare tutto il corso c'è l'abbonamento: €12,99/mese oppure €99 per tutta la stagione, disdici quando vuoi.
             </p>
             <Link to="/account/abbonamento" className="btn-primary no-underline shrink-0">Sblocca il corso</Link>
           </div>
