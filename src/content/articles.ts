@@ -30,6 +30,99 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "sbc-frattesi-fc-27-conviene-costo-requisiti",
+    title: "SBC Frattesi FC 27: conviene? Costo, requisiti e stat",
+    description:
+      "È uscita la SBC di Davide Frattesi su EA FC 27: costo intorno ai 37-40k, sistema a punteggio, stat da box-to-box. Ti dico se conviene farla e come completarla, dal coach.",
+    category: "SBC",
+    date: "2026-09-29",
+    dateLabel: "29 Settembre 2026",
+    readingTime: "4 min",
+    badge: "SBC",
+    heroImage: "/img/articles/sbc-frattesi-fc-27-conviene-costo-requisiti-hero.jpg",
+    heroAlt:
+      "SBC Davide Frattesi su EA FC 27: costo, requisiti, stat e se conviene farla",
+    excerpt:
+      "È uscita la SBC di Frattesi: 85 box-to-box, circa 37-40k crediti, nuovo sistema a punteggio. Conviene? Ti dico stat, requisiti e come completarla senza strapagare.",
+    body: `Oggi è uscita la **SBC di Davide Frattesi** su FC 27 (promo Destined for Glory). Ti dico costo, requisiti, statistiche e soprattutto **se conviene farla**, da coach.
+
+> ⚠️ Prezzi e requisiti cambiano di ora in ora: controlla la soluzione più economica del momento su Futbin o FUT.GG.
+
+## La carta
+
+**Frattesi, 84, centrocampista box-to-box.** Statistiche molto bilanciate:
+
+- **Velocità 84** (conta parecchio su FC 27)
+- Tiro 81, Passaggio 81, **Dribbling 84**
+- Difesa 77, Fisico 78
+
+E soprattutto ha il **Pinged Pass** (il passaggio teso, il driven pass): è uno degli stili **più meta per i centrocampisti** su FC 27, perché ti fa arrivare la palla forte e precisa tra le linee. Un CC **veloce**, che passa così e con questi link **italiani / Serie A**, è oro per chi gioca con una rosa di Serie A.
+
+## Costo e requisiti
+
+Costo indicativo: **circa 37-40k crediti**. Con il nuovo sistema **a punteggio**, non serve più la media 85: devi raggiungere un **totale di circa 40.000 punti** con la rosa. Puoi chiuderla con **tante carte basse** o **poche carte alte**, come preferisci.
+
+## Conviene? Il parere del coach
+
+**Sì, soprattutto se giochi la Serie A.** Stat rotonde, velocità e dribbling a 84, fisico decente per aiutare in difesa, e il **Pinged Pass** che è meta per i centrocampisti. Con la **power curve più lenta** di quest'anno, le carte da SBC mirate come questa sono tra le **migliori occasioni early-game**: non ti svolta la vita, ma è utilissima e ti dura settimane. In più è un'ottima carta anche per la **Gallery**: la aggiungi al club e contribuisce ai set italiani, quindi vale doppio.
+
+**NON farla se:** hai già un centrocampista migliore, oppure vuoi tenere i crediti per la prima grande promo in arrivo. A inizio ciclo la liquidità vale oro.
+
+## Come completarla senza strapagare
+
+Col sistema a punteggio, usa il **fodder che hai già** (bronzi, argenti, ori) per arrivare ai punti richiesti, invece di comprare tutto sul mercato. Un SBC solver (Futbin/FUT.GG) ti dà la **soluzione più economica** aggiornata al momento in cui la fai.
+
+## Il consiglio del coach
+
+La carta ti mette in condizione, ma le partite le vinci col **manico**, non con l'overall. Se vuoi che ti aiuti a rendere davvero con la tua squadra e a salire di divisione, 👉 [prenota il tuo coaching qui](/coaching).
+
+Continua qui: [come fare crediti dal day one](/newsletter/fc-27-come-fare-crediti-day-one-mercato-trading), [le migliori Evoluzioni](/newsletter/fc-27-migliori-evoluzioni-day-one) e [i moduli e le tattiche meta](/newsletter/fc-27-moduli-tattiche-meta).`,
+    en: {
+      title: "FC 27 Frattesi SBC: Is It Worth It? Cost, Requirements and Stats",
+      description:
+        "The Davide Frattesi SBC is out on EA FC 27: around 37-40k coins, points-based system, box-to-box stats. I tell you whether it is worth doing and how to complete it, from the coach.",
+      category: "SBC",
+      dateLabel: "September 29, 2026",
+      heroAlt:
+        "Davide Frattesi SBC on EA FC 27: cost, requirements, stats and whether it is worth it",
+      excerpt:
+        "The Frattesi SBC is out: 85 box-to-box, around 37-40k coins, the new points system. Worth it? I give you the stats, requirements and how to complete it without overpaying.",
+      body: `The **Davide Frattesi SBC** is out on FC 27 today (Destined for Glory promo). I tell you the cost, requirements, stats and above all **whether it is worth doing**, from the coach.
+
+> ⚠️ Prices and requirements change by the hour: check the cheapest current solution on Futbin or FUT.GG.
+
+## The card
+
+**Frattesi, 84, box-to-box midfielder.** Very balanced stats:
+
+- **84 pace** (matters a lot on FC 27)
+- 81 shooting, 81 passing, **84 dribbling**
+- 77 defending, 78 physical
+
+And crucially he has the **Pinged Pass** (the driven pass): one of the **most meta PlayStyles for midfielders** on FC 27, because it gets the ball to you fast and precise between the lines. A **fast** CM who passes like that, with these **Italian / Serie A** links, is gold for anyone running a Serie A squad.
+
+## Cost and requirements
+
+Indicative cost: **around 37-40k coins**. With the new **points-based** system, you no longer need an 85 average: you need to reach a **total of about 40,000 points** with the squad. You can complete it with **many low cards** or **a few high ones**, as you prefer.
+
+## Is it worth it? The coach's take
+
+**Yes, especially if you play Serie A.** Rounded stats, pace and dribbling at 84, decent physicality to help in defense, and the **Pinged Pass** that is meta for midfielders. With this year's **slower power curve**, targeted SBC cards like this are among the **best early-game deals**: it will not change your life, but it is very useful and lasts for weeks. Plus it is a great card for the **Gallery**: add it to your club and it contributes to the Italian sets, so it is worth double.
+
+**Do not do it if:** you already have a better midfielder, or you want to keep coins for the first big promo coming up. Early in the cycle liquidity is gold.
+
+## How to complete it without overpaying
+
+With the points system, use the **fodder you already have** (bronzes, silvers, golds) to reach the required points, instead of buying everything on the market. An SBC solver (Futbin/FUT.GG) gives you the **cheapest solution** updated to when you do it.
+
+## The coach's take
+
+The card sets you up, but you win games with **skill**, not overall. If you want me to help you truly perform with your squad and climb divisions, 👉 [book your coaching here](/en/coaching).
+
+More here: [how to make coins from day one](/en/newsletter/fc-27-come-fare-crediti-day-one-mercato-trading), [the best Evolutions](/en/newsletter/fc-27-migliori-evoluzioni-day-one) and [the meta formations and tactics](/en/newsletter/fc-27-moduli-tattiche-meta).`,
+    },
+  },
+  {
     slug: "come-attaccare-segnare-fc-27-guida",
     title: "Come attaccare e segnare su FC 27: la guida offensiva (tasto per tasto)",
     description:
