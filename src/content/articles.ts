@@ -33,7 +33,7 @@ export const articles: Article[] = [
     slug: "sbc-frattesi-fc-27-conviene-costo-requisiti",
     title: "SBC Frattesi FC 27: conviene? Costo, requisiti e stat",
     description:
-      "È uscita la SBC di Davide Frattesi su EA FC 27: costo intorno ai 37-40k, sistema a punteggio, stat da box-to-box. Ti dico se conviene farla e come completarla, dal coach.",
+      "SBC Frattesi FC 27: conviene? Costo ~40k, requisiti, stat e il Pinged Pass meta per i centrocampisti. Ottimo per la Serie A e per la Gallery, col parere del coach.",
     category: "SBC",
     date: "2026-09-29",
     dateLabel: "29 Settembre 2026",
@@ -80,7 +80,7 @@ Continua qui: [come fare crediti dal day one](/newsletter/fc-27-come-fare-credit
     en: {
       title: "FC 27 Frattesi SBC: Is It Worth It? Cost, Requirements and Stats",
       description:
-        "The Davide Frattesi SBC is out on EA FC 27: around 37-40k coins, points-based system, box-to-box stats. I tell you whether it is worth doing and how to complete it, from the coach.",
+        "FC 27 Frattesi SBC: worth it? Cost ~40k, requirements, stats and the meta Pinged Pass for midfielders. Great for Serie A squads and the Gallery, with the coach's take.",
       category: "SBC",
       dateLabel: "September 29, 2026",
       heroAlt:
