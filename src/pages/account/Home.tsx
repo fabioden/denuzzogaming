@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Link, useOutletContext } from "react-router-dom";
 import { courses, categoryOrder } from "@/content/membership";
-import { wrap, CourseTile, PlayIcon, LockIcon, ArrowIcon } from "@/components/academy";
-import { AcademyOffer, AcademyProof, CheckIcon, FOUNDER_TOTAL } from "@/components/AcademyOffer";
+import { wrap, CourseTile, PlayIcon, LockIcon, ArrowIcon, WeeklyUpdateBanner } from "@/components/academy";
+import { AcademyOffer, AcademyProof, CheckIcon } from "@/components/AcademyOffer";
 import { useProgress } from "@/hooks/useProgress";
 import type { MemberContext } from "@/components/MemberLayout";
 
@@ -11,10 +11,6 @@ import type { MemberContext } from "@/components/MemberLayout";
 // - Abbonato: "continua a guardare" + la tua libreria di corsi da riprodurre.
 // Le altre sezioni (percorso, classifica, questa settimana) restano nelle loro pagine.
 // L'offerta è nel componente condiviso AcademyOffer (usato anche dalla pagina pubblica /academy).
-
-// Link di pagamento del corso (Stripe). Quando Fabio lo dà, incollalo qui e il bottone
-// "Sblocca" diventa acquisto vero. Se vuoto, porta alla pagina piani (come oggi).
-const CHECKOUT_URL = "";
 
 export default function Home() {
   const { user, isActive } = useOutletContext<MemberContext>();
@@ -33,18 +29,6 @@ export default function Home() {
   const shown = area === "Tutti" ? courses : courses.filter((c) => c.category === area);
   const progressOf = (c: (typeof courses)[number]) => ({ done: c.lessons.filter((l) => completed.has(l.id)).length, total: c.lessons.length });
   const started = completed.size > 0;
-
-  // Bottone acquisto: link Stripe se c'è, altrimenti la pagina piani.
-  const BuyButton = ({ className = "btn-primary", children }: { className?: string; children: React.ReactNode }) =>
-    CHECKOUT_URL ? (
-      <a href={CHECKOUT_URL} target="_blank" rel="noopener noreferrer" className={`${className} no-underline inline-flex items-center justify-center gap-2`}>
-        {children}
-      </a>
-    ) : (
-      <Link to="/account/abbonamento" className={`${className} no-underline inline-flex items-center justify-center gap-2`}>
-        {children}
-      </Link>
-    );
 
   return (
     <section className="pt-[clamp(20px,3vw,36px)] pb-[clamp(60px,10vh,120px)]">
@@ -72,11 +56,11 @@ export default function Home() {
             {!started ? (
               /* PRIMO ACCESSO: nessun esercizio ancora fatto */
               <div className="hero-rise mt-6 rounded-[18px] border border-gold/25 bg-gradient-to-br from-[#1c1622] to-[#131017] p-[clamp(22px,4vw,40px)] relative overflow-hidden" style={{ animationDelay: ".24s" }}>
-                <span className="section-label">Benvenuto nell'Academy</span>
+                <span className="section-label">Benvenuto nel corso</span>
                 <h2 className="font-display serif text-[clamp(1.5rem,3vw,2.2rem)] text-ink mt-2 mb-2">Il tuo percorso per l'Elite parte qui</h2>
-                <p className="text-ink-2 text-[.98rem] max-w-[54ch]">Non devi guardare tutto. Parti da un'area, fai un esercizio da 2-3 minuti, poi vai in partita e provalo.</p>
+                <p className="text-ink-2 text-[.98rem] max-w-[54ch]">Non devi guardare tutto. Parti da un'area, guarda un video da 2-3 minuti, poi vai in partita e provalo.</p>
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mt-5 max-w-[720px]">
-                  {[["1", "Scegli un'area", "Difesa, attacco, rosa o mentalità."], ["2", "Fai l'esercizio", "Video corti e concreti, niente teoria."], ["3", "Provalo in partita", "Applica e segna l'esercizio come fatto."]].map((s) => (
+                  {[["1", "Scegli un'area", "Difesa, attacco, rosa o mentalità."], ["2", "Guarda il video", "Corti e concreti, niente teoria."], ["3", "Provalo in partita", "Applica e segna il video come visto."]].map((s) => (
                     <div key={s[0]} className="rounded-[12px] border border-line-2 bg-black/25 p-4">
                       <span className="inline-grid place-items-center w-7 h-7 rounded-full bg-gold text-gold-contrast font-display text-[.9rem]">{s[0]}</span>
                       <p className="font-display text-ink text-[1rem] mt-2.5">{s[1]}</p>
@@ -111,6 +95,8 @@ export default function Home() {
               <p className="text-ink-2 text-[.97rem] max-w-[58ch]">Hai accesso a tutto. Scegli su cosa allenarti, al tuo ritmo.</p>
             </div>
 
+            <div className="mt-5"><WeeklyUpdateBanner /></div>
+
             {/* Filtri per area */}
             <div className="mt-4 flex flex-wrap gap-2 fade-up">
               {areas.map((a) => (
@@ -137,18 +123,18 @@ export default function Home() {
               <div className="absolute inset-0" style={{ background: "linear-gradient(105deg, #14101a 8%, rgba(20,16,26,.72) 46%, transparent 82%)" }} />
               <div className="relative p-[clamp(24px,4vw,44px)] max-w-[620px]">
                 <span className="inline-flex items-center gap-2 rounded-full border border-gold/40 bg-gold/[.08] px-3 py-1.5 text-gold text-[11.5px] font-semibold backdrop-blur-sm">
-                  <span className="text-gold" aria-hidden>●</span> In arrivo con EA FC 27 · lista founder aperta
+                  <span className="text-gold" aria-hidden>●</span> Disponibile ora · EA FC 27
                 </span>
                 <h2 className="font-display serif text-[clamp(2rem,5.2vw,3.4rem)] text-ink leading-[1.04] mt-4 mb-3">
-                  Sblocca i corsi e sali in <span className="text-gold">Elite</span>
+                  Sblocca il corso e sali in <span className="text-gold">Elite</span>
                 </h2>
                 <p className="text-ink-2 text-[clamp(1rem,1.5vw,1.15rem)] max-w-[44ch] leading-relaxed">
-                  Tutti i corsi video, esercizi da 2-3 minuti. In arrivo con EA FC 27: entra nella lista founder e assicurati il posto prima che si riempia.
+                  La <strong className="text-ink">Difesa è pronta</strong> e ogni settimana arrivano nuovi video sul meta, tutto l'anno. Abbonati e sblocca tutto.
                 </p>
                 <div className="flex flex-wrap gap-3 mt-6">
-                  <BuyButton>
-                    Entra nella lista founder
-                  </BuyButton>
+                  <a href="#piani" className="btn-primary no-underline inline-flex items-center gap-2">
+                    Scegli il piano
+                  </a>
                   <Link to={`/account/corso/${freeCourse.id}`} className="btn-secondary no-underline inline-flex items-center gap-2">
                     <PlayIcon size={16} /> Guarda un'anteprima
                   </Link>
@@ -156,16 +142,9 @@ export default function Home() {
               </div>
             </div>
 
-            {/* OFFERTA (una sola, Hormozi) — componente condiviso con /academy */}
-            <div className="mt-[clamp(26px,4vw,42px)]">
-              <AcademyOffer
-                comingSoon
-                cta={
-                  <BuyButton className="btn-primary w-full text-[1.02rem] py-4">
-                    Entra nella lista founder
-                  </BuyButton>
-                }
-              />
+            {/* OFFERTA (due piani, checkout Stripe) — componente condiviso con /academy */}
+            <div id="piani" className="mt-[clamp(26px,4vw,42px)] scroll-mt-24">
+              <AcademyOffer user={user} />
             </div>
 
             {/* Prova reale: solo il palmarès di Fabio */}
@@ -176,8 +155,8 @@ export default function Home() {
             {/* Cosa sblocchi: i corsi in anteprima bloccata */}
             <div className="mt-[clamp(34px,5vw,56px)]">
               <span className="section-label">Cosa sblocchi</span>
-              <h2 className="font-display serif text-[clamp(1.4rem,2.6vw,2rem)] text-ink mt-1 mb-1">7 corsi, un percorso solo</h2>
-              <p className="text-ink-2 text-[.97rem] max-w-[58ch]">Il 1° esercizio di ogni area lo provi gratis. Il resto si sblocca con l'offerta.</p>
+              <h2 className="font-display serif text-[clamp(1.4rem,2.6vw,2rem)] text-ink mt-1 mb-1">La Difesa è pronta. Il resto arriva tutto l'anno.</h2>
+              <p className="text-ink-2 text-[.97rem] max-w-[58ch]">Il corso Difesa è completo ora; gli altri escono durante la stagione. La 1ª lezione di ogni area la provi gratis.</p>
             </div>
             <div className="mt-5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 fade-up">
               {courses.map((c) => (
@@ -189,11 +168,11 @@ export default function Home() {
             <div className="text-center mt-[clamp(40px,6vw,64px)] fade-up">
               <h2 className="font-display serif text-[clamp(1.6rem,3.4vw,2.4rem)] text-ink">Pronto a salire in <span className="text-gold">Elite</span>?</h2>
               <div className="mt-5 flex justify-center">
-                <BuyButton className="btn-primary text-[1.02rem] px-8 py-4">
-                  Entra nella lista founder <ArrowIcon size={17} />
-                </BuyButton>
+                <a href="#piani" className="btn-primary no-underline inline-flex items-center gap-2 text-[1.02rem] px-8 py-4">
+                  Abbonati ora <ArrowIcon size={17} />
+                </a>
               </div>
-              <p className="text-muted text-[.82rem] mt-3">In arrivo con EA FC 27 · prezzo founder per i primi {FOUNDER_TOTAL} · nessun pagamento ora</p>
+              <p className="text-muted text-[.82rem] mt-3">€12,99/mese o €99/anno · Difesa disponibile ora + nuovi video ogni settimana · disdici quando vuoi</p>
             </div>
           </>
         )}

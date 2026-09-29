@@ -476,7 +476,7 @@ function Report({ data, onClose }: { data: DashboardData; onClose: () => void })
 const PLUS_PREVIEW: Record<string, { title: string; bullets: string[]; sample: string[] }> = {
   benchmark: {
     title: "La tua strada per l'Elite, su misura",
-    bullets: ["Quanto sei lontano dall'Elite su ogni numero (win rate, gol, WL)", "Il gap numero 1 da colmare, con gli esercizi giusti da guardare", "Il tuo posto tra gli iscritti dell'Academy"],
+    bullets: ["Quanto sei lontano dall'Elite su ogni numero (win rate, gol, WL)", "Il gap numero 1 da colmare, con i video giusti da guardare", "Il tuo posto tra gli iscritti al corso"],
     sample: ["Win rate · tu 54% · Elite 80%", "Subiti a partita · tu 2,3 · Elite 1,7", "Da colmare: Difesa → 2 esercizi consigliati"],
   },
   crediti: {

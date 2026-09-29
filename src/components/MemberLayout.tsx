@@ -64,7 +64,7 @@ function useNavItems() {
     ],
     more: [
       { label: "Coaching 1:1", to: "/account/coaching", icon: <ChatIcon />, end: false },
-      { label: "Lista founder", to: "/account/abbonamento", icon: <CardIcon />, end: false },
+      { label: "Abbonamento", to: "/account/abbonamento", icon: <CardIcon />, end: false },
     ],
     resumeId,
   };
@@ -153,7 +153,7 @@ export default function MemberLayout() {
         <aside className="hidden lg:flex flex-col sticky top-0 h-screen border-r border-line bg-[#100d14]/70 backdrop-blur-xl px-4 py-6">
           <Link to="/account" className="flex items-center gap-2.5 px-2 no-underline shrink-0">
             <img src="/img/fd-mark.png" alt="Fabio Denuzzo" className="h-8 w-auto object-contain" />
-            <ShinyText text="ACADEMY" className="text-[12px] font-semibold tracking-[.24em] uppercase" color="#c9a23a" shineColor="#fff2c4" speed={4} />
+            <ShinyText text="IL CORSO" className="text-[12px] font-semibold tracking-[.24em] uppercase" color="#c9a23a" shineColor="#fff2c4" speed={4} />
           </Link>
 
           <nav className="mt-7 flex flex-col gap-1">
@@ -175,8 +175,8 @@ export default function MemberLayout() {
               </div>
             ) : (
               <Link to="/account/abbonamento" className="block rounded-[12px] border border-gold/40 bg-gold/[.08] p-3 no-underline hover:bg-gold/[.12] transition-colors">
-                <div className="text-gold text-[12px] font-semibold">Entra nella lista founder</div>
-                <div className="text-ink-2 text-[11.5px] mt-1">In arrivo con EA FC 27 · scopri l'Academy →</div>
+                <div className="text-gold text-[12px] font-semibold">Sblocca il corso</div>
+                <div className="text-ink-2 text-[11.5px] mt-1">Difesa ora + nuovi video ogni settimana →</div>
               </Link>
             )}
             <AccountMenu user={user} onShowIntro={() => setShowIntro(true)} up />
@@ -190,14 +190,14 @@ export default function MemberLayout() {
             <div className="flex items-center justify-between gap-3 px-[clamp(16px,4vw,40px)] py-3">
               <Link to="/account" className="flex items-center gap-2 no-underline lg:hidden">
                 <img src="/img/fd-mark.png" alt="Fabio Denuzzo" className="h-7 w-auto object-contain" />
-                <ShinyText text="ACADEMY" className="text-[11px] font-semibold tracking-[.22em] uppercase" color="#c9a23a" shineColor="#fff2c4" speed={4} />
+                <ShinyText text="IL CORSO" className="text-[11px] font-semibold tracking-[.22em] uppercase" color="#c9a23a" shineColor="#fff2c4" speed={4} />
               </Link>
               <div className="hidden lg:block" />
               <div className="flex items-center gap-2.5">
                 {isActive ? (
                   <span className="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-gold/40 text-[11px] font-bold uppercase tracking-[.12em] text-gold"><span className="w-1.5 h-1.5 rounded-full bg-gold" /> PRO</span>
                 ) : (
-                  <Link to="/account/abbonamento" className="hidden sm:inline-flex items-center px-3.5 py-1.5 rounded-full bg-gold text-gold-contrast text-[11px] font-bold uppercase tracking-[.1em] hover:opacity-90 transition-opacity no-underline">Lista founder</Link>
+                  <Link to="/account/abbonamento" className="hidden sm:inline-flex items-center px-3.5 py-1.5 rounded-full bg-gold text-gold-contrast text-[11px] font-bold uppercase tracking-[.1em] hover:opacity-90 transition-opacity no-underline">Sblocca</Link>
                 )}
                 <div className="lg:hidden w-40"><AccountMenu user={user} onShowIntro={() => setShowIntro(true)} /></div>
               </div>

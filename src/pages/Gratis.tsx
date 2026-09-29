@@ -63,7 +63,7 @@ export default function Gratis() {
               {/* Ponte verso l'Academy: l'iscritto fa il primo passo nella scala di valore */}
               <div className="card card--static">
                 <span className="section-label">Il passo dopo</span>
-                <p className="text-ink text-[1.05rem] font-medium mt-1 mb-1">Entra nell'Academy, gratis</p>
+                <p className="text-ink text-[1.05rem] font-medium mt-1 mb-1">Entra nel corso, gratis</p>
                 <p className="text-ink-2 text-[.92rem] mb-4">Crea il tuo account e trovi il percorso di allenamenti: il primo esercizio di ogni area è gratis. Quando vuoi salire davvero, c'è il PRO.</p>
                 <Link to="/login" className="btn-secondary inline-flex no-underline">Crea account gratis →</Link>
               </div>

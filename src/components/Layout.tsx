@@ -18,7 +18,7 @@ const COMMUNITY_WA = "https://wa.me/393667142489?text=" + encodeURIComponent("Ci
 
 const footerLinks = [
   { label: "Home", href: "/" },
-  { label: "Academy", href: "/academy" },
+  { label: "Il Corso", href: "/academy" },
   { label: "Coaching", href: "/coaching" },
   { label: "Newsletter", href: "/newsletter" },
   { label: "YouTube", href: social.youtube, ext: true },

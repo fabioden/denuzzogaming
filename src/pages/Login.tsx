@@ -6,12 +6,12 @@ const wrap = "max-w-[1100px] mx-auto px-[clamp(24px,5vw,64px)]";
 const input =
   "bg-card border border-line-2 rounded-[8px] px-[18px] py-[15px] text-ink text-[.95rem] outline-none focus:border-gold transition-colors";
 
-// Cosa ottieni entrando ora come founder (niente prezzi: i corsi non sono ancora usciti).
-const founderPerks = [
-  "Accesso prioritario ai corsi appena escono",
-  "Posto founder riservato, a condizioni migliori",
-  "La tua area personale nell'Academy",
-  "Nessun pagamento ora, nessuna carta",
+// Cosa sblocchi con l'abbonamento all'Academy.
+const memberPerks = [
+  "Corso Difesa completo: 8 video, disponibile ora",
+  "Nuovi video ogni settimana sul meta, tutto l'anno",
+  "Intro + le impostazioni di gioco che usa Fabio",
+  "La 1ª lezione di ogni area la provi gratis",
 ];
 
 function Perk({ children, strong }: { children: React.ReactNode; strong?: boolean }) {
@@ -76,7 +76,7 @@ export default function Login() {
             <h1 className="text-[clamp(2rem,4.5vw,3rem)] text-ink mb-5 leading-[1.1]">
               Iscriviti gratis.
               <br />
-              Entra nella lista founder.
+              Poi sblocca il corso.
             </h1>
 
             {/* REWARD IMMEDIATO — cosa ottieni appena ti registri */}
@@ -90,11 +90,10 @@ export default function Login() {
               <div>
                 <span className="section-label">Subito per te</span>
                 <h3 className="text-[1.1rem] text-ink leading-snug mb-1">
-                  In arrivo con EA FC 27
+                  La Difesa è pronta ora
                 </h3>
                 <p className="text-ink-2 text-[.9rem] leading-snug">
-                  I corsi video di Fabio stanno arrivando. Registrati gratis ed entra tra i primi
-                  founder, senza pagare.
+                  Il corso Difesa è completo e ogni settimana arrivano nuovi video sul meta. Registrati gratis e prova subito la 1ª lezione.
                 </p>
               </div>
             </div>
@@ -102,13 +101,13 @@ export default function Login() {
             {/* Cosa ottieni entrando ora come founder (niente prezzi) */}
             <div className="card card--static relative outline outline-1 outline-gold">
               <span className="absolute top-5 right-5 inline-flex items-center px-2.5 py-0.5 font-display text-[10px] font-bold tracking-[.1em] uppercase rounded-full bg-gold text-gold-contrast">
-                Founder
+                Il Corso
               </span>
-              <span className="section-label">Entrando ora</span>
-              <h3 className="text-[1.15rem] mt-1 text-ink">Sei tra i primi</h3>
-              <p className="text-muted text-[.85rem] mb-4">Nessun pagamento ora</p>
+              <span className="section-label">Con l'abbonamento</span>
+              <h3 className="text-[1.15rem] mt-1 text-ink">Sblocchi tutto</h3>
+              <p className="text-muted text-[.85rem] mb-4">€12,99/mese o €99/anno · disdici quando vuoi</p>
               <ul className="flex flex-col gap-2.5">
-                {founderPerks.map((p) => (
+                {memberPerks.map((p) => (
                   <Perk key={p} strong>
                     {p}
                   </Perk>
@@ -117,7 +116,7 @@ export default function Login() {
             </div>
 
             <p className="text-muted text-[.82rem] mt-4">
-              Ti registri gratis ora. Quando i corsi escono, i founder entrano per primi. Nessuna carta per iniziare.
+              Ti registri gratis e provi subito una lezione. Quando vuoi tutto, ti abboni: da €12,99/mese, disdici quando vuoi.
             </p>
           </div>
 

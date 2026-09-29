@@ -60,9 +60,9 @@ export default function Week() {
           <div className="mt-6 rounded-[var(--radius-card)] border border-gold/30 bg-gradient-to-r from-gold/[.10] to-transparent p-5 flex flex-col sm:flex-row sm:items-center gap-4 justify-between fade-up">
             <div>
               <p className="font-display text-ink text-[1.12rem]">Questo è il tuo assaggio gratis.</p>
-              <p className="text-ink-2 text-[.97rem] mt-0.5">Con <strong className="text-ink">Le Dritte di Denuzzo</strong> lo ricevi ogni settimana, più tutto l'archivio dei numeri passati.</p>
+              <p className="text-ink-2 text-[.97rem] mt-0.5">Con l'<strong className="text-ink">abbonamento</strong> lo ricevi ogni settimana, più tutto l'archivio dei numeri passati.</p>
             </div>
-            <Link to="/account/abbonamento" className="btn-primary inline-flex shrink-0 no-underline">Entra in lista founder</Link>
+            <Link to="/account/abbonamento" className="btn-primary inline-flex shrink-0 no-underline">Sblocca il corso</Link>
           </div>
         )}
 

@@ -16,17 +16,23 @@ export type Lesson = {
   id: string;
   title: string;
   durationMin: number;
-  youtubeId: string; // ID del video YouTube non in elenco
+  youtubeId?: string; // (legacy) ID YouTube non in elenco. Usa streamUid per i video protetti.
+  streamUid?: string; // UID Cloudflare Stream (video protetto, riproducibile solo sul dominio)
   free?: boolean; // true = anteprima gratis, visibile anche ai non abbonati
 };
 
-export type CourseCategory = "Costruzione squadra" | "Difesa" | "Attacco" | "Mentalità";
+// Sottodominio Cloudflare Stream dell'account (per l'embed dei video protetti).
+export const STREAM_DOMAIN = "customer-wkaamnvo04oubidk.cloudflarestream.com";
 
-// Ordine fisso con cui mostrare le righe per tema nella dashboard.
-export const categoryOrder: CourseCategory[] = ["Costruzione squadra", "Difesa", "Attacco", "Mentalità"];
+export type CourseCategory = "Intro" | "Impostazioni di gioco" | "Costruzione squadra" | "Difesa" | "Attacco" | "Mentalità";
+
+// Ordine fisso con cui mostrare le sezioni nella dashboard (Intro e Impostazioni per primi).
+export const categoryOrder: CourseCategory[] = ["Intro", "Impostazioni di gioco", "Difesa", "Costruzione squadra", "Attacco", "Mentalità"];
 
 // Titolo "modulo" del percorso per ogni tema (il percorso e' ordinato come categoryOrder).
 export const categoryTitle: Record<CourseCategory, string> = {
+  Intro: "Parti da qui",
+  "Impostazioni di gioco": "Le impostazioni giuste",
   "Costruzione squadra": "Costruisci la rosa perfetta",
   Difesa: "Difendi come un muro",
   Attacco: "Diventa una macchina da gol",
@@ -42,6 +48,12 @@ export type Course = {
   cover: string; // immagine in /public/img/... (se manca, la tessera mostra una copertina disegnata)
   lessons: Lesson[];
 };
+
+// Una lezione e' "live" quando ha un video vero (Cloudflare Stream o YouTube reale, non placeholder).
+export const lessonIsLive = (l: Lesson) => !!l.streamUid || (!!l.youtubeId && !l.youtubeId.startsWith("PLACEHOLDER"));
+// Un corso e' "disponibile ora" se ha almeno una lezione live; altrimenti esce durante la stagione.
+export const courseIsLive = (c: Course) => c.lessons.some(lessonIsLive);
+export const liveLessonCount = (c: Course) => c.lessons.filter(lessonIsLive).length;
 
 export type TopPlayer = {
   name: string;
@@ -137,6 +149,28 @@ export const weeklyDrop: WeeklyDrop = {
 // ----------------------------------------------------------------------------
 export const courses: Course[] = [
   {
+    id: "intro",
+    title: "Parti da qui",
+    subtitle: "Il benvenuto al videocorso: cosa imparerai e come sfruttarlo al meglio.",
+    level: "Base",
+    category: "Intro",
+    cover: "",
+    lessons: [
+      { id: "intro-1", title: "Introduzione al videocorso", durationMin: 1, streamUid: "2408fa76d12f4e7b851b664d9c723368", free: true },
+    ],
+  },
+  {
+    id: "impostazioni",
+    title: "Le impostazioni giuste",
+    subtitle: "Le impostazioni di gioco che uso io: controller, telecamera e menu, una per una.",
+    level: "Base",
+    category: "Impostazioni di gioco",
+    cover: "",
+    lessons: [
+      { id: "imp-1", title: "Le impostazioni di gioco", durationMin: 6, streamUid: "345555860354a5a1cb65d3da8fe7ce46", free: true },
+    ],
+  },
+  {
     id: "squadra-meta",
     title: "Costruisci la rosa perfetta",
     subtitle: "Esercizi pratici su moduli, PlayStyle e istruzioni: la squadra giusta anche con pochi crediti.",
@@ -152,14 +186,19 @@ export const courses: Course[] = [
   {
     id: "difesa",
     title: "Difendi come un muro",
-    subtitle: "Esercizi su contenimento, tempi del tackle e tenuta mentale nei momenti caldi.",
+    subtitle: "Il percorso completo per difendere: dalla teoria al temporeggiare, il cambio giocatore, i PlayStyle difensivi e il pressing. Guardali in ordine o scegli il video che ti serve.",
     level: "Intermedio",
     category: "Difesa",
     cover: "/img/academy/thumb-difesa.jpg",
     lessons: [
-      { id: "di-1", title: "Difendi come un muro, senza scoprirti", durationMin: 3, youtubeId: "PLACEHOLDER_DI_1", free: true },
-      { id: "di-2", title: "Il tackle perfetto, ogni volta", durationMin: 2, youtubeId: "PLACEHOLDER_DI_2" },
-      { id: "di-3", title: "Blinda l'1-0 fino al 90'", durationMin: 2, youtubeId: "PLACEHOLDER_DI_3" },
+      { id: "di-1", title: "Come si difende: la teoria", durationMin: 7, streamUid: "215eb27c2392473283698bbfa1af084a", free: true },
+      { id: "di-2", title: "Impara a temporeggiare", durationMin: 4, streamUid: "33c56404cd546334e3f90c7ed2172651" },
+      { id: "di-3", title: "Temporeggiare: esempio pratico", durationMin: 8, streamUid: "3e809b508b21943d0574426535e24263" },
+      { id: "di-4", title: "Temporeggiare: il recap veloce", durationMin: 1, streamUid: "c0094b5b4cba7efd24be89e9e848f9fb" },
+      { id: "di-5", title: "Cambiare giocatore al momento giusto", durationMin: 7, streamUid: "bd3fb62a6f4be328bf23fb9c8cccceb8" },
+      { id: "di-6", title: "I PlayStyle difensivi che contano", durationMin: 6, streamUid: "fb2d260330093be307e3ec2091b438b2" },
+      { id: "di-7", title: "Difendere: test in partita reale", durationMin: 5, streamUid: "844cf69a2a68415b372b9caa94d1ff11" },
+      { id: "di-8", title: "Raddoppio e pressing: come usarli", durationMin: 5, streamUid: "e82b8cf459d5d6c1bfedf931e8a5a219" },
     ],
   },
   {

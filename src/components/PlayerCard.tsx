@@ -107,7 +107,7 @@ export default function PlayerCard({ data, update, rating }: { data: DashboardDa
             <p className="font-mono text-[13px] text-ink tracking-wide">{id}</p>
           </div>
           <div className="flex items-center gap-2 text-gold/40">
-            <span className="font-mono text-[11px] tracking-[.18em] text-ink-2 uppercase">FD Academy</span>
+            <span className="font-mono text-[11px] tracking-[.18em] text-ink-2 uppercase">Il Corso di Fabio</span>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.4" className="w-6 h-6"><path d="M12 11v3M9 4.5a6 6 0 0 1 9 5.2v1.8M6 9.7A6 6 0 0 1 7 6M6 13a6 6 0 0 0 1 3.3M9 13v1a3 3 0 0 0 .3 1.3M15 13v1.6c0 .8-.1 1.6-.4 2.4M12 13v2a8 8 0 0 0 .5 2.8" /></svg>
           </div>
         </div>

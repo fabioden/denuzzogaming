@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, useParams, useOutletContext } from "react-router-dom";
 import { courses } from "@/content/membership";
-import { wrap, LockIcon, VideoPlayer } from "@/components/academy";
+import { wrap, LockIcon, VideoPlayer, WeeklyUpdateBanner } from "@/components/academy";
 import { useProgress } from "@/hooks/useProgress";
 import { toggleLesson } from "@/lib/progress";
 import { useDashboardData, bumpStreak } from "@/hooks/useDashboardData";
@@ -37,30 +37,50 @@ export default function CourseDetail() {
         <Link to="/account" className="text-ink-2 text-[.9rem] hover:text-gold transition-colors">← I miei corsi</Link>
         <span className="section-label mt-4 block">{course.category} · {course.level}</span>
         <h1 className="font-display text-[clamp(1.6rem,3vw,2.3rem)] text-ink mt-1 mb-2">{course.title}</h1>
-        <p className="lead text-ink-2 max-w-[60ch] mb-7">{course.subtitle}</p>
+        <p className="lead text-ink-2 max-w-[60ch] mb-5">{course.subtitle}</p>
+
+        <div className="mb-7"><WeeklyUpdateBanner /></div>
 
         <div className="grid grid-cols-1 lg:grid-cols-[1.7fr_1fr] gap-6">
           {/* PLAYER */}
           <div>
-            <VideoPlayer youtubeId={lesson.youtubeId} title={lesson.title} locked={lessonLocked} />
+            <VideoPlayer youtubeId={lesson.youtubeId} streamUid={lesson.streamUid} title={lesson.title} locked={lessonLocked} />
             <h2 className="font-display text-[1.3rem] text-ink mt-4">{lesson.title}</h2>
             <p className="text-muted text-[.9rem] mt-1">
               {lesson.durationMin} min{lesson.free ? " · Anteprima gratis" : ""}
             </p>
-            {!lessonLocked && (
-              <button
-                onClick={() => { const done = !completed.has(lesson.id); toggleLesson(lesson.id, done); if (done) update({ streak: bumpStreak(data.streak) }); }}
-                className={`mt-4 inline-flex items-center gap-2 rounded-full border px-4 py-2 text-[.93rem] transition-colors ${completed.has(lesson.id) ? "border-gold/50 bg-gold/[.10] text-gold" : "border-line-2 text-ink-2 hover:border-gold/40 hover:text-ink"}`}
-              >
-                <span aria-hidden>{completed.has(lesson.id) ? "✓" : "○"}</span>
-                {completed.has(lesson.id) ? "Completato" : "Segna come completato"}
-              </button>
-            )}
+            <div className="mt-4 flex flex-wrap items-center gap-3">
+              {!lessonLocked && (
+                <button
+                  onClick={() => { const done = !completed.has(lesson.id); toggleLesson(lesson.id, done); if (done) update({ streak: bumpStreak(data.streak) }); }}
+                  className={`inline-flex items-center gap-2 rounded-full border px-4 py-2 text-[.93rem] transition-colors ${completed.has(lesson.id) ? "border-gold/50 bg-gold/[.10] text-gold" : "border-line-2 text-ink-2 hover:border-gold/40 hover:text-ink"}`}
+                >
+                  <span aria-hidden>{completed.has(lesson.id) ? "✓" : "○"}</span>
+                  {completed.has(lesson.id) ? "Completato" : "Segna come completato"}
+                </button>
+              )}
+              <div className="ml-auto flex items-center gap-2">
+                <button
+                  onClick={() => setActive((i) => Math.max(0, i - 1))}
+                  disabled={active === 0}
+                  className="inline-flex items-center gap-1.5 rounded-full border border-line-2 px-3.5 py-2 text-[.9rem] text-ink-2 transition-colors hover:border-gold/40 hover:text-ink disabled:opacity-35 disabled:pointer-events-none"
+                >
+                  ← Precedente
+                </button>
+                <button
+                  onClick={() => setActive((i) => Math.min(course.lessons.length - 1, i + 1))}
+                  disabled={active >= course.lessons.length - 1}
+                  className="inline-flex items-center gap-1.5 rounded-full border border-gold/50 bg-gold/[.10] px-3.5 py-2 text-[.9rem] text-gold transition-colors hover:bg-gold/[.16] disabled:opacity-35 disabled:pointer-events-none"
+                >
+                  Prossimo →
+                </button>
+              </div>
+            </div>
           </div>
 
           {/* ELENCO LEZIONI */}
           <div>
-            <span className="section-label">Gli esercizi</span>
+            <span className="section-label">I video del corso</span>
             <div className="flex flex-col gap-2 mt-3">
               {course.lessons.map((l, i) => {
                 const locked = !isActive && !l.free;

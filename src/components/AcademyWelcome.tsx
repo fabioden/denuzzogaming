@@ -8,7 +8,7 @@ import { useDashboardData } from "@/hooks/useDashboardData";
 const STEPS = [
   { t: "Guarda", d: "Un video corto, 2-3 minuti. Una cosa alla volta." },
   { t: "Applica", d: "Provi subito quella mossa nella tua prossima partita." },
-  { t: "Sali", d: "Esercizio dopo esercizio migliori, fino all'Elite." },
+  { t: "Sali", d: "Video dopo video migliori, fino all'Elite." },
 ];
 const GOALS = [
   "Salire di divisione",
@@ -39,7 +39,7 @@ export default function AcademyWelcome({ open, onClose }: { open: boolean; onClo
   }
 
   return (
-    <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-[#070509]/92 backdrop-blur-md" role="dialog" aria-modal="true" aria-label="Benvenuto nell'Academy">
+    <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-[#070509]/92 backdrop-blur-md" role="dialog" aria-modal="true" aria-label="Benvenuto nel corso">
       <div className="relative w-full max-w-[680px] rounded-[var(--radius-card)] border border-gold/25 bg-[#100d08] overflow-hidden shadow-[0_30px_90px_-20px_rgba(0,0,0,.8)]">
         {/* alone d'oro cinematografico */}
         <div className="pointer-events-none absolute inset-0" aria-hidden="true" style={{ background: "radial-gradient(80% 60% at 50% -8%, rgba(214,162,26,.20), transparent 60%)" }} />
@@ -60,7 +60,7 @@ export default function AcademyWelcome({ open, onClose }: { open: boolean; onClo
             <div>
               <img src="/img/fd-mark.png" alt="" className="h-9 w-auto object-contain mb-4 opacity-90" />
               <span className="section-label">Benvenuto</span>
-              <h2 className="font-display serif text-[clamp(1.7rem,4vw,2.6rem)] text-ink leading-[1.06] mt-1.5 mb-3">Sei dentro l'Academy di un campione.</h2>
+              <h2 className="font-display serif text-[clamp(1.7rem,4vw,2.6rem)] text-ink leading-[1.06] mt-1.5 mb-3">Sei dentro il corso di un campione.</h2>
               <p className="text-ink-2 text-[1rem] max-w-[52ch] leading-relaxed">
                 Due volte campione italiano, top 4 in Europa, due Mondiali (FIFA eWorld Cup). Ora il mio metodo è tuo. In un minuto ti mostro come funziona.
               </p>

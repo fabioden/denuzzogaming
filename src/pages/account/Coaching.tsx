@@ -2,7 +2,9 @@ import { Link } from "react-router-dom";
 import { wrap } from "@/components/academy";
 import Testimonials from "@/components/Testimonials";
 
-const COACHING_WA = "https://wa.me/393667142489?text=" + encodeURIComponent("Ciao Fabio, voglio candidarmi alla Strada per l'Elite (coaching seguito)");
+// Link d'acquisto del coaching (Stripe). Quando Fabio lo dà, incollalo qui e il bottone
+// diventa acquisto vero. Se vuoto, porta alla pagina piani/acquisto (come oggi), MAI a WhatsApp.
+const COACHING_CHECKOUT_URL = "";
 const eliteSteps = ["Analisi", "Mese 1 · Fondamenta", "Mese 2 · Attacco + WL", "Mese 3 · Scalata", "Mese 4 · Elite"];
 
 export default function Coaching() {
@@ -54,14 +56,17 @@ export default function Coaching() {
         </div>
 
         <div className="flex flex-wrap items-center gap-3">
-          <a href={COACHING_WA} target="_blank" rel="noopener noreferrer" className="btn-primary inline-flex items-center gap-2 no-underline">
-            Candidati ora
-          </a>
-          <span className="text-muted text-[.9rem]">Percorso premium su candidatura · 3 domande, pochi posti per ciclo</span>
+          {COACHING_CHECKOUT_URL ? (
+            <a href={COACHING_CHECKOUT_URL} target="_blank" rel="noopener noreferrer" className="btn-primary inline-flex items-center gap-2 no-underline">
+              Prenota il coaching
+            </a>
+          ) : (
+            <Link to="/account/abbonamento" className="btn-primary inline-flex items-center gap-2 no-underline">
+              Prenota il coaching
+            </Link>
+          )}
+          <span className="text-muted text-[.9rem]">Percorso premium · pochi posti per ciclo</span>
         </div>
-        <p className="text-muted text-[.88rem] mt-3">
-          Hai <Link to="/account/abbonamento" className="text-ink-2 hover:text-gold no-underline">Elite Player</Link>? Il coaching è scontato del 30%.
-        </p>
       </div>
     </section>
   );
