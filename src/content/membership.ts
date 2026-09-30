@@ -154,7 +154,7 @@ export const courses: Course[] = [
     subtitle: "Il percorso per iniziare: il benvenuto, le impostazioni di gioco che uso io e il corso completo sulla Difesa. La 1ª lezione è gratis, tutto il resto si sblocca con l'abbonamento. Guardali in ordine o scegli il video che ti serve.",
     level: "Base",
     category: "Intro",
-    cover: "/img/academy/thumb-difesa.jpg",
+    cover: "",
     lessons: [
       { id: "intro-1", title: "Introduzione al videocorso", durationMin: 1, streamUid: "2408fa76d12f4e7b851b664d9c723368", free: true },
       { id: "imp-1", title: "Le impostazioni di gioco che uso io", durationMin: 6, streamUid: "345555860354a5a1cb65d3da8fe7ce46" },

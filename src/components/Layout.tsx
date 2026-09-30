@@ -55,7 +55,7 @@ export default function Layout({ children }: { children: ReactNode }) {
       <nav className="fixed inset-x-0 top-0 z-[1000] flex items-center justify-between px-[clamp(20px,4vw,52px)] py-4 bg-[#0e0c0d]/80 backdrop-blur-2xl border-b border-line transition-[background] duration-300">
         <L to="/gaming" className="flex items-center gap-3 no-underline group shrink-0">
           <img src="/img/fd-mark.png" alt="Fabio Denuzzo" className="h-9 w-auto object-contain shrink-0 transition-transform duration-300 group-hover:scale-105" />
-          <span className="font-mono text-[12px] font-medium tracking-[.28em] uppercase text-ink">Denuzzo Gaming</span>
+          <span className="hidden sm:inline font-mono text-[12px] font-medium tracking-[.28em] uppercase text-ink">Denuzzo Gaming</span>
         </L>
 
         {/* Link centrali */}
