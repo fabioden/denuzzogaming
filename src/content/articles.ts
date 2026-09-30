@@ -30,6 +30,225 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "come-si-difende-fc-27-guida-completa-arrivare-elite",
+    title: "Come si difende su EA FC 27: la guida completa per arrivare in Elite",
+    description:
+      "Come si difende su EA FC 27: impostazioni, contrasto, raddoppio, temporeggiamento, switching e la tattica del fuorigioco. La guida completa del coach per arrivare in Elite.",
+    category: "Guida",
+    date: "2026-09-30",
+    dateLabel: "30 Settembre 2026",
+    readingTime: "9 min",
+    badge: "Guida",
+    heroImage: "/img/articles/come-si-difende-fc-27-guida-completa-arrivare-elite-hero.jpg",
+    heroAlt:
+      "Come si difende su EA FC 27: guida completa del coach Fabio Denuzzo per arrivare in Elite Division",
+    excerpt:
+      "Impostazioni, contrasto, raddoppio, temporeggiamento, switching e la tattica del fuorigioco. Tutto quello che ti serve per difendere davvero su FC 27 e salire di divisione.",
+    body: `Te lo dico subito, senza giri di parole: **su FC 27 non si difende in automatico e non è nemmeno tutto manuale come dicono in giro.** Questo gioco è pieno di CPU, e chi lo capisce e impara a sfruttarla è quello che difende bene e sale di divisione. Ti spiego tutto, con calma, dalle impostazioni fino alla tattica che ti svolta la difesa.
+
+## Le impostazioni giuste
+
+Partiamo dalla base. Queste sono le mie personali, ma sono quelle che secondo me contano davvero:
+
+- **Difesa: avanzata** (tackle e jockey più reattivi).
+- **Aggancio giocatore: sì**, così lo switch fa quello che vuoi tu.
+- **4 giocatori più vicini alla palla** nelle impostazioni di pressing.
+- **Palle alte vaganti: classico / in base al giocatore.**
+- **Visuale: io uso Tribuna Stampa 20.** La maggior parte dei pro usa Coop 182, provala. La Coop è ottima per leggere gli inserimenti, ma io mi diverto di più con la Tribuna.
+
+Roba semplice, ma se parti con le impostazioni sbagliate ti complichi la vita da solo.
+
+## Perché ti sembra difficile difendere
+
+Prima di dirti cosa premere, devi capire i "difetti" del gioco. Perché è proprio lì che si nasconde il modo per difendere bene.
+
+- **La CPU non fa il tackle in automatico come gli scorsi anni.** Se l'avversario va dritto e tu non premi nulla, il tuo difensore viene trapassato come un birillo. Da qui la storia del "gioco manuale".
+- **Ma il gioco è pieno di CPU lo stesso.** Contrasti e intercetti li fanno un po' tutti, soprattutto ad alti livelli, e li fanno bene anche gli attaccanti. Difende meglio un attaccante che un difensore, sembra assurdo ma è così.
+- **Gli attaccanti vanno sempre in fuorigioco** (con attaccante offensivo attaccano la profondità in modo stupido) e **non sanno stoppare la palla.** Gli stop sono macchinosi anche con i fenomeni.
+- **La tattica del fuorigioco è devastante.** È l'arma più forte per difendere quest'anno.
+
+Tieni a mente questi quattro punti, perché tutto quello che segue serve a sfruttarli.
+
+## Lo switching: la prima cosa da padroneggiare
+
+Se non selezioni il giocatore giusto, non difendi. Punto.
+
+- **L1** ti dà il giocatore più vicino al portatore di palla.
+- **Analogico destro:** parti dal giocatore col triangolino in testa e muovi lo stick nella direzione del giocatore che vuoi. È il metodo preciso, quello dei pro.
+
+Allenati a switchare veloce con l'analogico destro finché non ti viene naturale. È la base di tutto il resto.
+
+## Il raddoppio, usato nel modo giusto
+
+Il raddoppio (**R1**) da solo non toglie la palla, e infatti molti dicono "non funziona". Il punto è come lo usi:
+
+1. Premi **R1**: il giocatore CPU va a chiudere l'avversario.
+2. Con un altro giocatore, **tu manualmente** intercetti la linea di passaggio o ti metti da secondo raddoppio.
+3. Quando il tuo giocatore CPU è vicino al portatore, **premi L1 per selezionarlo** e fai tu il contrasto o il temporeggiamento.
+
+Così il tuo giocatore non resta mai passivo. Questa è la logica da avere sempre in testa.
+
+## Il contrasto: taglia la strada
+
+Il contrasto non si fa premendo a caso L2, R2 e poi tackle. Ecco cosa conta davvero:
+
+- **Il PlayStyle è più importante della fisicità.** I giocatori con l'icona bianca o Plus del PlayStyle giusto fanno il contrasto molto meglio, anche se piccolini. Difensore enorme senza PlayStyle rende meno di una centrocampista con l'icona giusta.
+- **Fallo quando l'avversario corre.** Quando corre, la palla si stacca dal piede e non resta incollata: è il momento perfetto per rubargliela.
+- **Taglia la strada.** Immagina dove sta andando, seleziona il giocatore che gli va incontro e corri in diagonale a chiudergli la corsa. Non serve premere L2+R2, devi solo essere sicuro della direzione e anticipare.
+- **Usa la logica calcistica.** Un terzino che corre sulla fascia tende a spingere sul lungolinea, non a rientrare a slalom. Quindi tu tagli sul lungolinea. Anticipare è quasi tutto intuito.
+
+## Temporeggiare: fermo, non muoverti
+
+Il temporeggiamento si fa con **L2** e **L2+R2**, e c'è una differenza sostanziale:
+
+- **L2** è più lento, per marcare nello stretto quando il giocatore è vicino.
+- **L2+R2** è più veloce, per intercettare le linee e le zone del campo.
+
+L'errore che fanno tutti: temporeggiare muovendosi. **Devi stare fermo nella posizione giusta e far sbattere l'avversario addosso a te.** Sei tu che ti piazzi, è lui che ci deve venire dentro.
+
+## La compattezza e la tattica del fuorigioco (il punto chiave)
+
+Questa è la parte che ti svolta la difesa, ascolta bene.
+
+Il problema numero uno è lo **spazio tra difesa e centrocampo**. Quando si apre quel buco, due attaccanti avversari fraseggiano lì dentro e ti fanno male. La maggior parte dei gol su FC 27 nasce così, sul recupero palla e contropiede (ecco perché tanti usano il **4-2-3-1** di contropiede).
+
+Come chiudi quel buco? Con il **fuorigioco manuale**: doppio tocco freccia su sul d-pad, la difesa sale e accorci la distanza tra i reparti. Spammalo. Così la squadra resta compatta, l'avversario non può servire la punta e resta solo con i lanci lunghi. E siccome la CPU intercetta tanto e gli attaccanti non stoppano, appena provano il lancio te la mangi.
+
+Le mie tattiche personali (con cui sono salito dalla settima alla terza divisione):
+
+- **Modulo 4-3-1-2, profondità estrema (100).** Con la profondità estrema il gioco mi fa il fuorigioco in automatico e mi ritrovo la difesa sempre alta.
+- **Terzini tornante**, altissimi, per pressare subito chi corre sulla fascia.
+- Gioco per **recuperare palla e ripartire**: quando recuperi, la difesa avversaria si muove male ed è facilissimo fare le imbucate.
+
+Attenzione: è una tattica estrema e aggressiva, adatta a chi sa switchare e coprire i buchi. Molti pro usano una profondità intorno al 60-70 e fanno il fuorigioco a mano. Trova il tuo equilibrio.
+
+## Come costruire la squadra per difendere così
+
+Non ti serve uno squadrone. Ti serve la roba giusta al posto giusto:
+
+- **Terzini:** PlayStyle **Mastino (anchor)** + velocità. Con la difesa avanzata ti aiutano tantissimo.
+- **Due difensori centrali:** devono solo essere **veloci**, perché per come si gioca devono correre.
+- **Centrocampisti:** **Low Driven** e velocità; se hanno anche il **Pinged Pass / Tiki Taka** meglio ancora. Almeno uno con l'icona del PlayStyle per aggredire.
+- **Poco utili quest'anno:** tiro a giro. Utili invece **Trivela** e **Power Shot** per i gol da fuori.
+
+La mia rosa è quasi tutta roba da poche migliaia di crediti: si può fare senza spendere.
+
+## Il consiglio del coach
+
+Difendere su FC 27 è pressing, compattezza e fuorigioco, uniti a switching e contrasti fatti bene. Sembra tanto, ma sono pochi principi che, messi insieme e allenati, ti fanno fare il salto. La differenza tra chi resta in divisione 8-9 e chi arriva in Elite è tutta qui: nel manico, non nell'overall.
+
+Se vuoi che ti segua nello specifico, ti corregga i tuoi errori difensivi guardando le tue partite e ti porti su di livello, 👉 **[prenota il tuo coaching qui](/coaching)**. Sul sito trovi anche **Il Corso di Fabio**, con video meta aggiornati ogni settimana pensati proprio per passare dalle divisioni basse all'Elite.
+
+Continua qui: [i moduli e le tattiche meta](/newsletter/fc-27-moduli-tattiche-meta), [le migliori Evoluzioni day one](/newsletter/fc-27-migliori-evoluzioni-day-one) e [come fare crediti dal day one](/newsletter/fc-27-come-fare-crediti-day-one-mercato-trading).`,
+    en: {
+      title: "How to Defend on EA FC 27: The Complete Guide to Reach Elite",
+      description:
+        "How to defend on EA FC 27: settings, tackling, second-man press, jockeying, switching and the offside trap. The coach's complete guide to reach Elite Division.",
+      category: "Guide",
+      dateLabel: "September 30, 2026",
+      heroAlt:
+        "How to defend on EA FC 27: coach Fabio Denuzzo's complete guide to reach Elite Division",
+      excerpt:
+        "Settings, tackling, second-man press, jockeying, switching and the offside trap. Everything you need to actually defend on FC 27 and climb divisions.",
+      body: `Let me tell you straight, no fluff: **on FC 27 you do not defend automatically, and it is not fully manual like everyone says either.** This game is full of CPU, and whoever understands that and learns to exploit it is the one who defends well and climbs divisions. I will walk you through it all, calmly, from settings to the tactic that transforms your defending.
+
+## The right settings
+
+Let's start from the base. These are my personal ones, but they are the ones that really matter:
+
+- **Defending: advanced** (more reactive tackling and jockeying).
+- **Player lock: on**, so switching does what you want.
+- **4 closest players to the ball** in the pressing settings.
+- **Loose balls: classic / player-based.**
+- **Camera: I use Tele Broadcast 20.** Most pros use Co-op 182, try it. Co-op is great for reading runs, but I have more fun on Tele Broadcast.
+
+Simple stuff, but if you start with the wrong settings you make life hard for yourself.
+
+## Why defending feels hard
+
+Before I tell you what to press, you need to understand the game's "flaws". Because that is exactly where the way to defend well is hidden.
+
+- **The CPU does not auto-tackle like past years.** If your opponent runs straight and you press nothing, your defender gets walked through like a cone. Hence the "manual game" narrative.
+- **But the game is full of CPU anyway.** Everyone can tackle and intercept, especially at high level, and even attackers do it well. An attacker defends better than a defender, sounds absurd but it is true.
+- **Attackers constantly run offside** (on offensive-attacker they attack depth stupidly) and **cannot trap the ball.** Touches are clunky even with the superstars.
+- **The offside trap is devastating.** It is the strongest defensive weapon this year.
+
+Keep these four points in mind, because everything below is about exploiting them.
+
+## Switching: the first thing to master
+
+If you do not select the right player, you do not defend. Period.
+
+- **L1** gives you the player nearest to the ball carrier.
+- **Right stick:** start from the player with the triangle above him and flick the stick toward the player you want. It is the precise method, the one pros use.
+
+Drill fast right-stick switching until it feels natural. It is the foundation of everything else.
+
+## The second-man press, done right
+
+The second-man press (**R1**) on its own does not win the ball, which is why many say "it does not work". The point is how you use it:
+
+1. Press **R1**: the CPU player goes to close the opponent down.
+2. With another player, **you manually** cut the passing lane or set up as a second presser.
+3. When your CPU player is close to the carrier, **press L1 to take control of him** and do the tackle or jockey yourself.
+
+That way your player is never passive. This is the logic to always have in your head.
+
+## Tackling: cut off the road
+
+Tackling is not mashing L2, R2 and then tackle. Here is what actually matters:
+
+- **PlayStyle beats physicality.** Players with the white or Plus icon of the right PlayStyle tackle far better, even small ones. A huge defender without the PlayStyle does less than a small midfielder with the right icon.
+- **Do it when the opponent is running.** When they run, the ball detaches from the foot and does not stay glued: that is the perfect moment to win it.
+- **Cut off the road.** Picture where they are going, select the player heading toward them and run diagonally to close their path. No need to press L2+R2, just be sure of the direction and anticipate.
+- **Use football logic.** A fullback running down the wing tends to push down the line, not cut inside dribbling. So you cut the line off. Anticipation is almost all instinct.
+
+## Jockeying: stand still, do not move
+
+Jockeying is done with **L2** and **L2+R2**, and there is a key difference:
+
+- **L2** is slower, for tight marking when the player is close.
+- **L2+R2** is faster, to intercept lanes and zones of the pitch.
+
+The mistake everyone makes: jockeying while moving. **You have to stand still in the right position and let the opponent run into you.** You set yourself, he has to come into you.
+
+## Compactness and the offside trap (the key point)
+
+This is the part that transforms your defending, listen carefully.
+
+Problem number one is the **space between defense and midfield**. When that gap opens, two opposing attackers combine inside it and hurt you. Most goals on FC 27 come from exactly this, off ball recovery and counterattack (which is why so many run the counter-attacking **4-2-3-1**).
+
+How do you close that gap? With the **manual offside trap**: double-tap up on the d-pad, the defense pushes up and you shorten the distance between the lines. Spam it. That keeps the team compact, the opponent cannot feed the striker and is left with only long balls. And since the CPU intercepts a lot and attackers cannot trap, the moment they try the long ball you eat it up.
+
+My personal tactics (the ones I used to climb from division 7 to division 3):
+
+- **4-3-1-2 formation, extreme depth (100).** With extreme depth the game runs the offside trap automatically and my defense is always high.
+- **Overlapping fullbacks**, very high, to instantly press whoever runs down the wing.
+- I play to **win the ball and break**: when you recover, the opposing defense moves badly and through balls become easy.
+
+Careful: it is an extreme, aggressive tactic, suited to those who can switch and cover the gaps. Many pros use a depth around 60-70 and trigger the offside trap by hand. Find your own balance.
+
+## How to build the squad to defend like this
+
+You do not need a super-team. You need the right pieces in the right place:
+
+- **Fullbacks:** **Anchor** PlayStyle + pace. With advanced defending they help you a ton.
+- **Two center-backs:** they just need to be **fast**, because the way you play they have to run.
+- **Midfielders:** **Low Driven** and pace; even better if they also have **Pinged Pass / Tiki Taka**. At least one with the PlayStyle icon to press.
+- **Not very useful this year:** the finesse shot. Useful instead are **Trivela** and **Power Shot** for goals from distance.
+
+My squad is almost all a few thousand coins each: you can do it without spending.
+
+## The coach's take
+
+Defending on FC 27 is pressing, compactness and the offside trap, combined with clean switching and tackling. It sounds like a lot, but it is a handful of principles that, put together and drilled, make you jump a level. The difference between staying in division 8-9 and reaching Elite is all here: in the skill, not the overall.
+
+If you want me to work with you specifically, fix your defensive mistakes by watching your games and take you up a level, 👉 **[book your coaching here](/en/coaching)**. On the site you will also find **Fabio's Course**, with meta videos updated every week, designed exactly to move from the lower divisions to Elite.
+
+Continue here: [meta formations and tactics](/en/newsletter/fc-27-moduli-tattiche-meta), [the best day-one Evolutions](/en/newsletter/fc-27-migliori-evoluzioni-day-one) and [how to make coins from day one](/en/newsletter/fc-27-come-fare-crediti-day-one-mercato-trading).`,
+    },
+  },
+  {
     slug: "sbc-frattesi-fc-27-conviene-costo-requisiti",
     title: "SBC Frattesi FC 27: conviene? Costo, requisiti e stat",
     description:
