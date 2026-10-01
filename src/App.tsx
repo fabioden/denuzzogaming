@@ -64,7 +64,8 @@ export default function App() {
             {/* Italiano (default) */}
             <Route path="/gaming" element={<Home />} />
             <Route path="/coaching" element={<Coaching />} />
-            <Route path="/academy" element={<Academy />} />
+            <Route path="/corso" element={<Academy />} />
+            <Route path="/academy" element={<Navigate to="/corso" replace />} />
             <Route path="/newsletter" element={<Newsletter />} />
             <Route path="/newsletter/:slug" element={<Article />} />
             <Route path="/privacy" element={<Privacy />} />
@@ -75,7 +76,8 @@ export default function App() {
             {/* Inglese (mirror /en) — stesso componente, lingua derivata dall'URL */}
             <Route path="/en/gaming" element={<Home />} />
             <Route path="/en/coaching" element={<Coaching />} />
-            <Route path="/en/academy" element={<Academy />} />
+            <Route path="/en/corso" element={<Academy />} />
+            <Route path="/en/academy" element={<Navigate to="/en/corso" replace />} />
             <Route path="/en/newsletter" element={<Newsletter />} />
             <Route path="/en/newsletter/:slug" element={<Article />} />
             <Route path="/en/privacy" element={<Privacy />} />

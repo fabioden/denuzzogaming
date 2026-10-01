@@ -64,9 +64,9 @@ const PAGES = [
     en: { title: "EA FC Coaching with Fabio Denuzzo", description: "One-to-one and group EA FC coaching sessions with a 2x Italian champion and former pro player." },
   },
   {
-    path: "/academy", bilingual: true, type: "website",
-    it: { title: "Academy EA FC — i corsi video di Fabio Denuzzo", description: "In arrivo con EA FC 27: i corsi video di Fabio Denuzzo, 2x campione italiano. Entra nella lista founder e sblocca l'Academy appena esce." },
-    en: { title: "EA FC Academy — Fabio Denuzzo's video courses", description: "Coming with EA FC 27: Fabio Denuzzo's video courses, 2x Italian champion. Join the founder list and unlock the Academy at launch." },
+    path: "/corso", bilingual: true, type: "website",
+    it: { title: "Il Corso di Fabio Denuzzo — EA FC 27", description: "Il corso video di Fabio Denuzzo, 2x campione italiano: Difesa completa disponibile ora e nuovi video ogni settimana sul meta. Da €12,99/mese o €99 per tutta la stagione." },
+    en: { title: "Fabio Denuzzo's Course — EA FC 27", description: "Fabio Denuzzo's video course, 2x Italian champion: full Defense available now and new meta videos every week. From €12.99/month or €99 for the whole season." },
   },
   {
     path: "/newsletter", bilingual: true, type: "website",
@@ -151,6 +151,28 @@ for (const r of routes) {
   const outFile = r.path === "/" ? join(dist, "index.html") : join(dist, r.path.replace(/^\//, "") + ".html");
   mkdirSync(dirname(outFile), { recursive: true });
   writeFileSync(outFile, html);
+  count++;
+}
+
+// ── Redirect dei vecchi URL /academy -> /corso (meta refresh + canonical) ──
+// Per i link gia in giro e le anteprime social: /academy.html rimanda a /corso.
+const REDIRECTS = [["/academy", "/corso"], ["/en/academy", "/en/corso"]];
+for (const [from, to] of REDIRECTS) {
+  const redirectHtml = `<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <title>Il Corso di Fabio Denuzzo</title>
+    <link rel="canonical" href="${SITE}${to}" />
+    <meta name="robots" content="noindex, follow" />
+    <meta http-equiv="refresh" content="0; url=${to}" />
+    <script>location.replace(${JSON.stringify(to)});</script>
+  </head>
+  <body>Reindirizzamento al <a href="${to}">corso</a>...</body>
+</html>`;
+  const outFile = join(dist, from.replace(/^\//, "") + ".html");
+  mkdirSync(dirname(outFile), { recursive: true });
+  writeFileSync(outFile, redirectHtml);
   count++;
 }
 

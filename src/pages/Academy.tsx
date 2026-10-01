@@ -14,7 +14,7 @@ export default function Academy() {
       <Seo
         title="Il Corso di Fabio Denuzzo — impara a giocare a EA FC | Denuzzo Gaming"
         description="Sblocca i corsi video di Fabio Denuzzo, 2× Campione Italiano EA FC: video brevi e concreti per salire di divisione e arrivare in Elite. Difesa disponibile ora, nuovi video ogni settimana."
-        path="/academy"
+        path="/corso"
       />
 
       {/* HERO */}
