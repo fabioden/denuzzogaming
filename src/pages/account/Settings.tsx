@@ -6,7 +6,12 @@ import type { MemberContext } from "@/components/MemberLayout";
 
 // PAGINA ACCOUNT / ABBONAMENTO.
 // - Non attivo: l'offerta a due piani (mensile/annuale) col checkout Stripe.
-// - Attivo: stato dell'abbonamento + gestione.
+// - Attivo: stato dell'abbonamento + gestione (Portale clienti Stripe per disdire/aggiornare carta).
+
+// Link del Portale clienti Stripe (self-service: disdici, aggiorna carta, ricevute).
+// Quando Fabio attiva il portale in Stripe, incolla qui il link "https://billing.stripe.com/p/login/...".
+const BILLING_PORTAL_URL = "https://billing.stripe.com/p/login/cNi3cv997gx75QV16b4AU00";
+
 export default function Settings() {
   const { user, profile, isActive } = useOutletContext<MemberContext>();
   const navigate = useNavigate();
@@ -41,8 +46,15 @@ export default function Settings() {
               <span className="section-label">Piano attivo</span>
               <h3 className="text-[1.3rem] mt-1 mb-2 text-ink">{planLabel}</h3>
               <p className="text-ink-2 text-[.95rem] mb-2">Hai accesso completo al corso. Ogni settimana aggiungo nuovi video sul meta.</p>
-              {renew && <p className="text-muted text-[.86rem]">Prossimo rinnovo: {renew}</p>}
-              <p className="text-muted text-[.86rem] mt-3">Per disdire o cambiare metodo di pagamento gestisci dalla ricevuta Stripe che hai ricevuto via email. Se ti serve una mano, scrivimi.</p>
+              {renew && <p className="text-muted text-[.86rem]">Si rinnova automaticamente il {renew}.</p>}
+              {BILLING_PORTAL_URL ? (
+                <>
+                  <a href={BILLING_PORTAL_URL} target="_blank" rel="noopener noreferrer" className="btn-secondary no-underline inline-flex items-center gap-2 mt-4">Gestisci o disdici l'abbonamento</a>
+                  <p className="text-muted text-[.82rem] mt-2">Puoi disdire quando vuoi: tieni l'accesso fino alla fine del periodo già pagato.</p>
+                </>
+              ) : (
+                <p className="text-muted text-[.86rem] mt-3">Il rinnovo è automatico. Per disdire o aggiornare il pagamento, scrivimi (il pulsante per farlo da soli arriva a breve).</p>
+              )}
             </div>
             {accountCard}
           </div>
