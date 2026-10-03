@@ -15,6 +15,7 @@
 export type Lesson = {
   id: string;
   title: string;
+  section?: string; // raggruppa le lezioni in sezioni dentro il corso (es. "Difesa", "Tattiche")
   durationMin: number;
   youtubeId?: string; // (legacy) ID YouTube non in elenco. Usa streamUid per i video protetti.
   streamUid?: string; // UID Cloudflare Stream (video protetto, riproducibile solo sul dominio)
@@ -156,18 +157,18 @@ export const courses: Course[] = [
     category: "Intro",
     cover: "",
     lessons: [
-      { id: "intro-1", title: "Introduzione al videocorso", durationMin: 1, streamUid: "2408fa76d12f4e7b851b664d9c723368", free: true },
-      { id: "imp-1", title: "Le impostazioni di gioco che uso io", durationMin: 6, streamUid: "345555860354a5a1cb65d3da8fe7ce46" },
-      { id: "di-1", title: "Difesa: come si difende, la teoria", durationMin: 7, streamUid: "215eb27c2392473283698bbfa1af084a" },
-      { id: "di-2", title: "Difesa: impara a temporeggiare", durationMin: 4, streamUid: "33c56404cd546334e3f90c7ed2172651" },
-      { id: "di-3", title: "Difesa: temporeggiare, esempio pratico", durationMin: 8, streamUid: "3e809b508b21943d0574426535e24263" },
-      { id: "di-4", title: "Difesa: temporeggiare, il recap veloce", durationMin: 1, streamUid: "c0094b5b4cba7efd24be89e9e848f9fb" },
-      { id: "di-5", title: "Difesa: cambiare giocatore al momento giusto", durationMin: 7, streamUid: "bd3fb62a6f4be328bf23fb9c8cccceb8" },
-      { id: "di-6", title: "Difesa: i PlayStyle difensivi che contano", durationMin: 6, streamUid: "fb2d260330093be307e3ec2091b438b2" },
-      { id: "di-7", title: "Difesa: test in partita reale", durationMin: 5, streamUid: "844cf69a2a68415b372b9caa94d1ff11" },
-      { id: "di-8", title: "Difesa: raddoppio e pressing, come usarli", durationMin: 5, streamUid: "e82b8cf459d5d6c1bfedf931e8a5a219" },
-      { id: "tat-1", title: "Tattiche: quali usare e cosa cambia", durationMin: 5, streamUid: "cb331fd79dd3618bc795622cce9bab84" },
-      { id: "tat-2", title: "Tattiche: analisi partita con tattiche diverse", durationMin: 6, streamUid: "cae11339de8d687be01452a53602d478" },
+      { id: "intro-1", section: "Inizia da qui", title: "Introduzione al videocorso", durationMin: 1, streamUid: "2408fa76d12f4e7b851b664d9c723368", free: true },
+      { id: "imp-1", section: "Inizia da qui", title: "Le impostazioni di gioco che uso io", durationMin: 6, streamUid: "345555860354a5a1cb65d3da8fe7ce46" },
+      { id: "di-1", section: "Difesa", title: "Come si difende: la teoria", durationMin: 7, streamUid: "215eb27c2392473283698bbfa1af084a" },
+      { id: "di-2", section: "Difesa", title: "Impara a temporeggiare", durationMin: 4, streamUid: "33c56404cd546334e3f90c7ed2172651" },
+      { id: "di-3", section: "Difesa", title: "Temporeggiare: esempio pratico", durationMin: 8, streamUid: "3e809b508b21943d0574426535e24263" },
+      { id: "di-4", section: "Difesa", title: "Temporeggiare: il recap veloce", durationMin: 1, streamUid: "c0094b5b4cba7efd24be89e9e848f9fb" },
+      { id: "di-5", section: "Difesa", title: "Cambiare giocatore al momento giusto", durationMin: 7, streamUid: "bd3fb62a6f4be328bf23fb9c8cccceb8" },
+      { id: "di-6", section: "Difesa", title: "I PlayStyle difensivi che contano", durationMin: 6, streamUid: "fb2d260330093be307e3ec2091b438b2" },
+      { id: "di-7", section: "Difesa", title: "Difendere: test in partita reale", durationMin: 5, streamUid: "844cf69a2a68415b372b9caa94d1ff11" },
+      { id: "di-8", section: "Difesa", title: "Raddoppio e pressing: come usarli", durationMin: 5, streamUid: "e82b8cf459d5d6c1bfedf931e8a5a219" },
+      { id: "tat-1", section: "Tattiche", title: "Quali tattiche usare e cosa cambia", durationMin: 5, streamUid: "cb331fd79dd3618bc795622cce9bab84" },
+      { id: "tat-2", section: "Tattiche", title: "Analisi partita con tattiche diverse", durationMin: 6, streamUid: "cae11339de8d687be01452a53602d478" },
     ],
   },
   {

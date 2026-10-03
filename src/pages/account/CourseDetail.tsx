@@ -84,23 +84,31 @@ export default function CourseDetail() {
             <div className="flex flex-col gap-2 mt-3">
               {course.lessons.map((l, i) => {
                 const locked = !isActive && !l.free;
+                const showHeader = !!l.section && (i === 0 || course.lessons[i - 1].section !== l.section);
                 return (
-                  <button
-                    key={l.id}
-                    onClick={() => setActive(i)}
-                    className={`text-left rounded-[10px] border px-3 py-2.5 transition-colors ${i === active ? "border-gold bg-card" : "border-line-2 hover:bg-card"}`}
-                  >
-                    <div className="flex items-center gap-2.5">
-                      <span className={`text-[.86rem] w-4 shrink-0 ${completed.has(l.id) ? "text-gold" : "text-muted"}`}>{completed.has(l.id) ? "✓" : i + 1}</span>
-                      <span className="text-ink text-[.97rem] flex-1 leading-snug">{l.title}</span>
-                      {locked ? (
-                        <span className="text-gold shrink-0"><LockIcon size={14} /></span>
-                      ) : l.free ? (
-                        <span className="text-[11px] font-semibold text-gold-contrast bg-gold px-1.5 py-0.5 rounded-full shrink-0">gratis</span>
-                      ) : null}
-                    </div>
-                    <p className="text-muted text-[.8rem] mt-1 ml-[26px]">{l.durationMin} min</p>
-                  </button>
+                  <div key={l.id}>
+                    {showHeader && (
+                      <div className={`flex items-center gap-2.5 mb-1.5 ${i === 0 ? "" : "mt-4"}`}>
+                        <span className="text-[11px] font-semibold uppercase tracking-[.14em] text-gold whitespace-nowrap">{l.section}</span>
+                        <span className="h-px flex-1 bg-line-2" />
+                      </div>
+                    )}
+                    <button
+                      onClick={() => setActive(i)}
+                      className={`w-full text-left rounded-[10px] border px-3 py-2.5 transition-colors ${i === active ? "border-gold bg-card" : "border-line-2 hover:bg-card"}`}
+                    >
+                      <div className="flex items-center gap-2.5">
+                        <span className={`text-[.86rem] w-4 shrink-0 ${completed.has(l.id) ? "text-gold" : "text-muted"}`}>{completed.has(l.id) ? "✓" : i + 1}</span>
+                        <span className="text-ink text-[.97rem] flex-1 leading-snug">{l.title}</span>
+                        {locked ? (
+                          <span className="text-gold shrink-0"><LockIcon size={14} /></span>
+                        ) : l.free ? (
+                          <span className="text-[11px] font-semibold text-gold-contrast bg-gold px-1.5 py-0.5 rounded-full shrink-0">gratis</span>
+                        ) : null}
+                      </div>
+                      <p className="text-muted text-[.8rem] mt-1 ml-[26px]">{l.durationMin} min</p>
+                    </button>
+                  </div>
                 );
               })}
             </div>
