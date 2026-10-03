@@ -166,6 +166,8 @@ export const courses: Course[] = [
       { id: "di-6", title: "Difesa: i PlayStyle difensivi che contano", durationMin: 6, streamUid: "fb2d260330093be307e3ec2091b438b2" },
       { id: "di-7", title: "Difesa: test in partita reale", durationMin: 5, streamUid: "844cf69a2a68415b372b9caa94d1ff11" },
       { id: "di-8", title: "Difesa: raddoppio e pressing, come usarli", durationMin: 5, streamUid: "e82b8cf459d5d6c1bfedf931e8a5a219" },
+      { id: "tat-1", title: "Tattiche: quali usare e cosa cambia", durationMin: 5, streamUid: "cb331fd79dd3618bc795622cce9bab84" },
+      { id: "tat-2", title: "Tattiche: analisi partita con tattiche diverse", durationMin: 6, streamUid: "cae11339de8d687be01452a53602d478" },
     ],
   },
   {
