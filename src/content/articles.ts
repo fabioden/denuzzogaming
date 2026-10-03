@@ -30,6 +30,100 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "ea-fc-27-destined-for-glory-team-2-cosa-fare-ora",
+    title: "EA FC 27: è uscito Destined for Glory Team 2, cosa fare adesso",
+    description:
+      "EA FC 27: è live il Team 2 di Destined for Glory. SBC Frattesi e Renato Veiga, obiettivi Stagione 1 e cosa fare coi crediti prima che la promo finisca il 9 ottobre. Il parere del coach.",
+    category: "News",
+    date: "2026-10-03",
+    dateLabel: "3 Ottobre 2026",
+    readingTime: "5 min",
+    badge: "News",
+    excerpt:
+      "È appena arrivato il Team 2 di Destined for Glory. Ti dico cosa conviene fare adesso, quali SBC valgono, come gestire i crediti e cosa aspettarti dal 9 ottobre.",
+    body: `Il trend del momento su FC 27 è chiaro: è appena uscito il **Team 2 di Destined for Glory** (dal 2 ottobre) e la promo chiude intorno al **9 ottobre**. Ti dico, da coach, cosa fare adesso per non arrivare impreparato.
+
+## Cos'è Destined for Glory
+
+È la promo di lancio di FC 27, costruita sulla community: carte speciali con **upgrade live legati alla forma reale** dei giocatori. Il **Team 2**, uscito il 2 ottobre, aggiunge nuove carte e nuovi contenuti da sbloccare: significa mercato in movimento e nuove occasioni (e nuove trappole).
+
+## Le SBC del momento
+
+Le SBC a tema ancora attive meritano un occhio:
+
+- **Davide Frattesi (84)**, centrocampista box-to-box: veloce, con il **Pinged Pass** meta per i CC e link di Serie A. Ottima anche per la Gallery. Ne ho parlato nel dettaglio [qui](/newsletter/sbc-frattesi-fc-27-conviene-costo-requisiti).
+- **Renato Veiga (84)**: difensore versatile, utile se ti serve struttura dietro a poco prezzo.
+- **Intro to Player**: la SBC economica che regala **Cristian Espinoza (82)**, una Squad Foundations buona per iniziare.
+
+> ⚠️ Prezzi e requisiti cambiano di ora in ora: controlla sempre la soluzione più economica su Futbin o FUT.GG prima di buttare fodder.
+
+## Cosa fare adesso, prima del 9 ottobre
+
+1. **Chiudi gli obiettivi della Stagione 1** che stai per completare: sono premi garantiti che non tornano.
+2. **Fai solo le SBC mirate** che usi davvero (Frattesi se giochi Serie A, Veiga se ti serve dietro). Non completare SBC "perché ci sono".
+3. **Non svuotare il club.** Intorno al 9 ottobre è attesa una nuova promo (storicamente tocca ai **Future Stars**, data non ancora confermata da EA). A inizio ciclo la liquidità vale oro: tieni crediti pronti.
+4. **Occhio al mercato:** all'uscita del Team 2 e a fine promo i prezzi ballano. Le carte base tendono a scendere quando escono le nuove: buon momento per prendere i meta economici.
+
+## I meta economici da prendere ora
+
+Con la power curve più lenta di quest'anno, non ti serve lo squadrone. Cerca velocità e PlayStyle giusti: ali/punte rapide con Finesse o Rapid, centrocampisti con Low Driven o Pinged Pass, terzini con Mastino. Tante di queste carte costano pochissimo proprio adesso.
+
+## Il consiglio del coach
+
+Le promo riempiono il club, ma i match li vinci col manico. Il modo migliore di sfruttare Destined for Glory è prendere 2-3 carte giuste e lavorare sul tuo gioco, non inseguire ogni SBC. Se vuoi che ti aiuti a rendere con la tua rosa e a salire di divisione, 👉 **[prenota il tuo coaching qui](/coaching)**.
+
+Continua qui: [come si difende per arrivare in Elite](/newsletter/come-si-difende-fc-27-guida-completa-arrivare-elite), [le migliori Evoluzioni day one](/newsletter/fc-27-migliori-evoluzioni-day-one) e [come fare crediti dal day one](/newsletter/fc-27-come-fare-crediti-day-one-mercato-trading).
+
+---
+
+*Fonti: calendario promo e contenuti Ultimate Team di EA SPORTS FC 27 (Destined for Glory, Team 2 dal 2 ottobre 2026). La promo successiva (presumibilmente Future Stars, attesa intorno al 9 ottobre) non è ancora confermata ufficialmente da EA.*`,
+    en: {
+      title: "EA FC 27: Destined for Glory Team 2 Is Out, What to Do Now",
+      description:
+        "EA FC 27: Destined for Glory Team 2 is live. Frattesi and Renato Veiga SBCs, Season 1 objectives and what to do with your coins before the promo ends on October 9. The coach's take.",
+      category: "News",
+      dateLabel: "October 3, 2026",
+      excerpt:
+        "Destined for Glory Team 2 just landed. I tell you what to do now, which SBCs are worth it, how to manage your coins and what to expect from October 9.",
+      body: `The trend of the moment on FC 27 is clear: **Destined for Glory Team 2** just dropped (from October 2) and the promo ends around **October 9**. Here is what to do now, from the coach, so you are not caught off guard.
+
+## What Destined for Glory is
+
+It is FC 27's launch promo, built around the community: special cards with **live upgrades tied to players' real-world form**. **Team 2**, out on October 2, adds new cards and new content to unlock: that means a moving market and fresh opportunities (and fresh traps).
+
+## The SBCs of the moment
+
+The themed SBCs still live are worth a look:
+
+- **Davide Frattesi (84)**, box-to-box midfielder: fast, with the meta **Pinged Pass** for CMs and Serie A links. Great for the Gallery too. I covered it in detail [here](/en/newsletter/sbc-frattesi-fc-27-conviene-costo-requisiti).
+- **Renato Veiga (84)**: versatile defender, useful if you need structure at the back cheaply.
+- **Intro to Player**: the cheap SBC that gives **Cristian Espinoza (82)**, a solid Squad Foundations card to start with.
+
+> ⚠️ Prices and requirements change by the hour: always check the cheapest solution on Futbin or FUT.GG before dumping fodder.
+
+## What to do now, before October 9
+
+1. **Finish the Season 1 objectives** you are close to completing: they are guaranteed rewards that will not come back.
+2. **Only do the targeted SBCs** you will actually use (Frattesi if you play Serie A, Veiga if you need defense). Do not complete SBCs "just because".
+3. **Do not empty your club.** Around October 9 a new promo is expected (historically it is **Future Stars**, date not yet confirmed by EA). Early in the cycle liquidity is gold: keep coins ready.
+4. **Watch the market:** with Team 2's release and the promo ending, prices swing. Base cards tend to drop when new ones arrive: a good moment to grab cheap meta.
+
+## The cheap meta to grab now
+
+With this year's slower power curve, you do not need a super-team. Look for pace and the right PlayStyles: fast wingers/strikers with Finesse or Rapid, midfielders with Low Driven or Pinged Pass, fullbacks with Anchor. Many of these cards are very cheap right now.
+
+## The coach's take
+
+Promos fill the club, but you win matches with skill. The best way to use Destined for Glory is to grab 2-3 right cards and work on your game, not chase every SBC. If you want me to help you perform with your squad and climb divisions, 👉 **[book your coaching here](/en/coaching)**.
+
+Continue here: [how to defend to reach Elite](/en/newsletter/come-si-difende-fc-27-guida-completa-arrivare-elite), [the best day-one Evolutions](/en/newsletter/fc-27-migliori-evoluzioni-day-one) and [how to make coins from day one](/en/newsletter/fc-27-come-fare-crediti-day-one-mercato-trading).
+
+---
+
+*Sources: EA SPORTS FC 27 Ultimate Team promo calendar and content (Destined for Glory, Team 2 from October 2, 2026). The following promo (presumably Future Stars, expected around October 9) is not yet officially confirmed by EA.*`,
+    },
+  },
+  {
     slug: "come-si-difende-fc-27-guida-completa-arrivare-elite",
     title: "Come si difende su EA FC 27: la guida completa per arrivare in Elite",
     description:
