@@ -42,9 +42,12 @@ export const articles: Article[] = [
     heroImage: "/img/articles/ea-fc-27-destined-for-glory-team-2-cosa-fare-ora-hero.jpg",
     heroAlt:
       "EA FC 27 Destined for Glory Team 2: SBC POTM Olise e Malen, cosa fare prima del 9 ottobre",
+    youtubeId: "03KEU5WeMgU",
     excerpt:
       "È arrivato il Team 2 di Destined for Glory con le SBC POTM di Raphinha e Olise, più Malen. Ti dico quali SBC valgono, come gestire i crediti e cosa aspettarti dal 9 ottobre.",
     body: `Il trend del momento su FC 27 è chiaro: è appena uscito il **Team 2 di Destined for Glory** (dal 2 ottobre) e la promo chiude intorno al **9 ottobre**. Ti dico, da coach, cosa fare adesso per non arrivare impreparato.
+
+Qui sopra trovi il **mio video** in cui analizzo proprio queste SBC: guardalo e poi leggi i punti chiave qui sotto.
 
 ## Cos'è Destined for Glory
 
@@ -98,6 +101,8 @@ Continua qui: [come si difende per arrivare in Elite](/newsletter/come-si-difend
       excerpt:
         "Destined for Glory Team 2 just landed with the POTM SBCs of Raphinha and Olise, plus Malen. I tell you which SBCs are worth it, how to manage your coins and what to expect from October 9.",
       body: `The trend of the moment on FC 27 is clear: **Destined for Glory Team 2** just dropped (from October 2) and the promo ends around **October 9**. Here is what to do now, from the coach, so you are not caught off guard.
+
+Above you will find **my video** where I break down these exact SBCs: watch it, then read the key points below.
 
 ## What Destined for Glory is
 
