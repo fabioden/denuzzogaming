@@ -33,14 +33,17 @@ export const articles: Article[] = [
     slug: "ea-fc-27-destined-for-glory-team-2-cosa-fare-ora",
     title: "EA FC 27: è uscito Destined for Glory Team 2, cosa fare adesso",
     description:
-      "EA FC 27: è live il Team 2 di Destined for Glory con le SBC POTM di Raphinha e Olise. Più Frattesi, Renato Veiga, obiettivi Stagione 1 e cosa fare coi crediti prima del 9 ottobre. Il parere del coach.",
+      "EA FC 27: è live il Team 2 di Destined for Glory con le SBC POTM di Raphinha e Olise, più Malen, Frattesi e Renato Veiga. Obiettivi Stagione 1 e cosa fare coi crediti prima del 9 ottobre. Il parere del coach.",
     category: "News",
     date: "2026-10-03",
     dateLabel: "3 Ottobre 2026",
     readingTime: "5 min",
     badge: "News",
+    heroImage: "/img/articles/ea-fc-27-destined-for-glory-team-2-cosa-fare-ora-hero.jpg",
+    heroAlt:
+      "EA FC 27 Destined for Glory Team 2: SBC POTM Olise e Malen, cosa fare prima del 9 ottobre",
     excerpt:
-      "È arrivato il Team 2 di Destined for Glory con le SBC POTM di Raphinha e Olise. Ti dico quali SBC valgono, come gestire i crediti e cosa aspettarti dal 9 ottobre.",
+      "È arrivato il Team 2 di Destined for Glory con le SBC POTM di Raphinha e Olise, più Malen. Ti dico quali SBC valgono, come gestire i crediti e cosa aspettarti dal 9 ottobre.",
     body: `Il trend del momento su FC 27 è chiaro: è appena uscito il **Team 2 di Destined for Glory** (dal 2 ottobre) e la promo chiude intorno al **9 ottobre**. Ti dico, da coach, cosa fare adesso per non arrivare impreparato.
 
 ## Cos'è Destined for Glory
@@ -52,7 +55,9 @@ export const articles: Article[] = [
 Le SBC a tema ancora attive meritano un occhio. Le due più grosse del momento sono due **Player of the Month (POTM)**:
 
 - **Raphinha POTM (89)**, LALIGA, attaccante: velocità altissima (92), tiro e dribbling ottimi, un finalizzatore top per una rosa Barcellona/LALIGA.
-- **Michael Olise POTM (91)**, Bundesliga, ala: dribbling (92) e passaggio (90) da fuoriclasse, uno dei migliori creatori che puoi prendere via SBC adesso.
+- **Michael Olise POTM (91)**, Bundesliga, ala destra: dribbling (92) e passaggio (90) da fuoriclasse, uno dei migliori creatori che puoi prendere via SBC adesso.
+
+E c'è anche la SBC di **Donyell Malen (85)**, attaccante della Roma (Serie A): veloce (87), con buon dribbling (86), ottima se cerchi una punta rapida a prezzo umano e per i link di Serie A.
 
 E le SBC mirate di centrocampo e difesa:
 
@@ -85,11 +90,13 @@ Continua qui: [come si difende per arrivare in Elite](/newsletter/come-si-difend
     en: {
       title: "EA FC 27: Destined for Glory Team 2 Is Out, What to Do Now",
       description:
-        "EA FC 27: Destined for Glory Team 2 is live with the POTM SBCs of Raphinha and Olise. Plus Frattesi, Renato Veiga, Season 1 objectives and what to do with your coins before October 9. The coach's take.",
+        "EA FC 27: Destined for Glory Team 2 is live with the POTM SBCs of Raphinha and Olise, plus Malen, Frattesi and Renato Veiga. Season 1 objectives and what to do with your coins before October 9. The coach's take.",
       category: "News",
       dateLabel: "October 3, 2026",
+      heroAlt:
+        "EA FC 27 Destined for Glory Team 2: Olise and Malen POTM/SBC, what to do before October 9",
       excerpt:
-        "Destined for Glory Team 2 just landed with the POTM SBCs of Raphinha and Olise. I tell you which SBCs are worth it, how to manage your coins and what to expect from October 9.",
+        "Destined for Glory Team 2 just landed with the POTM SBCs of Raphinha and Olise, plus Malen. I tell you which SBCs are worth it, how to manage your coins and what to expect from October 9.",
       body: `The trend of the moment on FC 27 is clear: **Destined for Glory Team 2** just dropped (from October 2) and the promo ends around **October 9**. Here is what to do now, from the coach, so you are not caught off guard.
 
 ## What Destined for Glory is
@@ -101,7 +108,9 @@ It is FC 27's launch promo, built around the community: special cards with **liv
 The themed SBCs still live are worth a look. The two biggest right now are two **Player of the Month (POTM)** cards:
 
 - **Raphinha POTM (89)**, LALIGA, striker: huge pace (92), great shooting and dribbling, a top finisher for a Barcelona/LALIGA squad.
-- **Michael Olise POTM (91)**, Bundesliga, winger: elite dribbling (92) and passing (90), one of the best creators you can bring in via SBC right now.
+- **Michael Olise POTM (91)**, Bundesliga, right winger: elite dribbling (92) and passing (90), one of the best creators you can bring in via SBC right now.
+
+There is also the **Donyell Malen (85)** SBC, a Roma striker (Serie A): fast (87), with good dribbling (86), great if you want a quick striker at a fair price and for the Serie A links.
 
 And the targeted midfield/defense SBCs:
 
