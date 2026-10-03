@@ -33,14 +33,14 @@ export const articles: Article[] = [
     slug: "ea-fc-27-destined-for-glory-team-2-cosa-fare-ora",
     title: "EA FC 27: è uscito Destined for Glory Team 2, cosa fare adesso",
     description:
-      "EA FC 27: è live il Team 2 di Destined for Glory. SBC Frattesi e Renato Veiga, obiettivi Stagione 1 e cosa fare coi crediti prima che la promo finisca il 9 ottobre. Il parere del coach.",
+      "EA FC 27: è live il Team 2 di Destined for Glory con le SBC POTM di Raphinha e Olise. Più Frattesi, Renato Veiga, obiettivi Stagione 1 e cosa fare coi crediti prima del 9 ottobre. Il parere del coach.",
     category: "News",
     date: "2026-10-03",
     dateLabel: "3 Ottobre 2026",
     readingTime: "5 min",
     badge: "News",
     excerpt:
-      "È appena arrivato il Team 2 di Destined for Glory. Ti dico cosa conviene fare adesso, quali SBC valgono, come gestire i crediti e cosa aspettarti dal 9 ottobre.",
+      "È arrivato il Team 2 di Destined for Glory con le SBC POTM di Raphinha e Olise. Ti dico quali SBC valgono, come gestire i crediti e cosa aspettarti dal 9 ottobre.",
     body: `Il trend del momento su FC 27 è chiaro: è appena uscito il **Team 2 di Destined for Glory** (dal 2 ottobre) e la promo chiude intorno al **9 ottobre**. Ti dico, da coach, cosa fare adesso per non arrivare impreparato.
 
 ## Cos'è Destined for Glory
@@ -49,7 +49,12 @@ export const articles: Article[] = [
 
 ## Le SBC del momento
 
-Le SBC a tema ancora attive meritano un occhio:
+Le SBC a tema ancora attive meritano un occhio. Le due più grosse del momento sono due **Player of the Month (POTM)**:
+
+- **Raphinha POTM (89)**, LALIGA, attaccante: velocità altissima (92), tiro e dribbling ottimi, un finalizzatore top per una rosa Barcellona/LALIGA.
+- **Michael Olise POTM (91)**, Bundesliga, ala: dribbling (92) e passaggio (90) da fuoriclasse, uno dei migliori creatori che puoi prendere via SBC adesso.
+
+E le SBC mirate di centrocampo e difesa:
 
 - **Davide Frattesi (84)**, centrocampista box-to-box: veloce, con il **Pinged Pass** meta per i CC e link di Serie A. Ottima anche per la Gallery. Ne ho parlato nel dettaglio [qui](/newsletter/sbc-frattesi-fc-27-conviene-costo-requisiti).
 - **Renato Veiga (84)**: difensore versatile, utile se ti serve struttura dietro a poco prezzo.
@@ -80,11 +85,11 @@ Continua qui: [come si difende per arrivare in Elite](/newsletter/come-si-difend
     en: {
       title: "EA FC 27: Destined for Glory Team 2 Is Out, What to Do Now",
       description:
-        "EA FC 27: Destined for Glory Team 2 is live. Frattesi and Renato Veiga SBCs, Season 1 objectives and what to do with your coins before the promo ends on October 9. The coach's take.",
+        "EA FC 27: Destined for Glory Team 2 is live with the POTM SBCs of Raphinha and Olise. Plus Frattesi, Renato Veiga, Season 1 objectives and what to do with your coins before October 9. The coach's take.",
       category: "News",
       dateLabel: "October 3, 2026",
       excerpt:
-        "Destined for Glory Team 2 just landed. I tell you what to do now, which SBCs are worth it, how to manage your coins and what to expect from October 9.",
+        "Destined for Glory Team 2 just landed with the POTM SBCs of Raphinha and Olise. I tell you which SBCs are worth it, how to manage your coins and what to expect from October 9.",
       body: `The trend of the moment on FC 27 is clear: **Destined for Glory Team 2** just dropped (from October 2) and the promo ends around **October 9**. Here is what to do now, from the coach, so you are not caught off guard.
 
 ## What Destined for Glory is
@@ -93,7 +98,12 @@ It is FC 27's launch promo, built around the community: special cards with **liv
 
 ## The SBCs of the moment
 
-The themed SBCs still live are worth a look:
+The themed SBCs still live are worth a look. The two biggest right now are two **Player of the Month (POTM)** cards:
+
+- **Raphinha POTM (89)**, LALIGA, striker: huge pace (92), great shooting and dribbling, a top finisher for a Barcelona/LALIGA squad.
+- **Michael Olise POTM (91)**, Bundesliga, winger: elite dribbling (92) and passing (90), one of the best creators you can bring in via SBC right now.
+
+And the targeted midfield/defense SBCs:
 
 - **Davide Frattesi (84)**, box-to-box midfielder: fast, with the meta **Pinged Pass** for CMs and Serie A links. Great for the Gallery too. I covered it in detail [here](/en/newsletter/sbc-frattesi-fc-27-conviene-costo-requisiti).
 - **Renato Veiga (84)**: versatile defender, useful if you need structure at the back cheaply.
