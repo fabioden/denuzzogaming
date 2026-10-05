@@ -169,6 +169,9 @@ export const courses: Course[] = [
       { id: "di-8", section: "Difesa", title: "Raddoppio e pressing: come usarli", durationMin: 6, streamUid: "95e5f8dceac8f3fb9d1a3edfe5958583" },
       { id: "tat-1", section: "Tattiche", title: "Quali tattiche usare e cosa cambia", durationMin: 5, streamUid: "cb331fd79dd3618bc795622cce9bab84" },
       { id: "tat-2", section: "Tattiche", title: "Analisi partita con tattiche diverse", durationMin: 6, streamUid: "cae11339de8d687be01452a53602d478" },
+      { id: "at-1", section: "Attacco", title: "Player Lock: la teoria", durationMin: 5, streamUid: "506e2b12bda6b9e5c609e02eb13e9798" },
+      { id: "at-2", section: "Attacco", title: "Analisi di un pro: Nassada", durationMin: 7, streamUid: "b882e3a6c3b281bed3a88f62f84b4850" },
+      { id: "at-3", section: "Attacco", title: "Player Lock in partita", durationMin: 6, streamUid: "f220d17d50757b14204c87ffb14d11ff" },
     ],
   },
   {
@@ -194,19 +197,6 @@ export const courses: Course[] = [
     lessons: [
       { id: "pi-1", title: "Non prendere più gol da corner", durationMin: 2, youtubeId: "PLACEHOLDER_PI_1" },
       { id: "pi-2", title: "La punizione che entra sempre", durationMin: 3, youtubeId: "PLACEHOLDER_PI_2" },
-    ],
-  },
-  {
-    id: "attacco",
-    title: "Diventa una macchina da gol",
-    subtitle: "Esercizi sulle giocate che funzionano, il dribbling utile e la finalizzazione.",
-    level: "Intermedio",
-    category: "Attacco",
-    cover: "/img/academy/thumb-attacco.jpg",
-    lessons: [
-      { id: "at-1", title: "Le 3 giocate che spaccano ogni difesa", durationMin: 3, youtubeId: "PLACEHOLDER_AT_1", free: true },
-      { id: "at-2", title: "Il dribbling che salta l'uomo davvero", durationMin: 2, youtubeId: "PLACEHOLDER_AT_2" },
-      { id: "at-3", title: "Segna freddo, ogni volta", durationMin: 2, youtubeId: "PLACEHOLDER_AT_3" },
     ],
   },
   {
@@ -270,7 +260,7 @@ export const collections: Collection[] = [
     id: "risali",
     title: "Risali di divisione",
     hint: "il percorso per salire",
-    courseIds: ["intro", "attacco", "squadra-meta", "pressione"],
+    courseIds: ["intro", "squadra-meta", "pressione"],
   },
   {
     id: "budget",
@@ -282,7 +272,7 @@ export const collections: Collection[] = [
     id: "weekend-league",
     title: "Prepara la Weekend League",
     hint: "pronto per il weekend",
-    courseIds: ["pressione", "vantaggio", "intro", "palle-inattive", "attacco"],
+    courseIds: ["pressione", "vantaggio", "intro", "palle-inattive"],
   },
 ];
 

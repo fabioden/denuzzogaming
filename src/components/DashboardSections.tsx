@@ -19,7 +19,7 @@ const ELITE = { winRate: 80, gfg: 4, gag: 1.67, wl: 15 };
 const ELITE_QUALIFY = 13; // sei "in Elite Division" da 13 vittorie in su
 const AREA_LABELS: Record<string, { label: string; id: string }> = {
   difesa: { label: "Difesa", id: "intro" },
-  attacco: { label: "Attacco", id: "attacco" },
+  attacco: { label: "Attacco", id: "intro" },
   squadra: { label: "Costruzione squadra", id: "squadra-meta" },
   mentalita: { label: "Testa da campione", id: "pressione" },
 };
