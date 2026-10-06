@@ -30,6 +30,98 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "fc-27-future-stars-leak-promo-venerdi-cosa-sappiamo",
+    title: "FC 27 Future Stars: i leak e cosa sappiamo della promo di venerdì",
+    description:
+      "FC 27 Future Stars in arrivo venerdì: i leak di FUT Sheriff, come funziona la promo dei giovani talenti, cosa c'è di confermato e cosa no, e come prepararsi. Il parere del coach.",
+    category: "News",
+    date: "2026-10-06",
+    dateLabel: "6 Ottobre 2026",
+    readingTime: "5 min",
+    badge: "Leak",
+    excerpt:
+      "Venerdì tocca ai Future Stars. Ti spiego cosa dicono i leak (FUT Sheriff e altri), come funziona la promo, cosa è confermato e come farti trovare pronto coi crediti.",
+    body: `La prossima grande promo di FC 27 è alle porte: i **Future Stars** sono attesi **questo venerdì**. In rete girano già i primi leak, in particolare dal profilo **FUT Sheriff**. Ti metto ordine, da coach: cosa sappiamo davvero, cosa è solo rumor e come prepararti.
+
+> ⚠️ Importante: finché non parla EA, i nomi e le carte che vedi in giro sono **leak, non ufficiali**. Prendili con le pinze. L'elenco vero esce solo al reveal.
+
+## Cos'è la promo Future Stars
+
+È una delle promo più amate dell'anno. Protagonisti i **giovani talenti (under 23)** che non sono mai apparsi in un Future Stars precedente: EA gli dà una carta speciale con **upgrade importanti** di overall, statistiche e spesso ruolo, per rappresentare il loro potenziale futuro. Di solito la promo porta **due squadre** (Team 1 e Team 2), più **SBC, Obiettivi ed Evoluzioni** dedicate, oltre alle carte nei pacchetti.
+
+## Cosa dicono i leak (FUT Sheriff e altri)
+
+I leaker stanno anticipando i possibili protagonisti del Team 1: giovani in forma dei campionati top, con salti di overall notevoli e ruoli potenziati (le classiche carte "da Future Stars" con PlayStyle forti e statistiche gonfiate). Tra i nomi e le grafiche che circolano c'è anche quella di **Vicky López** (Barcellona) come ala.
+
+Ti ripeto il mio avviso da coach: sono **anticipazioni**, non la lista ufficiale. Alcune ci prendono, altre no. Non comprare giocatori sul mercato "perché ho visto il leak": aspetta che EA confermi.
+
+## Cosa è confermato e cosa no
+
+- **Confermato:** i Future Stars sono la promo in arrivo, con la formula dei giovani under 23 e gli upgrade sul potenziale.
+- **Da confermare:** la **data esatta** (attesa venerdì, ma EA non l'ha ancora ufficializzata nelle sue note) e soprattutto **la lista dei giocatori**. Tutto ciò che vedi adesso come roster è leak.
+
+## Come prepararti adesso
+
+1. **Tieni i crediti pronti.** È la cosa più importante. Se hai bruciato tutto nelle SBC di Destined for Glory, al reveal non potrai muoverti. A inizio promo la liquidità vale oro.
+2. **Non inseguire i leak sul mercato.** I prezzi dei giovani "papabili" si gonfiano sulle voci e poi crollano. Compra solo a carte uscite.
+3. **Occhio alle SBC ed Evo del primo giorno.** Spesso i Future Stars migliori per rapporto costo-resa sono quelli da SBC o da Evoluzione, non quelli da pacchetto.
+4. **Vendi prima del reveal** le carte che pensi caleranno: all'arrivo di una promo forte il resto del mercato spesso scende.
+
+## Il consiglio del coach
+
+Le promo fanno hype, ma una carta Future Stars non ti fa salire di divisione da sola: contano il modulo, la difesa e il manico. Se vuoi arrivare pronto a sfruttare le nuove carte e finalmente salire, 👉 **[prenota il tuo coaching qui](/coaching)**. Trovi tutto anche ne **Il Corso di Fabio**, con i video meta aggiornati ogni settimana.
+
+Continua qui: [cosa fare con Destined for Glory Team 2](/newsletter/ea-fc-27-destined-for-glory-team-2-cosa-fare-ora), [come si difende per arrivare in Elite](/newsletter/come-si-difende-fc-27-guida-completa-arrivare-elite) e [come fare crediti dal day one](/newsletter/fc-27-come-fare-crediti-day-one-mercato-trading).
+
+---
+
+*Fonti: anticipazioni della community di leaker (tra cui FUT Sheriff) e calendario promo di EA SPORTS FC 27 Ultimate Team. Data e lista giocatori dei Future Stars non sono ancora confermate ufficialmente da EA al momento della pubblicazione.*`,
+    en: {
+      title: "FC 27 Future Stars: The Leaks and What We Know About Friday's Promo",
+      description:
+        "FC 27 Future Stars coming Friday: the FUT Sheriff leaks, how the young-talent promo works, what is confirmed and what is not, and how to prepare. The coach's take.",
+      category: "News",
+      dateLabel: "October 6, 2026",
+      excerpt:
+        "Friday it is Future Stars. I explain what the leaks say (FUT Sheriff and others), how the promo works, what is confirmed and how to be ready with your coins.",
+      body: `FC 27's next big promo is at the door: **Future Stars** is expected **this Friday**. The first leaks are already circulating, especially from the **FUT Sheriff** account. Let me sort it out, from the coach: what we actually know, what is just a rumor, and how to prepare.
+
+> ⚠️ Important: until EA speaks, the names and cards you see around are **leaks, not official**. Take them with a pinch of salt. The real list only drops at the reveal.
+
+## What the Future Stars promo is
+
+It is one of the most loved promos of the year. The stars are the **young talents (under 23)** who have never appeared in a previous Future Stars: EA gives them a special card with **big upgrades** to overall, stats and often role, to represent their future potential. The promo usually brings **two teams** (Team 1 and Team 2), plus dedicated **SBCs, Objectives and Evolutions**, on top of the cards in packs.
+
+## What the leaks say (FUT Sheriff and others)
+
+Leakers are teasing the possible Team 1 names: in-form youngsters from the top leagues, with big overall jumps and upgraded roles (the classic "Future Stars" cards with strong PlayStyles and boosted stats). Among the names and graphics circulating there is also **Vicky López** (Barcelona) as a winger.
+
+My coach's warning again: these are **predictions**, not the official list. Some land, some do not. Do not buy players on the market "because I saw the leak": wait for EA to confirm.
+
+## What is confirmed and what is not
+
+- **Confirmed:** Future Stars is the promo coming up, with the under-23 formula and potential-based upgrades.
+- **To be confirmed:** the **exact date** (expected Friday, but EA has not made it official in its notes yet) and above all **the player list**. Everything you see now as a roster is a leak.
+
+## How to prepare now
+
+1. **Keep your coins ready.** This is the most important thing. If you burned everything on the Destined for Glory SBCs, you will not be able to move at the reveal. Early in a promo, liquidity is gold.
+2. **Do not chase the leaks on the market.** Prices of the "likely" youngsters inflate on rumors and then crash. Only buy once cards are out.
+3. **Watch the day-one SBCs and Evos.** Often the best value Future Stars are the SBC or Evolution ones, not the pack ones.
+4. **Sell before the reveal** the cards you think will drop: when a strong promo arrives, the rest of the market often falls.
+
+## The coach's take
+
+Promos create hype, but a Future Stars card does not climb divisions by itself: formation, defending and skill are what matter. If you want to be ready to use the new cards and finally move up, 👉 **[book your coaching here](/en/coaching)**. You will find everything in **Fabio's Course** too, with meta videos updated every week.
+
+Continue here: [what to do with Destined for Glory Team 2](/en/newsletter/ea-fc-27-destined-for-glory-team-2-cosa-fare-ora), [how to defend to reach Elite](/en/newsletter/come-si-difende-fc-27-guida-completa-arrivare-elite) and [how to make coins from day one](/en/newsletter/fc-27-come-fare-crediti-day-one-mercato-trading).
+
+---
+
+*Sources: leak community predictions (including FUT Sheriff) and the EA SPORTS FC 27 Ultimate Team promo calendar. The Future Stars date and player list are not yet officially confirmed by EA at the time of publishing.*`,
+    },
+  },
+  {
     slug: "ea-fc-27-destined-for-glory-team-2-cosa-fare-ora",
     title: "EA FC 27: è uscito Destined for Glory Team 2, cosa fare adesso",
     description:
