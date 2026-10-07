@@ -39,6 +39,9 @@ export const articles: Article[] = [
     dateLabel: "6 Ottobre 2026",
     readingTime: "5 min",
     badge: "Leak",
+    heroImage: "/img/articles/fc-27-future-stars-leak-promo-venerdi-cosa-sappiamo-hero.jpg",
+    heroAlt:
+      "FC 27 Future Stars: leak della carta Vicky López e promo in arrivo venerdì",
     excerpt:
       "Venerdì tocca ai Future Stars. Ti spiego cosa dicono i leak (FUT Sheriff e altri), come funziona la promo, cosa è confermato e come farti trovare pronto coi crediti.",
     body: `La prossima grande promo di FC 27 è alle porte: i **Future Stars** sono attesi **questo venerdì**. In rete girano già i primi leak, in particolare dal profilo **FUT Sheriff**. Ti metto ordine, da coach: cosa sappiamo davvero, cosa è solo rumor e come prepararti.
