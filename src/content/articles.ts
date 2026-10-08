@@ -30,23 +30,33 @@ export type Article = {
 
 export const articles: Article[] = [
   {
-    slug: "fc-27-totw-5-putellas-92-cam-carta-top",
-    title: "FC 27, nuovo TOTW: Putellas 92 CAM è una carta pazzesca",
+    slug: "fc-27-totw-4-putellas-92-cam-squadra-della-settimana",
+    title: "FC 27 TOTW 4: Putellas 92 CAM guida la squadra della settimana",
     description:
-      "Nuovo Team of the Week su FC 27 con Alexia Putellas 92 CAM: passaggio 92, dribbling 93, 5 stelle skill e piede debole. Perché è perfetta per il 4-3-1-2 meta e come averla. Il parere del coach.",
+      "FC 27 TOTW 4 (7-14 ottobre): Alexia Putellas 92 CAM in testa, con Bellingham, Donnarumma e Pajor. Le carte migliori, perché Putellas è perfetta per il 4-3-1-2 meta e come averla. Il parere del coach.",
     category: "News",
     date: "2026-10-08",
     dateLabel: "8 Ottobre 2026",
     readingTime: "4 min",
     badge: "TOTW",
     excerpt:
-      "Nel nuovo Team of the Week spicca Alexia Putellas 92 CAM: una delle migliori trequartiste del gioco. Ti dico le stat, perché è top per il 4-3-1-2 e come provare a prenderla.",
-    body: `È uscito il **nuovo Team of the Week** su FC 27 e c'è una carta che spicca su tutte: **Alexia Putellas, 92 CAM.** Per come si gioca quest'anno, è una delle trequartiste più interessanti in assoluto.
+      "Nel TOTW 4 spicca Alexia Putellas 92 CAM: una delle migliori trequartiste del gioco. Ti dico la squadra, perché è top per il 4-3-1-2 e come provare a prenderla.",
+    body: `È live il **Team of the Week 4** su FC 27 (nei pacchetti dal **7 al 14 ottobre**) e c'è una carta che spicca su tutte: **Alexia Putellas, 92 CAM.** Per come si gioca quest'anno, è una delle trequartiste più interessanti in assoluto.
+
+## Le carte migliori del TOTW 4
+
+- **Alexia Putellas, 92 CAM** (la migliore della settimana)
+- **Jude Bellingham, 91 CAM**
+- **Gianluigi Donnarumma, 90 POR**
+- **Ewa Pajor, 90 ATT**
+- **Débora, 88 CAM** e **Lauren Hemp, 88 LM**
+- In squadra anche nomi pesanti come **De Bruyne, Lewandowski, Cancelo, Marmoush e Troy Parrott**.
 
 ## La carta: Putellas 92 CAM
 
 - **PAC 81, SHO 91, PAS 92, DRI 93, DEF 73, PHY 77**
-- **5 stelle skill moves** e **5 stelle piede debole**
+- **5 stelle skill moves** e **5 stelle piede debole**, mancina
+- PlayStyle **Incisive Pass** (passaggio) e **Finesse Shot** (tiro a giro)
 - Nazione **Spagna**, lega **Barclays WSL** (London City Lionesses)
 
 Numeri da sogno per un trequartista: passaggio 92, dribbling 93, tiro 91 e quelle 5 stelle skill + 5 stelle piede debole che la rendono imprevedibile sotto porta e nello stretto. È una carta che ti risolve la zona più importante del campo.
@@ -59,7 +69,7 @@ In più, i link **Spagna / WSL** sono comodi se hai già giocatrici di quei camp
 
 ## Come si prende
 
-Le carte **Team of the Week (informi)** si trovano **solo nei pacchetti**, e **solo per una settimana** (fino al prossimo TOTW). Non c'è una SBC dedicata: puoi provare a pacchetto, oppure puntare ai **pacchetti premio di Rivals e Champions** e agli obiettivi che regalano pacchetti. Dopo pochi giorni sparisce dai pack, quindi se la vuoi provare è adesso.
+Le carte **Team of the Week (informi)** si trovano **solo nei pacchetti**, e **solo per una settimana**: questo TOTW 4 resta nei pack **fino al 14 ottobre**, poi lascia spazio al TOTW 5. Non c'è una SBC dedicata: puoi provare a pacchetto, oppure puntare ai **pacchetti premio di Rivals e Champions** e agli obiettivi che regalano pacchetti. Dopo il 14 sparisce, quindi se la vuoi provare è adesso. Sul mercato Putellas è carissima (è la migliore della settimana), quindi valuta bene.
 
 ## Il parere del coach
 
@@ -67,19 +77,29 @@ Putellas 92 è una carta vera, di quelle che ti alzano il livello della squadra,
 
 Continua qui: [il nuovo meta del 4-3-1-2](/newsletter/fc-27-meta-4312-addio-4411-modulo-pro), [come si difende per arrivare in Elite](/newsletter/come-si-difende-fc-27-guida-completa-arrivare-elite) e [cosa fare con Destined for Glory Team 2](/newsletter/ea-fc-27-destined-for-glory-team-2-cosa-fare-ora).`,
     en: {
-      title: "FC 27, New TOTW: Putellas 92 CAM Is an Insane Card",
+      title: "FC 27 TOTW 4: Putellas 92 CAM Leads the Team of the Week",
       description:
-        "New Team of the Week on FC 27 with Alexia Putellas 92 CAM: 92 passing, 93 dribbling, 5-star skills and weak foot. Why she is perfect for the meta 4-3-1-2 and how to get her. The coach's take.",
+        "FC 27 TOTW 4 (October 7-14): Alexia Putellas 92 CAM on top, with Bellingham, Donnarumma and Pajor. The best cards, why Putellas is perfect for the meta 4-3-1-2 and how to get her. The coach's take.",
       category: "News",
       dateLabel: "October 8, 2026",
       excerpt:
-        "The new Team of the Week is headlined by Alexia Putellas 92 CAM: one of the best attacking midfielders in the game. I give you the stats, why she is top for the 4-3-1-2 and how to try for her.",
-      body: `The **new Team of the Week** is out on FC 27 and one card stands above the rest: **Alexia Putellas, 92 CAM.** For the way the game plays this year, she is one of the most interesting attacking midfielders out there.
+        "TOTW 4 is headlined by Alexia Putellas 92 CAM: one of the best attacking midfielders in the game. I give you the squad, why she is top for the 4-3-1-2 and how to try for her.",
+      body: `**Team of the Week 4** is live on FC 27 (in packs from **October 7 to 14**) and one card stands above the rest: **Alexia Putellas, 92 CAM.** For the way the game plays this year, she is one of the most interesting attacking midfielders out there.
+
+## The best cards in TOTW 4
+
+- **Alexia Putellas, 92 CAM** (the best of the week)
+- **Jude Bellingham, 91 CAM**
+- **Gianluigi Donnarumma, 90 GK**
+- **Ewa Pajor, 90 ST**
+- **Débora, 88 CAM** and **Lauren Hemp, 88 LM**
+- The squad also features big names like **De Bruyne, Lewandowski, Cancelo, Marmoush and Troy Parrott**.
 
 ## The card: Putellas 92 CAM
 
 - **PAC 81, SHO 91, PAS 92, DRI 93, DEF 73, PHY 77**
-- **5-star skill moves** and **5-star weak foot**
+- **5-star skill moves** and **5-star weak foot**, left-footed
+- PlayStyles **Incisive Pass** and **Finesse Shot**
 - Nation **Spain**, league **Barclays WSL** (London City Lionesses)
 
 Dream numbers for an attacking midfielder: 92 passing, 93 dribbling, 91 shooting and those 5-star skills + 5-star weak foot that make her unpredictable in front of goal and in tight spaces. A card that sorts out the most important zone of the pitch.
@@ -92,7 +112,7 @@ On top of that, the **Spain / WSL** links are handy if you already run players f
 
 ## How to get her
 
-**Team of the Week (in-form)** cards are found **only in packs**, and **only for one week** (until the next TOTW). There is no dedicated SBC: you can try through packs, or go for the **Rivals and Champions reward packs** and the objectives that give packs. After a few days she disappears from packs, so if you want to try for her, it is now.
+**Team of the Week (in-form)** cards are found **only in packs**, and **only for one week**: this TOTW 4 stays in packs **until October 14**, then it makes way for TOTW 5. There is no dedicated SBC: you can try through packs, or go for the **Rivals and Champions reward packs** and the objectives that give packs. After the 14th she disappears, so if you want to try for her, it is now. On the market Putellas is very expensive (she is the best of the week), so weigh it up.
 
 ## The coach's take
 
