@@ -30,6 +30,102 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "fc-27-meta-4312-addio-4411-modulo-pro",
+    title: "FC 27, il meta è cambiato: tutti sul 4-3-1-2, addio 4-4-1-1",
+    description:
+      "FC 27, il meta è cambiato: i migliori hanno mollato il 4-4-1-1 e sono passati al 4-3-1-2. Perché domina, il setup giusto e la mia variante per salire in Elite. Il parere del coach.",
+    category: "Tattiche",
+    date: "2026-10-08",
+    dateLabel: "8 Ottobre 2026",
+    readingTime: "5 min",
+    badge: "Tattiche",
+    excerpt:
+      "Lo vedo dal campo contro i migliori: il 4-4-1-1 è stato abbandonato, ora si gioca tutti 4-3-1-2. Ti spiego perché domina, il setup e la mia versione per l'Elite.",
+    body: `Te lo dico da chi il meta lo vive sul campo, non sulle tabelle: **è cambiato tutto.** Fino a poche settimane fa andava forte il 4-4-1-1, adesso ai livelli alti l'hanno **abbandonato** e sono passati quasi tutti al **4-3-1-2**. Se giochi contro gente tosta in Weekend League o nelle divisioni alte, lo stai già notando anche tu.
+
+> Nota: i siti di statistiche vanno in ritardo, fotografano le rose di giorni prima. Questo è un cambio fresco, letto in partita contro i migliori.
+
+## Perché il 4-3-1-2 ha preso il sopravvento
+
+FC 27 è un gioco di **recupero palla e verticalità veloce nel mezzo**, e il 4-3-1-2 è fatto apposta per questo:
+
+- **Tre centrocampisti centrali.** Sono la chiave: ti danno una densità pazzesca a centrocampo per il **contropressing**. Appena perdi palla sei già in cinque a riaggredire, e su questo gioco chi riaggredisce bene vince.
+- **Il trequartista (Shadow Striker) dietro le due punte.** Attacca lo spazio tra difesa e centrocampo avversario: quando la palla arriva lì, è un incubo da difendere.
+- **Due punte che spaccano i centrali.** Allargano la difesa avversaria e ti aprono i corridoi per l'imbucata.
+
+Il 4-4-1-1, al confronto, lasciava il **centro più scoperto** e meno verticale: con una sola punta di riferimento era più facile da leggere e ti dava meno uomini per aggredire a centrocampo. In un meta dove si segna soprattutto sul recupero palla, il 4-3-1-2 fa semplicemente la differenza.
+
+## Il setup che gira (standard)
+
+- **Costruzione: Bilanciata.**
+- **Linea difensiva: Bilanciata, profondità 60.**
+- **Punte: Attaccante offensivo in focus Attacco** (la scelta più usata), con una **Shadow Striker** come seconda punta per attaccare la profondità.
+- **Centrocampo:** un box-to-box che si inserisce, uno più di equilibrio, uno che costruisce.
+
+## La mia variante per l'Elite
+
+Io gioco lo stesso 4-3-1-2 ma con la **profondità estrema (100)**: così il gioco mi fa il **fuorigioco in automatico**, tengo la difesa sempre alta e la squadra compatta, e aggredisco altissimo. È più aggressiva e più rischiosa sui lanci lunghi, ma per il mio stile di pressing è quella che mi sta trascinando su. Ti ho spiegato tutto questo meccanismo nella [guida completa su come difendere e arrivare in Elite](/newsletter/come-si-difende-fc-27-guida-completa-arrivare-elite).
+
+## I giocatori giusti per questo modulo
+
+- **Terzini:** Mastino (anchor) e veloci, per coprire quando sali alto.
+- **Due centrali:** rapidi, perché devono reggere la linea alta.
+- **I tre di centrocampo:** Low Driven e, se possibile, Pinged Pass, per verticalizzare veloce.
+- **Trequartista:** un giocatore agile con buon dribbling che attacca lo spazio.
+
+## Il consiglio del coach
+
+Il modulo giusto ti mette in condizione, ma il 4-3-1-2 rende davvero solo se sai **riaggredire e leggere la partita**: altrimenti quei tre a centrocampo non servono a niente. Se vuoi che ti aiuti a far funzionare questo modulo con la tua rosa e a salire di divisione, 👉 **[prenota il tuo coaching qui](/coaching)**. Trovi tutto anche ne **Il Corso di Fabio**, con i video meta aggiornati ogni settimana.
+
+Continua qui: [come si difende per arrivare in Elite](/newsletter/come-si-difende-fc-27-guida-completa-arrivare-elite), [i moduli e le tattiche meta](/newsletter/fc-27-moduli-tattiche-meta) e [cosa fare con Destined for Glory Team 2](/newsletter/ea-fc-27-destined-for-glory-team-2-cosa-fare-ora).`,
+    en: {
+      title: "FC 27, the Meta Has Shifted: Everyone Is on the 4-3-1-2, Goodbye 4-4-1-1",
+      description:
+        "FC 27, the meta has shifted: the best players dropped the 4-4-1-1 and moved to the 4-3-1-2. Why it dominates, the right setup and my variant to climb to Elite. The coach's take.",
+      category: "Tactics",
+      dateLabel: "October 8, 2026",
+      excerpt:
+        "I see it on the pitch against the best: the 4-4-1-1 has been abandoned, now everyone plays 4-3-1-2. I explain why it dominates, the setup and my version for Elite.",
+      body: `Let me tell you as someone who lives the meta on the pitch, not on the charts: **everything has changed.** Until a few weeks ago the 4-4-1-1 was strong, now at the top level they have **abandoned** it and almost everyone moved to the **4-3-1-2**. If you play tough opponents in Weekend League or the high divisions, you are already noticing it too.
+
+> Note: stats sites lag behind, they capture squads from days earlier. This is a fresh shift, read in games against the best.
+
+## Why the 4-3-1-2 took over
+
+FC 27 is a game of **ball recovery and fast vertical play through the middle**, and the 4-3-1-2 is built exactly for that:
+
+- **Three central midfielders.** They are the key: they give you insane density in midfield for **counter-pressing**. The moment you lose the ball you are already five men swarming back, and on this game whoever counter-presses well wins.
+- **The attacking midfielder (Shadow Striker) behind the two forwards.** He attacks the space between the opponent's defense and midfield: when the ball gets there, it is a nightmare to defend.
+- **Two strikers who split the center-backs.** They stretch the opposing defense and open the channels for through balls.
+
+The 4-4-1-1, by comparison, left the **center more exposed** and less vertical: with a single reference striker it was easier to read and gave you fewer men to press in midfield. In a meta where you score mostly off ball recovery, the 4-3-1-2 simply makes the difference.
+
+## The setup that is going around (standard)
+
+- **Build-up: Balanced.**
+- **Defensive line: Balanced, depth 60.**
+- **Strikers: Advanced Forward on Attack focus** (the most used choice), with a **Shadow Striker** as the second forward to attack depth.
+- **Midfield:** a box-to-box who makes runs, one for balance, one who builds.
+
+## My variant for Elite
+
+I play the same 4-3-1-2 but with **extreme depth (100)**: that way the game runs the **offside trap automatically**, I keep the defense high and the team compact, and I press very high. It is more aggressive and riskier against long balls, but for my pressing style it is the one dragging me up. I explained this whole mechanism in the [complete guide on how to defend and reach Elite](/en/newsletter/come-si-difende-fc-27-guida-completa-arrivare-elite).
+
+## The right players for this formation
+
+- **Fullbacks:** Anchor and fast, to cover when you push up.
+- **Two center-backs:** quick, because they have to hold the high line.
+- **The three midfielders:** Low Driven and, if possible, Pinged Pass, to go vertical fast.
+- **Attacking midfielder:** an agile player with good dribbling who attacks space.
+
+## The coach's take
+
+The right formation sets you up, but the 4-3-1-2 only truly works if you can **counter-press and read the game**: otherwise those three in midfield are useless. If you want me to help you make this formation work with your squad and climb divisions, 👉 **[book your coaching here](/en/coaching)**. You will find everything in **Fabio's Course** too, with meta videos updated every week.
+
+Continue here: [how to defend to reach Elite](/en/newsletter/come-si-difende-fc-27-guida-completa-arrivare-elite), [meta formations and tactics](/en/newsletter/fc-27-moduli-tattiche-meta) and [what to do with Destined for Glory Team 2](/en/newsletter/ea-fc-27-destined-for-glory-team-2-cosa-fare-ora).`,
+    },
+  },
+  {
     slug: "fc-27-future-stars-leak-promo-venerdi-cosa-sappiamo",
     title: "FC 27 Future Stars: i leak e cosa sappiamo della promo di venerdì",
     description:
