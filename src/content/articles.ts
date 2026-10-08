@@ -30,6 +30,78 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "fc-27-totw-5-putellas-92-cam-carta-top",
+    title: "FC 27, nuovo TOTW: Putellas 92 CAM è una carta pazzesca",
+    description:
+      "Nuovo Team of the Week su FC 27 con Alexia Putellas 92 CAM: passaggio 92, dribbling 93, 5 stelle skill e piede debole. Perché è perfetta per il 4-3-1-2 meta e come averla. Il parere del coach.",
+    category: "News",
+    date: "2026-10-08",
+    dateLabel: "8 Ottobre 2026",
+    readingTime: "4 min",
+    badge: "TOTW",
+    excerpt:
+      "Nel nuovo Team of the Week spicca Alexia Putellas 92 CAM: una delle migliori trequartiste del gioco. Ti dico le stat, perché è top per il 4-3-1-2 e come provare a prenderla.",
+    body: `È uscito il **nuovo Team of the Week** su FC 27 e c'è una carta che spicca su tutte: **Alexia Putellas, 92 CAM.** Per come si gioca quest'anno, è una delle trequartiste più interessanti in assoluto.
+
+## La carta: Putellas 92 CAM
+
+- **PAC 81, SHO 91, PAS 92, DRI 93, DEF 73, PHY 77**
+- **5 stelle skill moves** e **5 stelle piede debole**
+- Nazione **Spagna**, lega **Barclays WSL** (London City Lionesses)
+
+Numeri da sogno per un trequartista: passaggio 92, dribbling 93, tiro 91 e quelle 5 stelle skill + 5 stelle piede debole che la rendono imprevedibile sotto porta e nello stretto. È una carta che ti risolve la zona più importante del campo.
+
+## Perché è perfettissima adesso
+
+Te l'ho appena raccontato: il meta si è spostato sul **4-3-1-2**, e quel modulo vive sul **trequartista dietro le due punte**. Putellas in quel ruolo (Shadow Striker) è una bomba: riceve tra le linee, gira su se stessa con il dribbling a 93 e serve l'assist o tira. Se stai montando il 4-3-1-2, è esattamente il profilo che cerchi. Ti ho spiegato tutto il modulo [qui](/newsletter/fc-27-meta-4312-addio-4411-modulo-pro).
+
+In più, i link **Spagna / WSL** sono comodi se hai già giocatrici di quei campionati in rosa.
+
+## Come si prende
+
+Le carte **Team of the Week (informi)** si trovano **solo nei pacchetti**, e **solo per una settimana** (fino al prossimo TOTW). Non c'è una SBC dedicata: puoi provare a pacchetto, oppure puntare ai **pacchetti premio di Rivals e Champions** e agli obiettivi che regalano pacchetti. Dopo pochi giorni sparisce dai pack, quindi se la vuoi provare è adesso.
+
+## Il parere del coach
+
+Putellas 92 è una carta vera, di quelle che ti alzano il livello della squadra, soprattutto nel 4-3-1-2. Ma occhio: è un **informe a tempo**, costa e dura una settimana nei pack. Prendila solo se ci giochi davvero e hai i link giusti, altrimenti tieni i crediti per la promo in arrivo. E ricorda: anche la carta più forte rende solo se sai farla giocare. Se vuoi che ti aiuti a sfruttarla nel modulo giusto, 👉 **[prenota il tuo coaching qui](/coaching)**.
+
+Continua qui: [il nuovo meta del 4-3-1-2](/newsletter/fc-27-meta-4312-addio-4411-modulo-pro), [come si difende per arrivare in Elite](/newsletter/come-si-difende-fc-27-guida-completa-arrivare-elite) e [cosa fare con Destined for Glory Team 2](/newsletter/ea-fc-27-destined-for-glory-team-2-cosa-fare-ora).`,
+    en: {
+      title: "FC 27, New TOTW: Putellas 92 CAM Is an Insane Card",
+      description:
+        "New Team of the Week on FC 27 with Alexia Putellas 92 CAM: 92 passing, 93 dribbling, 5-star skills and weak foot. Why she is perfect for the meta 4-3-1-2 and how to get her. The coach's take.",
+      category: "News",
+      dateLabel: "October 8, 2026",
+      excerpt:
+        "The new Team of the Week is headlined by Alexia Putellas 92 CAM: one of the best attacking midfielders in the game. I give you the stats, why she is top for the 4-3-1-2 and how to try for her.",
+      body: `The **new Team of the Week** is out on FC 27 and one card stands above the rest: **Alexia Putellas, 92 CAM.** For the way the game plays this year, she is one of the most interesting attacking midfielders out there.
+
+## The card: Putellas 92 CAM
+
+- **PAC 81, SHO 91, PAS 92, DRI 93, DEF 73, PHY 77**
+- **5-star skill moves** and **5-star weak foot**
+- Nation **Spain**, league **Barclays WSL** (London City Lionesses)
+
+Dream numbers for an attacking midfielder: 92 passing, 93 dribbling, 91 shooting and those 5-star skills + 5-star weak foot that make her unpredictable in front of goal and in tight spaces. A card that sorts out the most important zone of the pitch.
+
+## Why she is perfect right now
+
+I just told you: the meta has shifted to the **4-3-1-2**, and that formation lives on the **attacking midfielder behind the two forwards**. Putellas in that role (Shadow Striker) is a monster: she receives between the lines, turns with her 93 dribbling and plays the assist or shoots. If you are building the 4-3-1-2, she is exactly the profile you want. I explained the whole formation [here](/en/newsletter/fc-27-meta-4312-addio-4411-modulo-pro).
+
+On top of that, the **Spain / WSL** links are handy if you already run players from those leagues.
+
+## How to get her
+
+**Team of the Week (in-form)** cards are found **only in packs**, and **only for one week** (until the next TOTW). There is no dedicated SBC: you can try through packs, or go for the **Rivals and Champions reward packs** and the objectives that give packs. After a few days she disappears from packs, so if you want to try for her, it is now.
+
+## The coach's take
+
+Putellas 92 is a real card, the kind that raises your squad's level, especially in the 4-3-1-2. But careful: she is a **time-limited in-form**, she costs and she lasts a week in packs. Only get her if you actually play that way and have the right links, otherwise keep your coins for the promo coming up. And remember: even the strongest card only delivers if you can make it play. If you want me to help you use her in the right formation, 👉 **[book your coaching here](/en/coaching)**.
+
+Continue here: [the new 4-3-1-2 meta](/en/newsletter/fc-27-meta-4312-addio-4411-modulo-pro), [how to defend to reach Elite](/en/newsletter/come-si-difende-fc-27-guida-completa-arrivare-elite) and [what to do with Destined for Glory Team 2](/en/newsletter/ea-fc-27-destined-for-glory-team-2-cosa-fare-ora).`,
+    },
+  },
+  {
     slug: "fc-27-meta-4312-addio-4411-modulo-pro",
     title: "FC 27, il meta è cambiato: tutti sul 4-3-1-2, addio 4-4-1-1",
     description:
