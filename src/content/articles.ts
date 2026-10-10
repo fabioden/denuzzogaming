@@ -30,6 +30,110 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "fc-27-future-stars-team-1-live-giocatori-carte-migliori",
+    title: "FC 27 Future Stars Team 1 è live: giocatori, carte migliori e cosa fare",
+    description:
+      "FC 27 Future Stars Team 1 è live dal 9 ottobre: Ngumoha headliner, Vicky López 90 la carta top, 15 giovani talenti con upgrade sulle prestazioni reali. Chi prendere e cosa fare, dal coach.",
+    category: "News",
+    date: "2026-10-10",
+    dateLabel: "10 Ottobre 2026",
+    readingTime: "5 min",
+    badge: "Promo",
+    excerpt:
+      "È uscita la promo Future Stars Team 1: 15 wonderkid con upgrade legati alle prestazioni reali. Ti dico le carte migliori, come funzionano gli upgrade e cosa conviene fare.",
+    body: `Ci siamo: la promo che ti avevo anticipato nei [leak](/newsletter/fc-27-future-stars-leak-promo-venerdi-cosa-sappiamo) è ufficiale. **I Future Stars Team 1 sono live dal 9 ottobre** e, come dicevo, c'è dentro la **Vicky López**. Ti metto ordine, da coach: chi sono, quali carte valgono e cosa fare.
+
+## Cos'è Future Stars
+
+Sono i **giovani talenti (under 23)** che ricevono una carta speciale potenziata, con l'idea di rappresentare il loro futuro. La chicca di quest'anno: gli **upgrade sono legati alle prestazioni reali**. Attaccanti e centrocampisti crescono con gol e assist, difensori e portieri con i clean sheet, e contano **solo le partite di campionato**. Gli upgrade live sono previsti per il **3 febbraio 2027**.
+
+## I 15 giocatori del Team 1
+
+Headliner ufficiale: **Rio Ngumoha** (Liverpool). Insieme a lui:
+
+- **Vicky López (Barcellona)** – la carta più forte del team
+- **Myles Lewis-Skelly** (Arsenal), **Mika Godts** (Ajax)
+- **Yoan Bonny (Inter)** – occhio, link **Serie A**
+- **Jacobo Ramón** (Como), **Gilberto Mora** (Tijuana), **Tom Bischof** (Bayern)
+- **Lewis Hall** (Newcastle), **Josh King** (Fulham), **Julian Hall** (NY Red Bulls)
+- **Lily Yohannes** (OL Lyonnes), **Laura Blindkilde Brown** (Man City), **Jon Martín** (Real Sociedad), **Robin Risser** (Lens)
+
+## Le carte migliori (rating)
+
+Secondo i primi riscontri: **Vicky López RW 90** (la top), **Ngumoha 89**, **Lewis-Skelly e Godts 88**, **Jacobo Ramón, Gilberto Mora e Yoan Bonny 87**. I rating definitivi li vedi in gioco, ma la gerarchia è questa.
+
+## SBC e Obiettivi
+
+Oltre alle carte da pacchetto, la promo porta **SBC e Obiettivi**: gira il nome di **Carlos Espí** come SBC (intorno ai 40k di fodder) e c'è il **Future Stars Academy Objective**, che ti fa guadagnare premi giocando con la tua carta Academy. Verifica requisiti e costi aggiornati su Futbin/FUT.GG prima di buttare fodder.
+
+## Cosa fare, da coach
+
+1. **Vicky López 90** è la più forte: se ci giochi (ottima da ala o trequartista nel [4-3-1-2 meta](/newsletter/fc-27-meta-4312-addio-4411-modulo-pro)) ed è nel tuo budget, è la carta della promo.
+2. **Yoan Bonny (Inter)** è l'occasione per chi ha una rosa **Serie A**: link comodi e crescerà con le prestazioni.
+3. **Non svuotare il club sui pacchetti.** I Future Stars sono tanti e i prezzi all'inizio ballano: le carte da SBC/Obiettivo spesso rendono di più di quelle da pack.
+4. **Punta sui giovani che giocano davvero** in campionato: se il giocatore è titolare e segna/assiste, la carta cresce nel tempo. È lì il valore vero.
+
+## Il consiglio del coach
+
+Una carta Future Stars fa gola, ma non ti fa salire di divisione da sola: contano il modulo e il manico. Se vuoi scegliere bene chi prendere e renderlo al massimo nella tua rosa, 👉 **[prenota il tuo coaching qui](/coaching)**. Tutto il meta aggiornato è anche ne **Il Corso di Fabio**.
+
+Continua qui: [il nuovo meta del 4-3-1-2](/newsletter/fc-27-meta-4312-addio-4411-modulo-pro), [il TOTW 4 con Putellas 92](/newsletter/fc-27-totw-4-putellas-92-cam-squadra-della-settimana) e [come si difende per arrivare in Elite](/newsletter/come-si-difende-fc-27-guida-completa-arrivare-elite).
+
+---
+
+*Fonti: pagina ufficiale EA SPORTS FC 27 Future Stars (Team 1 live dal 9 ottobre 2026, headliner Rio Ngumoha, upgrade sulle prestazioni reali live dal 3 febbraio 2027) e roundup della community per rating e SBC, non tutti confermati ufficialmente da EA al momento della pubblicazione.*`,
+    en: {
+      title: "FC 27 Future Stars Team 1 Is Live: Players, Best Cards and What to Do",
+      description:
+        "FC 27 Future Stars Team 1 is live from October 9: Ngumoha headliner, Vicky López 90 the top card, 15 young talents with upgrades based on real-world form. Who to get and what to do, from the coach.",
+      category: "News",
+      dateLabel: "October 10, 2026",
+      excerpt:
+        "The Future Stars Team 1 promo is out: 15 wonderkids with upgrades tied to real-world form. I give you the best cards, how the upgrades work and what to do.",
+      body: `Here we go: the promo I teased in the [leaks](/en/newsletter/fc-27-future-stars-leak-promo-venerdi-cosa-sappiamo) is official. **Future Stars Team 1 is live from October 9** and, as I said, **Vicky López** is in it. Let me sort it out, from the coach: who they are, which cards are worth it and what to do.
+
+## What Future Stars is
+
+These are the **young talents (under 23)** who get a boosted special card representing their future. This year's twist: **upgrades are tied to real-world form**. Forwards and midfielders grow with goals and assists, defenders and keepers with clean sheets, and only **domestic league matches** count. The live upgrades are planned for **February 3, 2027**.
+
+## The 15 Team 1 players
+
+Official headliner: **Rio Ngumoha** (Liverpool). Alongside him:
+
+- **Vicky López (Barcelona)** – the strongest card of the team
+- **Myles Lewis-Skelly** (Arsenal), **Mika Godts** (Ajax)
+- **Yoan Bonny (Inter)** – note the **Serie A** link
+- **Jacobo Ramón** (Como), **Gilberto Mora** (Tijuana), **Tom Bischof** (Bayern)
+- **Lewis Hall** (Newcastle), **Josh King** (Fulham), **Julian Hall** (NY Red Bulls)
+- **Lily Yohannes** (OL Lyonnes), **Laura Blindkilde Brown** (Man City), **Jon Martín** (Real Sociedad), **Robin Risser** (Lens)
+
+## The best cards (ratings)
+
+According to the first reports: **Vicky López RW 90** (the top), **Ngumoha 89**, **Lewis-Skelly and Godts 88**, **Jacobo Ramón, Gilberto Mora and Yoan Bonny 87**. Final ratings are in-game, but this is the hierarchy.
+
+## SBCs and Objectives
+
+Beyond the pack cards, the promo brings **SBCs and Objectives**: the name **Carlos Espí** is going around as an SBC (around 40k of fodder) and there is the **Future Stars Academy Objective**, which earns you rewards by playing with your Academy card. Check updated requirements and costs on Futbin/FUT.GG before dumping fodder.
+
+## What to do, from the coach
+
+1. **Vicky López 90** is the strongest: if you play her (great as a winger or attacking mid in the [meta 4-3-1-2](/en/newsletter/fc-27-meta-4312-addio-4411-modulo-pro)) and she fits your budget, she is the card of the promo.
+2. **Yoan Bonny (Inter)** is the pick for anyone on a **Serie A** squad: handy links and he will grow with form.
+3. **Do not empty your club on packs.** There are many Future Stars and prices swing early on: SBC/Objective cards often give more value than pack ones.
+4. **Back the youngsters who actually play** in their league: if the player starts and scores/assists, the card grows over time. That is the real value.
+
+## The coach's take
+
+A Future Stars card is tempting, but it does not climb divisions by itself: formation and skill matter. If you want to pick the right one and get the most out of it in your squad, 👉 **[book your coaching here](/en/coaching)**. All the up-to-date meta is in **Fabio's Course** too.
+
+Continue here: [the new 4-3-1-2 meta](/en/newsletter/fc-27-meta-4312-addio-4411-modulo-pro), [TOTW 4 with Putellas 92](/en/newsletter/fc-27-totw-4-putellas-92-cam-squadra-della-settimana) and [how to defend to reach Elite](/en/newsletter/come-si-difende-fc-27-guida-completa-arrivare-elite).
+
+---
+
+*Sources: official EA SPORTS FC 27 Future Stars page (Team 1 live from October 9, 2026, headliner Rio Ngumoha, real-form upgrades live from February 3, 2027) and community roundups for ratings and SBCs, not all officially confirmed by EA at the time of publishing.*`,
+    },
+  },
+  {
     slug: "fc-27-totw-4-putellas-92-cam-squadra-della-settimana",
     title: "FC 27 TOTW 4: Putellas 92 CAM guida la squadra della settimana",
     description:
