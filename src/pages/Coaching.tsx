@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useContent } from "@/content/use-content";
 import { social } from "@/content";
 import { useLang } from "@/i18n";
@@ -7,6 +8,7 @@ import SpotlightCard from "@/components/reactbits/SpotlightCard";
 const wrap = "max-w-[1100px] mx-auto px-[clamp(24px,5vw,56px)]";
 const section = "py-[clamp(64px,9vh,120px)] relative";
 const lead = "text-[clamp(1rem,1.4vw,1.18rem)] text-ink-2 max-w-[56ch]";
+const CAL_URL = "https://cal.com/fabio-denuzzo-be6jqr/coachin-1vs1";
 
 export default function Coaching() {
   const { coachingPage: c } = useContent();
@@ -110,6 +112,42 @@ export default function Coaching() {
                 </SpotlightCard>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* CONSIGLIO DI FABIO + DISPONIBILITA': spinge prima il Corso, poi mostra gli slot reali (sola visione). */}
+      <section className={section}>
+        <div className={wrap}>
+          <div className="rounded-[var(--radius-card)] border border-gold/45 bg-gold/[.06] p-[clamp(20px,4vw,32px)] max-w-[760px] mx-auto text-center fade-up mb-10">
+            <span className="section-label justify-center">{lang === "en" ? "Fabio's advice" : "Il consiglio di Fabio"}</span>
+            <h2 className="text-[clamp(1.4rem,3vw,2rem)] mb-3">{lang === "en" ? "Before coaching, get my course" : "Prima del coaching, prendi il mio corso"}</h2>
+            <p className="text-ink-2 text-[.95rem] max-w-[52ch] mx-auto mb-6">{lang === "en" ? "In the course I teach you to play, step by step, at your pace. Most players level up with that alone. Then, if you want me by your side, coaching is here." : "Nel corso ti insegno io a giocare, passo passo, al tuo ritmo. La maggior parte sale di livello solo con quello. Poi, se vuoi me accanto, il coaching è qui."}</p>
+            <Link to="/corso" className="btn-primary inline-flex no-underline">{lang === "en" ? "Discover Fabio's course" : "Scopri Il Corso di Fabio"}</Link>
+          </div>
+
+          <div className="text-center mb-5 fade-up">
+            <span className="section-label justify-center">{lang === "en" ? "My availability" : "Le mie disponibilità"}</span>
+            <h2 className="text-[clamp(1.4rem,3vw,2rem)]">{lang === "en" ? "See when I'm free" : "Guarda quando sono libero"}</h2>
+            <p className="text-ink-2 text-[.95rem] max-w-[54ch] mx-auto mt-2">{lang === "en" ? "These are my real slots. Booking unlocks once you get a package above or the Elite Path." : "Queste sono le mie disponibilità reali. Per prenotare, prendi un pacchetto qui sopra o il Percorso Elite."}</p>
+          </div>
+
+          <div className="relative rounded-[var(--radius-card)] border border-line-2 overflow-hidden bg-card max-w-[900px] mx-auto fade-up">
+            <iframe
+              src={`${CAL_URL}?theme=dark`}
+              title={lang === "en" ? "Coaching availability" : "Disponibilità coaching"}
+              className="w-full block"
+              style={{ height: "clamp(560px, 70vh, 760px)", border: 0 }}
+              loading="lazy"
+            />
+            {/* Velo trasparente: si vedono gli slot ma non si prenota da qui (serve un pacchetto). */}
+            <div className="absolute inset-0 z-10" aria-hidden="true">
+              <div className="flex justify-center pt-4 bg-gradient-to-b from-[#0b0a0e]/85 to-transparent pb-10">
+                <span className="inline-flex items-center gap-2 rounded-full border border-gold/40 bg-[#0b0a0e]/80 px-3.5 py-1.5 text-[.82rem] text-ink">
+                  {lang === "en" ? "View only — get a package to book" : "Sola visione · prendi un pacchetto per prenotare"}
+                </span>
+              </div>
+            </div>
           </div>
         </div>
       </section>
