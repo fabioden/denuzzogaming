@@ -10,6 +10,7 @@ const eliteSteps = ["Analisi", "Mese 1 · Fondamenta", "Mese 2 · Attacco + WL",
 // Endpoint del Worker (dichiarazione ore già fatte dei clienti vecchi).
 const WORKER_URL = "https://denuzzo-stripe-webhook.business-fabiodenuzzo.workers.dev";
 const CAL_URL = "https://cal.com/fabio-denuzzo-be6jqr/coachin-1vs1";
+const WHATSAPP_URL = "https://wa.me/393667142489?text=" + encodeURIComponent("Ciao Fabio! Ho acquistato il coaching 1:1. Ti scrivo per iniziare: ti confermo che ho prenotato la sessione.");
 
 type Credits = { hours_total: number; hours_used: number; pending: boolean };
 
@@ -142,6 +143,13 @@ export default function Coaching() {
               <p className="text-ink-2 text-[.95rem] mb-3">
                 Ti restano <strong className="text-gold">{remaining} {remaining === 1 ? "ora" : "ore"}</strong>. Scegli uno slot libero: ricevi l'invito e io lo vedo nel calendario. <span className="text-muted">(usa questa email: {user.email})</span>
               </p>
+              <div className="mb-4 rounded-[12px] border border-gold/30 bg-gold/[.06] p-4 flex flex-col sm:flex-row sm:items-center gap-3 justify-between">
+                <p className="text-ink text-[.95rem]"><strong className="text-ink">Dopo aver prenotato, scrivimi su WhatsApp.</strong> Così partiamo subito e ti dico come mandarmi le clip.</p>
+                <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn-primary no-underline inline-flex items-center gap-2 shrink-0">
+                  <svg viewBox="0 0 24 24" fill="currentColor" className="w-[18px] h-[18px]"><path d="M17.5 14.4c-.3-.15-1.7-.84-1.97-.94-.26-.1-.46-.14-.65.14-.2.27-.74.94-.9 1.13-.17.2-.33.22-.61.07-1.5-.75-2.48-1.34-3.47-3.03-.26-.45.26-.42.74-1.4.08-.17.04-.31-.02-.45-.07-.14-.65-1.57-.9-2.15-.23-.56-.47-.48-.65-.49h-.55c-.2 0-.5.07-.76.36-.26.27-1 .98-1 2.4 0 1.4 1.02 2.76 1.17 2.95.14.2 2.01 3.08 4.88 4.32 2.86 1.24 2.86.83 3.38.78.52-.05 1.68-.69 1.92-1.35.24-.66.24-1.22.17-1.34-.07-.12-.26-.19-.55-.33M12 2a10 10 0 0 0-8.55 15.18L2 22l4.94-1.3A10 10 0 1 0 12 2Z"/></svg>
+                  Scrivimi su WhatsApp
+                </a>
+              </div>
               <div className="rounded-[var(--radius-card)] border border-line-2 overflow-hidden bg-card">
                 <iframe
                   src={`${CAL_URL}?theme=dark&email=${encodeURIComponent(user.email || "")}`}
