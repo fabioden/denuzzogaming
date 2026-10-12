@@ -52,6 +52,21 @@ export default function Coaching() {
           <Testimonials />
         </div>
 
+        {/* PRENOTA: calendario Calendly (per chi ha gia preso un pacchetto) */}
+        <div id="prenota" className="mb-9 fade-up scroll-mt-24">
+          <span className="section-label block mb-2">Prenota la tua sessione</span>
+          <p className="text-ink-2 text-[.95rem] max-w-[62ch] mb-4">Hai gia preso un pacchetto? Scegli qui sotto uno slot libero: ricevi l'invito con il link Google Meet e io lo vedo nel mio calendario.</p>
+          <div className="rounded-[var(--radius-card)] border border-line-2 overflow-hidden bg-card">
+            <iframe
+              src="https://calendly.com/business-fabiodenuzzo/sessione-coaching-1-1?hide_gdpr_banner=1&background_color=14101a&text_color=f4f1ea&primary_color=d6a21a"
+              title="Prenota la sessione di coaching"
+              className="w-full block"
+              style={{ height: "clamp(640px, 80vh, 820px)", border: 0 }}
+              loading="lazy"
+            />
+          </div>
+        </div>
+
         <div className="flex flex-wrap items-center gap-3">
           <Link to="/coaching" className="btn-primary inline-flex items-center gap-2 no-underline">
             Vedi i pacchetti e prenota
