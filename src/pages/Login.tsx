@@ -1,5 +1,5 @@
 import { useState, type FormEvent } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useSearchParams } from "react-router-dom";
 import { supabase } from "@/lib/supabaseClient";
 
 const wrap = "max-w-[1100px] mx-auto px-[clamp(24px,5vw,64px)]";
@@ -33,6 +33,11 @@ export default function Login() {
   const [msg, setMsg] = useState("");
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
+  const [params] = useSearchParams();
+
+  // Dopo un acquisto coaching mandiamo qui con ?next=coaching: messaggio dedicato + atterraggio sulla prenotazione.
+  const fromCoaching = params.get("next") === "coaching";
+  const dest = fromCoaching ? "/account/coaching" : "/account";
 
   async function submit(e: FormEvent) {
     e.preventDefault();
@@ -44,14 +49,14 @@ export default function Login() {
         if (error) throw error;
         // Se la conferma email e' disattivata, Supabase restituisce subito una sessione: entra diretto.
         if (data.session) {
-          navigate("/account");
+          navigate(dest);
         } else {
           setMsg("Account creato. Controlla l'email per confermare, poi accedi.");
         }
       } else {
         const { error } = await supabase.auth.signInWithPassword({ email, password });
         if (error) throw error;
-        navigate("/account");
+        navigate(dest);
       }
     } catch (err) {
       const m = (err as Error).message || "";
@@ -69,6 +74,14 @@ export default function Login() {
   return (
     <section className="pt-[clamp(140px,18vh,200px)] pb-[clamp(60px,10vh,120px)]">
       <div className={wrap}>
+        {fromCoaching && (
+          <div className="rounded-[var(--radius-card)] border border-gold/50 bg-gold/[.08] p-4 sm:p-5 mb-8 max-w-[760px] fade-up">
+            <p className="text-ink text-[1.05rem] font-medium mb-1">Grazie per aver preso il coaching. Un ultimo passo per prenotare.</p>
+            <p className="text-ink-2 text-[.95rem]">
+              Crea il tuo account qui sotto usando <strong className="text-ink">la stessa email con cui hai pagato</strong>: così ritrovi subito le tue ore e scegli lo slot per la sessione. Bastano email e password, è gratis.
+            </p>
+          </div>
+        )}
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_420px] gap-10 lg:gap-16 items-start">
           {/* SINISTRA — il valore: reward immediato + confronto Free vs PRO */}
           <div>
