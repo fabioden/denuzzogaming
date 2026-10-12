@@ -5,11 +5,16 @@
 export const CHECKOUT = {
   mensile: "https://buy.stripe.com/7sY8wP3ON6Wxdjn16b4AU09",
   annuale: "https://buy.stripe.com/00w5kD1GF1Cdenr9CH4AU0a",
+  // "Percorso Elite": abbonamento annuale €135 che sblocca il Corso per la stagione
+  // E regala 4 ore di coaching 1:1 (il Worker le carica da solo all'acquisto).
+  // Dev'essere un link ABBONAMENTO (come l'annuale), non un pagamento una-tantum.
+  bundle: "https://buy.stripe.com/dRmdR9clj3Kl4MR6qv4AU0b",
 };
 
 export const PRICING = {
   mensile: { price: "€12,99", period: "/mese" },
   annuale: { price: "€99", period: "", hint: "per tutta la stagione EA FC 27" },
+  bundle: { price: "€135", priceFull: "€181", period: "", hint: "Corso per tutta la stagione + 4 ore 1:1 con Fabio" },
 };
 
 // Aggiunge id utente + email al link Stripe, così il webhook collega l'acquisto all'account.

@@ -34,6 +34,7 @@ export default function Coaching() {
   }, [email]);
 
   const remaining = credits ? Math.max(0, credits.hours_total - credits.hours_used) : 0;
+  const canBook = !!credits && !credits.pending && remaining > 0;
 
   async function submitDeclare() {
     if (!credits) return;
@@ -103,20 +104,13 @@ export default function Coaching() {
           <Testimonials />
         </div>
 
-        {/* PRENOTA: in base alle ore acquistate su Stripe */}
+        {/* PRENOTA: calendario sempre visibile. Chi non ha ore vede le disponibilità ma non prenota. */}
         <div id="prenota" className="fade-up scroll-mt-24">
-          <span className="section-label block mb-3">Prenota la tua sessione</span>
+          <span className="section-label block mb-3">Disponibilità e prenotazione</span>
 
-          {loading ? (
-            <p className="text-ink-2 text-[.95rem]">Carico le tue ore…</p>
-          ) : !credits ? (
-            <div className="card card--static max-w-[560px]">
-              <p className="text-ink text-[1.05rem] font-medium mb-1">Non risultano ore di coaching sul tuo account.</p>
-              <p className="text-ink-2 text-[.95rem] mb-4">Per prenotare una sessione, prendi prima un pacchetto. (Usa la stessa email dell'account.)</p>
-              <Link to="/coaching" className="btn-primary no-underline inline-flex items-center">Vedi i pacchetti</Link>
-            </div>
-          ) : credits.pending ? (
-            <div className="card card--static max-w-[560px]">
+          {/* Pannello DICHIARAZIONE ore (solo clienti storici, una volta sola) */}
+          {!loading && credits?.pending && (
+            <div className="card card--static max-w-[560px] mb-5 border-gold/40">
               <p className="text-ink text-[1.05rem] font-medium mb-1">
                 Risulta che hai acquistato {credits.hours_total} {credits.hours_total === 1 ? "ora" : "ore"} di coaching.
               </p>
@@ -127,18 +121,15 @@ export default function Coaching() {
                   onChange={(e) => setDeclDone(Math.max(0, Math.min(credits.hours_total, Number(e.target.value) || 0)))}
                   className="bg-card border border-line-2 rounded-[8px] px-3 py-2 w-24 text-ink outline-none focus:border-gold"
                 />
-                <button onClick={submitDeclare} disabled={declaring} className="btn-primary">{declaring ? "Attendi…" : "Conferma"}</button>
+                <button onClick={submitDeclare} disabled={declaring} className="btn-primary">{declaring ? "Attendi…" : "Conferma e sblocca"}</button>
               </div>
               {declMsg && <p className="text-gold text-[.9rem] mt-2">{declMsg}</p>}
               <p className="text-muted text-[.82rem] mt-2">Si conferma una volta sola: da lì prenoti le ore che ti restano.</p>
             </div>
-          ) : remaining <= 0 ? (
-            <div className="card card--static max-w-[560px]">
-              <p className="text-ink text-[1.05rem] font-medium mb-1">Hai usato tutte le tue ore.</p>
-              <p className="text-ink-2 text-[.95rem] mb-4">Per continuare il percorso, prendi un altro pacchetto.</p>
-              <Link to="/coaching" className="btn-primary no-underline inline-flex items-center">Acquista ancora</Link>
-            </div>
-          ) : (
+          )}
+
+          {/* Chi PUO' prenotare: banner ore + WhatsApp */}
+          {canBook && (
             <>
               <p className="text-ink-2 text-[.95rem] mb-3">
                 Ti restano <strong className="text-gold">{remaining} {remaining === 1 ? "ora" : "ore"}</strong>. Scegli uno slot libero: ricevi l'invito e io lo vedo nel calendario. <span className="text-muted">(usa questa email: {user.email})</span>
@@ -150,17 +141,62 @@ export default function Coaching() {
                   Scrivimi su WhatsApp
                 </a>
               </div>
-              <div className="rounded-[var(--radius-card)] border border-line-2 overflow-hidden bg-card">
-                <iframe
-                  src={`${CAL_URL}?theme=dark&email=${encodeURIComponent(user.email || "")}`}
-                  title="Prenota la sessione di coaching"
-                  className="w-full block"
-                  style={{ height: "clamp(640px, 80vh, 820px)", border: 0 }}
-                  loading="lazy"
-                />
-              </div>
             </>
           )}
+
+          {!canBook && !credits?.pending && (
+            <p className="text-ink-2 text-[.95rem] mb-3">
+              Queste sono le mie disponibilità reali. <span className="text-muted">Le vedi liberamente: la prenotazione si sblocca quando hai un pacchetto coaching attivo.</span>
+            </p>
+          )}
+
+          {/* CALENDARIO: sempre renderizzato. Velo trasparente che blocca i click per chi non può prenotare. */}
+          <div className="relative rounded-[var(--radius-card)] border border-line-2 overflow-hidden bg-card">
+            <iframe
+              src={`${CAL_URL}?theme=dark&email=${encodeURIComponent(user?.email || "")}`}
+              title="Disponibilità coaching"
+              className="w-full block"
+              style={{ height: "clamp(640px, 80vh, 820px)", border: 0 }}
+              loading="lazy"
+            />
+
+            {!canBook && (
+              <div className="absolute inset-0 z-10 flex flex-col items-center justify-start pt-6 sm:pt-10 px-4 bg-gradient-to-b from-[#0b0a0e]/92 via-[#0b0a0e]/35 to-transparent">
+                {loading ? (
+                  <div className="card card--static max-w-[460px] text-center">
+                    <p className="text-ink-2 text-[.95rem]">Carico le tue ore…</p>
+                  </div>
+                ) : !credits ? (
+                  // IL CONSIGLIO DI FABIO: spingi prima il Corso, poi eventualmente il coaching.
+                  <div className="card card--static max-w-[500px] text-center border-gold/45">
+                    <span className="section-label block mb-2">Il consiglio di Fabio</span>
+                    <p className="text-ink text-[1.08rem] font-medium leading-snug mb-2">
+                      Prima del coaching, prendi <strong className="text-gold">Il Corso di Fabio</strong>.
+                    </p>
+                    <p className="text-ink-2 text-[.95rem] mb-5">
+                      Nel corso ti insegno io a giocare, passo passo, al tuo ritmo. La maggior parte sale di livello solo con quello. Poi, se vuoi che ti segua di persona, il coaching è qui e ti aspetta.
+                    </p>
+                    <div className="flex flex-col items-center gap-2.5">
+                      <Link to="/corso" className="btn-primary no-underline inline-flex items-center w-full justify-center">Scopri Il Corso di Fabio</Link>
+                      <Link to="/coaching" className="text-ink-2 underline text-[.9rem] hover:text-gold transition-colors">Voglio comunque il coaching 1:1</Link>
+                    </div>
+                    <p className="text-muted text-[.82rem] mt-4">(Qui sopra vedi le disponibilità reali. Usa la stessa email dell'account.)</p>
+                  </div>
+                ) : credits.pending ? (
+                  <div className="card card--static max-w-[460px] text-center border-gold/40">
+                    <p className="text-ink text-[1.02rem] font-medium mb-1">Conferma prima le tue ore</p>
+                    <p className="text-ink-2 text-[.93rem]">Rispondi alla domanda qui sopra ("quante ore hai già fatto?") e la prenotazione si sblocca.</p>
+                  </div>
+                ) : (
+                  <div className="card card--static max-w-[460px] text-center border-gold/40">
+                    <p className="text-ink text-[1.02rem] font-medium mb-1">Hai usato tutte le tue ore.</p>
+                    <p className="text-ink-2 text-[.93rem] mb-4">Per continuare il percorso, prendi un altro pacchetto.</p>
+                    <Link to="/coaching" className="btn-primary no-underline inline-flex items-center">Acquista ancora</Link>
+                  </div>
+                )}
+              </div>
+            )}
+          </div>
         </div>
       </div>
     </section>

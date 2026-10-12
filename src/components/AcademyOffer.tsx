@@ -61,6 +61,34 @@ function PlanCard({ base, user, tier, price, period, hint, recommended, badge }:
   );
 }
 
+// Upsell premium: il bundle Corso + 4 ore. Loggato -> checkout abbonamento con aggancio account.
+function EliteUpsell({ user }: { user: BuyUser }) {
+  const href = user?.id ? checkoutUrl(CHECKOUT.bundle, user) : "";
+  return (
+    <div className="mt-3 rounded-[13px] border border-gold/45 bg-gold/[.06] p-4 flex flex-col sm:flex-row sm:items-center gap-3">
+      <div className="flex-1 min-w-0">
+        <div className="flex items-center gap-2 flex-wrap">
+          <span className="text-ink-2 text-[.86rem] font-medium uppercase tracking-[.08em]">Percorso Elite</span>
+          <span className="inline-flex items-center px-2 py-0.5 rounded-full bg-gold text-gold-contrast text-[10px] font-bold uppercase tracking-[.08em]">Il più completo</span>
+        </div>
+        <p className="text-ink text-[.98rem] font-medium mt-1 leading-snug">
+          Tutto il Corso per la stagione <span className="text-gold">+ 4 ore 1:1 con me</span>
+        </p>
+        <div className="flex items-baseline gap-2 mt-1">
+          <span className="font-display serif text-ink font-bold text-[1.6rem] leading-none">{PRICING.bundle.price}</span>
+          <span className="font-mono text-[13px] text-muted line-through">{PRICING.bundle.priceFull}</span>
+          <span className="text-muted text-[.82rem]">una volta, per tutta la stagione</span>
+        </div>
+      </div>
+      {user?.id ? (
+        <a href={href} className="btn-primary no-underline text-center shrink-0 inline-block">Prendi il Percorso Elite</a>
+      ) : (
+        <Link to="/login" className="btn-primary no-underline text-center shrink-0 inline-block">Prendi il Percorso Elite</Link>
+      )}
+    </div>
+  );
+}
+
 export function AcademyOffer({ user }: { user?: BuyUser }) {
   return (
     <div className="relative mx-auto max-w-[620px] rounded-[16px] border border-line-2 bg-gradient-to-b from-[#1b1721] to-[#131017] p-[clamp(22px,4vw,32px)] shadow-[0_30px_70px_-34px_rgba(0,0,0,.85)] fade-up">
@@ -94,6 +122,9 @@ export function AcademyOffer({ user }: { user?: BuyUser }) {
           badge="≈ 2 mesi gratis"
         />
       </div>
+
+      {/* UPSELL "Percorso Elite": Corso per la stagione + 4 ore 1:1 con Fabio. */}
+      {CHECKOUT.bundle && <EliteUpsell user={user} />}
 
       {/* COSA OTTIENI */}
       <ul className="flex flex-col mt-6">
