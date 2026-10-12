@@ -1,9 +1,13 @@
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useContent } from "@/content/use-content";
 import { social } from "@/content";
 import { useLang } from "@/i18n";
 import Seo from "@/components/Seo";
 import SpotlightCard from "@/components/reactbits/SpotlightCard";
+import { EliteUpsell } from "@/components/AcademyOffer";
+import { CHECKOUT } from "@/lib/checkout";
+import { supabase } from "@/lib/supabaseClient";
 
 const wrap = "max-w-[1100px] mx-auto px-[clamp(24px,5vw,56px)]";
 const section = "py-[clamp(64px,9vh,120px)] relative";
@@ -13,6 +17,16 @@ const CAL_URL = "https://cal.com/fabio-denuzzo-be6jqr/coachin-1vs1";
 export default function Coaching() {
   const { coachingPage: c } = useContent();
   const lang = useLang();
+
+  // Se l'utente e' loggato, il bottone del Percorso Elite aggancia l'account; altrimenti porta al login.
+  const [user, setUser] = useState<{ id?: string; email?: string | null } | null>(null);
+  useEffect(() => {
+    supabase.auth.getSession().then(({ data }) => {
+      const u = data.session?.user;
+      setUser(u ? { id: u.id, email: u.email } : null);
+    });
+  }, []);
+
   return (
     <>
       <Seo
@@ -113,6 +127,13 @@ export default function Coaching() {
               </div>
             ))}
           </div>
+
+          {/* Opzione premium: il bundle Corso + 4 ore (abbonamento, aggancia l'account se loggato). */}
+          {CHECKOUT.bundle && (
+            <div className="max-w-[760px] mx-auto mt-6 fade-up">
+              <EliteUpsell user={user} />
+            </div>
+          )}
         </div>
       </section>
 

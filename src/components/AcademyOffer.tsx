@@ -62,7 +62,8 @@ function PlanCard({ base, user, tier, price, period, hint, recommended, badge }:
 }
 
 // Upsell premium: il bundle Corso + 4 ore. Loggato -> checkout abbonamento con aggancio account.
-function EliteUpsell({ user }: { user: BuyUser }) {
+// Esportato: usato sia nell'offerta del Corso sia sulla pagina pubblica /coaching.
+export function EliteUpsell({ user }: { user: BuyUser }) {
   const href = user?.id ? checkoutUrl(CHECKOUT.bundle, user) : "";
   return (
     <div className="mt-3 rounded-[13px] border border-gold/45 bg-gold/[.06] p-4 flex flex-col sm:flex-row sm:items-center gap-3">
