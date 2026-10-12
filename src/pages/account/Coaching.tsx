@@ -58,7 +58,7 @@ export default function Coaching() {
           <p className="text-ink-2 text-[.95rem] max-w-[62ch] mb-4">Hai gia preso un pacchetto? Scegli qui sotto uno slot libero: ricevi l'invito con il link Google Meet e io lo vedo nel mio calendario.</p>
           <div className="rounded-[var(--radius-card)] border border-line-2 overflow-hidden bg-card">
             <iframe
-              src="https://calendly.com/business-fabiodenuzzo/sessione-coaching-1-1?hide_gdpr_banner=1&background_color=14101a&text_color=f4f1ea&primary_color=d6a21a"
+              src="https://cal.com/fabio-denuzzo-be6jqr/coachin-1vs1?theme=dark"
               title="Prenota la sessione di coaching"
               className="w-full block"
               style={{ height: "clamp(640px, 80vh, 820px)", border: 0 }}
