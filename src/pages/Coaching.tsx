@@ -8,11 +8,11 @@ import SpotlightCard from "@/components/reactbits/SpotlightCard";
 import { EliteUpsell } from "@/components/AcademyOffer";
 import { CHECKOUT } from "@/lib/checkout";
 import { supabase } from "@/lib/supabaseClient";
+import AvailabilityView from "@/components/AvailabilityView";
 
 const wrap = "max-w-[1100px] mx-auto px-[clamp(24px,5vw,56px)]";
 const section = "py-[clamp(64px,9vh,120px)] relative";
 const lead = "text-[clamp(1rem,1.4vw,1.18rem)] text-ink-2 max-w-[56ch]";
-const CAL_URL = "https://cal.com/fabio-denuzzo-be6jqr/coachin-1vs1";
 
 export default function Coaching() {
   const { coachingPage: c } = useContent();
@@ -153,22 +153,9 @@ export default function Coaching() {
             <p className="text-ink-2 text-[.95rem] max-w-[54ch] mx-auto mt-2">{lang === "en" ? "These are my real slots. Booking unlocks once you get a package above or the Elite Path." : "Queste sono le mie disponibilità reali. Per prenotare, prendi un pacchetto qui sopra o il Percorso Elite."}</p>
           </div>
 
-          <div className="relative rounded-[var(--radius-card)] border border-line-2 overflow-hidden bg-card max-w-[900px] mx-auto fade-up">
-            <iframe
-              src={`${CAL_URL}?theme=dark`}
-              title={lang === "en" ? "Coaching availability" : "Disponibilità coaching"}
-              className="w-full block"
-              style={{ height: "clamp(560px, 70vh, 760px)", border: 0 }}
-              loading="lazy"
-            />
-            {/* Velo trasparente: si vedono gli slot ma non si prenota da qui (serve un pacchetto). */}
-            <div className="absolute inset-0 z-10" aria-hidden="true">
-              <div className="flex justify-center pt-4 bg-gradient-to-b from-[#0b0a0e]/85 to-transparent pb-10">
-                <span className="inline-flex items-center gap-2 rounded-full border border-gold/40 bg-[#0b0a0e]/80 px-3.5 py-1.5 text-[.82rem] text-ink">
-                  {lang === "en" ? "View only — get a package to book" : "Sola visione · prendi un pacchetto per prenotare"}
-                </span>
-              </div>
-            </div>
+          <div className="max-w-[900px] mx-auto fade-up">
+            <AvailabilityView />
+            <p className="text-muted text-[.82rem] text-center mt-3">{lang === "en" ? "View only. To book, get a package above or the Elite Path." : "Sola visione. Per prenotare, prendi un pacchetto qui sopra o il Percorso Elite."}</p>
           </div>
         </div>
       </section>
