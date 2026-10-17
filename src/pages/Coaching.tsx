@@ -154,7 +154,7 @@ export default function Coaching() {
           </div>
 
           <div className="max-w-[900px] mx-auto fade-up">
-            <AvailabilityView />
+            <AvailabilityView notice={lang === "en" ? "I'm away Oct 21-26: no sessions those days. Pick a slot before the 21st or from the 27th." : "Dal 21 al 26 ottobre sono in pausa: niente sessioni in quei giorni. Scegli uno slot prima del 21 o dal 27 in poi."} />
             <p className="text-muted text-[.82rem] text-center mt-3">{lang === "en" ? "View only. To book, get a package above or the Elite Path." : "Sola visione. Per prenotare, prendi un pacchetto qui sopra o il Percorso Elite."}</p>
           </div>
         </div>
