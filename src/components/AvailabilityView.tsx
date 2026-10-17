@@ -29,7 +29,7 @@ function hhmm(iso: string): string {
   return iso.slice(11, 16);
 }
 
-export default function AvailabilityView() {
+export default function AvailabilityView({ notice }: { notice?: string } = {}) {
   const [weekStart, setWeekStart] = useState<Date>(startOfToday);
   const [data, setData] = useState<Record<string, Slot[]>>({});
   const [loading, setLoading] = useState(true);
@@ -69,6 +69,15 @@ export default function AvailabilityView() {
 
   return (
     <div className="rounded-[var(--radius-card)] border border-line-2 bg-card overflow-hidden">
+      {notice && (
+        <div className="flex items-start gap-2.5 px-4 sm:px-5 py-3 bg-gold/[.1] border-b border-gold/35 text-ink text-[.88rem] leading-snug">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round" className="w-[18px] h-[18px] text-gold shrink-0 mt-[1px]" aria-hidden="true">
+            <rect x="3" y="4" width="18" height="18" rx="2" /><path d="M16 2v4M8 2v4M3 10h18" />
+          </svg>
+          <span>{notice}</span>
+        </div>
+      )}
+
       {/* Testata: navigazione settimana */}
       <div className="flex items-center justify-between gap-3 px-4 sm:px-5 py-3.5 border-b border-line-2">
         <div>

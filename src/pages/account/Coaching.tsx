@@ -13,6 +13,9 @@ const WORKER_URL = "https://denuzzo-stripe-webhook.business-fabiodenuzzo.workers
 const CAL_URL = "https://cal.com/fabio-denuzzo-be6jqr/coachin-1vs1";
 const WHATSAPP_URL = "https://wa.me/393667142489?text=" + encodeURIComponent("Ciao Fabio! Ho acquistato il coaching 1:1. Ti scrivo per iniziare: ti confermo che ho prenotato la sessione.");
 
+// Avviso periodo di pausa (temporaneo: rimuovere/aggiornare dopo il 26 ottobre 2026).
+const PAUSA_NOTICE = "Dal 21 al 26 ottobre sono in pausa: niente sessioni in quei giorni. Scegli uno slot prima del 21 o dal 27 in poi.";
+
 type Credits = { hours_total: number; hours_used: number; pending: boolean };
 
 export default function Coaching() {
@@ -154,6 +157,12 @@ export default function Coaching() {
           {/* Chi PUO' prenotare: booking vero. Gli altri: messaggio + tabella disponibilità sola-lettura. */}
           {canBook ? (
             <div className="rounded-[var(--radius-card)] border border-line-2 overflow-hidden bg-card">
+              <div className="flex items-start gap-2.5 px-4 sm:px-5 py-3 bg-gold/[.1] border-b border-gold/35 text-ink text-[.88rem] leading-snug">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round" className="w-[18px] h-[18px] text-gold shrink-0 mt-[1px]" aria-hidden="true">
+                  <rect x="3" y="4" width="18" height="18" rx="2" /><path d="M16 2v4M8 2v4M3 10h18" />
+                </svg>
+                <span>{PAUSA_NOTICE}</span>
+              </div>
               <iframe
                 src={`${CAL_URL}?theme=dark&email=${encodeURIComponent(user?.email || "")}`}
                 title="Prenota la sessione di coaching"
@@ -194,7 +203,7 @@ export default function Coaching() {
                 </div>
               )}
 
-              <AvailabilityView />
+              <AvailabilityView notice={PAUSA_NOTICE} />
             </>
           )}
         </div>
