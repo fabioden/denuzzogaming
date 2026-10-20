@@ -120,6 +120,9 @@ Continue here: [should you sell now before the crash?](/en/newsletter/fc-27-cras
     dateLabel: "20 Ottobre 2026",
     readingTime: "4 min",
     badge: "Mercato",
+    heroImage: "/img/articles/fc-27-crash-mercato-ultimate-scream-vendere-ora-hero.jpg",
+    heroAlt:
+      "EA FC 27: grafico del mercato in crollo con freccia rossa e monete FUT che cadono",
     excerpt:
       "Prima di una promo grossa il mercato tende a crollare. Con Ultimate Scream in arrivo, ti dico se conviene vendere adesso e come muoverti coi crediti.",
     body: `Con **Ultimate Scream** atteso per venerdì, si torna a parlare di una cosa che vedi ogni anno: il **crollo del mercato** prima di una promo forte. Conviene **vendere ora**? Da coach ti spiego la logica, senza prometterti miracoli.
@@ -196,6 +199,9 @@ Continue here: [Ultimate Scream coming Friday](/en/newsletter/fc-27-ultimate-scr
     dateLabel: "20 Ottobre 2026",
     readingTime: "4 min",
     badge: "News",
+    heroImage: "/img/articles/fc-27-season-2-cosa-cambia-hero.jpg",
+    heroAlt:
+      "EA FC 27 Season 2: scala di forzieri premio blu e oro, nuovo reward track",
     excerpt:
       "Parte la Season 2: nuovo percorso premi, nuovi obiettivi e la promo di Halloween dietro l'angolo. Ti dico cosa cambia e come sfruttarla da subito.",
     body: `Si cambia stagione: la **Season 2** di FC 27 parte **giovedì 22 ottobre** e dura fino al **3 dicembre**. Porta un nuovo **reward track** (percorso premi) e nuovi obiettivi, e fa da cornice all'arrivo di **Ultimate Scream**. Ti dico cosa cambia, da coach.
@@ -264,6 +270,9 @@ Continue here: [Ultimate Scream coming Friday](/en/newsletter/fc-27-ultimate-scr
     dateLabel: "20 Ottobre 2026",
     readingTime: "4 min",
     badge: "Promo",
+    heroImage: "/img/articles/fc-27-future-stars-team-2-live-giocatori-hero.jpg",
+    heroAlt:
+      "EA FC 27 Future Stars Team 2: carte viola olografiche con cristalli",
     excerpt:
       "È uscito il Team 2 dei Future Stars: 15 nuovi giovani con Rayan, Mainoo e Pubill. Ti dico le carte migliori e chi conviene prendere.",
     body: `Secondo giro di giovani: il **Future Stars Team 2** è live **dal 16 ottobre**, con **15 nuove carte** guidate da nomi come **Rayan, Mainoo e Pubill**. Dopo il Team 1 (dove spiccava Vicky López 90), arrivano altri wonderkid con upgrade sul potenziale. Ti dico cosa fare, da coach.
@@ -336,6 +345,9 @@ Continue here: [the Future Stars Team 1](/en/newsletter/fc-27-future-stars-team-
     dateLabel: "20 Ottobre 2026",
     readingTime: "5 min",
     badge: "Guida",
+    heroImage: "/img/articles/fc-27-intesa-conta-davvero-hero.jpg",
+    heroAlt:
+      "EA FC 27: schema dell'intesa con link di chimica verdi tra i giocatori sul campo",
     excerpt:
       "Si può vincere senza intesa? Ti spiego quanto conta davvero la chimica su FC 27, cosa perdi con l'intesa bassa e quando puoi permetterti di sacrificarla.",
     body: `Domanda che mi fate sempre: **si può vincere senza intesa su FC 27?** E soprattutto, **conta davvero?** Da coach ti do la risposta onesta, senza leggende.
