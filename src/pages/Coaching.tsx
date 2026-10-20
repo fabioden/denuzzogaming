@@ -6,7 +6,7 @@ import { useLang } from "@/i18n";
 import Seo from "@/components/Seo";
 import SpotlightCard from "@/components/reactbits/SpotlightCard";
 import { EliteUpsell } from "@/components/AcademyOffer";
-import { CHECKOUT } from "@/lib/checkout";
+import { CHECKOUT, checkoutUrl } from "@/lib/checkout";
 import { supabase } from "@/lib/supabaseClient";
 import AvailabilityView from "@/components/AvailabilityView";
 
@@ -121,7 +121,11 @@ export default function Coaching() {
                       </li>
                     ))}
                   </ul>
-                  <a href={p.stripe} target="_blank" rel="noopener noreferrer" className={`${p.popular ? "btn-primary" : "btn-secondary"} mt-auto justify-center`}>{p.cta}</a>
+                  {user?.id ? (
+                    <a href={checkoutUrl(p.stripe, user)} target="_blank" rel="noopener noreferrer" className={`${p.popular ? "btn-primary" : "btn-secondary"} mt-auto justify-center`}>{p.cta}</a>
+                  ) : (
+                    <Link to="/login?next=buy-coaching" className={`${p.popular ? "btn-primary" : "btn-secondary"} mt-auto justify-center no-underline inline-flex items-center`}>{p.cta}</Link>
+                  )}
                   <p className="text-center font-mono text-[11px] text-muted mt-3">{c.microcopy}</p>
                 </SpotlightCard>
               </div>
