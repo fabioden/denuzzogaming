@@ -35,9 +35,14 @@ export default function Login() {
   const navigate = useNavigate();
   const [params] = useSearchParams();
 
-  // Dopo un acquisto coaching mandiamo qui con ?next=coaching: messaggio dedicato + atterraggio sulla prenotazione.
-  const fromCoaching = params.get("next") === "coaching";
-  const dest = fromCoaching ? "/account/coaching" : "/account";
+  // Coaching: due casi.
+  //  - ?next=coaching       -> arriva DOPO l'acquisto (dal redirect Stripe): atterra sulla prenotazione.
+  //  - ?next=buy-coaching   -> vuole COMPRARE il coaching ma deve prima loggarsi (acquisto login-first):
+  //                            dopo l'accesso torna ai pacchetti, cosi' l'acquisto porta l'id dell'account.
+  const nextParam = params.get("next");
+  const postPurchase = nextParam === "coaching";
+  const prePurchase = nextParam === "buy-coaching";
+  const dest = postPurchase ? "/account/coaching" : prePurchase ? "/coaching" : "/account";
 
   async function submit(e: FormEvent) {
     e.preventDefault();
@@ -74,11 +79,19 @@ export default function Login() {
   return (
     <section className="pt-[clamp(140px,18vh,200px)] pb-[clamp(60px,10vh,120px)]">
       <div className={wrap}>
-        {fromCoaching && (
+        {postPurchase && (
           <div className="rounded-[var(--radius-card)] border border-gold/50 bg-gold/[.08] p-4 sm:p-5 mb-8 max-w-[760px] fade-up">
             <p className="text-ink text-[1.05rem] font-medium mb-1">Grazie per aver preso il coaching. Un ultimo passo per prenotare.</p>
             <p className="text-ink-2 text-[.95rem]">
               Crea il tuo account qui sotto usando <strong className="text-ink">la stessa email con cui hai pagato</strong>: così ritrovi subito le tue ore e scegli lo slot per la sessione. Bastano email e password, è gratis.
+            </p>
+          </div>
+        )}
+        {prePurchase && (
+          <div className="rounded-[var(--radius-card)] border border-gold/50 bg-gold/[.08] p-4 sm:p-5 mb-8 max-w-[760px] fade-up">
+            <p className="text-ink text-[1.05rem] font-medium mb-1">Accedi o crea l'account per prenotare il coaching.</p>
+            <p className="text-ink-2 text-[.95rem]">
+              Serve un attimo: così l'acquisto resta <strong className="text-ink">legato al tuo account</strong> e, appena paghi, trovi subito le tue ore e scegli lo slot. Bastano email e password, è gratis.
             </p>
           </div>
         )}
