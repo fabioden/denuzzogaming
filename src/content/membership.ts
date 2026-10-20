@@ -176,6 +176,9 @@ export const courses: Course[] = [
       { id: "at-1", section: "Attacco", title: "Player Lock: la teoria", durationMin: 5, streamUid: "506e2b12bda6b9e5c609e02eb13e9798" },
       { id: "at-2", section: "Attacco", title: "Player Lock: analisi di un pro (Nassada)", durationMin: 7, streamUid: "b882e3a6c3b281bed3a88f62f84b4850" },
       { id: "at-3", section: "Attacco", title: "Player Lock: in partita", durationMin: 6, streamUid: "f220d17d50757b14204c87ffb14d11ff" },
+      { id: "sk-1", section: "Skill", title: "Come skillare come un pro", durationMin: 8, streamUid: "d705e881296336cf51f8c2a84e71f745" },
+      { id: "sk-2", section: "Skill", title: "Attacca l'area dove c'è la CPU", durationMin: 5, streamUid: "c88d5cc8e9e3d0d090f831bdc3bca314" },
+      { id: "sk-3", section: "Skill", title: "Le skill: tasti, quando e come", durationMin: 6, streamUid: "e64ab9d44aab03377d43aaf8e4e4b0b2" },
     ],
   },
   {
