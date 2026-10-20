@@ -39,6 +39,9 @@ export const articles: Article[] = [
     dateLabel: "20 Ottobre 2026",
     readingTime: "5 min",
     badge: "Leak",
+    heroImage: "/img/articles/fc-27-ultimate-scream-in-arrivo-cosa-sappiamo-hero.jpg",
+    heroAlt:
+      "EA FC 27 Ultimate Scream: key art Halloween con stadio, luna e carte a tema",
     excerpt:
       "La promo di Halloween è alle porte. Ti spiego cosa dicono i leak su Ultimate Scream, la meccanica Full Moon, e come farti trovare pronto coi crediti prima di venerdì.",
     body: `Si avvicina la promo più spettrale dell'anno: **Ultimate Scream** è atteso per **venerdì 23 ottobre**, dentro la nuova **Season 2** (che parte il 22). Ti metto ordine, da coach: cosa sappiamo davvero, cosa è solo leak, e come prepararti.
