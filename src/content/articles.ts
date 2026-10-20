@@ -30,6 +30,372 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "fc-27-ultimate-scream-in-arrivo-cosa-sappiamo",
+    title: "FC 27 Ultimate Scream in arrivo venerdì: cosa sappiamo e come prepararsi",
+    description:
+      "FC 27 Ultimate Scream atteso venerdì 23 ottobre con la Season 2: leak, meccanica Full Moon, e come preparare i crediti prima della promo di Halloween. Il parere del coach.",
+    category: "News",
+    date: "2026-10-20",
+    dateLabel: "20 Ottobre 2026",
+    readingTime: "5 min",
+    badge: "Leak",
+    excerpt:
+      "La promo di Halloween è alle porte. Ti spiego cosa dicono i leak su Ultimate Scream, la meccanica Full Moon, e come farti trovare pronto coi crediti prima di venerdì.",
+    body: `Si avvicina la promo più spettrale dell'anno: **Ultimate Scream** è atteso per **venerdì 23 ottobre**, dentro la nuova **Season 2** (che parte il 22). Ti metto ordine, da coach: cosa sappiamo davvero, cosa è solo leak, e come prepararti.
+
+> ⚠️ Importante: al momento EA **non ha ancora annunciato ufficialmente** Ultimate Scream per FC 27. La data di venerdì e i nomi che girano sono **leak** (FUT Sheriff e altri). Prendili con le pinze fino al reveal.
+
+## Cos'è Ultimate Scream
+
+È la promo di **Halloween** di Ultimate Team: carte speciali a tema dark, con boost importanti. La chicca storica sono le **carte dinamiche**: ricevono **upgrade permanenti** in corrispondenza delle "Full Moon" (lune piene). Dai leak girano come date possibili il **24 novembre** e il **24 dicembre** 2026. Da confermare.
+
+## Cosa dicono i leak
+
+I leaker anticipano una squadra a tema con giocatori in forma e qualche nome a sorpresa, più le solite **SBC e Obiettivi** dedicati. Ti ripeto l'avviso: sono **anticipazioni**, non la lista ufficiale. Non comprare giocatori "perché ho visto il leak": aspetta il reveal di EA.
+
+## Come prepararti adesso (la parte importante)
+
+1. **Tieni i crediti pronti.** È la regola numero uno. All'uscita di una promo forte il mercato si muove e devi poter agire. Se hai bruciato tutto, resti a guardare.
+2. **Vendi prima del reveal** le carte che pensi caleranno. Quando arriva una promo grossa, il resto del mercato spesso **scende**: meglio liquidare adesso e ricomprare dopo.
+3. **Non inseguire i leak.** I prezzi dei "papabili" si gonfiano sulle voci e crollano se non escono.
+4. **Occhio alle SBC/Evo del primo giorno:** spesso sono il modo migliore di prendere una carta Scream a buon prezzo.
+
+## Il consiglio del coach
+
+Le promo fanno hype, ma il mercato lo gestisci con la testa: liquidità pronta, niente acquisti d'impulso sui leak, e si compra quando i prezzi scendono, non quando salgono. Se vuoi che ti aiuti a gestire club e crediti e a rendere davvero in campo, 👉 **[prenota il tuo coaching qui](/coaching)**.
+
+Continua qui: [conviene vendere ora prima del crash?](/newsletter/fc-27-crash-mercato-ultimate-scream-vendere-ora), [cosa cambia con la Season 2](/newsletter/fc-27-season-2-cosa-cambia) e [il nuovo meta del 4-3-1-2](/newsletter/fc-27-meta-4312-addio-4411-modulo-pro).
+
+---
+
+*Fonti: calendario promo e roadmap Season 2 di EA SPORTS FC 27, più anticipazioni della community (FUT Sheriff e altri). Data, lista giocatori e meccaniche di Ultimate Scream non sono ancora confermate ufficialmente da EA al momento della pubblicazione.*`,
+    en: {
+      title: "FC 27 Ultimate Scream Coming Friday: What We Know and How to Prepare",
+      description:
+        "FC 27 Ultimate Scream expected Friday October 23 with Season 2: leaks, the Full Moon mechanic, and how to prepare your coins before the Halloween promo. The coach's take.",
+      category: "News",
+      dateLabel: "October 20, 2026",
+      excerpt:
+        "The Halloween promo is near. I explain what the leaks say about Ultimate Scream, the Full Moon mechanic, and how to be ready with your coins before Friday.",
+      body: `The spookiest promo of the year is near: **Ultimate Scream** is expected on **Friday October 23**, inside the new **Season 2** (which starts on the 22nd). Let me sort it out, from the coach: what we actually know, what is just a leak, and how to prepare.
+
+> ⚠️ Important: EA has **not officially announced** Ultimate Scream for FC 27 yet. Friday's date and the names going around are **leaks** (FUT Sheriff and others). Take them with a pinch of salt until the reveal.
+
+## What Ultimate Scream is
+
+It is Ultimate Team's **Halloween** promo: dark-themed special cards with big boosts. The classic twist is **dynamic items**: they get **permanent upgrades** on the "Full Moons". Leaks point to **November 24** and **December 24**, 2026 as possible dates. To be confirmed.
+
+## What the leaks say
+
+Leakers tease a themed squad with in-form players and a few surprise names, plus the usual dedicated **SBCs and Objectives**. Again, my warning: these are **predictions**, not the official list. Do not buy players "because I saw the leak": wait for EA's reveal.
+
+## How to prepare now (the important part)
+
+1. **Keep your coins ready.** Rule number one. When a strong promo drops the market moves and you need to be able to act. If you burned everything, you just watch.
+2. **Sell before the reveal** the cards you think will drop. When a big promo arrives, the rest of the market usually **falls**: better to cash out now and rebuy later.
+3. **Do not chase the leaks.** Prices of the "likely" names inflate on rumors and crash if they do not come out.
+4. **Watch the day-one SBCs/Evos:** often the best way to grab a Scream card cheaply.
+
+## The coach's take
+
+Promos create hype, but you manage the market with your head: ready liquidity, no impulse buys on leaks, and you buy when prices drop, not when they rise. If you want me to help you manage your club and coins and truly perform on the pitch, 👉 **[book your coaching here](/en/coaching)**.
+
+Continue here: [should you sell now before the crash?](/en/newsletter/fc-27-crash-mercato-ultimate-scream-vendere-ora), [what changes with Season 2](/en/newsletter/fc-27-season-2-cosa-cambia) and [the new 4-3-1-2 meta](/en/newsletter/fc-27-meta-4312-addio-4411-modulo-pro).
+
+---
+
+*Sources: EA SPORTS FC 27 promo calendar and Season 2 roadmap, plus community predictions (FUT Sheriff and others). The Ultimate Scream date, player list and mechanics are not yet officially confirmed by EA at the time of publishing.*`,
+    },
+  },
+  {
+    slug: "fc-27-crash-mercato-ultimate-scream-vendere-ora",
+    title: "Crash del mercato pre-Ultimate Scream: conviene vendere ora?",
+    description:
+      "FC 27: prima di Ultimate Scream il mercato può crollare. Conviene vendere ora? Ti spiego perché i prezzi scendono prima di una promo e cosa fare coi crediti, dal coach.",
+    category: "Mercato",
+    date: "2026-10-20",
+    dateLabel: "20 Ottobre 2026",
+    readingTime: "4 min",
+    badge: "Mercato",
+    excerpt:
+      "Prima di una promo grossa il mercato tende a crollare. Con Ultimate Scream in arrivo, ti dico se conviene vendere adesso e come muoverti coi crediti.",
+    body: `Con **Ultimate Scream** atteso per venerdì, si torna a parlare di una cosa che vedi ogni anno: il **crollo del mercato** prima di una promo forte. Conviene **vendere ora**? Da coach ti spiego la logica, senza prometterti miracoli.
+
+## Perché il mercato scende prima di una promo
+
+Semplice: quando sta per uscire una promo grossa, **tutti aprono pacchetti** e immettono carte sul mercato, e in più la gente **tiene i crediti** per i nuovi giocatori invece di comprare gli attuali. Più offerta + meno domanda = **prezzi che scendono**. È un meccanismo che si ripete a ogni grande evento.
+
+## Conviene vendere adesso?
+
+**Spesso sì, per le carte che useresti solo "di passaggio".** Se hai giocatori oro non-meta o carte speciali che pensi caleranno, venderle **prima** del picco di offerta ti fa incassare di più, e potrai **ricomprarle più in basso** dopo l'uscita.
+
+**Attenzione a non svuotare la rosa con cui giochi:** se una carta ti serve per la Weekend League di questi giorni, tienila. Si vende quello che non è essenziale, non la squadra titolare.
+
+## Cosa fare coi crediti
+
+1. **Liquida le carte "da rivendere"** ora, finché i prezzi reggono.
+2. **Tieni i crediti pronti:** la liquidità è la tua arma quando escono le carte Scream (comprare basso) o per le SBC del primo giorno.
+3. **Non farti prendere dall'ansia:** non è un crollo totale, è un fisiologico calo pre-promo. Compra quando è sceso, non quando risale.
+
+## Il consiglio del coach
+
+Il trading su FC 27 non ti fa ricco in un giorno: è disciplina. Vendi il superfluo prima del calo, tieni liquidità, ricompra in basso. E ricorda: i crediti servono a migliorare la squadra, ma le partite le vinci col manico. Se vuoi che ti aiuti a gestire club, crediti e gioco, 👉 **[prenota il tuo coaching qui](/coaching)**.
+
+Continua qui: [Ultimate Scream in arrivo venerdì](/newsletter/fc-27-ultimate-scream-in-arrivo-cosa-sappiamo), [come fare crediti dal day one](/newsletter/fc-27-come-fare-crediti-day-one-mercato-trading) e [cosa cambia con la Season 2](/newsletter/fc-27-season-2-cosa-cambia).
+
+---
+
+*Nota: analisi di mercato basata sull'andamento tipico pre-promo di Ultimate Team. I prezzi dipendono da domanda e offerta e possono variare; nessuna garanzia di guadagno.*`,
+    en: {
+      title: "Pre-Ultimate Scream Market Crash: Should You Sell Now?",
+      description:
+        "FC 27: before Ultimate Scream the market can crash. Should you sell now? I explain why prices drop before a promo and what to do with your coins, from the coach.",
+      category: "Market",
+      dateLabel: "October 20, 2026",
+      excerpt:
+        "Before a big promo the market tends to crash. With Ultimate Scream coming, I tell you whether to sell now and how to move with your coins.",
+      body: `With **Ultimate Scream** expected on Friday, we are back to something you see every year: the **market crash** before a strong promo. Should you **sell now**? From the coach, here is the logic, with no miracle promises.
+
+## Why the market drops before a promo
+
+Simple: when a big promo is about to drop, **everyone opens packs** and floods the market with cards, and people **hold their coins** for the new players instead of buying current ones. More supply + less demand = **falling prices**. It repeats at every big event.
+
+## Is it worth selling now?
+
+**Often yes, for cards you would only use "in passing".** If you have non-meta gold players or special cards you think will drop, selling them **before** the supply spike nets you more, and you can **rebuy them lower** after the release.
+
+**Careful not to gut the squad you actually play:** if a card is needed for this week's Weekend League, keep it. You sell what is not essential, not your starting eleven.
+
+## What to do with your coins
+
+1. **Cash out the "to resell" cards** now, while prices hold.
+2. **Keep coins ready:** liquidity is your weapon when the Scream cards drop (buy low) or for the day-one SBCs.
+3. **Do not panic:** it is not a total crash, it is a normal pre-promo dip. Buy when it is down, not when it bounces back.
+
+## The coach's take
+
+Trading on FC 27 does not make you rich in a day: it is discipline. Sell the surplus before the dip, keep liquidity, rebuy low. And remember: coins improve the squad, but you win games with skill. If you want me to help you manage club, coins and gameplay, 👉 **[book your coaching here](/en/coaching)**.
+
+Continue here: [Ultimate Scream coming Friday](/en/newsletter/fc-27-ultimate-scream-in-arrivo-cosa-sappiamo), [how to make coins from day one](/en/newsletter/fc-27-come-fare-crediti-day-one-mercato-trading) and [what changes with Season 2](/en/newsletter/fc-27-season-2-cosa-cambia).
+
+---
+
+*Note: market analysis based on the typical pre-promo pattern of Ultimate Team. Prices depend on supply and demand and can vary; no guarantee of profit.*`,
+    },
+  },
+  {
+    slug: "fc-27-season-2-cosa-cambia",
+    title: "FC 27 Season 2 parte il 22 ottobre: cosa cambia",
+    description:
+      "FC 27 Season 2 dal 22 ottobre al 3 dicembre: nuovo reward track, obiettivi e premi, più l'arrivo di Ultimate Scream. Cosa cambia e cosa fare, dal coach.",
+    category: "News",
+    date: "2026-10-20",
+    dateLabel: "20 Ottobre 2026",
+    readingTime: "4 min",
+    badge: "News",
+    excerpt:
+      "Parte la Season 2: nuovo percorso premi, nuovi obiettivi e la promo di Halloween dietro l'angolo. Ti dico cosa cambia e come sfruttarla da subito.",
+    body: `Si cambia stagione: la **Season 2** di FC 27 parte **giovedì 22 ottobre** e dura fino al **3 dicembre**. Porta un nuovo **reward track** (percorso premi) e nuovi obiettivi, e fa da cornice all'arrivo di **Ultimate Scream**. Ti dico cosa cambia, da coach.
+
+## Cosa porta una nuova Season
+
+- **Nuovo percorso premi (XP):** si riparte, con un tracciato di ricompense da sbloccare giocando (pacchetti, giocatori, consumabili, crediti).
+- **Nuovi obiettivi stagionali:** task da completare per premi garantiti. Sono spesso il modo migliore per prendere carte utili **senza spendere**.
+- **Premi di fine Season 1:** se eri a buon punto nel vecchio percorso, assicurati di aver **riscosso tutto** prima del cambio.
+
+## Cosa fare adesso
+
+1. **Chiudi gli ultimi premi della Season 1** che stai per completare: al cambio stagione non tornano.
+2. **Punta subito agli obiettivi nuovi** che danno pacchetti e giocatori: XP facile e premi garantiti.
+3. **Tieni d'occhio Ultimate Scream** (atteso venerdì 23): molti obiettivi e SBC saranno legati alla promo, quindi gestisci bene i crediti.
+
+## Il consiglio del coach
+
+Le Season sono "benzina gratis": più giochi con criterio, più sblocchi senza aprire il portafoglio. Concentrati sugli obiettivi che danno roba utile alla tua rosa e non disperdere energie su task inutili. Se vuoi che ti aiuti a far rendere squadra e tempo di gioco, 👉 **[prenota il tuo coaching qui](/coaching)**.
+
+Continua qui: [Ultimate Scream in arrivo venerdì](/newsletter/fc-27-ultimate-scream-in-arrivo-cosa-sappiamo), [conviene vendere ora prima del crash?](/newsletter/fc-27-crash-mercato-ultimate-scream-vendere-ora) e [il nuovo meta del 4-3-1-2](/newsletter/fc-27-meta-4312-addio-4411-modulo-pro).
+
+---
+
+*Fonti: roadmap live-service e calendario di EA SPORTS FC 27 (Season 2 indicata dal 22 ottobre al 3 dicembre 2026). Dettagli di obiettivi e premi possono variare col reveal ufficiale.*`,
+    en: {
+      title: "FC 27 Season 2 Starts October 22: What Changes",
+      description:
+        "FC 27 Season 2 from October 22 to December 3: new reward track, objectives and rewards, plus the arrival of Ultimate Scream. What changes and what to do, from the coach.",
+      category: "News",
+      dateLabel: "October 20, 2026",
+      excerpt:
+        "Season 2 begins: new reward track, new objectives and the Halloween promo around the corner. I tell you what changes and how to use it right away.",
+      body: `New season incoming: FC 27 **Season 2** starts **Thursday October 22** and runs until **December 3**. It brings a new **reward track** and new objectives, and frames the arrival of **Ultimate Scream**. Here is what changes, from the coach.
+
+## What a new Season brings
+
+- **New reward track (XP):** it restarts, with a path of rewards to unlock by playing (packs, players, consumables, coins).
+- **New seasonal objectives:** tasks to complete for guaranteed rewards. Often the best way to get useful cards **without spending**.
+- **End of Season 1 rewards:** if you were far along the old track, make sure you have **claimed everything** before the switch.
+
+## What to do now
+
+1. **Finish the last Season 1 rewards** you are close to completing: they do not come back at the season change.
+2. **Go for the new objectives** that give packs and players right away: easy XP and guaranteed rewards.
+3. **Keep an eye on Ultimate Scream** (expected Friday 23): many objectives and SBCs will be tied to the promo, so manage your coins well.
+
+## The coach's take
+
+Seasons are "free fuel": the more you play smart, the more you unlock without opening your wallet. Focus on objectives that give useful stuff for your squad and do not waste energy on pointless tasks. If you want me to help you get the most from your squad and playtime, 👉 **[book your coaching here](/en/coaching)**.
+
+Continue here: [Ultimate Scream coming Friday](/en/newsletter/fc-27-ultimate-scream-in-arrivo-cosa-sappiamo), [should you sell now before the crash?](/en/newsletter/fc-27-crash-mercato-ultimate-scream-vendere-ora) and [the new 4-3-1-2 meta](/en/newsletter/fc-27-meta-4312-addio-4411-modulo-pro).
+
+---
+
+*Sources: EA SPORTS FC 27 live-service roadmap and calendar (Season 2 listed from October 22 to December 3, 2026). Objective and reward details may change with the official reveal.*`,
+    },
+  },
+  {
+    slug: "fc-27-future-stars-team-2-live-giocatori",
+    title: "FC 27 Future Stars Team 2 è live: i nuovi giocatori e chi prendere",
+    description:
+      "FC 27 Future Stars Team 2 è live dal 16 ottobre: 15 nuove carte con Rayan, Mainoo e Pubill. Le migliori, come funzionano gli upgrade e cosa fare, dal coach.",
+    category: "Promo",
+    date: "2026-10-20",
+    dateLabel: "20 Ottobre 2026",
+    readingTime: "4 min",
+    badge: "Promo",
+    excerpt:
+      "È uscito il Team 2 dei Future Stars: 15 nuovi giovani con Rayan, Mainoo e Pubill. Ti dico le carte migliori e chi conviene prendere.",
+    body: `Secondo giro di giovani: il **Future Stars Team 2** è live **dal 16 ottobre**, con **15 nuove carte** guidate da nomi come **Rayan, Mainoo e Pubill**. Dopo il Team 1 (dove spiccava Vicky López 90), arrivano altri wonderkid con upgrade sul potenziale. Ti dico cosa fare, da coach.
+
+## Come funzionano i Future Stars
+
+Sono **giovani talenti (under 23)** con carte speciali potenziate. La meccanica chiave: gli **upgrade sono legati alle prestazioni reali** (gol, assist, clean sheet) e contano **solo le partite di campionato**. Quindi i giocatori **titolari che rendono davvero** sono quelli che fanno crescere la carta nel tempo: è lì il valore.
+
+## Chi prendere
+
+- **Le carte top del Team 2** (tra cui Rayan, Mainoo, Pubill): profili moderni, utili nel [4-3-1-2 meta](/newsletter/fc-27-meta-4312-addio-4411-modulo-pro).
+- **Occhio ai link:** scegli il giovane che si incastra nella tua rosa (lega/nazione) e che **gioca da titolare** nel suo club, così cresce.
+- **SBC e Obiettivo:** come per il Team 1, spesso le carte migliori per costo-resa sono quelle da SBC/Obiettivo, non da pacchetto.
+
+## Cosa fare coi crediti
+
+Con **Ultimate Scream in arrivo venerdì**, non svuotare il club sui Future Stars Team 2: prendi 1-2 carte che usi davvero e **tieni liquidità** per la promo di Halloween.
+
+## Il consiglio del coach
+
+Un Future Stars giusto ti alza il livello solo se ci giochi e se cresce: punta sui titolari veri, non sul nome che "suona bene". E ricorda, la carta non basta: servono modulo e manico. Se vuoi scegliere bene e rendere al massimo, 👉 **[prenota il tuo coaching qui](/coaching)**.
+
+Continua qui: [i Future Stars Team 1](/newsletter/fc-27-future-stars-team-1-live-giocatori-carte-migliori), [Ultimate Scream in arrivo](/newsletter/fc-27-ultimate-scream-in-arrivo-cosa-sappiamo) e [il nuovo meta del 4-3-1-2](/newsletter/fc-27-meta-4312-addio-4411-modulo-pro).
+
+---
+
+*Fonti: calendario e contenuti Ultimate Team di EA SPORTS FC 27 (Future Stars Team 2 dal 16 ottobre 2026). Rating e lista completa vanno verificati in gioco.*`,
+    en: {
+      title: "FC 27 Future Stars Team 2 Is Live: The New Players and Who to Get",
+      description:
+        "FC 27 Future Stars Team 2 is live from October 16: 15 new cards with Rayan, Mainoo and Pubill. The best ones, how upgrades work and what to do, from the coach.",
+      category: "Promo",
+      dateLabel: "October 20, 2026",
+      excerpt:
+        "Future Stars Team 2 is out: 15 new youngsters with Rayan, Mainoo and Pubill. I tell you the best cards and who is worth getting.",
+      body: `Second round of youngsters: **Future Stars Team 2** is live **from October 16**, with **15 new cards** led by names like **Rayan, Mainoo and Pubill**. After Team 1 (where Vicky López 90 stood out), more wonderkids arrive with potential-based upgrades. Here is what to do, from the coach.
+
+## How Future Stars work
+
+They are **young talents (under 23)** with boosted special cards. The key mechanic: **upgrades are tied to real-world form** (goals, assists, clean sheets) and only **domestic league matches** count. So **starters who actually perform** are the ones that grow the card over time: that is the value.
+
+## Who to get
+
+- **The top Team 2 cards** (including Rayan, Mainoo, Pubill): modern profiles, useful in the [meta 4-3-1-2](/en/newsletter/fc-27-meta-4312-addio-4411-modulo-pro).
+- **Mind the links:** pick the youngster who fits your squad (league/nation) and who **starts** at his club, so he grows.
+- **SBC and Objective:** as with Team 1, often the best value cards are the SBC/Objective ones, not the pack ones.
+
+## What to do with your coins
+
+With **Ultimate Scream coming Friday**, do not gut your club on Future Stars Team 2: grab 1-2 cards you actually use and **keep liquidity** for the Halloween promo.
+
+## The coach's take
+
+The right Future Stars only raises your level if you play him and he grows: back real starters, not the name that "sounds good". And remember, the card is not enough: you need formation and skill. If you want to pick well and get the most out of it, 👉 **[book your coaching here](/en/coaching)**.
+
+Continue here: [the Future Stars Team 1](/en/newsletter/fc-27-future-stars-team-1-live-giocatori-carte-migliori), [Ultimate Scream incoming](/en/newsletter/fc-27-ultimate-scream-in-arrivo-cosa-sappiamo) and [the new 4-3-1-2 meta](/en/newsletter/fc-27-meta-4312-addio-4411-modulo-pro).
+
+---
+
+*Sources: EA SPORTS FC 27 Ultimate Team calendar and content (Future Stars Team 2 from October 16, 2026). Ratings and the full list should be checked in-game.*`,
+    },
+  },
+  {
+    slug: "fc-27-intesa-conta-davvero",
+    title: "L'intesa conta davvero su EA FC 27? Il parere del coach",
+    description:
+      "Si vince senza intesa su FC 27? Quanto conta davvero la chimica, cosa toglie l'intesa bassa e quando puoi sacrificarla. La guida del coach per non buttare crediti.",
+    category: "Guida",
+    date: "2026-10-20",
+    dateLabel: "20 Ottobre 2026",
+    readingTime: "5 min",
+    badge: "Guida",
+    excerpt:
+      "Si può vincere senza intesa? Ti spiego quanto conta davvero la chimica su FC 27, cosa perdi con l'intesa bassa e quando puoi permetterti di sacrificarla.",
+    body: `Domanda che mi fate sempre: **si può vincere senza intesa su FC 27?** E soprattutto, **conta davvero?** Da coach ti do la risposta onesta, senza leggende.
+
+## Cosa fa davvero l'intesa
+
+L'intesa (chimica) dà **boost alle statistiche** dei giocatori in base a quanti punti chimica hanno. Un giocatore a piena intesa ha le stat "vere" potenziate; uno a intesa bassa gira con stat **ridotte** rispetto al suo overall. Si parla soprattutto di **velocità, tiro, dribbling, difesa**: le cose che senti in campo.
+
+## Si vince senza intesa?
+
+**Sì, si può vincere lo stesso, ma parti svantaggiato.** Con un'intesa bassa (es. 11/33) i tuoi giocatori rendono meno di quanto dovrebbero: senti la squadra più lenta e meno reattiva. Se sei molto più forte dell'avversario col manico, lo nascondi; ad alti livelli, dove i margini sono minimi, l'intesa bassa **la paghi**.
+
+## Quando puoi sacrificarla
+
+- **Early game / primi giorni:** per provare un top player appena preso, fuori posizione o fuori lega, può valerne la pena qualche partita.
+- **Giocatori "immuni" al calo:** quelli con stat mostruose reggono meglio anche con intesa non piena (ma rendono comunque meno del loro massimo).
+- **Mai in Weekend League seria:** se giochi per i premi, l'intesa piena è quasi sempre meglio: non regalare stat all'avversario.
+
+## Come non buttare crediti
+
+Prima di strapagare una carta per l'intesa, chiediti: **mi dà più l'intesa piena di questa carta, o una carta leggermente peggiore ma a intesa piena?** Spesso la seconda. Costruisci la rosa pensando a **lega/nazione/club** compatibili fin da subito: risparmi crediti e giochi meglio.
+
+## Il consiglio del coach
+
+L'intesa conta, ma non è tutto: una squadra a intesa piena giocata male perde contro una a intesa media giocata bene. Prima il **manico e il modulo**, poi ottimizzi la chimica. Se vuoi che ti aiuti a costruire la rosa giusta e a renderla al massimo, 👉 **[prenota il tuo coaching qui](/coaching)**.
+
+Continua qui: [il nuovo meta del 4-3-1-2](/newsletter/fc-27-meta-4312-addio-4411-modulo-pro), [come si difende per arrivare in Elite](/newsletter/come-si-difende-fc-27-guida-completa-arrivare-elite) e [i moduli e le tattiche meta](/newsletter/fc-27-moduli-tattiche-meta).`,
+    en: {
+      title: "Does Chemistry Really Matter on EA FC 27? The Coach's Take",
+      description:
+        "Can you win without chemistry on FC 27? How much it really matters, what low chemistry takes away, and when you can sacrifice it. The coach's guide to not wasting coins.",
+      category: "Guide",
+      dateLabel: "October 20, 2026",
+      excerpt:
+        "Can you win without chemistry? I explain how much it really matters on FC 27, what you lose with low chemistry, and when you can afford to sacrifice it.",
+      body: `A question you always ask me: **can you win without chemistry on FC 27?** And above all, **does it really matter?** From the coach, here is the honest answer, no myths.
+
+## What chemistry actually does
+
+Chemistry gives **stat boosts** to players based on how many chem points they have. A full-chemistry player has his "real" stats boosted; a low-chemistry one plays with **reduced** stats compared to his overall. It mainly affects **pace, shooting, dribbling, defending**: the things you feel on the pitch.
+
+## Can you win without chemistry?
+
+**Yes, you can still win, but you start at a disadvantage.** With low chemistry (e.g. 11/33) your players perform below what they should: the team feels slower and less responsive. If you are much better than your opponent with skill, you hide it; at high level, where margins are tiny, low chemistry **costs you**.
+
+## When you can sacrifice it
+
+- **Early game / first days:** to try a top player you just got, out of position or out of league, it can be worth a few games.
+- **Players "immune" to the drop:** those with monster stats hold up better even without full chem (but still perform below their peak).
+- **Never in serious Weekend League:** if you play for rewards, full chemistry is almost always better: do not hand stats to your opponent.
+
+## How to not waste coins
+
+Before overpaying for a card for chemistry, ask yourself: **does full chemistry on this card give me more, or a slightly worse card at full chemistry?** Often the second. Build the squad thinking about compatible **league/nation/club** from the start: you save coins and play better.
+
+## The coach's take
+
+Chemistry matters, but it is not everything: a full-chem squad played badly loses to a mid-chem one played well. First **skill and formation**, then you optimize chemistry. If you want me to help you build the right squad and get the most out of it, 👉 **[book your coaching here](/en/coaching)**.
+
+Continue here: [the new 4-3-1-2 meta](/en/newsletter/fc-27-meta-4312-addio-4411-modulo-pro), [how to defend to reach Elite](/en/newsletter/come-si-difende-fc-27-guida-completa-arrivare-elite) and [meta formations and tactics](/en/newsletter/fc-27-moduli-tattiche-meta).`,
+    },
+  },
+  {
     slug: "fc-27-future-stars-team-1-live-giocatori-carte-migliori",
     title: "FC 27 Future Stars Team 1 è live: giocatori, carte migliori e cosa fare",
     description:
