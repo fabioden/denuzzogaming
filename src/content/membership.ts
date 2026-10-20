@@ -25,19 +25,20 @@ export type Lesson = {
 // Sottodominio Cloudflare Stream dell'account (per l'embed dei video protetti).
 export const STREAM_DOMAIN = "customer-wkaamnvo04oubidk.cloudflarestream.com";
 
-export type CourseCategory = "Intro" | "Impostazioni di gioco" | "Costruzione squadra" | "Difesa" | "Attacco" | "Mentalità";
+export type CourseCategory = "Intro" | "Difesa" | "Attacco" | "Skill" | "Tattiche" | "Prossimamente";
 
-// Ordine fisso con cui mostrare le sezioni nella dashboard (Intro e Impostazioni per primi).
-export const categoryOrder: CourseCategory[] = ["Intro", "Difesa", "Costruzione squadra", "Attacco", "Mentalità"];
+// Ordine fisso delle aree (= le chip dei filtri e le tappe del percorso). "Prossimamente" resta fuori:
+// la tessera "in arrivo" compare solo nella libreria "Tutti", non come filtro/tappa.
+export const categoryOrder: CourseCategory[] = ["Intro", "Difesa", "Attacco", "Skill", "Tattiche"];
 
-// Titolo "modulo" del percorso per ogni tema (il percorso e' ordinato come categoryOrder).
+// Titolo "modulo" del percorso per ogni area.
 export const categoryTitle: Record<CourseCategory, string> = {
   Intro: "Parti da qui",
-  "Impostazioni di gioco": "Le impostazioni giuste",
-  "Costruzione squadra": "Costruisci la rosa perfetta",
-  Difesa: "Difendi come un muro",
-  Attacco: "Diventa una macchina da gol",
-  Mentalità: "Testa da campione",
+  Difesa: "Come difendere",
+  Attacco: "Come attaccare",
+  Skill: "Come skillare",
+  Tattiche: "Le tattiche",
+  Prossimamente: "Altri argomenti in arrivo",
 };
 
 export type Course = {
@@ -150,96 +151,86 @@ export const weeklyDrop: WeeklyDrop = {
 // ----------------------------------------------------------------------------
 export const courses: Course[] = [
   {
-    id: "intro",
+    id: "parti-da-qui",
     title: "Parti da qui",
-    subtitle: "Il percorso per iniziare: il benvenuto, le impostazioni di gioco che uso io e il corso completo sulla Difesa. La 1ª lezione è gratis, tutto il resto si sblocca con l'abbonamento. Guardali in ordine o scegli il video che ti serve.",
+    subtitle: "Il benvenuto e le impostazioni di gioco che uso io. Comincia da qui, poi scegli l'area su cui allenarti. La 1ª lezione è gratis.",
     level: "Base",
     category: "Intro",
     cover: "",
     lessons: [
-      { id: "intro-1", section: "Inizia da qui", title: "Introduzione al videocorso", durationMin: 1, streamUid: "012c157e8b9ac50004bf5b2cc9ae162a", free: true },
-      { id: "imp-1", section: "Inizia da qui", title: "Le impostazioni di gioco che uso io", durationMin: 7, streamUid: "9dca697c41a0bca56cc560ce024c9cfc" },
-      { id: "di-1", section: "Difesa", title: "Come si difende: la teoria", durationMin: 8, streamUid: "ac1341da5cf7636f3875ed2902e63363" },
-      { id: "di-2", section: "Difesa", title: "Impara a temporeggiare", durationMin: 5, streamUid: "ccf0da7ef310122386ec8da3547e9592" },
-      { id: "di-3", section: "Difesa", title: "Il temporeggiare in partita", durationMin: 8, streamUid: "6443c99d45210f320131bc88cf00f0f3" },
-      { id: "di-4", section: "Difesa", title: "Temporeggiare: il recap veloce", durationMin: 1, streamUid: "63a8a9df3bfc414f2ff6e701e37d1e95" },
-      { id: "di-5", section: "Difesa", title: "Cambiare giocatore al momento giusto", durationMin: 8, streamUid: "946c45bfc7350138d595b4a39f3e4b6b" },
-      { id: "di-6", section: "Difesa", title: "I PlayStyle difensivi che contano", durationMin: 7, streamUid: "419b78c26871a756711dfe58621e6c5c" },
-      { id: "di-7", section: "Difesa", title: "Difendere: test in partita reale", durationMin: 6, streamUid: "f92561f455772ccd397109239cba97aa" },
-      { id: "di-8", section: "Difesa", title: "Raddoppio e pressing: come usarli", durationMin: 6, streamUid: "95e5f8dceac8f3fb9d1a3edfe5958583" },
-      { id: "tat-1", section: "Tattiche", title: "Quali tattiche usare e cosa cambia", durationMin: 5, streamUid: "cb331fd79dd3618bc795622cce9bab84" },
-      { id: "tat-2", section: "Tattiche", title: "Analisi partita con tattiche diverse", durationMin: 6, streamUid: "cae11339de8d687be01452a53602d478" },
-      { id: "at-4", section: "Attacco", title: "Come si attacca: l'errore n.1", durationMin: 4, streamUid: "96129c9045b24d7595dc9ee63fc37b77" },
-      { id: "at-5", section: "Attacco", title: "I tasti dell'attacco", durationMin: 5, streamUid: "3a14a66af0a3055542a7e40d6a2b4f70" },
-      { id: "at-6", section: "Attacco", title: "Attacco avanzato", durationMin: 5, streamUid: "502fe94cb0780ed0c0f48923d861b990" },
-      { id: "at-7", section: "Attacco", title: "L'attacco in partita", durationMin: 7, streamUid: "e3ae65e3cd401286a64192d92862ae43" },
-      { id: "at-1", section: "Attacco", title: "Player Lock: la teoria", durationMin: 5, streamUid: "506e2b12bda6b9e5c609e02eb13e9798" },
-      { id: "at-2", section: "Attacco", title: "Player Lock: analisi di un pro (Nassada)", durationMin: 7, streamUid: "b882e3a6c3b281bed3a88f62f84b4850" },
-      { id: "at-3", section: "Attacco", title: "Player Lock: in partita", durationMin: 6, streamUid: "f220d17d50757b14204c87ffb14d11ff" },
-      { id: "sk-1", section: "Skill", title: "Come skillare come un pro", durationMin: 8, streamUid: "d705e881296336cf51f8c2a84e71f745" },
-      { id: "sk-2", section: "Skill", title: "Attacca l'area dove c'è la CPU", durationMin: 5, streamUid: "c88d5cc8e9e3d0d090f831bdc3bca314" },
-      { id: "sk-3", section: "Skill", title: "Le skill: tasti, quando e come", durationMin: 6, streamUid: "e64ab9d44aab03377d43aaf8e4e4b0b2" },
+      { id: "intro-1", title: "Introduzione al videocorso", durationMin: 1, streamUid: "012c157e8b9ac50004bf5b2cc9ae162a", free: true },
+      { id: "imp-1", title: "Le impostazioni di gioco che uso io", durationMin: 7, streamUid: "9dca697c41a0bca56cc560ce024c9cfc" },
     ],
   },
   {
-    id: "squadra-meta",
-    title: "Costruisci la rosa perfetta",
-    subtitle: "Esercizi pratici su moduli, PlayStyle e istruzioni: la squadra giusta anche con pochi crediti.",
+    id: "difesa",
+    title: "Come difendere",
+    subtitle: "Il corso completo sulla difesa: temporeggiare, cambio giocatore al momento giusto, PlayStyle difensivi, raddoppio e pressing.",
     level: "Base",
-    category: "Costruzione squadra",
-    cover: "/img/academy/thumb-squadra-meta.jpg",
-    lessons: [
-      { id: "sq-1", title: "I 3 moduli che dominano il meta", durationMin: 3, youtubeId: "PLACEHOLDER_SQ_1", free: true },
-      { id: "sq-2", title: "I PlayStyle che cambiano la partita", durationMin: 3, youtubeId: "PLACEHOLDER_SQ_2" },
-      { id: "sq-3", title: "Le istruzioni che usano i pro", durationMin: 2, youtubeId: "PLACEHOLDER_SQ_3" },
-    ],
-  },
-  {
-    id: "palle-inattive",
-    title: "Palle inattive: difendere e segnare",
-    subtitle: "Esercizi su corner e punizioni: non prenderle mai e farne un'arma.",
-    level: "Intermedio",
     category: "Difesa",
-    cover: "/img/academy/thumb-palle-inattive.jpg",
+    cover: "",
     lessons: [
-      { id: "pi-1", title: "Non prendere più gol da corner", durationMin: 2, youtubeId: "PLACEHOLDER_PI_1" },
-      { id: "pi-2", title: "La punizione che entra sempre", durationMin: 3, youtubeId: "PLACEHOLDER_PI_2" },
+      { id: "di-1", title: "Come si difende: la teoria", durationMin: 8, streamUid: "ac1341da5cf7636f3875ed2902e63363" },
+      { id: "di-2", title: "Impara a temporeggiare", durationMin: 5, streamUid: "ccf0da7ef310122386ec8da3547e9592" },
+      { id: "di-3", title: "Il temporeggiare in partita", durationMin: 8, streamUid: "6443c99d45210f320131bc88cf00f0f3" },
+      { id: "di-4", title: "Temporeggiare: il recap veloce", durationMin: 1, streamUid: "63a8a9df3bfc414f2ff6e701e37d1e95" },
+      { id: "di-5", title: "Cambiare giocatore al momento giusto", durationMin: 8, streamUid: "946c45bfc7350138d595b4a39f3e4b6b" },
+      { id: "di-6", title: "I PlayStyle difensivi che contano", durationMin: 7, streamUid: "419b78c26871a756711dfe58621e6c5c" },
+      { id: "di-7", title: "Difendere: test in partita reale", durationMin: 6, streamUid: "f92561f455772ccd397109239cba97aa" },
+      { id: "di-8", title: "Raddoppio e pressing: come usarli", durationMin: 6, streamUid: "95e5f8dceac8f3fb9d1a3edfe5958583" },
     ],
   },
   {
-    id: "fasce",
-    title: "Cross e gioco sulle fasce",
-    subtitle: "Esercizi su quando allargare, il cross giusto e come attaccare l'area.",
-    level: "Avanzato",
-    category: "Attacco",
-    cover: "/img/academy/thumb-fasce.jpg",
-    lessons: [
-      { id: "fa-1", title: "Distruggi le difese sulle fasce", durationMin: 2, youtubeId: "PLACEHOLDER_FA_1" },
-      { id: "fa-2", title: "Il cross che è gol assicurato", durationMin: 3, youtubeId: "PLACEHOLDER_FA_2" },
-    ],
-  },
-  {
-    id: "pressione",
-    title: "Testa da campione",
-    subtitle: "Esercizi per restare lucido sotto pressione e non sbroccare nei momenti decisivi.",
-    level: "Base",
-    category: "Mentalità",
-    cover: "/img/academy/thumb-pressione.jpg",
-    lessons: [
-      { id: "pr-1", title: "Non crollare dopo un gol subito", durationMin: 2, youtubeId: "PLACEHOLDER_PR_1", free: true },
-      { id: "pr-2", title: "Vinci gli ultimi 10 minuti", durationMin: 2, youtubeId: "PLACEHOLDER_PR_2" },
-    ],
-  },
-  {
-    id: "vantaggio",
-    title: "Gestire vantaggio e rimonta",
-    subtitle: "Esercizi per chiudere la partita quando sei avanti e non mollare quando sei sotto.",
+    id: "attacco",
+    title: "Come attaccare",
+    subtitle: "Dalla costruzione alla finalizzazione: l'errore n.1, i tasti, l'attacco avanzato e il Player Lock come un pro.",
     level: "Intermedio",
-    category: "Mentalità",
-    cover: "/img/academy/thumb-vantaggio.jpg",
+    category: "Attacco",
+    cover: "",
     lessons: [
-      { id: "va-1", title: "Chiudi la partita e porta a casa i 3 punti", durationMin: 3, youtubeId: "PLACEHOLDER_VA_1" },
-      { id: "va-2", title: "Rimonta anche da 2-0 sotto", durationMin: 2, youtubeId: "PLACEHOLDER_VA_2" },
+      { id: "at-4", section: "Le basi dell'attacco", title: "Come si attacca: l'errore n.1", durationMin: 4, streamUid: "96129c9045b24d7595dc9ee63fc37b77" },
+      { id: "at-5", section: "Le basi dell'attacco", title: "I tasti dell'attacco", durationMin: 5, streamUid: "3a14a66af0a3055542a7e40d6a2b4f70" },
+      { id: "at-6", section: "Le basi dell'attacco", title: "Attacco avanzato", durationMin: 5, streamUid: "502fe94cb0780ed0c0f48923d861b990" },
+      { id: "at-7", section: "Le basi dell'attacco", title: "L'attacco in partita", durationMin: 7, streamUid: "e3ae65e3cd401286a64192d92862ae43" },
+      { id: "at-1", section: "Player Lock (avanzato)", title: "Player Lock: la teoria", durationMin: 5, streamUid: "506e2b12bda6b9e5c609e02eb13e9798" },
+      { id: "at-2", section: "Player Lock (avanzato)", title: "Player Lock: analisi di un pro (Nassada)", durationMin: 7, streamUid: "b882e3a6c3b281bed3a88f62f84b4850" },
+      { id: "at-3", section: "Player Lock (avanzato)", title: "Player Lock: in partita", durationMin: 6, streamUid: "f220d17d50757b14204c87ffb14d11ff" },
+    ],
+  },
+  {
+    id: "skill",
+    title: "Come skillare",
+    subtitle: "Le skill move che fanno la differenza: quali usare, quando e con che tasti, per saltare l'uomo e creare spazio.",
+    level: "Intermedio",
+    category: "Skill",
+    cover: "",
+    lessons: [
+      { id: "sk-1", title: "Come skillare come un pro", durationMin: 8, streamUid: "d705e881296336cf51f8c2a84e71f745" },
+      { id: "sk-2", title: "Attacca l'area dove c'è la CPU", durationMin: 5, streamUid: "c88d5cc8e9e3d0d090f831bdc3bca314" },
+      { id: "sk-3", title: "Le skill: tasti, quando e come", durationMin: 6, streamUid: "e64ab9d44aab03377d43aaf8e4e4b0b2" },
+    ],
+  },
+  {
+    id: "tattiche",
+    title: "Le tattiche",
+    subtitle: "Quali tattiche usare e come cambiano la partita, con un'analisi a confronto in gioco.",
+    level: "Intermedio",
+    category: "Tattiche",
+    cover: "",
+    lessons: [
+      { id: "tat-1", title: "Quali tattiche usare e cosa cambia", durationMin: 5, streamUid: "cb331fd79dd3618bc795622cce9bab84" },
+      { id: "tat-2", title: "Analisi partita con tattiche diverse", durationMin: 6, streamUid: "cae11339de8d687be01452a53602d478" },
+    ],
+  },
+  {
+    id: "prossimamente",
+    title: "Altri argomenti in arrivo",
+    subtitle: "Ogni settimana nuovi video su nuovi temi (palle inattive, fasce, costruzione squadra, mentalità e altro), per tutta la stagione di EA FC 27.",
+    level: "Base",
+    category: "Prossimamente",
+    cover: "",
+    lessons: [
+      { id: "soon-1", title: "In arrivo durante la stagione", durationMin: 0, youtubeId: "PLACEHOLDER_SOON" },
     ],
   },
 ];
@@ -267,19 +258,19 @@ export const collections: Collection[] = [
     id: "risali",
     title: "Risali di divisione",
     hint: "il percorso per salire",
-    courseIds: ["intro", "squadra-meta", "pressione"],
+    courseIds: ["parti-da-qui", "difesa", "attacco"],
   },
   {
-    id: "budget",
-    title: "Vinci spendendo pochi crediti",
-    hint: "forte anche senza soldi",
-    courseIds: ["squadra-meta", "fasce", "palle-inattive"],
+    id: "domina-attacco",
+    title: "Domina in attacco",
+    hint: "crea e finalizza",
+    courseIds: ["attacco", "skill", "tattiche"],
   },
   {
     id: "weekend-league",
     title: "Prepara la Weekend League",
     hint: "pronto per il weekend",
-    courseIds: ["pressione", "vantaggio", "intro", "palle-inattive"],
+    courseIds: ["parti-da-qui", "difesa", "attacco", "tattiche"],
   },
 ];
 

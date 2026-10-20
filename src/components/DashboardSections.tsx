@@ -18,10 +18,10 @@ const RANKS = ["Rank I", "Rank II", "Rank III", "Rank IV", "Rank V", "Rank VI", 
 const ELITE = { winRate: 80, gfg: 4, gag: 1.67, wl: 15 };
 const ELITE_QUALIFY = 13; // sei "in Elite Division" da 13 vittorie in su
 const AREA_LABELS: Record<string, { label: string; id: string }> = {
-  difesa: { label: "Difesa", id: "intro" },
-  attacco: { label: "Attacco", id: "intro" },
-  squadra: { label: "Costruzione squadra", id: "squadra-meta" },
-  mentalita: { label: "Testa da campione", id: "pressione" },
+  difesa: { label: "Come difendere", id: "difesa" },
+  attacco: { label: "Come attaccare", id: "attacco" },
+  squadra: { label: "Le tattiche", id: "tattiche" },
+  mentalita: { label: "Parti da qui", id: "parti-da-qui" },
 };
 const GOAL_PRESETS = ["Arriva in Div 3", "Arriva in Elite", "8 vittorie in WL", "11 vittorie in WL", "Allenati 7 giorni di fila"];
 
