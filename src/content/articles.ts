@@ -30,6 +30,118 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "fc-27-title-update-1-1-patch-notes-cosa-cambia",
+    title: "FC 27 Title Update 1.1.0: cosa cambia davvero in Ultimate Team",
+    description:
+      "FC 27 Title Update 1.1.0 è live: pack opening più corti, filtri SBC che restano salvati, fix su tattiche e Gallery. Niente cambi al gameplay: il parere del coach su cosa conta.",
+    category: "News",
+    date: "2026-10-27",
+    dateLabel: "27 Ottobre 2026",
+    readingTime: "5 min",
+    badge: "Patch",
+    excerpt:
+      "È uscito il primo grande aggiornamento di FC 27. Ti dico cosa cambia in Ultimate Team, il fix sulle tattiche che devi controllare subito e perché il gameplay resta uguale (per ora).",
+    body: `È uscito oggi il **Title Update 1.1.0** di FC 27, il primo aggiornamento corposo della stagione. Lista lunghissima, ma da coach ti dico subito la cosa più importante: **il gameplay non cambia**. EA lo dice chiaramente, questa patch non tocca il bilanciamento. Si sistemano menu, Ultimate Team, Carriera e The Grounds.
+
+Vediamo cosa conta davvero per chi gioca Ultimate Team.
+
+## Le novità che senti subito
+
+- **Pack opening più corto.** L'animazione di apertura dei pacchetti è stata accorciata. Con Ultimate Scream in corso e tanti pacchetti da aprire, si risparmia parecchio tempo.
+- **Filtri delle SBC che restano salvati.** Nelle SBC "semplificate" i filtri e l'ordinamento ora restano impostati da una sfida all'altra nella stessa sessione. Chi fa tante SBC di fila lo apprezzerà.
+- **Pulsante "Riscatta tutto"** negli obiettivi. Finalmente niente più premi da riscattare uno per uno.
+
+## Il fix che devi controllare SUBITO: le tattiche
+
+Tra le correzioni ce n'è una che mi interessa più di tutte: EA ha sistemato un bug per cui **i salvataggi delle tattiche potevano spostare i giocatori nelle posizioni sbagliate**.
+
+Se negli ultimi giorni ti sei ritrovato un terzino al posto sbagliato o un centrocampista fuori ruolo senza capire perché, la causa poteva essere questa. Il mio consiglio:
+
+1. **Apri la tua squadra principale** dopo l'aggiornamento.
+2. **Ricontrolla modulo, ruoli e istruzioni** giocatore per giocatore.
+3. **Salva di nuovo la tattica** da zero.
+
+Due minuti di controllo prima della Weekend League ti evitano di perdere una partita per un errore che non è tuo. Se usi il 4-3-1-2 che va tanto adesso, controlla bene le due punte e il trequartista.
+
+## Le altre correzioni di Ultimate Team
+
+- **Evoluzioni:** sistemate le statistiche evidenziate in verde in modo sbagliato nelle anteprime delle Evo Percorso e delle Evo portiere. Ora l'anteprima mostra davvero cosa migliora.
+- **Gallery:** tanti fix su valutazione dei set, premi, gradi che si accendevano su set incompleti e animazioni che si sovrapponevano.
+- **SBC:** risolto il bug per cui gli oggetti dello Storage delle SBC semplificate comparivano in altre SBC, più alcuni errori dalla schermata squadra.
+- **Mercato:** sistemato un caso in cui la ricerca nel mercato si bloccava.
+- **Partite:** non vedi più ballone, colore della rete e linee del campo dell'avversario al posto dei tuoi.
+
+## E il gameplay?
+
+Qui sta la notizia vera: **niente nerf, niente buff**. Chi sperava in correzioni sulle meccaniche più fastidiose dovrà aspettare. EA però ha annunciato che **la prossima settimana** pubblicherà delle note degli sviluppatori sul gameplay, con un bilancio del primo mese di FC 27 e le modifiche previste per il prossimo aggiornamento.
+
+Tradotto: il meta che conosci resta valido almeno per un'altra settimana. Non cambiare modulo o stile di gioco per paura di una patch: non c'è stata.
+
+## Il consiglio del coach
+
+Questa patch è "di pulizia": rende il gioco più comodo, non cambia come si vince. La differenza in campo continua a farla come difendi, come gestisci i ritmi e le scelte che prendi sotto pressione. Ricontrolla le tattiche, apri i tuoi pacchetti più velocemente e concentrati sul gioco. Se vuoi che analizziamo insieme le tue partite e il tuo modulo, 👉 **[prenota il tuo coaching qui](/coaching)**.
+
+Continua qui: [il nuovo meta del 4-3-1-2](/newsletter/fc-27-meta-4312-addio-4411-modulo-pro), [come si difende su FC 27](/newsletter/come-si-difende-fc-27-guida-completa-arrivare-elite) e [Ultimate Scream: cosa sappiamo](/newsletter/fc-27-ultimate-scream-in-arrivo-cosa-sappiamo).
+
+---
+
+*Fonti: note ufficiali del Title Update 1.1.0 di EA SPORTS FC 27 (27 ottobre 2026) e copertura di [KhelNow](https://khelnow.com/gaming/ea-fc-27-title-update-1-1-0-patch-notes-202610) e [Operation Sports](https://www.operationsports.com/ea-sports-fc-27-update-1-1-0-arrives-tomorrow-patch-notes-revealed). L'aggiornamento è disponibile su tutte le piattaforme; i tempi di rilascio possono variare.*`,
+    en: {
+      title: "FC 27 Title Update 1.1.0: What Really Changes in Ultimate Team",
+      description:
+        "FC 27 Title Update 1.1.0 is live: shorter pack openings, SBC filters that stay saved, fixes to tactics and the Gallery. No gameplay changes: the coach's take on what matters.",
+      category: "News",
+      dateLabel: "October 27, 2026",
+      excerpt:
+        "FC 27's first big update is out. I tell you what changes in Ultimate Team, the tactics fix you should check right away and why gameplay stays the same (for now).",
+      body: `FC 27's **Title Update 1.1.0** dropped today, the first big update of the season. The list is huge, but from the coach, here is the most important thing first: **gameplay does not change**. EA says it clearly, this patch does not touch balancing. It fixes menus, Ultimate Team, Career Mode and The Grounds.
+
+Let's see what actually matters if you play Ultimate Team.
+
+## The changes you notice right away
+
+- **Shorter pack opening.** The pack opening animation has been shortened. With Ultimate Scream running and lots of packs to open, it saves a lot of time.
+- **SBC filters that stay saved.** In "streamlined" SBCs, filters and sorting now stay set from one challenge to the next in the same session. If you grind lots of SBCs in a row, you will love it.
+- **"Claim All" button** on objectives. No more claiming rewards one by one.
+
+## The fix you should check RIGHT NOW: tactics
+
+Among the fixes there is one I care about more than any other: EA fixed a bug where **saved tactics could move players into the wrong positions**.
+
+If in the last few days you found a full back in the wrong spot or a midfielder out of position without knowing why, this could be the cause. My advice:
+
+1. **Open your main squad** after the update.
+2. **Recheck formation, roles and instructions** player by player.
+3. **Save the tactic again** from scratch.
+
+Two minutes of checking before the Weekend League saves you from losing a game to a mistake that is not yours. If you use the 4-3-1-2 that is so popular right now, check your two strikers and your CAM carefully.
+
+## The other Ultimate Team fixes
+
+- **Evolutions:** fixed incorrect green stat highlights in Pathway Evolution and Goalkeeper Evolution previews. The preview now shows what really improves.
+- **Gallery:** lots of fixes to set grading, rewards, grades lighting up on incomplete sets and overlapping animations.
+- **SBCs:** fixed SBC Storage items from streamlined SBCs showing up in other SBCs, plus some errors from the squad screen.
+- **Market:** fixed a case where Transfer Market search stopped working.
+- **Matches:** you no longer see your opponent's ball, net colour and pitch lines instead of yours.
+
+## What about gameplay?
+
+This is the real news: **no nerfs, no buffs**. If you were hoping for fixes to the most annoying mechanics, you will have to wait. EA did announce that **next week** it will publish gameplay developer notes, with a review of FC 27's first month and the changes planned for the next update.
+
+In short: the meta you know stays valid for at least another week. Do not change formation or playstyle out of fear of a patch: there was none.
+
+## The coach's take
+
+This is a "clean-up" patch: it makes the game more comfortable, it does not change how you win. On the pitch the difference is still how you defend, how you manage the tempo and the choices you make under pressure. Recheck your tactics, open your packs faster and focus on the game. If you want us to analyse your matches and your formation together, 👉 **[book your coaching here](/en/coaching)**.
+
+Continue here: [the new 4-3-1-2 meta](/en/newsletter/fc-27-meta-4312-addio-4411-modulo-pro), [how to defend in FC 27](/en/newsletter/come-si-difende-fc-27-guida-completa-arrivare-elite) and [Ultimate Scream: what we know](/en/newsletter/fc-27-ultimate-scream-in-arrivo-cosa-sappiamo).
+
+---
+
+*Sources: official EA SPORTS FC 27 Title Update 1.1.0 notes (October 27, 2026) and coverage from [KhelNow](https://khelnow.com/gaming/ea-fc-27-title-update-1-1-0-patch-notes-202610) and [Operation Sports](https://www.operationsports.com/ea-sports-fc-27-update-1-1-0-arrives-tomorrow-patch-notes-revealed). The update is available on all platforms; release timing may vary.*`,
+    },
+  },
+  {
     slug: "fc-27-ultimate-scream-in-arrivo-cosa-sappiamo",
     title: "FC 27 Ultimate Scream in arrivo venerdì: cosa sappiamo e come prepararsi",
     description:
