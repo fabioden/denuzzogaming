@@ -39,6 +39,9 @@ export const articles: Article[] = [
     dateLabel: "27 Ottobre 2026",
     readingTime: "5 min",
     badge: "Patch",
+    heroImage: "/img/articles/fc-27-title-update-1-1-patch-notes-cosa-cambia-hero.jpg",
+    heroAlt:
+      "EA FC 27 Title Update 1.1.0: pannello olografico di aggiornamento al 100% in uno stadio notturno",
     excerpt:
       "È uscito il primo grande aggiornamento di FC 27. Ti dico cosa cambia in Ultimate Team, il fix sulle tattiche che devi controllare subito e perché il gameplay resta uguale (per ora).",
     body: `È uscito oggi il **Title Update 1.1.0** di FC 27, il primo aggiornamento corposo della stagione. Lista lunghissima, ma da coach ti dico subito la cosa più importante: **il gameplay non cambia**. EA lo dice chiaramente, questa patch non tocca il bilanciamento. Si sistemano menu, Ultimate Team, Carriera e The Grounds.
@@ -92,6 +95,8 @@ Continua qui: [il nuovo meta del 4-3-1-2](/newsletter/fc-27-meta-4312-addio-4411
         "FC 27 Title Update 1.1.0 is live: shorter pack openings, SBC filters that stay saved, fixes to tactics and the Gallery. No gameplay changes: the coach's take on what matters.",
       category: "News",
       dateLabel: "October 27, 2026",
+      heroAlt:
+        "EA FC 27 Title Update 1.1.0: holographic update panel at 100% in a night stadium",
       excerpt:
         "FC 27's first big update is out. I tell you what changes in Ultimate Team, the tactics fix you should check right away and why gameplay stays the same (for now).",
       body: `FC 27's **Title Update 1.1.0** dropped today, the first big update of the season. The list is huge, but from the coach, here is the most important thing first: **gameplay does not change**. EA says it clearly, this patch does not touch balancing. It fixes menus, Ultimate Team, Career Mode and The Grounds.
