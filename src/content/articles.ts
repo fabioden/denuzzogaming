@@ -39,6 +39,9 @@ export const articles: Article[] = [
     dateLabel: "29 Ottobre 2026",
     readingTime: "8 min",
     badge: "Patch",
+    heroImage: "/img/articles/fc-27-patch-meta-novembre-terzini-cosa-cambia-hero.jpg",
+    heroAlt:
+      "EA FC 27 note degli sviluppatori sul gameplay di ottobre: aggiornamento gameplay",
     excerpt:
       "EA ha annunciato la prima patch di gameplay di FC 27, a metà novembre. La modifica più importante riguarda i terzini. Ti spiego cosa cambia, perché ti costava gol e come difendere adesso, in attesa dell'aggiornamento.",
     body: `EA ha pubblicato le **note degli sviluppatori sul gameplay di ottobre** e finalmente abbiamo una data: a **metà novembre** arriva il **Title Update 1.2.0**, la **prima patch che tocca davvero il gameplay** di FC 27. Quella di questa settimana (la 1.1.0) sistemava solo menu e Ultimate Team. Questa invece cambia come si difende.
@@ -66,6 +69,8 @@ Questo è il cuore della patch. Secondo EA, dopo l'aggiornamento i terzini:
 - **si staccheranno per seguire un uomo solo quando c'è una vera minaccia offensiva**, cioè un inserimento che porta pericolo, non un movimento qualsiasi.
 
 Tradotto in campo: difesa più **compatta**, linea più **pulita**, **fuorigioco che funziona** come dovrebbe.
+
+![FC 27 patch 1.2.0: i terzini salgono in linea con i centrali e la linea difensiva mette in fuorigioco gli attaccanti](/img/articles/fc-27-patch-meta-novembre-terzini-linea.jpg)
 
 EA però mette le mani avanti: dice che questo comportamento **potrebbe ancora capitare ogni tanto**. Quindi non aspettarti terzini perfetti, ma molto meno errori di quelli di adesso.
 
@@ -153,6 +158,8 @@ Continua qui: [cosa ha cambiato il Title Update 1.1.0](/newsletter/fc-27-title-u
         "FC 27 Title Update 1.2.0 in mid-November: EA fixes fullbacks dropping too deep and keeping attackers onside. Every change in EA's notes explained by a coach, and how to prepare.",
       category: "News",
       dateLabel: "October 29, 2026",
+      heroAlt:
+        "EA FC 27 October gameplay developer notes: gameplay update",
       excerpt:
         "EA announced FC 27's first gameplay patch, coming mid-November. The biggest change is about fullbacks. I explain what changes, why it was costing you goals and how to defend now, while you wait for the update.",
       body: `EA has published its **October gameplay developer notes** and we finally have a window: in **mid-November** comes **Title Update 1.2.0**, the **first patch that really touches FC 27's gameplay**. This week's update (1.1.0) only fixed menus and Ultimate Team. This one changes how you defend.
@@ -180,6 +187,8 @@ This is the heart of the patch. According to EA, after the update fullbacks will
 - **break away to track a man only when there is a genuine attacking threat**, meaning a run that brings real danger, not just any movement.
 
 On the pitch: a more **compact** defence, a **cleaner** line, an **offside trap that works** as it should.
+
+![FC 27 patch 1.2.0: fullbacks step up level with the centre backs and the back line catches attackers offside](/img/articles/fc-27-patch-meta-novembre-terzini-linea.jpg)
 
 EA does cover itself though: it says this behaviour **may still happen occasionally**. So do not expect perfect fullbacks, but far fewer mistakes than now.
 
