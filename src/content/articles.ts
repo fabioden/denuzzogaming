@@ -30,6 +30,262 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "fc-27-potm-mbappe-guijarro-fodder-quando-comprare",
+    title: "FC 27: arriva il POTM di Mbappé (e di Guijarro). Quando comprare il fodder",
+    description:
+      "FC 27: votazioni POTM di ottobre, Mbappé e Patri Guijarro favoriti. Quanto potrebbero costare le SBC, quando escono e a che prezzo comprare il fodder (87-90). Più derby Inter-Milan e mercato Rivals.",
+    category: "Mercato",
+    date: "2026-10-29",
+    dateLabel: "29 Ottobre 2026",
+    readingTime: "8 min",
+    badge: "Mercato",
+    excerpt:
+      "Le SBC più grosse dell'anno stanno per scadere e arrivano i POTM di Mbappé e Guijarro. Ti dico quanto potrebbero costare, quando usciranno e come muoverti adesso col fodder per non arrivare tardi.",
+    body: `Le SBC più grosse che abbiamo avuto finora su FC 27 scadono in questi giorni. Al loro posto arrivano i **Player of the Month di ottobre**: le votazioni sono uscite ieri. E quando arriva una SBC enorme, la domanda è sempre la stessa: **quando compro il fodder?**
+
+Ti spiego cosa mi aspetto, quanto potrebbero costare queste SBC e come prepararti **già da oggi**, con i premi Rivals che muovono il mercato.
+
+> ⚠️ Nota: rating, prezzi e date delle SBC POTM qui sotto sono **mie previsioni**, basate su quello che EA ha fatto finora. Finché la SBC non esce, niente è confermato. I prezzi di mercato sono quelli di oggi e cambiano in fretta.
+
+## POTM Liga: Mbappé ha già vinto (quasi)
+
+Nelle votazioni del POTM di LALIGA c'è anche **Matías Dituro** dell'Elche, con tre partite senza subire gol e nove parate in tre partite. Numeri ottimi, ma **Mbappé** ha fatto un mese pazzesco, con la doppietta nel Clásico. Lo do per favorito netto.
+
+E qui parliamo di quella che sarà probabilmente **la SBC più grossa di FC 27 finora**. Il suo oro è la carta oro più cara del gioco (circa **3,1 milioni**), e il TOTW appena uscito è già un **92**.
+
+### 91 o 92?
+
+Questa è la vera domanda. Senza il TOTW mi aspetterei un POTM **91**. Ma guardiamo cosa ha fatto EA con **Raphinha**: aveva un TOTW e il POTM è uscito **allo stesso rating del TOTW**, non più basso. Per questo la mia previsione è un **Mbappé POTM 92**.
+
+### Quanto costerà
+
+La mia stima: intorno ai **4 milioni di item score**, che oggi vogliono dire circa **5,5-6 milioni di crediti**, considerando che il fodder salirà quando la SBC esce. Ti sembra una follia? EA ha già fatto una SBC POTM di Mbappé da 4 milioni lo scorso anno, alla seconda settimana di gioco.
+
+Ma metti in prospettiva: il TOTW 92 oggi viaggia su cifre molto più alte e, quando si assesta, mi aspetto che resti tra i **7 e gli 8 milioni**. Quindi una SBC a 5,5-6 milioni, con un mese di tempo per completarla e una carta che può restare in squadra fino a primavera (quest'anno le carte si rinforzano più lentamente), **non è un cattivo affare**. È una grossa impresa, questo sì.
+
+### Quando esce
+
+Le SBC POTM di LALIGA escono **di venerdì**. Le votazioni sono appena partite, quindi non mi aspetto Mbappé domani, ma **venerdì 6 novembre**.
+
+## POTM Liga F: Patri Guijarro, la carta meta
+
+Nella Liga F la favorita è **Patri Guijarro**, una delle **migliori centrocampiste difensive del gioco**. Il suo TOTW 89 costa già sui **1,3-1,4 milioni**, e sta salendo.
+
+Qui la situazione è identica a Raphinha, quindi mi aspetto un **POTM 89** (se EA vuole esagerare, 90). Il costo dovrebbe essere vicino a quello del TOTW: tra **1,1 e 1,3 milioni di item score**, cioè circa **1,5-1,7 milioni di crediti** oggi.
+
+**Quando esce:** secondo me **prima di Mbappé**, quando scade la SBC di Claudia Pina, quindi **martedì o mercoledì della prossima settimana**.
+
+### Guijarro o Jill Scott?
+
+Se ti serve un mediano, c'è una scelta da fare. **Jill Scott** nel negozio dei token Scream non ti costa crediti: giochi, raccogli i token e la prendi. **Guijarro** costa tanto, ma è una CDM di livello assoluto. Puoi prendere Jill Scott gratis e tenere il fodder per Mbappé, oppure puntare tutto su Guijarro. Decidi in base a cosa manca davvero alla tua squadra.
+
+## Il fodder: cosa comprare e a che prezzo
+
+Che tu voglia fare queste SBC o solo guadagnarci, il punto è **comprare il fodder al momento giusto**. E secondo me il momento giusto parte **oggi** e dura **tutto il weekend**.
+
+### Perché adesso
+
+Da inizio settimana è entrato poco fodder sul mercato. La SBC con il pacchetto Heroes è scaduta domenica e i prezzi sono scesi, ma non abbastanza. Ora scadono una dopo l'altra le SBC più grosse (Olise oggi, Raphinha e Malen domani, Claudia Pina tra pochi giorni): **meno SBC attive = meno domanda di fodder**. Poi con i premi Rivals di oggi e quelli della Weekend League entra tanta offerta.
+
+Meno domanda più tanta offerta: è la **finestra per comprare**. Poi arrivano i POTM, probabilmente il primo **pacchetto Icone** dell'anno e la promo dopo Ultimate Scream, e il fodder risalirà.
+
+### Quali rating
+
+Concentrati su **87, 88, 89 e 90**. Con una SBC enorme come Mbappé, nessuno vuole comprare migliaia di 84: chi spende crediti sceglie i rating alti per comprare meno carte e fare prima. Se l'88 non costa molto di più per punto rispetto all'85-86, la gente va sugli 87+. È lì che si sposta la domanda.
+
+### I miei prezzi obiettivo
+
+- **87:** sotto i **7.000** (a 6.000 sarebbe perfetto, se li prendi all'asta)
+- **88:** **12.000** massimo, **11.000** ideale, sotto gli 11.000 sono soldi facili
+- **89:** sotto i **20.000**
+- **90:** intorno ai **33.000**
+
+La regola: compra vicino al **punto più basso di questa settimana** (martedì). Non serve essere troppo pignoli: è un investimento da tenere **una, due, anche tre settimane**.
+
+### Perché non salirà venerdì sera
+
+Le SBC in arrivo domani sera non sono abbastanza grosse da muovere il fodder. Quello che lo farebbe davvero è un pacchetto Icone, e i leaker lo anticiperebbero giorni prima. Per questo vedo **il weekend come il momento per comprare**.
+
+## SBC Showdown: il derby di Milano
+
+Sono uscite le prime **Showdown** dell'anno, per il **derby Inter-Milan** di questo weekend. Sono le SBC più interessanti degli ultimi giorni.
+
+- **Loftus-Cheek (Milan):** sembra molto buono, e con un upgrade in caso di vittoria diventa davvero forte. Si parla di **+2 per la vittoria e +1 per il pareggio**, anche se EA non l'ha confermato quest'anno.
+- **Carlos Augusto (Inter):** questo mi piace ancora di più. PlayStyle Anticipate, Whipped Pass e Aerial, 83 di rating, alto più di 1,80, e può giocare **difensore centrale**. Se l'Inter vince diventa un **85** con circa **83 di velocità**: un centrale molto interessante, con link brasiliani e di Serie A comodi.
+
+Costano poco: il totale al momento è sui **28.000 crediti**. E anche se la tua squadra perde, restano carte con margine per le Evo future. Io ne farei almeno una, magari entrambe.
+
+## TOTW 7: chi mettere nel club
+
+Il **TOTW 7** è guidato proprio da **Mbappé 92**, con PlayStyle+ Quick Step come il suo oro, ed è carissimo. Il resto ha qualche nome interessante:
+
+- **Gabriel:** con +12 di velocità diventa un centrale usabile, con statistiche difensive enormi. A 400.000 il primo giorno mi sembra poco, credo salirà dopo l'aggiornamento della fascia di prezzo.
+- **Stanway:** da 40.000 a 750.000 mi sembra un'esagerazione. Può salire nel breve, ma non credo regga quel prezzo a lungo.
+- **Mathys Tel:** un 80 fortissimo per il suo rating. Quando scende sui **20-30.000** è un buon investimento per le Evo.
+- **Nicolas Jackson:** attaccante di Premier con una bella carta dinamica, da tenere nel club.
+- **James Hill:** centrale/terzino destro di Premier con Anticipate, Aerial Fortress e Long Throw. Da mettere nella lista degli investimenti: in futuro salirà.
+
+Il consiglio vale ogni settimana: guarda il TOTW e **tieni nel club 1-2 carte per le Evo future**, comprandole al prezzo minimo.
+
+## Premi Rivals: come muoverti oggi
+
+Il mercato è già **altissimo**: Vinícius, Valverde e gli altri big sono carissimi. Non mi aspetto un crollo oggi con i premi Rivals, anzi, potrebbe salire ancora, perché la gente incassa crediti e compra.
+
+Dove si guadagna oggi:
+
+- **Carte fuori dai pacchetti** (Icone, Heroes, vecchi TOTW): nessuna nuova offerta le colpisce, mentre la gente con più crediti le compra. È il modo più sottovalutato di fare crediti: i vecchi TOTW si muovono tantissimo e la gente se li dimentica.
+- **Carte Ultimate Scream Team 1:** sono già salite, ma se le prendi con le aste o i "colpi" durante i premi, hanno hype e la gente le vuole in squadra.
+
+Più va avanti l'anno, meno conviene investire sugli ori per i premi Rivals e più conviene puntare su **speciali fuori dai pacchetti, Heroes e Icone**.
+
+### Apro i pacchetti o li tengo per il Team 2?
+
+Domani esce **Ultimate Scream Team 2**. Le prime linee sono più forti del Team 1 (Olise, Messi, Kvaratskhelia, Valverde terzino, McTominay mediano), ma sono carte che difficilmente troverai. Nella parte media e bassa, per me, il **Team 1 è migliore**. Quindi io **apro i premi Rivals oggi**. Tienili solo se nel Team 2 c'è un giocatore a cui tieni davvero.
+
+## Altre cose da fare oggi
+
+- **SBC del Completista Scream:** la nuova è da fare **assolutamente** (pacchetto giocatore grande). In totale tra uscite, scadute e SBC dei token, i token Scream disponibili sono **930**.
+- **Aggiornamenti campionato** (Bundesliga, Ligue 1 e altri): non li amo, i pacchetti max 85 danno quasi sempre 78-80. Servono solo se cerchi **bronzi e argenti da primo proprietario** per la Gallery.
+- **Evo difensore centrale (max 81):** un'Evo "di catena", con boost a passaggio e dribbling, PlayStyle Pinged Pass e piede debole a 3 stelle. Va bene solo per far crescere un argento o un oro basso.
+- **Stasera:** Marquee Matchups (da fare per i crediti), Showdown della Liga MX e il refresh degli obiettivi settimanali per i punti del Season Pass.
+
+## Il consiglio del coach
+
+Su FC 27 si guadagna anticipando, non inseguendo. Il fodder si compra quando nessuno lo vuole (questo weekend), non il giorno in cui esce Mbappé. Fissa i tuoi prezzi obiettivo, compra all'asta e abbi pazienza. E ricorda che i crediti servono a migliorare la squadra, ma le partite le vinci col gioco. Se vuoi che ti aiuti a gestire club, crediti e rendimento in campo, 👉 **[prenota il tuo coaching qui](/coaching)**.
+
+Continua qui: [come fare crediti dal day one](/newsletter/fc-27-come-fare-crediti-day-one-mercato-trading), [conviene vendere prima del crash?](/newsletter/fc-27-crash-mercato-ultimate-scream-vendere-ora) e [la patch dei terzini di metà novembre](/newsletter/fc-27-patch-meta-novembre-terzini-cosa-cambia).
+
+---
+
+*Nota: analisi di mercato con prezzi del 29 ottobre 2026. Rating, costi e date delle SBC POTM sono previsioni non confermate da EA. I prezzi dipendono da domanda e offerta e possono cambiare in fretta; nessuna garanzia di guadagno.*`,
+    en: {
+      title: "FC 27: Mbappé's POTM Is Coming (and Guijarro's). When to Buy Fodder",
+      description:
+        "FC 27: October POTM votes, Mbappé and Patri Guijarro are the favourites. What the SBCs could cost, when they drop and what prices to buy fodder at (87-90). Plus the Inter-Milan derby and the Rivals market.",
+      category: "Market",
+      dateLabel: "October 29, 2026",
+      excerpt:
+        "The biggest SBCs of the year are about to expire and Mbappé and Guijarro POTMs are on the way. I tell you what they could cost, when they will drop and how to move with fodder now so you are not late.",
+      body: `The biggest SBCs we have had so far in FC 27 expire in the next few days. Replacing them are the **October Player of the Month** cards: the votes went live yesterday. And when a huge SBC is coming, the question is always the same: **when do I buy fodder?**
+
+Here is what I expect, what these SBCs could cost and how to prepare **starting today**, with Rivals rewards moving the market.
+
+> ⚠️ Note: the ratings, prices and dates of the POTM SBCs below are **my predictions**, based on what EA has done so far. Nothing is confirmed until the SBC drops. Market prices are today's and change fast.
+
+## LALIGA POTM: Mbappé has (almost) won it
+
+The LALIGA POTM vote also includes **Matías Dituro** from Elche, with three clean sheets and nine saves in three games. Great numbers, but **Mbappé** had a crazy month, with a brace in El Clásico. I see him as the clear favourite.
+
+And here we are talking about what will probably be **the biggest SBC of FC 27 so far**. His gold is the most expensive gold card in the game (around **3.1 million**), and the TOTW that just dropped is already a **92**.
+
+### 91 or 92?
+
+That is the real question. Without the TOTW I would expect a **91** POTM. But look at what EA did with **Raphinha**: he had a TOTW and his POTM came out **at the same rating as the TOTW**, not lower. That is why my prediction is an **Mbappé POTM 92**.
+
+### What it will cost
+
+My estimate: around **4 million item score**, which today means roughly **5.5-6 million coins**, considering fodder will rise when the SBC drops. Sounds crazy? EA already released a 4 million Mbappé POTM SBC last year, in the second week of the game.
+
+But put it in perspective: the 92 TOTW trades at much higher numbers today and, once it settles, I expect it to stay between **7 and 8 million**. So a 5.5-6 million SBC, with a month to complete it and a card that can stay in your team until spring (the power curve is slower this year), **is not a bad deal**. It is a big grind, that is for sure.
+
+### When it drops
+
+LALIGA POTM SBCs drop **on Fridays**. The vote has just started, so I do not expect Mbappé tomorrow, but on **Friday November 6**.
+
+## Liga F POTM: Patri Guijarro, the meta card
+
+In Liga F the favourite is **Patri Guijarro**, one of the **best defensive midfielders in the game**. Her 89 TOTW already costs around **1.3-1.4 million**, and it is rising.
+
+The situation is identical to Raphinha, so I expect an **89 POTM** (90 if EA wants to go big). The cost should be close to the TOTW: between **1.1 and 1.3 million item score**, so roughly **1.5-1.7 million coins** today.
+
+**When it drops:** in my view **before Mbappé**, when the Claudia Pina SBC expires, so **Tuesday or Wednesday next week**.
+
+### Guijarro or Jill Scott?
+
+If you need a defensive midfielder, there is a choice to make. **Jill Scott** in the Scream token store costs you no coins: you play, collect tokens and grab her. **Guijarro** costs a lot, but she is a top-level CDM. You can take Jill Scott for free and keep your fodder for Mbappé, or go all-in on Guijarro. Decide based on what your team really needs.
+
+## Fodder: what to buy and at what price
+
+Whether you want to do these SBCs or just profit from them, the key is **buying fodder at the right time**. And for me the right time starts **today** and lasts **all weekend**.
+
+### Why now
+
+Little fodder has hit the market since the start of the week. The Heroes pack SBC expired on Sunday and prices dropped, but not enough. Now the biggest SBCs expire one after another (Olise today, Raphinha and Malen tomorrow, Claudia Pina in a few days): **fewer live SBCs = less fodder demand**. Then today's Rivals rewards and the Weekend League rewards bring lots of supply.
+
+Less demand plus lots of supply: that is the **buying window**. Then come the POTMs, probably the first **Icon pack** of the year and the promo after Ultimate Scream, and fodder will climb back.
+
+### Which ratings
+
+Focus on **87, 88, 89 and 90**. With a huge SBC like Mbappé, nobody wants to buy thousands of 84s: people spending coins go for higher ratings to buy fewer cards and finish faster. If an 88 does not cost much more per point than an 85-86, people go for 87+. That is where demand moves.
+
+### My target prices
+
+- **87:** under **7,000** (6,000 would be perfect, if you get them on bids)
+- **88:** **12,000** max, **11,000** ideal, under 11,000 is easy money
+- **89:** under **20,000**
+- **90:** around **33,000**
+
+The rule: buy close to **this week's low point** (Tuesday). No need to be too picky: this is an investment to hold **one, two, even three weeks**.
+
+### Why it will not rise on Friday night
+
+The SBCs coming tomorrow night are not big enough to move fodder. What would really move it is an Icon pack, and leakers would tease it days in advance. That is why I see **the weekend as the time to buy**.
+
+## Showdown SBCs: the Milan derby
+
+The first **Showdowns** of the year are out, for this weekend's **Inter-Milan derby**. They are the most interesting SBCs of the last few days.
+
+- **Loftus-Cheek (Milan):** looks very good, and with a win upgrade he becomes really strong. The talk is of **+2 for a win and +1 for a draw**, although EA has not confirmed it this year.
+- **Carlos Augusto (Inter):** I like this one even more. Anticipate, Whipped Pass and Aerial, 83 rated, over 1.80m tall, and he can play **centre back**. If Inter win he becomes an **85** with around **83 pace**: a very interesting centre back, with handy Brazilian and Serie A links.
+
+They are cheap: the total is currently around **28,000 coins**. And even if your team loses, they remain cards with room for future Evos. I would do at least one, maybe both.
+
+## TOTW 7: who to stock in your club
+
+**TOTW 7** is headlined by **Mbappé 92** himself, with Quick Step+ like his gold, and it is very expensive. The rest has a few interesting names:
+
+- **Gabriel:** with +12 pace he becomes a usable centre back, with huge defensive stats. At 400,000 on day one he looks cheap to me, I think he will rise after his price range update.
+- **Stanway:** from 40,000 to 750,000 looks excessive to me. She may rise short-term, but I do not think she holds that price for long.
+- **Mathys Tel:** a very strong 80 for his rating. When he drops to **20-30,000** he is a good investment for Evos.
+- **Nicolas Jackson:** a Premier League striker with a nice dynamic card, worth stocking in the club.
+- **James Hill:** Premier League centre back/right back with Anticipate, Aerial Fortress and Long Throw. Put him on your investment list: he will go up in the future.
+
+The advice works every week: check the TOTW and **stock 1-2 cards in your club for future Evos**, buying them at minimum price.
+
+## Rivals rewards: how to move today
+
+The market is already **sky-high**: Vinícius, Valverde and the other big names are very expensive. I do not expect a crash today with Rivals rewards, if anything it could rise further, as people cash in coins and buy.
+
+Where to make coins today:
+
+- **Out-of-packs cards** (Icons, Heroes, old TOTWs): no new supply hits them, while people with more coins buy them. It is the most underrated way to make coins: old TOTWs move a lot and people forget about them.
+- **Ultimate Scream Team 1 cards:** they are already up, but if you get them on bids or snipes during rewards, they have hype and people want them in their teams.
+
+The further the year goes, the less it pays to invest in golds for Rivals rewards and the more it pays to target **out-of-packs specials, Heroes and Icons**.
+
+### Do I open my packs or save them for Team 2?
+
+**Ultimate Scream Team 2** drops tomorrow. The top lines are stronger than Team 1 (Olise, Messi, Kvaratskhelia, Valverde at right back, McTominay at CDM), but those are cards you will hardly pack. In the middle and lower tiers, for me, **Team 1 is better**. So I **open my Rivals rewards today**. Save them only if Team 2 has a player you really care about.
+
+## Other things to do today
+
+- **Scream Completionist SBC:** the new one is a **must-do** (large player pack). In total, across released, expired and token SBCs, there are **930** Scream tokens available.
+- **League upgrades** (Bundesliga, Ligue 1 and others): I do not love them, the max 85 packs almost always give 78-80s. They are only useful if you chase **first-owner bronzes and silvers** for the Gallery.
+- **Centre back Evo (max 81):** a "chain" Evo, with passing and dribbling boosts, the Pinged Pass PlayStyle and a 3-star weak foot. Only good to grow a silver or low gold.
+- **Tonight:** Marquee Matchups (do them for the coins), the Liga MX Showdown and the weekly objectives refresh for Season Pass points.
+
+## The coach's take
+
+In FC 27 you make coins by anticipating, not chasing. You buy fodder when nobody wants it (this weekend), not on the day Mbappé drops. Set your target prices, buy on bids and be patient. And remember: coins improve your squad, but you win games with your gameplay. If you want me to help you manage club, coins and on-pitch performance, 👉 **[book your coaching here](/en/coaching)**.
+
+Continue here: [how to make coins from day one](/en/newsletter/fc-27-come-fare-crediti-day-one-mercato-trading), [should you sell before the crash?](/en/newsletter/fc-27-crash-mercato-ultimate-scream-vendere-ora) and [the mid-November fullback patch](/en/newsletter/fc-27-patch-meta-novembre-terzini-cosa-cambia).
+
+---
+
+*Note: market analysis with prices as of October 29, 2026. Ratings, costs and dates of the POTM SBCs are predictions not confirmed by EA. Prices depend on supply and demand and can change fast; no guarantee of profit.*`,
+    },
+  },
+  {
     slug: "fc-27-patch-meta-novembre-terzini-cosa-cambia",
     title: "FC 27, patch di metà novembre: EA sistema i terzini (e non solo)",
     description:
