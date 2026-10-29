@@ -30,6 +30,240 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "fc-27-patch-meta-novembre-terzini-cosa-cambia",
+    title: "FC 27, patch di metà novembre: EA sistema i terzini (e non solo)",
+    description:
+      "FC 27 Title Update 1.2.0 a metà novembre: EA sistema i terzini che scendono troppo e tengono in gioco gli attaccanti. Tutte le modifiche alle note di EA spiegate da un coach, e come prepararti.",
+    category: "News",
+    date: "2026-10-29",
+    dateLabel: "29 Ottobre 2026",
+    readingTime: "8 min",
+    badge: "Patch",
+    excerpt:
+      "EA ha annunciato la prima patch di gameplay di FC 27, a metà novembre. La modifica più importante riguarda i terzini. Ti spiego cosa cambia, perché ti costava gol e come difendere adesso, in attesa dell'aggiornamento.",
+    body: `EA ha pubblicato le **note degli sviluppatori sul gameplay di ottobre** e finalmente abbiamo una data: a **metà novembre** arriva il **Title Update 1.2.0**, la **prima patch che tocca davvero il gameplay** di FC 27. Quella di questa settimana (la 1.1.0) sistemava solo menu e Ultimate Team. Questa invece cambia come si difende.
+
+E la modifica numero uno, la prima che EA mette in lista, è quella che aspettavo di più: **i terzini**.
+
+> ⚠️ Nota: EA parla di "metà novembre" ma **non ha ancora dato una data precisa**. Quelle che leggi qui sono le modifiche annunciate nelle note di sviluppo del 28 ottobre: le patch notes complete usciranno il giorno dell'aggiornamento e potrebbero contenere altro.
+
+## Il problema dei terzini (e perché ti costa gol)
+
+Lo avrai visto mille volte in Weekend League. L'avversario attacca, tu tieni la linea, sali per mettere in fuorigioco la punta... e il gol è regolare. Rivedi il replay e c'è sempre lui: **il terzino che è rimasto basso** e tiene in gioco tutti.
+
+EA lo ammette nero su bianco: i terzini **scendevano troppo in profondità** quando difendevano. Due conseguenze, entrambe pesanti:
+
+1. **La linea difensiva si rompe.** I due centrali sono in linea, il terzino è un metro e mezzo dietro. Si crea uno "scalino" che rovina la forma della difesa.
+2. **Gli attaccanti restano in gioco.** È il punto che fa più male: il terzino basso annulla il fuorigioco. Tu fai la scelta giusta e sali, l'AI ti tradisce.
+
+Il risultato? Ti ritrovi a difendere più basso di quanto vorresti, perché non ti fidi della linea. E se difendi basso, l'avversario ha spazio per il tiro dal limite.
+
+## Cosa cambia con la 1.2.0
+
+Questo è il cuore della patch. Secondo EA, dopo l'aggiornamento i terzini:
+
+- **terranno la linea difensiva in modo più costante**, restando allineati ai centrali invece di inseguire ogni movimento dell'esterno avversario;
+- **si staccheranno per seguire un uomo solo quando c'è una vera minaccia offensiva**, cioè un inserimento che porta pericolo, non un movimento qualsiasi.
+
+Tradotto in campo: difesa più **compatta**, linea più **pulita**, **fuorigioco che funziona** come dovrebbe.
+
+EA però mette le mani avanti: dice che questo comportamento **potrebbe ancora capitare ogni tanto**. Quindi non aspettarti terzini perfetti, ma molto meno errori di quelli di adesso.
+
+### Cosa significa per il tuo modo di difendere
+
+Da coach, ecco le conseguenze pratiche che mi aspetto:
+
+- **Puoi tornare ad alzare la linea con più fiducia.** Se i terzini restano allineati, la trappola del fuorigioco diventa un'arma vera e non una scommessa.
+- **Meno gol "fantasma" sul secondo palo.** Molti gol nascevano dal terzino lontano che restava basso e teneva in gioco la punta sul cross. Con la linea compatta dovrebbero calare.
+- **Attenzione agli inserimenti veri.** Se il terzino segue l'uomo solo quando c'è una minaccia reale, i movimenti "finti" dell'avversario non ti sposteranno più la difesa. Ma su una sovrapposizione vera il terzino uscirà: lì devi essere pronto a coprire con il centrale o il mediano.
+- **Il 4-3-1-2 ne guadagna.** Il modulo che va tanto adesso tra i pro ha poca ampiezza a centrocampo e chiede ai terzini di essere solidi. Terzini più disciplinati rendono questo modulo ancora più forte. Se lo usi, [qui trovi la mia lettura del meta](/newsletter/fc-27-meta-4312-addio-4411-modulo-pro).
+
+## Le altre 4 modifiche della patch
+
+### 2. Attaccanti più attenti al fuorigioco
+
+EA ha migliorato la **lettura della linea difensiva** da parte degli attaccanti: dovrebbero riconoscerla meglio e **tempificare i movimenti** per restare in gioco. Questo è l'altro lato della medaglia: tu tieni meglio la linea, ma anche le punte avversarie (e le tue) partiranno meno spesso in fuorigioco. Il duello sul filo del fuorigioco diventa più "pulito" da entrambe le parti.
+
+### 3. Movimenti offensivi dell'AI più intelligenti
+
+Gli attaccanti controllati dall'AI non sempre facevano **movimenti decisi verso lo spazio libero**, soprattutto vicino all'area. Con la 1.2.0 dovrebbero fare **corse di supporto più sensate** e usare meglio lo spazio attorno all'area. Per chi attacca significa più linee di passaggio nell'ultimo terzo. Per chi difende, più movimenti da leggere.
+
+### 4. Meno gol dal calcio d'inizio
+
+Altra piaga di queste settimane: il gol subito **subito dopo il calcio d'inizio**. Succedeva perché, alla ripresa del gioco, la linea difensiva **scendeva troppo** e l'avversario arrivava in area quasi indisturbato. EA farà in modo che dopo il calcio d'inizio la linea **resti più alta**, pressando il portatore prima dell'area. Meno gol facili subiti, ma ovviamente anche meno gol facili segnati.
+
+### 5. Cambio giocatore sui palloni vaganti
+
+Il cambio automatico a volte **non selezionava il giocatore più vicino alla palla**. EA interviene in tre situazioni precise:
+
+- dopo una **scivolata riuscita** di un compagno;
+- dopo un **passaggio di testa**;
+- dopo un **tiro finito fuori**.
+
+Sembra un dettaglio, ma su una palla vagante al limite dell'area un cambio sbagliato è un gol subito. Chi difende con tanto controllo manuale lo sentirà subito.
+
+## Cosa NON c'è (ed è importante saperlo)
+
+Qui serve onestà, perché la community non è contenta di tutto. Alcuni problemi sono **ancora "in fase di analisi"**, senza una data:
+
+- **Linee difensive molto alte** che mettono troppa pressione all'avversario. Il famoso **"95 di profondità"** che molti usano non viene nominato direttamente: questo è il punto più vicino, ma **non è nella patch di novembre**.
+- **Contrasti tra giocatori** di fisico diverso (il piccolo che rimbalza sul grosso, o viceversa).
+- **Precisione di alcuni tipi di tiro** insieme al **posizionamento del portiere**.
+
+Tradotto: se speravi in un nerf della linea altissima o dei tiri a giro, non arriva a novembre. EA dice che ogni modifica a un sistema ha effetti sugli altri, quindi va per gradi.
+
+## I dati del primo mese (secondo EA)
+
+EA ha anche condiviso cosa dicono i dati delle partite dal lancio:
+
+- **Si tira meno, ma si segna di più:** meno tiri totali, conversione più alta.
+- **Più passaggi completati**, anche se se ne fanno un po' meno, e qualche intercetto in più con il difensore controllato a mano.
+- **Più contrasti vinti:** i giocatori si stanno abituando alla difesa manuale.
+- **Più varietà tattica rispetto a FC 26:** le percentuali di vittoria per modulo sono **molto equilibrate**, nessun modulo domina.
+
+Su quest'ultimo punto ho un parere diverso: ai livelli alti il 4-3-1-2 è ovunque. Il dato medio può essere equilibrato, ma in Elite il meta c'è eccome. EA comunque dice che sta monitorando i moduli più usati nelle divisioni alte.
+
+EA spiega anche di aver **evitato di proposito patch di gameplay nelle prime settimane**, per lasciare il tempo ai giocatori di adattarsi. Un approccio nuovo rispetto agli anni scorsi.
+
+## Come prepararti adesso, in attesa della patch
+
+Fino a metà novembre i terzini restano quelli di oggi. Ecco cosa fare nel frattempo:
+
+1. **Imposta i terzini su "resta dietro in attacco"**, così almeno in fase di possesso non li perdi in avanti e sono già vicini alla linea quando perdi palla.
+2. **Prima di alzare la linea, guarda il terzino lontano.** Se è basso, non salire: è lui che terrà in gioco la punta.
+3. **Sui cross dal lato opposto, prendi tu il terzino** e riportalo in linea a mano. Due secondi di controllo manuale salvano un gol.
+4. **Non stravolgere la tattica adesso.** Tra due-tre settimane il comportamento cambia: tieni pronta una versione con linea più alta da provare subito dopo la patch.
+
+E se vuoi difendere bene a prescindere dalle patch, parti dalle basi: [ecco la mia guida completa alla difesa su FC 27](/newsletter/come-si-difende-fc-27-guida-completa-arrivare-elite).
+
+## Il consiglio del coach
+
+È la patch giusta nel punto giusto. I terzini che scendono troppo erano il problema difensivo numero uno di FC 27, perché ti toglievano l'arma del fuorigioco e ti costringevano a difendere basso. Con la linea più compatta tornerà a pagare chi legge il gioco e sa quando salire. Resta il dubbio sulle linee altissime, che EA rimanda a più avanti.
+
+Quando la patch uscirà la proverò subito in Weekend League e aggiornerò questo articolo con le patch notes ufficiali. Se intanto vuoi sistemare la tua difesa e capire come sfruttare la linea più alta, 👉 **[prenota il tuo coaching qui](/coaching)**.
+
+Continua qui: [cosa ha cambiato il Title Update 1.1.0](/newsletter/fc-27-title-update-1-1-patch-notes-cosa-cambia), [il meta del 4-3-1-2](/newsletter/fc-27-meta-4312-addio-4411-modulo-pro) e [come si difende su FC 27](/newsletter/come-si-difende-fc-27-guida-completa-arrivare-elite).
+
+---
+
+*Fonti: [note degli sviluppatori sul gameplay di ottobre di EA SPORTS FC 27](https://www.ea.com/games/ea-sports-fc/fc-27/news/fc27-october-gameplay-developer-notes) (28 ottobre 2026), e la copertura di [Futevolution](https://www.futevolution.com/news/fc-27-title-update-v1-2-0) e [Output Lag](https://outputlag.com/news/ea-fc-27s-first-gameplay-patch-lands-mid-november-and-the-95-depth-meta-isnt-in-it/). La data esatta del Title Update 1.2.0 e le patch notes definitive non sono ancora state pubblicate da EA al momento della pubblicazione.*`,
+    en: {
+      title: "FC 27 Mid-November Patch: EA Fixes Fullbacks (and More)",
+      description:
+        "FC 27 Title Update 1.2.0 in mid-November: EA fixes fullbacks dropping too deep and keeping attackers onside. Every change in EA's notes explained by a coach, and how to prepare.",
+      category: "News",
+      dateLabel: "October 29, 2026",
+      excerpt:
+        "EA announced FC 27's first gameplay patch, coming mid-November. The biggest change is about fullbacks. I explain what changes, why it was costing you goals and how to defend now, while you wait for the update.",
+      body: `EA has published its **October gameplay developer notes** and we finally have a window: in **mid-November** comes **Title Update 1.2.0**, the **first patch that really touches FC 27's gameplay**. This week's update (1.1.0) only fixed menus and Ultimate Team. This one changes how you defend.
+
+And change number one, the first one on EA's list, is the one I was waiting for the most: **fullbacks**.
+
+> ⚠️ Note: EA says "mid-November" but **has not given an exact date yet**. What you read here are the changes announced in the October 28 developer notes: the full patch notes will come out on update day and may include more.
+
+## The fullback problem (and why it costs you goals)
+
+You have seen it a thousand times in the Weekend League. Your opponent attacks, you hold the line, you step up to catch the striker offside... and the goal stands. You check the replay and there he is: **the fullback who stayed deep** and kept everyone onside.
+
+EA admits it in black and white: fullbacks **dropped too deep** while defending. Two consequences, both painful:
+
+1. **The defensive line breaks.** Your two centre backs are level, the fullback is a step and a half behind. It creates a "step" that ruins the shape of the back line.
+2. **Attackers stay onside.** This is the one that hurts most: the deep fullback kills the offside. You make the right call and step up, the AI betrays you.
+
+The result? You end up defending deeper than you want, because you do not trust the line. And if you defend deep, your opponent has space to shoot from the edge of the box.
+
+## What changes with 1.2.0
+
+This is the heart of the patch. According to EA, after the update fullbacks will:
+
+- **hold the defensive line more consistently**, staying level with the centre backs instead of chasing every movement of the opposing winger;
+- **break away to track a man only when there is a genuine attacking threat**, meaning a run that brings real danger, not just any movement.
+
+On the pitch: a more **compact** defence, a **cleaner** line, an **offside trap that works** as it should.
+
+EA does cover itself though: it says this behaviour **may still happen occasionally**. So do not expect perfect fullbacks, but far fewer mistakes than now.
+
+### What it means for the way you defend
+
+As a coach, here are the practical consequences I expect:
+
+- **You can push the line up with more confidence again.** If fullbacks stay level, the offside trap becomes a real weapon and not a gamble.
+- **Fewer "ghost" goals at the back post.** Many goals came from the far fullback staying deep and keeping the striker onside on the cross. With a compact line they should drop.
+- **Watch out for real runs.** If the fullback follows his man only when there is a real threat, your opponent's "fake" movements will no longer drag your defence around. But on a real overlap the fullback will step out: be ready to cover with the centre back or the defensive midfielder.
+- **The 4-3-1-2 gets stronger.** The formation the pros are using right now has little width in midfield and asks fullbacks to be solid. More disciplined fullbacks make it even stronger. If you use it, [here is my read on the meta](/en/newsletter/fc-27-meta-4312-addio-4411-modulo-pro).
+
+## The other 4 changes in the patch
+
+### 2. Attackers more aware of offside
+
+EA improved attackers' **reading of the defensive line**: they should recognise it better and **time their runs** to stay onside. That is the other side of the coin: you hold the line better, but opposing strikers (and yours) will also go offside less often. The battle on the offside line gets "cleaner" on both sides.
+
+### 3. Smarter AI attacking runs
+
+AI-controlled attackers did not always make **decisive runs into open space**, especially near the box. With 1.2.0 they should make **more purposeful supporting runs** and use the space around the box better. For attackers it means more passing lanes in the final third. For defenders, more movements to read.
+
+### 4. Fewer goals from kick-off
+
+Another plague of recent weeks: conceding **right after kick-off**. It happened because, at the restart, the defensive line **dropped too deep** and the opponent reached the box almost unchallenged. EA will make the line **stay higher** after kick-off, pressing the ball carrier before the box. Fewer cheap goals conceded, but obviously fewer cheap goals scored too.
+
+### 5. Switching on loose balls
+
+Auto switching sometimes **did not select the player closest to the ball**. EA is fixing three specific situations:
+
+- after a teammate's **successful slide tackle**;
+- after a **headed pass**;
+- after a **shot that misses the target**.
+
+It sounds like a detail, but on a loose ball at the edge of the box a wrong switch is a goal conceded. If you defend with lots of manual control, you will feel it right away.
+
+## What is NOT in it (and it matters)
+
+Honesty is needed here, because the community is not happy about everything. Some issues are **still "under investigation"**, with no date:
+
+- **Very high defensive lines** putting too much pressure on the opponent. The famous **"95 depth"** many people use is not named directly: this is the closest point, but **it is not in the November patch**.
+- **Collisions between players** with different builds (the small player bouncing off the big one, or vice versa).
+- **Accuracy of certain shot types** together with **goalkeeper positioning**.
+
+In short: if you were hoping for a nerf to the ultra-high line or finesse shots, it is not coming in November. EA says every change to one system affects others, so it is going step by step.
+
+## The first month's data (according to EA)
+
+EA also shared what match data says since launch:
+
+- **Fewer shots, more goals:** fewer total shots, higher conversion.
+- **More completed passes**, even if slightly fewer are made, and a few more interceptions by manually controlled defenders.
+- **More tackles won:** players are getting used to manual defending.
+- **More tactical variety than FC 26:** win rates by formation are **very even**, no formation dominates.
+
+On that last point I see it differently: at the top level the 4-3-1-2 is everywhere. The average may be balanced, but in Elite there definitely is a meta. EA does say it is monitoring the most used formations in the higher divisions.
+
+EA also explains it **deliberately avoided gameplay patches in the first weeks**, to give players time to adapt. A new approach compared to previous years.
+
+## How to prepare now, while you wait
+
+Until mid-November fullbacks stay as they are. Here is what to do in the meantime:
+
+1. **Set your fullbacks to "stay back while attacking"**, so at least in possession you do not lose them upfield and they are already near the line when you lose the ball.
+2. **Before stepping up, check the far fullback.** If he is deep, do not step up: he is the one keeping the striker onside.
+3. **On crosses from the far side, take control of the fullback** and bring him back into line manually. Two seconds of manual control save a goal.
+4. **Do not overhaul your tactic now.** In two or three weeks the behaviour changes: keep a higher-line version ready to try right after the patch.
+
+And if you want to defend well regardless of patches, start from the basics: [here is my complete defending guide for FC 27](/en/newsletter/come-si-difende-fc-27-guida-completa-arrivare-elite).
+
+## The coach's take
+
+It is the right patch in the right place. Fullbacks dropping too deep were FC 27's number one defensive problem, because they took away the offside weapon and forced you to defend deep. With a more compact line, reading the game and knowing when to step up will pay off again. The doubt about ultra-high lines remains, which EA postpones to later.
+
+When the patch drops I will test it straight away in the Weekend League and update this article with the official patch notes. Meanwhile, if you want to fix your defending and learn how to use a higher line, 👉 **[book your coaching here](/en/coaching)**.
+
+Continue here: [what Title Update 1.1.0 changed](/en/newsletter/fc-27-title-update-1-1-patch-notes-cosa-cambia), [the 4-3-1-2 meta](/en/newsletter/fc-27-meta-4312-addio-4411-modulo-pro) and [how to defend in FC 27](/en/newsletter/come-si-difende-fc-27-guida-completa-arrivare-elite).
+
+---
+
+*Sources: [EA SPORTS FC 27 October gameplay developer notes](https://www.ea.com/games/ea-sports-fc/fc-27/news/fc27-october-gameplay-developer-notes) (October 28, 2026), plus coverage from [Futevolution](https://www.futevolution.com/news/fc-27-title-update-v1-2-0) and [Output Lag](https://outputlag.com/news/ea-fc-27s-first-gameplay-patch-lands-mid-november-and-the-95-depth-meta-isnt-in-it/). The exact date of Title Update 1.2.0 and the final patch notes had not been published by EA at the time of writing.*`,
+    },
+  },
+  {
     slug: "fc-27-title-update-1-1-patch-notes-cosa-cambia",
     title: "FC 27 Title Update 1.1.0: cosa cambia davvero in Ultimate Team",
     description:
