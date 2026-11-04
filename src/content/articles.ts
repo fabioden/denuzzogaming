@@ -30,6 +30,186 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "fc-27-road-to-the-knockouts-rttk-data-giocatori-upgrade",
+    title: "FC 27, Road to the Knockouts: data, nomi usciti e come possono salire le carte",
+    description:
+      "FC 27: Road to the Knockouts atteso venerdì 6 novembre alle 19. Nomi usciti nei leak, come funzionavano gli upgrade negli anni scorsi, calendario UEFA e cosa farei prima di spendere crediti.",
+    category: "News",
+    date: "2026-11-04",
+    dateLabel: "4 Novembre 2026",
+    readingTime: "6 min",
+    badge: "Leak",
+    excerpt:
+      "RTTK è atteso per venerdì, ma EA non ha ancora pubblicato squadra e percorso degli upgrade. Ti separo le certezze dalle voci e ti dico perché, per le carte maschili, i primi upgrade non dovrebbero arrivare prima di fine novembre.",
+    body: `**Road to the Knockouts** dovrebbe uscire **venerdì 6 novembre alle 19:00** italiane, al posto di Ultimate Scream. È la promo legata alle coppe europee: le carte possono salire di livello in base a quello che succede nella realtà.
+
+Il rischio è comprare al lancio una carta per gli upgrade che *pensi* arriveranno. EA quelle regole non le ha ancora pubblicate. Quindi prima di spendere separiamo ciò che è certo da ciò che è voce.
+
+> ⚠️ Nota: data, giocatori e percorso degli upgrade di RTTK **non sono confermati da EA** al 4 novembre. I nomi arrivano da leak e previsioni sui social, e possono cambiare.
+
+## Cosa è certo e cosa no
+
+**Risulta già:**
+
+- RTTK è nella **roadmap della Season 2** di EA.
+- Ultimate Scream lascia i pacchetti **venerdì 6 novembre alle 19:00** italiane.
+- Il **negozio dei token Scream** chiude entro il **13 novembre alle 19:00** italiane.
+- La **Season 2** finisce il **3 dicembre**.
+
+**Non è ancora ufficiale:**
+
+- la data e l'ora di RTTK (venerdì alle 19:00 è l'orario più probabile, perché le promo partono di solito così);
+- la squadra;
+- il percorso degli upgrade;
+- la durata della promo, una o due settimane;
+- se le partite giocate prima del lancio contano e se gli upgrade valgono anche per le Evo.
+
+## I nomi usciti finora
+
+La lista che circola da ieri, sempre da leak e senza conferme, è questa.
+
+**Nei pacchetti (Team 1):** Bellingham, Pedri, Bonmatí, Dembélé, Doku, Marcos Llorente e Karchaoui.
+
+**Via SBC o obiettivi:** Calafiori, Aleix García, Brobbey, Nwaneri, Openda, Buendía e Tiago Djaló.
+
+Un'altra lista più lunga, basata sui post di FutSheriff e ASYFut, aggiunge anche diversi nomi di Serie A: **Bastoni, Tomori, Conceição, Anguissa e Soulé**. Però è presentata come previsione. Anche i rating che girano sono stime, quindi non ci costruirei sopra la squadra.
+
+## Come possono salire le carte
+
+Questa è la domanda vera, e la risposta di oggi è: **non lo sappiamo**. Possiamo solo guardare cosa ha fatto EA negli ultimi due anni, e sono due sistemi diversi.
+
+- **FC 25, conta la squadra:** +1 con 3 vittorie, +1 e Role++ se il club segna in 4 partite, PlayStyle+ e Role++ se chiude tra le prime due. Contavano tutte le partite della fase a campionato, anche quelle giocate prima del lancio. Il giocatore non doveva nemmeno scendere in campo.
+- **FC 26, conta anche il giocatore:** la promo si chiamava UEFA Primetime e aveva cinque passaggi, alcuni legati al club e altri alle prestazioni individuali. Contavano solo le partite dopo il lancio e le carte evolute non ricevevano gli upgrade.
+
+Per FC 27 un report parla di upgrade legati sia al giocatore che alla squadra, FUT.GG si aspetta qualcosa di simile a FC 26. Cambia tutto, per due motivi:
+
+1. **Se conta anche il giocatore,** un infortunio o una panchina possono bloccare la carta, anche se il club vince.
+2. **Se contano solo le partite dopo il lancio,** la classifica di oggi conta poco. Un club già lanciato non parte in vantaggio.
+
+## Il dettaglio che molti non guardano: il calendario
+
+Dopo le partite di questa settimana, le coppe europee maschili si fermano fino al **24 novembre**. Se gli upgrade seguiranno lo schema degli anni scorsi, un Bellingham o un Pedri comprato venerdì **non si muoverà per tre settimane**.
+
+Le carte femminili invece possono muoversi prima, perché la Women's Champions League torna già il 10 e l'11 novembre. Ecco i venerdì in cui FUT.GG si aspetta gli upgrade:
+
+- **13 novembre:** Women's Champions League, giornata 4
+- **20 novembre:** Women's Champions League, giornata 5
+- **27 novembre:** Champions League ed Europa League giornata 5, Conference League giornata 4
+- **11 dicembre:** Champions League ed Europa League giornata 6, Conference League giornata 5
+- **18 dicembre:** Women's Champions League e Conference League, giornata 6
+- **22 gennaio:** Champions League ed Europa League, giornata 7
+- **29 gennaio:** Champions League ed Europa League, giornata 8 (ultimo upgrade atteso)
+
+## Cosa farei prima di spendere
+
+1. **Compra la carta per com'è, non per come diventerà.** Finché il percorso non è ufficiale, l'upgrade è un bonus. Se la carta non ti serve così com'è, aspetta.
+2. **Non avere fretta il primo giorno.** Con le coppe maschili ferme, su quelle carte non c'è nessun upgrade da inseguire fino a fine novembre.
+3. **Attento alle carte SBC e obiettivi:** non puoi rivenderle. Se gli upgrade deludono, resta tua. Le carte dei pacchetti invece restano vendibili.
+4. **Non contare sugli upgrade sulle Evo.** L'anno scorso non arrivavano e per quest'anno non c'è conferma.
+5. **Occhio a gennaio.** Un giocatore che cambia squadra nel mercato invernale potrebbe smettere di ricevere upgrade.
+6. **Spendi i token Scream.** Il negozio chiude al massimo il 13 novembre: se ti manca una carta, non ridurti all'ultimo.
+
+Per il mercato il ragionamento è quello di ogni promo: più pacchetti aperti vogliono dire più offerta, e i prezzi tendono a scendere. L'ho spiegato nell'articolo sul [crash prima di Ultimate Scream](/newsletter/fc-27-crash-mercato-ultimate-scream-vendere-ora).
+
+## Il consiglio del coach
+
+RTTK può darti carte che crescono per mesi, ma solo se scegli con le regole in mano. Aspetta squadra e percorso ufficiali, compra quello che ti serve davvero e usa i crediti con calma. E ricorda che una carta con un +1 non ti fa vincere le partite che perdi per come difendi. Se vuoi lavorare sul tuo gioco con me, 👉 **[prenota il tuo coaching qui](/coaching)**.
+
+Continua qui: [il POTM di Mbappé e il fodder](/newsletter/fc-27-potm-mbappe-guijarro-fodder-quando-comprare), [la patch dei terzini di metà novembre](/newsletter/fc-27-patch-meta-novembre-terzini-cosa-cambia) e [cosa cambia con la Season 2](/newsletter/fc-27-season-2-cosa-cambia).
+
+---
+
+*Fonti: [FUT.GG](https://www.fut.gg/news/ea-fc-27-road-to-the-knockouts-rttk-release-date-upgrade-path-fixtures/) per date, storico degli upgrade e calendario atteso, [Destructoid](https://www.destructoid.com/all-fc-27-rttk-team-1-players-and-release-countdown/) per i leak del Team 1, [SportsDunia](https://www.sportsdunia.com/esports/ea-fc-27-road-to-the-knockouts-rttk-player-predictions-team-1) per la lista estesa. Informazioni aggiornate al 4 novembre 2026: non sono annunci ufficiali di EA e possono cambiare.*`,
+    en: {
+      title: "FC 27 Road to the Knockouts: Date, Leaked Names and How Cards Could Upgrade",
+      description:
+        "FC 27: Road to the Knockouts is expected on Friday November 6 at 6pm UK. Leaked names, how upgrades worked in past years, the UEFA calendar and what I would do before spending coins.",
+      category: "News",
+      dateLabel: "November 4, 2026",
+      excerpt:
+        "RTTK is expected on Friday, but EA has not published the squad or the upgrade path yet. I separate facts from rumours and explain why men's cards should not upgrade before late November.",
+      body: `**Road to the Knockouts** should drop on **Friday November 6 at 6pm UK time**, replacing Ultimate Scream. It is the promo tied to the European competitions: cards can level up based on what happens in real life.
+
+The risk is buying a card on launch day for upgrades you *think* are coming. EA has not published those rules yet. So before you spend, let's separate what is certain from what is rumour.
+
+> ⚠️ Note: the date, players and upgrade path of RTTK are **not confirmed by EA** as of November 4. The names come from social media leaks and predictions, and they can change.
+
+## What is certain and what is not
+
+**Already known:**
+
+- RTTK is on EA's **Season 2 roadmap**.
+- Ultimate Scream leaves packs on **Friday November 6 at 6pm UK**.
+- The **Scream token store** closes by **November 13 at 6pm UK**.
+- **Season 2** ends on **December 3**.
+
+**Not official yet:**
+
+- the date and time of RTTK (Friday at 6pm UK is the most likely slot, because promos usually start then);
+- the squad;
+- the upgrade path;
+- how long the promo lasts, one or two weeks;
+- whether matches played before launch count and whether upgrades apply to Evolutions.
+
+## The names so far
+
+This is the list circulating since yesterday, again from leaks and with no confirmation.
+
+**In packs (Team 1):** Bellingham, Pedri, Bonmatí, Dembélé, Doku, Marcos Llorente and Karchaoui.
+
+**Through SBCs or objectives:** Calafiori, Aleix García, Brobbey, Nwaneri, Openda, Buendía and Tiago Djaló.
+
+A longer list, based on posts by FutSheriff and ASYFut, also adds several Serie A names: **Bastoni, Tomori, Conceição, Anguissa and Soulé**. It is presented as a prediction, though. The ratings going around are estimates too, so I would not build a squad on them.
+
+## How cards could upgrade
+
+This is the real question, and today's answer is: **we do not know**. We can only look at what EA did in the last two years, and those were two different systems.
+
+- **FC 25, the team is what counts:** +1 for 3 wins, +1 and Role++ if the club scores in 4 matches, PlayStyle+ and Role++ for a top-two finish. All league phase matches counted, including those played before launch. The player did not even need to feature.
+- **FC 26, the player counts too:** the promo was called UEFA Primetime and had five steps, some tied to the club and others to individual performances. Only post-launch matches counted and Evolutions did not receive upgrades.
+
+For FC 27 one report talks about upgrades tied to both player and team, while FUT.GG expects something similar to FC 26. It changes everything, for two reasons:
+
+1. **If the player counts too,** an injury or a spot on the bench can stall the card, even if the club wins.
+2. **If only post-launch matches count,** today's table matters little. A club already flying does not start ahead.
+
+## The detail many people miss: the calendar
+
+After this week's matches, the men's European competitions stop until **November 24**. If upgrades follow the pattern of past years, a Bellingham or a Pedri bought on Friday **will not move for three weeks**.
+
+Women's cards can move earlier, because the Women's Champions League is already back on November 10 and 11. These are the Fridays when FUT.GG expects upgrades:
+
+- **November 13:** Women's Champions League, matchday 4
+- **November 20:** Women's Champions League, matchday 5
+- **November 27:** Champions League and Europa League matchday 5, Conference League matchday 4
+- **December 11:** Champions League and Europa League matchday 6, Conference League matchday 5
+- **December 18:** Women's Champions League and Conference League, matchday 6
+- **January 22:** Champions League and Europa League, matchday 7
+- **January 29:** Champions League and Europa League, matchday 8 (last expected upgrade)
+
+## What I would do before spending
+
+1. **Buy the card as it is, not as it might become.** Until the path is official, the upgrade is a bonus. If you do not need the card as it is, wait.
+2. **Do not rush on day one.** With the men's competitions on hold, there is no upgrade to chase on those cards until late November.
+3. **Careful with SBC and objective cards:** you cannot resell them. If the upgrades disappoint, you are stuck with them. Pack cards stay tradeable.
+4. **Do not count on upgrades for Evolutions.** They did not apply last year and there is no confirmation for this year.
+5. **Watch January.** A player who moves club in the winter window could stop receiving upgrades.
+6. **Spend your Scream tokens.** The store closes by November 13 at the latest: if you are missing a card, do not leave it to the last minute.
+
+For the market the logic is the same as every promo: more packs opened means more supply, and prices tend to drop. I explained it in the article on the [crash before Ultimate Scream](/en/newsletter/fc-27-crash-mercato-ultimate-scream-vendere-ora).
+
+## The coach's take
+
+RTTK can give you cards that grow for months, but only if you choose with the rules in hand. Wait for the official squad and path, buy what you really need and use your coins calmly. And remember that a +1 on a card will not win the games you lose because of how you defend. If you want to work on your gameplay with me, 👉 **[book your coaching here](/en/coaching)**.
+
+Continue here: [Mbappé's POTM and fodder](/en/newsletter/fc-27-potm-mbappe-guijarro-fodder-quando-comprare), [the mid-November fullback patch](/en/newsletter/fc-27-patch-meta-novembre-terzini-cosa-cambia) and [what changes with Season 2](/en/newsletter/fc-27-season-2-cosa-cambia).
+
+---
+
+*Sources: [FUT.GG](https://www.fut.gg/news/ea-fc-27-road-to-the-knockouts-rttk-release-date-upgrade-path-fixtures/) for dates, upgrade history and the expected calendar, [Destructoid](https://www.destructoid.com/all-fc-27-rttk-team-1-players-and-release-countdown/) for the Team 1 leaks, [SportsDunia](https://www.sportsdunia.com/esports/ea-fc-27-road-to-the-knockouts-rttk-player-predictions-team-1) for the extended list. Information as of November 4, 2026: these are not official EA announcements and may change.*`,
+    },
+  },
+  {
     slug: "fc-27-potm-mbappe-guijarro-fodder-quando-comprare",
     title: "FC 27: arriva il POTM di Mbappé (e di Guijarro). Quando comprare il fodder",
     description:
