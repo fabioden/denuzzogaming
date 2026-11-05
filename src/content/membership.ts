@@ -57,6 +57,14 @@ export const lessonIsLive = (l: Lesson) => !!l.streamUid || (!!l.youtubeId && !l
 export const courseIsLive = (c: Course) => c.lessons.some(lessonIsLive);
 export const liveLessonCount = (c: Course) => c.lessons.filter(lessonIsLive).length;
 
+// NOVITA' in dashboard: badge "stella rossa · Novità" che punta all'ultimo video uscito.
+// Aggiornare questi 3 campi ogni volta che carico un nuovo video (metti null per nasconderlo).
+export const novita: { courseId: string; lessonId: string; title: string } | null = {
+  courseId: "difesa",
+  lessonId: "di-9",
+  title: "Vincere contro il pressing alto o estremo",
+};
+
 export type TopPlayer = {
   name: string;
   role: string; // es. "Ala sinistra"
@@ -178,6 +186,8 @@ export const courses: Course[] = [
       { id: "di-6", title: "I PlayStyle difensivi che contano", durationMin: 7, streamUid: "419b78c26871a756711dfe58621e6c5c" },
       { id: "di-7", title: "Difendere: test in partita reale", durationMin: 6, streamUid: "f92561f455772ccd397109239cba97aa" },
       { id: "di-8", title: "Raddoppio e pressing: come usarli", durationMin: 6, streamUid: "95e5f8dceac8f3fb9d1a3edfe5958583" },
+      { id: "di-9", title: "Vincere contro il pressing alto: la teoria", durationMin: 5, streamUid: "68c3e66c75a1e4641c580d7acf7645e2" },
+      { id: "di-10", title: "Vincere contro il pressing alto: in partita", durationMin: 7, streamUid: "432909f14587ac951446039f82a7056f" },
     ],
   },
   {

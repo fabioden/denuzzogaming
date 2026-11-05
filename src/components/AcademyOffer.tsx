@@ -10,7 +10,7 @@ type BuyUser = { id?: string; email?: string | null } | null | undefined;
 
 // Cosa ottieni davvero. Onesto: la Difesa è pronta ora, il resto arriva ogni settimana.
 export const STACK: { t: string }[] = [
-  { t: "Corso Difesa completo: 8 video, dalla teoria al pressing — disponibile ora" },
+  { t: "Corso Difesa completo: 10 video, dalla teoria al pressing alto, disponibile ora" },
   { t: "Intro + le impostazioni di gioco che uso io" },
   { t: "Nuovi video ogni settimana sul meta, per tutta la stagione EA FC 27" },
   { t: "Video protetti: li vedi solo qui, sempre, finché sei iscritto" },

@@ -1,7 +1,16 @@
 import { useState } from "react";
 import { Link, useOutletContext } from "react-router-dom";
-import { courses, categoryOrder } from "@/content/membership";
+import { courses, categoryOrder, novita } from "@/content/membership";
 import { wrap, CourseTile, PlayIcon, LockIcon, ArrowIcon, WeeklyUpdateBanner } from "@/components/academy";
+
+// Stella piena per il badge NOVITA'.
+function StarIcon({ size = 14 }: { size?: number }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M12 2l2.9 6.26L22 9.27l-5 4.73L18.18 21 12 17.27 5.82 21 7 14l-5-4.73 7.1-1.01L12 2z" />
+    </svg>
+  );
+}
 import { AcademyOffer, AcademyProof, CheckIcon } from "@/components/AcademyOffer";
 import { useProgress } from "@/hooks/useProgress";
 import type { MemberContext } from "@/components/MemberLayout";
@@ -49,6 +58,21 @@ export default function Home() {
         <h1 className="hero-rise font-display serif text-[clamp(1.7rem,3.6vw,2.6rem)] text-ink mt-1.5" style={{ animationDelay: ".14s" }}>
           Ciao {name}
         </h1>
+
+        {/* NOVITA': badge stella rossa che porta all'ultimo video uscito */}
+        {novita && (
+          <Link
+            to={`/account/corso/${novita.courseId}?l=${novita.lessonId}`}
+            className="hero-rise group mt-4 inline-flex items-center gap-2.5 rounded-full border border-red/50 bg-red/[.08] pl-1.5 pr-3.5 py-1.5 no-underline hover:bg-red/[.14] hover:border-red transition-colors"
+            style={{ animationDelay: ".2s" }}
+          >
+            <span className="inline-flex items-center gap-1.5 rounded-full bg-red text-white px-2.5 py-1 text-[11px] font-bold uppercase tracking-[.12em]">
+              <StarIcon size={13} /> Novità
+            </span>
+            <span className="text-ink text-[.95rem] font-medium">Nuovo video: {novita.title}</span>
+            <span className="text-red group-hover:translate-x-0.5 transition-transform"><ArrowIcon size={16} /></span>
+          </Link>
+        )}
 
         {/* ==================== ABBONATO: la tua libreria ==================== */}
         {isActive ? (

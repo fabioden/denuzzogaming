@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link, useParams, useOutletContext } from "react-router-dom";
+import { Link, useParams, useOutletContext, useSearchParams } from "react-router-dom";
 import { courses } from "@/content/membership";
 import { wrap, LockIcon, VideoPlayer, WeeklyUpdateBanner } from "@/components/academy";
 import { useProgress } from "@/hooks/useProgress";
@@ -12,8 +12,11 @@ export default function CourseDetail() {
   const { isActive } = useOutletContext<MemberContext>();
   const completed = useProgress();
   const { data, update } = useDashboardData();
+  const [params] = useSearchParams();
   const course = courses.find((c) => c.id === id);
-  const [active, setActive] = useState(0);
+  // Apertura su una lezione specifica (deep-link, es. dal badge NOVITÀ: /account/corso/difesa?l=di-9).
+  const initialActive = course ? Math.max(0, course.lessons.findIndex((l) => l.id === params.get("l"))) : 0;
+  const [active, setActive] = useState(initialActive);
 
   if (!course) {
     return (
