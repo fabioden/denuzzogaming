@@ -1,7 +1,7 @@
 // Componenti UI condivisi dall'area membri (Academy). Una sola fonte, riusata da tutte le pagine.
 import { Link } from "react-router-dom";
 import Tilt from "@/components/reactbits/Tilt";
-import { STREAM_DOMAIN, courseIsLive, type Course } from "@/content/membership";
+import { STREAM_DOMAIN, courseIsLive, novita, type Course } from "@/content/membership";
 
 // ---- Icone (SVG, niente emoji) ----
 export function PlayIcon({ size = 18 }: { size?: number }) {
@@ -90,6 +90,7 @@ export function CourseTile({ course, locked, to, progress, fluid }: { course: Co
   const hasFree = course.lessons.some((l) => l.free);
   const hasCover = !!course.cover;
   const live = courseIsLive(course);
+  const isNew = !!novita && novita.courseId === course.id; // tessera dell'ultimo video uscito
   const pct = progress && progress.total > 0 ? Math.round((progress.done / progress.total) * 100) : 0;
   const statusLabel = progress
     ? progress.done >= progress.total
@@ -119,7 +120,7 @@ export function CourseTile({ course, locked, to, progress, fluid }: { course: Co
       </div>
   ) : (
       <div
-        className="relative aspect-video rounded-[var(--radius-card)] overflow-hidden border border-line-2 bg-card"
+        className={`relative aspect-video rounded-[var(--radius-card)] overflow-hidden border bg-card ${isNew ? "border-red/55 ring-1 ring-red/45" : "border-line-2"}`}
         style={hasCover ? { backgroundImage: `url(${course.cover})`, backgroundSize: "cover", backgroundPosition: "center" } : { background: placeholderBg }}
       >
         {!hasCover && (
@@ -128,8 +129,15 @@ export function CourseTile({ course, locked, to, progress, fluid }: { course: Co
           </span>
         )}
         <div className="absolute inset-0" style={{ background: "linear-gradient(180deg, rgba(10,10,15,.12) 0%, transparent 40%, rgba(10,10,15,.78))" }} />
-        <div className="absolute top-0 left-0 h-[3px] w-10 bg-gold rounded-br" />
-        <span className="absolute top-2.5 left-3 text-[11px] font-semibold uppercase tracking-[.12em] text-ink-2">{course.category}</span>
+        <div className={`absolute top-0 left-0 h-[3px] w-10 rounded-br ${isNew ? "bg-red" : "bg-gold"}`} />
+        {isNew ? (
+          <span className="absolute top-2.5 left-3 inline-flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-[.1em] text-red">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l2.9 6.26L22 9.27l-5 4.73L18.18 21 12 17.27 5.82 21 7 14l-5-4.73 7.1-1.01L12 2z" /></svg>
+            {course.category} · Novità
+          </span>
+        ) : (
+          <span className="absolute top-2.5 left-3 text-[11px] font-semibold uppercase tracking-[.12em] text-ink-2">{course.category}</span>
+        )}
         {locked && !hasFree ? (
           <span className="absolute top-2.5 right-2.5 text-gold"><LockIcon /></span>
         ) : locked && hasFree ? (
