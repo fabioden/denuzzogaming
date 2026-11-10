@@ -30,6 +30,179 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "fc-27-sbc-mbappe-potm-92-conviene-costo",
+    title: "FC 27, SBC Mbappé POTM 92: quanto costa davvero e conviene farla?",
+    description:
+      "FC 27: è uscita la SBC di Mbappé POTM LALIGA 92. Requisiti, costo reale in crediti, statistiche, differenze con il TOTW e con l'oro, e per chi conviene farla prima del 7 dicembre.",
+    category: "Mercato",
+    date: "2026-11-10",
+    dateLabel: "10 Novembre 2026",
+    readingTime: "6 min",
+    badge: "SBC",
+    heroImage: "/img/articles/fc-27-sbc-mbappe-potm-92-conviene-costo-hero.jpg",
+    heroAlt:
+      "EA FC 27: due carte POTM LALIGA di Mbappé 92 affiancate, una con la X rossa, e Fabio Denuzzo che le indica",
+    excerpt:
+      "La SBC di Mbappé POTM è arrivata: 5,2 milioni di item score, tra i 5,4 e i 6 milioni di crediti. Ti spiego cosa ti dà in più rispetto al TOTW e all'oro, e quando conviene farla.",
+    body: `Ci siamo: la **SBC di Mbappé POTM LALIGA** di ottobre è uscita ieri sera, **lunedì 9 novembre** intorno alle 18, e scade il **7 dicembre**. È la SBC più grossa di FC 27 finora e se ne parla ovunque.
+
+Nell'[articolo del 29 ottobre](/newsletter/fc-27-potm-mbappe-guijarro-fodder-quando-comprare) avevo previsto un **92** a circa 4 milioni di item score, cioè 5,5-6 milioni di crediti. Il rating era giusto e il costo in crediti quasi. L'uscita invece l'avevo data per venerdì 6, ed è arrivata lunedì. Ora che la carta c'è, vediamo se vale quei crediti.
+
+> ⚠️ Nota: i costi qui sotto sono quelli rilevati tra il 9 e il 10 novembre e cambiano ogni giorno, soprattutto nei primi giorni di una SBC così grande.
+
+## Requisiti e costo
+
+La SBC è **una sola sfida**, senza intesa né campionati da rispettare:
+
+- **5.200.000 di item score** con giocatori **da 45 in su**;
+- si può fare **una volta sola**;
+- scade il **7 dicembre**.
+
+Quanto costa in crediti:
+
+- **la via più economica:** tra **5,4 e 6,1 milioni**, ma con migliaia di carte da 84 da comprare;
+- **la via consigliata:** circa **6,7 milioni**, con circa 1.200 carte tra 86 e 87;
+- **la via più veloce:** oltre **18 milioni** con 88 e 90. Non ha senso.
+
+Il punto è questo: risparmiare qualche centinaio di migliaia di crediti vuol dire comprare e inserire **migliaia di carte**. Se hai già tanto fodder nel club, il conto reale si abbassa di molto.
+
+## La carta
+
+**Mbappé POTM 92 ST**, con **LW** come seconda posizione:
+
+- **PAC 97, SHO 92, PAS 81, DRI 93, DEF 30, PHY 77**
+- dribbling a **5 stelle**, piede debole a **4 stelle**
+- PlayStyle+ **Gamechanger**
+
+È il Mbappé che conosciamo: velocità, dribbling e tiro di altissimo livello. Non serve che ti spieghi come gioca.
+
+## Rispetto al TOTW e all'oro
+
+Qui sta la vera domanda.
+
+- **Il TOTW 92** ha praticamente **le stesse statistiche** (DEF 31, PHY 78) e il PlayStyle+ Quick Step. Il POTM aggiunge il **Gamechanger+** e la posizione **LW**. Se hai già il TOTW, la SBC ti dà pochissimo in più.
+- **L'oro 91** costa circa **2,9 milioni** ed è vendibile. Il POTM costa più del doppio, ha +1 di rating e il Gamechanger+, ma è **non vendibile**: i crediti che ci metti non li rivedi più.
+
+## Per chi conviene
+
+**La farei se:**
+
+- hai **tanto fodder nel club** e il costo reale per te è molto più basso dei 6 milioni;
+- cerchi **un attaccante da tenere fino a primavera**: con l'aumento dei rating più lento di quest'anno, una carta così resta forte a lungo;
+- non hai già un Mbappé e vuoi la versione migliore senza pagare il TOTW.
+
+**La salterei se:**
+
+- hai già il **TOTW**: stessa carta, con qualche differenza nei PlayStyle;
+- dovresti comprare **tutto il fodder da zero** ai prezzi di oggi;
+- ti mancano ancora pezzi in difesa o a centrocampo: con 6 milioni sistemi più di un ruolo.
+
+## Come la farei
+
+1. **Non comprare fodder nei primi giorni.** Ora tutti lo cercano e i prezzi sono più alti. Hai tempo fino al **7 dicembre**.
+2. **Parti dal club:** metti dentro prima i doppioni e i giocatori che non usi, poi compra solo quello che manca.
+3. **Compra all'asta**, non al compralo subito, e punta su **86-87**: sono il compromesso migliore tra prezzo e numero di carte.
+4. **Occhio al Black Friday** (27 novembre): con tante SBC e pacchetti in arrivo il fodder può muoversi in entrambe le direzioni. Non lasciare tutto all'ultima settimana.
+
+## E Patri Guijarro?
+
+Nei leak si parla di una SBC **POTM della Liga F** con Patri Guijarro, ma al momento non c'è conferma. Se esce, vale lo stesso ragionamento del [vecchio articolo](/newsletter/fc-27-potm-mbappe-guijarro-fodder-quando-comprare): è una delle migliori centrocampiste difensive del gioco e costerà molto meno di Mbappé.
+
+## Il consiglio del coach
+
+Mbappé è una carta che vince le partite da sola, ma 6 milioni sono 6 milioni. Fai i conti con il tuo club, non con quello di un creator: se il fodder ce l'hai già, è un ottimo affare, se devi comprarlo tutto spesso conviene sistemare la squadra intera. E ricorda che le partite in Weekend League le vinci con le scelte in campo, non solo con un 97 di velocità. Se vuoi lavorare sul tuo gioco con me, 👉 **[prenota il tuo coaching qui](/coaching)**.
+
+Continua qui: [quando comprare il fodder per il POTM](/newsletter/fc-27-potm-mbappe-guijarro-fodder-quando-comprare), [Road to the Knockouts](/newsletter/fc-27-road-to-the-knockouts-rttk-data-giocatori-upgrade) e [come fare crediti dal day one](/newsletter/fc-27-come-fare-crediti-day-one-mercato-trading).
+
+---
+
+*Fonti: [FUT.GG](https://www.fut.gg/sbc/players/27-128-laliga-potm-october/) per requisiti e costi, [FUTFC](https://futfc.gg/fc-27-mbappe-laliga-potm/) per statistiche, PlayStyle e prezzo dell'oro, [FUTMind](https://futmind.com/articles/21654/fc-27-laliga-potm-october-sbc-requirements-cost-and-kylian-mbappe-player-review) e [FUTWIZ](https://www.futwiz.com/fc27/player/kylian-mbappe/120506) per scadenza e carta TOTW. Prezzi del 9-10 novembre 2026, cambiano in fretta; nessuna garanzia di guadagno.*`,
+    en: {
+      title: "FC 27 Mbappé POTM 92 SBC: What It Really Costs and Is It Worth It?",
+      description:
+        "FC 27: the Mbappé LALIGA POTM 92 SBC is out. Requirements, real coin cost, stats, how it compares with the TOTW and the gold, and who should do it before December 7.",
+      category: "Market",
+      dateLabel: "November 10, 2026",
+      heroAlt:
+        "EA FC 27: two Mbappé 92 LALIGA POTM cards side by side, one with a red X, and Fabio Denuzzo pointing at them",
+      excerpt:
+        "The Mbappé POTM SBC is here: 5.2 million item score, between 5.4 and 6 million coins. I explain what it gives you over the TOTW and the gold, and when it is worth doing.",
+      body: `Here we go: the October **Mbappé LALIGA POTM SBC** dropped last night, **Monday November 9** around 6pm CET, and it expires on **December 7**. It is the biggest SBC of FC 27 so far and everyone is talking about it.
+
+In my [October 29 article](/en/newsletter/fc-27-potm-mbappe-guijarro-fodder-quando-comprare) I predicted a **92** at around 4 million item score, so 5.5-6 million coins. The rating was right and the coin cost almost. I had the release on Friday the 6th, though, and it came on Monday. Now that the card is here, let's see if it is worth those coins.
+
+> ⚠️ Note: the costs below are the ones recorded between November 9 and 10 and they change every day, especially in the first days of an SBC this big.
+
+## Requirements and cost
+
+The SBC is **a single challenge**, with no chemistry or league restrictions:
+
+- **5,200,000 item score** using players **rated 45 or higher**;
+- it can be done **only once**;
+- it expires on **December 7**.
+
+What it costs in coins:
+
+- **cheapest route:** between **5.4 and 6.1 million**, but with thousands of 84s to buy;
+- **recommended route:** around **6.7 million**, with about 1,200 cards rated 86 and 87;
+- **quickest route:** over **18 million** with 88s and 90s. It makes no sense.
+
+The key point: saving a few hundred thousand coins means buying and submitting **thousands of cards**. If you already have lots of fodder in your club, your real cost drops a lot.
+
+## The card
+
+**Mbappé POTM 92 ST**, with **LW** as an alternative position:
+
+- **PAC 97, SHO 92, PAS 81, DRI 93, DEF 30, PHY 77**
+- **5-star** skill moves, **4-star** weak foot
+- **Gamechanger** PlayStyle+
+
+It is the Mbappé we know: elite pace, dribbling and shooting. I do not need to explain how he plays.
+
+## Compared with the TOTW and the gold
+
+This is the real question.
+
+- **The 92 TOTW** has practically **the same stats** (DEF 31, PHY 78) and Quick Step+. The POTM adds **Gamechanger+** and the **LW** position. If you already own the TOTW, the SBC gives you very little extra.
+- **The 91 gold** costs around **2.9 million** and is tradeable. The POTM costs more than double, has +1 rating and Gamechanger+, but it is **untradeable**: the coins you put in never come back.
+
+## Who should do it
+
+**I would do it if:**
+
+- you have **lots of fodder in your club** and your real cost is well below 6 million;
+- you want **a striker to keep until spring**: with the slower power curve this year, a card like this stays strong for a long time;
+- you do not own a Mbappé yet and want the best version without paying for the TOTW.
+
+**I would skip it if:**
+
+- you already have the **TOTW**: same card, with a few PlayStyle differences;
+- you would have to **buy all the fodder from scratch** at today's prices;
+- you still have gaps in defence or midfield: with 6 million you can fix more than one position.
+
+## How I would do it
+
+1. **Do not buy fodder in the first days.** Everyone wants it now and prices are higher. You have until **December 7**.
+2. **Start from your club:** submit duplicates and players you do not use first, then buy only what is missing.
+3. **Buy on bids**, not buy now, and target **86-87**: the best balance between price and number of cards.
+4. **Watch Black Friday** (November 27): with lots of SBCs and packs coming, fodder can move either way. Do not leave everything to the last week.
+
+## What about Patri Guijarro?
+
+Leaks mention a **Liga F POTM** SBC with Patri Guijarro, but there is no confirmation yet. If it drops, the same logic of my [previous article](/en/newsletter/fc-27-potm-mbappe-guijarro-fodder-quando-comprare) applies: she is one of the best defensive midfielders in the game and will cost far less than Mbappé.
+
+## The coach's take
+
+Mbappé is a card that wins games on his own, but 6 million is 6 million. Do the maths with your club, not with a creator's: if you already have the fodder, it is a great deal; if you have to buy it all, fixing your whole squad is often the better move. And remember that you win Weekend League games with your decisions on the pitch, not only with 97 pace. If you want to work on your gameplay with me, 👉 **[book your coaching here](/en/coaching)**.
+
+Continue here: [when to buy fodder for the POTM](/en/newsletter/fc-27-potm-mbappe-guijarro-fodder-quando-comprare), [Road to the Knockouts](/en/newsletter/fc-27-road-to-the-knockouts-rttk-data-giocatori-upgrade) and [how to make coins from day one](/en/newsletter/fc-27-come-fare-crediti-day-one-mercato-trading).
+
+---
+
+*Sources: [FUT.GG](https://www.fut.gg/sbc/players/27-128-laliga-potm-october/) for requirements and costs, [FUTFC](https://futfc.gg/fc-27-mbappe-laliga-potm/) for stats, PlayStyles and the gold price, [FUTMind](https://futmind.com/articles/21654/fc-27-laliga-potm-october-sbc-requirements-cost-and-kylian-mbappe-player-review) and [FUTWIZ](https://www.futwiz.com/fc27/player/kylian-mbappe/120506) for the expiry and the TOTW card. Prices as of November 9-10, 2026, they change fast; no guarantee of profit.*`,
+    },
+  },
+  {
     slug: "fc-27-road-to-the-knockouts-rttk-data-giocatori-upgrade",
     title: "FC 27, Road to the Knockouts: data, nomi usciti e come possono salire le carte",
     description:
