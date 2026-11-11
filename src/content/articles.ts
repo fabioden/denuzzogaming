@@ -30,6 +30,215 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: "fc-27-season-3-nuovi-eroi-icone-david-silva-jota",
+    title: "FC 27, Season 3 dal 3 dicembre: David Silva, Jota e i nuovi Eroi in arrivo",
+    description:
+      "FC 27: con la Season 3 del 3 dicembre arrivano nuovi Eroi e Icone, da David Silva a Diogo Jota, Defoe e Carrick. Più Chiesa e Goretzka in SBC, la patch 1.2 e cosa fare ora col fodder.",
+    category: "News",
+    date: "2026-11-11",
+    dateLabel: "11 Novembre 2026",
+    readingTime: "7 min",
+    badge: "Leak",
+    heroImage: "/img/articles/fc-27-season-3-nuovi-eroi-icone-david-silva-jota-hero.jpg",
+    heroAlt:
+      "EA FC 27: le carte leak di David Silva Icona 91 CAM con la maglia del Manchester City e Diogo Jota Eroe 86 ST con la maglia del Liverpool",
+    excerpt:
+      "Niente più Hall of FUT, ma con la Season 3 arrivano 12 nuovi nomi tra Icone ed Eroi, quasi tutti legati alla Premier League. Ti dico chi sono, cosa arriva venerdì e come muoverti col fodder.",
+    body: `Con la Hall of FUT avevamo iniziato a sognare: se EA può aggiungere le leggende di FIFA, perché non anche altre? Invece la notizia di queste settimane è che in FC 27 **non arriveranno altri giocatori Hall of FUT**.
+
+Però la porta non è chiusa: con la **Season 3**, che parte il **3 dicembre**, arrivano **nuovi Eroi e nuove Icone**. E da ieri circola la lista dei nomi. Ti spiego chi sono, cosa arriva già venerdì e cosa fare adesso col mercato.
+
+> ⚠️ Nota: la lista dei giocatori, i rating e le carte che vedi in giro **arrivano da leak** (FifaTradingRomania e ASY FUT) e non sono confermati da EA. Le immagini delle carte sono ricostruzioni dei leaker, non carte ufficiali.
+
+## Season 3: cosa sappiamo
+
+Nella roadmap ufficiale di EA, la Season 3 (dicembre-gennaio) ha una voce chiara: **"New Historic Players"**, una nuova campagna in arrivo. Accanto ci sono **Winter Wildcards**, **Festive Showdowns**, nuovi eventi live e un aggiornamento per rendere le **SBC più snelle**. Il **Team of the Year** invece è nella Season 4.
+
+Secondo i leak, la Season 3 si chiamerà **"Barclaysmen"**, sarà tutta a tema **calcio inglese** e porterà anche nuove ricompense della **Gallery**.
+
+## I 12 nomi della lista
+
+Ecco i giocatori usciti nei leak:
+
+- **David Silva** (probabilmente come Icona)
+- **Diogo Jota**
+- **Tugay Kerimoğlu**
+- **Kolo Touré**
+- **Samir Nasri**
+- **Sami Hyypiä**
+- **Rafael van der Vaart**
+- **Leighton Baines**
+- **Daniel Sturridge**
+- **Michael Carrick**
+- **Jermain Defoe**
+- **Morten Gamst Pedersen**
+
+Quasi tutti hanno fatto la storia in **Premier League**, e torna con il tema della stagione. Qualcuno dirà che non tutti meritano una carta Eroe, ma per chi gioca da anni a FIFA tanti di questi nomi sono ricordi veri: Defoe, Sturridge e Carrick hanno avuto carte che abbiamo usato in tanti.
+
+**Diogo Jota** merita un pensiero a parte: vederlo di nuovo nel gioco con una carta speciale è un bel gesto.
+
+### Come si otterranno
+
+Qui non c'è ancora niente di ufficiale. Un leak parla di carte legate al **Season Pass**, altre potrebbero arrivare con obiettivi, SBC o la nuova campagna. Spero che non siano **solo nei pacchetti**: una versione giocabile ottenibile senza fortuna farebbe la differenza.
+
+### E Coutinho, Nainggolan, Busquets, Jordi Alba?
+
+Qualche settimana fa questi nomi erano comparsi nei file del gioco. A parte Jota, **nessuno è nella lista**. Visto che non arriveranno altri Hall of FUT e che la stagione è a tema inglese, io non li aspetterei a breve.
+
+## Venerdì: Chiesa e Goretzka in SBC
+
+Prima della Season 3 c'è la promo **Hall of FUT Unleashed**, e i leak danno due SBC molto interessanti:
+
+- **Federico Chiesa 86 RM** (Liverpool): PAC 92, SHO 85, PAS 81, DRI 88, DEF 50, PHY 77. Il gold ha anche ST e RW, quindi potrebbe giocare punta o esterno. Una carta da Premier che si collega facile in molte squadre.
+- **Leon Goretzka 86 CDM** (Aston Villa): PAC 82, SHO 82, PAS 85, DRI 84, DEF 84, PHY 86. Ha 80 o più in ogni statistica: un mediano completo.
+
+Si parla anche di una SBC di **Florenzi**. Tra Calafiori, Chiesa e Florenzi, è un periodo pieno di italiani.
+
+Un dettaglio: le carte **FC Heritage** del Season Pass hanno quasi lo stesso design della Hall of FUT, ma secondo me **non hanno il bonus intesa** dei giocatori Hall of FUT, che sono sempre a intesa piena nel loro ruolo. Prima di costruire la squadra intorno a Chiesa o Goretzka, aspetta di vedere la carta vera.
+
+## Fodder: è il momento di muoversi
+
+Con SBC così in arrivo, il fodder sta già salendo. Dopo le SBC di lunedì gli **87** sono passati da meno di 7.000 a circa **7.700**, gli **86** sono a **5.700** e gli **85** a **2.900**. Subito dopo l'uscita di Mbappé, per qualche ora gli **89** sono scesi a **17-18.000**: chi ha comprato lì ha fatto bene.
+
+Come mi muoverei:
+
+1. **Se vuoi fare Chiesa o Goretzka, compra il fodder adesso**, non quando escono le SBC: il giorno dell'uscita i prezzi salgono.
+2. **I momenti migliori per comprare** sono quando entra offerta sul mercato: **giovedì dopo i premi Rivals**, comprando all'asta, oppure **oggi** se tornano i pacchetti dello store.
+3. **Se hai già fodder, tienilo:** con queste SBC e i prossimi POTM la domanda resta alta. Un **90 a circa 30.000** resta un buon prezzo d'ingresso.
+
+## La patch 1.2: poco cambia
+
+Ieri è uscito il **Title Update 1.2**, con le prime modifiche al gameplay. Le prime impressioni sono di un aggiornamento **piccolo**:
+
+- i **terzini** restano un po' più in linea con la difesa, come promesso (ne ho parlato nell'[articolo sulla patch](/newsletter/fc-27-patch-meta-novembre-terzini-cosa-cambia));
+- qualche **gol da calcio d'inizio** in meno;
+- la **difesa molto alta (95 di profondità)** resta un tema: girano già clip in cui sembra ancora efficace.
+
+Quello che manca è un intervento sugli **attaccanti che recuperano palla troppo facilmente** dopo averla persa: oggi un attaccante piccolo e veloce intercetta quasi come un difensore. EA ha detto che modifiche su **tiro e intercetti** arriveranno più avanti.
+
+Il mio consiglio: **non giudicare la patch dai video su X**. Gioca qualche partita, guarda come si comporta la tua difesa e adatta la squadra.
+
+## Le altre cose da fare oggi
+
+- **POTM Liga F:** non è Guijarro, ma è la SBC POTM **più economica dell'anno** (circa 14.000 di item score). Fatela, anche solo per la Gallery.
+- **Note degli sviluppatori FUT:** escono oggi, con novità su Evo, SBC e premi. Le Evo finora sono state molto indietro, vediamo cosa cambia.
+- **TOTW:** esce oggi. Tieni d'occhio le carte da 80 in su a prezzo minimo per le Evo future.
+- **POTM in arrivo:** le votazioni di Premier, Serie A e Bundesliga sono chiuse. Serie A e Bundesliga potrebbero arrivare già giovedì, la Premier venerdì.
+- **RTTK femminile:** le partite di Champions femminile sono iniziate e le carte stanno già muovendosi: le squadre che vincono e segnano sono a metà strada verso i primi upgrade.
+
+## Il consiglio del coach
+
+Le nuove Icone e i nuovi Eroi arrivano tra tre settimane: adesso non serve risparmiare per loro, serve giocare bene le prossime settimane. Prendi il fodder prima delle SBC, fai la Liga F POTM e prova la patch con le tue mani. E se dopo la patch la tua difesa non ti convince, lavoriamoci insieme: 👉 **[prenota il tuo coaching qui](/coaching)**.
+
+Continua qui: [la patch dei terzini](/newsletter/fc-27-patch-meta-novembre-terzini-cosa-cambia), [la SBC di Mbappé POTM](/newsletter/fc-27-sbc-mbappe-potm-92-conviene-costo) e [Road to the Knockouts](/newsletter/fc-27-road-to-the-knockouts-rttk-data-giocatori-upgrade).
+
+---
+
+*Fonti: [roadmap e Pitch Notes ufficiali di EA SPORTS FC 27](https://www.ea.com/games/ea-sports-fc/fc-27/news/update-v1-2-pitch-notes), leak di FifaTradingRomania e ASY FUT riportati nel [video di TheFutAccountant dell'11 novembre](https://www.youtube.com/watch?v=zZKZ14TduiM). Prezzi del fodder all'11 novembre 2026. Lista dei giocatori, rating e date delle SBC non sono confermati da EA.*`,
+    en: {
+      title: "FC 27 Season 3 from December 3: David Silva, Jota and the New Heroes on the Way",
+      description:
+        "FC 27: Season 3 starts on December 3 with new Heroes and Icons, from David Silva to Diogo Jota, Defoe and Carrick. Plus Chiesa and Goretzka SBCs, patch 1.2 and what to do with fodder now.",
+      category: "News",
+      dateLabel: "November 11, 2026",
+      heroAlt:
+        "EA FC 27: the leaked cards of David Silva 91 CAM Icon in a Manchester City shirt and Diogo Jota 86 ST Hero in a Liverpool shirt",
+      excerpt:
+        "No more Hall of FUT, but Season 3 brings 12 new names between Icons and Heroes, almost all tied to the Premier League. I tell you who they are, what drops on Friday and how to move with fodder.",
+      body: `Hall of FUT got us dreaming: if EA can add FIFA legends, why not more? Instead, the news of the last few weeks is that **no more Hall of FUT players are coming to FC 27**.
+
+The door is not shut, though: **Season 3**, starting on **December 3**, brings **new Heroes and new Icons**. And since yesterday the list of names is out. I explain who they are, what arrives as early as Friday and what to do with the market now.
+
+> ⚠️ Note: the player list, ratings and cards you see around **come from leaks** (FifaTradingRomania and ASY FUT) and are not confirmed by EA. The card images are leaker reconstructions, not official cards.
+
+## Season 3: what we know
+
+On EA's official roadmap, Season 3 (December-January) has a clear item: **"New Historic Players"**, a new campaign coming soon. Next to it are **Winter Wildcards**, **Festive Showdowns**, new live events and an update to make **SBCs more streamlined**. **Team of the Year** is in Season 4.
+
+According to the leaks, Season 3 will be called **"Barclaysmen"**, fully themed on **English football**, and it will also bring new **Gallery** rewards.
+
+## The 12 names on the list
+
+These are the players in the leaks:
+
+- **David Silva** (probably as an Icon)
+- **Diogo Jota**
+- **Tugay Kerimoğlu**
+- **Kolo Touré**
+- **Samir Nasri**
+- **Sami Hyypiä**
+- **Rafael van der Vaart**
+- **Leighton Baines**
+- **Daniel Sturridge**
+- **Michael Carrick**
+- **Jermain Defoe**
+- **Morten Gamst Pedersen**
+
+Almost all of them made history in the **Premier League**, which fits the season theme. Some will say not all of them deserve a Hero card, but for anyone who has played FIFA for years many of these names are real memories: Defoe, Sturridge and Carrick had cards that lots of us used.
+
+**Diogo Jota** deserves a special mention: seeing him back in the game with a special card is a nice gesture.
+
+### How they will be available
+
+Nothing is official yet. One leak talks about cards tied to the **Season Pass**, others could come through objectives, SBCs or the new campaign. I hope they are not **only in packs**: a usable version you can get without luck would make a big difference.
+
+### What about Coutinho, Nainggolan, Busquets, Jordi Alba?
+
+A few weeks ago these names showed up in the game files. Apart from Jota, **none of them is on the list**. Since no more Hall of FUT players are coming and the season is English-themed, I would not expect them any time soon.
+
+## Friday: Chiesa and Goretzka SBCs
+
+Before Season 3 there is the **Hall of FUT Unleashed** promo, and the leaks point to two very interesting SBCs:
+
+- **Federico Chiesa 86 RM** (Liverpool): PAC 92, SHO 85, PAS 81, DRI 88, DEF 50, PHY 77. His gold also has ST and RW, so he could play up front or out wide. A Premier League card that links easily in many squads.
+- **Leon Goretzka 86 CDM** (Aston Villa): PAC 82, SHO 82, PAS 85, DRI 84, DEF 84, PHY 86. He has 80 or more in every stat: a complete holding midfielder.
+
+There is also talk of a **Florenzi** SBC. Between Calafiori, Chiesa and Florenzi, it is a period full of Italians.
+
+One detail: the **FC Heritage** Season Pass cards have almost the same design as Hall of FUT, but in my view they **do not get the chemistry bonus** of Hall of FUT players, who are always on full chemistry in their position. Before building a squad around Chiesa or Goretzka, wait to see the real card.
+
+## Fodder: time to move
+
+With SBCs like these coming, fodder is already rising. After Monday's SBCs, **87s** went from under 7,000 to around **7,700**, **86s** are at **5,700** and **85s** at **2,900**. Right after Mbappé dropped, **89s** fell to **17-18,000** for a few hours: whoever bought there did well.
+
+How I would move:
+
+1. **If you want Chiesa or Goretzka, buy fodder now**, not when the SBCs drop: prices rise on release day.
+2. **The best times to buy** are when supply hits the market: **Thursday after Rivals rewards**, on bids, or **today** if the store packs come back.
+3. **If you already have fodder, hold it:** with these SBCs and the next POTMs, demand stays high. A **90 at around 30,000** is still a good entry price.
+
+## Patch 1.2: not much changes
+
+Yesterday **Title Update 1.2** went live, with the first gameplay changes. First impressions point to a **small** update:
+
+- **fullbacks** stay a bit more in line with the defence, as promised (I covered it in the [patch article](/en/newsletter/fc-27-patch-meta-novembre-terzini-cosa-cambia));
+- a few fewer **kick-off goals**;
+- **very high defensive depth (95)** is still an issue: clips are already going around where it still looks effective.
+
+What is missing is a fix for **attackers winning the ball back too easily** after losing it: right now a small, quick attacker intercepts almost like a defender. EA said changes to **shooting and interceptions** will come later.
+
+My advice: **do not judge the patch from videos on X**. Play a few games, watch how your defence behaves and adapt your squad.
+
+## Other things to do today
+
+- **Liga F POTM:** it is not Guijarro, but it is the **cheapest POTM SBC of the year** (around 14,000 item score). Do it, even just for the Gallery.
+- **FUT developer notes:** out today, with news on Evos, SBCs and rewards. Evos have been well behind so far, let's see what changes.
+- **TOTW:** drops today. Watch the 80+ cards at minimum price for future Evos.
+- **POTMs coming:** Premier League, Serie A and Bundesliga votes are closed. Serie A and Bundesliga could arrive as early as Thursday, the Premier League on Friday.
+- **Women's RTTK:** the Women's Champions League games have started and the cards are already moving: teams that win and score are halfway to their first upgrades.
+
+## The coach's take
+
+The new Icons and Heroes arrive in three weeks: you do not need to save for them now, you need to play the next few weeks well. Get fodder before the SBCs, do the Liga F POTM and try the patch yourself. And if your defence does not convince you after the patch, let's work on it together: 👉 **[book your coaching here](/en/coaching)**.
+
+Continue here: [the fullback patch](/en/newsletter/fc-27-patch-meta-novembre-terzini-cosa-cambia), [the Mbappé POTM SBC](/en/newsletter/fc-27-sbc-mbappe-potm-92-conviene-costo) and [Road to the Knockouts](/en/newsletter/fc-27-road-to-the-knockouts-rttk-data-giocatori-upgrade).
+
+---
+
+*Sources: [EA SPORTS FC 27 official roadmap and Pitch Notes](https://www.ea.com/games/ea-sports-fc/fc-27/news/update-v1-2-pitch-notes), leaks by FifaTradingRomania and ASY FUT shown in [TheFutAccountant's November 11 video](https://www.youtube.com/watch?v=zZKZ14TduiM). Fodder prices as of November 11, 2026. Player list, ratings and SBC dates are not confirmed by EA.*`,
+    },
+  },
+  {
     slug: "fc-27-sbc-mbappe-potm-92-conviene-costo",
     title: "FC 27, SBC Mbappé POTM 92: quanto costa davvero e conviene farla?",
     description:
@@ -106,7 +315,7 @@ Qui sta la vera domanda.
 
 ## E Patri Guijarro?
 
-Nei leak si parla di una SBC **POTM della Liga F** con Patri Guijarro, ma al momento non c'è conferma. Se esce, vale lo stesso ragionamento del [vecchio articolo](/newsletter/fc-27-potm-mbappe-guijarro-fodder-quando-comprare): è una delle migliori centrocampiste difensive del gioco e costerà molto meno di Mbappé.
+*Aggiornamento dell'11 novembre:* il POTM di ottobre della **Liga F** è uscito, ma **non è Guijarro**. È una SBC molto economica, circa 14.000 di item score, quindi da fare anche solo per la Gallery. Ne parlo nell'[articolo sulla Season 3](/newsletter/fc-27-season-3-nuovi-eroi-icone-david-silva-jota).
 
 ## Il consiglio del coach
 
@@ -189,7 +398,7 @@ This is the real question.
 
 ## What about Patri Guijarro?
 
-Leaks mention a **Liga F POTM** SBC with Patri Guijarro, but there is no confirmation yet. If it drops, the same logic of my [previous article](/en/newsletter/fc-27-potm-mbappe-guijarro-fodder-quando-comprare) applies: she is one of the best defensive midfielders in the game and will cost far less than Mbappé.
+*Update, November 11:* the October **Liga F** POTM is out, but **it is not Guijarro**. It is a very cheap SBC, around 14,000 item score, so it is worth doing even just for the Gallery. I cover it in the [Season 3 article](/en/newsletter/fc-27-season-3-nuovi-eroi-icone-david-silva-jota).
 
 ## The coach's take
 
